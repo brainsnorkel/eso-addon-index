@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-27T22:58:10.607555+00:00",
+  "generated_at": "2025-12-27T23:01:51.599559+00:00",
   "addon_count": 2,
   "addons": [
     {
@@ -32,6 +32,11 @@
         ],
         "required_dependencies": [],
         "optional_dependencies": []
+      },
+      "latest_release": {
+        "version": "r32",
+        "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
+        "published_at": "2020-12-17T20:09:33Z"
       }
     },
     {
@@ -63,6 +68,11 @@
           "LibAddonMenu-2.0"
         ],
         "optional_dependencies": []
+      },
+      "latest_release": {
+        "version": "v1.3.0",
+        "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
+        "published_at": null
       }
     }
   ]

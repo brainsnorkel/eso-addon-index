@@ -6,9 +6,9 @@
   "items": [
     {
       "id": "libaddonmenu",
-      "title": "LibAddonMenu-2.0",
+      "title": "LibAddonMenu-2.0 r32",
       "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu",
-      "date_published": null,
+      "date_published": "2020-12-17T20:09:33Z",
       "authors": [
         {
           "name": "sirinsidiator"
@@ -27,7 +27,7 @@
     },
     {
       "id": "warmask",
-      "title": "WarMask",
+      "title": "WarMask v1.3.0",
       "url": "https://github.com/brainsnorkel/WarMask",
       "date_published": null,
       "authors": [
