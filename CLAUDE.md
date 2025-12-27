@@ -114,6 +114,7 @@ tags = ["pvp", "combat"]
 type = "github"                        # github | gitlab | custom
 repo = "brainsnorkel/WarMask"
 branch = "main"                        # Optional
+path = "LibAddonMenu-2.0"              # Optional: subdirectory if not at repo root
 release_type = "tag"                   # tag | release | branch
 
 [compatibility]
@@ -142,8 +143,9 @@ maps, miscellaneous, pvp, quests, roleplay, social, trading, ui
 1. `slug` must be unique, lowercase, alphanumeric + hyphens
 2. `slug` must match parent directory name
 3. Repository must exist and be accessible
-4. Repository must contain valid ESO manifest (`.txt` with `## Title:`)
-5. At least one release/tag must exist
+4. Repository must contain valid ESO manifest (`.txt` or `.addon` with `## Title:`)
+5. If `path` specified, manifest must be in that subdirectory
+6. At least one release/tag must exist
 
 ---
 
@@ -189,13 +191,18 @@ Checklist:
 
 ---
 
-## Test Addon
+## Test Addons
 
-The repository is seeded with one test addon for development:
+The repository includes test addons for development:
 
-- **Addon**: WarMask
+### WarMask (standard addon)
 - **Source**: https://github.com/brainsnorkel/WarMask
 - **Path**: `addons/warmask/addon.toml`
+
+### LibAddonMenu (subdirectory addon)
+- **Source**: https://github.com/sirinsidiator/ESO-LibAddonMenu
+- **Subdirectory**: `LibAddonMenu-2.0` (addon lives in a subdirectory)
+- **Path**: `addons/libaddonmenu/addon.toml`
 
 ---
 

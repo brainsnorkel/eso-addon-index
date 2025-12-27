@@ -5,8 +5,29 @@
   "feed_url": "https://xop.co/eso-addon-index/feed.json",
   "items": [
     {
+      "id": "libaddonmenu",
+      "title": "LibAddonMenu-2.0",
+      "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "sirinsidiator"
+        },
+        {
+          "name": "Seerah"
+        }
+      ],
+      "summary": "A library that provides a comprehensive settings/options menu for ESO addons. Used by many popular addons.",
+      "tags": [
+        "library",
+        "settings",
+        "menu",
+        "options"
+      ]
+    },
+    {
       "id": "warmask",
-      "title": "WarMask v1.3.0",
+      "title": "WarMask",
       "url": "https://github.com/brainsnorkel/WarMask",
       "date_published": null,
       "authors": [

@@ -96,6 +96,16 @@ def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
     source = data["source"]
     compatibility = data.get("compatibility", {})
 
+    source_entry = {
+        "type": source["type"],
+        "repo": source["repo"],
+        "branch": source.get("branch", "main"),
+    }
+
+    # Include path only if addon is in a subdirectory
+    if source.get("path"):
+        source_entry["path"] = source["path"]
+
     entry = {
         "slug": addon["slug"],
         "name": addon["name"],
@@ -104,11 +114,7 @@ def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
         "license": addon.get("license", "Unknown"),
         "category": addon["category"],
         "tags": addon.get("tags", []),
-        "source": {
-            "type": source["type"],
-            "repo": source["repo"],
-            "branch": source.get("branch", "main"),
-        },
+        "source": source_entry,
         "compatibility": {
             "api_version": compatibility.get("api_version"),
             "game_versions": compatibility.get("game_versions", []),

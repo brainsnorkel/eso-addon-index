@@ -86,6 +86,7 @@ This document describes how client applications (addon managers, installers, etc
 | `type` | string | Source type: `github`, `gitlab`, `custom` |
 | `repo` | string | Repository path (e.g., `owner/repo`) |
 | `branch` | string | Branch to track |
+| `path` | string | Subdirectory path if addon is not at repo root (optional) |
 
 #### Compatibility Object
 
@@ -191,6 +192,57 @@ GitHub release ZIPs contain a root folder named `{repo}-{tag}/`. Clients should:
 3. Move/rename to match the addon's expected folder name
 4. Place in ESO AddOns directory
 
+### Handling Subdirectory Addons
+
+Some addons (especially libraries) live in a subdirectory of their repository.
+When `source.path` is present, the addon files are located at that path within the ZIP.
+
+**Example**: LibAddonMenu-2.0
+```json
+{
+  "source": {
+    "repo": "sirinsidiator/ESO-LibAddonMenu",
+    "path": "LibAddonMenu-2.0"
+  }
+}
+```
+
+**Extraction flow for subdirectory addons**:
+1. Download ZIP from `latest_release.download_url`
+2. ZIP contains: `ESO-LibAddonMenu-{tag}/LibAddonMenu-2.0/`
+3. Extract the `LibAddonMenu-2.0` folder (matching `source.path`)
+4. Place that folder directly in ESO AddOns directory
+
+**Algorithm**:
+```python
+def extract_addon(zip_path, addon):
+    """Extract addon from ZIP to AddOns directory."""
+    import zipfile
+
+    with zipfile.ZipFile(zip_path) as zf:
+        # GitHub ZIPs have a root folder like "repo-name-tag/"
+        root_folder = zf.namelist()[0].split('/')[0]
+
+        # Build source path within ZIP
+        if addon["source"].get("path"):
+            # Subdirectory addon: root/path/
+            source_prefix = f"{root_folder}/{addon['source']['path']}/"
+            target_folder = addon["source"]["path"]  # Use path as folder name
+        else:
+            # Root addon: root/
+            source_prefix = f"{root_folder}/"
+            target_folder = addon["slug"]
+
+        # Extract matching files
+        for member in zf.namelist():
+            if member.startswith(source_prefix):
+                # Calculate relative path and extract
+                relative_path = member[len(source_prefix):]
+                if relative_path:  # Skip the directory entry itself
+                    target_path = f"{ADDONS_DIR}/{target_folder}/{relative_path}"
+                    # Extract file...
+```
+
 ---
 
 ## Caching Recommendations
@@ -282,4 +334,5 @@ Use `categories.json` for a pre-grouped listing.
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.1 | 2024-12-28 | Added `source.path` for subdirectory addons |
 | 1.0 | 2024-12-28 | Initial client documentation |

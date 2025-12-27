@@ -43,6 +43,11 @@ repo = "owner/repo-name"
 # Branch to track (optional, defaults to repo's default branch)
 branch = "main"
 
+# Subdirectory path if addon is not at repo root (optional)
+# Example: "LibAddonMenu-2.0" for sirinsidiator/ESO-LibAddonMenu
+# Leave unset if addon files are in the repository root
+path = ""
+
 # How to detect new versions:
 # - tag: Use git tags (e.g., v1.0.0)
 # - release: Use GitHub/GitLab releases

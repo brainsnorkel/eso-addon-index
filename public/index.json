@@ -1,8 +1,39 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-27T06:05:40.242947+00:00",
-  "addon_count": 1,
+  "generated_at": "2025-12-27T22:58:10.607555+00:00",
+  "addon_count": 2,
   "addons": [
+    {
+      "slug": "libaddonmenu",
+      "name": "LibAddonMenu-2.0",
+      "description": "A library that provides a comprehensive settings/options menu for ESO addons. Used by many popular addons.",
+      "authors": [
+        "sirinsidiator",
+        "Seerah"
+      ],
+      "license": "Artistic-2.0",
+      "category": "library",
+      "tags": [
+        "library",
+        "settings",
+        "menu",
+        "options"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "sirinsidiator/ESO-LibAddonMenu",
+        "branch": "master",
+        "path": "LibAddonMenu-2.0"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": []
+      }
+    },
     {
       "slug": "warmask",
       "name": "WarMask",
@@ -32,11 +63,6 @@
           "LibAddonMenu-2.0"
         ],
         "optional_dependencies": []
-      },
-      "latest_release": {
-        "version": "v1.3.0",
-        "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
-        "published_at": null
       }
     }
   ]

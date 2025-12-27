@@ -58,6 +58,10 @@ repo = "username/repo-name"  # required
 # Branch to track
 branch = "main"  # optional, defaults to repo's default branch
 
+# Subdirectory path if addon is not at repo root
+# Example: "LibAddonMenu-2.0" for sirinsidiator/ESO-LibAddonMenu
+path = "LibAddonMenu-2.0"  # optional, omit if addon is at repo root
+
 # How to detect new versions
 release_type = "tag"  # optional: tag | release | branch
 
@@ -187,6 +191,39 @@ status = "approved"
 reviewers = ["brainsnorkel"]
 ```
 
+## Example: Subdirectory Addon
+
+For addons that live in a subdirectory of their repository (common for libraries):
+
+```toml
+[addon]
+slug = "libaddonmenu"
+name = "LibAddonMenu-2.0"
+description = "A library that provides a settings/options menu for addons."
+authors = ["sirinsidiator", "Seerah"]
+license = "Artistic-2.0"
+category = "library"
+tags = ["library", "settings", "menu"]
+
+[source]
+type = "github"
+repo = "sirinsidiator/ESO-LibAddonMenu"
+branch = "master"
+path = "LibAddonMenu-2.0"  # Addon files are in this subdirectory
+release_type = "release"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = []
+optional_dependencies = []
+
+[meta]
+submitted_by = "maintainer"
+submitted_date = 2024-12-28
+status = "pending"
+```
+
 ## JSON Output Format
 
 The built index transforms TOML to JSON:
@@ -216,5 +253,21 @@ The built index transforms TOML to JSON:
     "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
     "published_at": "2024-12-22T01:15:43Z"
   }
+}
+```
+
+For subdirectory addons, the `path` field is included:
+
+```json
+{
+  "slug": "libaddonmenu",
+  "name": "LibAddonMenu-2.0",
+  "source": {
+    "type": "github",
+    "repo": "sirinsidiator/ESO-LibAddonMenu",
+    "branch": "master",
+    "path": "LibAddonMenu-2.0"
+  },
+  ...
 }
 ```

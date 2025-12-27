@@ -60,6 +60,7 @@ SCHEMA = {
                 "type": {"type": "string", "enum": ["github", "gitlab", "custom"]},
                 "repo": {"type": "string"},
                 "branch": {"type": "string"},
+                "path": {"type": "string"},  # Subdirectory path if addon not at repo root
                 "release_type": {"type": "string", "enum": ["tag", "release", "branch"]},
             },
         },
@@ -162,8 +163,14 @@ def check_github_repository(repo: str) -> list[str]:
     return errors
 
 
-def check_eso_manifest(repo: str, branch: str | None = None) -> list[str]:
-    """Check if repository contains a valid ESO addon manifest."""
+def check_eso_manifest(repo: str, branch: str | None = None, path: str | None = None) -> list[str]:
+    """Check if repository contains a valid ESO addon manifest.
+
+    Args:
+        repo: Repository path (owner/repo format)
+        branch: Branch to check (defaults to repo's default branch)
+        path: Subdirectory path if addon is not at repo root
+    """
     errors = []
 
     # Get default branch if not specified
@@ -178,12 +185,21 @@ def check_eso_manifest(repo: str, branch: str | None = None) -> list[str]:
         except requests.RequestException:
             branch = "main"
 
-    # Check repository contents for .txt files
-    contents_url = f"https://api.github.com/repos/{repo}/contents"
+    # Build contents URL (with optional subdirectory path)
+    if path:
+        contents_url = f"https://api.github.com/repos/{repo}/contents/{path}"
+        location_desc = f"subdirectory '{path}'"
+    else:
+        contents_url = f"https://api.github.com/repos/{repo}/contents"
+        location_desc = "repository root"
+
     try:
         resp = requests.get(contents_url, headers=GITHUB_HEADERS, timeout=10)
         if not resp.ok:
-            errors.append(f"Could not list repository contents: HTTP {resp.status_code}")
+            if resp.status_code == 404 and path:
+                errors.append(f"Subdirectory '{path}' not found in repository")
+            else:
+                errors.append(f"Could not list repository contents: HTTP {resp.status_code}")
             return errors
 
         files = resp.json()
@@ -191,16 +207,23 @@ def check_eso_manifest(repo: str, branch: str | None = None) -> list[str]:
             errors.append("Unexpected repository structure")
             return errors
 
-        txt_files = [f["name"] for f in files if f.get("type") == "file" and f["name"].endswith(".txt")]
+        # ESO manifests can be .txt or .addon files
+        manifest_files = [
+            f["name"] for f in files
+            if f.get("type") == "file" and (f["name"].endswith(".txt") or f["name"].endswith(".addon"))
+        ]
 
-        if not txt_files:
-            errors.append("No addon manifest (.txt) found in repository root")
+        if not manifest_files:
+            errors.append(f"No addon manifest (.txt or .addon) found in {location_desc}")
             return errors
 
-        # Check at least one .txt file has ESO manifest format
+        # Check at least one manifest file has ESO manifest format
         manifest_found = False
-        for txt_file in txt_files:
-            raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{txt_file}"
+        for manifest_file in manifest_files:
+            if path:
+                raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}/{manifest_file}"
+            else:
+                raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{manifest_file}"
             try:
                 resp = requests.get(raw_url, timeout=10)
                 if resp.ok and "## Title:" in resp.text:
@@ -254,6 +277,7 @@ def validate_repository(data: dict) -> list[str]:
 
     repo = source.get("repo", "")
     branch = source.get("branch")
+    path = source.get("path")  # Subdirectory path (optional)
     release_type = source.get("release_type", "tag")
 
     # Check repository exists
@@ -261,8 +285,8 @@ def validate_repository(data: dict) -> list[str]:
     if repo_errors:
         return repo_errors  # Don't continue if repo doesn't exist
 
-    # Check for ESO manifest
-    errors.extend(check_eso_manifest(repo, branch))
+    # Check for ESO manifest (in root or subdirectory)
+    errors.extend(check_eso_manifest(repo, branch, path))
 
     # Check for releases/tags
     errors.extend(check_has_releases(repo, release_type))
