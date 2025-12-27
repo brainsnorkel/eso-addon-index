@@ -1,0 +1,89 @@
+# ESO Addon Index - TOML Schema Reference
+# This file documents the required structure for addon.toml files
+
+# =============================================================================
+# [addon] - Required section containing addon metadata
+# =============================================================================
+[addon]
+# Unique identifier: lowercase, alphanumeric, hyphens only
+# Must match the parent directory name
+slug = "example-addon"
+
+# Display name shown to users
+name = "Example Addon"
+
+# Brief description of what the addon does
+description = "A brief description of the addon functionality"
+
+# List of author names or GitHub usernames
+authors = ["author1", "author2"]
+
+# SPDX license identifier (e.g., MIT, GPL-3.0, Artistic-2.0)
+# See: https://spdx.org/licenses/
+license = "MIT"
+
+# Primary category (choose one):
+# combat, crafting, dungeons, guilds, housing, inventory, library,
+# maps, miscellaneous, pvp, quests, roleplay, social, trading, ui
+category = "miscellaneous"
+
+# Optional tags for search/filtering
+tags = ["tag1", "tag2"]
+
+# =============================================================================
+# [source] - Required section defining where the addon code lives
+# =============================================================================
+[source]
+# Source type: github | gitlab | custom
+type = "github"
+
+# Repository path (owner/repo format for GitHub/GitLab)
+repo = "owner/repo-name"
+
+# Branch to track (optional, defaults to repo's default branch)
+branch = "main"
+
+# How to detect new versions:
+# - tag: Use git tags (e.g., v1.0.0)
+# - release: Use GitHub/GitLab releases
+# - branch: Track HEAD of specified branch
+release_type = "tag"
+
+# =============================================================================
+# [compatibility] - Optional section for ESO version compatibility
+# =============================================================================
+[compatibility]
+# ESO API version string (e.g., "101048" for Update 45)
+api_version = "101048"
+
+# Supported game updates (e.g., ["U45", "U44"])
+game_versions = ["U45"]
+
+# Required addon dependencies (must be installed)
+required_dependencies = []
+
+# Optional addon dependencies (enhanced features if installed)
+optional_dependencies = []
+
+# =============================================================================
+# [meta] - Required section for index management
+# =============================================================================
+[meta]
+# GitHub username of person who submitted this addon
+submitted_by = "github-username"
+
+# Date the addon was submitted (YYYY-MM-DD format)
+submitted_date = 2024-12-27
+
+# Date of last review (YYYY-MM-DD format)
+last_reviewed = 2024-12-27
+
+# Current status in the index:
+# - pending: Awaiting review
+# - approved: Active in the index
+# - deprecated: Still available but no longer maintained
+# - removed: Removed from the index
+status = "pending"
+
+# List of GitHub usernames who reviewed this submission
+reviewers = []

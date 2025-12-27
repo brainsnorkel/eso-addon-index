@@ -1,0 +1,26 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "ESO Addon Index",
+  "home_page_url": "https://github.com/brainsnorkel/eso-addon-index",
+  "feed_url": "https://brainsnorkel.github.io/eso-addon-index/feed.json",
+  "items": [
+    {
+      "id": "warmask",
+      "title": "WarMask v1.3.0",
+      "url": "https://github.com/brainsnorkel/WarMask",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "brainsnorkel"
+        }
+      ],
+      "summary": "Tracks Mark of Hircine from Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target.",
+      "tags": [
+        "pvp",
+        "combat",
+        "buff-tracking",
+        "mythic"
+      ]
+    }
+  ]
+}

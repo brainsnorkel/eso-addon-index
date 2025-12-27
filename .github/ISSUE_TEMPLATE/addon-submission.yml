@@ -1,0 +1,122 @@
+name: Addon Submission
+description: Submit a new addon to the ESO Addon Index
+title: "[Submission] "
+labels: ["submission", "pending-review"]
+assignees:
+  - brainsnorkel
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ESO Addon Submission
+
+        Thank you for submitting an addon to the ESO Addon Index!
+
+        Please fill out the information below. After submission, a maintainer will
+        create the appropriate TOML file and open a PR for review.
+
+        **Note:** You can also submit directly via PR if you're comfortable with TOML.
+        See [CONTRIBUTING.md](../docs/CONTRIBUTING.md) for details.
+
+  - type: input
+    id: addon-name
+    attributes:
+      label: Addon Name
+      description: The display name of your addon
+      placeholder: "My Awesome Addon"
+    validations:
+      required: true
+
+  - type: input
+    id: repo-url
+    attributes:
+      label: Repository URL
+      description: GitHub or GitLab repository URL
+      placeholder: "https://github.com/username/addon-repo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of what the addon does
+      placeholder: "This addon helps players by..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Primary category for the addon
+      options:
+        - combat
+        - crafting
+        - dungeons
+        - guilds
+        - housing
+        - inventory
+        - library
+        - maps
+        - miscellaneous
+        - pvp
+        - quests
+        - roleplay
+        - social
+        - trading
+        - ui
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated tags for search/filtering
+      placeholder: "buff-tracking, pvp, mythic"
+    validations:
+      required: false
+
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      description: Comma-separated list of addon authors
+      placeholder: "author1, author2"
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: SPDX license identifier (e.g., MIT, GPL-3.0, Artistic-2.0)
+      placeholder: "MIT"
+    validations:
+      required: false
+
+  - type: input
+    id: dependencies
+    attributes:
+      label: Required Dependencies
+      description: Comma-separated list of required addon dependencies
+      placeholder: "LibAddonMenu-2.0, LibStub"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: Please confirm the following
+      options:
+        - label: I am the author or have permission to submit this addon
+          required: true
+        - label: The repository contains a valid ESO addon manifest (.txt file)
+          required: true
+        - label: The addon has at least one release or tag
+          required: true
+        - label: The addon does not contain malicious code
+          required: true

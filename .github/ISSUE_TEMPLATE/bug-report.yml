@@ -1,0 +1,60 @@
+name: Bug Report
+description: Report an issue with the ESO Addon Index
+title: "[Bug] "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+
+        Thank you for reporting an issue with the ESO Addon Index.
+
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: Bug Type
+      description: What type of issue are you reporting?
+      options:
+        - Index data incorrect
+        - Addon information outdated
+        - Website/API not working
+        - Validation failing incorrectly
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: addon-slug
+    attributes:
+      label: Affected Addon (if applicable)
+      description: The slug of the affected addon
+      placeholder: "warmask"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue
+      placeholder: "The addon version is showing incorrectly..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happens?
+    validations:
+      required: false

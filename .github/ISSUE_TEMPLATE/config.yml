@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ESO Addon Development
+    url: https://wiki.esoui.com/Main_Page
+    about: Official ESO addon development wiki
+  - name: ESOUI Forums
+    url: https://www.esoui.com/forums/
+    about: Community forums for ESO addon discussion

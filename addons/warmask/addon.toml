@@ -1,0 +1,27 @@
+[addon]
+slug = "warmask"
+name = "WarMask"
+description = "Tracks Mark of Hircine from Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target."
+authors = ["brainsnorkel"]
+license = "MIT"
+category = "combat"
+tags = ["pvp", "combat", "buff-tracking", "mythic"]
+
+[source]
+type = "github"
+repo = "brainsnorkel/WarMask"
+branch = "master"
+release_type = "tag"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["LibAddonMenu-2.0"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-27
+last_reviewed = 2024-12-27
+status = "approved"
+reviewers = ["brainsnorkel"]

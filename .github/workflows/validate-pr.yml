@@ -1,0 +1,194 @@
+name: Validate Addon Submission
+
+on:
+  pull_request:
+    paths:
+      - 'addons/**/*.toml'
+
+jobs:
+  validate:
+    name: Validate Submission
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install requests jsonschema
+          # Python 3.11+ has tomllib built-in, but install tomli for compatibility
+          pip install tomli
+
+      - name: Get changed TOML files
+        id: changed
+        uses: tj-actions/changed-files@v44
+        with:
+          files: 'addons/**/*.toml'
+          files_ignore: 'addons/_schema.toml'
+
+      - name: Validate TOML schema and repository
+        if: steps.changed.outputs.any_changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Validating changed files:"
+          echo "${{ steps.changed.outputs.all_changed_files }}"
+          python scripts/validate.py ${{ steps.changed.outputs.all_changed_files }}
+
+      - name: Run Luacheck (optional)
+        if: steps.changed.outputs.any_changed == 'true'
+        continue-on-error: true
+        run: |
+          # Install Lua and Luacheck
+          sudo apt-get update
+          sudo apt-get install -y lua5.1 luarocks
+          sudo luarocks install luacheck
+
+          echo "Running Luacheck on addon sources:"
+          python scripts/luacheck-remote.py ${{ steps.changed.outputs.all_changed_files }} || true
+
+      - name: Post validation summary
+        if: always() && steps.changed.outputs.any_changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            // Get the validation result from the step outcome
+            const validationPassed = '${{ steps.validate.outcome }}' === 'success';
+
+            let body = '## Addon Submission Validation\n\n';
+
+            if (validationPassed) {
+              body += '✅ **Validation passed**\n\n';
+              body += 'All checks completed successfully:\n';
+              body += '- TOML schema validation\n';
+              body += '- Repository accessibility\n';
+              body += '- ESO manifest detection\n';
+              body += '- Release/tag availability\n';
+            } else {
+              body += '❌ **Validation failed**\n\n';
+              body += 'Please check the workflow logs for details.\n';
+            }
+
+            body += '\n---\n';
+            body += '*This check was performed automatically.*';
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
+
+  security-scan:
+    name: Security Scan
+    runs-on: ubuntu-latest
+    needs: validate
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests tomli
+
+      - name: Get changed TOML files
+        id: changed
+        uses: tj-actions/changed-files@v44
+        with:
+          files: 'addons/**/*.toml'
+          files_ignore: 'addons/_schema.toml'
+
+      - name: Security pattern scan
+        if: steps.changed.outputs.any_changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Simple security pattern check
+          cat > security_check.py << 'EOF'
+          import os
+          import sys
+          import requests
+
+          try:
+              import tomllib
+          except ImportError:
+              import tomli as tomllib
+
+          SUSPICIOUS_PATTERNS = [
+              'os.execute',
+              'io.popen',
+              'loadstring',
+              'dofile',
+              'loadfile',
+          ]
+
+          GITHUB_HEADERS = {}
+          if token := os.environ.get("GITHUB_TOKEN"):
+              GITHUB_HEADERS["Authorization"] = f"token {token}"
+
+          def check_repo(repo, branch="main"):
+              """Check repository for suspicious patterns."""
+              warnings = []
+
+              # Get file list
+              url = f"https://api.github.com/repos/{repo}/git/trees/{branch}?recursive=1"
+              resp = requests.get(url, headers=GITHUB_HEADERS, timeout=30)
+              if not resp.ok:
+                  return [f"Could not fetch file tree: HTTP {resp.status_code}"]
+
+              files = [f["path"] for f in resp.json().get("tree", [])
+                       if f["type"] == "blob" and f["path"].endswith(".lua")]
+
+              for filepath in files[:20]:  # Limit to first 20 Lua files
+                  raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{filepath}"
+                  try:
+                      content_resp = requests.get(raw_url, timeout=10)
+                      if content_resp.ok:
+                          content = content_resp.text.lower()
+                          for pattern in SUSPICIOUS_PATTERNS:
+                              if pattern.lower() in content:
+                                  warnings.append(f"Suspicious pattern '{pattern}' in {filepath}")
+                  except Exception:
+                      pass
+
+              return warnings
+
+          def main():
+              for filepath in sys.argv[1:]:
+                  with open(filepath, "rb") as f:
+                      data = tomllib.load(f)
+
+                  source = data.get("source", {})
+                  if source.get("type") != "github":
+                      continue
+
+                  repo = source.get("repo", "")
+                  branch = source.get("branch", "main")
+
+                  print(f"Scanning: {repo}")
+                  warnings = check_repo(repo, branch)
+
+                  for w in warnings:
+                      print(f"  WARNING: {w}")
+
+                  if not warnings:
+                      print("  No suspicious patterns found")
+
+          if __name__ == "__main__":
+              main()
+          EOF
+
+          python security_check.py ${{ steps.changed.outputs.all_changed_files }}

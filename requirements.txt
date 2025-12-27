@@ -1,0 +1,10 @@
+# ESO Addon Index - Python Dependencies
+
+# TOML parsing (Python 3.11+ has tomllib built-in)
+tomli>=2.0.0; python_version < "3.11"
+
+# HTTP requests for GitHub API
+requests>=2.28.0
+
+# JSON schema validation
+jsonschema>=4.17.0

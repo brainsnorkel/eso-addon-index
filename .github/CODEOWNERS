@@ -1,0 +1,14 @@
+# ESO Addon Index - Code Owners
+# These users will be automatically requested for review on PRs
+
+# Default owners for everything
+* @brainsnorkel
+
+# Addon submissions require review
+/addons/ @brainsnorkel
+
+# Workflow changes require admin review
+/.github/workflows/ @brainsnorkel
+
+# Script changes require admin review
+/scripts/ @brainsnorkel
