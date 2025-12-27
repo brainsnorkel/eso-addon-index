@@ -16,7 +16,7 @@ release_type = "tag"
 [compatibility]
 api_version = "101048"
 game_versions = ["U45"]
-required_dependencies = ["LibAddonMenu-2.0"]
+required_dependencies = ["libaddonmenu"]
 optional_dependencies = []
 
 [meta]
