@@ -211,7 +211,9 @@ When `source.path` is present, the addon files are located at that path within t
 1. Download ZIP from `latest_release.download_url`
 2. ZIP contains: `ESO-LibAddonMenu-{tag}/LibAddonMenu-2.0/`
 3. Extract the `LibAddonMenu-2.0` folder (matching `source.path`)
-4. Place that folder directly in ESO AddOns directory
+4. Place that folder directly in ESO AddOns directory root
+
+**Result**: `AddOns/LibAddonMenu-2.0/` (NOT nested under the repo name)
 
 **Algorithm**:
 ```python
@@ -225,18 +227,19 @@ def extract_addon(zip_path, addon):
 
         # Build source path within ZIP
         if addon["source"].get("path"):
-            # Subdirectory addon: root/path/
+            # Subdirectory addon: extract from repo subdirectory
             source_prefix = f"{root_folder}/{addon['source']['path']}/"
-            target_folder = addon["source"]["path"]  # Use path as folder name
+            # Install to AddOns root using the path as folder name
+            target_folder = addon["source"]["path"]
         else:
-            # Root addon: root/
+            # Root addon: extract from repo root
             source_prefix = f"{root_folder}/"
             target_folder = addon["slug"]
 
-        # Extract matching files
+        # Extract files to AddOns/{target_folder}/
+        # e.g., AddOns/LibAddonMenu-2.0/ (at AddOns root, not nested)
         for member in zf.namelist():
             if member.startswith(source_prefix):
-                # Calculate relative path and extract
                 relative_path = member[len(source_prefix):]
                 if relative_path:  # Skip the directory entry itself
                     target_path = f"{ADDONS_DIR}/{target_folder}/{relative_path}"
