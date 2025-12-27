@@ -1,0 +1,26 @@
+[addon]
+slug = "hodorreflexes"
+name = "HodorReflexes"
+description = "View shared DPS and Ultimate data from group members in real-time."
+authors = ["andy.s", "m00nyONE"]
+license = "Artistic-2.0"
+category = "combat"
+tags = ["combat", "dps", "group", "ultimate", "hps"]
+
+[source]
+type = "github"
+repo = "m00nyONE/HodorReflexes"
+branch = "main"
+release_type = "release"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["libgroupcombatstats", "libaddonmenu"]
+optional_dependencies = ["libcustomnames", "libcustomicons"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-28
+status = "approved"
+reviewers = []

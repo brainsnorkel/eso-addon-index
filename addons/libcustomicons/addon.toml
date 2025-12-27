@@ -1,0 +1,26 @@
+[addon]
+slug = "libcustomicons"
+name = "LibCustomIcons"
+description = "A lightweight library for The Elder Scrolls Online that allows custom icons for players."
+authors = ["m00nyONE", "seadotarley"]
+license = "Artistic-2.0"
+category = "library"
+tags = ["library", "icons", "players"]
+
+[source]
+type = "github"
+repo = "m00nyONE/LibCustomIcons"
+branch = "main"
+release_type = "release"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["libaddonmenu"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-28
+status = "approved"
+reviewers = []
