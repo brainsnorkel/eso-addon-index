@@ -107,6 +107,28 @@
       ]
     },
     {
+      "id": "odysupporticons",
+      "title": "OdySupportIcons Version-1.13.1",
+      "url": "https://github.com/exoy94/OdySupportIcons",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "Lamierina7"
+        },
+        {
+          "name": "ExoY94"
+        }
+      ],
+      "summary": "Display support icons for raid and dungeon mechanics.",
+      "tags": [
+        "dungeons",
+        "raids",
+        "icons",
+        "mechanics",
+        "support"
+      ]
+    },
+    {
       "id": "warmask",
       "title": "WarMask v1.3.0",
       "url": "https://github.com/brainsnorkel/WarMask",

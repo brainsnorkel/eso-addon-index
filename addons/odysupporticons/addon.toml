@@ -1,0 +1,26 @@
+[addon]
+slug = "odysupporticons"
+name = "OdySupportIcons"
+description = "Display support icons for raid and dungeon mechanics."
+authors = ["Lamierina7", "ExoY94"]
+license = "Unknown"
+category = "dungeons"
+tags = ["dungeons", "raids", "icons", "mechanics", "support"]
+
+[source]
+type = "github"
+repo = "exoy94/OdySupportIcons"
+branch = "main"
+release_type = "tag"
+
+[compatibility]
+api_version = "101046"
+game_versions = ["U44", "U45"]
+required_dependencies = ["libaddonmenu"]
+optional_dependencies = ["libcustomicons"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-28
+status = "approved"
+reviewers = []

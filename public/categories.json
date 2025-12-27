@@ -1,10 +1,13 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-27T23:11:02.912429+00:00",
+  "generated_at": "2025-12-27T23:12:37.071651+00:00",
   "categories": {
     "combat": [
       "hodorreflexes",
       "warmask"
+    ],
+    "dungeons": [
+      "odysupporticons"
     ],
     "library": [
       "libaddonmenu",

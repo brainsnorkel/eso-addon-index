@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-27T23:11:02.912429+00:00",
-  "addon_count": 6,
+  "generated_at": "2025-12-27T23:12:37.071651+00:00",
+  "addon_count": 7,
   "addons": [
     {
       "slug": "hodorreflexes",
@@ -187,6 +187,47 @@
         "version": "2025.10.11",
         "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2025.10.11",
         "published_at": "2025-10-11T16:43:24Z"
+      }
+    },
+    {
+      "slug": "odysupporticons",
+      "name": "OdySupportIcons",
+      "description": "Display support icons for raid and dungeon mechanics.",
+      "authors": [
+        "Lamierina7",
+        "ExoY94"
+      ],
+      "license": "Unknown",
+      "category": "dungeons",
+      "tags": [
+        "dungeons",
+        "raids",
+        "icons",
+        "mechanics",
+        "support"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "exoy94/OdySupportIcons",
+        "branch": "main"
+      },
+      "compatibility": {
+        "api_version": "101046",
+        "game_versions": [
+          "U44",
+          "U45"
+        ],
+        "required_dependencies": [
+          "libaddonmenu"
+        ],
+        "optional_dependencies": [
+          "libcustomicons"
+        ]
+      },
+      "latest_release": {
+        "version": "Version-1.13.1",
+        "download_url": "https://github.com/exoy94/OdySupportIcons/archive/refs/tags/Version-1.13.1.zip",
+        "published_at": null
       }
     },
     {
