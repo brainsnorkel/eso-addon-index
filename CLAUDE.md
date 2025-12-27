@@ -40,6 +40,7 @@ eso-addon-index/
 │   ├── index.min.json               # Minified version
 │   └── feed.json                    # JSON Feed for updates
 ├── docs/
+│   ├── addon-manager-client-context.md  # Client integration guide
 │   ├── CONTRIBUTING.md              # Submission guidelines
 │   ├── REVIEW_PROCESS.md            # Reviewer checklist
 │   └── SCHEMA.md                    # Metadata documentation
@@ -218,6 +219,26 @@ The repository is seeded with one test addon for development:
 | `.luacheckrc` | Luacheck config with ESO globals |
 | `.github/CODEOWNERS` | Reviewer assignments |
 | `addons/_schema.toml` | Reference schema |
+
+---
+
+## API Documentation Maintenance
+
+**IMPORTANT**: When making changes to the index API (JSON structure, fields, endpoints), you MUST update the client documentation:
+
+- **`docs/addon-manager-client-context.md`** - Client integration guide
+  - Update field references when schema changes
+  - Update endpoints if new JSON files are added
+  - Update version history table with changes
+  - Update example JSON snippets to reflect current structure
+
+### Checklist for API Changes
+
+- [ ] Update `addon-manager-client-context.md` with new/changed fields
+- [ ] Update `docs/SCHEMA.md` if TOML schema changes
+- [ ] Update `addons/_schema.toml` reference file
+- [ ] Increment version in client docs version history
+- [ ] Test that example code snippets still work
 
 ---
 
