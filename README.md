@@ -2,7 +2,7 @@
 
 A curated, peer-reviewed registry of Elder Scrolls Online addon metadata.
 
-**[View the Index](https://brainsnorkel.github.io/eso-addon-index/index.json)** | **[JSON Feed](https://brainsnorkel.github.io/eso-addon-index/feed.json)**
+**[View the Index](https://xop.co/eso-addon-index/index.json)** | **[JSON Feed](https://xop.co/eso-addon-index/feed.json)**
 
 ## About
 
@@ -37,16 +37,16 @@ See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details.
 
 ```bash
 # Full index
-curl https://brainsnorkel.github.io/eso-addon-index/index.json
+curl https://xop.co/eso-addon-index/index.json
 
 # Minified
-curl https://brainsnorkel.github.io/eso-addon-index/index.min.json
+curl https://xop.co/eso-addon-index/index.min.json
 
 # JSON Feed (for feed readers)
-curl https://brainsnorkel.github.io/eso-addon-index/feed.json
+curl https://xop.co/eso-addon-index/feed.json
 
 # Categories
-curl https://brainsnorkel.github.io/eso-addon-index/categories.json
+curl https://xop.co/eso-addon-index/categories.json
 ```
 
 ### Index Format

@@ -95,6 +95,6 @@ jobs:
           echo "The addon index has been published to GitHub Pages." >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**URLs:**" >> $GITHUB_STEP_SUMMARY
-          echo "- Full index: https://brainsnorkel.github.io/eso-addon-index/index.json" >> $GITHUB_STEP_SUMMARY
-          echo "- Minified: https://brainsnorkel.github.io/eso-addon-index/index.min.json" >> $GITHUB_STEP_SUMMARY
-          echo "- JSON Feed: https://brainsnorkel.github.io/eso-addon-index/feed.json" >> $GITHUB_STEP_SUMMARY
+          echo "- Full index: https://xop.co/eso-addon-index/index.json" >> $GITHUB_STEP_SUMMARY
+          echo "- Minified: https://xop.co/eso-addon-index/index.min.json" >> $GITHUB_STEP_SUMMARY
+          echo "- JSON Feed: https://xop.co/eso-addon-index/feed.json" >> $GITHUB_STEP_SUMMARY

@@ -6,7 +6,7 @@ A curated, peer-reviewed registry of ESO (Elder Scrolls Online) addon metadata p
 
 ### Quick Reference
 
-- **Published Index**: `https://brainsnorkel.github.io/eso-addon-index/index.json`
+- **Published Index**: `https://xop.co/eso-addon-index/index.json`
 - **Metadata Format**: TOML files in `addons/[slug]/addon.toml`
 - **Output Format**: Static JSON files in `public/`
 - **Automation**: GitHub Actions for validation, building, and release polling

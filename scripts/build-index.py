@@ -172,7 +172,7 @@ def build_json_feed(index: dict) -> dict:
         "version": "https://jsonfeed.org/version/1.1",
         "title": "ESO Addon Index",
         "home_page_url": "https://github.com/brainsnorkel/eso-addon-index",
-        "feed_url": "https://brainsnorkel.github.io/eso-addon-index/feed.json",
+        "feed_url": "https://xop.co/eso-addon-index/feed.json",
         "items": items,
     }
 
