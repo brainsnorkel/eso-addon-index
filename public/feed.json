@@ -5,6 +5,26 @@
   "feed_url": "https://xop.co/eso-addon-index/feed.json",
   "items": [
     {
+      "id": "crutchalerts",
+      "title": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "Kyzeragon"
+        }
+      ],
+      "summary": "Combat alerts, boss health bars with mechanic thresholds, time until boss spawn, and more!",
+      "tags": [
+        "combat",
+        "alerts",
+        "boss",
+        "mechanics",
+        "dungeons",
+        "raids"
+      ]
+    },
+    {
       "id": "hodorreflexes",
       "title": "HodorReflexes",
       "url": "https://github.com/m00nyONE/HodorReflexes",

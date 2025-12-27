@@ -1,8 +1,44 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-27T23:13:17.488918+00:00",
-  "addon_count": 7,
+  "generated_at": "2025-12-27T23:15:27.742128+00:00",
+  "addon_count": 8,
   "addons": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "description": "Combat alerts, boss health bars with mechanic thresholds, time until boss spawn, and more!",
+      "authors": [
+        "Kyzeragon"
+      ],
+      "license": "Unknown",
+      "category": "combat",
+      "tags": [
+        "combat",
+        "alerts",
+        "boss",
+        "mechanics",
+        "dungeons",
+        "raids"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Kyzderp/CrutchAlerts",
+        "branch": "master"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [
+          "libaddonmenu"
+        ],
+        "optional_dependencies": [
+          "odysupporticons",
+          "libcustomicons"
+        ]
+      }
+    },
     {
       "slug": "hodorreflexes",
       "name": "HodorReflexes",

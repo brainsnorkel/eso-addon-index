@@ -1,8 +1,9 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-27T23:13:17.488918+00:00",
+  "generated_at": "2025-12-27T23:15:27.742128+00:00",
   "categories": {
     "combat": [
+      "crutchalerts",
       "hodorreflexes",
       "warmask"
     ],

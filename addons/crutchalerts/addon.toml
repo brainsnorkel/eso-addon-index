@@ -1,0 +1,26 @@
+[addon]
+slug = "crutchalerts"
+name = "CrutchAlerts"
+description = "Combat alerts, boss health bars with mechanic thresholds, time until boss spawn, and more!"
+authors = ["Kyzeragon"]
+license = "Unknown"
+category = "combat"
+tags = ["combat", "alerts", "boss", "mechanics", "dungeons", "raids"]
+
+[source]
+type = "github"
+repo = "Kyzderp/CrutchAlerts"
+branch = "master"
+release_type = "branch"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["libaddonmenu"]
+optional_dependencies = ["odysupporticons", "libcustomicons"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-28
+status = "approved"
+reviewers = []
