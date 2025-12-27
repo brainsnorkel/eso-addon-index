@@ -1,0 +1,12 @@
+{
+  "versions": {
+    "warmask": {
+      "version": "v1.3.0",
+      "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
+      "published_at": "2025-12-22T19:49:33Z",
+      "release_notes": null
+    }
+  },
+  "last_checked": "2025-12-27T06:05:39.946561+00:00",
+  "updates": []
+}
