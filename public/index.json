@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-27T23:15:27.742128+00:00",
+  "generated_at": "2025-12-28T06:05:40.137718+00:00",
   "addon_count": 8,
   "addons": [
     {
@@ -37,7 +37,8 @@
           "odysupporticons",
           "libcustomicons"
         ]
-      }
+      },
+      "latest_release": null
     },
     {
       "slug": "hodorreflexes",
@@ -74,6 +75,11 @@
           "libcustomnames",
           "libcustomicons"
         ]
+      },
+      "latest_release": {
+        "version": "2025-12-17",
+        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2025-12-17",
+        "published_at": "2025-12-17T12:34:40Z"
       }
     },
     {
@@ -105,6 +111,11 @@
         ],
         "required_dependencies": [],
         "optional_dependencies": []
+      },
+      "latest_release": {
+        "version": "r32",
+        "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
+        "published_at": "2020-12-17T20:09:33Z"
       }
     },
     {
@@ -136,6 +147,11 @@
           "libaddonmenu"
         ],
         "optional_dependencies": []
+      },
+      "latest_release": {
+        "version": "2025-12-21",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2025-12-21",
+        "published_at": "2025-12-21T22:33:54Z"
       }
     },
     {
@@ -167,6 +183,11 @@
           "libaddonmenu"
         ],
         "optional_dependencies": []
+      },
+      "latest_release": {
+        "version": "2025-12-21",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2025-12-21",
+        "published_at": "2025-12-21T22:33:52Z"
       }
     },
     {
@@ -198,6 +219,11 @@
         ],
         "required_dependencies": [],
         "optional_dependencies": []
+      },
+      "latest_release": {
+        "version": "2025.10.11",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2025.10.11",
+        "published_at": "2025-10-11T16:43:24Z"
       }
     },
     {
@@ -234,6 +260,11 @@
         "optional_dependencies": [
           "libcustomicons"
         ]
+      },
+      "latest_release": {
+        "version": "Version-1.13.1",
+        "download_url": "https://github.com/exoy94/OdySupportIcons/archive/refs/tags/Version-1.13.1.zip",
+        "published_at": null
       }
     },
     {
@@ -265,6 +296,11 @@
           "libaddonmenu"
         ],
         "optional_dependencies": []
+      },
+      "latest_release": {
+        "version": "v1.3.0",
+        "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
+        "published_at": null
       }
     }
   ]
