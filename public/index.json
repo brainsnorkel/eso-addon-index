@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-29T09:29:03.872167+00:00",
+  "generated_at": "2025-12-29T12:07:33.440041+00:00",
   "addon_count": 8,
   "addons": [
     {
@@ -53,19 +53,19 @@
         ]
       },
       "latest_release": {
-        "version": "554e83c",
+        "version": "db35267",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2025-12-24T08:15:26Z",
-        "commit_sha": "554e83c699995655c822f29722f7e8c6ad40d0b9",
-        "commit_date": "2025-12-24T08:15:26Z",
-        "commit_message": "[2.9.0] Bump version"
+        "published_at": "2025-12-29T09:59:57Z",
+        "commit_sha": "db352676e0976ed42fb8d8089797514b83d54932",
+        "commit_date": "2025-12-29T09:59:57Z",
+        "commit_message": "Add lightly tested option for horizontal BHB"
       },
       "version_info": {
         "version_normalized": null,
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.9.0] Bump version"
+        "commit_message": "Add lightly tested option for horizontal BHB"
       }
     },
     {
