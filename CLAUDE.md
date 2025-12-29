@@ -147,6 +147,40 @@ maps, miscellaneous, pvp, quests, roleplay, social, trading, ui
 5. If `path` specified, manifest must be in that subdirectory
 6. At least one release/tag must exist
 
+### JSON Output Format
+
+The build script generates JSON with these fields (including auto-generated `url`):
+
+```json
+{
+  "slug": "warmask",
+  "name": "WarMask",
+  "description": "Tracks Mark of Hircine...",
+  "authors": ["brainsnorkel"],
+  "license": "MIT",
+  "category": "combat",
+  "tags": ["pvp", "combat"],
+  "url": "https://github.com/brainsnorkel/WarMask",
+  "source": {
+    "type": "github",
+    "repo": "brainsnorkel/WarMask",
+    "branch": "master",
+    "path": "SubDir"
+  },
+  "compatibility": {...},
+  "latest_release": {
+    "version": "1.0.0",
+    "download_url": "https://github.com/.../1.0.0.zip",
+    "published_at": "2024-12-01T12:00:00Z"
+  }
+}
+```
+
+**Note**: The `url` field is auto-generated from `source.type` and `source.repo`:
+- GitHub: `https://github.com/{repo}`
+- GitLab: `https://gitlab.com/{repo}`
+- Custom: uses `repo` value directly
+
 ---
 
 ## GitHub Actions Workflows
