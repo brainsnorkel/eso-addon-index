@@ -104,6 +104,50 @@ def build_addon_url(source: dict) -> str:
         return repo
 
 
+def build_install_info(source: dict, addon: dict) -> dict:
+    """Build install pipeline instructions for addon manager clients.
+
+    Provides clear, actionable steps for clients to:
+    1. Understand the archive format (method)
+    2. Know what to extract from the archive (extract_path)
+    3. Know what folder name to use in AddOns/ (target_folder)
+    4. Know what files to exclude (excludes)
+
+    Archive structure notes:
+    - github_archive: ZIP from /archive/refs/tags/ has {repo}-{tag}/ root folder
+    - github_release: ZIP from release zipball has similar structure
+    - branch: ZIP from /archive/refs/heads/ has {repo}-{branch}/ root folder
+
+    All GitHub archives have a root folder that should be stripped.
+    """
+    release_type = source.get("release_type", "tag")
+    source_path = source.get("path")
+
+    # Determine install method based on release type
+    if release_type == "branch":
+        method = "branch"
+    elif release_type == "release":
+        method = "github_release"
+    else:
+        method = "github_archive"
+
+    # Determine target folder name (priority: install_folder > path > name)
+    install_folder = source.get("install_folder")
+    if install_folder:
+        target_folder = install_folder
+    elif source_path:
+        target_folder = source_path
+    else:
+        target_folder = addon["name"]
+
+    return {
+        "method": method,
+        "extract_path": source_path if source_path else None,
+        "target_folder": target_folder,
+        "excludes": [".*", ".github", "tests", "*.md", "*.yml", "*.yaml"],
+    }
+
+
 def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
     """Build a single addon entry for the index."""
     addon = data["addon"]
@@ -136,6 +180,7 @@ def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
             "required_dependencies": compatibility.get("required_dependencies", []),
             "optional_dependencies": compatibility.get("optional_dependencies", []),
         },
+        "install": build_install_info(source, addon),
     }
 
     if fetch_releases:

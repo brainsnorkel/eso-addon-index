@@ -149,7 +149,7 @@ maps, miscellaneous, pvp, quests, roleplay, social, trading, ui
 
 ### JSON Output Format
 
-The build script generates JSON with these fields (including auto-generated `url`):
+The build script generates JSON with these fields:
 
 ```json
 {
@@ -168,6 +168,12 @@ The build script generates JSON with these fields (including auto-generated `url
     "path": "SubDir"
   },
   "compatibility": {...},
+  "install": {
+    "method": "github_archive",
+    "extract_path": null,
+    "target_folder": "WarMask",
+    "excludes": [".*", ".github", "tests", "*.md", "*.yml", "*.yaml"]
+  },
   "latest_release": {
     "version": "1.0.0",
     "download_url": "https://github.com/.../1.0.0.zip",
@@ -176,10 +182,13 @@ The build script generates JSON with these fields (including auto-generated `url
 }
 ```
 
-**Note**: The `url` field is auto-generated from `source.type` and `source.repo`:
-- GitHub: `https://github.com/{repo}`
-- GitLab: `https://gitlab.com/{repo}`
-- Custom: uses `repo` value directly
+**Auto-generated fields:**
+- `url`: From `source.type` and `source.repo` (GitHub/GitLab/custom)
+- `install`: Pipeline instructions for addon managers
+  - `method`: `github_archive` | `github_release` | `branch`
+  - `extract_path`: Subdirectory to extract (null = root)
+  - `target_folder`: Folder name in AddOns/ (from `install_folder` > `path` > `name`)
+  - `excludes`: Patterns for files to skip
 
 ---
 

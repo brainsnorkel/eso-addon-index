@@ -48,6 +48,12 @@ branch = "main"
 # Leave unset if addon files are in the repository root
 path = ""
 
+# Target folder name in AddOns directory (optional)
+# If not specified, derived from: path > name
+# Use when the addon folder name differs from the path or addon name
+# Example: LibAddonMenu manifest expects folder "LibAddonMenu-2.0"
+install_folder = ""
+
 # How to detect new versions:
 # - tag: Use git tags (e.g., v1.0.0)
 # - release: Use GitHub/GitLab releases

@@ -48,6 +48,7 @@ This document describes how client applications (addon managers, installers, etc
   "license": "MIT",
   "category": "combat",
   "tags": ["pvp", "combat", "buff-tracking"],
+  "url": "https://github.com/brainsnorkel/WarMask",
   "source": {
     "type": "github",
     "repo": "brainsnorkel/WarMask",
@@ -58,6 +59,12 @@ This document describes how client applications (addon managers, installers, etc
     "game_versions": ["U45"],
     "required_dependencies": ["libaddonmenu"],
     "optional_dependencies": []
+  },
+  "install": {
+    "method": "github_archive",
+    "extract_path": null,
+    "target_folder": "WarMask",
+    "excludes": [".*", ".github", "tests", "*.md", "*.yml", "*.yaml"]
   },
   "latest_release": {
     "version": "1.0.0",
@@ -107,6 +114,49 @@ This document describes how client applications (addon managers, installers, etc
 | `version` | string | Version tag/number |
 | `download_url` | string | Direct download URL (ZIP archive) |
 | `published_at` | string | ISO 8601 publish date (may be null for tags) |
+
+#### Install Object (Pipeline Instructions)
+
+The `install` object provides clear, actionable instructions for addon manager clients. This is the "agent-99" approach - explicit pipeline steps rather than inferring behavior.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `method` | string | Archive type: `github_archive`, `github_release`, or `branch` |
+| `extract_path` | string/null | Path within archive to extract (null = extract from root) |
+| `target_folder` | string | Folder name to create in AddOns directory |
+| `excludes` | array | Glob patterns for files to skip during extraction |
+
+**Method values:**
+
+| Method | Archive Structure | URL Pattern |
+|--------|-------------------|-------------|
+| `github_archive` | `{repo}-{tag}/` root folder | `/archive/refs/tags/{tag}.zip` |
+| `github_release` | `{repo}-{tag}/` root folder | Release `zipball_url` |
+| `branch` | `{repo}-{branch}/` root folder | `/archive/refs/heads/{branch}.zip` |
+
+**Example: Standard addon (root-level)**
+```json
+{
+  "install": {
+    "method": "github_archive",
+    "extract_path": null,
+    "target_folder": "WarMask",
+    "excludes": [".*", ".github", "tests", "*.md", "*.yml", "*.yaml"]
+  }
+}
+```
+
+**Example: Subdirectory addon (library)**
+```json
+{
+  "install": {
+    "method": "github_release",
+    "extract_path": "LibAddonMenu-2.0",
+    "target_folder": "LibAddonMenu-2.0",
+    "excludes": [".*", ".github", "tests", "*.md", "*.yml", "*.yaml"]
+  }
+}
+```
 
 ---
 
@@ -170,14 +220,22 @@ When a dependency slug is not found in the index:
 
 ---
 
-## Downloading Addons
+## Downloading and Installing Addons
 
-### Download Flow
+### Install Pipeline
 
-1. Fetch `latest_release.download_url`
-2. Download ZIP archive
-3. Extract to ESO AddOns directory
-4. Verify addon manifest exists (`.txt` file with `## Title:`)
+The `install` object provides explicit instructions. Follow this pipeline:
+
+```
+1. Read install.method to understand archive structure
+2. Download ZIP from latest_release.download_url
+3. Determine source path within ZIP:
+   - If install.extract_path is null: use archive root
+   - If install.extract_path is set: use that subdirectory
+4. Extract to AddOns/{install.target_folder}/
+5. Skip files matching install.excludes patterns
+6. Verify addon manifest exists (.txt or .addon file with ## Title:)
+```
 
 ### ESO AddOns Directory
 
@@ -186,67 +244,93 @@ When a dependency slug is not found in the index:
 | Windows | `%USERPROFILE%\Documents\Elder Scrolls Online\live\AddOns\` |
 | macOS | `~/Documents/Elder Scrolls Online/live/AddOns/` |
 
-### ZIP Structure
+### Complete Extraction Algorithm
 
-GitHub release ZIPs contain a root folder named `{repo}-{tag}/`. Clients should:
-
-1. Extract ZIP contents
-2. Locate the addon folder (contains `.txt` manifest)
-3. Move/rename to match the addon's expected folder name
-4. Place in ESO AddOns directory
-
-### Handling Subdirectory Addons
-
-Some addons (especially libraries) live in a subdirectory of their repository.
-When `source.path` is present, the addon files are located at that path within the ZIP.
-
-**Example**: LibAddonMenu-2.0
-```json
-{
-  "source": {
-    "repo": "sirinsidiator/ESO-LibAddonMenu",
-    "path": "LibAddonMenu-2.0"
-  }
-}
-```
-
-**Extraction flow for subdirectory addons**:
-1. Download ZIP from `latest_release.download_url`
-2. ZIP contains: `ESO-LibAddonMenu-{tag}/LibAddonMenu-2.0/`
-3. Extract the `LibAddonMenu-2.0` folder (matching `source.path`)
-4. Place that folder directly in ESO AddOns directory root
-
-**Result**: `AddOns/LibAddonMenu-2.0/` (NOT nested under the repo name)
-
-**Algorithm**:
 ```python
-def extract_addon(zip_path, addon):
-    """Extract addon from ZIP to AddOns directory."""
-    import zipfile
+import fnmatch
+import zipfile
+from pathlib import Path
+
+def extract_addon(zip_path: Path, addon: dict, addons_dir: Path):
+    """Extract addon using install pipeline instructions."""
+    install = addon["install"]
 
     with zipfile.ZipFile(zip_path) as zf:
-        # GitHub ZIPs have a root folder like "repo-name-tag/"
+        # All GitHub archives have a root folder: {repo}-{tag}/ or {repo}-{branch}/
         root_folder = zf.namelist()[0].split('/')[0]
 
-        # Build source path within ZIP
-        if addon["source"].get("path"):
-            # Subdirectory addon: extract from repo subdirectory
-            source_prefix = f"{root_folder}/{addon['source']['path']}/"
-            # Install to AddOns root using the path as folder name
-            target_folder = addon["source"]["path"]
+        # Determine source prefix within ZIP
+        if install["extract_path"]:
+            # Subdirectory addon: extract from specific path
+            source_prefix = f"{root_folder}/{install['extract_path']}/"
         else:
-            # Root addon: extract from repo root
+            # Root addon: extract from archive root
             source_prefix = f"{root_folder}/"
-            target_folder = addon["slug"]
 
-        # Extract files to AddOns/{target_folder}/
-        # e.g., AddOns/LibAddonMenu-2.0/ (at AddOns root, not nested)
+        # Target folder in AddOns directory
+        target_folder = install["target_folder"]
+        target_dir = addons_dir / target_folder
+
         for member in zf.namelist():
-            if member.startswith(source_prefix):
-                relative_path = member[len(source_prefix):]
-                if relative_path:  # Skip the directory entry itself
-                    target_path = f"{ADDONS_DIR}/{target_folder}/{relative_path}"
-                    # Extract file...
+            if not member.startswith(source_prefix):
+                continue
+
+            relative_path = member[len(source_prefix):]
+            if not relative_path:  # Skip directory entry itself
+                continue
+
+            # Check excludes
+            if should_exclude(relative_path, install["excludes"]):
+                continue
+
+            # Extract file
+            target_path = target_dir / relative_path
+            if member.endswith('/'):
+                target_path.mkdir(parents=True, exist_ok=True)
+            else:
+                target_path.parent.mkdir(parents=True, exist_ok=True)
+                with zf.open(member) as src, open(target_path, 'wb') as dst:
+                    dst.write(src.read())
+
+def should_exclude(path: str, excludes: list) -> bool:
+    """Check if path matches any exclude pattern."""
+    for pattern in excludes:
+        # Check each path component against pattern
+        for part in Path(path).parts:
+            if fnmatch.fnmatch(part, pattern):
+                return True
+    return False
+```
+
+### Example: Installing LibAddonMenu
+
+```python
+# Addon metadata from index
+addon = {
+    "slug": "libaddonmenu",
+    "install": {
+        "method": "github_release",
+        "extract_path": "LibAddonMenu-2.0",
+        "target_folder": "LibAddonMenu-2.0",
+        "excludes": [".*", ".github", "tests", "*.md"]
+    },
+    "latest_release": {
+        "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/2.4.0"
+    }
+}
+
+# ZIP structure:
+# ESO-LibAddonMenu-2.4.0/
+# ├── README.md                    # excluded (*.md)
+# ├── .github/                     # excluded (.*)
+# └── LibAddonMenu-2.0/            # <-- extract_path
+#     ├── LibAddonMenu-2.0.txt
+#     └── LibAddonMenu-2.0.lua
+
+# Result in AddOns directory:
+# AddOns/LibAddonMenu-2.0/         # <-- target_folder
+# ├── LibAddonMenu-2.0.txt
+# └── LibAddonMenu-2.0.lua
 ```
 
 ---
@@ -428,6 +512,7 @@ The build system (`scripts/poll-releases.py`) uses this priority:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.3 | 2024-12-29 | Added `install` object with explicit pipeline instructions |
 | 1.2 | 2024-12-29 | Added release types and packaging documentation |
 | 1.1 | 2024-12-28 | Added `source.path` for subdirectory addons |
 | 1.0 | 2024-12-28 | Initial client documentation |

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-29T08:23:13.541674+00:00",
+  "generated_at": "2025-12-29T08:41:32.157755+00:00",
   "addon_count": 8,
   "addons": [
     {
@@ -37,6 +37,19 @@
         "optional_dependencies": [
           "odysupporticons",
           "libcustomicons"
+        ]
+      },
+      "install": {
+        "method": "branch",
+        "extract_path": null,
+        "target_folder": "CrutchAlerts",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
         ]
       }
     },
@@ -76,6 +89,19 @@
           "libcustomnames",
           "libcustomicons"
         ]
+      },
+      "install": {
+        "method": "github_release",
+        "extract_path": null,
+        "target_folder": "HodorReflexes",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
       }
     },
     {
@@ -108,6 +134,19 @@
         ],
         "required_dependencies": [],
         "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_release",
+        "extract_path": "LibAddonMenu-2.0",
+        "target_folder": "LibAddonMenu-2.0",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
       }
     },
     {
@@ -140,6 +179,19 @@
           "libaddonmenu"
         ],
         "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_release",
+        "extract_path": null,
+        "target_folder": "LibCustomIcons",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
       }
     },
     {
@@ -172,6 +224,19 @@
           "libaddonmenu"
         ],
         "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_release",
+        "extract_path": null,
+        "target_folder": "LibCustomNames",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
       }
     },
     {
@@ -204,6 +269,19 @@
         ],
         "required_dependencies": [],
         "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_release",
+        "extract_path": null,
+        "target_folder": "LibGroupCombatStats",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
       }
     },
     {
@@ -241,6 +319,19 @@
         "optional_dependencies": [
           "libcustomicons"
         ]
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": null,
+        "target_folder": "OdySupportIcons",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
       }
     },
     {
@@ -273,6 +364,19 @@
           "libaddonmenu"
         ],
         "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": null,
+        "target_folder": "WarMask",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
       }
     }
   ]
