@@ -38,7 +38,8 @@ eso-addon-index/
 ├── public/                          # GitHub Pages output (generated)
 │   ├── index.json                   # Full addon index
 │   ├── index.min.json               # Minified version
-│   └── feed.json                    # JSON Feed for updates
+│   ├── feed.json                    # JSON Feed for updates
+│   └── missing-dependencies.json    # Dependencies not in index
 ├── docs/
 │   ├── addon-manager-client-context.md  # Client integration guide
 │   ├── CONTRIBUTING.md              # Submission guidelines
@@ -207,7 +208,7 @@ The build script generates JSON with these fields:
 ### build-index.yml
 - **Trigger**: Push to `main` branch
 - **Steps**: Compile TOML to JSON, deploy to GitHub Pages
-- **Output**: `public/index.json`, `public/feed.json`
+- **Output**: `public/index.json`, `public/feed.json`, `public/missing-dependencies.json`
 
 ### check-releases.yml
 - **Trigger**: Daily at 06:00 UTC

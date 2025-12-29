@@ -13,6 +13,7 @@ This document describes how client applications (addon managers, installers, etc
 | `https://xop.co/eso-addon-index/index.json` | Full addon index with formatting |
 | `https://xop.co/eso-addon-index/index.min.json` | Minified index (smaller payload) |
 | `https://xop.co/eso-addon-index/feed.json` | JSON Feed format for updates |
+| `https://xop.co/eso-addon-index/missing-dependencies.json` | Dependencies referenced but not available in index |
 
 ---
 
@@ -596,10 +597,70 @@ def check_for_update(installed, latest):
 
 ---
 
+## Missing Dependencies Feed
+
+The `missing-dependencies.json` endpoint lists dependencies that are referenced by addons in the index but are not themselves available in the index. This is useful for:
+
+- Identifying addons that should be added to complete the dependency graph
+- Warning users about dependencies they'll need to install manually
+- Tracking dependency naming inconsistencies (e.g., "LibAddonMenu-2.0" vs "libaddonmenu")
+
+### Missing Dependencies Structure
+
+```json
+{
+  "version": "1.0",
+  "generated_at": "2024-12-30T10:30:00+00:00",
+  "description": "Dependencies referenced by addons but not available in the index",
+  "missing_count": 4,
+  "missing_dependencies": [...]
+}
+```
+
+### Missing Dependency Object
+
+```json
+{
+  "slug": "LibDebugLogger",
+  "slug_normalized": "libdebuglogger",
+  "dependency_type": "optional",
+  "needed_by": [
+    {"slug": "combatmetrics", "name": "CombatMetrics"},
+    {"slug": "libcombat", "name": "LibCombat"}
+  ],
+  "needed_by_count": 2
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `slug` | string | Original dependency name as specified in addon TOML |
+| `slug_normalized` | string | Lowercase version for case-insensitive matching |
+| `dependency_type` | string | One of: `required`, `optional`, or `required+optional` |
+| `needed_by` | array | List of addons that depend on this |
+| `needed_by_count` | integer | Number of addons requiring this dependency |
+
+### Usage Example
+
+```python
+def warn_about_missing_deps(addon, missing_deps):
+    """Warn user about dependencies not in the index."""
+    missing_lookup = {d["slug_normalized"]: d for d in missing_deps["missing_dependencies"]}
+
+    for dep in addon["compatibility"].get("required_dependencies", []):
+        if dep.lower() in missing_lookup:
+            missing = missing_lookup[dep.lower()]
+            print(f"Warning: '{dep}' is not in the addon index.")
+            print(f"  You may need to install it manually from ESOUI or another source.")
+```
+
+---
+
 ## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.6 | 2024-12-30 | Added `missing-dependencies.json` endpoint for unavailable dependencies |
 | 1.5 | 2024-12-30 | Removed `category` field and `categories.json` endpoint |
 | 1.4 | 2024-12-29 | Added `version_info` object with normalized versions, sort keys, and release channels |
 | 1.3 | 2024-12-29 | Added `install` object with explicit pipeline instructions |

@@ -455,6 +455,79 @@ def build_json_feed(index: dict) -> dict:
     }
 
 
+def build_missing_dependencies_feed(index: dict) -> dict:
+    """Build a feed of dependencies that are referenced but not in the index.
+
+    This helps identify addons that should be added to complete the dependency graph.
+    """
+    # Build set of available addon slugs (case-insensitive lookup)
+    available_slugs = {addon["slug"].lower() for addon in index["addons"]}
+
+    # Track missing dependencies: {slug_lower: {"original_name": str, "type": set, "needed_by": list}}
+    missing: dict[str, dict] = {}
+
+    for addon in index["addons"]:
+        compatibility = addon.get("compatibility", {})
+        addon_info = {"slug": addon["slug"], "name": addon["name"]}
+
+        # Check required dependencies
+        for dep in compatibility.get("required_dependencies", []):
+            dep_lower = dep.lower()
+            if dep_lower not in available_slugs:
+                if dep_lower not in missing:
+                    missing[dep_lower] = {
+                        "original_name": dep,
+                        "types": set(),
+                        "needed_by": [],
+                    }
+                missing[dep_lower]["types"].add("required")
+                missing[dep_lower]["needed_by"].append(addon_info)
+
+        # Check optional dependencies
+        for dep in compatibility.get("optional_dependencies", []):
+            dep_lower = dep.lower()
+            if dep_lower not in available_slugs:
+                if dep_lower not in missing:
+                    missing[dep_lower] = {
+                        "original_name": dep,
+                        "types": set(),
+                        "needed_by": [],
+                    }
+                missing[dep_lower]["types"].add("optional")
+                missing[dep_lower]["needed_by"].append(addon_info)
+
+    # Convert to list format for JSON
+    missing_list = []
+    for slug_lower, info in sorted(missing.items()):
+        # Determine if required, optional, or both
+        types = sorted(info["types"])
+        if "required" in types and "optional" in types:
+            dep_type = "required+optional"
+        elif "required" in types:
+            dep_type = "required"
+        else:
+            dep_type = "optional"
+
+        missing_list.append({
+            "slug": info["original_name"],
+            "slug_normalized": slug_lower,
+            "dependency_type": dep_type,
+            "needed_by": info["needed_by"],
+            "needed_by_count": len(info["needed_by"]),
+        })
+
+    # Sort by count descending, then name
+    missing_list.sort(key=lambda x: (-x["needed_by_count"], x["slug"].lower()))
+
+    return {
+        "version": "1.0",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "description": "Dependencies referenced by addons but not available in the index",
+        "missing_count": len(missing_list),
+        "missing_dependencies": missing_list,
+    }
+
+
 def main():
     """Main entry point."""
     import argparse
@@ -501,8 +574,17 @@ def main():
         json.dump(feed, f, indent=2)
     print(f"Wrote: {feed_path}")
 
+    # Write missing dependencies feed
+    missing_deps = build_missing_dependencies_feed(index)
+    missing_path = output_dir / "missing-dependencies.json"
+    with open(missing_path, "w") as f:
+        json.dump(missing_deps, f, indent=2)
+    print(f"Wrote: {missing_path}")
+
     print()
     print(f"Built index with {index['addon_count']} addon(s)")
+    if missing_deps["missing_count"] > 0:
+        print(f"Found {missing_deps['missing_count']} missing dependency(s)")
 
 
 if __name__ == "__main__":
