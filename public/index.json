@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-29T18:06:07.657911+00:00",
-  "addon_count": 8,
+  "generated_at": "2025-12-29T20:01:13.193595+00:00",
+  "addon_count": 9,
   "addons": [
     {
       "slug": "crutchalerts",
@@ -134,6 +134,69 @@
         "version_sort_key": 2025012017000,
         "is_prerelease": false,
         "release_channel": "stable"
+      }
+    },
+    {
+      "slug": "bsjogroup",
+      "name": "JoGroup",
+      "description": "JoGroup with UI hiding keybind. Enhanced group frames addon for ESO.",
+      "authors": [
+        "JoyceKimberly",
+        "brainsnorkel",
+        "Deandra",
+        "lwndow",
+        "code65536"
+      ],
+      "license": "MIT",
+      "category": "social",
+      "tags": [
+        "group",
+        "ui",
+        "frames"
+      ],
+      "url": "https://github.com/brainsnorkel/BSJoGroup",
+      "source": {
+        "type": "github",
+        "repo": "brainsnorkel/BSJoGroup",
+        "branch": "main"
+      },
+      "compatibility": {
+        "api_version": "101040",
+        "game_versions": [
+          "U42"
+        ],
+        "required_dependencies": [
+          "libaddonmenu"
+        ],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "branch",
+        "extract_path": null,
+        "target_folder": "JoGroup",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": {
+        "version": "c3673ce",
+        "download_url": "https://github.com/brainsnorkel/BSJoGroup/archive/refs/heads/main.zip",
+        "published_at": "2024-02-07T10:16:12Z",
+        "commit_sha": "c3673ce0e6063436830cafbf4948a626d42f2a13",
+        "commit_date": "2024-02-07T10:16:12Z",
+        "commit_message": "Change hide chat to its own keybind"
+      },
+      "version_info": {
+        "version_normalized": null,
+        "version_sort_key": null,
+        "is_prerelease": false,
+        "release_channel": "branch",
+        "commit_message": "Change hide chat to its own keybind"
       }
     },
     {

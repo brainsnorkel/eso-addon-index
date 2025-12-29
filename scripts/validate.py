@@ -242,11 +242,15 @@ def check_eso_manifest(repo: str, branch: str | None = None, path: str | None = 
 
 
 def check_has_releases(repo: str, release_type: str = "tag") -> list[str]:
-    """Check if repository has at least one release or tag."""
+    """Check if repository has at least one release, tag, or valid branch."""
     errors = []
 
     if release_type == "release":
         url = f"https://api.github.com/repos/{repo}/releases"
+    elif release_type == "branch":
+        # For branch-based releases, we just need the branch to exist
+        # which is already validated in check_manifest_exists
+        return errors
     else:
         url = f"https://api.github.com/repos/{repo}/tags"
 

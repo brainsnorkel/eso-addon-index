@@ -47,6 +47,35 @@
       ]
     },
     {
+      "id": "bsjogroup",
+      "title": "JoGroup c3673ce",
+      "url": "https://github.com/brainsnorkel/BSJoGroup",
+      "date_published": "2024-02-07T10:16:12Z",
+      "authors": [
+        {
+          "name": "JoyceKimberly"
+        },
+        {
+          "name": "brainsnorkel"
+        },
+        {
+          "name": "Deandra"
+        },
+        {
+          "name": "lwndow"
+        },
+        {
+          "name": "code65536"
+        }
+      ],
+      "summary": "JoGroup with UI hiding keybind. Enhanced group frames addon for ESO.",
+      "tags": [
+        "group",
+        "ui",
+        "frames"
+      ]
+    },
+    {
       "id": "libaddonmenu",
       "title": "LibAddonMenu-2.0 r32",
       "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu",
