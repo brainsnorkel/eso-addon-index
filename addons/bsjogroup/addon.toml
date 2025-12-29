@@ -4,7 +4,6 @@ name = "JoGroup"
 description = "JoGroup with UI hiding keybind. Enhanced group frames addon for ESO."
 authors = ["JoyceKimberly", "brainsnorkel", "Deandra", "lwndow", "code65536"]
 license = "MIT"
-category = "social"
 tags = ["group", "ui", "frames"]
 
 [source]

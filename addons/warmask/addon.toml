@@ -4,7 +4,6 @@ name = "WarMask"
 description = "Tracks Mark of Hircine from Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target."
 authors = ["brainsnorkel"]
 license = "MIT"
-category = "combat"
 tags = ["pvp", "combat", "buff-tracking", "mythic"]
 
 [source]

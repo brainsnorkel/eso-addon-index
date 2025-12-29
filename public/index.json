@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-29T20:01:13.193595+00:00",
+  "generated_at": "2025-12-29T20:19:09.607573+00:00",
   "addon_count": 9,
   "addons": [
     {
@@ -11,7 +11,6 @@
         "Kyzeragon"
       ],
       "license": "Unknown",
-      "category": "combat",
       "tags": [
         "combat",
         "alerts",
@@ -77,7 +76,6 @@
         "m00nyONE"
       ],
       "license": "Artistic-2.0",
-      "category": "combat",
       "tags": [
         "combat",
         "dps",
@@ -148,7 +146,6 @@
         "code65536"
       ],
       "license": "MIT",
-      "category": "social",
       "tags": [
         "group",
         "ui",
@@ -208,7 +205,6 @@
         "Seerah"
       ],
       "license": "Artistic-2.0",
-      "category": "library",
       "tags": [
         "library",
         "settings",
@@ -243,18 +239,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "r32",
-        "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
-        "published_at": "2020-12-17T20:09:33Z",
-        "commit_sha": "dcf47510012d269531b7554620199e36bf3dafcd"
-      },
-      "version_info": {
-        "version_normalized": null,
-        "version_sort_key": null,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "libcustomicons",
@@ -265,7 +251,6 @@
         "seadotarley"
       ],
       "license": "Artistic-2.0",
-      "category": "library",
       "tags": [
         "library",
         "icons",
@@ -300,23 +285,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "2025-12-28",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2025-12-28",
-        "published_at": "2025-12-28T22:34:38Z",
-        "commit_sha": "70d1143047abab1cb737f8296b5aa75aea8a1cbe"
-      },
-      "version_info": {
-        "version_normalized": {
-          "major": 2025,
-          "minor": 12,
-          "patch": 28,
-          "prerelease": null
-        },
-        "version_sort_key": 2025012028000,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "libcustomnames",
@@ -327,7 +297,6 @@
         "seadotarley"
       ],
       "license": "Artistic-2.0",
-      "category": "library",
       "tags": [
         "library",
         "names",
@@ -362,23 +331,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "2025-12-28",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2025-12-28",
-        "published_at": "2025-12-28T22:34:38Z",
-        "commit_sha": "d1f3c5738ff82b28864c04b571b185b80e0c540c"
-      },
-      "version_info": {
-        "version_normalized": {
-          "major": 2025,
-          "minor": 12,
-          "patch": 28,
-          "prerelease": null
-        },
-        "version_sort_key": 2025012028000,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "libgroupcombatstats",
@@ -388,7 +342,6 @@
         "m00nyONE"
       ],
       "license": "Artistic-2.0",
-      "category": "library",
       "tags": [
         "library",
         "combat",
@@ -424,23 +377,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "2025.10.11",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2025.10.11",
-        "published_at": "2025-10-11T16:43:24Z",
-        "commit_sha": "b1bc5ccc6d3b8f497a59ec67d4932cea1acc8c38"
-      },
-      "version_info": {
-        "version_normalized": {
-          "major": 2025,
-          "minor": 10,
-          "patch": 11,
-          "prerelease": null
-        },
-        "version_sort_key": 2025010011000,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "odysupporticons",
@@ -451,7 +389,6 @@
         "ExoY94"
       ],
       "license": "Unknown",
-      "category": "dungeons",
       "tags": [
         "dungeons",
         "raids",
@@ -491,23 +428,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "Version-1.13.1",
-        "download_url": "https://github.com/exoy94/OdySupportIcons/archive/refs/tags/Version-1.13.1.zip",
-        "published_at": "2025-03-16T15:50:45Z",
-        "commit_sha": "29c23c3a60f90106a8d5b402744f6c1930908b56"
-      },
-      "version_info": {
-        "version_normalized": {
-          "major": 1,
-          "minor": 13,
-          "patch": 1,
-          "prerelease": null
-        },
-        "version_sort_key": 1013001000,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "warmask",
@@ -517,7 +439,6 @@
         "brainsnorkel"
       ],
       "license": "MIT",
-      "category": "combat",
       "tags": [
         "pvp",
         "combat",
@@ -553,23 +474,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "v1.3.0",
-        "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
-        "published_at": "2025-12-22T19:49:33Z",
-        "commit_sha": "fb149bc4f7e5a8cedcc1db5599febaab7c56d657"
-      },
-      "version_info": {
-        "version_normalized": {
-          "major": 1,
-          "minor": 3,
-          "patch": 0,
-          "prerelease": null
-        },
-        "version_sort_key": 1003000000,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      }
+      "latest_release": null,
+      "version_info": null
     }
   ]
 }

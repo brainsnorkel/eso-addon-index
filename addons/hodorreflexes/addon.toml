@@ -4,7 +4,6 @@ name = "HodorReflexes"
 description = "View shared DPS and Ultimate data from group members in real-time."
 authors = ["andy.s", "m00nyONE"]
 license = "Artistic-2.0"
-category = "combat"
 tags = ["combat", "dps", "group", "ultimate", "hps"]
 
 [source]

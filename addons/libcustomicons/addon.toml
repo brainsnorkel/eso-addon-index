@@ -4,7 +4,6 @@ name = "LibCustomIcons"
 description = "A lightweight library for The Elder Scrolls Online that allows custom icons for players."
 authors = ["m00nyONE", "seadotarley"]
 license = "Artistic-2.0"
-category = "library"
 tags = ["library", "icons", "players"]
 
 [source]

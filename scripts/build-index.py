@@ -351,7 +351,6 @@ def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
         "description": addon["description"],
         "authors": addon["authors"],
         "license": addon.get("license", "Unknown"),
-        "category": addon["category"],
         "tags": addon.get("tags", []),
         "url": build_addon_url(source),
         "source": source_entry,
@@ -456,23 +455,6 @@ def build_json_feed(index: dict) -> dict:
     }
 
 
-def build_category_index(index: dict) -> dict:
-    """Build an index grouped by category."""
-    categories = {}
-
-    for addon in index["addons"]:
-        category = addon["category"]
-        if category not in categories:
-            categories[category] = []
-        categories[category].append(addon["slug"])
-
-    return {
-        "version": "1.0",
-        "generated_at": index["generated_at"],
-        "categories": dict(sorted(categories.items())),
-    }
-
-
 def main():
     """Main entry point."""
     import argparse
@@ -518,13 +500,6 @@ def main():
     with open(feed_path, "w") as f:
         json.dump(feed, f, indent=2)
     print(f"Wrote: {feed_path}")
-
-    # Write category index
-    categories = build_category_index(index)
-    cat_path = output_dir / "categories.json"
-    with open(cat_path, "w") as f:
-        json.dump(categories, f, indent=2)
-    print(f"Wrote: {cat_path}")
 
     print()
     print(f"Built index with {index['addon_count']} addon(s)")

@@ -164,32 +164,6 @@
             color: var(--text-muted);
         }
 
-        /* Filters */
-        .filters {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 30px;
-        }
-
-        .filter-btn {
-            padding: 8px 16px;
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 20px;
-            color: var(--text-muted);
-            cursor: pointer;
-            transition: all 0.2s;
-            font-size: 0.875rem;
-        }
-
-        .filter-btn:hover, .filter-btn.active {
-            background: var(--primary);
-            color: var(--bg-dark);
-            border-color: var(--primary);
-        }
-
         /* Addon Grid */
         .addon-grid {
             display: grid;
@@ -224,16 +198,6 @@
 
         .addon-card h3 a:hover {
             color: var(--primary);
-        }
-
-        .addon-category {
-            font-size: 0.75rem;
-            padding: 4px 8px;
-            background: var(--primary);
-            color: var(--bg-dark);
-            border-radius: 4px;
-            text-transform: uppercase;
-            font-weight: 600;
         }
 
         .addon-card .description {
@@ -665,10 +629,6 @@
                     <div class="stat-label">Addons</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-value" id="category-count">-</div>
-                    <div class="stat-label">Categories</div>
-                </div>
-                <div class="stat">
                     <div class="stat-value" id="author-count">-</div>
                     <div class="stat-label">Authors</div>
                 </div>
@@ -694,10 +654,6 @@
 
             <div class="search-box">
                 <input type="text" id="search" placeholder="Search addons by name, description, author, or tag...">
-            </div>
-
-            <div class="filters" id="category-filters">
-                <button class="filter-btn active" data-category="all">All</button>
             </div>
 
             <div class="addon-grid" id="addon-grid">
@@ -803,11 +759,6 @@ for each addon.compatibility.required_dependencies:
                     <h4>Minified Index</h4>
                     <p>Smaller payload for production use</p>
                     <code>https://xop.co/eso-addon-index/index.min.json</code>
-                </div>
-                <div class="endpoint-card">
-                    <h4>Categories</h4>
-                    <p>Addons grouped by category</p>
-                    <code>https://xop.co/eso-addon-index/categories.json</code>
                 </div>
                 <div class="endpoint-card">
                     <h4>JSON Feed</h4>
@@ -1083,7 +1034,6 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
     <script>
         // Addon data storage
         let addons = [];
-        let categories = new Set();
 
         // Fetch and render addons
         async function loadAddons() {
@@ -1095,18 +1045,13 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
                 // Update stats
                 document.getElementById('addon-count').textContent = data.addon_count;
 
-                // Collect categories and authors
+                // Collect authors
                 const authors = new Set();
                 addons.forEach(addon => {
-                    categories.add(addon.category);
                     addon.authors.forEach(a => authors.add(a));
                 });
 
-                document.getElementById('category-count').textContent = categories.size;
                 document.getElementById('author-count').textContent = authors.size;
-
-                // Build category filters
-                buildCategoryFilters();
 
                 // Render addons
                 renderAddons(addons);
@@ -1115,50 +1060,6 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
                 document.getElementById('addon-grid').innerHTML =
                     '<div class="no-results">Failed to load addons. Please try refreshing the page.</div>';
             }
-        }
-
-        // Build category filter buttons
-        function buildCategoryFilters() {
-            const container = document.getElementById('category-filters');
-            const sortedCategories = Array.from(categories).sort();
-
-            sortedCategories.forEach(category => {
-                const btn = document.createElement('button');
-                btn.className = 'filter-btn';
-                btn.dataset.category = category;
-                btn.textContent = category.charAt(0).toUpperCase() + category.slice(1);
-                btn.addEventListener('click', () => filterByCategory(category));
-                container.appendChild(btn);
-            });
-        }
-
-        // Filter by category (toggle off to return to all)
-        function filterByCategory(category) {
-            const currentActive = document.querySelector('.filter-btn.active').dataset.category;
-
-            // If clicking the already active category (and it's not "all"), toggle back to "all"
-            if (category === currentActive && category !== 'all') {
-                category = 'all';
-            }
-
-            // Update active button
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.category === category);
-            });
-
-            // Filter and render
-            const searchTerm = document.getElementById('search').value.toLowerCase();
-            let filtered = addons;
-
-            if (category !== 'all') {
-                filtered = addons.filter(a => a.category === category);
-            }
-
-            if (searchTerm) {
-                filtered = filtered.filter(a => matchesSearch(a, searchTerm));
-            }
-
-            renderAddons(filtered);
         }
 
         // Search matching
@@ -1183,7 +1084,6 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
                 <div class="addon-card">
                     <h3>
                         <a href="${addon.url}" target="_blank" rel="noopener">${addon.name}</a>
-                        <span class="addon-category">${addon.category}</span>
                     </h3>
                     <p class="description">${addon.description}</p>
                     <div class="addon-meta">
@@ -1214,7 +1114,6 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
         // Search for a specific term
         function searchFor(term) {
             document.getElementById('search').value = term;
-            filterByCategory('all');
             document.getElementById('search').dispatchEvent(new Event('input'));
             document.getElementById('addons').scrollIntoView({ behavior: 'smooth' });
         }
@@ -1222,13 +1121,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
         // Search input handler
         document.getElementById('search').addEventListener('input', (e) => {
             const searchTerm = e.target.value.toLowerCase();
-            const activeCategory = document.querySelector('.filter-btn.active').dataset.category;
-
             let filtered = addons;
-
-            if (activeCategory !== 'all') {
-                filtered = addons.filter(a => a.category === activeCategory);
-            }
 
             if (searchTerm) {
                 filtered = filtered.filter(a => matchesSearch(a, searchTerm));

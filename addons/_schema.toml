@@ -22,12 +22,7 @@ authors = ["author1", "author2"]
 # See: https://spdx.org/licenses/
 license = "MIT"
 
-# Primary category (choose one):
-# combat, crafting, dungeons, guilds, housing, inventory, library,
-# maps, miscellaneous, pvp, quests, roleplay, social, trading, ui
-category = "miscellaneous"
-
-# Optional tags for search/filtering
+# Tags for search/filtering
 tags = ["tag1", "tag2"]
 
 # =============================================================================

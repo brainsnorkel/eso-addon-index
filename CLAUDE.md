@@ -107,7 +107,6 @@ name = "WarMask"                       # Display name
 description = "Brief addon description"
 authors = ["brainsnorkel"]
 license = "MIT"
-category = "combat"                    # See categories below
 tags = ["pvp", "combat"]
 
 [source]
@@ -131,13 +130,6 @@ status = "approved"                    # pending | approved | deprecated | remov
 reviewers = ["reviewer1"]
 ```
 
-### Categories
-
-```
-combat, crafting, dungeons, guilds, housing, inventory, library,
-maps, miscellaneous, pvp, quests, roleplay, social, trading, ui
-```
-
 ### Validation Rules
 
 1. `slug` must be unique, lowercase, alphanumeric + hyphens
@@ -158,7 +150,6 @@ The build script generates JSON with these fields:
   "description": "Tracks Mark of Hircine...",
   "authors": ["brainsnorkel"],
   "license": "MIT",
-  "category": "combat",
   "tags": ["pvp", "combat"],
   "url": "https://github.com/brainsnorkel/WarMask",
   "source": {
@@ -236,7 +227,6 @@ Checklist:
 - [ ] Luacheck passes (no errors)
 - [ ] No malicious code patterns
 - [ ] Description accurate
-- [ ] Category appropriate
 - [ ] Not a duplicate
 
 ### Security Patterns to Flag

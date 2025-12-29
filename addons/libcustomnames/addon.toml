@@ -4,7 +4,6 @@ name = "LibCustomNames"
 description = "A lightweight library for The Elder Scrolls Online that allows custom names for players."
 authors = ["m00nyONE", "seadotarley"]
 license = "Artistic-2.0"
-category = "library"
 tags = ["library", "names", "players"]
 
 [source]

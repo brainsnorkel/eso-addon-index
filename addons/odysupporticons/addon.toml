@@ -4,7 +4,6 @@ name = "OdySupportIcons"
 description = "Display support icons for raid and dungeon mechanics."
 authors = ["Lamierina7", "ExoY94"]
 license = "Unknown"
-category = "dungeons"
 tags = ["dungeons", "raids", "icons", "mechanics", "support"]
 
 [source]

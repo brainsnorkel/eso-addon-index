@@ -38,9 +38,6 @@ authors = ["author1", "author2"]  # required, at least one
 # See: https://spdx.org/licenses/
 license = "MIT"  # optional, defaults to "Unknown"
 
-# Primary category (choose one)
-category = "combat"  # required, see categories below
-
 # Tags for search/filtering
 tags = ["pvp", "buff-tracking"]  # optional
 
@@ -103,26 +100,6 @@ status = "pending"  # required: pending | approved | deprecated | removed
 reviewers = ["reviewer1"]  # optional
 ```
 
-## Categories
-
-| Value | Description |
-|-------|-------------|
-| `combat` | Combat tracking, damage meters, buff monitoring |
-| `crafting` | Crafting helpers, research tracking, writs |
-| `dungeons` | Dungeon/trial mechanics, timers |
-| `guilds` | Guild management, rosters, events |
-| `housing` | Housing tools, furniture management |
-| `inventory` | Bag management, item tracking |
-| `library` | Shared libraries for other addons |
-| `maps` | Map enhancements, pins, navigation |
-| `miscellaneous` | Other addons |
-| `pvp` | PvP features, Cyrodiil, Battlegrounds |
-| `quests` | Quest tracking, objectives |
-| `roleplay` | RP tools, emotes, character bios |
-| `social` | Chat enhancements, friends, communication |
-| `trading` | Guild stores, pricing, trading |
-| `ui` | Interface modifications, themes |
-
 ## Validation Rules
 
 ### Slug
@@ -148,7 +125,6 @@ slug = "simple-addon"
 name = "Simple Addon"
 description = "A simple example addon"
 authors = ["developer"]
-category = "miscellaneous"
 
 [source]
 type = "github"
@@ -168,7 +144,6 @@ name = "WarMask"
 description = "Tracks Mark of Hircine from Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target."
 authors = ["brainsnorkel"]
 license = "MIT"
-category = "combat"
 tags = ["pvp", "combat", "buff-tracking", "mythic"]
 
 [source]
@@ -202,7 +177,6 @@ name = "LibAddonMenu-2.0"
 description = "A library that provides a settings/options menu for addons."
 authors = ["sirinsidiator", "Seerah"]
 license = "Artistic-2.0"
-category = "library"
 tags = ["library", "settings", "menu"]
 
 [source]
@@ -235,7 +209,6 @@ The built index transforms TOML to JSON:
   "description": "Tracks Mark of Hircine...",
   "authors": ["brainsnorkel"],
   "license": "MIT",
-  "category": "combat",
   "tags": ["pvp", "combat"],
   "source": {
     "type": "github",

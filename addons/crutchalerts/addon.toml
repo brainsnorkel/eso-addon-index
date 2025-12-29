@@ -4,7 +4,6 @@ name = "CrutchAlerts"
 description = "Combat alerts, boss health bars with mechanic thresholds, time until boss spawn, and more!"
 authors = ["Kyzeragon"]
 license = "Unknown"
-category = "combat"
 tags = ["combat", "alerts", "boss", "mechanics", "dungeons", "raids"]
 
 [source]

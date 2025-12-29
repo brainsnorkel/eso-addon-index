@@ -12,7 +12,6 @@ This document describes how client applications (addon managers, installers, etc
 |----------|-------------|
 | `https://xop.co/eso-addon-index/index.json` | Full addon index with formatting |
 | `https://xop.co/eso-addon-index/index.min.json` | Minified index (smaller payload) |
-| `https://xop.co/eso-addon-index/categories.json` | Addons grouped by category |
 | `https://xop.co/eso-addon-index/feed.json` | JSON Feed format for updates |
 
 ---
@@ -46,7 +45,6 @@ This document describes how client applications (addon managers, installers, etc
   "description": "Tracks Mark of Hircine from Huntsman's Warmask...",
   "authors": ["brainsnorkel"],
   "license": "MIT",
-  "category": "combat",
   "tags": ["pvp", "combat", "buff-tracking"],
   "url": "https://github.com/brainsnorkel/WarMask",
   "source": {
@@ -97,8 +95,7 @@ This document describes how client applications (addon managers, installers, etc
 | `description` | string | Yes | Brief description |
 | `authors` | array | Yes | List of author names |
 | `license` | string | Yes | SPDX license identifier |
-| `category` | string | Yes | Primary category |
-| `tags` | array | No | Additional tags for filtering |
+| `tags` | array | No | Tags for filtering |
 | `url` | string | Yes | URL to addon homepage (GitHub/GitLab page) |
 
 #### Source Object
@@ -407,19 +404,6 @@ GitHub Pages supports `Last-Modified` headers.
 
 ---
 
-## Categories
-
-Valid category values:
-
-```
-combat, crafting, dungeons, guilds, housing, inventory, library,
-maps, miscellaneous, pvp, quests, roleplay, social, trading, ui
-```
-
-Use `categories.json` for a pre-grouped listing.
-
----
-
 ## Error Handling
 
 ### Network Errors
@@ -455,7 +439,7 @@ Use `categories.json` for a pre-grouped listing.
 
 ```
 1. Fetch index.json
-2. Display addon list to user (searchable, filterable by category/tags)
+2. Display addon list to user (searchable, filterable by tags)
 3. User selects addon to install
 4. Resolve dependencies:
    - Show resolved dependencies that will be installed
@@ -616,6 +600,7 @@ def check_for_update(installed, latest):
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.5 | 2024-12-30 | Removed `category` field and `categories.json` endpoint |
 | 1.4 | 2024-12-29 | Added `version_info` object with normalized versions, sort keys, and release channels |
 | 1.3 | 2024-12-29 | Added `install` object with explicit pipeline instructions |
 | 1.2 | 2024-12-29 | Added release types and packaging documentation |

@@ -4,7 +4,6 @@ name = "LibGroupCombatStats"
 description = "A library for ESO addons to provide group combat statistics such as DPS, HPS, and ultimate status updates."
 authors = ["m00nyONE"]
 license = "Artistic-2.0"
-category = "library"
 tags = ["library", "combat", "dps", "hps", "group"]
 
 [source]
