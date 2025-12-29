@@ -680,6 +680,7 @@
         <div class="container">
             <a href="#addons">Browse Addons</a>
             <a href="#client-guide">Client Guide</a>
+            <a href="#authors">For Authors</a>
             <a href="#api">API</a>
             <a href="#download">Download</a>
             <a href="#about">About</a>
@@ -885,6 +886,125 @@ for each addon.compatibility.required_dependencies:
                     </p>
                     <a href="https://github.com/brainsnorkel/eso-addon-index/issues/new?template=addon-submission.yml" class="btn btn-primary">
                         Submit Addon
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="authors">
+        <div class="container">
+            <h2>For Addon Authors</h2>
+            <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px;">
+                Best practices for packaging and versioning your addon for the index.
+            </p>
+
+            <div class="directory-structure">
+                <h3>Versioning with GitHub Releases</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">
+                    The index polls GitHub every 6 hours for new releases. Use <strong>semantic versioning</strong>
+                    with GitHub Releases or tags for automatic update detection.
+                </p>
+
+                <div class="info-box">
+                    <h4>Recommended: GitHub Releases</h4>
+                    <p>Create a GitHub Release with a semver tag (e.g., <code>v1.2.3</code> or <code>1.2.3</code>).
+                    The index uses the tag name as the version and provides the release ZIP as the download URL.</p>
+                </div>
+
+                <div class="code-block">
+<span class="comment"># Semantic versioning format:</span>
+<span class="file">MAJOR.MINOR.PATCH</span>
+
+<span class="comment"># Examples of valid version tags:</span>
+<span class="folder">1.0.0</span>      <span class="comment"># Initial release</span>
+<span class="folder">1.1.0</span>      <span class="comment"># New feature (backwards compatible)</span>
+<span class="folder">1.1.1</span>      <span class="comment"># Bug fix</span>
+<span class="folder">2.0.0</span>      <span class="comment"># Breaking change</span>
+<span class="folder">v1.2.3</span>     <span class="comment"># "v" prefix also supported</span>
+
+<span class="comment"># Creating a release via GitHub CLI:</span>
+gh release create 1.2.0 --title "Version 1.2.0" --notes "Added new feature X"
+                </div>
+
+                <h3>Repository Structure</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">
+                    Your addon can live at the repository root or in a subdirectory.
+                </p>
+
+                <div class="code-block">
+<span class="comment"># Option 1: Addon at repository root (recommended for single addons)</span>
+<span class="folder">MyAddon/</span>
+  <span class="file">MyAddon.txt</span>         <span class="comment"># ESO manifest (required)</span>
+  <span class="file">MyAddon.lua</span>         <span class="comment"># Main code</span>
+  <span class="file">README.md</span>           <span class="comment"># Documentation</span>
+  <span class="file">LICENSE</span>             <span class="comment"># License file</span>
+
+<span class="comment"># Option 2: Addon in subdirectory (common for libraries)</span>
+<span class="folder">ESO-LibAddonMenu/</span>
+  <span class="folder">LibAddonMenu-2.0/</span>   <span class="comment"># &lt;-- Specify this path in source.path</span>
+    <span class="file">LibAddonMenu-2.0.txt</span>
+    <span class="file">LibAddonMenu-2.0.lua</span>
+  <span class="file">README.md</span>
+  <span class="file">LICENSE</span>
+                </div>
+
+                <h3>Manifest Requirements</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">
+                    Your addon must include a valid ESO manifest file (<code>.txt</code>) with required fields.
+                </p>
+
+                <div class="code-block">
+<span class="comment"># Example: MyAddon.txt</span>
+
+<span class="file">## Title: My Addon</span>
+<span class="file">## Description: A brief description of what the addon does</span>
+<span class="file">## Author: YourName</span>
+<span class="file">## Version: 1.2.3</span>
+<span class="file">## APIVersion: 101044</span>
+<span class="file">## SavedVariables: MyAddonSavedVars</span>
+
+<span class="comment"># Optional: Declare dependencies</span>
+<span class="file">## DependsOn: LibAddonMenu-2.0</span>
+<span class="file">## OptionalDependsOn: LibCustomMenu</span>
+                </div>
+
+                <div class="info-box">
+                    <h4>Keep Versions in Sync</h4>
+                    <p>The version in your manifest (<code>## Version:</code>) should match your GitHub release tag.
+                    Addon managers may use either source for version comparison.</p>
+                </div>
+
+                <h3>Files to Exclude</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">
+                    The index automatically excludes common non-addon files from install instructions.
+                    Keep these at your repo root, not mixed with addon code.
+                </p>
+
+                <div class="code-block">
+<span class="comment"># Automatically excluded from addon installs:</span>
+<span class="file">.*</span>              <span class="comment"># Hidden files (.git, .github, .gitignore)</span>
+<span class="file">.github/</span>        <span class="comment"># GitHub Actions, templates</span>
+<span class="file">tests/</span>          <span class="comment"># Test files</span>
+<span class="file">*.md</span>            <span class="comment"># Markdown files (README, CHANGELOG)</span>
+<span class="file">*.yml, *.yaml</span>   <span class="comment"># CI/CD configs</span>
+<span class="file">LICENSE</span>         <span class="comment"># License file (kept in repo, not needed in-game)</span>
+                </div>
+
+                <h3>Submission Checklist</h3>
+                <div style="color: var(--text-muted); line-height: 2;">
+                    <p>Before submitting your addon to the index:</p>
+                    <p>&#9745; Repository is public on GitHub (or GitLab)</p>
+                    <p>&#9745; At least one release or tag exists with a semver version</p>
+                    <p>&#9745; Valid ESO manifest file with <code>## Title:</code> field</p>
+                    <p>&#9745; License file or license field in manifest</p>
+                    <p>&#9745; No malicious code (shell commands, external network calls)</p>
+                    <p>&#9745; Dependencies listed if your addon requires other addons</p>
+                </div>
+
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="https://github.com/brainsnorkel/eso-addon-index/issues/new?template=addon-submission.yml" class="btn btn-primary">
+                        Submit Your Addon
                     </a>
                 </div>
             </div>
