@@ -1,0 +1,27 @@
+[addon]
+slug = "breadcrumbs"
+name = "Breadcrumbs"
+description = "Draw lines on the map with /breadcrumbs command"
+authors = ["TheMrPancake", "sheumais"]
+license = "All-Rights-Reserved"
+category = "maps"
+tags = ["maps", "drawing", "navigation"]
+
+[source]
+type = "github"
+repo = "sheumais/Breadcrumbs"
+branch = "main"
+release_type = "release"
+
+[compatibility]
+api_version = "101047"
+game_versions = ["U44"]
+required_dependencies = ["libaddonmenu"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+last_reviewed = 2024-12-30
+status = "approved"
+reviewers = ["brainsnorkel"]

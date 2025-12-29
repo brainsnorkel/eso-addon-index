@@ -1,0 +1,27 @@
+[addon]
+slug = "libmediaprovider"
+name = "LibMediaProvider"
+description = "Facilitates the sharing of media (fonts, textures, etc) between addons"
+authors = ["Seerah", "psypanda", "ArtOfShred", "Calamath"]
+license = "LGPL-2.1"
+category = "library"
+tags = ["library", "media"]
+
+[source]
+type = "github"
+repo = "calamath/LibMediaProvider"
+branch = "master"
+release_type = "tag"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = []
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+last_reviewed = 2024-12-30
+status = "approved"
+reviewers = ["brainsnorkel"]

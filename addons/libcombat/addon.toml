@@ -1,0 +1,28 @@
+[addon]
+slug = "libcombat"
+name = "LibCombat"
+description = "Library that handles the data collection of combat events for addons like CombatMetrics"
+authors = ["Solinur"]
+license = "Artistic-2.0"
+category = "library"
+tags = ["library", "combat", "logging"]
+
+[source]
+type = "github"
+repo = "Solinur/LibCombat"
+branch = "master"
+path = "LibCombat"
+release_type = "tag"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = []
+optional_dependencies = ["LibDebugLogger"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+last_reviewed = 2024-12-30
+status = "approved"
+reviewers = ["brainsnorkel"]

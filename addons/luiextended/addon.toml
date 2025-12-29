@@ -1,0 +1,28 @@
+[addon]
+slug = "luiextended"
+name = "LuiExtended"
+description = "Provides UnitFrames, InfoPanel, Combat Text & Info, Buff & Debuff Tracking, Chat Announcements and Slash Commands"
+authors = ["ArtOfShred", "DakJaniels", "psypanda", "Saenic", "SpellBuilder"]
+license = "MIT"
+category = "ui"
+tags = ["ui", "combat", "buffs", "unitframes", "chat"]
+
+[source]
+type = "github"
+repo = "DakJaniels/LuiExtended"
+branch = "master"
+path = "LuiExtended"
+release_type = "release"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["LibAddonMenu-2.0", "LibMediaProvider"]
+optional_dependencies = ["LibChatMessage", "pChat", "CombatMetrics", "CrutchAlerts"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+last_reviewed = 2024-12-30
+status = "approved"
+reviewers = ["brainsnorkel"]

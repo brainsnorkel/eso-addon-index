@@ -1,0 +1,28 @@
+[addon]
+slug = "untaunted"
+name = "Untaunted"
+description = "Helper for Tanks and Healers that tracks Taunt and other Debuffs"
+authors = ["Solinur"]
+license = "Artistic-2.0"
+category = "combat"
+tags = ["combat", "tank", "healer", "debuffs", "taunt"]
+
+[source]
+type = "github"
+repo = "Solinur/Untaunted"
+branch = "master"
+path = "Untaunted"
+release_type = "tag"
+
+[compatibility]
+api_version = "101044"
+game_versions = ["U44"]
+required_dependencies = ["libaddonmenu"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+last_reviewed = 2024-12-30
+status = "approved"
+reviewers = ["brainsnorkel"]
