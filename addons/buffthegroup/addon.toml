@@ -1,0 +1,27 @@
+[addon]
+slug = "buffthegroup"
+name = "Buff The Group"
+description = "Monitor a single buff status across all group members"
+authors = ["bitrock", "garlicmoon"]
+license = "UNLICENSED"
+category = "combat"
+tags = ["group", "buffs", "combat"]
+
+[source]
+type = "github"
+repo = "Fostecks/BuffTheGroup"
+branch = "master"
+release_type = "branch"
+
+[compatibility]
+api_version = "101040"
+game_versions = ["U40"]
+required_dependencies = ["LibAddonMenu-2.0"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "christophergentle"
+submitted_date = 2024-12-30
+last_reviewed = 2024-12-30
+status = "approved"
+reviewers = ["christophergentle"]

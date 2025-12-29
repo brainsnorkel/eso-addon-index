@@ -1,0 +1,27 @@
+[addon]
+slug = "aui"
+name = "Advanced UI"
+description = "Advanced user interface for the Elder Scrolls Online"
+authors = ["Sensi"]
+license = "Other"
+category = "ui"
+tags = ["ui", "interface"]
+
+[source]
+type = "github"
+repo = "Sensi2010/AUI"
+branch = "main"
+release_type = "branch"
+
+[compatibility]
+api_version = "101043"
+game_versions = ["U43"]
+required_dependencies = ["LibAddonMenu-2.0"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "christophergentle"
+submitted_date = 2024-12-30
+last_reviewed = 2024-12-30
+status = "approved"
+reviewers = ["christophergentle"]
