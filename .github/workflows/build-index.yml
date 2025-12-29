@@ -6,6 +6,7 @@ on:
     paths:
       - 'addons/**/*.toml'
       - 'scripts/build-index.py'
+      - 'public/**'
   workflow_dispatch:
     inputs:
       skip_releases:
