@@ -2,6 +2,8 @@
 
 This document describes how client applications (addon managers, installers, etc.) should consume the ESO Addon Index API.
 
+**GitHub Repository**: https://github.com/brainsnorkel/eso-addon-index
+
 ---
 
 ## Index Endpoints
@@ -333,9 +335,98 @@ Use `categories.json` for a pre-grouped listing.
 
 ---
 
+## Addon Release Types and Packaging
+
+Addons in the index use different release strategies and packaging structures. Understanding these is essential for correctly downloading and installing addons.
+
+### Release Types
+
+The `release_type` field in addon metadata determines how new versions are detected:
+
+| Type | Description | Download Source |
+|------|-------------|-----------------|
+| `tag` | Git tags (e.g., `v1.0.0`, `1.2.3`) | `https://github.com/{repo}/archive/refs/tags/{tag}.zip` |
+| `release` | GitHub Releases (formal releases with notes) | Release `zipball_url` from GitHub API |
+| `branch` | Latest commit on a branch | `https://github.com/{repo}/archive/refs/heads/{branch}.zip` |
+
+**Examples from the index:**
+- **Tag-based**: WarMask uses `release_type = "tag"` - versions are git tags like `1.0.0`
+- **Release-based**: LibAddonMenu uses `release_type = "release"` - uses formal GitHub Releases with changelogs
+- **Branch-based**: CrutchAlerts uses `release_type = "branch"` - tracks latest commits on `master`
+
+**Polling behavior:**
+- `tag`/`release`: Stable versioning, checked daily for new versions
+- `branch`: Rolling releases, version is the commit SHA or timestamp
+
+### Packaging Structures
+
+Addons are packaged in two ways within their source repositories:
+
+#### 1. Root-level Addons
+
+The addon manifest (`.txt` file with `## Title:`) is at the repository root.
+
+```
+repo-root/
+├── AddonName.txt         # Manifest file
+├── AddonName.lua         # Main code
+└── libs/                 # Optional libraries
+```
+
+**Download flow:**
+1. Download ZIP from `latest_release.download_url`
+2. ZIP contains `{repo}-{tag}/` folder
+3. Extract contents to `AddOns/{slug}/`
+
+#### 2. Subdirectory Addons
+
+The addon lives in a subdirectory, indicated by `source.path`. Common for libraries that share a repository with other projects.
+
+```
+repo-root/
+├── README.md
+├── LibAddonMenu-2.0/     # <-- source.path points here
+│   ├── LibAddonMenu-2.0.txt
+│   └── LibAddonMenu-2.0.lua
+└── other-files/
+```
+
+**Download flow:**
+1. Download ZIP from `latest_release.download_url`
+2. ZIP contains `{repo}-{tag}/LibAddonMenu-2.0/`
+3. Extract **only** the `source.path` folder to `AddOns/LibAddonMenu-2.0/`
+4. The subdirectory becomes a top-level folder in AddOns, not nested
+
+### Release Detection Logic
+
+The build system (`scripts/poll-releases.py`) uses this priority:
+
+1. If `release_type = "release"`: Query GitHub Releases API
+   - Falls back to tags if no releases exist
+2. If `release_type = "tag"`: Query GitHub Tags API
+   - Uses the first (most recent) tag
+3. If `release_type = "branch"`: Track branch HEAD (not yet implemented)
+
+**Version cache** (`public/versions.json`) stores:
+```json
+{
+  "versions": {
+    "warmask": {
+      "version": "1.0.0",
+      "download_url": "https://github.com/.../1.0.0.zip",
+      "published_at": "2024-12-01T12:00:00Z"
+    }
+  },
+  "last_checked": "2024-12-28T06:00:00+00:00"
+}
+```
+
+---
+
 ## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.2 | 2024-12-29 | Added release types and packaging documentation |
 | 1.1 | 2024-12-28 | Added `source.path` for subdirectory addons |
 | 1.0 | 2024-12-28 | Initial client documentation |
