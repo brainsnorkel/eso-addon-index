@@ -1,0 +1,28 @@
+[addon]
+slug = "libcustommenu"
+name = "LibCustomMenu"
+description = "Library that resolves an in-game bug triggering 'Access a private function from insecure code' errors with custom context-menu items. Provides enhanced submenu and divider support."
+authors = ["votan"]
+license = "Unlicensed"
+tags = ["library", "menu", "context-menu"]
+category = "library"
+
+[source]
+type = "github"
+repo = "votan73/ESO"
+branch = "master"
+path = "Addons/LibCustomMenu"
+install_folder = "LibCustomMenu"
+release_type = "branch"
+
+[compatibility]
+api_version = "101044"
+game_versions = ["U44"]
+required_dependencies = []
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+status = "approved"
+reviewers = []

@@ -5,10 +5,49 @@
   "feed_url": "https://xop.co/eso-addon-index/feed.json",
   "items": [
     {
+      "id": "breadcrumbs",
+      "title": "Breadcrumbs",
+      "url": "https://github.com/sheumais/Breadcrumbs",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "TheMrPancake"
+        },
+        {
+          "name": "sheumais"
+        }
+      ],
+      "summary": "Draw lines on the map with /breadcrumbs command",
+      "tags": [
+        "maps",
+        "drawing",
+        "navigation"
+      ]
+    },
+    {
+      "id": "combatmetrics",
+      "title": "CombatMetrics",
+      "url": "https://github.com/Solinur/CombatMetrics",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "Solinur"
+        }
+      ],
+      "summary": "A tool to analyse your performance in fights with detailed combat logging and statistics",
+      "tags": [
+        "combat",
+        "dps",
+        "logging",
+        "analysis",
+        "statistics"
+      ]
+    },
+    {
       "id": "crutchalerts",
-      "title": "CrutchAlerts db35267",
+      "title": "CrutchAlerts",
       "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "date_published": "2025-12-29T09:59:57Z",
+      "date_published": null,
       "authors": [
         {
           "name": "Kyzeragon"
@@ -26,9 +65,9 @@
     },
     {
       "id": "hodorreflexes",
-      "title": "HodorReflexes 2025-12-17",
+      "title": "HodorReflexes",
       "url": "https://github.com/m00nyONE/HodorReflexes",
-      "date_published": "2025-12-17T12:34:40Z",
+      "date_published": null,
       "authors": [
         {
           "name": "andy.s"
@@ -47,10 +86,27 @@
       ]
     },
     {
+      "id": "improveddeathrecap",
+      "title": "ImprovedDeathRecap",
+      "url": "https://github.com/Solinur/ImprovedDeathRecap",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "Solinur"
+        }
+      ],
+      "summary": "An addon that gives you insight into why you died",
+      "tags": [
+        "combat",
+        "death",
+        "analysis"
+      ]
+    },
+    {
       "id": "bsjogroup",
-      "title": "JoGroup c3673ce",
+      "title": "JoGroup",
       "url": "https://github.com/brainsnorkel/BSJoGroup",
-      "date_published": "2024-02-07T10:16:12Z",
+      "date_published": null,
       "authors": [
         {
           "name": "JoyceKimberly"
@@ -97,6 +153,23 @@
       ]
     },
     {
+      "id": "libcombat",
+      "title": "LibCombat",
+      "url": "https://github.com/Solinur/LibCombat",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "Solinur"
+        }
+      ],
+      "summary": "Library that handles the data collection of combat events for addons like CombatMetrics",
+      "tags": [
+        "library",
+        "combat",
+        "logging"
+      ]
+    },
+    {
       "id": "libcustomicons",
       "title": "LibCustomIcons",
       "url": "https://github.com/m00nyONE/LibCustomIcons",
@@ -114,6 +187,23 @@
         "library",
         "icons",
         "players"
+      ]
+    },
+    {
+      "id": "libcustommenu",
+      "title": "LibCustomMenu",
+      "url": "https://github.com/votan73/ESO",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "votan"
+        }
+      ],
+      "summary": "Library that resolves an in-game bug triggering 'Access a private function from insecure code' errors with custom context-menu items. Provides enhanced submenu and divider support.",
+      "tags": [
+        "library",
+        "menu",
+        "context-menu"
       ]
     },
     {
@@ -156,6 +246,62 @@
       ]
     },
     {
+      "id": "libmediaprovider",
+      "title": "LibMediaProvider",
+      "url": "https://github.com/calamath/LibMediaProvider",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "Seerah"
+        },
+        {
+          "name": "psypanda"
+        },
+        {
+          "name": "ArtOfShred"
+        },
+        {
+          "name": "Calamath"
+        }
+      ],
+      "summary": "Facilitates the sharing of media (fonts, textures, etc) between addons",
+      "tags": [
+        "library",
+        "media"
+      ]
+    },
+    {
+      "id": "luiextended",
+      "title": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "ArtOfShred"
+        },
+        {
+          "name": "DakJaniels"
+        },
+        {
+          "name": "psypanda"
+        },
+        {
+          "name": "Saenic"
+        },
+        {
+          "name": "SpellBuilder"
+        }
+      ],
+      "summary": "Provides UnitFrames, InfoPanel, Combat Text & Info, Buff & Debuff Tracking, Chat Announcements and Slash Commands",
+      "tags": [
+        "ui",
+        "combat",
+        "buffs",
+        "unitframes",
+        "chat"
+      ]
+    },
+    {
       "id": "odysupporticons",
       "title": "OdySupportIcons",
       "url": "https://github.com/exoy94/OdySupportIcons",
@@ -175,6 +321,25 @@
         "icons",
         "mechanics",
         "support"
+      ]
+    },
+    {
+      "id": "untaunted",
+      "title": "Untaunted",
+      "url": "https://github.com/Solinur/Untaunted",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "Solinur"
+        }
+      ],
+      "summary": "Helper for Tanks and Healers that tracks Taunt and other Debuffs",
+      "tags": [
+        "combat",
+        "tank",
+        "healer",
+        "debuffs",
+        "taunt"
       ]
     },
     {

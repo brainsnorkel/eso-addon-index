@@ -1,8 +1,105 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-29T20:19:09.607573+00:00",
-  "addon_count": 9,
+  "generated_at": "2025-12-29T20:37:32.895493+00:00",
+  "addon_count": 17,
   "addons": [
+    {
+      "slug": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "description": "Draw lines on the map with /breadcrumbs command",
+      "authors": [
+        "TheMrPancake",
+        "sheumais"
+      ],
+      "license": "All-Rights-Reserved",
+      "tags": [
+        "maps",
+        "drawing",
+        "navigation"
+      ],
+      "url": "https://github.com/sheumais/Breadcrumbs",
+      "source": {
+        "type": "github",
+        "repo": "sheumais/Breadcrumbs",
+        "branch": "main"
+      },
+      "compatibility": {
+        "api_version": "101047",
+        "game_versions": [
+          "U44"
+        ],
+        "required_dependencies": [
+          "libaddonmenu"
+        ],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_release",
+        "extract_path": null,
+        "target_folder": "Breadcrumbs",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "version_info": null
+    },
+    {
+      "slug": "combatmetrics",
+      "name": "CombatMetrics",
+      "description": "A tool to analyse your performance in fights with detailed combat logging and statistics",
+      "authors": [
+        "Solinur"
+      ],
+      "license": "Artistic-2.0",
+      "tags": [
+        "combat",
+        "dps",
+        "logging",
+        "analysis",
+        "statistics"
+      ],
+      "url": "https://github.com/Solinur/CombatMetrics",
+      "source": {
+        "type": "github",
+        "repo": "Solinur/CombatMetrics",
+        "branch": "master",
+        "path": "CombatMetrics"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [
+          "libcombat",
+          "libaddonmenu"
+        ],
+        "optional_dependencies": [
+          "LibDebugLogger"
+        ]
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": "CombatMetrics",
+        "target_folder": "CombatMetrics",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "version_info": null
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -51,21 +148,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "db35267",
-        "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2025-12-29T09:59:57Z",
-        "commit_sha": "db352676e0976ed42fb8d8089797514b83d54932",
-        "commit_date": "2025-12-29T09:59:57Z",
-        "commit_message": "Add lightly tested option for horizontal BHB"
-      },
-      "version_info": {
-        "version_normalized": null,
-        "version_sort_key": null,
-        "is_prerelease": false,
-        "release_channel": "branch",
-        "commit_message": "Add lightly tested option for horizontal BHB"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "hodorreflexes",
@@ -116,23 +200,54 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "2025-12-17",
-        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2025-12-17",
-        "published_at": "2025-12-17T12:34:40Z",
-        "commit_sha": "aba7a5182119498f27dffa6e02a0e321f0a52cd4"
+      "latest_release": null,
+      "version_info": null
+    },
+    {
+      "slug": "improveddeathrecap",
+      "name": "ImprovedDeathRecap",
+      "description": "An addon that gives you insight into why you died",
+      "authors": [
+        "Solinur"
+      ],
+      "license": "Artistic-2.0",
+      "tags": [
+        "combat",
+        "death",
+        "analysis"
+      ],
+      "url": "https://github.com/Solinur/ImprovedDeathRecap",
+      "source": {
+        "type": "github",
+        "repo": "Solinur/ImprovedDeathRecap",
+        "branch": "master",
+        "path": "ImprovedDeathRecap"
       },
-      "version_info": {
-        "version_normalized": {
-          "major": 2025,
-          "minor": 12,
-          "patch": 17,
-          "prerelease": null
-        },
-        "version_sort_key": 2025012017000,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      }
+      "compatibility": {
+        "api_version": "100045",
+        "game_versions": [
+          "U35"
+        ],
+        "required_dependencies": [
+          "libaddonmenu"
+        ],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": "ImprovedDeathRecap",
+        "target_folder": "ImprovedDeathRecap",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "bsjogroup",
@@ -180,21 +295,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "c3673ce",
-        "download_url": "https://github.com/brainsnorkel/BSJoGroup/archive/refs/heads/main.zip",
-        "published_at": "2024-02-07T10:16:12Z",
-        "commit_sha": "c3673ce0e6063436830cafbf4948a626d42f2a13",
-        "commit_date": "2024-02-07T10:16:12Z",
-        "commit_message": "Change hide chat to its own keybind"
-      },
-      "version_info": {
-        "version_normalized": null,
-        "version_sort_key": null,
-        "is_prerelease": false,
-        "release_channel": "branch",
-        "commit_message": "Change hide chat to its own keybind"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "libaddonmenu",
@@ -243,6 +345,52 @@
       "version_info": null
     },
     {
+      "slug": "libcombat",
+      "name": "LibCombat",
+      "description": "Library that handles the data collection of combat events for addons like CombatMetrics",
+      "authors": [
+        "Solinur"
+      ],
+      "license": "Artistic-2.0",
+      "tags": [
+        "library",
+        "combat",
+        "logging"
+      ],
+      "url": "https://github.com/Solinur/LibCombat",
+      "source": {
+        "type": "github",
+        "repo": "Solinur/LibCombat",
+        "branch": "master",
+        "path": "LibCombat"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": [
+          "LibDebugLogger"
+        ]
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": "LibCombat",
+        "target_folder": "LibCombat",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "version_info": null
+    },
+    {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
       "description": "A lightweight library for The Elder Scrolls Online that allows custom icons for players.",
@@ -276,6 +424,50 @@
         "method": "github_release",
         "extract_path": null,
         "target_folder": "LibCustomIcons",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "version_info": null
+    },
+    {
+      "slug": "libcustommenu",
+      "name": "LibCustomMenu",
+      "description": "Library that resolves an in-game bug triggering 'Access a private function from insecure code' errors with custom context-menu items. Provides enhanced submenu and divider support.",
+      "authors": [
+        "votan"
+      ],
+      "license": "Unlicensed",
+      "tags": [
+        "library",
+        "menu",
+        "context-menu"
+      ],
+      "url": "https://github.com/votan73/ESO",
+      "source": {
+        "type": "github",
+        "repo": "votan73/ESO",
+        "branch": "master",
+        "path": "Addons/LibCustomMenu"
+      },
+      "compatibility": {
+        "api_version": "101044",
+        "game_versions": [
+          "U44"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "branch",
+        "extract_path": "Addons/LibCustomMenu",
+        "target_folder": "LibCustomMenu",
         "excludes": [
           ".*",
           ".github",
@@ -381,6 +573,109 @@
       "version_info": null
     },
     {
+      "slug": "libmediaprovider",
+      "name": "LibMediaProvider",
+      "description": "Facilitates the sharing of media (fonts, textures, etc) between addons",
+      "authors": [
+        "Seerah",
+        "psypanda",
+        "ArtOfShred",
+        "Calamath"
+      ],
+      "license": "LGPL-2.1",
+      "tags": [
+        "library",
+        "media"
+      ],
+      "url": "https://github.com/calamath/LibMediaProvider",
+      "source": {
+        "type": "github",
+        "repo": "calamath/LibMediaProvider",
+        "branch": "master"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": null,
+        "target_folder": "LibMediaProvider",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "version_info": null
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "description": "Provides UnitFrames, InfoPanel, Combat Text & Info, Buff & Debuff Tracking, Chat Announcements and Slash Commands",
+      "authors": [
+        "ArtOfShred",
+        "DakJaniels",
+        "psypanda",
+        "Saenic",
+        "SpellBuilder"
+      ],
+      "license": "MIT",
+      "tags": [
+        "ui",
+        "combat",
+        "buffs",
+        "unitframes",
+        "chat"
+      ],
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "source": {
+        "type": "github",
+        "repo": "DakJaniels/LuiExtended",
+        "branch": "master",
+        "path": "LuiExtended"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [
+          "LibAddonMenu-2.0",
+          "LibMediaProvider"
+        ],
+        "optional_dependencies": [
+          "LibChatMessage",
+          "pChat",
+          "CombatMetrics",
+          "CrutchAlerts"
+        ]
+      },
+      "install": {
+        "method": "github_release",
+        "extract_path": "LuiExtended",
+        "target_folder": "LuiExtended",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "version_info": null
+    },
+    {
       "slug": "odysupporticons",
       "name": "OdySupportIcons",
       "description": "Display support icons for raid and dungeon mechanics.",
@@ -419,6 +714,54 @@
         "method": "github_archive",
         "extract_path": null,
         "target_folder": "OdySupportIcons",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "version_info": null
+    },
+    {
+      "slug": "untaunted",
+      "name": "Untaunted",
+      "description": "Helper for Tanks and Healers that tracks Taunt and other Debuffs",
+      "authors": [
+        "Solinur"
+      ],
+      "license": "Artistic-2.0",
+      "tags": [
+        "combat",
+        "tank",
+        "healer",
+        "debuffs",
+        "taunt"
+      ],
+      "url": "https://github.com/Solinur/Untaunted",
+      "source": {
+        "type": "github",
+        "repo": "Solinur/Untaunted",
+        "branch": "master",
+        "path": "Untaunted"
+      },
+      "compatibility": {
+        "api_version": "101044",
+        "game_versions": [
+          "U44"
+        ],
+        "required_dependencies": [
+          "libaddonmenu"
+        ],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": "Untaunted",
+        "target_folder": "Untaunted",
         "excludes": [
           ".*",
           ".github",
