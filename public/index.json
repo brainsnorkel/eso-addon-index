@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-29T06:06:48.391898+00:00",
+  "generated_at": "2025-12-29T08:23:13.541674+00:00",
   "addon_count": 8,
   "addons": [
     {
@@ -20,6 +20,7 @@
         "dungeons",
         "raids"
       ],
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
       "source": {
         "type": "github",
         "repo": "Kyzderp/CrutchAlerts",
@@ -37,8 +38,7 @@
           "odysupporticons",
           "libcustomicons"
         ]
-      },
-      "latest_release": null
+      }
     },
     {
       "slug": "hodorreflexes",
@@ -57,6 +57,7 @@
         "ultimate",
         "hps"
       ],
+      "url": "https://github.com/m00nyONE/HodorReflexes",
       "source": {
         "type": "github",
         "repo": "m00nyONE/HodorReflexes",
@@ -75,11 +76,6 @@
           "libcustomnames",
           "libcustomicons"
         ]
-      },
-      "latest_release": {
-        "version": "2025-12-17",
-        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2025-12-17",
-        "published_at": "2025-12-17T12:34:40Z"
       }
     },
     {
@@ -98,6 +94,7 @@
         "menu",
         "options"
       ],
+      "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu",
       "source": {
         "type": "github",
         "repo": "sirinsidiator/ESO-LibAddonMenu",
@@ -111,11 +108,6 @@
         ],
         "required_dependencies": [],
         "optional_dependencies": []
-      },
-      "latest_release": {
-        "version": "r32",
-        "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
-        "published_at": "2020-12-17T20:09:33Z"
       }
     },
     {
@@ -133,6 +125,7 @@
         "icons",
         "players"
       ],
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
       "source": {
         "type": "github",
         "repo": "m00nyONE/LibCustomIcons",
@@ -147,11 +140,6 @@
           "libaddonmenu"
         ],
         "optional_dependencies": []
-      },
-      "latest_release": {
-        "version": "2025-12-28",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2025-12-28",
-        "published_at": "2025-12-28T22:34:38Z"
       }
     },
     {
@@ -169,6 +157,7 @@
         "names",
         "players"
       ],
+      "url": "https://github.com/m00nyONE/LibCustomNames",
       "source": {
         "type": "github",
         "repo": "m00nyONE/LibCustomNames",
@@ -183,11 +172,6 @@
           "libaddonmenu"
         ],
         "optional_dependencies": []
-      },
-      "latest_release": {
-        "version": "2025-12-28",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2025-12-28",
-        "published_at": "2025-12-28T22:34:38Z"
       }
     },
     {
@@ -206,6 +190,7 @@
         "hps",
         "group"
       ],
+      "url": "https://github.com/m00nyONE/LibGroupCombatStats",
       "source": {
         "type": "github",
         "repo": "m00nyONE/LibGroupCombatStats",
@@ -219,11 +204,6 @@
         ],
         "required_dependencies": [],
         "optional_dependencies": []
-      },
-      "latest_release": {
-        "version": "2025.10.11",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2025.10.11",
-        "published_at": "2025-10-11T16:43:24Z"
       }
     },
     {
@@ -243,6 +223,7 @@
         "mechanics",
         "support"
       ],
+      "url": "https://github.com/exoy94/OdySupportIcons",
       "source": {
         "type": "github",
         "repo": "exoy94/OdySupportIcons",
@@ -260,11 +241,6 @@
         "optional_dependencies": [
           "libcustomicons"
         ]
-      },
-      "latest_release": {
-        "version": "Version-1.13.1",
-        "download_url": "https://github.com/exoy94/OdySupportIcons/archive/refs/tags/Version-1.13.1.zip",
-        "published_at": null
       }
     },
     {
@@ -282,6 +258,7 @@
         "buff-tracking",
         "mythic"
       ],
+      "url": "https://github.com/brainsnorkel/WarMask",
       "source": {
         "type": "github",
         "repo": "brainsnorkel/WarMask",
@@ -296,11 +273,6 @@
           "libaddonmenu"
         ],
         "optional_dependencies": []
-      },
-      "latest_release": {
-        "version": "v1.3.0",
-        "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
-        "published_at": null
       }
     }
   ]

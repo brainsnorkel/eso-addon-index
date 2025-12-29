@@ -80,6 +80,7 @@ This document describes how client applications (addon managers, installers, etc
 | `license` | string | Yes | SPDX license identifier |
 | `category` | string | Yes | Primary category |
 | `tags` | array | No | Additional tags for filtering |
+| `url` | string | Yes | URL to addon homepage (GitHub/GitLab page) |
 
 #### Source Object
 

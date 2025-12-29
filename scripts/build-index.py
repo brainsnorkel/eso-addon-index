@@ -90,6 +90,20 @@ def fetch_latest_tag(repo: str) -> dict | None:
         return None
 
 
+def build_addon_url(source: dict) -> str:
+    """Build the addon URL from source info."""
+    source_type = source.get("type", "github")
+    repo = source.get("repo", "")
+
+    if source_type == "github":
+        return f"https://github.com/{repo}"
+    elif source_type == "gitlab":
+        return f"https://gitlab.com/{repo}"
+    else:
+        # For custom sources, return repo as-is (may be a full URL)
+        return repo
+
+
 def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
     """Build a single addon entry for the index."""
     addon = data["addon"]
@@ -114,6 +128,7 @@ def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
         "license": addon.get("license", "Unknown"),
         "category": addon["category"],
         "tags": addon.get("tags", []),
+        "url": build_addon_url(source),
         "source": source_entry,
         "compatibility": {
             "api_version": compatibility.get("api_version"),

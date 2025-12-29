@@ -26,9 +26,9 @@
     },
     {
       "id": "hodorreflexes",
-      "title": "HodorReflexes 2025-12-17",
+      "title": "HodorReflexes",
       "url": "https://github.com/m00nyONE/HodorReflexes",
-      "date_published": "2025-12-17T12:34:40Z",
+      "date_published": null,
       "authors": [
         {
           "name": "andy.s"
@@ -48,9 +48,9 @@
     },
     {
       "id": "libaddonmenu",
-      "title": "LibAddonMenu-2.0 r32",
+      "title": "LibAddonMenu-2.0",
       "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu",
-      "date_published": "2020-12-17T20:09:33Z",
+      "date_published": null,
       "authors": [
         {
           "name": "sirinsidiator"
@@ -69,9 +69,9 @@
     },
     {
       "id": "libcustomicons",
-      "title": "LibCustomIcons 2025-12-28",
+      "title": "LibCustomIcons",
       "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "date_published": "2025-12-28T22:34:38Z",
+      "date_published": null,
       "authors": [
         {
           "name": "m00nyONE"
@@ -89,9 +89,9 @@
     },
     {
       "id": "libcustomnames",
-      "title": "LibCustomNames 2025-12-28",
+      "title": "LibCustomNames",
       "url": "https://github.com/m00nyONE/LibCustomNames",
-      "date_published": "2025-12-28T22:34:38Z",
+      "date_published": null,
       "authors": [
         {
           "name": "m00nyONE"
@@ -109,9 +109,9 @@
     },
     {
       "id": "libgroupcombatstats",
-      "title": "LibGroupCombatStats 2025.10.11",
+      "title": "LibGroupCombatStats",
       "url": "https://github.com/m00nyONE/LibGroupCombatStats",
-      "date_published": "2025-10-11T16:43:24Z",
+      "date_published": null,
       "authors": [
         {
           "name": "m00nyONE"
@@ -128,7 +128,7 @@
     },
     {
       "id": "odysupporticons",
-      "title": "OdySupportIcons Version-1.13.1",
+      "title": "OdySupportIcons",
       "url": "https://github.com/exoy94/OdySupportIcons",
       "date_published": null,
       "authors": [
@@ -150,7 +150,7 @@
     },
     {
       "id": "warmask",
-      "title": "WarMask v1.3.0",
+      "title": "WarMask",
       "url": "https://github.com/brainsnorkel/WarMask",
       "date_published": null,
       "authors": [
