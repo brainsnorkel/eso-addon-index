@@ -67,9 +67,21 @@ This document describes how client applications (addon managers, installers, etc
     "excludes": [".*", ".github", "tests", "*.md", "*.yml", "*.yaml"]
   },
   "latest_release": {
-    "version": "1.0.0",
-    "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/1.0.0.zip",
-    "published_at": "2024-12-01T12:00:00Z"
+    "version": "v1.3.0",
+    "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
+    "published_at": "2024-12-01T12:00:00Z",
+    "commit_sha": "abc123def456..."
+  },
+  "version_info": {
+    "version_normalized": {
+      "major": 1,
+      "minor": 3,
+      "patch": 0,
+      "prerelease": null
+    },
+    "version_sort_key": 1003000000,
+    "is_prerelease": false,
+    "release_channel": "stable"
   }
 }
 ```
@@ -111,9 +123,46 @@ This document describes how client applications (addon managers, installers, etc
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `version` | string | Version tag/number |
+| `version` | string | Version tag/number (or short SHA for branch-based) |
 | `download_url` | string | Direct download URL (ZIP archive) |
 | `published_at` | string | ISO 8601 publish date (may be null for tags) |
+| `commit_sha` | string | Full commit SHA for precise version tracking |
+| `commit_date` | string | ISO 8601 commit date (branch-based only) |
+| `commit_message` | string | First line of commit message, max 100 chars (branch-based only) |
+
+#### Version Info Object (Client Convenience)
+
+The `version_info` object provides pre-computed version metadata to simplify client logic for version comparison and display.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `version_normalized` | object/null | Parsed semver components (null if unparseable or branch-based) |
+| `version_sort_key` | integer/null | Sortable integer for version ordering (null for branch-based) |
+| `is_prerelease` | boolean | True if version contains alpha/beta/rc/dev |
+| `release_channel` | string | One of: `stable`, `prerelease`, `branch` |
+| `commit_message` | string | Commit message (branch-based only) |
+
+**version_normalized structure:**
+```json
+{
+  "major": 1,
+  "minor": 3,
+  "patch": 0,
+  "prerelease": null
+}
+```
+
+**Supported version formats:**
+- Standard semver: `1.0.0`, `v1.0.0`, `V1.0`
+- Date-based: `2025.10.11`, `2025-12-28`
+- Prefixed: `Version-1.13.1`, `version_2.0.0`
+- Prerelease: `1.0.0-beta.1`, `2.0.0-rc1`
+- Non-parseable (returns null): `r32`, commit SHAs
+
+**version_sort_key formula:**
+`major * 10^9 + minor * 10^6 + patch * 10^3 - (1 if prerelease else 0)`
+
+This allows simple integer comparison: `addon1.version_sort_key > addon2.version_sort_key`
 
 #### Install Object (Pipeline Instructions)
 
@@ -508,10 +557,66 @@ The build system (`scripts/poll-releases.py`) uses this priority:
 
 ---
 
+## Version Comparison
+
+### Using version_sort_key
+
+For addons with parseable versions, use `version_sort_key` for simple comparison:
+
+```python
+def is_newer_version(addon_a, addon_b):
+    """Check if addon_a is newer than addon_b."""
+    key_a = addon_a.get("version_info", {}).get("version_sort_key")
+    key_b = addon_b.get("version_info", {}).get("version_sort_key")
+
+    if key_a is None or key_b is None:
+        return None  # Cannot compare
+
+    return key_a > key_b
+```
+
+### Comparing Branch-Based Addons
+
+For branch-based addons (`release_channel == "branch"`), compare using `commit_sha`:
+
+```python
+def has_branch_update(cached_addon, index_addon):
+    """Check if a branch-based addon has a new commit."""
+    cached_sha = cached_addon.get("latest_release", {}).get("commit_sha")
+    current_sha = index_addon.get("latest_release", {}).get("commit_sha")
+
+    return cached_sha != current_sha
+```
+
+### Mixed Comparison Strategy
+
+```python
+def check_for_update(installed, latest):
+    """Check if an addon has an update available."""
+    channel = latest.get("version_info", {}).get("release_channel")
+
+    if channel == "branch":
+        # Compare commit SHAs
+        return installed.get("commit_sha") != latest.get("latest_release", {}).get("commit_sha")
+    else:
+        # Compare version sort keys
+        installed_key = installed.get("version_sort_key")
+        latest_key = latest.get("version_info", {}).get("version_sort_key")
+
+        if installed_key and latest_key:
+            return latest_key > installed_key
+
+        # Fallback to string comparison
+        return installed.get("version") != latest.get("latest_release", {}).get("version")
+```
+
+---
+
 ## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.4 | 2024-12-29 | Added `version_info` object with normalized versions, sort keys, and release channels |
 | 1.3 | 2024-12-29 | Added `install` object with explicit pipeline instructions |
 | 1.2 | 2024-12-29 | Added release types and packaging documentation |
 | 1.1 | 2024-12-28 | Added `source.path` for subdirectory addons |

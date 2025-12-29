@@ -95,6 +95,7 @@ def get_latest_tag(repo: str) -> dict | None:
 
         latest = tags[0]
         tag_name = latest["name"]
+        commit_sha = latest.get("commit", {}).get("sha")
 
         # Try to get commit date for the tag
         commit_url = latest.get("commit", {}).get("url")
@@ -113,9 +114,44 @@ def get_latest_tag(repo: str) -> dict | None:
             "download_url": f"https://github.com/{repo}/archive/refs/tags/{tag_name}.zip",
             "published_at": published_at,
             "release_notes": None,
+            "commit_sha": commit_sha,
         }
 
     except requests.RequestException:
+        return None
+
+
+def get_branch_info(repo: str, branch: str) -> dict | None:
+    """Fetch the latest commit info from a branch."""
+    url = f"https://api.github.com/repos/{repo}/commits/{branch}"
+
+    try:
+        resp = requests.get(url, headers=GITHUB_HEADERS, timeout=10)
+        if not resp.ok:
+            return None
+
+        data = resp.json()
+        commit = data.get("commit", {})
+        committer = commit.get("committer", {})
+        message = commit.get("message", "")
+
+        # Truncate message to first line or 100 chars
+        message_snippet = message.split("\n")[0][:100]
+        if len(message.split("\n")[0]) > 100:
+            message_snippet += "..."
+
+        return {
+            "version": data.get("sha", "")[:7],  # Short SHA as version
+            "download_url": f"https://github.com/{repo}/archive/refs/heads/{branch}.zip",
+            "published_at": committer.get("date"),
+            "release_notes": message_snippet,
+            "commit_sha": data.get("sha"),
+            "commit_date": committer.get("date"),
+            "commit_message": message_snippet,
+        }
+
+    except requests.RequestException as e:
+        print(f"  Error fetching branch info for {repo}/{branch}: {e}")
         return None
 
 
@@ -140,30 +176,53 @@ def poll_all_addons() -> dict:
         source = data["source"]
         repo = source.get("repo", "")
         release_type = source.get("release_type", "tag")
+        branch = source.get("branch", "main")
 
         if source.get("type") != "github":
             continue
 
         print(f"Checking: {slug} ({repo})")
 
-        release_info = get_latest_release(repo, release_type)
+        # Use branch info for branch-based addons
+        if release_type == "branch":
+            release_info = get_branch_info(repo, branch)
+        else:
+            release_info = get_latest_release(repo, release_type)
+
         if release_info:
             new_versions[slug] = release_info
 
-            # Check if version changed
-            old_version = old_versions.get(slug, {}).get("version")
-            new_version = release_info.get("version")
+            # For branch tracking, compare commit SHA instead of version
+            if release_type == "branch":
+                old_sha = old_versions.get(slug, {}).get("commit_sha")
+                new_sha = release_info.get("commit_sha")
 
-            if old_version and old_version != new_version:
-                updates.append({
-                    "slug": slug,
-                    "old_version": old_version,
-                    "new_version": new_version,
-                    "repo": repo,
-                })
-                print(f"  Updated: {old_version} -> {new_version}")
+                if old_sha and old_sha != new_sha:
+                    updates.append({
+                        "slug": slug,
+                        "old_version": old_sha[:7] if old_sha else None,
+                        "new_version": new_sha[:7] if new_sha else None,
+                        "repo": repo,
+                        "commit_message": release_info.get("commit_message"),
+                    })
+                    print(f"  Updated: {old_sha[:7] if old_sha else 'unknown'} -> {new_sha[:7] if new_sha else 'unknown'}")
+                else:
+                    print(f"  Current: {new_sha[:7] if new_sha else 'unknown'}")
             else:
-                print(f"  Current: {new_version}")
+                # Check if version changed for tag/release based
+                old_version = old_versions.get(slug, {}).get("version")
+                new_version = release_info.get("version")
+
+                if old_version and old_version != new_version:
+                    updates.append({
+                        "slug": slug,
+                        "old_version": old_version,
+                        "new_version": new_version,
+                        "repo": repo,
+                    })
+                    print(f"  Updated: {old_version} -> {new_version}")
+                else:
+                    print(f"  Current: {new_version}")
         else:
             print("  No release found")
 

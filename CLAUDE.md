@@ -175,9 +175,16 @@ The build script generates JSON with these fields:
     "excludes": [".*", ".github", "tests", "*.md", "*.yml", "*.yaml"]
   },
   "latest_release": {
-    "version": "1.0.0",
-    "download_url": "https://github.com/.../1.0.0.zip",
-    "published_at": "2024-12-01T12:00:00Z"
+    "version": "v1.3.0",
+    "download_url": "https://github.com/.../v1.3.0.zip",
+    "published_at": "2024-12-01T12:00:00Z",
+    "commit_sha": "abc123def456789..."
+  },
+  "version_info": {
+    "version_normalized": {"major": 1, "minor": 3, "patch": 0, "prerelease": null},
+    "version_sort_key": 1003000000,
+    "is_prerelease": false,
+    "release_channel": "stable"
   }
 }
 ```
@@ -189,6 +196,13 @@ The build script generates JSON with these fields:
   - `extract_path`: Subdirectory to extract (null = root)
   - `target_folder`: Folder name in AddOns/ (from `install_folder` > `path` > `name`)
   - `excludes`: Patterns for files to skip
+- `latest_release.commit_sha`: Full commit SHA for precise version tracking
+- `version_info`: Pre-computed version metadata for client convenience
+  - `version_normalized`: Parsed semver components (null if unparseable or branch-based)
+  - `version_sort_key`: Integer for simple version comparison
+  - `is_prerelease`: True if alpha/beta/rc/dev version
+  - `release_channel`: `stable` | `prerelease` | `branch`
+  - `commit_message`: First line of commit (branch-based addons only)
 
 ---
 
