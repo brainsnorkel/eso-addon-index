@@ -235,6 +235,18 @@
             gap: 5px;
         }
 
+        .addon-meta .date-toggle {
+            cursor: pointer;
+            border-radius: 3px;
+            padding: 1px 4px;
+            margin: -1px -4px;
+            transition: background-color 0.15s;
+        }
+
+        .addon-meta .date-toggle:hover {
+            background-color: var(--bg-darker);
+        }
+
         .addon-tags {
             display: flex;
             flex-wrap: wrap;
@@ -1075,6 +1087,29 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
             return years === 1 ? '1 year ago' : `${years} years ago`;
         }
 
+        // Format absolute date (e.g., "Dec 30, 2024")
+        function formatAbsoluteDate(isoDate) {
+            if (!isoDate) return null;
+            const date = new Date(isoDate);
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+
+        // Toggle between relative and absolute date display
+        function toggleDateFormat(element) {
+            const isoDate = element.dataset.date;
+            const isRelative = element.dataset.showRelative === 'true';
+
+            if (isRelative) {
+                element.innerHTML = `&#128197; ${formatAbsoluteDate(isoDate)}`;
+                element.dataset.showRelative = 'false';
+                element.title = 'Click to show relative time';
+            } else {
+                element.innerHTML = `&#128197; ${formatRelativeTime(isoDate)}`;
+                element.dataset.showRelative = 'true';
+                element.title = 'Click to show exact date';
+            }
+        }
+
         // Get version display string
         function getVersionDisplay(addon) {
             if (!addon.latest_release) return null;
@@ -1145,7 +1180,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
                     <p class="description">${addon.description}</p>
                     <div class="addon-meta">
                         <span title="Authors">&#128100; ${addon.authors.join(', ')}</span>
-                        ${lastUpdated ? `<span title="Last updated">&#128197; ${lastUpdated}</span>` : ''}
+                        ${lastUpdated ? `<span class="date-toggle" title="Click to show exact date" data-date="${addon.last_updated}" data-show-relative="true" onclick="toggleDateFormat(this)">&#128197; ${lastUpdated}</span>` : ''}
                     </div>
                     <div class="addon-tags">
                         ${addon.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
