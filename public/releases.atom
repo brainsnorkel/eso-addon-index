@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ESO Addon Index - Version Updates</title>
+  <subtitle>Track version updates for Elder Scrolls Online addons</subtitle>
+  <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
+  <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
+  <id>urn:eso-addon-index:releases</id>
+  <updated>2025-12-30T23:49:14.159717+00:00</updated>
+  <author>
+    <name>ESO Addon Index</name>
+    <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
+  </author>
+  <entry>
+    <id>urn:eso-addon-index:aui:86be8ca</id>
+    <title>Advanced UI updated: 86be8ca → 86be8ca</title>
+    <link href="https://github.com/Sensi2010/AUI" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>Advanced UI has been updated from version 86be8ca to 86be8ca.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:bandits-user-interface:v4.428</id>
+    <title>Bandits User Interface updated: v4.428 → v4.428</title>
+    <link href="https://github.com/secretrob/BanditsUserInterface" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>Bandits User Interface has been updated from version v4.428 to v4.428.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:beammeup:v3.7.4</id>
+    <title>BeamMeUp updated: v3.7.4 → v3.7.4</title>
+    <link href="https://github.com/david-tub/BeamMeUp" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>BeamMeUp has been updated from version v3.7.4 to v3.7.4.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:breadcrumbs:v1.2</id>
+    <title>Breadcrumbs updated: v1.2 → v1.2</title>
+    <link href="https://github.com/sheumais/Breadcrumbs" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>Breadcrumbs has been updated from version v1.2 to v1.2.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:bsjogroup:c3673ce</id>
+    <title>JoGroup updated: c3673ce → c3673ce</title>
+    <link href="https://github.com/brainsnorkel/BSJoGroup" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>JoGroup has been updated from version c3673ce to c3673ce.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:buffthegroup:51f8305</id>
+    <title>Buff The Group updated: 51f8305 → 51f8305</title>
+    <link href="https://github.com/Fostecks/BuffTheGroup" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>Buff The Group has been updated from version 51f8305 to 51f8305.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:combatmetrics:1.7.6</id>
+    <title>CombatMetrics updated: 1.7.6 → 1.7.6</title>
+    <link href="https://github.com/Solinur/CombatMetrics" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>CombatMetrics has been updated from version 1.7.6 to 1.7.6.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:db35267</id>
+    <title>CrutchAlerts updated: db35267 → db35267</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>CrutchAlerts has been updated from version db35267 to db35267.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:elmsmarkers:ba64653</id>
+    <title>ElmsMarkers updated: ba64653 → ba64653</title>
+    <link href="https://github.com/Fostecks/ElmsMarkers" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>ElmsMarkers has been updated from version ba64653 to ba64653.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:hodorreflexes:2025-12-17</id>
+    <title>HodorReflexes updated: 2025-12-17 → 2025-12-17</title>
+    <link href="https://github.com/m00nyONE/HodorReflexes" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>HodorReflexes has been updated from version 2025-12-17 to 2025-12-17.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:improveddeathrecap:1.0.0</id>
+    <title>ImprovedDeathRecap updated: 1.0.0 → 1.0.0</title>
+    <link href="https://github.com/Solinur/ImprovedDeathRecap" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>ImprovedDeathRecap has been updated from version 1.0.0 to 1.0.0.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libaddonmenu-2-0:r32</id>
+    <title>LibAddonMenu-2.0 updated: r32 → r32</title>
+    <link href="https://github.com/sirinsidiator/ESO-LibAddonMenu" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibAddonMenu-2.0 has been updated from version r32 to r32.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libasync:bdada44</id>
+    <title>LibAsync updated: bdada44 → bdada44</title>
+    <link href="https://github.com/DakJaniels/libasync" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibAsync has been updated from version bdada44 to bdada44.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libchatmessage:5dd0dd0</id>
+    <title>LibChatMessage updated: 5dd0dd0 → 5dd0dd0</title>
+    <link href="https://github.com/sirinsidiator/ESO-LibChatMessage" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibChatMessage has been updated from version 5dd0dd0 to 5dd0dd0.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcombat:v7</id>
+    <title>LibCombat updated: v7 → v7</title>
+    <link href="https://github.com/Solinur/LibCombat" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibCombat has been updated from version v7 to v7.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2025-12-28</id>
+    <title>LibCustomIcons updated: 2025-12-28 → 2025-12-28</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2025-12-28 to 2025-12-28.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustommenu:236bb8a</id>
+    <title>LibCustomMenu updated: 236bb8a → 236bb8a</title>
+    <link href="https://github.com/votan73/ESO" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibCustomMenu has been updated from version 236bb8a to 236bb8a.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2025-12-28</id>
+    <title>LibCustomNames updated: 2025-12-28 → 2025-12-28</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2025-12-28 to 2025-12-28.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libdebuglogger:f29c489</id>
+    <title>LibDebugLogger updated: f29c489 → f29c489</title>
+    <link href="https://github.com/sirinsidiator/ESO-LibDebugLogger" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibDebugLogger has been updated from version f29c489 to f29c489.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libgroupbroadcast:a17a794</id>
+    <title>LibGroupBroadcast updated: a17a794 → a17a794</title>
+    <link href="https://github.com/sirinsidiator/ESO-LibGroupBroadcast" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibGroupBroadcast has been updated from version a17a794 to a17a794.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libgroupcombatstats:2025.10.11</id>
+    <title>LibGroupCombatStats updated: 2025.10.11 → 2025.10.11</title>
+    <link href="https://github.com/m00nyONE/LibGroupCombatStats" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibGroupCombatStats has been updated from version 2025.10.11 to 2025.10.11.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libmediaprovider:r36</id>
+    <title>LibMediaProvider updated: r36 → r36</title>
+    <link href="https://github.com/calamath/LibMediaProvider" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibMediaProvider has been updated from version r36 to r36.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libsets:895488f</id>
+    <title>LibSets updated: 895488f → 895488f</title>
+    <link href="https://github.com/Baertram/LibSets" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LibSets has been updated from version 895488f to 895488f.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:luiextended:v7.1.0.7</id>
+    <title>LuiExtended updated: v7.1.0.7 → v7.1.0.7</title>
+    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>LuiExtended has been updated from version v7.1.0.7 to v7.1.0.7.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:m0rmarkers:v1.2.1</id>
+    <title>M0RMarkers updated: v1.2.1 → v1.2.1</title>
+    <link href="https://github.com/M0RGaming/M0RMarkers" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>M0RMarkers has been updated from version v1.2.1 to v1.2.1.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:odysupporticons:Version-1.13.1</id>
+    <title>OdySupportIcons updated: Version-1.13.1 → Version-1.13.1</title>
+    <link href="https://github.com/exoy94/OdySupportIcons" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>OdySupportIcons has been updated from version Version-1.13.1 to Version-1.13.1.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:pchat:758e83c</id>
+    <title>pChat updated: 758e83c → 758e83c</title>
+    <link href="https://github.com/Baertram/pChat" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>pChat has been updated from version 758e83c to 758e83c.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:synergypriority:993aca7</id>
+    <title>SynergyPriority updated: 993aca7 → 993aca7</title>
+    <link href="https://github.com/sheumais/synergypriority" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>SynergyPriority has been updated from version 993aca7 to 993aca7.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:untaunted:1.1.5</id>
+    <title>Untaunted updated: 1.1.5 → 1.1.5</title>
+    <link href="https://github.com/Solinur/Untaunted" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>Untaunted has been updated from version 1.1.5 to 1.1.5.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:warmask:v1.4.0</id>
+    <title>WarMask updated: v1.3.0 → v1.4.0</title>
+    <link href="https://github.com/brainsnorkel/WarMask" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>WarMask has been updated from version v1.3.0 to v1.4.0.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:wizards-wardrobe:v1.18.2</id>
+    <title>Wizard&apos;s Wardrobe updated: v1.18.2 → v1.18.2</title>
+    <link href="https://github.com/nicokimmel/wizardswardrobe" rel="alternate"/>
+    <updated>2025-12-30T23:47:08.993712+00:00</updated>
+    <summary>Wizard&apos;s Wardrobe has been updated from version v1.18.2 to v1.18.2.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+</feed>

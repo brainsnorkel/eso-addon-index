@@ -133,10 +133,10 @@
     },
     {
       "id": "crutchalerts",
-      "title": "CrutchAlerts db35267",
+      "title": "CrutchAlerts",
       "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "date_published": "2025-12-29T09:59:57Z",
-      "date_modified": "2025-12-29T09:59:57Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "Kyzeragon"
@@ -154,10 +154,10 @@
     },
     {
       "id": "elmsmarkers",
-      "title": "ElmsMarkers ba64653",
+      "title": "ElmsMarkers",
       "url": "https://github.com/Fostecks/ElmsMarkers",
-      "date_published": "2023-09-16T08:06:55Z",
-      "date_modified": "2023-09-16T08:06:55Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "bitrock"
@@ -171,10 +171,10 @@
     },
     {
       "id": "hodorreflexes",
-      "title": "HodorReflexes 2025-12-17",
+      "title": "HodorReflexes",
       "url": "https://github.com/m00nyONE/HodorReflexes",
-      "date_published": "2025-12-17T12:34:40Z",
-      "date_modified": "2025-12-17T12:34:40Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "andy.s"
@@ -194,10 +194,10 @@
     },
     {
       "id": "improveddeathrecap",
-      "title": "ImprovedDeathRecap 1.0.0",
+      "title": "ImprovedDeathRecap",
       "url": "https://github.com/Solinur/ImprovedDeathRecap",
-      "date_published": "2025-02-22T15:21:06Z",
-      "date_modified": "2025-02-22T15:21:06Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "Solinur"
@@ -242,10 +242,10 @@
     },
     {
       "id": "libaddonmenu-2-0",
-      "title": "LibAddonMenu-2.0 r32",
+      "title": "LibAddonMenu-2.0",
       "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu",
-      "date_published": "2020-12-17T20:09:33Z",
-      "date_modified": "2020-12-17T20:09:33Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "sirinsidiator"
@@ -263,10 +263,10 @@
     },
     {
       "id": "libasync",
-      "title": "LibAsync bdada44",
+      "title": "LibAsync",
       "url": "https://github.com/DakJaniels/libasync",
-      "date_published": "2025-12-11T01:38:23Z",
-      "date_modified": "2025-12-11T01:38:23Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "votan"
@@ -287,10 +287,10 @@
     },
     {
       "id": "libchatmessage",
-      "title": "LibChatMessage 5dd0dd0",
+      "title": "LibChatMessage",
       "url": "https://github.com/sirinsidiator/ESO-LibChatMessage",
-      "date_published": "2021-01-23T13:37:19Z",
-      "date_modified": "2021-01-23T13:37:19Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "sirinsidiator"
@@ -305,10 +305,10 @@
     },
     {
       "id": "libcombat",
-      "title": "LibCombat v7",
+      "title": "LibCombat",
       "url": "https://github.com/Solinur/LibCombat",
-      "date_published": "2025-10-08T21:24:22Z",
-      "date_modified": "2025-10-08T21:24:22Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "Solinur"
@@ -323,10 +323,10 @@
     },
     {
       "id": "libcustomicons",
-      "title": "LibCustomIcons 2025-12-28",
+      "title": "LibCustomIcons",
       "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "date_published": "2025-12-28T22:34:38Z",
-      "date_modified": "2025-12-28T22:34:38Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "m00nyONE"
@@ -344,10 +344,10 @@
     },
     {
       "id": "libcustommenu",
-      "title": "LibCustomMenu 236bb8a",
+      "title": "LibCustomMenu",
       "url": "https://github.com/votan73/ESO",
-      "date_published": "2025-12-29T14:56:52Z",
-      "date_modified": "2025-12-29T14:56:52Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "votan"
@@ -362,10 +362,10 @@
     },
     {
       "id": "libcustomnames",
-      "title": "LibCustomNames 2025-12-28",
+      "title": "LibCustomNames",
       "url": "https://github.com/m00nyONE/LibCustomNames",
-      "date_published": "2025-12-28T22:34:38Z",
-      "date_modified": "2025-12-28T22:34:38Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "m00nyONE"
@@ -383,10 +383,10 @@
     },
     {
       "id": "libdebuglogger",
-      "title": "LibDebugLogger f29c489",
+      "title": "LibDebugLogger",
       "url": "https://github.com/sirinsidiator/ESO-LibDebugLogger",
-      "date_published": "2025-05-01T18:03:17Z",
-      "date_modified": "2025-05-01T18:03:17Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "sirinsidiator"
@@ -401,10 +401,10 @@
     },
     {
       "id": "libgroupbroadcast",
-      "title": "LibGroupBroadcast a17a794",
+      "title": "LibGroupBroadcast",
       "url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast",
-      "date_published": "2025-05-03T14:08:58Z",
-      "date_modified": "2025-05-03T14:08:58Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "sirinsidiator"
@@ -420,10 +420,10 @@
     },
     {
       "id": "libgroupcombatstats",
-      "title": "LibGroupCombatStats 2025.10.11",
+      "title": "LibGroupCombatStats",
       "url": "https://github.com/m00nyONE/LibGroupCombatStats",
-      "date_published": "2025-10-11T16:43:24Z",
-      "date_modified": "2025-10-11T16:43:24Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "m00nyONE"
@@ -440,10 +440,10 @@
     },
     {
       "id": "libmediaprovider",
-      "title": "LibMediaProvider r36",
+      "title": "LibMediaProvider",
       "url": "https://github.com/calamath/LibMediaProvider",
-      "date_published": "2025-10-16T09:19:31Z",
-      "date_modified": "2025-10-16T09:19:31Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "Seerah"
@@ -466,10 +466,10 @@
     },
     {
       "id": "libsets",
-      "title": "LibSets 895488f",
+      "title": "LibSets",
       "url": "https://github.com/Baertram/LibSets",
-      "date_published": "2025-12-01T21:34:33Z",
-      "date_modified": "2025-12-01T21:34:33Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "Baertram"
@@ -485,10 +485,10 @@
     },
     {
       "id": "luiextended",
-      "title": "LuiExtended v7.1.0.7",
+      "title": "LuiExtended",
       "url": "https://github.com/DakJaniels/LuiExtended",
-      "date_published": "2025-11-10T16:59:06Z",
-      "date_modified": "2025-11-10T16:59:06Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "ArtOfShred"
@@ -517,10 +517,10 @@
     },
     {
       "id": "m0rmarkers",
-      "title": "M0RMarkers v1.2.1",
+      "title": "M0RMarkers",
       "url": "https://github.com/M0RGaming/M0RMarkers",
-      "date_published": "2025-11-07T19:19:34Z",
-      "date_modified": "2025-11-07T19:19:34Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "M0R_Gaming"
@@ -536,10 +536,10 @@
     },
     {
       "id": "odysupporticons",
-      "title": "OdySupportIcons Version-1.13.1",
+      "title": "OdySupportIcons",
       "url": "https://github.com/exoy94/OdySupportIcons",
-      "date_published": "2025-03-16T15:50:45Z",
-      "date_modified": "2025-03-16T15:50:45Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "Lamierina7"
@@ -559,10 +559,10 @@
     },
     {
       "id": "pchat",
-      "title": "pChat 758e83c",
+      "title": "pChat",
       "url": "https://github.com/Baertram/pChat",
-      "date_published": "2025-11-28T00:50:08Z",
-      "date_modified": "2025-11-28T00:50:08Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "Ayantir"
@@ -584,10 +584,10 @@
     },
     {
       "id": "synergypriority",
-      "title": "SynergyPriority 993aca7",
+      "title": "SynergyPriority",
       "url": "https://github.com/sheumais/synergypriority",
-      "date_published": "2025-10-30T18:15:54Z",
-      "date_modified": "2025-10-30T18:15:54Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "TheMrPancake"
@@ -606,10 +606,10 @@
     },
     {
       "id": "untaunted",
-      "title": "Untaunted 1.1.5",
+      "title": "Untaunted",
       "url": "https://github.com/Solinur/Untaunted",
-      "date_published": "2023-10-12T21:06:05Z",
-      "date_modified": "2023-10-12T21:06:05Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "Solinur"
@@ -626,10 +626,10 @@
     },
     {
       "id": "warmask",
-      "title": "WarMask v1.3.0",
+      "title": "WarMask",
       "url": "https://github.com/brainsnorkel/WarMask",
-      "date_published": "2025-12-22T19:49:33Z",
-      "date_modified": "2025-12-22T19:49:33Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "brainsnorkel"
@@ -644,10 +644,10 @@
     },
     {
       "id": "wizards-wardrobe",
-      "title": "Wizard's Wardrobe v1.18.2",
+      "title": "Wizard's Wardrobe",
       "url": "https://github.com/nicokimmel/wizardswardrobe",
-      "date_published": "2024-05-15T13:50:16Z",
-      "date_modified": "2024-05-15T13:50:16Z",
+      "date_published": null,
+      "date_modified": "2025-12-30T23:49:14.159717+00:00",
       "authors": [
         {
           "name": "ownedbynico"

@@ -208,6 +208,13 @@
             border-radius: 4px;
             color: var(--text-muted);
             white-space: nowrap;
+            cursor: pointer;
+            transition: background-color 0.15s, color 0.15s;
+        }
+
+        .version-badge:hover {
+            background: var(--primary);
+            color: var(--bg-dark);
         }
 
         .addon-card .description {
@@ -628,6 +635,162 @@
             background: var(--bg-darker);
             transform: translateY(-1px);
         }
+
+        /* Version History Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            animation: modalSlideIn 0.2s ease-out;
+        }
+
+        @keyframes modalSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .modal-header h3 {
+            color: var(--primary);
+            margin: 0;
+            font-size: 1.25rem;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0;
+            line-height: 1;
+            transition: color 0.15s;
+        }
+
+        .modal-close:hover {
+            color: var(--text);
+        }
+
+        .modal-body {
+            padding: 20px;
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+
+        .version-history-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .version-history-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .version-history-item:last-child {
+            border-bottom: none;
+        }
+
+        .version-history-item:first-child {
+            background: rgba(201, 162, 39, 0.1);
+            margin: -12px -20px 0;
+            padding: 12px 20px;
+            border-radius: 0;
+        }
+
+        .version-info {
+            flex: 1;
+        }
+
+        .version-number {
+            font-weight: 600;
+            color: var(--text);
+            font-size: 1rem;
+        }
+
+        .version-history-item:first-child .version-number {
+            color: var(--primary);
+        }
+
+        .version-dates {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .version-dates span {
+            display: block;
+        }
+
+        .current-badge {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            background: var(--primary);
+            color: var(--bg-dark);
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .no-history {
+            text-align: center;
+            color: var(--text-muted);
+            padding: 20px;
+        }
+
+        .modal-footer {
+            padding: 15px 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+
+        .modal-footer a {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .modal-footer a:hover {
+            color: var(--primary);
+        }
     </style>
 </head>
 <body>
@@ -782,6 +945,16 @@ for each addon.compatibility.required_dependencies:
                     <h4>Minified Index</h4>
                     <p>Smaller payload for production use</p>
                     <code>https://xop.co/eso-addon-index/index.min.json</code>
+                </div>
+                <div class="endpoint-card">
+                    <h4>Version History</h4>
+                    <p>Historical versions for all addons</p>
+                    <code>https://xop.co/eso-addon-index/version-history.json</code>
+                </div>
+                <div class="endpoint-card">
+                    <h4>Atom Feed</h4>
+                    <p>RSS/Atom feed of version updates</p>
+                    <code>https://xop.co/eso-addon-index/releases.atom</code>
                 </div>
                 <div class="endpoint-card">
                     <h4>JSON Feed</h4>
@@ -1059,9 +1232,28 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
         </div>
     </footer>
 
+    <!-- Version History Modal -->
+    <div class="modal-overlay" id="version-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="modal-title">Version History</h3>
+                <button class="modal-close" onclick="closeVersionModal()" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul class="version-history-list" id="version-history-list">
+                    <li class="no-history">Loading...</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <a href="releases.atom" target="_blank" rel="noopener">&#128276; Subscribe to version updates (Atom feed)</a>
+            </div>
+        </div>
+    </div>
+
     <script>
         // Addon data storage
         let addons = [];
+        let versionHistory = {};
 
         // Format relative time (e.g., "3 days ago", "2 months ago")
         function formatRelativeTime(isoDate) {
@@ -1124,9 +1316,20 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
         // Fetch and render addons
         async function loadAddons() {
             try {
-                const response = await fetch('index.json');
-                const data = await response.json();
+                // Load index and version history in parallel
+                const [indexResponse, historyResponse] = await Promise.all([
+                    fetch('index.json'),
+                    fetch('version-history.json').catch(() => null)
+                ]);
+
+                const data = await indexResponse.json();
                 addons = data.addons;
+
+                // Load version history if available
+                if (historyResponse && historyResponse.ok) {
+                    const historyData = await historyResponse.json();
+                    versionHistory = historyData.addons || {};
+                }
 
                 // Update stats
                 document.getElementById('addon-count').textContent = data.addon_count;
@@ -1175,7 +1378,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
                 <div class="addon-card">
                     <h3>
                         <a href="${addon.url}" target="_blank" rel="noopener">${addon.name}</a>
-                        ${version ? `<span class="version-badge" title="${isBranch ? 'Commit SHA' : 'Version'}">${isBranch ? '&#128279;' : ''} ${version}</span>` : ''}
+                        ${version ? `<span class="version-badge" title="Click to view version history" onclick="showVersionHistory('${addon.slug}', '${addon.name.replace(/'/g, "\\'")}'); event.stopPropagation();">${isBranch ? '&#128279;' : ''} ${version}</span>` : ''}
                     </h3>
                     <p class="description">${addon.description}</p>
                     <div class="addon-meta">
@@ -1217,6 +1420,78 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
 
         // Load addons on page load
         loadAddons();
+
+        // Version History Modal Functions
+        function showVersionHistory(slug, name) {
+            const modal = document.getElementById('version-modal');
+            const title = document.getElementById('modal-title');
+            const list = document.getElementById('version-history-list');
+
+            title.textContent = `${name} - Version History`;
+
+            const history = versionHistory[slug] || [];
+
+            if (history.length === 0) {
+                // No history yet - show current version from addon data
+                const addon = addons.find(a => a.slug === slug);
+                if (addon && addon.latest_release) {
+                    const release = addon.latest_release;
+                    list.innerHTML = `
+                        <li class="version-history-item">
+                            <div class="version-info">
+                                <div class="version-number">${release.version}</div>
+                                <div class="version-dates">
+                                    ${release.published_at ? `<span>Released: ${formatAbsoluteDate(release.published_at)}</span>` : ''}
+                                </div>
+                            </div>
+                            <span class="current-badge">Current</span>
+                        </li>
+                        <li class="no-history" style="border-top: 1px solid var(--border); margin-top: 12px; padding-top: 12px;">
+                            Version history tracking started recently.<br>
+                            Future updates will appear here.
+                        </li>
+                    `;
+                } else {
+                    list.innerHTML = '<li class="no-history">No version information available.</li>';
+                }
+            } else {
+                list.innerHTML = history.map((entry, index) => `
+                    <li class="version-history-item">
+                        <div class="version-info">
+                            <div class="version-number">${entry.version}</div>
+                            <div class="version-dates">
+                                ${entry.published_at ? `<span>Released: ${formatAbsoluteDate(entry.published_at)}</span>` : ''}
+                                <span>Detected: ${formatAbsoluteDate(entry.detected_at)}</span>
+                            </div>
+                        </div>
+                        ${index === 0 ? '<span class="current-badge">Current</span>' : ''}
+                    </li>
+                `).join('');
+            }
+
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeVersionModal() {
+            const modal = document.getElementById('version-modal');
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Close modal on overlay click
+        document.getElementById('version-modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeVersionModal();
+            }
+        });
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeVersionModal();
+            }
+        });
     </script>
 </body>
 </html>

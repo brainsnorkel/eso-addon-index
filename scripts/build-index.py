@@ -18,6 +18,7 @@ except ImportError:
 OUTPUT_DIR = Path("public")
 ADDONS_DIR = Path("addons")
 PREVIOUS_INDEX_PATH = OUTPUT_DIR / "index.json"
+VERSION_HISTORY_PATH = OUTPUT_DIR / "version-history.json"
 
 # GitHub API headers
 GITHUB_HEADERS = {}
@@ -155,6 +156,89 @@ def load_previous_index() -> dict:
     except Exception as e:
         print(f"Warning: Failed to load previous index: {e}")
         return {}
+
+
+def load_version_history() -> dict:
+    """Load the existing version history if it exists.
+
+    Returns a dict mapping slug -> list of version entries.
+    Each version entry contains: version, published_at, detected_at, commit_sha
+    """
+    if not VERSION_HISTORY_PATH.exists():
+        return {}
+
+    try:
+        with open(VERSION_HISTORY_PATH) as f:
+            data = json.load(f)
+        return data.get("addons", {})
+    except Exception as e:
+        print(f"Warning: Failed to load version history: {e}")
+        return {}
+
+
+def update_version_history(
+    history: dict,
+    slug: str,
+    current_entry: dict,
+    previous_entry: dict | None,
+    now: str,
+) -> list[dict]:
+    """Update version history for an addon and return any new version events.
+
+    Returns a list of version change events (for the Atom feed).
+    """
+    events = []
+
+    # Get or create history for this addon
+    addon_history = history.get(slug, [])
+
+    # Get current version info
+    release = current_entry.get("latest_release")
+    if not release:
+        return events
+
+    current_version = release.get("version")
+    current_sha = release.get("commit_sha")
+    published_at = release.get("published_at")
+
+    if not current_version:
+        return events
+
+    # Check if this version already exists in history
+    existing_versions = {h.get("version"): h for h in addon_history}
+
+    if current_version not in existing_versions:
+        # New version detected
+        new_entry = {
+            "version": current_version,
+            "published_at": published_at,
+            "detected_at": now,
+            "commit_sha": current_sha,
+        }
+        addon_history.insert(0, new_entry)  # Most recent first
+
+        # Create event for Atom feed
+        previous_version = None
+        if previous_entry and previous_entry.get("latest_release"):
+            previous_version = previous_entry["latest_release"].get("version")
+
+        # Only create an event if this is a genuine new version (not just initializing history)
+        # Skip if the old and new versions are the same
+        if previous_version != current_version:
+            events.append({
+                "slug": slug,
+                "name": current_entry.get("name", slug),
+                "url": current_entry.get("url", ""),
+                "old_version": previous_version,
+                "new_version": current_version,
+                "published_at": published_at,
+                "detected_at": now,
+            })
+
+    # Update history
+    history[slug] = addon_history
+
+    return events
 
 
 def has_addon_changed(current: dict, previous: dict) -> tuple[bool, str]:
@@ -543,12 +627,26 @@ def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
     return entry
 
 
-def build_index(fetch_releases: bool = True) -> dict:
-    """Build the complete addon index."""
+def build_index(fetch_releases: bool = True) -> tuple[dict, dict, list[dict]]:
+    """Build the complete addon index.
+
+    Returns:
+        tuple: (index_data, version_history, version_events)
+        - index_data: The main index.json structure
+        - version_history: Updated version history for all addons
+        - version_events: List of version change events for Atom feed
+    """
     addons = []
 
     # Load previous index for last_updated comparison
     previous_index = load_previous_index()
+
+    # Load existing version history
+    version_history = load_version_history()
+
+    # Track version change events for Atom feed
+    all_version_events = []
+
     now = datetime.now(timezone.utc).isoformat()
 
     for toml_path in sorted(ADDONS_DIR.glob("*/addon.toml")):
@@ -570,14 +668,22 @@ def build_index(fetch_releases: bool = True) -> dict:
         previous_entry = previous_index.get(slug)
         entry["last_updated"] = compute_last_updated(entry, previous_entry, now)
 
+        # Update version history and collect events
+        events = update_version_history(
+            version_history, slug, entry, previous_entry, now
+        )
+        all_version_events.extend(events)
+
         addons.append(entry)
 
-    return {
+    index_data = {
         "version": "1.0",
         "generated_at": now,
         "addon_count": len(addons),
         "addons": sorted(addons, key=lambda x: x["name"].lower()),
     }
+
+    return index_data, version_history, all_version_events
 
 
 def build_json_feed(index: dict) -> dict:
@@ -606,6 +712,79 @@ def build_json_feed(index: dict) -> dict:
         "feed_url": "https://xop.co/eso-addon-index/feed.json",
         "items": items,
     }
+
+
+def build_atom_feed(version_events: list[dict], generated_at: str) -> str:
+    """Build an Atom feed (XML) for version change events.
+
+    This feed is useful for RSS readers and notification systems that want
+    to track addon updates.
+    """
+    # XML escape helper
+    def escape(s: str | None) -> str:
+        if s is None:
+            return ""
+        return (
+            str(s)
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace('"', "&quot;")
+            .replace("'", "&apos;")
+        )
+
+    entries = []
+    for event in version_events:
+        slug = escape(event.get("slug", ""))
+        name = escape(event.get("name", slug))
+        url = escape(event.get("url", ""))
+        old_version = event.get("old_version")
+        new_version = escape(event.get("new_version", ""))
+        detected_at = event.get("detected_at", generated_at)
+
+        # Build title
+        if old_version:
+            title = f"{name} updated: {escape(old_version)} → {new_version}"
+        else:
+            title = f"{name} added: {new_version}"
+
+        # Build summary
+        if old_version:
+            summary = f"{name} has been updated from version {escape(old_version)} to {new_version}."
+        else:
+            summary = f"{name} version {new_version} has been added to the index."
+
+        # Create unique ID for this event
+        entry_id = f"urn:eso-addon-index:{slug}:{new_version}"
+
+        entries.append(f"""  <entry>
+    <id>{entry_id}</id>
+    <title>{title}</title>
+    <link href="{url}" rel="alternate"/>
+    <updated>{detected_at}</updated>
+    <summary>{summary}</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>""")
+
+    entries_xml = "\n".join(entries) if entries else ""
+
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ESO Addon Index - Version Updates</title>
+  <subtitle>Track version updates for Elder Scrolls Online addons</subtitle>
+  <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
+  <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
+  <id>urn:eso-addon-index:releases</id>
+  <updated>{generated_at}</updated>
+  <author>
+    <name>ESO Addon Index</name>
+    <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
+  </author>
+{entries_xml}
+</feed>
+"""
 
 
 def build_missing_dependencies_feed(index: dict) -> dict:
@@ -681,6 +860,24 @@ def build_missing_dependencies_feed(index: dict) -> dict:
     }
 
 
+def load_existing_atom_events(output_dir: Path) -> list[dict]:
+    """Load existing version events from releases-history.json if it exists.
+
+    This preserves historical events for the Atom feed across builds.
+    """
+    history_path = output_dir / "releases-history.json"
+    if not history_path.exists():
+        return []
+
+    try:
+        with open(history_path) as f:
+            data = json.load(f)
+        return data.get("events", [])
+    except Exception as e:
+        print(f"Warning: Failed to load existing Atom events: {e}")
+        return []
+
+
 def main():
     """Main entry point."""
     import argparse
@@ -705,8 +902,10 @@ def main():
     print("Building addon index...")
     print()
 
-    # Build main index
-    index = build_index(fetch_releases=not args.no_releases)
+    # Build main index (now returns version history and events too)
+    index, version_history, new_version_events = build_index(
+        fetch_releases=not args.no_releases
+    )
 
     # Write full index
     index_path = output_dir / "index.json"
@@ -719,6 +918,52 @@ def main():
     with open(min_path, "w") as f:
         json.dump(index, f, separators=(",", ":"))
     print(f"Wrote: {min_path}")
+
+    # Write version history
+    version_history_data = {
+        "version": "1.0",
+        "generated_at": index["generated_at"],
+        "description": "Version history for all addons in the index",
+        "addons": version_history,
+    }
+    version_history_path = output_dir / "version-history.json"
+    with open(version_history_path, "w") as f:
+        json.dump(version_history_data, f, indent=2)
+    print(f"Wrote: {version_history_path}")
+
+    # Load existing Atom events and merge with new ones
+    existing_events = load_existing_atom_events(output_dir)
+
+    # Deduplicate events by (slug, version) - keep the earliest detection
+    seen_events = {}
+    for event in existing_events + new_version_events:
+        key = (event.get("slug"), event.get("new_version"))
+        if key not in seen_events:
+            seen_events[key] = event
+
+    # Sort by detected_at descending (newest first), limit to 100 entries
+    all_events = sorted(
+        seen_events.values(),
+        key=lambda x: x.get("detected_at", ""),
+        reverse=True,
+    )[:100]
+
+    # Save events history for future builds
+    events_history_path = output_dir / "releases-history.json"
+    with open(events_history_path, "w") as f:
+        json.dump({
+            "version": "1.0",
+            "generated_at": index["generated_at"],
+            "events": all_events,
+        }, f, indent=2)
+    print(f"Wrote: {events_history_path}")
+
+    # Write Atom feed
+    atom_feed = build_atom_feed(all_events, index["generated_at"])
+    atom_path = output_dir / "releases.atom"
+    with open(atom_path, "w", encoding="utf-8") as f:
+        f.write(atom_feed)
+    print(f"Wrote: {atom_path}")
 
     # Write JSON Feed
     feed = build_json_feed(index)
@@ -736,6 +981,8 @@ def main():
 
     print()
     print(f"Built index with {index['addon_count']} addon(s)")
+    if new_version_events:
+        print(f"Detected {len(new_version_events)} new version update(s)")
     if missing_deps["missing_count"] > 0:
         print(f"Found {missing_deps['missing_count']} missing dependency(s)")
 

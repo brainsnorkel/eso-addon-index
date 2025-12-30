@@ -1,0 +1,285 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-12-30T23:49:14.159717+00:00",
+  "events": [
+    {
+      "slug": "aui",
+      "name": "Advanced UI",
+      "url": "https://github.com/Sensi2010/AUI",
+      "old_version": "86be8ca",
+      "new_version": "86be8ca",
+      "published_at": "2024-10-19T10:16:13Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "bandits-user-interface",
+      "name": "Bandits User Interface",
+      "url": "https://github.com/secretrob/BanditsUserInterface",
+      "old_version": "v4.428",
+      "new_version": "v4.428",
+      "published_at": "2025-04-16T23:36:06Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "beammeup",
+      "name": "BeamMeUp",
+      "url": "https://github.com/david-tub/BeamMeUp",
+      "old_version": "v3.7.4",
+      "new_version": "v3.7.4",
+      "published_at": "2025-12-14T17:34:22Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "url": "https://github.com/sheumais/Breadcrumbs",
+      "old_version": "v1.2",
+      "new_version": "v1.2",
+      "published_at": "2024-11-24T08:54:56Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "bsjogroup",
+      "name": "JoGroup",
+      "url": "https://github.com/brainsnorkel/BSJoGroup",
+      "old_version": "c3673ce",
+      "new_version": "c3673ce",
+      "published_at": "2024-02-07T10:16:12Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "buffthegroup",
+      "name": "Buff The Group",
+      "url": "https://github.com/Fostecks/BuffTheGroup",
+      "old_version": "51f8305",
+      "new_version": "51f8305",
+      "published_at": "2023-09-20T20:50:33Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "combatmetrics",
+      "name": "CombatMetrics",
+      "url": "https://github.com/Solinur/CombatMetrics",
+      "old_version": "1.7.6",
+      "new_version": "1.7.6",
+      "published_at": "2025-12-29T12:11:58Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "db35267",
+      "new_version": "db35267",
+      "published_at": "2025-12-29T09:59:57Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "elmsmarkers",
+      "name": "ElmsMarkers",
+      "url": "https://github.com/Fostecks/ElmsMarkers",
+      "old_version": "ba64653",
+      "new_version": "ba64653",
+      "published_at": "2023-09-16T08:06:55Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "hodorreflexes",
+      "name": "HodorReflexes",
+      "url": "https://github.com/m00nyONE/HodorReflexes",
+      "old_version": "2025-12-17",
+      "new_version": "2025-12-17",
+      "published_at": "2025-12-17T12:34:40Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "improveddeathrecap",
+      "name": "ImprovedDeathRecap",
+      "url": "https://github.com/Solinur/ImprovedDeathRecap",
+      "old_version": "1.0.0",
+      "new_version": "1.0.0",
+      "published_at": "2025-02-22T15:21:06Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libaddonmenu-2-0",
+      "name": "LibAddonMenu-2.0",
+      "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu",
+      "old_version": "r32",
+      "new_version": "r32",
+      "published_at": "2020-12-17T20:09:33Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libasync",
+      "name": "LibAsync",
+      "url": "https://github.com/DakJaniels/libasync",
+      "old_version": "bdada44",
+      "new_version": "bdada44",
+      "published_at": "2025-12-11T01:38:23Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libchatmessage",
+      "name": "LibChatMessage",
+      "url": "https://github.com/sirinsidiator/ESO-LibChatMessage",
+      "old_version": "5dd0dd0",
+      "new_version": "5dd0dd0",
+      "published_at": "2021-01-23T13:37:19Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libcombat",
+      "name": "LibCombat",
+      "url": "https://github.com/Solinur/LibCombat",
+      "old_version": "v7",
+      "new_version": "v7",
+      "published_at": "2025-10-08T21:24:22Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2025-12-28",
+      "new_version": "2025-12-28",
+      "published_at": "2025-12-28T22:34:38Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libcustommenu",
+      "name": "LibCustomMenu",
+      "url": "https://github.com/votan73/ESO",
+      "old_version": "236bb8a",
+      "new_version": "236bb8a",
+      "published_at": "2025-12-29T14:56:52Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2025-12-28",
+      "new_version": "2025-12-28",
+      "published_at": "2025-12-28T22:34:38Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libdebuglogger",
+      "name": "LibDebugLogger",
+      "url": "https://github.com/sirinsidiator/ESO-LibDebugLogger",
+      "old_version": "f29c489",
+      "new_version": "f29c489",
+      "published_at": "2025-05-01T18:03:17Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libgroupbroadcast",
+      "name": "LibGroupBroadcast",
+      "url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast",
+      "old_version": "a17a794",
+      "new_version": "a17a794",
+      "published_at": "2025-05-03T14:08:58Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libgroupcombatstats",
+      "name": "LibGroupCombatStats",
+      "url": "https://github.com/m00nyONE/LibGroupCombatStats",
+      "old_version": "2025.10.11",
+      "new_version": "2025.10.11",
+      "published_at": "2025-10-11T16:43:24Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libmediaprovider",
+      "name": "LibMediaProvider",
+      "url": "https://github.com/calamath/LibMediaProvider",
+      "old_version": "r36",
+      "new_version": "r36",
+      "published_at": "2025-10-16T09:19:31Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "libsets",
+      "name": "LibSets",
+      "url": "https://github.com/Baertram/LibSets",
+      "old_version": "895488f",
+      "new_version": "895488f",
+      "published_at": "2025-12-01T21:34:33Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.1.0.7",
+      "new_version": "v7.1.0.7",
+      "published_at": "2025-11-10T16:59:06Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "old_version": "v1.2.1",
+      "new_version": "v1.2.1",
+      "published_at": "2025-11-07T19:19:34Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "odysupporticons",
+      "name": "OdySupportIcons",
+      "url": "https://github.com/exoy94/OdySupportIcons",
+      "old_version": "Version-1.13.1",
+      "new_version": "Version-1.13.1",
+      "published_at": "2025-03-16T15:50:45Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "pchat",
+      "name": "pChat",
+      "url": "https://github.com/Baertram/pChat",
+      "old_version": "758e83c",
+      "new_version": "758e83c",
+      "published_at": "2025-11-28T00:50:08Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "synergypriority",
+      "name": "SynergyPriority",
+      "url": "https://github.com/sheumais/synergypriority",
+      "old_version": "993aca7",
+      "new_version": "993aca7",
+      "published_at": "2025-10-30T18:15:54Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "untaunted",
+      "name": "Untaunted",
+      "url": "https://github.com/Solinur/Untaunted",
+      "old_version": "1.1.5",
+      "new_version": "1.1.5",
+      "published_at": "2023-10-12T21:06:05Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "warmask",
+      "name": "WarMask",
+      "url": "https://github.com/brainsnorkel/WarMask",
+      "old_version": "v1.3.0",
+      "new_version": "v1.4.0",
+      "published_at": "2025-12-30T20:44:30Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    },
+    {
+      "slug": "wizards-wardrobe",
+      "name": "Wizard's Wardrobe",
+      "url": "https://github.com/nicokimmel/wizardswardrobe",
+      "old_version": "v1.18.2",
+      "new_version": "v1.18.2",
+      "published_at": "2024-05-15T13:50:16Z",
+      "detected_at": "2025-12-30T23:47:08.993712+00:00"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-12-30T23:49:14.159717+00:00",
+  "description": "Version history for all addons in the index",
+  "addons": {
+    "aui": [
+      {
+        "version": "86be8ca",
+        "published_at": "2024-10-19T10:16:13Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "86be8cafbb635e2501484f80390a86f89e887ba7"
+      }
+    ],
+    "bandits-user-interface": [
+      {
+        "version": "v4.428",
+        "published_at": "2025-04-16T23:36:06Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
+      }
+    ],
+    "beammeup": [
+      {
+        "version": "v3.7.4",
+        "published_at": "2025-12-14T17:34:22Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "ab5d79f8b841805b1926e5f82862284f1f19435d"
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "version": "v1.2",
+        "published_at": "2024-11-24T08:54:56Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "1081914e8340c5fa4f3a6890f438d893417c7600"
+      }
+    ],
+    "bsjogroup": [
+      {
+        "version": "c3673ce",
+        "published_at": "2024-02-07T10:16:12Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "c3673ce0e6063436830cafbf4948a626d42f2a13"
+      }
+    ],
+    "buffthegroup": [
+      {
+        "version": "51f8305",
+        "published_at": "2023-09-20T20:50:33Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "51f8305a75019abf0102874d85e7aa5a9dce0bd9"
+      }
+    ],
+    "combatmetrics": [
+      {
+        "version": "1.7.6",
+        "published_at": "2025-12-29T12:11:58Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "7895914634567c337adb1288e748681a9538bb2e"
+      }
+    ],
+    "crutchalerts": [
+      {
+        "version": "db35267",
+        "published_at": "2025-12-29T09:59:57Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "db352676e0976ed42fb8d8089797514b83d54932"
+      }
+    ],
+    "elmsmarkers": [
+      {
+        "version": "ba64653",
+        "published_at": "2023-09-16T08:06:55Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "ba646530f00a6523a929fe065cf9951700d4e70e"
+      }
+    ],
+    "hodorreflexes": [
+      {
+        "version": "2025-12-17",
+        "published_at": "2025-12-17T12:34:40Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "aba7a5182119498f27dffa6e02a0e321f0a52cd4"
+      }
+    ],
+    "improveddeathrecap": [
+      {
+        "version": "1.0.0",
+        "published_at": "2025-02-22T15:21:06Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "ef01bfe6b88216f862320b98a283abf6e2d0f462"
+      }
+    ],
+    "libaddonmenu-2-0": [
+      {
+        "version": "r32",
+        "published_at": "2020-12-17T20:09:33Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "dcf47510012d269531b7554620199e36bf3dafcd"
+      }
+    ],
+    "libasync": [
+      {
+        "version": "bdada44",
+        "published_at": "2025-12-11T01:38:23Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "bdada44c98c1e1cc511d078d3bd0ae2a5ceda840"
+      }
+    ],
+    "libchatmessage": [
+      {
+        "version": "5dd0dd0",
+        "published_at": "2021-01-23T13:37:19Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "5dd0dd0d27b0d6c70cf9967bf0ecf1aa45495292"
+      }
+    ],
+    "libcombat": [
+      {
+        "version": "v7",
+        "published_at": "2025-10-08T21:24:22Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
+      }
+    ],
+    "libcustomicons": [
+      {
+        "version": "2025-12-28",
+        "published_at": "2025-12-28T22:34:38Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "70d1143047abab1cb737f8296b5aa75aea8a1cbe"
+      }
+    ],
+    "libcustommenu": [
+      {
+        "version": "236bb8a",
+        "published_at": "2025-12-29T14:56:52Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "236bb8a6de6f82d1a8da5458a56af2c85868ff48"
+      }
+    ],
+    "libcustomnames": [
+      {
+        "version": "2025-12-28",
+        "published_at": "2025-12-28T22:34:38Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "d1f3c5738ff82b28864c04b571b185b80e0c540c"
+      }
+    ],
+    "libdebuglogger": [
+      {
+        "version": "f29c489",
+        "published_at": "2025-05-01T18:03:17Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "f29c489bf7f983964b16bba616901c26119b3673"
+      }
+    ],
+    "libgroupbroadcast": [
+      {
+        "version": "a17a794",
+        "published_at": "2025-05-03T14:08:58Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "a17a79470bb1968ba80a882dcdb71e27cfc0ba66"
+      }
+    ],
+    "libgroupcombatstats": [
+      {
+        "version": "2025.10.11",
+        "published_at": "2025-10-11T16:43:24Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "b1bc5ccc6d3b8f497a59ec67d4932cea1acc8c38"
+      }
+    ],
+    "libmediaprovider": [
+      {
+        "version": "r36",
+        "published_at": "2025-10-16T09:19:31Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "19a7d0cedf5abf7e1309dc42706ee558ec0dcdcf"
+      }
+    ],
+    "libsets": [
+      {
+        "version": "895488f",
+        "published_at": "2025-12-01T21:34:33Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "895488fd1216935ce023dac87eba9f5268deab33"
+      }
+    ],
+    "luiextended": [
+      {
+        "version": "v7.1.0.7",
+        "published_at": "2025-11-10T16:59:06Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "0793181e16d2b3a2deba7e13440dd6da64122ed8"
+      }
+    ],
+    "m0rmarkers": [
+      {
+        "version": "v1.2.1",
+        "published_at": "2025-11-07T19:19:34Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "9dcce2a32a98263f84aab8fe1affed52275dc974"
+      }
+    ],
+    "odysupporticons": [
+      {
+        "version": "Version-1.13.1",
+        "published_at": "2025-03-16T15:50:45Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "29c23c3a60f90106a8d5b402744f6c1930908b56"
+      }
+    ],
+    "pchat": [
+      {
+        "version": "758e83c",
+        "published_at": "2025-11-28T00:50:08Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "758e83c6de8370361faf0666adff1f3dc629aad9"
+      }
+    ],
+    "synergypriority": [
+      {
+        "version": "993aca7",
+        "published_at": "2025-10-30T18:15:54Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "993aca7127825e501c09e95dceb52a5104e86be3"
+      }
+    ],
+    "untaunted": [
+      {
+        "version": "1.1.5",
+        "published_at": "2023-10-12T21:06:05Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "d53214a83029476baf69852aa05acbffc9392ec1"
+      }
+    ],
+    "warmask": [
+      {
+        "version": "v1.4.0",
+        "published_at": "2025-12-30T20:44:30Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "3815674d192039098d844c88f9c87384ac371d92"
+      }
+    ],
+    "wizards-wardrobe": [
+      {
+        "version": "v1.18.2",
+        "published_at": "2024-05-15T13:50:16Z",
+        "detected_at": "2025-12-30T23:47:08.993712+00:00",
+        "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
+      }
+    ]
+  }
+}

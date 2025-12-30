@@ -38,6 +38,9 @@ eso-addon-index/
 ├── public/                          # GitHub Pages output (generated)
 │   ├── index.json                   # Full addon index
 │   ├── index.min.json               # Minified version
+│   ├── version-history.json         # Historical versions for all addons
+│   ├── releases.atom                # Atom feed for version updates
+│   ├── releases-history.json        # Internal: persists Atom feed entries
 │   ├── feed.json                    # JSON Feed for updates
 │   └── missing-dependencies.json    # Dependencies not in index
 ├── docs/
@@ -211,6 +214,55 @@ The build script generates JSON with these fields:
 
 ---
 
+## Version History Tracking
+
+The index maintains historical version data for each addon, enabling:
+- **Version history popup**: Users can click on version badges to see all recorded versions
+- **Atom feed**: RSS/Atom feed of version changes for notifications and tracking
+- **Change detection**: Track when addons are updated and what changed
+
+### version-history.json Format
+
+```json
+{
+  "version": "1.0",
+  "generated_at": "2025-12-30T12:00:00Z",
+  "description": "Version history for all addons in the index",
+  "addons": {
+    "warmask": [
+      {
+        "version": "v1.3.0",
+        "published_at": "2025-12-15T10:00:00Z",
+        "detected_at": "2025-12-15T12:00:00Z",
+        "commit_sha": "abc123..."
+      },
+      {
+        "version": "v1.2.0",
+        "published_at": "2025-11-01T10:00:00Z",
+        "detected_at": "2025-11-01T12:00:00Z",
+        "commit_sha": "def456..."
+      }
+    ]
+  }
+}
+```
+
+### releases.atom (Atom Feed)
+
+XML Atom feed for version update notifications:
+- **URL**: `https://xop.co/eso-addon-index/releases.atom`
+- **Entries**: Version change events (addon X updated from v1.0 to v1.1)
+- **Limit**: 100 most recent entries
+- **Use case**: RSS readers, notification systems, CI/CD triggers
+
+### UI Features
+
+- **Version badge**: Clickable badge on addon cards showing current version
+- **Version history modal**: Shows all recorded versions with dates
+- **Date format**: Release date and detection date for each version
+
+---
+
 ## GitHub Actions Workflows
 
 ### validate-pr.yml
@@ -221,7 +273,7 @@ The build script generates JSON with these fields:
 ### build-index.yml
 - **Trigger**: Push to `main` branch
 - **Steps**: Compile TOML to JSON, deploy to GitHub Pages
-- **Output**: `public/index.json`, `public/feed.json`, `public/missing-dependencies.json`
+- **Output**: `public/index.json`, `public/version-history.json`, `public/releases.atom`, `public/feed.json`, `public/missing-dependencies.json`
 
 ### check-releases.yml
 - **Trigger**: Daily at 06:00 UTC
