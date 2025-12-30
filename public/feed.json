@@ -472,6 +472,27 @@
       ]
     },
     {
+      "id": "synergypriority",
+      "title": "SynergyPriority",
+      "url": "https://github.com/sheumais/synergypriority",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "TheMrPancake"
+        },
+        {
+          "name": "M0R"
+        }
+      ],
+      "summary": "Customise synergy priorities to your liking. Control which synergies take precedence when multiple are available.",
+      "tags": [
+        "synergy",
+        "combat",
+        "priorities",
+        "customization"
+      ]
+    },
+    {
       "id": "untaunted",
       "title": "Untaunted",
       "url": "https://github.com/Solinur/Untaunted",

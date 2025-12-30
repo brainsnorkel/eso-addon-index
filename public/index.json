@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T04:11:30.492045+00:00",
-  "addon_count": 26,
+  "generated_at": "2025-12-30T04:13:23.339133+00:00",
+  "addon_count": 27,
   "addons": [
     {
       "slug": "aui",
@@ -1101,6 +1101,54 @@
         "method": "github_archive",
         "extract_path": null,
         "target_folder": "OdySupportIcons",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null
+    },
+    {
+      "slug": "synergypriority",
+      "name": "SynergyPriority",
+      "description": "Customise synergy priorities to your liking. Control which synergies take precedence when multiple are available.",
+      "authors": [
+        "TheMrPancake",
+        "M0R"
+      ],
+      "license": "UNLICENSED",
+      "tags": [
+        "synergy",
+        "combat",
+        "priorities",
+        "customization"
+      ],
+      "url": "https://github.com/sheumais/synergypriority",
+      "source": {
+        "type": "github",
+        "repo": "sheumais/synergypriority",
+        "branch": "main"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [
+          "libaddonmenu-2-0"
+        ],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "branch",
+        "extract_path": null,
+        "target_folder": "SynergyPriority",
         "excludes": [
           ".*",
           ".github",

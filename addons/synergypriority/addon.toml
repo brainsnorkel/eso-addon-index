@@ -1,0 +1,26 @@
+[addon]
+slug = "synergypriority"
+name = "SynergyPriority"
+description = "Customise synergy priorities to your liking. Control which synergies take precedence when multiple are available."
+authors = ["TheMrPancake", "M0R"]
+license = "UNLICENSED"
+category = "combat"
+tags = ["synergy", "combat", "priorities", "customization"]
+
+[source]
+type = "github"
+repo = "sheumais/synergypriority"
+branch = "main"
+release_type = "branch"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["libaddonmenu-2-0"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+status = "approved"
+reviewers = []
