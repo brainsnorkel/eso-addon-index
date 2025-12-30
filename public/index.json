@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T02:29:18.423070+00:00",
-  "addon_count": 22,
+  "generated_at": "2025-12-30T02:38:37.672399+00:00",
+  "addon_count": 23,
   "addons": [
     {
       "slug": "aui",
@@ -44,21 +44,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "86be8ca",
-        "download_url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
-        "published_at": "2024-10-19T10:16:13Z",
-        "commit_sha": "86be8cafbb635e2501484f80390a86f89e887ba7",
-        "commit_date": "2024-10-19T10:16:13Z",
-        "commit_message": "Updated API Version to 101043"
-      },
-      "version_info": {
-        "version_normalized": null,
-        "version_sort_key": null,
-        "is_prerelease": false,
-        "release_channel": "branch",
-        "commit_message": "Updated API Version to 101043"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "bandits-user-interface",
@@ -103,23 +90,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "v4.428",
-        "download_url": "https://github.com/secretrob/BanditsUserInterface/archive/refs/tags/v4.428.zip",
-        "published_at": "2025-04-16T23:36:06Z",
-        "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
-      },
-      "version_info": {
-        "version_normalized": {
-          "major": 4,
-          "minor": 428,
-          "patch": 0,
-          "prerelease": null
-        },
-        "version_sort_key": 4428000000,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "breadcrumbs",
@@ -164,23 +136,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "v1.2",
-        "download_url": "https://api.github.com/repos/sheumais/Breadcrumbs/zipball/v1.2",
-        "published_at": "2024-11-24T08:54:56Z",
-        "commit_sha": "1081914e8340c5fa4f3a6890f438d893417c7600"
-      },
-      "version_info": {
-        "version_normalized": {
-          "major": 1,
-          "minor": 2,
-          "patch": 0,
-          "prerelease": null
-        },
-        "version_sort_key": 1002000000,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "buffthegroup",
@@ -225,21 +182,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "51f8305",
-        "download_url": "https://github.com/Fostecks/BuffTheGroup/archive/refs/heads/master.zip",
-        "published_at": "2023-09-20T20:50:33Z",
-        "commit_sha": "51f8305a75019abf0102874d85e7aa5a9dce0bd9",
-        "commit_date": "2023-09-20T20:50:33Z",
-        "commit_message": "3.4.0"
-      },
-      "version_info": {
-        "version_normalized": null,
-        "version_sort_key": null,
-        "is_prerelease": false,
-        "release_channel": "branch",
-        "commit_message": "3.4.0"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "combatmetrics",
@@ -289,23 +233,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "1.7.6",
-        "download_url": "https://github.com/Solinur/CombatMetrics/archive/refs/tags/1.7.6.zip",
-        "published_at": null,
-        "commit_sha": "7895914634567c337adb1288e748681a9538bb2e"
-      },
-      "version_info": {
-        "version_normalized": {
-          "major": 1,
-          "minor": 7,
-          "patch": 6,
-          "prerelease": null
-        },
-        "version_sort_key": 1007006000,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "crutchalerts",
@@ -547,21 +476,8 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "c3673ce",
-        "download_url": "https://github.com/brainsnorkel/BSJoGroup/archive/refs/heads/main.zip",
-        "published_at": "2024-02-07T10:16:12Z",
-        "commit_sha": "c3673ce0e6063436830cafbf4948a626d42f2a13",
-        "commit_date": "2024-02-07T10:16:12Z",
-        "commit_message": "Change hide chat to its own keybind"
-      },
-      "version_info": {
-        "version_normalized": null,
-        "version_sort_key": null,
-        "is_prerelease": false,
-        "release_channel": "branch",
-        "commit_message": "Change hide chat to its own keybind"
-      }
+      "latest_release": null,
+      "version_info": null
     },
     {
       "slug": "libaddonmenu",
@@ -1118,6 +1034,58 @@
         "method": "github_archive",
         "extract_path": null,
         "target_folder": "WarMask",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "version_info": null
+    },
+    {
+      "slug": "wizards-wardrobe",
+      "name": "Wizard's Wardrobe",
+      "description": "Throw all your setups into the wardrobe and let the wizard equip them exactly when you need it.",
+      "authors": [
+        "ownedbynico",
+        "JN_Slevin",
+        "STUDLETON"
+      ],
+      "license": "UNLICENSED",
+      "tags": [
+        "gear",
+        "builds",
+        "setups",
+        "equipment"
+      ],
+      "url": "https://github.com/nicokimmel/wizardswardrobe",
+      "source": {
+        "type": "github",
+        "repo": "nicokimmel/wizardswardrobe",
+        "branch": "master",
+        "path": "src"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [
+          "libaddonmenu",
+          "libchatmessage",
+          "libdebuglogger",
+          "libasync"
+        ],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": "src",
+        "target_folder": "WizardsWardrobe",
         "excludes": [
           ".*",
           ".github",

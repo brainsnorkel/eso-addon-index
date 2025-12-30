@@ -1,0 +1,29 @@
+[addon]
+slug = "wizards-wardrobe"
+name = "Wizard's Wardrobe"
+description = "Throw all your setups into the wardrobe and let the wizard equip them exactly when you need it."
+authors = ["ownedbynico", "JN_Slevin", "STUDLETON"]
+license = "UNLICENSED"
+category = "inventory"
+tags = ["gear", "builds", "setups", "equipment"]
+
+[source]
+type = "github"
+repo = "nicokimmel/wizardswardrobe"
+branch = "master"
+path = "src"
+install_folder = "WizardsWardrobe"
+release_type = "tag"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["libaddonmenu", "libchatmessage", "libdebuglogger", "libasync"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+last_reviewed = 2024-12-30
+status = "approved"
+reviewers = ["brainsnorkel"]
