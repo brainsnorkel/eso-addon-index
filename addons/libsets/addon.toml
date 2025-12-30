@@ -1,0 +1,27 @@
+[addon]
+slug = "libsets"
+name = "LibSets"
+description = "Library providing data about all ingame item sets including set names, types, itemIds, drop locations, and API functions."
+authors = ["Baertram"]
+license = "UNLICENSED"
+category = "library"
+tags = ["sets", "items", "data", "gear"]
+
+[source]
+type = "github"
+repo = "Baertram/LibSets"
+branch = "LibSets-reworked"
+path = "LibSets"
+release_type = "branch"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = []
+optional_dependencies = ["libaddonmenu-2-0", "libcustommenu"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+status = "approved"
+reviewers = []

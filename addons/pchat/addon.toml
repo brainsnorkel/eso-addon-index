@@ -1,0 +1,27 @@
+[addon]
+slug = "pchat"
+name = "pChat"
+description = "pChat overhauls the way text is displayed in the chatbox. Extensive chat customization and enhancement."
+authors = ["Ayantir", "DesertDwellers", "Baertram"]
+license = "UNLICENSED"
+category = "social"
+tags = ["chat", "communication", "customization", "ui"]
+
+[source]
+type = "github"
+repo = "Baertram/pChat"
+branch = "master"
+path = "pChat"
+release_type = "branch"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["libaddonmenu-2-0", "libcustommenu", "libdebuglogger", "libmediaprovider"]
+optional_dependencies = ["libchatmessage"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+status = "approved"
+reviewers = []

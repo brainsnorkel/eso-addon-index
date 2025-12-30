@@ -419,6 +419,24 @@
       ]
     },
     {
+      "id": "libsets",
+      "title": "LibSets",
+      "url": "https://github.com/Baertram/LibSets",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "Baertram"
+        }
+      ],
+      "summary": "Library providing data about all ingame item sets including set names, types, itemIds, drop locations, and API functions.",
+      "tags": [
+        "sets",
+        "items",
+        "data",
+        "gear"
+      ]
+    },
+    {
       "id": "luiextended",
       "title": "LuiExtended",
       "url": "https://github.com/DakJaniels/LuiExtended",
@@ -487,6 +505,30 @@
         "icons",
         "mechanics",
         "support"
+      ]
+    },
+    {
+      "id": "pchat",
+      "title": "pChat",
+      "url": "https://github.com/Baertram/pChat",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "Ayantir"
+        },
+        {
+          "name": "DesertDwellers"
+        },
+        {
+          "name": "Baertram"
+        }
+      ],
+      "summary": "pChat overhauls the way text is displayed in the chatbox. Extensive chat customization and enhancement.",
+      "tags": [
+        "chat",
+        "communication",
+        "customization",
+        "ui"
       ]
     },
     {

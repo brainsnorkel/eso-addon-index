@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T04:14:52.103040+00:00",
-  "addon_count": 28,
+  "generated_at": "2025-12-30T04:19:06.623905+00:00",
+  "addon_count": 30,
   "addons": [
     {
       "slug": "aui",
@@ -1004,6 +1004,55 @@
       "version_info": null
     },
     {
+      "slug": "libsets",
+      "name": "LibSets",
+      "description": "Library providing data about all ingame item sets including set names, types, itemIds, drop locations, and API functions.",
+      "authors": [
+        "Baertram"
+      ],
+      "license": "UNLICENSED",
+      "tags": [
+        "sets",
+        "items",
+        "data",
+        "gear"
+      ],
+      "url": "https://github.com/Baertram/LibSets",
+      "source": {
+        "type": "github",
+        "repo": "Baertram/LibSets",
+        "branch": "LibSets-reworked",
+        "path": "LibSets"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": [
+          "libaddonmenu-2-0",
+          "libcustommenu"
+        ]
+      },
+      "install": {
+        "method": "branch",
+        "extract_path": "LibSets",
+        "target_folder": "LibSets",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null
+    },
+    {
       "slug": "luiextended",
       "name": "LuiExtended",
       "description": "Provides UnitFrames, InfoPanel, Combat Text & Info, Buff & Debuff Tracking, Chat Announcements and Slash Commands",
@@ -1150,6 +1199,61 @@
         "method": "github_archive",
         "extract_path": null,
         "target_folder": "OdySupportIcons",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null
+    },
+    {
+      "slug": "pchat",
+      "name": "pChat",
+      "description": "pChat overhauls the way text is displayed in the chatbox. Extensive chat customization and enhancement.",
+      "authors": [
+        "Ayantir",
+        "DesertDwellers",
+        "Baertram"
+      ],
+      "license": "UNLICENSED",
+      "tags": [
+        "chat",
+        "communication",
+        "customization",
+        "ui"
+      ],
+      "url": "https://github.com/Baertram/pChat",
+      "source": {
+        "type": "github",
+        "repo": "Baertram/pChat",
+        "branch": "master",
+        "path": "pChat"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [
+          "libaddonmenu-2-0",
+          "libcustommenu",
+          "libdebuglogger",
+          "libmediaprovider"
+        ],
+        "optional_dependencies": [
+          "libchatmessage"
+        ]
+      },
+      "install": {
+        "method": "branch",
+        "extract_path": "pChat",
+        "target_folder": "pChat",
         "excludes": [
           ".*",
           ".github",
