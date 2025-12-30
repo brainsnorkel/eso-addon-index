@@ -1,0 +1,27 @@
+[addon]
+slug = "bandits-user-interface"
+name = "Bandits User Interface"
+description = "User Interface add-on from Bandits guild. Contains: different UI styles, minimap, buff tracker, combat notifications and combat statistics."
+authors = ["secretrob", "Hoft"]
+license = "MIT"
+category = "ui"
+tags = ["interface", "minimap", "buff-tracker", "combat", "statistics"]
+
+[source]
+type = "github"
+repo = "secretrob/BanditsUserInterface"
+branch = "main"
+release_type = "tag"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = []
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+last_reviewed = 2024-12-30
+status = "approved"
+reviewers = ["brainsnorkel"]

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T00:17:24.752644+00:00",
-  "addon_count": 20,
+  "generated_at": "2025-12-30T02:26:47.108591+00:00",
+  "addon_count": 21,
   "addons": [
     {
       "slug": "aui",
@@ -58,6 +58,67 @@
         "is_prerelease": false,
         "release_channel": "branch",
         "commit_message": "Updated API Version to 101043"
+      }
+    },
+    {
+      "slug": "bandits-user-interface",
+      "name": "Bandits User Interface",
+      "description": "User Interface add-on from Bandits guild. Contains: different UI styles, minimap, buff tracker, combat notifications and combat statistics.",
+      "authors": [
+        "secretrob",
+        "Hoft"
+      ],
+      "license": "MIT",
+      "tags": [
+        "interface",
+        "minimap",
+        "buff-tracker",
+        "combat",
+        "statistics"
+      ],
+      "url": "https://github.com/secretrob/BanditsUserInterface",
+      "source": {
+        "type": "github",
+        "repo": "secretrob/BanditsUserInterface",
+        "branch": "main"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": null,
+        "target_folder": "Bandits User Interface",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": {
+        "version": "v4.428",
+        "download_url": "https://github.com/secretrob/BanditsUserInterface/archive/refs/tags/v4.428.zip",
+        "published_at": "2025-04-16T23:36:06Z",
+        "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
+      },
+      "version_info": {
+        "version_normalized": {
+          "major": 4,
+          "minor": 428,
+          "patch": 0,
+          "prerelease": null
+        },
+        "version_sort_key": 4428000000,
+        "is_prerelease": false,
+        "release_channel": "stable"
       }
     },
     {
@@ -1175,13 +1236,12 @@
     {
       "slug": "warmask",
       "name": "WarMask",
-      "description": "Tracks Mark of Hircine from Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target.",
+      "description": "Tracks Mark of Hircine and bashed target for Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target, and a line to the current target when it is under the reticle.",
       "authors": [
         "brainsnorkel"
       ],
       "license": "MIT",
       "tags": [
-        "pvp",
         "combat",
         "buff-tracking",
         "mythic"

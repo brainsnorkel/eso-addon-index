@@ -21,6 +21,28 @@
       ]
     },
     {
+      "id": "bandits-user-interface",
+      "title": "Bandits User Interface v4.428",
+      "url": "https://github.com/secretrob/BanditsUserInterface",
+      "date_published": "2025-04-16T23:36:06Z",
+      "authors": [
+        {
+          "name": "secretrob"
+        },
+        {
+          "name": "Hoft"
+        }
+      ],
+      "summary": "User Interface add-on from Bandits guild. Contains: different UI styles, minimap, buff tracker, combat notifications and combat statistics.",
+      "tags": [
+        "interface",
+        "minimap",
+        "buff-tracker",
+        "combat",
+        "statistics"
+      ]
+    },
+    {
       "id": "breadcrumbs",
       "title": "Breadcrumbs v1.2",
       "url": "https://github.com/sheumais/Breadcrumbs",
@@ -404,9 +426,8 @@
           "name": "brainsnorkel"
         }
       ],
-      "summary": "Tracks Mark of Hircine from Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target.",
+      "summary": "Tracks Mark of Hircine and bashed target for Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target, and a line to the current target when it is under the reticle.",
       "tags": [
-        "pvp",
         "combat",
         "buff-tracking",
         "mythic"
