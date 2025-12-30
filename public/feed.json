@@ -43,6 +43,30 @@
       ]
     },
     {
+      "id": "beammeup",
+      "title": "BeamMeUp",
+      "url": "https://github.com/david-tub/BeamMeUp",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "DeadSoon"
+        },
+        {
+          "name": "Gamer1986PAN"
+        },
+        {
+          "name": "Treuce"
+        }
+      ],
+      "summary": "Free fast travel to available players from your friend list, guilds and group. Teleporter utility addon.",
+      "tags": [
+        "teleport",
+        "travel",
+        "fast-travel",
+        "utility"
+      ]
+    },
+    {
       "id": "breadcrumbs",
       "title": "Breadcrumbs",
       "url": "https://github.com/sheumais/Breadcrumbs",

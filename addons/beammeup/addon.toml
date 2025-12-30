@@ -1,0 +1,27 @@
+[addon]
+slug = "beammeup"
+name = "BeamMeUp"
+description = "Free fast travel to available players from your friend list, guilds and group. Teleporter utility addon."
+authors = ["DeadSoon", "Gamer1986PAN", "Treuce"]
+license = "UNLICENSED"
+category = "maps"
+tags = ["teleport", "travel", "fast-travel", "utility"]
+
+[source]
+type = "github"
+repo = "david-tub/BeamMeUp"
+branch = "master"
+path = "BeamMeUp"
+release_type = "release"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["libaddonmenu-2-0", "libcustommenu"]
+optional_dependencies = ["libsets", "bandits-user-interface"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+status = "approved"
+reviewers = []

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T04:19:06.623905+00:00",
-  "addon_count": 30,
+  "generated_at": "2025-12-30T04:20:15.359804+00:00",
+  "addon_count": 31,
   "addons": [
     {
       "slug": "aui",
@@ -82,6 +82,60 @@
         "method": "github_archive",
         "extract_path": null,
         "target_folder": "Bandits User Interface",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null
+    },
+    {
+      "slug": "beammeup",
+      "name": "BeamMeUp",
+      "description": "Free fast travel to available players from your friend list, guilds and group. Teleporter utility addon.",
+      "authors": [
+        "DeadSoon",
+        "Gamer1986PAN",
+        "Treuce"
+      ],
+      "license": "UNLICENSED",
+      "tags": [
+        "teleport",
+        "travel",
+        "fast-travel",
+        "utility"
+      ],
+      "url": "https://github.com/david-tub/BeamMeUp",
+      "source": {
+        "type": "github",
+        "repo": "david-tub/BeamMeUp",
+        "branch": "master",
+        "path": "BeamMeUp"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [
+          "libaddonmenu-2-0",
+          "libcustommenu"
+        ],
+        "optional_dependencies": [
+          "libsets",
+          "bandits-user-interface"
+        ]
+      },
+      "install": {
+        "method": "github_release",
+        "extract_path": "BeamMeUp",
+        "target_folder": "BeamMeUp",
         "excludes": [
           ".*",
           ".github",
