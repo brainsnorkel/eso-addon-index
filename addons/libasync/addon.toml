@@ -1,0 +1,26 @@
+[addon]
+slug = "libasync"
+name = "LibAsync"
+description = "A shared scheduler for deferred actions. Enables addons to schedule work across frames to prevent UI lag."
+authors = ["votan", "Sharlikran", "Dack"]
+license = "UNLICENSED"
+category = "library"
+tags = ["async", "scheduler", "performance"]
+
+[source]
+type = "github"
+repo = "DakJaniels/libasync"
+branch = "main"
+release_type = "branch"
+
+[compatibility]
+api_version = "101045"
+game_versions = ["U45"]
+required_dependencies = []
+optional_dependencies = ["LibDebugLogger"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+status = "approved"
+reviewers = []

@@ -1,9 +1,65 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T03:45:25.814910+00:00",
+  "generated_at": "2025-12-30T03:50:57.590983+00:00",
   "description": "Dependencies referenced by addons but not available in the index",
   "missing_count": 3,
   "missing_dependencies": [
+    {
+      "slug": "libaddonmenu",
+      "slug_normalized": "libaddonmenu",
+      "dependency_type": "required",
+      "needed_by": [
+        {
+          "slug": "breadcrumbs",
+          "name": "Breadcrumbs"
+        },
+        {
+          "slug": "combatmetrics",
+          "name": "CombatMetrics"
+        },
+        {
+          "slug": "crutchalerts",
+          "name": "CrutchAlerts"
+        },
+        {
+          "slug": "hodorreflexes",
+          "name": "HodorReflexes"
+        },
+        {
+          "slug": "improveddeathrecap",
+          "name": "ImprovedDeathRecap"
+        },
+        {
+          "slug": "bsjogroup",
+          "name": "JoGroup"
+        },
+        {
+          "slug": "libcustomicons",
+          "name": "LibCustomIcons"
+        },
+        {
+          "slug": "libcustomnames",
+          "name": "LibCustomNames"
+        },
+        {
+          "slug": "odysupporticons",
+          "name": "OdySupportIcons"
+        },
+        {
+          "slug": "untaunted",
+          "name": "Untaunted"
+        },
+        {
+          "slug": "warmask",
+          "name": "WarMask"
+        },
+        {
+          "slug": "wizards-wardrobe",
+          "name": "Wizard's Wardrobe"
+        }
+      ],
+      "needed_by_count": 12
+    },
     {
       "slug": "LibAddonMenu-2.0",
       "slug_normalized": "libaddonmenu-2.0",
@@ -27,18 +83,6 @@
         }
       ],
       "needed_by_count": 4
-    },
-    {
-      "slug": "libasync",
-      "slug_normalized": "libasync",
-      "dependency_type": "required",
-      "needed_by": [
-        {
-          "slug": "wizards-wardrobe",
-          "name": "Wizard's Wardrobe"
-        }
-      ],
-      "needed_by_count": 1
     },
     {
       "slug": "pChat",

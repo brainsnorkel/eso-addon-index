@@ -6,9 +6,9 @@
   "items": [
     {
       "id": "aui",
-      "title": "Advanced UI 86be8ca",
+      "title": "Advanced UI",
       "url": "https://github.com/Sensi2010/AUI",
-      "date_published": "2024-10-19T10:16:13Z",
+      "date_published": null,
       "authors": [
         {
           "name": "Sensi"
@@ -22,9 +22,9 @@
     },
     {
       "id": "bandits-user-interface",
-      "title": "Bandits User Interface v4.428",
+      "title": "Bandits User Interface",
       "url": "https://github.com/secretrob/BanditsUserInterface",
-      "date_published": "2025-04-16T23:36:06Z",
+      "date_published": null,
       "authors": [
         {
           "name": "secretrob"
@@ -44,9 +44,9 @@
     },
     {
       "id": "breadcrumbs",
-      "title": "Breadcrumbs v1.2",
+      "title": "Breadcrumbs",
       "url": "https://github.com/sheumais/Breadcrumbs",
-      "date_published": "2024-11-24T08:54:56Z",
+      "date_published": null,
       "authors": [
         {
           "name": "TheMrPancake"
@@ -64,9 +64,9 @@
     },
     {
       "id": "buffthegroup",
-      "title": "Buff The Group 51f8305",
+      "title": "Buff The Group",
       "url": "https://github.com/Fostecks/BuffTheGroup",
-      "date_published": "2023-09-20T20:50:33Z",
+      "date_published": null,
       "authors": [
         {
           "name": "bitrock"
@@ -84,9 +84,9 @@
     },
     {
       "id": "combatmetrics",
-      "title": "CombatMetrics 1.7.6",
+      "title": "CombatMetrics",
       "url": "https://github.com/Solinur/CombatMetrics",
-      "date_published": "2025-12-29T12:11:58Z",
+      "date_published": null,
       "authors": [
         {
           "name": "Solinur"
@@ -178,9 +178,9 @@
     },
     {
       "id": "bsjogroup",
-      "title": "JoGroup c3673ce",
+      "title": "JoGroup",
       "url": "https://github.com/brainsnorkel/BSJoGroup",
-      "date_published": "2024-02-07T10:16:12Z",
+      "date_published": null,
       "authors": [
         {
           "name": "JoyceKimberly"
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "id": "libaddonmenu",
+      "id": "libaddonmenu-2-0",
       "title": "LibAddonMenu-2.0",
       "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu",
       "date_published": null,
@@ -220,10 +220,32 @@
       ],
       "summary": "A library that provides a comprehensive settings/options menu for ESO addons. Used by many popular addons.",
       "tags": [
-        "library",
         "settings",
         "menu",
         "options"
+      ]
+    },
+    {
+      "id": "libasync",
+      "title": "LibAsync",
+      "url": "https://github.com/DakJaniels/libasync",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "votan"
+        },
+        {
+          "name": "Sharlikran"
+        },
+        {
+          "name": "Dack"
+        }
+      ],
+      "summary": "A shared scheduler for deferred actions. Enables addons to schedule work across frames to prevent UI lag.",
+      "tags": [
+        "async",
+        "scheduler",
+        "performance"
       ]
     },
     {

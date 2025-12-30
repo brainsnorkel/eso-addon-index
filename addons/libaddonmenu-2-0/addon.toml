@@ -1,10 +1,11 @@
 [addon]
-slug = "libaddonmenu"
+slug = "libaddonmenu-2-0"
 name = "LibAddonMenu-2.0"
 description = "A library that provides a comprehensive settings/options menu for ESO addons. Used by many popular addons."
 authors = ["sirinsidiator", "Seerah"]
 license = "Artistic-2.0"
-tags = ["library", "settings", "menu", "options"]
+category = "library"
+tags = ["settings", "menu", "options"]
 
 [source]
 type = "github"

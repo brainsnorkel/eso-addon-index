@@ -117,6 +117,35 @@ reviewers = ["reviewer1"]  # optional
 - Must be unique across all addons
 - Cannot be empty
 
+#### Slug Transformation Rules
+
+When deriving a slug from an addon name:
+
+1. Convert to lowercase
+2. Replace periods (`.`) with hyphens (`-`)
+3. Replace spaces with hyphens
+4. Remove any characters that aren't alphanumeric or hyphens
+
+**Examples:**
+| Addon Name | Slug |
+|------------|------|
+| `WarMask` | `warmask` |
+| `LibAddonMenu-2.0` | `libaddonmenu-2-0` |
+| `Combat Metrics` | `combat-metrics` |
+| `Awesome_Addon` | `awesome-addon` |
+
+**Client Implementation (JavaScript):**
+```javascript
+function nameToSlug(name) {
+  return name
+    .toLowerCase()
+    .replace(/\./g, '-')
+    .replace(/[^a-z0-9-]/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+```
+
 ### Repository
 - Must be publicly accessible
 - Must contain ESO addon manifest (`.txt` with `## Title:`)
@@ -183,7 +212,7 @@ For addons that live in a subdirectory of their repository (common for libraries
 
 ```toml
 [addon]
-slug = "libaddonmenu"
+slug = "libaddonmenu-2-0"  # Note: dots become hyphens in slugs
 name = "LibAddonMenu-2.0"
 description = "A library that provides a settings/options menu for addons."
 authors = ["sirinsidiator", "Seerah"]
@@ -283,7 +312,7 @@ For addons in subdirectories, `path` is included in source and used for jsDelivr
 
 ```json
 {
-  "slug": "libaddonmenu",
+  "slug": "libaddonmenu-2-0",
   "name": "LibAddonMenu-2.0",
   "source": {
     "type": "github",
