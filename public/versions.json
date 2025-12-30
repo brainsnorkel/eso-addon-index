@@ -9,6 +9,19 @@
       "commit_date": "2024-10-19T10:16:13Z",
       "commit_message": "Updated API Version to 101043"
     },
+    "bandits-user-interface": {
+      "version": "v4.428",
+      "download_url": "https://github.com/secretrob/BanditsUserInterface/archive/refs/tags/v4.428.zip",
+      "published_at": "2025-04-16T23:36:06Z",
+      "release_notes": null,
+      "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
+    },
+    "beammeup": {
+      "version": "v3.7.4",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v3.7.4",
+      "published_at": "2025-12-14T17:34:22Z",
+      "release_notes": "- new context menu option in the own houses tab to set/unset preferred houses\r\n- small icons in the related items tab show what kind of map (survey type, treasure etc.) is located\r\n- smaller fixes and code adjustments\r\nDon't forget to update your libraries!"
+    },
     "breadcrumbs": {
       "version": "v1.2",
       "download_url": "https://api.github.com/repos/sheumais/Breadcrumbs/zipball/v1.2",
@@ -71,11 +84,29 @@
       "release_notes": null,
       "commit_sha": "ef01bfe6b88216f862320b98a283abf6e2d0f462"
     },
-    "libaddonmenu": {
+    "libaddonmenu-2-0": {
       "version": "r32",
       "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
       "published_at": "2020-12-17T20:09:33Z",
       "release_notes": ""
+    },
+    "libasync": {
+      "version": "bdada44",
+      "download_url": "https://github.com/DakJaniels/libasync/archive/refs/heads/main.zip",
+      "published_at": "2025-12-11T01:38:23Z",
+      "release_notes": "space",
+      "commit_sha": "bdada44c98c1e1cc511d078d3bd0ae2a5ceda840",
+      "commit_date": "2025-12-11T01:38:23Z",
+      "commit_message": "space"
+    },
+    "libchatmessage": {
+      "version": "5dd0dd0",
+      "download_url": "https://github.com/sirinsidiator/ESO-LibChatMessage/archive/refs/heads/master.zip",
+      "published_at": "2021-01-23T13:37:19Z",
+      "release_notes": "added license",
+      "commit_sha": "5dd0dd0d27b0d6c70cf9967bf0ecf1aa45495292",
+      "commit_date": "2021-01-23T13:37:19Z",
+      "commit_message": "added license"
     },
     "libcombat": {
       "version": "v7",
@@ -105,6 +136,24 @@
       "published_at": "2025-12-28T22:34:38Z",
       "release_notes": "## 2025.10.24\n- The release pipeline now automatically creates separate versions for PC & Console. There is no need for users on PC having all the custom names of the console players and vice versa.\n\n"
     },
+    "libdebuglogger": {
+      "version": "f29c489",
+      "download_url": "https://github.com/sirinsidiator/ESO-LibDebugLogger/archive/refs/heads/main.zip",
+      "published_at": "2025-05-01T18:03:17Z",
+      "release_notes": "built v2.5.2",
+      "commit_sha": "f29c489bf7f983964b16bba616901c26119b3673",
+      "commit_date": "2025-05-01T18:03:17Z",
+      "commit_message": "built v2.5.2"
+    },
+    "libgroupbroadcast": {
+      "version": "a17a794",
+      "download_url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast/archive/refs/heads/main.zip",
+      "published_at": "2025-05-03T14:08:58Z",
+      "release_notes": "built v2.0.0-ea3",
+      "commit_sha": "a17a79470bb1968ba80a882dcdb71e27cfc0ba66",
+      "commit_date": "2025-05-03T14:08:58Z",
+      "commit_message": "built v2.0.0-ea3"
+    },
     "libgroupcombatstats": {
       "version": "2025.10.11",
       "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2025.10.11",
@@ -118,11 +167,26 @@
       "release_notes": null,
       "commit_sha": "19a7d0cedf5abf7e1309dc42706ee558ec0dcdcf"
     },
+    "libsets": {
+      "version": "895488f",
+      "download_url": "https://github.com/Baertram/LibSets/archive/refs/heads/LibSets-reworked.zip",
+      "published_at": "2025-12-01T21:34:33Z",
+      "release_notes": "LibSets v0.86",
+      "commit_sha": "895488fd1216935ce023dac87eba9f5268deab33",
+      "commit_date": "2025-12-01T21:34:33Z",
+      "commit_message": "LibSets v0.86"
+    },
     "luiextended": {
       "version": "v7.1.0.7",
       "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.1.0.7",
       "published_at": "2025-11-10T16:59:06Z",
       "release_notes": "**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.1.0.6...v7.1.0.7"
+    },
+    "m0rmarkers": {
+      "version": "v1.2.1",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.2.1",
+      "published_at": "2025-11-07T19:19:34Z",
+      "release_notes": ""
     },
     "odysupporticons": {
       "version": "Version-1.13.1",
@@ -130,6 +194,24 @@
       "published_at": "2025-03-16T15:50:45Z",
       "release_notes": null,
       "commit_sha": "29c23c3a60f90106a8d5b402744f6c1930908b56"
+    },
+    "pchat": {
+      "version": "758e83c",
+      "download_url": "https://github.com/Baertram/pChat/archive/refs/heads/master.zip",
+      "published_at": "2025-11-28T00:50:08Z",
+      "release_notes": "Updated setting for LAM sound slider widget, chat mentions",
+      "commit_sha": "758e83c6de8370361faf0666adff1f3dc629aad9",
+      "commit_date": "2025-11-28T00:50:08Z",
+      "commit_message": "Updated setting for LAM sound slider widget, chat mentions"
+    },
+    "synergypriority": {
+      "version": "993aca7",
+      "download_url": "https://github.com/sheumais/synergypriority/archive/refs/heads/main.zip",
+      "published_at": "2025-10-30T18:15:54Z",
+      "release_notes": "add description",
+      "commit_sha": "993aca7127825e501c09e95dceb52a5104e86be3",
+      "commit_date": "2025-10-30T18:15:54Z",
+      "commit_message": "add description"
     },
     "untaunted": {
       "version": "1.1.5",
@@ -144,8 +226,15 @@
       "published_at": "2025-12-22T19:49:33Z",
       "release_notes": null,
       "commit_sha": "fb149bc4f7e5a8cedcc1db5599febaab7c56d657"
+    },
+    "wizards-wardrobe": {
+      "version": "v1.18.2",
+      "download_url": "https://github.com/nicokimmel/wizardswardrobe/archive/refs/tags/v1.18.2.zip",
+      "published_at": "2024-05-15T13:50:16Z",
+      "release_notes": null,
+      "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2025-12-30T00:17:18.067933+00:00",
+  "last_checked": "2025-12-30T06:06:18.392810+00:00",
   "updates": []
 }
