@@ -6,6 +6,25 @@ This document describes how client applications (addon managers, installers, etc
 
 ---
 
+## Related Documentation
+
+> **IMPORTANT**: Before implementing a client, review these related documents:
+
+| Document | Purpose | When to Read |
+|----------|---------|--------------|
+| **[SCHEMA.md](SCHEMA.md)** | TOML schema for addon metadata | Understanding addon structure, submitting addons |
+| **[CONTRIBUTING.md](CONTRIBUTING.md)** | How to submit addons to the index | Adding new addons |
+| **[REVIEW_PROCESS.md](REVIEW_PROCESS.md)** | Reviewer checklist and security patterns | Understanding approval criteria |
+| **[github-proxy-options.md](design/github-proxy-options.md)** | Design rationale for jsDelivr CDN integration | Understanding download source architecture |
+
+### Quick Links
+
+- **Live Index**: https://xop.co/eso-addon-index/index.json
+- **Schema Reference**: [SCHEMA.md](SCHEMA.md)
+- **Design Decisions**: [design/github-proxy-options.md](design/github-proxy-options.md)
+
+---
+
 ## Index Endpoints
 
 | Endpoint | Description |
