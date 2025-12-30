@@ -1,0 +1,26 @@
+[addon]
+slug = "m0rmarkers"
+name = "M0RMarkers"
+description = "A tool for placing 3D markers on the ground. Useful for raid callouts and positioning."
+authors = ["M0R_Gaming"]
+license = "UNLICENSED"
+category = "dungeons"
+tags = ["markers", "raids", "positioning", "callouts"]
+
+[source]
+type = "github"
+repo = "M0RGaming/M0RMarkers"
+branch = "main"
+release_type = "release"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["libaddonmenu-2-0"]
+optional_dependencies = ["libgroupbroadcast"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+status = "approved"
+reviewers = []

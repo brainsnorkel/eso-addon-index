@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T03:57:40.044014+00:00",
-  "addon_count": 25,
+  "generated_at": "2025-12-30T04:11:30.492045+00:00",
+  "addon_count": 26,
   "addons": [
     {
       "slug": "aui",
@@ -1000,6 +1000,55 @@
         "method": "github_release",
         "extract_path": "LuiExtended",
         "target_folder": "LuiExtended",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null
+    },
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "description": "A tool for placing 3D markers on the ground. Useful for raid callouts and positioning.",
+      "authors": [
+        "M0R_Gaming"
+      ],
+      "license": "UNLICENSED",
+      "tags": [
+        "markers",
+        "raids",
+        "positioning",
+        "callouts"
+      ],
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "source": {
+        "type": "github",
+        "repo": "M0RGaming/M0RMarkers",
+        "branch": "main"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [
+          "libaddonmenu-2-0"
+        ],
+        "optional_dependencies": [
+          "libgroupbroadcast"
+        ]
+      },
+      "install": {
+        "method": "github_release",
+        "extract_path": null,
+        "target_folder": "M0RMarkers",
         "excludes": [
           ".*",
           ".github",

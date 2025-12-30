@@ -1,9 +1,21 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T03:57:40.045455+00:00",
+  "generated_at": "2025-12-30T04:11:30.493883+00:00",
   "description": "Dependencies referenced by addons but not available in the index",
-  "missing_count": 1,
+  "missing_count": 2,
   "missing_dependencies": [
+    {
+      "slug": "libgroupbroadcast",
+      "slug_normalized": "libgroupbroadcast",
+      "dependency_type": "optional",
+      "needed_by": [
+        {
+          "slug": "m0rmarkers",
+          "name": "M0RMarkers"
+        }
+      ],
+      "needed_by_count": 1
+    },
     {
       "slug": "pchat",
       "slug_normalized": "pchat",

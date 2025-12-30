@@ -432,6 +432,24 @@
       ]
     },
     {
+      "id": "m0rmarkers",
+      "title": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "M0R_Gaming"
+        }
+      ],
+      "summary": "A tool for placing 3D markers on the ground. Useful for raid callouts and positioning.",
+      "tags": [
+        "markers",
+        "raids",
+        "positioning",
+        "callouts"
+      ]
+    },
+    {
       "id": "odysupporticons",
       "title": "OdySupportIcons",
       "url": "https://github.com/exoy94/OdySupportIcons",
