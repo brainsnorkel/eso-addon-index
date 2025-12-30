@@ -153,6 +153,7 @@ The build script generates JSON with these fields:
   "license": "MIT",
   "tags": ["pvp", "combat"],
   "url": "https://github.com/brainsnorkel/WarMask",
+  "last_updated": "2024-12-01T12:00:00Z",
   "source": {
     "type": "github",
     "repo": "brainsnorkel/WarMask",
@@ -187,6 +188,11 @@ The build script generates JSON with these fields:
 
 **Auto-generated fields:**
 - `url`: From `source.type` and `source.repo` (GitHub/GitLab/custom)
+- `last_updated`: ISO 8601 timestamp of when the addon was last changed
+  - New addon: current build timestamp
+  - Version/commit changed: `published_at` from the new release
+  - Metadata changed: current build timestamp
+  - No changes: preserved from previous index
 - `install`: Pipeline instructions for addon managers
   - `method`: `github_archive` | `github_release` | `branch`
   - `extract_path`: Subdirectory to extract (null = root)

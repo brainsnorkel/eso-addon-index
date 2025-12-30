@@ -17,6 +17,7 @@ except ImportError:
 
 OUTPUT_DIR = Path("public")
 ADDONS_DIR = Path("addons")
+PREVIOUS_INDEX_PATH = OUTPUT_DIR / "index.json"
 
 # GitHub API headers
 GITHUB_HEADERS = {}
@@ -137,6 +138,86 @@ def load_toml(filepath: Path) -> dict | None:
     except Exception as e:
         print(f"Warning: Failed to load {filepath}: {e}")
         return None
+
+
+def load_previous_index() -> dict:
+    """Load the previous index.json if it exists.
+
+    Returns a dict mapping slug -> addon entry for easy lookup.
+    """
+    if not PREVIOUS_INDEX_PATH.exists():
+        return {}
+
+    try:
+        with open(PREVIOUS_INDEX_PATH) as f:
+            previous = json.load(f)
+        return {addon["slug"]: addon for addon in previous.get("addons", [])}
+    except Exception as e:
+        print(f"Warning: Failed to load previous index: {e}")
+        return {}
+
+
+def has_addon_changed(current: dict, previous: dict) -> tuple[bool, str]:
+    """Compare two addon entries to detect changes.
+
+    Returns (changed: bool, reason: str).
+    Ignores last_updated field when comparing.
+    """
+    # Fields to compare for metadata changes
+    metadata_fields = [
+        "name", "description", "authors", "license", "tags",
+        "source", "compatibility", "install"
+    ]
+
+    # Check version change first
+    current_version = current.get("latest_release", {}).get("version") if current.get("latest_release") else None
+    previous_version = previous.get("latest_release", {}).get("version") if previous.get("latest_release") else None
+
+    if current_version != previous_version:
+        return True, "version"
+
+    # Check commit SHA for branch-based addons
+    current_sha = current.get("latest_release", {}).get("commit_sha") if current.get("latest_release") else None
+    previous_sha = previous.get("latest_release", {}).get("commit_sha") if previous.get("latest_release") else None
+
+    if current_sha != previous_sha:
+        return True, "commit"
+
+    # Check metadata fields
+    for field in metadata_fields:
+        if current.get(field) != previous.get(field):
+            return True, f"metadata:{field}"
+
+    return False, "unchanged"
+
+
+def compute_last_updated(current: dict, previous: dict | None, now: str) -> str:
+    """Compute the last_updated timestamp for an addon.
+
+    Logic:
+    - New addon: use current timestamp
+    - Version/commit changed: use published_at from release (or now if unavailable)
+    - Metadata changed: use current timestamp
+    - No changes: preserve previous last_updated
+    """
+    if previous is None:
+        # New addon
+        return now
+
+    changed, reason = has_addon_changed(current, previous)
+
+    if not changed:
+        # Preserve previous last_updated
+        return previous.get("last_updated", now)
+
+    if reason in ("version", "commit"):
+        # Use published_at from the new release if available
+        release = current.get("latest_release", {})
+        published_at = release.get("published_at") if release else None
+        return published_at or now
+
+    # Metadata changed, use current timestamp
+    return now
 
 
 def fetch_latest_release(source: dict) -> dict | None:
@@ -466,6 +547,10 @@ def build_index(fetch_releases: bool = True) -> dict:
     """Build the complete addon index."""
     addons = []
 
+    # Load previous index for last_updated comparison
+    previous_index = load_previous_index()
+    now = datetime.now(timezone.utc).isoformat()
+
     for toml_path in sorted(ADDONS_DIR.glob("*/addon.toml")):
         data = load_toml(toml_path)
         if data is None:
@@ -479,11 +564,17 @@ def build_index(fetch_releases: bool = True) -> dict:
 
         print(f"Processing: {toml_path.parent.name}")
         entry = build_addon_entry(data, fetch_releases=fetch_releases)
+
+        # Compute last_updated
+        slug = entry["slug"]
+        previous_entry = previous_index.get(slug)
+        entry["last_updated"] = compute_last_updated(entry, previous_entry, now)
+
         addons.append(entry)
 
     return {
         "version": "1.0",
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": now,
         "addon_count": len(addons),
         "addons": sorted(addons, key=lambda x: x["name"].lower()),
     }
@@ -502,6 +593,7 @@ def build_json_feed(index: dict) -> dict:
             "title": f"{addon['name']} {release.get('version', '')}".strip(),
             "url": f"https://github.com/{repo}",
             "date_published": release.get("published_at"),
+            "date_modified": addon.get("last_updated"),
             "authors": [{"name": a} for a in addon["authors"]],
             "summary": addon["description"],
             "tags": addon["tags"],

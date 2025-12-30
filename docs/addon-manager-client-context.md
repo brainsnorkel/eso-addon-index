@@ -67,6 +67,7 @@ This document describes how client applications (addon managers, installers, etc
   "license": "MIT",
   "tags": ["pvp", "combat", "buff-tracking"],
   "url": "https://github.com/brainsnorkel/WarMask",
+  "last_updated": "2024-12-01T12:00:00Z",
   "source": {
     "type": "github",
     "repo": "brainsnorkel/WarMask",
@@ -117,6 +118,18 @@ This document describes how client applications (addon managers, installers, etc
 | `license` | string | Yes | SPDX license identifier |
 | `tags` | array | No | Tags for filtering |
 | `url` | string | Yes | URL to addon homepage (GitHub/GitLab page) |
+| `last_updated` | string | Yes | ISO 8601 timestamp of last change (version or metadata) |
+
+**`last_updated` computation logic:**
+- New addon added to index: current build timestamp
+- Version or commit SHA changed: `published_at` from the new release
+- Only metadata changed (description, tags, etc.): current build timestamp
+- No changes: preserved from previous index build
+
+This field is useful for:
+- Sorting addons by recency
+- Detecting which addons have been updated since last check
+- Displaying "Updated X days ago" in addon manager UIs
 
 #### Source Object
 
@@ -889,6 +902,7 @@ def warn_about_missing_deps(addon, missing_deps):
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.8 | 2024-12-30 | Added `last_updated` field per addon, `date_modified` in JSON Feed |
 | 1.7 | 2024-12-30 | Added `download_sources` array with jsDelivr CDN as primary, GitHub as fallback |
 | 1.6 | 2024-12-30 | Added `missing-dependencies.json` endpoint for unavailable dependencies |
 | 1.5 | 2024-12-30 | Removed `category` field and `categories.json` endpoint |

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T04:20:15.359804+00:00",
+  "generated_at": "2025-12-30T04:29:01.723299+00:00",
   "addon_count": 31,
   "addons": [
     {
@@ -46,7 +46,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "bandits-user-interface",
@@ -93,7 +94,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "beammeup",
@@ -147,7 +149,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "breadcrumbs",
@@ -194,7 +197,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "buffthegroup",
@@ -241,7 +245,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "combatmetrics",
@@ -293,7 +298,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "crutchalerts",
@@ -345,7 +351,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "elmsmarkers",
@@ -391,7 +398,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "hodorreflexes",
@@ -444,7 +452,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "improveddeathrecap",
@@ -491,7 +500,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "bsjogroup",
@@ -541,7 +551,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libaddonmenu-2-0",
@@ -587,7 +598,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libasync",
@@ -635,7 +647,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libchatmessage",
@@ -682,7 +695,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libcombat",
@@ -729,7 +743,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libcustomicons",
@@ -776,7 +791,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libcustommenu",
@@ -821,7 +837,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libcustomnames",
@@ -868,7 +885,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libdebuglogger",
@@ -913,7 +931,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libgroupbroadcast",
@@ -962,7 +981,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libgroupcombatstats",
@@ -1009,7 +1029,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libmediaprovider",
@@ -1055,7 +1076,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "libsets",
@@ -1104,7 +1126,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "luiextended",
@@ -1163,7 +1186,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "m0rmarkers",
@@ -1212,7 +1236,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "odysupporticons",
@@ -1264,7 +1289,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "pchat",
@@ -1319,7 +1345,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "synergypriority",
@@ -1367,7 +1394,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "untaunted",
@@ -1416,7 +1444,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "warmask",
@@ -1462,7 +1491,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     },
     {
       "slug": "wizards-wardrobe",
@@ -1515,7 +1545,8 @@
       },
       "latest_release": null,
       "download_sources": [],
-      "version_info": null
+      "version_info": null,
+      "last_updated": "2025-12-30T04:29:01.723299+00:00"
     }
   ]
 }

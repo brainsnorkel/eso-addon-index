@@ -252,6 +252,7 @@ The built index transforms TOML to JSON with additional auto-generated fields:
   "license": "MIT",
   "tags": ["pvp", "combat"],
   "url": "https://github.com/brainsnorkel/WarMask",
+  "last_updated": "2024-12-22T01:15:43Z",
   "source": {
     "type": "github",
     "repo": "brainsnorkel/WarMask",
@@ -301,6 +302,7 @@ The built index transforms TOML to JSON with additional auto-generated fields:
 | Field | Description |
 |-------|-------------|
 | `url` | Homepage URL derived from source type and repo |
+| `last_updated` | ISO 8601 timestamp of when the addon was last changed (version or metadata) |
 | `install` | Pipeline instructions for addon managers |
 | `download_sources` | Array of download URLs (jsDelivr primary, GitHub fallback) |
 | `latest_release` | Version info fetched from GitHub |
