@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T02:38:37.672399+00:00",
+  "generated_at": "2025-12-30T03:18:17.334273+00:00",
   "addon_count": 23,
   "addons": [
     {
@@ -44,8 +44,33 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "86be8ca",
+        "download_url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
+        "published_at": "2024-10-19T10:16:13Z",
+        "commit_sha": "86be8cafbb635e2501484f80390a86f89e887ba7",
+        "commit_date": "2024-10-19T10:16:13Z",
+        "commit_message": "Updated API Version to 101043"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/Sensi2010/AUI@main/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": null,
+        "version_sort_key": null,
+        "is_prerelease": false,
+        "release_channel": "branch",
+        "commit_message": "Updated API Version to 101043"
+      }
     },
     {
       "slug": "bandits-user-interface",
@@ -90,8 +115,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "v4.428",
+        "download_url": "https://github.com/secretrob/BanditsUserInterface/archive/refs/tags/v4.428.zip",
+        "published_at": "2025-04-16T23:36:06Z",
+        "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/secretrob/BanditsUserInterface@v4.428/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/secretrob/BanditsUserInterface/archive/refs/tags/v4.428.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 4,
+          "minor": 428,
+          "patch": 0,
+          "prerelease": null
+        },
+        "version_sort_key": 4428000000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "breadcrumbs",
@@ -136,8 +188,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "v1.2",
+        "download_url": "https://api.github.com/repos/sheumais/Breadcrumbs/zipball/v1.2",
+        "published_at": "2024-11-24T08:54:56Z",
+        "commit_sha": "1081914e8340c5fa4f3a6890f438d893417c7600"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/sheumais/Breadcrumbs@v1.2/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://api.github.com/repos/sheumais/Breadcrumbs/zipball/v1.2",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 1,
+          "minor": 2,
+          "patch": 0,
+          "prerelease": null
+        },
+        "version_sort_key": 1002000000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "buffthegroup",
@@ -182,8 +261,33 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "51f8305",
+        "download_url": "https://github.com/Fostecks/BuffTheGroup/archive/refs/heads/master.zip",
+        "published_at": "2023-09-20T20:50:33Z",
+        "commit_sha": "51f8305a75019abf0102874d85e7aa5a9dce0bd9",
+        "commit_date": "2023-09-20T20:50:33Z",
+        "commit_message": "3.4.0"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/Fostecks/BuffTheGroup@master/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/Fostecks/BuffTheGroup/archive/refs/heads/master.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": null,
+        "version_sort_key": null,
+        "is_prerelease": false,
+        "release_channel": "branch",
+        "commit_message": "3.4.0"
+      }
     },
     {
       "slug": "combatmetrics",
@@ -233,8 +337,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "1.7.6",
+        "download_url": "https://github.com/Solinur/CombatMetrics/archive/refs/tags/1.7.6.zip",
+        "published_at": "2025-12-29T12:11:58Z",
+        "commit_sha": "7895914634567c337adb1288e748681a9538bb2e"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/Solinur/CombatMetrics@1.7.6/CombatMetrics/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/Solinur/CombatMetrics/archive/refs/tags/1.7.6.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 1,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": null
+        },
+        "version_sort_key": 1007006000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "crutchalerts",
@@ -284,8 +415,33 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "db35267",
+        "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
+        "published_at": "2025-12-29T09:59:57Z",
+        "commit_sha": "db352676e0976ed42fb8d8089797514b83d54932",
+        "commit_date": "2025-12-29T09:59:57Z",
+        "commit_message": "Add lightly tested option for horizontal BHB"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/Kyzderp/CrutchAlerts@master/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": null,
+        "version_sort_key": null,
+        "is_prerelease": false,
+        "release_channel": "branch",
+        "commit_message": "Add lightly tested option for horizontal BHB"
+      }
     },
     {
       "slug": "elmsmarkers",
@@ -329,8 +485,33 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "ba64653",
+        "download_url": "https://github.com/Fostecks/ElmsMarkers/archive/refs/heads/master.zip",
+        "published_at": "2023-09-16T08:06:55Z",
+        "commit_sha": "ba646530f00a6523a929fe065cf9951700d4e70e",
+        "commit_date": "2023-09-16T08:06:55Z",
+        "commit_message": "3.0.0"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/Fostecks/ElmsMarkers@master/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/Fostecks/ElmsMarkers/archive/refs/heads/master.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": null,
+        "version_sort_key": null,
+        "is_prerelease": false,
+        "release_channel": "branch",
+        "commit_message": "3.0.0"
+      }
     },
     {
       "slug": "hodorreflexes",
@@ -381,8 +562,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "2025-12-17",
+        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2025-12-17",
+        "published_at": "2025-12-17T12:34:40Z",
+        "commit_sha": "aba7a5182119498f27dffa6e02a0e321f0a52cd4"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/HodorReflexes@2025-12-17/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2025-12-17",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 2025,
+          "minor": 12,
+          "patch": 17,
+          "prerelease": null
+        },
+        "version_sort_key": 2025012017000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "improveddeathrecap",
@@ -427,8 +635,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "1.0.0",
+        "download_url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.0.zip",
+        "published_at": "2025-02-22T15:21:06Z",
+        "commit_sha": "ef01bfe6b88216f862320b98a283abf6e2d0f462"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/Solinur/ImprovedDeathRecap@1.0.0/ImprovedDeathRecap/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.0.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 1,
+          "minor": 0,
+          "patch": 0,
+          "prerelease": null
+        },
+        "version_sort_key": 1000000000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "bsjogroup",
@@ -476,8 +711,33 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "c3673ce",
+        "download_url": "https://github.com/brainsnorkel/BSJoGroup/archive/refs/heads/main.zip",
+        "published_at": "2024-02-07T10:16:12Z",
+        "commit_sha": "c3673ce0e6063436830cafbf4948a626d42f2a13",
+        "commit_date": "2024-02-07T10:16:12Z",
+        "commit_message": "Change hide chat to its own keybind"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/brainsnorkel/BSJoGroup@main/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/brainsnorkel/BSJoGroup/archive/refs/heads/main.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": null,
+        "version_sort_key": null,
+        "is_prerelease": false,
+        "release_channel": "branch",
+        "commit_message": "Change hide chat to its own keybind"
+      }
     },
     {
       "slug": "libaddonmenu",
@@ -522,8 +782,30 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "r32",
+        "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
+        "published_at": "2020-12-17T20:09:33Z",
+        "commit_sha": "dcf47510012d269531b7554620199e36bf3dafcd"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/sirinsidiator/ESO-LibAddonMenu@r32/LibAddonMenu-2.0/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": null,
+        "version_sort_key": null,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "libchatmessage",
@@ -568,8 +850,33 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "5dd0dd0",
+        "download_url": "https://github.com/sirinsidiator/ESO-LibChatMessage/archive/refs/heads/master.zip",
+        "published_at": "2021-01-23T13:37:19Z",
+        "commit_sha": "5dd0dd0d27b0d6c70cf9967bf0ecf1aa45495292",
+        "commit_date": "2021-01-23T13:37:19Z",
+        "commit_message": "added license"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/sirinsidiator/ESO-LibChatMessage@master/src/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/sirinsidiator/ESO-LibChatMessage/archive/refs/heads/master.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": null,
+        "version_sort_key": null,
+        "is_prerelease": false,
+        "release_channel": "branch",
+        "commit_message": "added license"
+      }
     },
     {
       "slug": "libcombat",
@@ -614,8 +921,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "v7",
+        "download_url": "https://github.com/Solinur/LibCombat/archive/refs/tags/v7.zip",
+        "published_at": "2025-10-08T21:24:22Z",
+        "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/Solinur/LibCombat@v7/LibCombat/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/Solinur/LibCombat/archive/refs/tags/v7.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 7,
+          "minor": 0,
+          "patch": 0,
+          "prerelease": null
+        },
+        "version_sort_key": 7000000000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "libcustomicons",
@@ -660,8 +994,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "2025-12-28",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2025-12-28",
+        "published_at": "2025-12-28T22:34:38Z",
+        "commit_sha": "70d1143047abab1cb737f8296b5aa75aea8a1cbe"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomIcons@2025-12-28/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2025-12-28",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 2025,
+          "minor": 12,
+          "patch": 28,
+          "prerelease": null
+        },
+        "version_sort_key": 2025012028000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "libcustommenu",
@@ -704,8 +1065,33 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "236bb8a",
+        "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
+        "published_at": "2025-12-29T14:56:52Z",
+        "commit_sha": "236bb8a6de6f82d1a8da5458a56af2c85868ff48",
+        "commit_date": "2025-12-29T14:56:52Z",
+        "commit_message": "version 3.1.1:"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/votan73/ESO@master/Addons/LibCustomMenu/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": null,
+        "version_sort_key": null,
+        "is_prerelease": false,
+        "release_channel": "branch",
+        "commit_message": "version 3.1.1:"
+      }
     },
     {
       "slug": "libcustomnames",
@@ -750,8 +1136,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "2025-12-28",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2025-12-28",
+        "published_at": "2025-12-28T22:34:38Z",
+        "commit_sha": "d1f3c5738ff82b28864c04b571b185b80e0c540c"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2025-12-28/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2025-12-28",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 2025,
+          "minor": 12,
+          "patch": 28,
+          "prerelease": null
+        },
+        "version_sort_key": 2025012028000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "libgroupcombatstats",
@@ -796,8 +1209,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "2025.10.11",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2025.10.11",
+        "published_at": "2025-10-11T16:43:24Z",
+        "commit_sha": "b1bc5ccc6d3b8f497a59ec67d4932cea1acc8c38"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibGroupCombatStats@2025.10.11/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2025.10.11",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 2025,
+          "minor": 10,
+          "patch": 11,
+          "prerelease": null
+        },
+        "version_sort_key": 2025010011000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "libmediaprovider",
@@ -841,8 +1281,30 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "r36",
+        "download_url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r36.zip",
+        "published_at": "2025-10-16T09:19:31Z",
+        "commit_sha": "19a7d0cedf5abf7e1309dc42706ee558ec0dcdcf"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/calamath/LibMediaProvider@r36/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r36.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": null,
+        "version_sort_key": null,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "luiextended",
@@ -899,8 +1361,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "v7.1.0.7",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.1.0.7",
+        "published_at": "2025-11-10T16:59:06Z",
+        "commit_sha": "0793181e16d2b3a2deba7e13440dd6da64122ed8"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.1.0.7/LuiExtended/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.1.0.7",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 7,
+          "minor": 1,
+          "patch": 0,
+          "prerelease": null
+        },
+        "version_sort_key": 7001000000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "odysupporticons",
@@ -950,8 +1439,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "Version-1.13.1",
+        "download_url": "https://github.com/exoy94/OdySupportIcons/archive/refs/tags/Version-1.13.1.zip",
+        "published_at": "2025-03-16T15:50:45Z",
+        "commit_sha": "29c23c3a60f90106a8d5b402744f6c1930908b56"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/exoy94/OdySupportIcons@Version-1.13.1/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/exoy94/OdySupportIcons/archive/refs/tags/Version-1.13.1.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 1,
+          "minor": 13,
+          "patch": 1,
+          "prerelease": null
+        },
+        "version_sort_key": 1013001000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "untaunted",
@@ -998,8 +1514,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "1.1.5",
+        "download_url": "https://github.com/Solinur/Untaunted/archive/refs/tags/1.1.5.zip",
+        "published_at": "2023-10-12T21:06:05Z",
+        "commit_sha": "d53214a83029476baf69852aa05acbffc9392ec1"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/Solinur/Untaunted@1.1.5/Untaunted/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/Solinur/Untaunted/archive/refs/tags/1.1.5.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 1,
+          "minor": 1,
+          "patch": 5,
+          "prerelease": null
+        },
+        "version_sort_key": 1001005000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "warmask",
@@ -1043,8 +1586,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "v1.3.0",
+        "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
+        "published_at": "2025-12-22T19:49:33Z",
+        "commit_sha": "fb149bc4f7e5a8cedcc1db5599febaab7c56d657"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/brainsnorkel/WarMask@v1.3.0/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 1,
+          "minor": 3,
+          "patch": 0,
+          "prerelease": null
+        },
+        "version_sort_key": 1003000000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     },
     {
       "slug": "wizards-wardrobe",
@@ -1095,8 +1665,35 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "version_info": null
+      "latest_release": {
+        "version": "v1.18.2",
+        "download_url": "https://github.com/nicokimmel/wizardswardrobe/archive/refs/tags/v1.18.2.zip",
+        "published_at": "2024-05-15T13:50:16Z",
+        "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/nicokimmel/wizardswardrobe@v1.18.2/src/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/nicokimmel/wizardswardrobe/archive/refs/tags/v1.18.2.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 1,
+          "minor": 18,
+          "patch": 2,
+          "prerelease": null
+        },
+        "version_sort_key": 1018002000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      }
     }
   ]
 }

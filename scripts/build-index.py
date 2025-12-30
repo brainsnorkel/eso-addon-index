@@ -283,6 +283,64 @@ def build_addon_url(source: dict) -> str:
         return repo
 
 
+def build_download_sources(source: dict, release_info: dict | None) -> list[dict]:
+    """Build download source URLs with jsDelivr as primary and GitHub as fallback.
+
+    jsDelivr is a free CDN that mirrors GitHub content:
+    - No rate limits
+    - CORS-friendly (works in browsers)
+    - Works even if GitHub is blocked (e.g., in some countries/networks)
+    - Caches content globally for faster downloads
+
+    Returns a list of download sources in priority order.
+    """
+    if source.get("type") != "github" or not release_info:
+        return []
+
+    repo = source.get("repo", "")
+    branch = source.get("branch", "main")
+    path = source.get("path")
+    version = release_info.get("version", "")
+    release_type = source.get("release_type", "tag")
+
+    sources = []
+
+    # Determine the ref (tag or branch)
+    if release_type == "branch":
+        ref = branch
+    else:
+        ref = version
+
+    if not ref:
+        return []
+
+    # Primary: jsDelivr CDN
+    # Note: jsDelivr serves files individually, not as archives.
+    # For directory-based downloads, clients fetch the file list and download each file.
+    # The base_url points to the addon root within the repo.
+    if path:
+        jsdelivr_base = f"https://cdn.jsdelivr.net/gh/{repo}@{ref}/{path}/"
+    else:
+        jsdelivr_base = f"https://cdn.jsdelivr.net/gh/{repo}@{ref}/"
+
+    sources.append({
+        "type": "jsdelivr",
+        "url": jsdelivr_base,
+        "note": "CDN - serves individual files, no rate limits, CORS-friendly",
+    })
+
+    # Fallback: Direct GitHub archive (ZIP)
+    github_url = release_info.get("download_url", "")
+    if github_url:
+        sources.append({
+            "type": "github_archive",
+            "url": github_url,
+            "note": "Direct GitHub ZIP archive, subject to rate limits",
+        })
+
+    return sources
+
+
 def build_install_info(source: dict, addon: dict) -> dict:
     """Build install pipeline instructions for addon manager clients.
 
@@ -366,6 +424,9 @@ def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
     if fetch_releases:
         release_info = fetch_latest_release(source)
         entry["latest_release"] = release_info
+
+        # Add download sources (jsDelivr primary, GitHub fallback)
+        entry["download_sources"] = build_download_sources(source, release_info)
 
         # Determine release channel first (needed for version parsing logic)
         release_channel = detect_release_channel(

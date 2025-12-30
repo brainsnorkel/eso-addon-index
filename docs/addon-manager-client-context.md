@@ -162,6 +162,42 @@ The `version_info` object provides pre-computed version metadata to simplify cli
 
 This allows simple integer comparison: `addon1.version_sort_key > addon2.version_sort_key`
 
+#### Download Sources Array
+
+The `download_sources` array provides multiple download options in priority order, with jsDelivr CDN as the primary source and direct GitHub as fallback.
+
+```json
+{
+  "download_sources": [
+    {
+      "type": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net/gh/brainsnorkel/WarMask@v1.3.0/",
+      "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+    },
+    {
+      "type": "github_archive",
+      "url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
+      "note": "Direct GitHub ZIP archive, subject to rate limits"
+    }
+  ]
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `type` | string | Source type: `jsdelivr` or `github_archive` |
+| `url` | string | Base URL for downloads |
+| `note` | string | Human-readable description of this source |
+
+**Why jsDelivr first?**
+- **No rate limits**: Unlike GitHub API (60 req/hour unauthenticated)
+- **CORS-friendly**: Works in browser-based addon managers
+- **Global CDN**: Fast downloads worldwide
+- **Bypass restrictions**: Works even if GitHub is blocked (e.g., some countries/networks)
+- **Cached**: Content cached at edge, reduces load on GitHub
+
+**Important**: jsDelivr serves files individually (not as ZIP archives). See the download implementation section for details.
+
 #### Install Object (Pipeline Instructions)
 
 The `install` object provides clear, actionable instructions for addon manager clients. This is the "agent-99" approach - explicit pipeline steps rather than inferring behavior.
@@ -382,6 +418,168 @@ addon = {
 
 ---
 
+## Download Strategy: jsDelivr with GitHub Fallback
+
+The index provides multiple download sources via `download_sources`. Clients should try sources in order, falling back on failure.
+
+### Recommended Download Flow
+
+```
+1. Try jsDelivr (primary)
+   └─ Success? → Done
+   └─ Failure? → Continue to fallback
+
+2. Try GitHub archive (fallback)
+   └─ Success? → Done
+   └─ Failure? → Report error to user
+```
+
+### jsDelivr Download Implementation
+
+jsDelivr serves files individually, not as ZIP archives. Two approaches:
+
+#### Option A: Use jsDelivr's ZIP feature (Recommended)
+
+jsDelivr can generate a ZIP of a directory by appending `?full` or using their API:
+
+```
+# Get directory listing as JSON
+https://data.jsdelivr.com/v1/package/gh/{owner}/{repo}@{version}/flat
+
+# Download all files as ZIP (unofficial but works)
+https://cdn.jsdelivr.net/gh/{owner}/{repo}@{version}/?full
+```
+
+**Note**: The `?full` parameter is unofficial. For reliability, use Option B or fall back to GitHub archive.
+
+#### Option B: Fetch file list and download individually
+
+```python
+import requests
+from pathlib import Path
+
+def download_via_jsdelivr(addon: dict, target_dir: Path) -> bool:
+    """Download addon files from jsDelivr CDN."""
+    jsdelivr_source = next(
+        (s for s in addon.get("download_sources", []) if s["type"] == "jsdelivr"),
+        None
+    )
+    if not jsdelivr_source:
+        return False
+
+    base_url = jsdelivr_source["url"].rstrip("/")
+    repo = addon["source"]["repo"]
+    version = addon["latest_release"]["version"]
+
+    # Get file listing from jsDelivr API
+    api_url = f"https://data.jsdelivr.com/v1/package/gh/{repo}@{version}/flat"
+    resp = requests.get(api_url, timeout=10)
+    if not resp.ok:
+        return False
+
+    files = resp.json().get("files", [])
+
+    # Filter to addon path if subdirectory addon
+    path_prefix = addon["source"].get("path", "")
+    if path_prefix:
+        files = [f for f in files if f["name"].startswith(f"/{path_prefix}/")]
+        strip_prefix = f"/{path_prefix}"
+    else:
+        strip_prefix = ""
+
+    # Download each file
+    target_folder = target_dir / addon["install"]["target_folder"]
+    for file_info in files:
+        file_path = file_info["name"]
+        if strip_prefix:
+            relative_path = file_path[len(strip_prefix):].lstrip("/")
+        else:
+            relative_path = file_path.lstrip("/")
+
+        # Skip excluded patterns
+        if should_exclude(relative_path, addon["install"]["excludes"]):
+            continue
+
+        # Download file
+        file_url = f"https://cdn.jsdelivr.net/gh/{repo}@{version}{file_path}"
+        dest = target_folder / relative_path
+        dest.parent.mkdir(parents=True, exist_ok=True)
+
+        file_resp = requests.get(file_url, timeout=30)
+        if file_resp.ok:
+            dest.write_bytes(file_resp.content)
+
+    return True
+```
+
+### GitHub Archive Fallback
+
+If jsDelivr fails, fall back to the GitHub archive ZIP:
+
+```python
+def download_via_github(addon: dict, target_dir: Path) -> bool:
+    """Download addon from GitHub archive (fallback)."""
+    github_source = next(
+        (s for s in addon.get("download_sources", []) if s["type"] == "github_archive"),
+        None
+    )
+    if not github_source:
+        # Use latest_release.download_url as legacy fallback
+        download_url = addon.get("latest_release", {}).get("download_url")
+        if not download_url:
+            return False
+    else:
+        download_url = github_source["url"]
+
+    # Download and extract ZIP
+    resp = requests.get(download_url, timeout=60)
+    if not resp.ok:
+        return False
+
+    # Use existing extraction logic
+    with tempfile.NamedTemporaryFile(suffix=".zip", delete=False) as tmp:
+        tmp.write(resp.content)
+        tmp_path = Path(tmp.name)
+
+    try:
+        extract_addon(tmp_path, addon, target_dir)
+        return True
+    finally:
+        tmp_path.unlink()
+```
+
+### Complete Download Function
+
+```python
+def download_addon(addon: dict, addons_dir: Path) -> bool:
+    """Download addon using available sources with fallback."""
+
+    # Try jsDelivr first (no rate limits, CORS-friendly)
+    try:
+        if download_via_jsdelivr(addon, addons_dir):
+            return True
+    except Exception as e:
+        print(f"jsDelivr failed for {addon['slug']}: {e}")
+
+    # Fall back to GitHub archive
+    try:
+        if download_via_github(addon, addons_dir):
+            return True
+    except Exception as e:
+        print(f"GitHub failed for {addon['slug']}: {e}")
+
+    return False
+```
+
+### When to Use Each Source
+
+| Source | Best For | Limitations |
+|--------|----------|-------------|
+| **jsDelivr** | Browser clients, rate-limited environments, China/restricted networks | ~24hr cache delay for branch updates |
+| **GitHub Archive** | Desktop clients, guaranteed ZIP format, immediate updates | Rate limited (60/hr unauth), may be blocked |
+
+---
+
 ## Caching Recommendations
 
 ### Index Caching
@@ -429,10 +627,22 @@ GitHub Pages supports `Last-Modified` headers.
 
 ## Rate Limiting
 
-- Index is served via GitHub Pages (no strict rate limits)
-- Download URLs point to GitHub releases (subject to GitHub rate limits)
-- For unauthenticated requests: ~60 requests/hour to GitHub API
-- Recommendation: Batch downloads, implement request queuing
+### By Source
+
+| Source | Rate Limit | Notes |
+|--------|------------|-------|
+| **Index (GitHub Pages)** | None | Static files, no API limits |
+| **jsDelivr CDN** | None | Designed for high traffic |
+| **jsDelivr API** | Generous | File listings at `data.jsdelivr.com` |
+| **GitHub Archive** | ~60/hour | Unauthenticated; 5000/hour with token |
+| **GitHub API** | ~60/hour | For release info queries |
+
+### Recommendations
+
+1. **Use jsDelivr as primary download source** - no rate limits
+2. **Cache the index locally** - reduces repeated fetches
+3. **Batch GitHub operations** - if using GitHub directly
+4. **Implement exponential backoff** - for rate limit errors (HTTP 429)
 
 ---
 
@@ -660,6 +870,7 @@ def warn_about_missing_deps(addon, missing_deps):
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.7 | 2024-12-30 | Added `download_sources` array with jsDelivr CDN as primary, GitHub as fallback |
 | 1.6 | 2024-12-30 | Added `missing-dependencies.json` endpoint for unavailable dependencies |
 | 1.5 | 2024-12-30 | Removed `category` field and `categories.json` endpoint |
 | 1.4 | 2024-12-29 | Added `version_info` object with normalized versions, sort keys, and release channels |

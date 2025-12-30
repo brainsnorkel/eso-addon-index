@@ -172,6 +172,10 @@ The build script generates JSON with these fields:
     "published_at": "2024-12-01T12:00:00Z",
     "commit_sha": "abc123def456789..."
   },
+  "download_sources": [
+    {"type": "jsdelivr", "url": "https://cdn.jsdelivr.net/gh/owner/repo@v1.3.0/"},
+    {"type": "github_archive", "url": "https://github.com/.../v1.3.0.zip"}
+  ],
   "version_info": {
     "version_normalized": {"major": 1, "minor": 3, "patch": 0, "prerelease": null},
     "version_sort_key": 1003000000,
@@ -189,6 +193,9 @@ The build script generates JSON with these fields:
   - `target_folder`: Folder name in AddOns/ (from `install_folder` > `path` > `name`)
   - `excludes`: Patterns for files to skip
 - `latest_release.commit_sha`: Full commit SHA for precise version tracking
+- `download_sources`: Array of download URLs in priority order
+  - Primary: jsDelivr CDN (no rate limits, CORS-friendly, works if GitHub blocked)
+  - Fallback: Direct GitHub archive ZIP
 - `version_info`: Pre-computed version metadata for client convenience
   - `version_normalized`: Parsed semver components (null if unparseable or branch-based)
   - `version_sort_key`: Integer for simple version comparison
