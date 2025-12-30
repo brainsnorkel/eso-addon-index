@@ -1,10 +1,10 @@
 [addon]
 slug = "warmask"
 name = "WarMask"
-description = "Tracks Mark of Hircine from Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target."
+description = "Tracks Mark of Hircine and bashed target for Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target, and a line to the current target when it is under the reticle."
 authors = ["brainsnorkel"]
 license = "MIT"
-tags = ["pvp", "combat", "buff-tracking", "mythic"]
+tags = ["combat", "buff-tracking", "mythic"]
 
 [source]
 type = "github"
