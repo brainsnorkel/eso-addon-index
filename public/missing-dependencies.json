@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T02:26:47.113740+00:00",
+  "generated_at": "2025-12-30T02:29:18.424645+00:00",
   "description": "Dependencies referenced by addons but not available in the index",
-  "missing_count": 4,
+  "missing_count": 3,
   "missing_dependencies": [
     {
       "slug": "LibAddonMenu-2.0",
@@ -38,23 +38,15 @@
           "name": "CombatMetrics"
         },
         {
+          "slug": "libchatmessage",
+          "name": "LibChatMessage"
+        },
+        {
           "slug": "libcombat",
           "name": "LibCombat"
         }
       ],
-      "needed_by_count": 2
-    },
-    {
-      "slug": "LibChatMessage",
-      "slug_normalized": "libchatmessage",
-      "dependency_type": "optional",
-      "needed_by": [
-        {
-          "slug": "luiextended",
-          "name": "LuiExtended"
-        }
-      ],
-      "needed_by_count": 1
+      "needed_by_count": 3
     },
     {
       "slug": "pChat",
