@@ -38,6 +38,11 @@ authors = ["author1", "author2"]  # required, at least one
 # See: https://spdx.org/licenses/
 license = "MIT"  # optional, defaults to "Unknown"
 
+# Primary category for classification
+# Valid: combat, crafting, dungeons, guilds, housing, inventory,
+#        library, maps, miscellaneous, pvp, quests, roleplay, social, trading, ui
+category = "combat"  # required
+
 # Tags for search/filtering
 tags = ["pvp", "buff-tracking"]  # optional
 
@@ -58,6 +63,10 @@ branch = "main"  # optional, defaults to repo's default branch
 # Subdirectory path if addon is not at repo root
 # Example: "LibAddonMenu-2.0" for sirinsidiator/ESO-LibAddonMenu
 path = "LibAddonMenu-2.0"  # optional, omit if addon is at repo root
+
+# Target folder name in AddOns directory
+# Defaults to: path > name
+install_folder = "LibAddonMenu-2.0"  # optional
 
 # How to detect new versions
 release_type = "tag"  # optional: tag | release | branch
@@ -125,6 +134,7 @@ slug = "simple-addon"
 name = "Simple Addon"
 description = "A simple example addon"
 authors = ["developer"]
+category = "miscellaneous"
 
 [source]
 type = "github"
@@ -144,7 +154,8 @@ name = "WarMask"
 description = "Tracks Mark of Hircine from Huntsman's Warmask. Shows icon when buff is active, countdown when bash is applied to target."
 authors = ["brainsnorkel"]
 license = "MIT"
-tags = ["pvp", "combat", "buff-tracking", "mythic"]
+category = "combat"
+tags = ["pvp", "buff-tracking", "mythic"]
 
 [source]
 type = "github"
@@ -177,7 +188,8 @@ name = "LibAddonMenu-2.0"
 description = "A library that provides a settings/options menu for addons."
 authors = ["sirinsidiator", "Seerah"]
 license = "Artistic-2.0"
-tags = ["library", "settings", "menu"]
+category = "library"
+tags = ["settings", "menu"]
 
 [source]
 type = "github"
@@ -200,7 +212,7 @@ status = "pending"
 
 ## JSON Output Format
 
-The built index transforms TOML to JSON:
+The built index transforms TOML to JSON with additional auto-generated fields:
 
 ```json
 {
@@ -210,6 +222,7 @@ The built index transforms TOML to JSON:
   "authors": ["brainsnorkel"],
   "license": "MIT",
   "tags": ["pvp", "combat"],
+  "url": "https://github.com/brainsnorkel/WarMask",
   "source": {
     "type": "github",
     "repo": "brainsnorkel/WarMask",
@@ -218,18 +231,55 @@ The built index transforms TOML to JSON:
   "compatibility": {
     "api_version": "101048",
     "game_versions": ["U45"],
-    "required_dependencies": ["LibAddonMenu-2.0"],
+    "required_dependencies": ["libaddonmenu"],
     "optional_dependencies": []
+  },
+  "install": {
+    "method": "github_archive",
+    "extract_path": null,
+    "target_folder": "WarMask",
+    "excludes": [".*", ".github", "tests", "*.md", "*.yml", "*.yaml"]
   },
   "latest_release": {
     "version": "v1.3.0",
-    "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.3.0.zip",
-    "published_at": "2024-12-22T01:15:43Z"
+    "download_url": "https://github.com/.../v1.3.0.zip",
+    "published_at": "2024-12-22T01:15:43Z",
+    "commit_sha": "abc123def456..."
+  },
+  "download_sources": [
+    {
+      "type": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net/gh/brainsnorkel/WarMask@v1.3.0/",
+      "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+    },
+    {
+      "type": "github_archive",
+      "url": "https://github.com/.../v1.3.0.zip",
+      "note": "Direct GitHub ZIP archive, subject to rate limits"
+    }
+  ],
+  "version_info": {
+    "version_normalized": {"major": 1, "minor": 3, "patch": 0, "prerelease": null},
+    "version_sort_key": 1003000000,
+    "is_prerelease": false,
+    "release_channel": "stable"
   }
 }
 ```
 
-For subdirectory addons, the `path` field is included:
+### Auto-Generated Fields
+
+| Field | Description |
+|-------|-------------|
+| `url` | Homepage URL derived from source type and repo |
+| `install` | Pipeline instructions for addon managers |
+| `download_sources` | Array of download URLs (jsDelivr primary, GitHub fallback) |
+| `latest_release` | Version info fetched from GitHub |
+| `version_info` | Pre-computed version metadata for client convenience |
+
+### Subdirectory Addon Output
+
+For addons in subdirectories, `path` is included in source and used for jsDelivr URLs:
 
 ```json
 {
@@ -241,6 +291,18 @@ For subdirectory addons, the `path` field is included:
     "branch": "master",
     "path": "LibAddonMenu-2.0"
   },
-  ...
+  "install": {
+    "method": "github_release",
+    "extract_path": "LibAddonMenu-2.0",
+    "target_folder": "LibAddonMenu-2.0",
+    "excludes": [".*", ".github", "tests", "*.md", "*.yml", "*.yaml"]
+  },
+  "download_sources": [
+    {
+      "type": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net/gh/sirinsidiator/ESO-LibAddonMenu@r32/LibAddonMenu-2.0/",
+      "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+    }
+  ]
 }
 ```
