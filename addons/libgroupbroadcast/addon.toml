@@ -1,0 +1,28 @@
+[addon]
+slug = "libgroupbroadcast"
+name = "LibGroupBroadcast"
+description = "A library for broadcasting data between group members. Enables addons to share information across the group."
+authors = ["sirinsidiator"]
+license = "Artistic-2.0"
+category = "library"
+tags = ["group", "broadcast", "data-sharing", "communication"]
+
+[source]
+type = "github"
+repo = "sirinsidiator/ESO-LibGroupBroadcast"
+branch = "main"
+path = "src"
+install_folder = "LibGroupBroadcast"
+release_type = "branch"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U45"]
+required_dependencies = ["libaddonmenu-2-0", "libdebuglogger"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2024-12-30
+status = "approved"
+reviewers = []

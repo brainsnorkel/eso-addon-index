@@ -357,6 +357,24 @@
       ]
     },
     {
+      "id": "libgroupbroadcast",
+      "title": "LibGroupBroadcast",
+      "url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast",
+      "date_published": null,
+      "authors": [
+        {
+          "name": "sirinsidiator"
+        }
+      ],
+      "summary": "A library for broadcasting data between group members. Enables addons to share information across the group.",
+      "tags": [
+        "group",
+        "broadcast",
+        "data-sharing",
+        "communication"
+      ]
+    },
+    {
       "id": "libgroupcombatstats",
       "title": "LibGroupCombatStats",
       "url": "https://github.com/m00nyONE/LibGroupCombatStats",

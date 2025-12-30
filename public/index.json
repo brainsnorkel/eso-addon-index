@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T04:13:23.339133+00:00",
-  "addon_count": 27,
+  "generated_at": "2025-12-30T04:14:52.103040+00:00",
+  "addon_count": 28,
   "addons": [
     {
       "slug": "aui",
@@ -848,6 +848,55 @@
         "method": "branch",
         "extract_path": "src",
         "target_folder": "LibDebugLogger",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null
+    },
+    {
+      "slug": "libgroupbroadcast",
+      "name": "LibGroupBroadcast",
+      "description": "A library for broadcasting data between group members. Enables addons to share information across the group.",
+      "authors": [
+        "sirinsidiator"
+      ],
+      "license": "Artistic-2.0",
+      "tags": [
+        "group",
+        "broadcast",
+        "data-sharing",
+        "communication"
+      ],
+      "url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast",
+      "source": {
+        "type": "github",
+        "repo": "sirinsidiator/ESO-LibGroupBroadcast",
+        "branch": "main",
+        "path": "src"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U45"
+        ],
+        "required_dependencies": [
+          "libaddonmenu-2-0",
+          "libdebuglogger"
+        ],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "branch",
+        "extract_path": "src",
+        "target_folder": "LibGroupBroadcast",
         "excludes": [
           ".*",
           ".github",
