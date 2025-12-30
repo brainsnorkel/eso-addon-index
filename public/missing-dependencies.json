@@ -1,9 +1,33 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-29T20:38:14.607028+00:00",
+  "generated_at": "2025-12-30T00:17:24.755760+00:00",
   "description": "Dependencies referenced by addons but not available in the index",
   "missing_count": 4,
   "missing_dependencies": [
+    {
+      "slug": "LibAddonMenu-2.0",
+      "slug_normalized": "libaddonmenu-2.0",
+      "dependency_type": "required",
+      "needed_by": [
+        {
+          "slug": "aui",
+          "name": "Advanced UI"
+        },
+        {
+          "slug": "buffthegroup",
+          "name": "Buff The Group"
+        },
+        {
+          "slug": "elmsmarkers",
+          "name": "ElmsMarkers"
+        },
+        {
+          "slug": "luiextended",
+          "name": "LuiExtended"
+        }
+      ],
+      "needed_by_count": 4
+    },
     {
       "slug": "LibDebugLogger",
       "slug_normalized": "libdebuglogger",
@@ -19,18 +43,6 @@
         }
       ],
       "needed_by_count": 2
-    },
-    {
-      "slug": "LibAddonMenu-2.0",
-      "slug_normalized": "libaddonmenu-2.0",
-      "dependency_type": "required",
-      "needed_by": [
-        {
-          "slug": "luiextended",
-          "name": "LuiExtended"
-        }
-      ],
-      "needed_by_count": 1
     },
     {
       "slug": "LibChatMessage",

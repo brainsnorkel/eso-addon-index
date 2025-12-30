@@ -5,10 +5,26 @@
   "feed_url": "https://xop.co/eso-addon-index/feed.json",
   "items": [
     {
+      "id": "aui",
+      "title": "Advanced UI 86be8ca",
+      "url": "https://github.com/Sensi2010/AUI",
+      "date_published": "2024-10-19T10:16:13Z",
+      "authors": [
+        {
+          "name": "Sensi"
+        }
+      ],
+      "summary": "Advanced user interface for the Elder Scrolls Online",
+      "tags": [
+        "ui",
+        "interface"
+      ]
+    },
+    {
       "id": "breadcrumbs",
-      "title": "Breadcrumbs",
+      "title": "Breadcrumbs v1.2",
       "url": "https://github.com/sheumais/Breadcrumbs",
-      "date_published": null,
+      "date_published": "2024-11-24T08:54:56Z",
       "authors": [
         {
           "name": "TheMrPancake"
@@ -25,10 +41,30 @@
       ]
     },
     {
+      "id": "buffthegroup",
+      "title": "Buff The Group 51f8305",
+      "url": "https://github.com/Fostecks/BuffTheGroup",
+      "date_published": "2023-09-20T20:50:33Z",
+      "authors": [
+        {
+          "name": "bitrock"
+        },
+        {
+          "name": "garlicmoon"
+        }
+      ],
+      "summary": "Monitor a single buff status across all group members",
+      "tags": [
+        "group",
+        "buffs",
+        "combat"
+      ]
+    },
+    {
       "id": "combatmetrics",
-      "title": "CombatMetrics",
+      "title": "CombatMetrics 1.7.6",
       "url": "https://github.com/Solinur/CombatMetrics",
-      "date_published": null,
+      "date_published": "2025-12-29T12:11:58Z",
       "authors": [
         {
           "name": "Solinur"
@@ -45,9 +81,9 @@
     },
     {
       "id": "crutchalerts",
-      "title": "CrutchAlerts",
+      "title": "CrutchAlerts db35267",
       "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "date_published": null,
+      "date_published": "2025-12-29T09:59:57Z",
       "authors": [
         {
           "name": "Kyzeragon"
@@ -64,10 +100,26 @@
       ]
     },
     {
+      "id": "elmsmarkers",
+      "title": "ElmsMarkers ba64653",
+      "url": "https://github.com/Fostecks/ElmsMarkers",
+      "date_published": "2023-09-16T08:06:55Z",
+      "authors": [
+        {
+          "name": "bitrock"
+        }
+      ],
+      "summary": "Create, manage, and share markers on your 3D world map",
+      "tags": [
+        "map",
+        "markers"
+      ]
+    },
+    {
       "id": "hodorreflexes",
-      "title": "HodorReflexes",
+      "title": "HodorReflexes 2025-12-17",
       "url": "https://github.com/m00nyONE/HodorReflexes",
-      "date_published": null,
+      "date_published": "2025-12-17T12:34:40Z",
       "authors": [
         {
           "name": "andy.s"
@@ -87,9 +139,9 @@
     },
     {
       "id": "improveddeathrecap",
-      "title": "ImprovedDeathRecap",
+      "title": "ImprovedDeathRecap 1.0.0",
       "url": "https://github.com/Solinur/ImprovedDeathRecap",
-      "date_published": null,
+      "date_published": "2025-02-22T15:21:06Z",
       "authors": [
         {
           "name": "Solinur"
@@ -104,9 +156,9 @@
     },
     {
       "id": "bsjogroup",
-      "title": "JoGroup",
+      "title": "JoGroup c3673ce",
       "url": "https://github.com/brainsnorkel/BSJoGroup",
-      "date_published": null,
+      "date_published": "2024-02-07T10:16:12Z",
       "authors": [
         {
           "name": "JoyceKimberly"
@@ -133,9 +185,9 @@
     },
     {
       "id": "libaddonmenu",
-      "title": "LibAddonMenu-2.0",
+      "title": "LibAddonMenu-2.0 r32",
       "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu",
-      "date_published": null,
+      "date_published": "2020-12-17T20:09:33Z",
       "authors": [
         {
           "name": "sirinsidiator"
@@ -154,9 +206,9 @@
     },
     {
       "id": "libcombat",
-      "title": "LibCombat",
+      "title": "LibCombat v7",
       "url": "https://github.com/Solinur/LibCombat",
-      "date_published": null,
+      "date_published": "2025-10-08T21:24:22Z",
       "authors": [
         {
           "name": "Solinur"
@@ -171,9 +223,9 @@
     },
     {
       "id": "libcustomicons",
-      "title": "LibCustomIcons",
+      "title": "LibCustomIcons 2025-12-28",
       "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "date_published": null,
+      "date_published": "2025-12-28T22:34:38Z",
       "authors": [
         {
           "name": "m00nyONE"
@@ -191,9 +243,9 @@
     },
     {
       "id": "libcustommenu",
-      "title": "LibCustomMenu",
+      "title": "LibCustomMenu 236bb8a",
       "url": "https://github.com/votan73/ESO",
-      "date_published": null,
+      "date_published": "2025-12-29T14:56:52Z",
       "authors": [
         {
           "name": "votan"
@@ -208,9 +260,9 @@
     },
     {
       "id": "libcustomnames",
-      "title": "LibCustomNames",
+      "title": "LibCustomNames 2025-12-28",
       "url": "https://github.com/m00nyONE/LibCustomNames",
-      "date_published": null,
+      "date_published": "2025-12-28T22:34:38Z",
       "authors": [
         {
           "name": "m00nyONE"
@@ -228,9 +280,9 @@
     },
     {
       "id": "libgroupcombatstats",
-      "title": "LibGroupCombatStats",
+      "title": "LibGroupCombatStats 2025.10.11",
       "url": "https://github.com/m00nyONE/LibGroupCombatStats",
-      "date_published": null,
+      "date_published": "2025-10-11T16:43:24Z",
       "authors": [
         {
           "name": "m00nyONE"
@@ -247,9 +299,9 @@
     },
     {
       "id": "libmediaprovider",
-      "title": "LibMediaProvider",
+      "title": "LibMediaProvider r36",
       "url": "https://github.com/calamath/LibMediaProvider",
-      "date_published": null,
+      "date_published": "2025-10-16T09:19:31Z",
       "authors": [
         {
           "name": "Seerah"
@@ -272,9 +324,9 @@
     },
     {
       "id": "luiextended",
-      "title": "LuiExtended",
+      "title": "LuiExtended v7.1.0.7",
       "url": "https://github.com/DakJaniels/LuiExtended",
-      "date_published": null,
+      "date_published": "2025-11-10T16:59:06Z",
       "authors": [
         {
           "name": "ArtOfShred"
@@ -303,9 +355,9 @@
     },
     {
       "id": "odysupporticons",
-      "title": "OdySupportIcons",
+      "title": "OdySupportIcons Version-1.13.1",
       "url": "https://github.com/exoy94/OdySupportIcons",
-      "date_published": null,
+      "date_published": "2025-03-16T15:50:45Z",
       "authors": [
         {
           "name": "Lamierina7"
@@ -325,9 +377,9 @@
     },
     {
       "id": "untaunted",
-      "title": "Untaunted",
+      "title": "Untaunted 1.1.5",
       "url": "https://github.com/Solinur/Untaunted",
-      "date_published": null,
+      "date_published": "2023-10-12T21:06:05Z",
       "authors": [
         {
           "name": "Solinur"
@@ -344,9 +396,9 @@
     },
     {
       "id": "warmask",
-      "title": "WarMask",
+      "title": "WarMask v1.3.0",
       "url": "https://github.com/brainsnorkel/WarMask",
-      "date_published": null,
+      "date_published": "2025-12-22T19:49:33Z",
       "authors": [
         {
           "name": "brainsnorkel"

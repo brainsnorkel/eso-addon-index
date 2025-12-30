@@ -1,5 +1,45 @@
 {
   "versions": {
+    "aui": {
+      "version": "86be8ca",
+      "download_url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
+      "published_at": "2024-10-19T10:16:13Z",
+      "release_notes": "Updated API Version to 101043",
+      "commit_sha": "86be8cafbb635e2501484f80390a86f89e887ba7",
+      "commit_date": "2024-10-19T10:16:13Z",
+      "commit_message": "Updated API Version to 101043"
+    },
+    "breadcrumbs": {
+      "version": "v1.2",
+      "download_url": "https://api.github.com/repos/sheumais/Breadcrumbs/zipball/v1.2",
+      "published_at": "2024-11-24T08:54:56Z",
+      "release_notes": ""
+    },
+    "bsjogroup": {
+      "version": "c3673ce",
+      "download_url": "https://github.com/brainsnorkel/BSJoGroup/archive/refs/heads/main.zip",
+      "published_at": "2024-02-07T10:16:12Z",
+      "release_notes": "Change hide chat to its own keybind",
+      "commit_sha": "c3673ce0e6063436830cafbf4948a626d42f2a13",
+      "commit_date": "2024-02-07T10:16:12Z",
+      "commit_message": "Change hide chat to its own keybind"
+    },
+    "buffthegroup": {
+      "version": "51f8305",
+      "download_url": "https://github.com/Fostecks/BuffTheGroup/archive/refs/heads/master.zip",
+      "published_at": "2023-09-20T20:50:33Z",
+      "release_notes": "3.4.0",
+      "commit_sha": "51f8305a75019abf0102874d85e7aa5a9dce0bd9",
+      "commit_date": "2023-09-20T20:50:33Z",
+      "commit_message": "3.4.0"
+    },
+    "combatmetrics": {
+      "version": "1.7.6",
+      "download_url": "https://github.com/Solinur/CombatMetrics/archive/refs/tags/1.7.6.zip",
+      "published_at": "2025-12-29T12:11:58Z",
+      "release_notes": null,
+      "commit_sha": "7895914634567c337adb1288e748681a9538bb2e"
+    },
     "crutchalerts": {
       "version": "db35267",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
@@ -9,11 +49,27 @@
       "commit_date": "2025-12-29T09:59:57Z",
       "commit_message": "Add lightly tested option for horizontal BHB"
     },
+    "elmsmarkers": {
+      "version": "ba64653",
+      "download_url": "https://github.com/Fostecks/ElmsMarkers/archive/refs/heads/master.zip",
+      "published_at": "2023-09-16T08:06:55Z",
+      "release_notes": "3.0.0",
+      "commit_sha": "ba646530f00a6523a929fe065cf9951700d4e70e",
+      "commit_date": "2023-09-16T08:06:55Z",
+      "commit_message": "3.0.0"
+    },
     "hodorreflexes": {
       "version": "2025-12-17",
       "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2025-12-17",
       "published_at": "2025-12-17T12:34:40Z",
       "release_notes": "## 2025.12.17 - @m00nyONE\n- add configurator for console\n\n"
+    },
+    "improveddeathrecap": {
+      "version": "1.0.0",
+      "download_url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.0.zip",
+      "published_at": "2025-02-22T15:21:06Z",
+      "release_notes": null,
+      "commit_sha": "ef01bfe6b88216f862320b98a283abf6e2d0f462"
     },
     "libaddonmenu": {
       "version": "r32",
@@ -21,11 +77,27 @@
       "published_at": "2020-12-17T20:09:33Z",
       "release_notes": ""
     },
+    "libcombat": {
+      "version": "v7",
+      "download_url": "https://github.com/Solinur/LibCombat/archive/refs/tags/v7.zip",
+      "published_at": "2025-10-08T21:24:22Z",
+      "release_notes": null,
+      "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
+    },
     "libcustomicons": {
       "version": "2025-12-28",
       "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2025-12-28",
       "published_at": "2025-12-28T22:34:38Z",
       "release_notes": "## 2025.11.16\n- BREAKING CHANGE FOR DEVELOPERS:\n- removed GetIcon() - use GetStatic() or GetAnimated() instead\n- BREAKING CHANGES IN THE NEAR FUTURE:\n- GetStatic() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom` instead of only texturePath\n- GetAnimated() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, framerate` instead of a table.\n- If you are a developer, and you have"
+    },
+    "libcustommenu": {
+      "version": "236bb8a",
+      "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
+      "published_at": "2025-12-29T14:56:52Z",
+      "release_notes": "version 3.1.1:",
+      "commit_sha": "236bb8a6de6f82d1a8da5458a56af2c85868ff48",
+      "commit_date": "2025-12-29T14:56:52Z",
+      "commit_message": "version 3.1.1:"
     },
     "libcustomnames": {
       "version": "2025-12-28",
@@ -39,12 +111,32 @@
       "published_at": "2025-10-11T16:43:24Z",
       "release_notes": "## 2025.10.11\n- readd console support\n- bump LibCombat>=83\n- bump LibCombat2>=8 (console)\n\n## 2025.10.08\n- remove console support until LibCombat>=83 is released\n- fix variable naming\n\n## 2025.10.04\n- add console support\n\n## 2025.09.27\n- add cryptcannon as a sharable ultimate - fixes: https://github.com/m00nyONE/LibGroupCombatStats/issues/5\n- fix a bug where the ult update did not get sent because the event for switching skills is not fired when equipping a set with ultimates\n- add dynamic MAX_U"
     },
+    "libmediaprovider": {
+      "version": "r36",
+      "download_url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r36.zip",
+      "published_at": "2025-10-16T09:19:31Z",
+      "release_notes": null,
+      "commit_sha": "19a7d0cedf5abf7e1309dc42706ee558ec0dcdcf"
+    },
+    "luiextended": {
+      "version": "v7.1.0.7",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.1.0.7",
+      "published_at": "2025-11-10T16:59:06Z",
+      "release_notes": "**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.1.0.6...v7.1.0.7"
+    },
     "odysupporticons": {
       "version": "Version-1.13.1",
       "download_url": "https://github.com/exoy94/OdySupportIcons/archive/refs/tags/Version-1.13.1.zip",
       "published_at": "2025-03-16T15:50:45Z",
       "release_notes": null,
       "commit_sha": "29c23c3a60f90106a8d5b402744f6c1930908b56"
+    },
+    "untaunted": {
+      "version": "1.1.5",
+      "download_url": "https://github.com/Solinur/Untaunted/archive/refs/tags/1.1.5.zip",
+      "published_at": "2023-10-12T21:06:05Z",
+      "release_notes": null,
+      "commit_sha": "d53214a83029476baf69852aa05acbffc9392ec1"
     },
     "warmask": {
       "version": "v1.3.0",
@@ -54,6 +146,6 @@
       "commit_sha": "fb149bc4f7e5a8cedcc1db5599febaab7c56d657"
     }
   },
-  "last_checked": "2025-12-29T18:06:02.997323+00:00",
+  "last_checked": "2025-12-30T00:17:18.067933+00:00",
   "updates": []
 }
