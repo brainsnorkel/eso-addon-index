@@ -2,7 +2,7 @@
 
 A curated, peer-reviewed registry of Elder Scrolls Online addon metadata.
 
-**[View the Index](https://xop.co/eso-addon-index/index.json)** | **[JSON Feed](https://xop.co/eso-addon-index/feed.json)**
+**[Browse Addons](https://xop.co/eso-addon-index/)** | **[View Index JSON](https://xop.co/eso-addon-index/index.json)** | **[JSON Feed](https://xop.co/eso-addon-index/feed.json)**
 
 ## About
 
@@ -45,8 +45,8 @@ curl https://xop.co/eso-addon-index/index.min.json
 # JSON Feed (for feed readers)
 curl https://xop.co/eso-addon-index/feed.json
 
-# Categories
-curl https://xop.co/eso-addon-index/categories.json
+# Missing dependencies
+curl https://xop.co/eso-addon-index/missing-dependencies.json
 ```
 
 ### Index Format
@@ -62,7 +62,9 @@ curl https://xop.co/eso-addon-index/categories.json
       "name": "WarMask",
       "description": "Tracks Mark of Hircine...",
       "authors": ["brainsnorkel"],
-      "category": "combat",
+      "tags": ["pvp", "combat"],
+      "url": "https://github.com/brainsnorkel/WarMask",
+      "last_updated": "2024-12-01T12:00:00Z",
       "source": {
         "type": "github",
         "repo": "brainsnorkel/WarMask"
@@ -75,6 +77,8 @@ curl https://xop.co/eso-addon-index/categories.json
   ]
 }
 ```
+
+See [Client Integration Guide](docs/addon-manager-client-context.md) for complete field documentation.
 
 ## Local Development
 
@@ -99,9 +103,10 @@ python scripts/build-index.py
 
 ## Documentation
 
-- [Contributing Guide](docs/CONTRIBUTING.md)
-- [Review Process](docs/REVIEW_PROCESS.md)
-- [Schema Reference](docs/SCHEMA.md)
+- [Client Integration Guide](docs/addon-manager-client-context.md) - For addon manager developers
+- [Contributing Guide](docs/CONTRIBUTING.md) - How to submit addons
+- [Review Process](docs/REVIEW_PROCESS.md) - Reviewer checklist
+- [Schema Reference](docs/SCHEMA.md) - TOML metadata format
 
 ## License
 
