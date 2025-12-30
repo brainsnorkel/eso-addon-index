@@ -300,8 +300,32 @@ The repository includes test addons for development:
   - Update version history table with changes
   - Update example JSON snippets to reflect current structure
 
+### Backward Compatibility (Critical)
+
+**Avoid breaking changes to the JSON schema.** Addon manager clients depend on the index structure, and breaking changes force all clients to update simultaneously.
+
+**Safe changes (additive, non-breaking):**
+- Adding new optional fields (clients ignore unknown fields)
+- Adding new endpoints (existing endpoints unchanged)
+- Adding new values to existing arrays
+- Adding new properties to nested objects
+
+**Breaking changes (avoid unless absolutely necessary):**
+- Removing fields clients depend on
+- Renaming existing fields
+- Changing field types (string → array, object → string)
+- Changing the structure of nested objects
+- Removing endpoints
+
+**If a breaking change is unavoidable:**
+1. Deprecate the old field/structure first (add warning to docs)
+2. Support both old and new formats during transition period
+3. Announce the change with a clear migration timeline
+4. Increment the major version number
+
 ### Checklist for API Changes
 
+- [ ] Verify change is backward-compatible (additive only)
 - [ ] Update `addon-manager-client-context.md` with new/changed fields
 - [ ] Update `docs/SCHEMA.md` if TOML schema changes
 - [ ] Update `addons/_schema.toml` reference file
