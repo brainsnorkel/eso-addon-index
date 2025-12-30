@@ -17,7 +17,7 @@ release_type = "tag"
 [compatibility]
 api_version = "101048"
 game_versions = ["U45"]
-required_dependencies = ["libcombat", "libaddonmenu"]
+required_dependencies = ["libcombat", "libaddonmenu-2-0"]
 optional_dependencies = ["LibDebugLogger"]
 
 [meta]

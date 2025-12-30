@@ -17,8 +17,8 @@ release_type = "release"
 [compatibility]
 api_version = "101048"
 game_versions = ["U45"]
-required_dependencies = ["LibAddonMenu-2.0", "LibMediaProvider"]
-optional_dependencies = ["LibChatMessage", "pChat", "CombatMetrics", "CrutchAlerts"]
+required_dependencies = ["libaddonmenu-2-0", "libmediaprovider"]
+optional_dependencies = ["libchatmessage", "pchat", "combatmetrics", "crutchalerts"]
 
 [meta]
 submitted_by = "brainsnorkel"

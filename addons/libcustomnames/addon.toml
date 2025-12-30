@@ -15,7 +15,7 @@ release_type = "release"
 [compatibility]
 api_version = "101048"
 game_versions = ["U45"]
-required_dependencies = ["libaddonmenu"]
+required_dependencies = ["libaddonmenu-2-0"]
 optional_dependencies = []
 
 [meta]

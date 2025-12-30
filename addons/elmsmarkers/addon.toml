@@ -16,7 +16,7 @@ release_type = "branch"
 [compatibility]
 api_version = "101040"
 game_versions = ["U40"]
-required_dependencies = ["LibAddonMenu-2.0", "OdySupportIcons"]
+required_dependencies = ["libaddonmenu-2-0", "odysupporticons"]
 optional_dependencies = []
 
 [meta]

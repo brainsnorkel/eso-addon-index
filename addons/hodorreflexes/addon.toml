@@ -15,7 +15,7 @@ release_type = "release"
 [compatibility]
 api_version = "101048"
 game_versions = ["U45"]
-required_dependencies = ["libgroupcombatstats", "libaddonmenu"]
+required_dependencies = ["libgroupcombatstats", "libaddonmenu-2-0"]
 optional_dependencies = ["libcustomnames", "libcustomicons"]
 
 [meta]

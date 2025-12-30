@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T03:50:57.589341+00:00",
+  "generated_at": "2025-12-30T03:57:40.044014+00:00",
   "addon_count": 25,
   "addons": [
     {
@@ -27,7 +27,7 @@
           "U43"
         ],
         "required_dependencies": [
-          "LibAddonMenu-2.0"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": []
       },
@@ -121,7 +121,7 @@
           "U44"
         ],
         "required_dependencies": [
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": []
       },
@@ -168,7 +168,7 @@
           "U40"
         ],
         "required_dependencies": [
-          "LibAddonMenu-2.0"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": []
       },
@@ -218,7 +218,7 @@
         ],
         "required_dependencies": [
           "libcombat",
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": [
           "LibDebugLogger"
@@ -269,7 +269,7 @@
           "U45"
         ],
         "required_dependencies": [
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": [
           "odysupporticons",
@@ -317,8 +317,8 @@
           "U40"
         ],
         "required_dependencies": [
-          "LibAddonMenu-2.0",
-          "OdySupportIcons"
+          "libaddonmenu-2-0",
+          "odysupporticons"
         ],
         "optional_dependencies": []
       },
@@ -368,7 +368,7 @@
         ],
         "required_dependencies": [
           "libgroupcombatstats",
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": [
           "libcustomnames",
@@ -418,7 +418,7 @@
           "U35"
         ],
         "required_dependencies": [
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": []
       },
@@ -468,7 +468,7 @@
           "U42"
         ],
         "required_dependencies": [
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": []
       },
@@ -703,7 +703,7 @@
           "U45"
         ],
         "required_dependencies": [
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": []
       },
@@ -795,7 +795,7 @@
           "U45"
         ],
         "required_dependencies": [
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": []
       },
@@ -986,14 +986,14 @@
           "U45"
         ],
         "required_dependencies": [
-          "LibAddonMenu-2.0",
-          "LibMediaProvider"
+          "libaddonmenu-2-0",
+          "libmediaprovider"
         ],
         "optional_dependencies": [
-          "LibChatMessage",
-          "pChat",
-          "CombatMetrics",
-          "CrutchAlerts"
+          "libchatmessage",
+          "pchat",
+          "combatmetrics",
+          "crutchalerts"
         ]
       },
       "install": {
@@ -1042,7 +1042,7 @@
           "U45"
         ],
         "required_dependencies": [
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": [
           "libcustomicons"
@@ -1093,7 +1093,7 @@
           "U44"
         ],
         "required_dependencies": [
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": []
       },
@@ -1139,7 +1139,7 @@
           "U45"
         ],
         "required_dependencies": [
-          "libaddonmenu"
+          "libaddonmenu-2-0"
         ],
         "optional_dependencies": []
       },
@@ -1189,7 +1189,7 @@
           "U45"
         ],
         "required_dependencies": [
-          "libaddonmenu",
+          "libaddonmenu-2-0",
           "libchatmessage",
           "libdebuglogger",
           "libasync"

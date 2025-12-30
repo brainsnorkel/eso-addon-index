@@ -18,7 +18,7 @@ release_type = "tag"
 [compatibility]
 api_version = "101048"
 game_versions = ["U45"]
-required_dependencies = ["libaddonmenu", "libchatmessage", "libdebuglogger", "libasync"]
+required_dependencies = ["libaddonmenu-2-0", "libchatmessage", "libdebuglogger", "libasync"]
 optional_dependencies = []
 
 [meta]
