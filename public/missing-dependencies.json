@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-30T03:18:17.339615+00:00",
+  "generated_at": "2025-12-30T03:45:25.814910+00:00",
   "description": "Dependencies referenced by addons but not available in the index",
-  "missing_count": 4,
+  "missing_count": 3,
   "missing_dependencies": [
     {
       "slug": "LibAddonMenu-2.0",
@@ -24,30 +24,6 @@
         {
           "slug": "luiextended",
           "name": "LuiExtended"
-        }
-      ],
-      "needed_by_count": 4
-    },
-    {
-      "slug": "LibDebugLogger",
-      "slug_normalized": "libdebuglogger",
-      "dependency_type": "required+optional",
-      "needed_by": [
-        {
-          "slug": "combatmetrics",
-          "name": "CombatMetrics"
-        },
-        {
-          "slug": "libchatmessage",
-          "name": "LibChatMessage"
-        },
-        {
-          "slug": "libcombat",
-          "name": "LibCombat"
-        },
-        {
-          "slug": "wizards-wardrobe",
-          "name": "Wizard's Wardrobe"
         }
       ],
       "needed_by_count": 4
