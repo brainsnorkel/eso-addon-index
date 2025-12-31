@@ -334,6 +334,7 @@
             font-size: 0.9rem;
             overflow-x: auto;
             margin-bottom: 20px;
+            white-space: pre-wrap;
         }
 
         .code-block .comment {
@@ -825,7 +826,6 @@
         <div class="container">
             <a href="https://github.com/brainsnorkel/eso-addon-manager/releases" target="_blank" rel="noopener">Download Client</a>
             <a href="#addons">Browse Addons</a>
-            <a href="#client-guide">Client Guide</a>
             <a href="#authors">For Authors</a>
             <a href="#api">API</a>
             <a href="#download">Download</a>
@@ -844,86 +844,6 @@
 
             <div class="addon-grid" id="addon-grid">
                 <div class="loading">Loading addons...</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="client-guide">
-        <div class="container">
-            <h2>Client Integration Guide</h2>
-            <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px;">
-                Building an addon manager? Here's how to work with the index.
-            </p>
-
-            <div class="directory-structure">
-                <h3>ESO AddOns Directory Structure</h3>
-
-                <div class="code-block">
-<span class="comment"># Windows</span>
-<span class="folder">%USERPROFILE%\Documents\Elder Scrolls Online\live\AddOns\</span>
-
-<span class="comment"># macOS</span>
-<span class="folder">~/Documents/Elder Scrolls Online/live/AddOns/</span>
-
-<span class="comment"># Example installed structure:</span>
-<span class="folder">AddOns/</span>
-  <span class="folder">WarMask/</span>
-    <span class="file">WarMask.txt</span>          <span class="comment"># Addon manifest</span>
-    <span class="file">WarMask.lua</span>          <span class="comment"># Main code</span>
-  <span class="folder">LibAddonMenu-2.0/</span>
-    <span class="file">LibAddonMenu-2.0.txt</span>
-    <span class="file">LibAddonMenu-2.0.lua</span>
-  <span class="folder">CrutchAlerts/</span>
-    <span class="file">CrutchAlerts.txt</span>
-    <span class="file">...</span>
-                </div>
-
-                <h3>Handling Subdirectory Addons</h3>
-                <p style="color: var(--text-muted); margin-bottom: 15px;">
-                    Some addons (like libraries) live in a subdirectory of their repo.
-                    Check the <code>source.path</code> field in addon metadata.
-                </p>
-
-                <div class="info-box">
-                    <h4>When source.path is present:</h4>
-                    <p>Extract only that subdirectory to AddOns root. For example, LibAddonMenu's
-                    <code>source.path: "LibAddonMenu-2.0"</code> means extract the
-                    <code>LibAddonMenu-2.0/</code> folder directly to AddOns, not nested under the repo name.</p>
-                </div>
-
-                <div class="code-block">
-<span class="comment"># Example: Installing LibAddonMenu from ZIP</span>
-
-<span class="comment"># 1. Download ZIP contains:</span>
-<span class="folder">ESO-LibAddonMenu-2.4.0/</span>
-  <span class="folder">LibAddonMenu-2.0/</span>    <span class="comment"># &lt;-- source.path points here</span>
-    <span class="file">LibAddonMenu-2.0.txt</span>
-    <span class="file">LibAddonMenu-2.0.lua</span>
-  <span class="file">README.md</span>
-
-<span class="comment"># 2. Extract source.path folder to AddOns root:</span>
-<span class="folder">AddOns/LibAddonMenu-2.0/</span>  <span class="comment"># Correct!</span>
-
-<span class="comment"># NOT nested like:</span>
-<span class="folder">AddOns/ESO-LibAddonMenu-2.4.0/LibAddonMenu-2.0/</span>  <span class="comment"># Wrong!</span>
-                </div>
-
-                <h3>Dependency Resolution</h3>
-                <p style="color: var(--text-muted); margin-bottom: 15px;">
-                    Dependencies use slug references. Resolve them by looking up the slug in the index.
-                </p>
-
-                <div class="code-block">
-<span class="comment"># Pseudo-code for dependency resolution</span>
-
-for each addon.compatibility.required_dependencies:
-    dep = index.find(slug=dependency_slug)
-    if dep:
-        download(dep.latest_release.download_url)
-        resolve_dependencies(dep)  <span class="comment"># Recursive!</span>
-    else:
-        warn("Dependency not in index: " + dependency_slug)
-                </div>
             </div>
         </div>
     </section>
