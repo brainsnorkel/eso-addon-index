@@ -1380,7 +1380,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
                         <a href="${addon.url}" target="_blank" rel="noopener">${addon.name}</a>
                         ${version ? `<span class="version-badge" title="Click to view version history" onclick="showVersionHistory('${addon.slug}', '${addon.name.replace(/'/g, "\\'")}'); event.stopPropagation();">${isBranch ? '&#128279;' : ''} ${version}</span>` : ''}
                     </h3>
-                    <p class="description">${addon.description}</p>
+                    <p class="description" title="${addon.description.replace(/"/g, '&quot;')}">${addon.description}</p>
                     <div class="addon-meta">
                         <span title="Authors">&#128100; ${addon.authors.join(', ')}</span>
                         ${lastUpdated ? `<span class="date-toggle" title="Click to show exact date" data-date="${addon.last_updated}" data-show-relative="true" onclick="toggleDateFormat(this)">&#128197; ${lastUpdated}</span>` : ''}
