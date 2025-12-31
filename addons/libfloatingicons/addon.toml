@@ -1,0 +1,27 @@
+[addon]
+slug = "libfloatingicons"
+name = "LibFloatingIcons"
+description = "Library for creating and managing floating icons and UI elements in Elder Scrolls Online."
+authors = ["exoy94"]
+license = "Unknown"
+category = "library"
+tags = ["library", "ui", "icons"]
+
+[source]
+type = "github"
+repo = "exoy94/LibFloatingIcons"
+branch = "main"
+release_type = "tag"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U46"]
+required_dependencies = []
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2025-12-31
+last_reviewed = 2025-12-31
+status = "approved"
+reviewers = ["brainsnorkel"]

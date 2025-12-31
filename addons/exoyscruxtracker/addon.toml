@@ -1,0 +1,27 @@
+[addon]
+slug = "exoyscruxtracker"
+name = "ExoYs Crux Tracker"
+description = "Tracks Crux stacks for the Arcanist class in Elder Scrolls Online."
+authors = ["exoy94"]
+license = "Unknown"
+category = "combat"
+tags = ["combat", "arcanist", "class", "buff-tracking"]
+
+[source]
+type = "github"
+repo = "exoy94/ExoYsCruxTracker"
+branch = "main"
+release_type = "tag"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U46"]
+required_dependencies = []
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2025-12-31
+last_reviewed = 2025-12-31
+status = "approved"
+reviewers = ["brainsnorkel"]

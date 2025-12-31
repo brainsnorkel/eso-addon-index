@@ -1,20 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-31T01:41:14.680748+00:00",
+  "generated_at": "2025-12-31T01:44:28.132159+00:00",
   "description": "Dependencies referenced by addons but not available in the index",
-  "missing_count": 1,
-  "missing_dependencies": [
-    {
-      "slug": "libsetdetection",
-      "slug_normalized": "libsetdetection",
-      "dependency_type": "optional",
-      "needed_by": [
-        {
-          "slug": "combatmetronome",
-          "name": "CombatMetronome"
-        }
-      ],
-      "needed_by_count": 1
-    }
-  ]
+  "missing_count": 0,
+  "missing_dependencies": []
 }

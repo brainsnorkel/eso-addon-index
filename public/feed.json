@@ -229,6 +229,44 @@
       ]
     },
     {
+      "id": "exoyscruxtracker",
+      "title": "ExoYs Crux Tracker",
+      "url": "https://github.com/exoy94/ExoYsCruxTracker",
+      "date_published": null,
+      "date_modified": "2025-12-31T01:44:26.696495+00:00",
+      "authors": [
+        {
+          "name": "exoy94"
+        }
+      ],
+      "summary": "Tracks Crux stacks for the Arcanist class in Elder Scrolls Online.",
+      "tags": [
+        "combat",
+        "arcanist",
+        "class",
+        "buff-tracking"
+      ]
+    },
+    {
+      "id": "exoysproctimer",
+      "title": "ExoYs Proc Set Timer",
+      "url": "https://github.com/exoy94/ExoYsProcSetTimer",
+      "date_published": null,
+      "date_modified": "2025-12-31T01:44:26.696495+00:00",
+      "authors": [
+        {
+          "name": "exoy94"
+        }
+      ],
+      "summary": "Tracks proc set cooldowns and timers in Elder Scrolls Online.",
+      "tags": [
+        "combat",
+        "gear",
+        "proc",
+        "cooldowns"
+      ]
+    },
+    {
       "id": "hodorreflexes",
       "title": "HodorReflexes",
       "url": "https://github.com/m00nyONE/HodorReflexes",
@@ -478,6 +516,24 @@
       ]
     },
     {
+      "id": "libfloatingicons",
+      "title": "LibFloatingIcons",
+      "url": "https://github.com/exoy94/LibFloatingIcons",
+      "date_published": null,
+      "date_modified": "2025-12-31T01:44:26.696495+00:00",
+      "authors": [
+        {
+          "name": "exoy94"
+        }
+      ],
+      "summary": "Library for creating and managing floating icons and UI elements in Elder Scrolls Online.",
+      "tags": [
+        "library",
+        "ui",
+        "icons"
+      ]
+    },
+    {
       "id": "libgroupbroadcast",
       "title": "LibGroupBroadcast",
       "url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast",
@@ -557,6 +613,24 @@
       "tags": [
         "library",
         "media"
+      ]
+    },
+    {
+      "id": "libsetdetection",
+      "title": "LibSetDetection",
+      "url": "https://github.com/exoy94/LibSetDetection",
+      "date_published": null,
+      "date_modified": "2025-12-31T01:44:26.696495+00:00",
+      "authors": [
+        {
+          "name": "exoy94"
+        }
+      ],
+      "summary": "Library for detecting equipped gear sets in Elder Scrolls Online. Provides set detection functionality for other addons.",
+      "tags": [
+        "library",
+        "gear",
+        "sets"
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-31T01:41:13.352763+00:00",
-  "addon_count": 37,
+  "generated_at": "2025-12-31T01:44:26.696495+00:00",
+  "addon_count": 41,
   "addons": [
     {
       "slug": "actiondurationreminder",
@@ -546,6 +546,98 @@
       "download_sources": [],
       "version_info": null,
       "last_updated": "2025-12-31T01:37:35.269290+00:00"
+    },
+    {
+      "slug": "exoyscruxtracker",
+      "name": "ExoYs Crux Tracker",
+      "description": "Tracks Crux stacks for the Arcanist class in Elder Scrolls Online.",
+      "authors": [
+        "exoy94"
+      ],
+      "license": "Unknown",
+      "tags": [
+        "combat",
+        "arcanist",
+        "class",
+        "buff-tracking"
+      ],
+      "url": "https://github.com/exoy94/ExoYsCruxTracker",
+      "source": {
+        "type": "github",
+        "repo": "exoy94/ExoYsCruxTracker",
+        "branch": "main"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U46"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": null,
+        "target_folder": "ExoYs Crux Tracker",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null,
+      "last_updated": "2025-12-31T01:44:26.696495+00:00"
+    },
+    {
+      "slug": "exoysproctimer",
+      "name": "ExoYs Proc Set Timer",
+      "description": "Tracks proc set cooldowns and timers in Elder Scrolls Online.",
+      "authors": [
+        "exoy94"
+      ],
+      "license": "Unknown",
+      "tags": [
+        "combat",
+        "gear",
+        "proc",
+        "cooldowns"
+      ],
+      "url": "https://github.com/exoy94/ExoYsProcSetTimer",
+      "source": {
+        "type": "github",
+        "repo": "exoy94/ExoYsProcSetTimer",
+        "branch": "legacy"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U46"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "branch",
+        "extract_path": null,
+        "target_folder": "ExoYs Proc Set Timer",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null,
+      "last_updated": "2025-12-31T01:44:26.696495+00:00"
     },
     {
       "slug": "hodorreflexes",
@@ -1129,6 +1221,51 @@
       "last_updated": "2025-12-31T01:37:35.269290+00:00"
     },
     {
+      "slug": "libfloatingicons",
+      "name": "LibFloatingIcons",
+      "description": "Library for creating and managing floating icons and UI elements in Elder Scrolls Online.",
+      "authors": [
+        "exoy94"
+      ],
+      "license": "Unknown",
+      "tags": [
+        "library",
+        "ui",
+        "icons"
+      ],
+      "url": "https://github.com/exoy94/LibFloatingIcons",
+      "source": {
+        "type": "github",
+        "repo": "exoy94/LibFloatingIcons",
+        "branch": "main"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U46"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": null,
+        "target_folder": "LibFloatingIcons",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null,
+      "last_updated": "2025-12-31T01:44:26.696495+00:00"
+    },
+    {
       "slug": "libgroupbroadcast",
       "name": "LibGroupBroadcast",
       "description": "A library for broadcasting data between group members. Enables addons to share information across the group.",
@@ -1316,6 +1453,51 @@
       "download_sources": [],
       "version_info": null,
       "last_updated": "2025-12-31T01:37:35.269290+00:00"
+    },
+    {
+      "slug": "libsetdetection",
+      "name": "LibSetDetection",
+      "description": "Library for detecting equipped gear sets in Elder Scrolls Online. Provides set detection functionality for other addons.",
+      "authors": [
+        "exoy94"
+      ],
+      "license": "Unknown",
+      "tags": [
+        "library",
+        "gear",
+        "sets"
+      ],
+      "url": "https://github.com/exoy94/LibSetDetection",
+      "source": {
+        "type": "github",
+        "repo": "exoy94/LibSetDetection",
+        "branch": "main"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U46"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "github_archive",
+        "extract_path": null,
+        "target_folder": "LibSetDetection",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null,
+      "last_updated": "2025-12-31T01:44:26.696495+00:00"
     },
     {
       "slug": "libsets",
