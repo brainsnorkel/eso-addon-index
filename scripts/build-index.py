@@ -864,6 +864,7 @@ def load_existing_atom_events(output_dir: Path) -> list[dict]:
     """Load existing version events from releases-history.json if it exists.
 
     This preserves historical events for the Atom feed across builds.
+    Filters out invalid events where old_version == new_version (bug from initial seeding).
     """
     history_path = output_dir / "releases-history.json"
     if not history_path.exists():
@@ -872,7 +873,15 @@ def load_existing_atom_events(output_dir: Path) -> list[dict]:
     try:
         with open(history_path) as f:
             data = json.load(f)
-        return data.get("events", [])
+        events = data.get("events", [])
+        # Filter out invalid events where old and new versions are the same
+        valid_events = [
+            e for e in events
+            if e.get("old_version") != e.get("new_version")
+        ]
+        if len(valid_events) < len(events):
+            print(f"Filtered out {len(events) - len(valid_events)} invalid same-version event(s)")
+        return valid_events
     except Exception as e:
         print(f"Warning: Failed to load existing Atom events: {e}")
         return []
