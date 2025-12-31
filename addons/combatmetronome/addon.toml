@@ -1,0 +1,27 @@
+[addon]
+slug = "combatmetronome"
+name = "CombatMetronome"
+description = "An all-in-one cast bar for ESO with integrated sound cues and additional combat related info. Consolidates heavy swings, ability cooldowns, and cast/channel tracking."
+authors = ["barny22"]
+license = "Artistic-2.0"
+category = "combat"
+tags = ["combat", "castbar", "cooldowns", "sound-cues"]
+
+[source]
+type = "github"
+repo = "barny22/CombatMetronome"
+branch = "stable"
+release_type = "tag"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U46"]
+required_dependencies = ["libaddonmenu-2-0"]
+optional_dependencies = ["libsetdetection"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2025-12-31
+last_reviewed = 2025-12-31
+status = "approved"
+reviewers = ["brainsnorkel"]

@@ -1,0 +1,27 @@
+[addon]
+slug = "libsfutils"
+name = "LibSFUtils"
+description = "Library containing a variety of utilities used in Shadowfen's addons."
+authors = ["Shadowfen"]
+license = "BSD-2-Clause"
+category = "library"
+tags = ["library", "utility"]
+
+[source]
+type = "github"
+repo = "Shadowfen/LibSFUtils"
+branch = "master"
+release_type = "tag"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U46"]
+required_dependencies = ["libdebuglogger"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2025-12-31
+last_reviewed = 2025-12-31
+status = "approved"
+reviewers = ["brainsnorkel"]

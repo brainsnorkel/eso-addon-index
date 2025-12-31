@@ -1,0 +1,27 @@
+[addon]
+slug = "bugcatcher"
+name = "BugCatcher"
+description = "A patched version of Werewolf Finds Dragon's BugCatcher addon for ESO. Catches and displays Lua errors."
+authors = ["Werewolf Finds Dragon", "Shadowfen"]
+license = "Unknown"
+category = "miscellaneous"
+tags = ["development", "debugging", "utility"]
+
+[source]
+type = "github"
+repo = "Shadowfen/BugCatcher"
+branch = "master"
+release_type = "branch"
+
+[compatibility]
+api_version = "101042"
+game_versions = ["U36"]
+required_dependencies = ["libaddonmenu-2-0", "libsfutils"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2025-12-31
+last_reviewed = 2025-12-31
+status = "approved"
+reviewers = ["brainsnorkel"]

@@ -1,0 +1,27 @@
+[addon]
+slug = "hypertools"
+name = "HyperTools"
+description = "A framework for ESO that allows you to create and display graphics to track buffs, debuffs and other important information. Inspired by WoW's WeakAuras2."
+authors = ["Hyperioxes"]
+license = "Unknown"
+category = "combat"
+tags = ["combat", "buff-tracking", "framework", "customization"]
+
+[source]
+type = "github"
+repo = "Hyperioxes/HyperTools"
+branch = "main"
+release_type = "branch"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U46"]
+required_dependencies = ["libhyper"]
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2025-12-31
+last_reviewed = 2025-12-31
+status = "approved"
+reviewers = ["brainsnorkel"]
