@@ -1,8 +1,55 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-31T01:37:35.269290+00:00",
-  "addon_count": 36,
+  "generated_at": "2025-12-31T01:41:13.352763+00:00",
+  "addon_count": 37,
   "addons": [
+    {
+      "slug": "actiondurationreminder",
+      "name": "Action Duration Reminder",
+      "description": "Displays skill related reminders including buff/debuff duration tracking, cooldown timers, and proc alerts for Elder Scrolls Online.",
+      "authors": [
+        "cloudor126"
+      ],
+      "license": "Unknown",
+      "tags": [
+        "combat",
+        "buff-tracking",
+        "cooldowns",
+        "reminders"
+      ],
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "source": {
+        "type": "github",
+        "repo": "cloudor126/lua-eso-addon-adr",
+        "branch": "master",
+        "path": "addon-adr/ActionDurationReminder"
+      },
+      "compatibility": {
+        "api_version": "101048",
+        "game_versions": [
+          "U46"
+        ],
+        "required_dependencies": [],
+        "optional_dependencies": []
+      },
+      "install": {
+        "method": "branch",
+        "extract_path": "addon-adr/ActionDurationReminder",
+        "target_folder": "addon-adr/ActionDurationReminder",
+        "excludes": [
+          ".*",
+          ".github",
+          "tests",
+          "*.md",
+          "*.yml",
+          "*.yaml"
+        ]
+      },
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null,
+      "last_updated": "2025-12-31T01:41:13.352763+00:00"
+    },
     {
       "slug": "aui",
       "name": "Advanced UI",

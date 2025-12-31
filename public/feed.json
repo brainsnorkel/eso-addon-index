@@ -5,6 +5,25 @@
   "feed_url": "https://xop.co/eso-addon-index/feed.json",
   "items": [
     {
+      "id": "actiondurationreminder",
+      "title": "Action Duration Reminder",
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "date_published": null,
+      "date_modified": "2025-12-31T01:41:13.352763+00:00",
+      "authors": [
+        {
+          "name": "cloudor126"
+        }
+      ],
+      "summary": "Displays skill related reminders including buff/debuff duration tracking, cooldown timers, and proc alerts for Elder Scrolls Online.",
+      "tags": [
+        "combat",
+        "buff-tracking",
+        "cooldowns",
+        "reminders"
+      ]
+    },
+    {
       "id": "aui",
       "title": "Advanced UI",
       "url": "https://github.com/Sensi2010/AUI",

@@ -1,0 +1,28 @@
+[addon]
+slug = "actiondurationreminder"
+name = "Action Duration Reminder"
+description = "Displays skill related reminders including buff/debuff duration tracking, cooldown timers, and proc alerts for Elder Scrolls Online."
+authors = ["cloudor126"]
+license = "Unknown"
+category = "combat"
+tags = ["combat", "buff-tracking", "cooldowns", "reminders"]
+
+[source]
+type = "github"
+repo = "cloudor126/lua-eso-addon-adr"
+branch = "master"
+path = "addon-adr/ActionDurationReminder"
+release_type = "branch"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U46"]
+required_dependencies = []
+optional_dependencies = []
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2025-12-31
+last_reviewed = 2025-12-31
+status = "approved"
+reviewers = ["brainsnorkel"]
