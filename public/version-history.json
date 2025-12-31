@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2025-12-31T01:55:11.738113+00:00",
+  "generated_at": "2025-12-31T06:07:16.247610+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -249,6 +249,86 @@
         "published_at": "2024-05-15T13:50:16Z",
         "detected_at": "2025-12-30T23:47:08.993712+00:00",
         "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
+      }
+    ],
+    "actiondurationreminder": [
+      {
+        "version": "a450dc6",
+        "published_at": "2025-10-04T05:39:51Z",
+        "detected_at": "2025-12-31T06:07:16.247610+00:00",
+        "commit_sha": "a450dc67b3f76c5e4afed016f5842b90fc6e599e"
+      }
+    ],
+    "bugcatcher": [
+      {
+        "version": "7b17572",
+        "published_at": "2024-04-17T21:46:12Z",
+        "detected_at": "2025-12-31T06:07:16.247610+00:00",
+        "commit_sha": "7b175726031b7fc7d41de393b35850abf42f1363"
+      }
+    ],
+    "combatmetronome": [
+      {
+        "version": "1.7.3",
+        "published_at": "2025-07-02T08:39:15Z",
+        "detected_at": "2025-12-31T06:07:16.247610+00:00",
+        "commit_sha": "1a52436a4ab3047c03896ab1752520f686528d5a"
+      }
+    ],
+    "exoyscruxtracker": [
+      {
+        "version": "Version-1.3.0",
+        "published_at": "2025-06-10T19:07:32Z",
+        "detected_at": "2025-12-31T06:07:16.247610+00:00",
+        "commit_sha": "23acbcad3470695cb4e6acd738996e5bd41bdd51"
+      }
+    ],
+    "exoysproctimer": [
+      {
+        "version": "fb15996",
+        "published_at": "2025-03-20T22:12:46Z",
+        "detected_at": "2025-12-31T06:07:16.247610+00:00",
+        "commit_sha": "fb1599663be4f83e239a4565d30e2778f45c43a8"
+      }
+    ],
+    "hypertools": [
+      {
+        "version": "3c8e9d4",
+        "published_at": "2023-07-30T06:01:28Z",
+        "detected_at": "2025-12-31T06:07:16.247610+00:00",
+        "commit_sha": "3c8e9d4ea29d45b1d3447bc112863a366956b3ab"
+      }
+    ],
+    "libfloatingicons": [
+      {
+        "version": "release-0.1",
+        "published_at": "2023-04-30T09:23:07Z",
+        "detected_at": "2025-12-31T06:07:16.247610+00:00",
+        "commit_sha": "0f7697e711b99dfa7468d59d4882b84f872a1a60"
+      }
+    ],
+    "libhyper": [
+      {
+        "version": "1928d21",
+        "published_at": "2023-06-09T18:53:14Z",
+        "detected_at": "2025-12-31T06:07:16.247610+00:00",
+        "commit_sha": "1928d21498e07063adb5e3e6af7dc43ccd778ce1"
+      }
+    ],
+    "libsetdetection": [
+      {
+        "version": "Version-4.7",
+        "published_at": "2025-04-21T08:41:00Z",
+        "detected_at": "2025-12-31T06:07:16.247610+00:00",
+        "commit_sha": "2d1a560be58aaad8e857a2271480189f81955575"
+      }
+    ],
+    "libsfutils": [
+      {
+        "version": "v38",
+        "published_at": "2021-12-05T20:52:15Z",
+        "detected_at": "2025-12-31T06:07:16.247610+00:00",
+        "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
       }
     ]
   }

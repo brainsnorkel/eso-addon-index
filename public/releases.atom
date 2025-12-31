@@ -5,11 +5,111 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2025-12-31T01:55:11.738113+00:00</updated>
+  <updated>2025-12-31T06:07:16.247610+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:actiondurationreminder:a450dc6</id>
+    <title>Action Duration Reminder added: a450dc6</title>
+    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
+    <updated>2025-12-31T06:07:16.247610+00:00</updated>
+    <summary>Action Duration Reminder version a450dc6 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:bugcatcher:7b17572</id>
+    <title>BugCatcher added: 7b17572</title>
+    <link href="https://github.com/Shadowfen/BugCatcher" rel="alternate"/>
+    <updated>2025-12-31T06:07:16.247610+00:00</updated>
+    <summary>BugCatcher version 7b17572 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:combatmetronome:1.7.3</id>
+    <title>CombatMetronome added: 1.7.3</title>
+    <link href="https://github.com/barny22/CombatMetronome" rel="alternate"/>
+    <updated>2025-12-31T06:07:16.247610+00:00</updated>
+    <summary>CombatMetronome version 1.7.3 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:exoyscruxtracker:Version-1.3.0</id>
+    <title>ExoYs Crux Tracker added: Version-1.3.0</title>
+    <link href="https://github.com/exoy94/ExoYsCruxTracker" rel="alternate"/>
+    <updated>2025-12-31T06:07:16.247610+00:00</updated>
+    <summary>ExoYs Crux Tracker version Version-1.3.0 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:exoysproctimer:fb15996</id>
+    <title>ExoYs Proc Set Timer added: fb15996</title>
+    <link href="https://github.com/exoy94/ExoYsProcSetTimer" rel="alternate"/>
+    <updated>2025-12-31T06:07:16.247610+00:00</updated>
+    <summary>ExoYs Proc Set Timer version fb15996 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:hypertools:3c8e9d4</id>
+    <title>HyperTools added: 3c8e9d4</title>
+    <link href="https://github.com/Hyperioxes/HyperTools" rel="alternate"/>
+    <updated>2025-12-31T06:07:16.247610+00:00</updated>
+    <summary>HyperTools version 3c8e9d4 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libfloatingicons:release-0.1</id>
+    <title>LibFloatingIcons added: release-0.1</title>
+    <link href="https://github.com/exoy94/LibFloatingIcons" rel="alternate"/>
+    <updated>2025-12-31T06:07:16.247610+00:00</updated>
+    <summary>LibFloatingIcons version release-0.1 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libhyper:1928d21</id>
+    <title>LibHyper added: 1928d21</title>
+    <link href="https://github.com/Hyperioxes/LibHyper" rel="alternate"/>
+    <updated>2025-12-31T06:07:16.247610+00:00</updated>
+    <summary>LibHyper version 1928d21 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libsetdetection:Version-4.7</id>
+    <title>LibSetDetection added: Version-4.7</title>
+    <link href="https://github.com/exoy94/LibSetDetection" rel="alternate"/>
+    <updated>2025-12-31T06:07:16.247610+00:00</updated>
+    <summary>LibSetDetection version Version-4.7 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libsfutils:v38</id>
+    <title>LibSFUtils added: v38</title>
+    <link href="https://github.com/Shadowfen/LibSFUtils" rel="alternate"/>
+    <updated>2025-12-31T06:07:16.247610+00:00</updated>
+    <summary>LibSFUtils version v38 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:warmask:v1.4.0</id>
     <title>WarMask updated: v1.3.0 → v1.4.0</title>

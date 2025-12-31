@@ -1,5 +1,14 @@
 {
   "versions": {
+    "actiondurationreminder": {
+      "version": "a450dc6",
+      "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
+      "published_at": "2025-10-04T05:39:51Z",
+      "release_notes": "v3.142a",
+      "commit_sha": "a450dc67b3f76c5e4afed016f5842b90fc6e599e",
+      "commit_date": "2025-10-04T05:39:51Z",
+      "commit_message": "v3.142a"
+    },
     "aui": {
       "version": "86be8ca",
       "download_url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
@@ -46,12 +55,28 @@
       "commit_date": "2023-09-20T20:50:33Z",
       "commit_message": "3.4.0"
     },
+    "bugcatcher": {
+      "version": "7b17572",
+      "download_url": "https://github.com/Shadowfen/BugCatcher/archive/refs/heads/master.zip",
+      "published_at": "2024-04-17T21:46:12Z",
+      "release_notes": "API bump",
+      "commit_sha": "7b175726031b7fc7d41de393b35850abf42f1363",
+      "commit_date": "2024-04-17T21:46:12Z",
+      "commit_message": "API bump"
+    },
     "combatmetrics": {
       "version": "1.7.6",
       "download_url": "https://github.com/Solinur/CombatMetrics/archive/refs/tags/1.7.6.zip",
       "published_at": "2025-12-29T12:11:58Z",
       "release_notes": null,
       "commit_sha": "7895914634567c337adb1288e748681a9538bb2e"
+    },
+    "combatmetronome": {
+      "version": "1.7.3",
+      "download_url": "https://github.com/barny22/CombatMetronome/archive/refs/tags/1.7.3.zip",
+      "published_at": "2025-07-02T08:39:15Z",
+      "release_notes": null,
+      "commit_sha": "1a52436a4ab3047c03896ab1752520f686528d5a"
     },
     "crutchalerts": {
       "version": "db35267",
@@ -71,11 +96,36 @@
       "commit_date": "2023-09-16T08:06:55Z",
       "commit_message": "3.0.0"
     },
+    "exoyscruxtracker": {
+      "version": "Version-1.3.0",
+      "download_url": "https://github.com/exoy94/ExoYsCruxTracker/archive/refs/tags/Version-1.3.0.zip",
+      "published_at": "2025-06-10T19:07:32Z",
+      "release_notes": null,
+      "commit_sha": "23acbcad3470695cb4e6acd738996e5bd41bdd51"
+    },
+    "exoysproctimer": {
+      "version": "fb15996",
+      "download_url": "https://github.com/exoy94/ExoYsProcSetTimer/archive/refs/heads/legacy.zip",
+      "published_at": "2025-03-20T22:12:46Z",
+      "release_notes": "Delete temp_readme.txt",
+      "commit_sha": "fb1599663be4f83e239a4565d30e2778f45c43a8",
+      "commit_date": "2025-03-20T22:12:46Z",
+      "commit_message": "Delete temp_readme.txt"
+    },
     "hodorreflexes": {
       "version": "2025-12-17",
       "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2025-12-17",
       "published_at": "2025-12-17T12:34:40Z",
       "release_notes": "## 2025.12.17 - @m00nyONE\n- add configurator for console\n\n"
+    },
+    "hypertools": {
+      "version": "3c8e9d4",
+      "download_url": "https://github.com/Hyperioxes/HyperTools/archive/refs/heads/main.zip",
+      "published_at": "2023-07-30T06:01:28Z",
+      "release_notes": "version number",
+      "commit_sha": "3c8e9d4ea29d45b1d3447bc112863a366956b3ab",
+      "commit_date": "2023-07-30T06:01:28Z",
+      "commit_message": "version number"
     },
     "improveddeathrecap": {
       "version": "1.0.0",
@@ -145,6 +195,13 @@
       "commit_date": "2025-05-01T18:03:17Z",
       "commit_message": "built v2.5.2"
     },
+    "libfloatingicons": {
+      "version": "release-0.1",
+      "download_url": "https://github.com/exoy94/LibFloatingIcons/archive/refs/tags/release-0.1.zip",
+      "published_at": "2023-04-30T09:23:07Z",
+      "release_notes": null,
+      "commit_sha": "0f7697e711b99dfa7468d59d4882b84f872a1a60"
+    },
     "libgroupbroadcast": {
       "version": "a17a794",
       "download_url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast/archive/refs/heads/main.zip",
@@ -160,12 +217,28 @@
       "published_at": "2025-10-11T16:43:24Z",
       "release_notes": "## 2025.10.11\n- readd console support\n- bump LibCombat>=83\n- bump LibCombat2>=8 (console)\n\n## 2025.10.08\n- remove console support until LibCombat>=83 is released\n- fix variable naming\n\n## 2025.10.04\n- add console support\n\n## 2025.09.27\n- add cryptcannon as a sharable ultimate - fixes: https://github.com/m00nyONE/LibGroupCombatStats/issues/5\n- fix a bug where the ult update did not get sent because the event for switching skills is not fired when equipping a set with ultimates\n- add dynamic MAX_U"
     },
+    "libhyper": {
+      "version": "1928d21",
+      "download_url": "https://github.com/Hyperioxes/LibHyper/archive/refs/heads/main.zip",
+      "published_at": "2023-06-09T18:53:14Z",
+      "release_notes": "updated version number",
+      "commit_sha": "1928d21498e07063adb5e3e6af7dc43ccd778ce1",
+      "commit_date": "2023-06-09T18:53:14Z",
+      "commit_message": "updated version number"
+    },
     "libmediaprovider": {
       "version": "r36",
       "download_url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r36.zip",
       "published_at": "2025-10-16T09:19:31Z",
       "release_notes": null,
       "commit_sha": "19a7d0cedf5abf7e1309dc42706ee558ec0dcdcf"
+    },
+    "libsetdetection": {
+      "version": "Version-4.7",
+      "download_url": "https://github.com/exoy94/LibSetDetection/archive/refs/tags/Version-4.7.zip",
+      "published_at": "2025-04-21T08:41:00Z",
+      "release_notes": null,
+      "commit_sha": "2d1a560be58aaad8e857a2271480189f81955575"
     },
     "libsets": {
       "version": "895488f",
@@ -175,6 +248,13 @@
       "commit_sha": "895488fd1216935ce023dac87eba9f5268deab33",
       "commit_date": "2025-12-01T21:34:33Z",
       "commit_message": "LibSets v0.86"
+    },
+    "libsfutils": {
+      "version": "v38",
+      "download_url": "https://github.com/Shadowfen/LibSFUtils/archive/refs/tags/v38.zip",
+      "published_at": "2021-12-05T20:52:15Z",
+      "release_notes": null,
+      "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
       "version": "v7.1.0.7",
@@ -235,13 +315,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2025-12-31T00:17:48.777963+00:00",
-  "updates": [
-    {
-      "slug": "warmask",
-      "old_version": "v1.3.0",
-      "new_version": "v1.4.0",
-      "repo": "brainsnorkel/WarMask"
-    }
-  ]
+  "last_checked": "2025-12-31T06:07:16.101245+00:00",
+  "updates": []
 }
