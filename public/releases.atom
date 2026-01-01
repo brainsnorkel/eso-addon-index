@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-01-01T01:04:37.922624+00:00</updated>
+  <updated>2026-01-01T06:07:17.011420+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:huntsmanwarmaskreminder:7e30d81</id>
+    <title>Huntsman Warmask Reminder added: 7e30d81</title>
+    <link href="https://github.com/VollstaendigerName/HuntsmanWarmaskReminder" rel="alternate"/>
+    <updated>2026-01-01T06:07:17.011420+00:00</updated>
+    <summary>Huntsman Warmask Reminder version 7e30d81 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:actiondurationreminder:a450dc6</id>
     <title>Action Duration Reminder added: a450dc6</title>

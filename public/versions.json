@@ -118,6 +118,15 @@
       "published_at": "2025-12-17T12:34:40Z",
       "release_notes": "## 2025.12.17 - @m00nyONE\n- add configurator for console\n\n"
     },
+    "huntsmanwarmaskreminder": {
+      "version": "7e30d81",
+      "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
+      "published_at": "2025-12-23T00:33:03Z",
+      "release_notes": "Version 1.2.0 Patch Notes:",
+      "commit_sha": "7e30d81534f3bb113b6a593b4aade9968d6c4e2f",
+      "commit_date": "2025-12-23T00:33:03Z",
+      "commit_message": "Version 1.2.0 Patch Notes:"
+    },
     "hypertools": {
       "version": "3c8e9d4",
       "download_url": "https://github.com/Hyperioxes/HyperTools/archive/refs/heads/main.zip",
@@ -315,6 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-01T00:20:06.580051+00:00",
+  "last_checked": "2026-01-01T06:07:16.862037+00:00",
   "updates": []
 }

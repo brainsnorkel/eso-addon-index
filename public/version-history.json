@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-01T01:04:37.922624+00:00",
+  "generated_at": "2026-01-01T06:07:17.011420+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -329,6 +329,14 @@
         "published_at": "2021-12-05T20:52:15Z",
         "detected_at": "2025-12-31T06:07:16.247610+00:00",
         "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
+      }
+    ],
+    "huntsmanwarmaskreminder": [
+      {
+        "version": "7e30d81",
+        "published_at": "2025-12-23T00:33:03Z",
+        "detected_at": "2026-01-01T06:07:17.011420+00:00",
+        "commit_sha": "7e30d81534f3bb113b6a593b4aade9968d6c4e2f"
       }
     ]
   }
