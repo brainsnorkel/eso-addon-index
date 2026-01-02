@@ -119,13 +119,13 @@
       "release_notes": "## 2025.12.17 - @m00nyONE\n- add configurator for console\n\n"
     },
     "huntsmanwarmaskreminder": {
-      "version": "370d779",
+      "version": "7ad638c",
       "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
-      "published_at": "2026-01-01T12:20:27Z",
-      "release_notes": "Merge pull request #1 from brainsnorkel/20260101-bs-general-ui-changes",
-      "commit_sha": "370d7797673cb5c268cd917f9f107b86f8a021dd",
-      "commit_date": "2026-01-01T12:20:27Z",
-      "commit_message": "Merge pull request #1 from brainsnorkel/20260101-bs-general-ui-changes"
+      "published_at": "2026-01-02T12:06:35Z",
+      "release_notes": "Reverted previous update, because i got to many complaints (also there were to many unnecessery stuf...",
+      "commit_sha": "7ad638c2f4dbe4a7f0b110eca5f4e50d96bd57ca",
+      "commit_date": "2026-01-02T12:06:35Z",
+      "commit_message": "Reverted previous update, because i got to many complaints (also there were to many unnecessery stuf..."
     },
     "hypertools": {
       "version": "3c8e9d4",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-02T06:07:23.067580+00:00",
-  "updates": []
+  "last_checked": "2026-01-02T12:07:21.051780+00:00",
+  "updates": [
+    {
+      "slug": "huntsmanwarmaskreminder",
+      "old_version": "370d779",
+      "new_version": "7ad638c",
+      "repo": "VollstaendigerName/HuntsmanWarmaskReminder",
+      "commit_message": "Reverted previous update, because i got to many complaints (also there were to many unnecessery stuf..."
+    }
+  ]
 }

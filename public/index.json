@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-02T06:07:23.214276+00:00",
+  "generated_at": "2026-01-02T12:07:21.200313+00:00",
   "addon_count": 42,
   "addons": [
     {
@@ -1086,12 +1086,12 @@
         ]
       },
       "latest_release": {
-        "version": "370d779",
+        "version": "7ad638c",
         "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
-        "published_at": "2026-01-01T12:20:27Z",
-        "commit_sha": "370d7797673cb5c268cd917f9f107b86f8a021dd",
-        "commit_date": "2026-01-01T12:20:27Z",
-        "commit_message": "Merge pull request #1 from brainsnorkel/20260101-bs-general-ui-changes"
+        "published_at": "2026-01-02T12:06:35Z",
+        "commit_sha": "7ad638c2f4dbe4a7f0b110eca5f4e50d96bd57ca",
+        "commit_date": "2026-01-02T12:06:35Z",
+        "commit_message": "Reverted previous update, because i got to many complaints (also there were to many unnecessery stuf..."
       },
       "download_sources": [
         {
@@ -1110,9 +1110,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Merge pull request #1 from brainsnorkel/20260101-bs-general-ui-changes"
+        "commit_message": "Reverted previous update, because i got to many complaints (also there were to many unnecessery stuf..."
       },
-      "last_updated": "2026-01-01T12:20:27Z"
+      "last_updated": "2026-01-02T12:06:35Z"
     },
     {
       "slug": "hypertools",
