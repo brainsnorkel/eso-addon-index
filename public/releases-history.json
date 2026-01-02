@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-02T12:07:21.200313+00:00",
+  "generated_at": "2026-01-02T18:06:08.191772+00:00",
   "events": [
+    {
+      "slug": "huntsmanwarmaskreminder",
+      "name": "Huntsman Warmask Reminder",
+      "url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder",
+      "old_version": "7ad638c",
+      "new_version": "30af1af",
+      "published_at": "2026-01-02T16:51:14Z",
+      "detected_at": "2026-01-02T18:06:08.191772+00:00"
+    },
     {
       "slug": "huntsmanwarmaskreminder",
       "name": "Huntsman Warmask Reminder",

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-02T12:07:21.200313+00:00",
+  "generated_at": "2026-01-02T18:06:08.191772+00:00",
   "addon_count": 42,
   "addons": [
     {
@@ -1086,12 +1086,12 @@
         ]
       },
       "latest_release": {
-        "version": "7ad638c",
+        "version": "30af1af",
         "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
-        "published_at": "2026-01-02T12:06:35Z",
-        "commit_sha": "7ad638c2f4dbe4a7f0b110eca5f4e50d96bd57ca",
-        "commit_date": "2026-01-02T12:06:35Z",
-        "commit_message": "Reverted previous update, because i got to many complaints (also there were to many unnecessery stuf..."
+        "published_at": "2026-01-02T16:51:14Z",
+        "commit_sha": "30af1afd30028b0ea5297945abc6dd157fe18bde",
+        "commit_date": "2026-01-02T16:51:14Z",
+        "commit_message": "added changable font, changed global to local so its faster, increased overall perfromance"
       },
       "download_sources": [
         {
@@ -1110,9 +1110,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Reverted previous update, because i got to many complaints (also there were to many unnecessery stuf..."
+        "commit_message": "added changable font, changed global to local so its faster, increased overall perfromance"
       },
-      "last_updated": "2026-01-02T12:06:35Z"
+      "last_updated": "2026-01-02T16:51:14Z"
     },
     {
       "slug": "hypertools",
