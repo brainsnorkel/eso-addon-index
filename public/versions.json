@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-01T18:06:01.157280+00:00",
-  "updates": [
-    {
-      "slug": "huntsmanwarmaskreminder",
-      "old_version": "7e30d81",
-      "new_version": "370d779",
-      "repo": "VollstaendigerName/HuntsmanWarmaskReminder",
-      "commit_message": "Merge pull request #1 from brainsnorkel/20260101-bs-general-ui-changes"
-    }
-  ]
+  "last_checked": "2026-01-02T00:17:31.032512+00:00",
+  "updates": []
 }
