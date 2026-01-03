@@ -119,13 +119,13 @@
       "release_notes": "## 2025.12.17 - @m00nyONE\n- add configurator for console\n\n"
     },
     "huntsmanwarmaskreminder": {
-      "version": "30af1af",
+      "version": "b35d4de",
       "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
-      "published_at": "2026-01-02T16:51:14Z",
-      "release_notes": "added changable font, changed global to local so its faster, increased overall perfromance",
-      "commit_sha": "30af1afd30028b0ea5297945abc6dd157fe18bde",
-      "commit_date": "2026-01-02T16:51:14Z",
-      "commit_message": "added changable font, changed global to local so its faster, increased overall perfromance"
+      "published_at": "2026-01-02T19:56:38Z",
+      "release_notes": "Small fix with the cooldown color",
+      "commit_sha": "b35d4deaa1856a6d5f26bd8fca8f4c90ce02cee5",
+      "commit_date": "2026-01-02T19:56:38Z",
+      "commit_message": "Small fix with the cooldown color"
     },
     "hypertools": {
       "version": "3c8e9d4",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-02T18:06:08.039281+00:00",
+  "last_checked": "2026-01-03T00:17:05.812830+00:00",
   "updates": [
     {
       "slug": "huntsmanwarmaskreminder",
-      "old_version": "7ad638c",
-      "new_version": "30af1af",
+      "old_version": "30af1af",
+      "new_version": "b35d4de",
       "repo": "VollstaendigerName/HuntsmanWarmaskReminder",
-      "commit_message": "added changable font, changed global to local so its faster, increased overall perfromance"
+      "commit_message": "Small fix with the cooldown color"
     }
   ]
 }

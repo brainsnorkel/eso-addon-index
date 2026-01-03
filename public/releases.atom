@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-01-02T18:06:08.191772+00:00</updated>
+  <updated>2026-01-03T00:17:05.949171+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:huntsmanwarmaskreminder:b35d4de</id>
+    <title>Huntsman Warmask Reminder updated: 30af1af → b35d4de</title>
+    <link href="https://github.com/VollstaendigerName/HuntsmanWarmaskReminder" rel="alternate"/>
+    <updated>2026-01-03T00:17:05.949171+00:00</updated>
+    <summary>Huntsman Warmask Reminder has been updated from version 30af1af to b35d4de.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:huntsmanwarmaskreminder:30af1af</id>
     <title>Huntsman Warmask Reminder updated: 7ad638c → 30af1af</title>

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-02T18:06:08.191772+00:00",
+  "generated_at": "2026-01-03T00:17:05.949171+00:00",
   "addon_count": 42,
   "addons": [
     {
@@ -1086,12 +1086,12 @@
         ]
       },
       "latest_release": {
-        "version": "30af1af",
+        "version": "b35d4de",
         "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
-        "published_at": "2026-01-02T16:51:14Z",
-        "commit_sha": "30af1afd30028b0ea5297945abc6dd157fe18bde",
-        "commit_date": "2026-01-02T16:51:14Z",
-        "commit_message": "added changable font, changed global to local so its faster, increased overall perfromance"
+        "published_at": "2026-01-02T19:56:38Z",
+        "commit_sha": "b35d4deaa1856a6d5f26bd8fca8f4c90ce02cee5",
+        "commit_date": "2026-01-02T19:56:38Z",
+        "commit_message": "Small fix with the cooldown color"
       },
       "download_sources": [
         {
@@ -1110,9 +1110,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "added changable font, changed global to local so its faster, increased overall perfromance"
+        "commit_message": "Small fix with the cooldown color"
       },
-      "last_updated": "2026-01-02T16:51:14Z"
+      "last_updated": "2026-01-02T19:56:38Z"
     },
     {
       "slug": "hypertools",
