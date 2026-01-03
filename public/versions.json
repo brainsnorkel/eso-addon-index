@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-03T00:17:05.812830+00:00",
-  "updates": [
-    {
-      "slug": "huntsmanwarmaskreminder",
-      "old_version": "30af1af",
-      "new_version": "b35d4de",
-      "repo": "VollstaendigerName/HuntsmanWarmaskReminder",
-      "commit_message": "Small fix with the cooldown color"
-    }
-  ]
+  "last_checked": "2026-01-03T06:06:10.780894+00:00",
+  "updates": []
 }
