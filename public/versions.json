@@ -112,6 +112,13 @@
       "commit_date": "2025-03-20T22:12:46Z",
       "commit_message": "Delete temp_readme.txt"
     },
+    "groupsetupwarnings": {
+      "version": "v1.7.0",
+      "download_url": "https://github.com/brainsnorkel/GroupSetupWarnings/archive/refs/tags/v1.7.0.zip",
+      "published_at": "2026-01-04T00:10:41Z",
+      "release_notes": null,
+      "commit_sha": "4a69cca4883ce94b138b8212cb828f128d20cbeb"
+    },
     "hodorreflexes": {
       "version": "2025-12-17",
       "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2025-12-17",
@@ -324,6 +331,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-03T18:05:55.123661+00:00",
+  "last_checked": "2026-01-04T00:19:45.398565+00:00",
   "updates": []
 }

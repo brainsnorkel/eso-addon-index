@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-04T00:15:12.982320+00:00",
+  "generated_at": "2026-01-04T00:19:45.540661+00:00",
   "events": [
+    {
+      "slug": "groupsetupwarnings",
+      "name": "Group Setup Warnings",
+      "url": "https://github.com/brainsnorkel/GroupSetupWarnings",
+      "old_version": null,
+      "new_version": "v1.7.0",
+      "published_at": "2026-01-04T00:10:41Z",
+      "detected_at": "2026-01-04T00:19:45.540661+00:00"
+    },
     {
       "slug": "huntsmanwarmaskreminder",
       "name": "Huntsman Warmask Reminder",

@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-01-04T00:15:12.982320+00:00</updated>
+  <updated>2026-01-04T00:19:45.540661+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:groupsetupwarnings:v1.7.0</id>
+    <title>Group Setup Warnings added: v1.7.0</title>
+    <link href="https://github.com/brainsnorkel/GroupSetupWarnings" rel="alternate"/>
+    <updated>2026-01-04T00:19:45.540661+00:00</updated>
+    <summary>Group Setup Warnings version v1.7.0 has been added to the index.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:huntsmanwarmaskreminder:b35d4de</id>
     <title>Huntsman Warmask Reminder updated: 30af1af → b35d4de</title>
