@@ -68,6 +68,8 @@ This document describes how client applications (addon managers, installers, etc
   "tags": ["pvp", "combat", "buff-tracking"],
   "url": "https://github.com/brainsnorkel/WarMask",
   "last_updated": "2024-12-01T12:00:00Z",
+  "status": "deprecated",
+  "archived": true,
   "source": {
     "type": "github",
     "repo": "brainsnorkel/WarMask",
@@ -119,6 +121,8 @@ This document describes how client applications (addon managers, installers, etc
 | `tags` | array | No | Tags for filtering |
 | `url` | string | Yes | URL to addon homepage (GitHub/GitLab page) |
 | `last_updated` | string | Yes | ISO 8601 timestamp of last change (version or metadata) |
+| `status` | string | Yes | Addon status: `approved` or `deprecated` |
+| `archived` | boolean | Yes | True if the GitHub repository is archived (read-only) |
 
 **`last_updated` computation logic:**
 - New addon added to index: current build timestamp
@@ -130,6 +134,32 @@ This field is useful for:
 - Sorting addons by recency
 - Detecting which addons have been updated since last check
 - Displaying "Updated X days ago" in addon manager UIs
+
+**Handling `status` and `archived` fields:**
+
+The `status` field indicates the addon's curation status:
+- `approved`: Active, recommended addon
+- `deprecated`: Addon is obsolete, superseded, or no longer maintained
+
+The `archived` field is auto-detected from the GitHub API when the repository is archived (read-only).
+
+**Recommended client behavior:**
+- **Default display**: Show deprecated/archived addons with a warning badge or faded styling
+- **User preference**: Provide a toggle to hide deprecated/archived addons
+- **Install warnings**: Warn users before installing deprecated addons
+- **Update checks**: Continue checking for updates (addons may become unarchived)
+
+```python
+def is_deprecated(addon):
+    """Check if an addon is deprecated or archived."""
+    return addon.get("status") == "deprecated" or addon.get("archived", False)
+
+def filter_addons(addons, show_deprecated=True):
+    """Filter addon list based on deprecation preference."""
+    if show_deprecated:
+        return addons
+    return [a for a in addons if not is_deprecated(a)]
+```
 
 #### Source Object
 
@@ -902,6 +932,7 @@ def warn_about_missing_deps(addon, missing_deps):
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.9 | 2025-01-04 | Added `status` and `archived` fields for deprecated/archived addon flagging |
 | 1.8 | 2024-12-30 | Added `last_updated` field per addon, `date_modified` in JSON Feed |
 | 1.7 | 2024-12-30 | Added `download_sources` array with jsDelivr CDN as primary, GitHub as fallback |
 | 1.6 | 2024-12-30 | Added `missing-dependencies.json` endpoint for unavailable dependencies |

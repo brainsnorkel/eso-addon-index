@@ -22,5 +22,5 @@ optional_dependencies = []
 submitted_by = "brainsnorkel"
 submitted_date = 2024-12-27
 last_reviewed = 2024-12-27
-status = "approved"
+status = "deprecated"
 reviewers = ["brainsnorkel"]

@@ -217,6 +217,40 @@
             color: var(--bg-dark);
         }
 
+        .status-badge {
+            font-size: 0.65rem;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 8px;
+            background: #8b6914;
+            color: #fff;
+            white-space: nowrap;
+        }
+
+        .addon-card.deprecated {
+            opacity: 0.75;
+            border-left: 3px solid #8b6914;
+        }
+
+        .addon-card.deprecated h3 a {
+            color: var(--text-muted);
+        }
+
+        .filter-toggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .filter-toggle input {
+            cursor: pointer;
+        }
+
         .addon-card .description {
             color: var(--text-muted);
             font-size: 0.9rem;
@@ -808,6 +842,13 @@
                 <input type="text" id="search" placeholder="Search addons by name, description, author, or tag...">
             </div>
 
+            <div style="text-align: center; margin-bottom: 20px;">
+                <label class="filter-toggle">
+                    <input type="checkbox" id="show-deprecated" checked>
+                    Show archived/deprecated addons
+                </label>
+            </div>
+
             <div class="addon-grid" id="addon-grid">
                 <div class="loading">Loading addons...</div>
             </div>
@@ -1140,6 +1181,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
         // Addon data storage
         let addons = [];
         let versionHistory = {};
+        let showDeprecated = true;
 
         // Format relative time (e.g., "3 days ago", "2 months ago")
         function formatRelativeTime(isoDate) {
@@ -1246,6 +1288,11 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
                    addon.slug.toLowerCase().includes(term);
         }
 
+        // Check if an addon is deprecated or archived
+        function isDeprecatedAddon(addon) {
+            return addon.status === 'deprecated' || addon.archived === true;
+        }
+
         // Render addon cards
         function renderAddons(addonList) {
             const grid = document.getElementById('addon-grid');
@@ -1259,12 +1306,16 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
                 const version = getVersionDisplay(addon);
                 const lastUpdated = formatRelativeTime(addon.last_updated);
                 const isBranch = addon.version_info?.release_channel === 'branch';
+                const isDeprecated = isDeprecatedAddon(addon);
+                const statusBadge = isDeprecated ? '<span class="status-badge" title="This addon\'s repository has been archived">&#9888; Archived</span>' : '';
+                const cardClass = isDeprecated ? 'addon-card deprecated' : 'addon-card';
 
                 return `
-                <div class="addon-card">
+                <div class="${cardClass}">
                     <h3>
                         <a href="${addon.url}" target="_blank" rel="noopener">${addon.name}</a>
                         ${version ? `<span class="version-badge" title="Click to view version history" onclick="showVersionHistory('${addon.slug}', '${addon.name.replace(/'/g, "\\'")}'); event.stopPropagation();">${isBranch ? '&#128279;' : ''} ${version}</span>` : ''}
+                        ${statusBadge}
                     </h3>
                     <p class="description" title="${addon.description.replace(/"/g, '&quot;')}">${addon.description}</p>
                     <div class="addon-meta">
@@ -1292,16 +1343,31 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
             document.getElementById('addons').scrollIntoView({ behavior: 'smooth' });
         }
 
-        // Search input handler
-        document.getElementById('search').addEventListener('input', (e) => {
-            const searchTerm = e.target.value.toLowerCase();
+        // Filter addons based on search and deprecated toggle
+        function filterAddons() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
             let filtered = addons;
 
+            // Filter by deprecated status
+            if (!showDeprecated) {
+                filtered = filtered.filter(a => !isDeprecatedAddon(a));
+            }
+
+            // Filter by search term
             if (searchTerm) {
                 filtered = filtered.filter(a => matchesSearch(a, searchTerm));
             }
 
             renderAddons(filtered);
+        }
+
+        // Search input handler
+        document.getElementById('search').addEventListener('input', filterAddons);
+
+        // Deprecated filter toggle handler
+        document.getElementById('show-deprecated').addEventListener('change', (e) => {
+            showDeprecated = e.target.checked;
+            filterAddons();
         });
 
         // Load addons on page load

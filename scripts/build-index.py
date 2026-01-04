@@ -434,6 +434,20 @@ def fetch_branch_info(repo: str, branch: str) -> dict | None:
         return None
 
 
+def fetch_repo_metadata(repo: str) -> dict:
+    """Fetch repository metadata from GitHub including archived status."""
+    url = f"https://api.github.com/repos/{repo}"
+    try:
+        resp = requests.get(url, headers=GITHUB_HEADERS, timeout=10)
+        if not resp.ok:
+            return {"archived": False}
+        data = resp.json()
+        return {"archived": data.get("archived", False)}
+    except requests.RequestException as e:
+        print(f"Warning: Failed to fetch repo metadata for {repo}: {e}")
+        return {"archived": False}
+
+
 def build_addon_url(source: dict) -> str:
     """Build the addon URL from source info."""
     source_type = source.get("type", "github")
@@ -550,7 +564,12 @@ def build_install_info(source: dict, addon: dict) -> dict:
     }
 
 
-def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
+def build_addon_entry(
+    data: dict,
+    fetch_releases: bool = True,
+    status: str = "approved",
+    archived: bool = False,
+) -> dict:
     """Build a single addon entry for the index."""
     addon = data["addon"]
     source = data["source"]
@@ -576,6 +595,8 @@ def build_addon_entry(data: dict, fetch_releases: bool = True) -> dict:
         "license": addon.get("license", "Unknown"),
         "tags": addon.get("tags", []),
         "url": build_addon_url(source),
+        "status": status,
+        "archived": archived,
         "source": source_entry,
         "compatibility": {
             "api_version": compatibility.get("api_version"),
@@ -654,14 +675,27 @@ def build_index(fetch_releases: bool = True) -> tuple[dict, dict, list[dict]]:
         if data is None:
             continue
 
-        # Skip non-approved addons
+        # Skip non-approved and non-deprecated addons
         status = data.get("meta", {}).get("status", "pending")
-        if status != "approved":
+        if status not in ["approved", "deprecated"]:
             print(f"Skipping {toml_path.parent.name}: status is '{status}'")
             continue
 
         print(f"Processing: {toml_path.parent.name}")
-        entry = build_addon_entry(data, fetch_releases=fetch_releases)
+
+        # Fetch repo metadata (including archived status) for GitHub repos
+        source = data.get("source", {})
+        repo = source.get("repo")
+        repo_metadata = {"archived": False}
+        if source.get("type") == "github" and repo and fetch_releases:
+            repo_metadata = fetch_repo_metadata(repo)
+
+        entry = build_addon_entry(
+            data,
+            fetch_releases=fetch_releases,
+            status=status,
+            archived=repo_metadata.get("archived", False),
+        )
 
         # Compute last_updated
         slug = entry["slug"]
