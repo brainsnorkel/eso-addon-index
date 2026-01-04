@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-04T06:06:16.034297+00:00",
+  "generated_at": "2026-01-04T12:07:12.898436+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "db35267",
+        "version": "622cdc9",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2025-12-29T09:59:57Z",
-        "commit_sha": "db352676e0976ed42fb8d8089797514b83d54932",
-        "commit_date": "2025-12-29T09:59:57Z",
-        "commit_message": "Add lightly tested option for horizontal BHB"
+        "published_at": "2026-01-04T09:21:02Z",
+        "commit_sha": "622cdc905fd9e888b0cd8e43a770c5921c7b817a",
+        "commit_date": "2026-01-04T09:21:02Z",
+        "commit_message": "Probably fix Nahv landing and True Shot color"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add lightly tested option for horizontal BHB"
+        "commit_message": "Probably fix Nahv landing and True Shot color"
       },
-      "last_updated": "2025-12-29T09:59:57Z"
+      "last_updated": "2026-01-04T09:21:02Z"
     },
     {
       "slug": "elmsmarkers",

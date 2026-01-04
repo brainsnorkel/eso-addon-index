@@ -79,13 +79,13 @@
       "commit_sha": "1a52436a4ab3047c03896ab1752520f686528d5a"
     },
     "crutchalerts": {
-      "version": "db35267",
+      "version": "622cdc9",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2025-12-29T09:59:57Z",
-      "release_notes": "Add lightly tested option for horizontal BHB",
-      "commit_sha": "db352676e0976ed42fb8d8089797514b83d54932",
-      "commit_date": "2025-12-29T09:59:57Z",
-      "commit_message": "Add lightly tested option for horizontal BHB"
+      "published_at": "2026-01-04T09:21:02Z",
+      "release_notes": "Probably fix Nahv landing and True Shot color",
+      "commit_sha": "622cdc905fd9e888b0cd8e43a770c5921c7b817a",
+      "commit_date": "2026-01-04T09:21:02Z",
+      "commit_message": "Probably fix Nahv landing and True Shot color"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-04T06:06:15.885221+00:00",
+  "last_checked": "2026-01-04T12:07:12.751248+00:00",
   "updates": [
     {
-      "slug": "groupsetupwarnings",
-      "old_version": "v1.7.0",
-      "new_version": "v1.7.1",
-      "repo": "brainsnorkel/GroupSetupWarnings"
+      "slug": "crutchalerts",
+      "old_version": "db35267",
+      "new_version": "622cdc9",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Probably fix Nahv landing and True Shot color"
     }
   ]
 }

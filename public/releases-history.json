@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-04T06:06:16.034297+00:00",
+  "generated_at": "2026-01-04T12:07:12.898436+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "db35267",
+      "new_version": "622cdc9",
+      "published_at": "2026-01-04T09:21:02Z",
+      "detected_at": "2026-01-04T12:07:12.898436+00:00"
+    },
     {
       "slug": "groupsetupwarnings",
       "name": "Group Setup Warnings",
