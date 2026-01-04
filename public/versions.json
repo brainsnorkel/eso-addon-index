@@ -113,11 +113,11 @@
       "commit_message": "Delete temp_readme.txt"
     },
     "groupsetupwarnings": {
-      "version": "v1.7.0",
-      "download_url": "https://github.com/brainsnorkel/GroupSetupWarnings/archive/refs/tags/v1.7.0.zip",
-      "published_at": "2026-01-04T00:10:41Z",
+      "version": "v1.7.1",
+      "download_url": "https://github.com/brainsnorkel/GroupSetupWarnings/archive/refs/tags/v1.7.1.zip",
+      "published_at": "2026-01-04T02:19:15Z",
       "release_notes": null,
-      "commit_sha": "4a69cca4883ce94b138b8212cb828f128d20cbeb"
+      "commit_sha": "4dc9a973cba033e5f3023d69a393021a9b85754c"
     },
     "hodorreflexes": {
       "version": "2025-12-17",
@@ -316,13 +316,6 @@
       "release_notes": null,
       "commit_sha": "d53214a83029476baf69852aa05acbffc9392ec1"
     },
-    "warmask": {
-      "version": "v1.4.0",
-      "download_url": "https://github.com/brainsnorkel/WarMask/archive/refs/tags/v1.4.0.zip",
-      "published_at": "2025-12-30T20:44:30Z",
-      "release_notes": null,
-      "commit_sha": "3815674d192039098d844c88f9c87384ac371d92"
-    },
     "wizards-wardrobe": {
       "version": "v1.18.2",
       "download_url": "https://github.com/nicokimmel/wizardswardrobe/archive/refs/tags/v1.18.2.zip",
@@ -331,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-04T00:19:45.398565+00:00",
-  "updates": []
+  "last_checked": "2026-01-04T06:06:15.885221+00:00",
+  "updates": [
+    {
+      "slug": "groupsetupwarnings",
+      "old_version": "v1.7.0",
+      "new_version": "v1.7.1",
+      "repo": "brainsnorkel/GroupSetupWarnings"
+    }
+  ]
 }
