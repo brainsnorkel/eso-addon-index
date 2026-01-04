@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-04T12:07:12.898436+00:00",
+  "generated_at": "2026-01-04T18:05:49.232985+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "622cdc9",
+        "version": "6c9c9bb",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-01-04T09:21:02Z",
-        "commit_sha": "622cdc905fd9e888b0cd8e43a770c5921c7b817a",
-        "commit_date": "2026-01-04T09:21:02Z",
-        "commit_message": "Probably fix Nahv landing and True Shot color"
+        "published_at": "2026-01-04T11:03:02Z",
+        "commit_sha": "6c9c9bb858d1506b57fde403858de59ee8bdefec",
+        "commit_date": "2026-01-04T11:03:02Z",
+        "commit_message": "Add display format for fake Seeking Surge"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Probably fix Nahv landing and True Shot color"
+        "commit_message": "Add display format for fake Seeking Surge"
       },
-      "last_updated": "2026-01-04T09:21:02Z"
+      "last_updated": "2026-01-04T11:03:02Z"
     },
     {
       "slug": "elmsmarkers",

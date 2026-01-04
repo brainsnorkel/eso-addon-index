@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-04T12:07:12.898436+00:00",
+  "generated_at": "2026-01-04T18:05:49.232985+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "622cdc9",
+      "new_version": "6c9c9bb",
+      "published_at": "2026-01-04T11:03:02Z",
+      "detected_at": "2026-01-04T18:05:49.232985+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
