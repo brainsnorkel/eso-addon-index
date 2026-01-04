@@ -1293,6 +1293,21 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
             return addon.status === 'deprecated' || addon.archived === true;
         }
 
+        // Count versions released in the last year
+        function getVersionCountLastYear(slug) {
+            const history = versionHistory[slug] || [];
+            if (history.length === 0) return 0;
+
+            const oneYearAgo = new Date();
+            oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+
+            return history.filter(entry => {
+                const date = entry.published_at || entry.detected_at;
+                if (!date) return false;
+                return new Date(date) >= oneYearAgo;
+            }).length;
+        }
+
         // Render addon cards
         function renderAddons(addonList) {
             const grid = document.getElementById('addon-grid');
@@ -1309,12 +1324,14 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</pre>
                 const isDeprecated = isDeprecatedAddon(addon);
                 const statusBadge = isDeprecated ? '<span class="status-badge" title="This addon\'s repository has been archived">&#9888; Archived</span>' : '';
                 const cardClass = isDeprecated ? 'addon-card deprecated' : 'addon-card';
+                const versionCount = getVersionCountLastYear(addon.slug);
+                const versionCountDisplay = versionCount > 1 ? ` (${versionCount})` : '';
 
                 return `
                 <div class="${cardClass}">
                     <h3>
                         <a href="${addon.url}" target="_blank" rel="noopener">${addon.name}</a>
-                        ${version ? `<span class="version-badge" title="Click to view version history" onclick="showVersionHistory('${addon.slug}', '${addon.name.replace(/'/g, "\\'")}'); event.stopPropagation();">${isBranch ? '&#128279;' : ''} ${version}</span>` : ''}
+                        ${version ? `<span class="version-badge" title="Click to view version history${versionCount > 1 ? ` - ${versionCount} versions in last year` : ''}" onclick="showVersionHistory('${addon.slug}', '${addon.name.replace(/'/g, "\\'")}'); event.stopPropagation();">${isBranch ? '&#128279;' : ''} ${version}${versionCountDisplay}</span>` : ''}
                         ${statusBadge}
                     </h3>
                     <p class="description" title="${addon.description.replace(/"/g, '&quot;')}">${addon.description}</p>
