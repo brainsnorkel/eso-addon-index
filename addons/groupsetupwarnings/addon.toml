@@ -1,0 +1,27 @@
+[addon]
+slug = "groupsetupwarnings"
+name = "Group Setup Warnings"
+description = "Warns when Champion Points, buffs, or healing sets are duplicated in your group. Also alerts when important buffs are missing from a fight."
+authors = ["brainsnorkel"]
+license = "MIT"
+category = "dungeons"
+tags = ["dungeons", "trials", "group", "buff-tracking"]
+
+[source]
+type = "github"
+repo = "brainsnorkel/GroupSetupWarnings"
+branch = "main"
+release_type = "tag"
+
+[compatibility]
+api_version = "101048"
+game_versions = ["U46"]
+required_dependencies = []
+optional_dependencies = ["libaddonmenu-2-0", "libdebuglogger"]
+
+[meta]
+submitted_by = "brainsnorkel"
+submitted_date = 2026-01-04
+last_reviewed = 2026-01-04
+status = "approved"
+reviewers = ["brainsnorkel"]
