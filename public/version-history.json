@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-08T06:07:07.492202+00:00",
+  "generated_at": "2026-01-08T12:07:43.809385+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -60,6 +60,12 @@
       }
     ],
     "crutchalerts": [
+      {
+        "version": "a40da1a",
+        "published_at": "2026-01-08T07:48:52Z",
+        "detected_at": "2026-01-08T12:07:43.809385+00:00",
+        "commit_sha": "a40da1a67079383cc7ed2d6b0b775259e27e9828"
+      },
       {
         "version": "d8b7a27",
         "published_at": "2026-01-07T19:07:18Z",

@@ -79,13 +79,13 @@
       "commit_sha": "1a52436a4ab3047c03896ab1752520f686528d5a"
     },
     "crutchalerts": {
-      "version": "d8b7a27",
+      "version": "a40da1a",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-07T19:07:18Z",
-      "release_notes": "Add WIP RG abilities settings",
-      "commit_sha": "d8b7a27edf8f1bfa21b22a58d0059fbe97a3e72a",
-      "commit_date": "2026-01-07T19:07:18Z",
-      "commit_message": "Add WIP RG abilities settings"
+      "published_at": "2026-01-08T07:48:52Z",
+      "release_notes": "Fix debug error",
+      "commit_sha": "a40da1a67079383cc7ed2d6b0b775259e27e9828",
+      "commit_date": "2026-01-08T07:48:52Z",
+      "commit_message": "Fix debug error"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-08T06:07:07.345269+00:00",
-  "updates": []
+  "last_checked": "2026-01-08T12:07:43.651227+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "d8b7a27",
+      "new_version": "a40da1a",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix debug error"
+    }
+  ]
 }
