@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-07T18:06:42.499312+00:00",
+  "generated_at": "2026-01-08T00:18:06.519120+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "6c9c9bb",
+        "version": "d8b7a27",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-01-04T11:03:02Z",
-        "commit_sha": "6c9c9bb858d1506b57fde403858de59ee8bdefec",
-        "commit_date": "2026-01-04T11:03:02Z",
-        "commit_message": "Add display format for fake Seeking Surge"
+        "published_at": "2026-01-07T19:07:18Z",
+        "commit_sha": "d8b7a27edf8f1bfa21b22a58d0059fbe97a3e72a",
+        "commit_date": "2026-01-07T19:07:18Z",
+        "commit_message": "Add WIP RG abilities settings"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add display format for fake Seeking Surge"
+        "commit_message": "Add WIP RG abilities settings"
       },
-      "last_updated": "2026-01-04T11:03:02Z"
+      "last_updated": "2026-01-07T19:07:18Z"
     },
     {
       "slug": "elmsmarkers",

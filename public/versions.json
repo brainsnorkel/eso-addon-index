@@ -79,13 +79,13 @@
       "commit_sha": "1a52436a4ab3047c03896ab1752520f686528d5a"
     },
     "crutchalerts": {
-      "version": "6c9c9bb",
+      "version": "d8b7a27",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-04T11:03:02Z",
-      "release_notes": "Add display format for fake Seeking Surge",
-      "commit_sha": "6c9c9bb858d1506b57fde403858de59ee8bdefec",
-      "commit_date": "2026-01-04T11:03:02Z",
-      "commit_message": "Add display format for fake Seeking Surge"
+      "published_at": "2026-01-07T19:07:18Z",
+      "release_notes": "Add WIP RG abilities settings",
+      "commit_sha": "d8b7a27edf8f1bfa21b22a58d0059fbe97a3e72a",
+      "commit_date": "2026-01-07T19:07:18Z",
+      "commit_message": "Add WIP RG abilities settings"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-07T18:06:42.327246+00:00",
-  "updates": []
+  "last_checked": "2026-01-08T00:18:06.341716+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "6c9c9bb",
+      "new_version": "d8b7a27",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add WIP RG abilities settings"
+    }
+  ]
 }
