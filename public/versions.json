@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-08T00:18:06.341716+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "6c9c9bb",
-      "new_version": "d8b7a27",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add WIP RG abilities settings"
-    }
-  ]
+  "last_checked": "2026-01-08T06:07:07.345269+00:00",
+  "updates": []
 }
