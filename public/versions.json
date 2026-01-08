@@ -72,11 +72,11 @@
       "commit_sha": "7895914634567c337adb1288e748681a9538bb2e"
     },
     "combatmetronome": {
-      "version": "1.7.3",
-      "download_url": "https://github.com/barny22/CombatMetronome/archive/refs/tags/1.7.3.zip",
-      "published_at": "2025-07-02T08:39:15Z",
+      "version": "1.7.4",
+      "download_url": "https://github.com/barny22/CombatMetronome/archive/refs/tags/1.7.4.zip",
+      "published_at": "2026-01-08T15:35:50Z",
       "release_notes": null,
-      "commit_sha": "1a52436a4ab3047c03896ab1752520f686528d5a"
+      "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
       "version": "a40da1a",
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-08T12:07:43.651227+00:00",
+  "last_checked": "2026-01-08T18:06:19.131039+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "d8b7a27",
-      "new_version": "a40da1a",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix debug error"
+      "slug": "combatmetronome",
+      "old_version": "1.7.3",
+      "new_version": "1.7.4",
+      "repo": "barny22/CombatMetronome"
     }
   ]
 }

@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-08T12:07:43.809385+00:00",
+  "generated_at": "2026-01-08T18:06:19.278557+00:00",
   "events": [
+    {
+      "slug": "combatmetronome",
+      "name": "CombatMetronome",
+      "url": "https://github.com/barny22/CombatMetronome",
+      "old_version": "1.7.3",
+      "new_version": "1.7.4",
+      "published_at": "2026-01-08T15:35:50Z",
+      "detected_at": "2026-01-08T18:06:19.278557+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-08T12:07:43.809385+00:00",
+  "generated_at": "2026-01-08T18:06:19.278557+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -661,20 +661,20 @@
         ]
       },
       "latest_release": {
-        "version": "1.7.3",
-        "download_url": "https://github.com/barny22/CombatMetronome/archive/refs/tags/1.7.3.zip",
-        "published_at": "2025-07-02T08:39:15Z",
-        "commit_sha": "1a52436a4ab3047c03896ab1752520f686528d5a"
+        "version": "1.7.4",
+        "download_url": "https://github.com/barny22/CombatMetronome/archive/refs/tags/1.7.4.zip",
+        "published_at": "2026-01-08T15:35:50Z",
+        "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/barny22/CombatMetronome@1.7.3/",
+          "url": "https://cdn.jsdelivr.net/gh/barny22/CombatMetronome@1.7.4/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://github.com/barny22/CombatMetronome/archive/refs/tags/1.7.3.zip",
+          "url": "https://github.com/barny22/CombatMetronome/archive/refs/tags/1.7.4.zip",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -682,14 +682,14 @@
         "version_normalized": {
           "major": 1,
           "minor": 7,
-          "patch": 3,
+          "patch": 4,
           "prerelease": null
         },
-        "version_sort_key": 1007003000,
+        "version_sort_key": 1007004000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2025-07-02T08:39:15Z"
+      "last_updated": "2026-01-08T15:35:50Z"
     },
     {
       "slug": "crutchalerts",
