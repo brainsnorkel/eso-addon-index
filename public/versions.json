@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-09T12:07:45.905344+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "a40da1a",
-      "new_version": "d3816d3",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add more poop ability settings"
-    }
-  ]
+  "last_checked": "2026-01-09T18:07:03.674009+00:00",
+  "updates": []
 }
