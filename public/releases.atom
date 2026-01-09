@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-01-09T06:07:13.802697+00:00</updated>
+  <updated>2026-01-09T12:07:46.059339+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:d3816d3</id>
+    <title>CrutchAlerts updated: a40da1a → d3816d3</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-01-09T12:07:46.059339+00:00</updated>
+    <summary>CrutchAlerts has been updated from version a40da1a to d3816d3.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:combatmetronome:1.7.4</id>
     <title>CombatMetronome updated: 1.7.3 → 1.7.4</title>

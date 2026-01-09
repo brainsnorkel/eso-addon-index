@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-09T06:07:13.802697+00:00",
+  "generated_at": "2026-01-09T12:07:46.059339+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "a40da1a",
+        "version": "d3816d3",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-01-08T07:48:52Z",
-        "commit_sha": "a40da1a67079383cc7ed2d6b0b775259e27e9828",
-        "commit_date": "2026-01-08T07:48:52Z",
-        "commit_message": "Fix debug error"
+        "published_at": "2026-01-09T08:05:12Z",
+        "commit_sha": "d3816d393c7f5b11990030567070c0a4053a134b",
+        "commit_date": "2026-01-09T08:05:12Z",
+        "commit_message": "Add more poop ability settings"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix debug error"
+        "commit_message": "Add more poop ability settings"
       },
-      "last_updated": "2026-01-08T07:48:52Z"
+      "last_updated": "2026-01-09T08:05:12Z"
     },
     {
       "slug": "elmsmarkers",

@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-09T06:07:13.802697+00:00",
+  "generated_at": "2026-01-09T12:07:46.059339+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "a40da1a",
+      "new_version": "d3816d3",
+      "published_at": "2026-01-09T08:05:12Z",
+      "detected_at": "2026-01-09T12:07:46.059339+00:00"
+    },
     {
       "slug": "combatmetronome",
       "name": "CombatMetronome",
