@@ -188,13 +188,13 @@
       "release_notes": "## 2025.11.16\n- BREAKING CHANGE FOR DEVELOPERS:\n- removed GetIcon() - use GetStatic() or GetAnimated() instead\n- BREAKING CHANGES IN THE NEAR FUTURE:\n- GetStatic() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom` instead of only texturePath\n- GetAnimated() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, framerate` instead of a table.\n- If you are a developer, and you have"
     },
     "libcustommenu": {
-      "version": "236bb8a",
+      "version": "9c32338",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2025-12-29T14:56:52Z",
-      "release_notes": "version 3.1.1:",
-      "commit_sha": "236bb8a6de6f82d1a8da5458a56af2c85868ff48",
-      "commit_date": "2025-12-29T14:56:52Z",
-      "commit_message": "version 3.1.1:"
+      "published_at": "2026-01-10T14:11:13Z",
+      "release_notes": "version 1.42.9:",
+      "commit_sha": "9c32338aad7096412e6579235ea545fdcafad3b1",
+      "commit_date": "2026-01-10T14:11:13Z",
+      "commit_message": "version 1.42.9:"
     },
     "libcustomnames": {
       "version": "2026-01-04",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-10T12:07:02.917531+00:00",
+  "last_checked": "2026-01-10T18:06:04.426796+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "d3816d3",
-      "new_version": "8740351",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add 3s alert for Inferno"
+      "slug": "libcustommenu",
+      "old_version": "236bb8a",
+      "new_version": "9c32338",
+      "repo": "votan73/ESO",
+      "commit_message": "version 1.42.9:"
     }
   ]
 }
