@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "d3816d3",
+      "version": "8740351",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-09T08:05:12Z",
-      "release_notes": "Add more poop ability settings",
-      "commit_sha": "d3816d393c7f5b11990030567070c0a4053a134b",
-      "commit_date": "2026-01-09T08:05:12Z",
-      "commit_message": "Add more poop ability settings"
+      "published_at": "2026-01-10T07:59:02Z",
+      "release_notes": "Add 3s alert for Inferno",
+      "commit_sha": "8740351eba1be00c20967315ef9389e5277523ef",
+      "commit_date": "2026-01-10T07:59:02Z",
+      "commit_message": "Add 3s alert for Inferno"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-10T06:05:55.764220+00:00",
-  "updates": []
+  "last_checked": "2026-01-10T12:07:02.917531+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "d3816d3",
+      "new_version": "8740351",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add 3s alert for Inferno"
+    }
+  ]
 }

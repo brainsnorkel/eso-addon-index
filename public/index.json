@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-10T06:05:55.911915+00:00",
+  "generated_at": "2026-01-10T12:07:03.048244+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "d3816d3",
+        "version": "8740351",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-01-09T08:05:12Z",
-        "commit_sha": "d3816d393c7f5b11990030567070c0a4053a134b",
-        "commit_date": "2026-01-09T08:05:12Z",
-        "commit_message": "Add more poop ability settings"
+        "published_at": "2026-01-10T07:59:02Z",
+        "commit_sha": "8740351eba1be00c20967315ef9389e5277523ef",
+        "commit_date": "2026-01-10T07:59:02Z",
+        "commit_message": "Add 3s alert for Inferno"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add more poop ability settings"
+        "commit_message": "Add 3s alert for Inferno"
       },
-      "last_updated": "2026-01-09T08:05:12Z"
+      "last_updated": "2026-01-10T07:59:02Z"
     },
     {
       "slug": "elmsmarkers",
