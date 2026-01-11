@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-11T00:19:51.072257+00:00",
+  "generated_at": "2026-01-11T06:06:04.807966+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2229,35 +2229,35 @@
         ]
       },
       "latest_release": {
-        "version": "2025.10.11",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2025.10.11",
-        "published_at": "2025-10-11T16:43:24Z",
-        "commit_sha": "b1bc5ccc6d3b8f497a59ec67d4932cea1acc8c38"
+        "version": "2026-01-11",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2026-01-11",
+        "published_at": "2026-01-11T00:45:17Z",
+        "commit_sha": "fc61befe1faaf6e0119cdfae4cd3a54bc2cece5a"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibGroupCombatStats@2025.10.11/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibGroupCombatStats@2026-01-11/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2025.10.11",
+          "url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2026-01-11",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
-          "major": 2025,
-          "minor": 10,
+          "major": 2026,
+          "minor": 1,
           "patch": 11,
           "prerelease": null
         },
-        "version_sort_key": 2025010011000,
+        "version_sort_key": 2026001011000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2025-10-11T16:43:24Z"
+      "last_updated": "2026-01-11T00:45:17Z"
     },
     {
       "slug": "libhyper",

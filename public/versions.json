@@ -228,10 +228,10 @@
       "commit_message": "built v2.0.0-ea3"
     },
     "libgroupcombatstats": {
-      "version": "2025.10.11",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2025.10.11",
-      "published_at": "2025-10-11T16:43:24Z",
-      "release_notes": "## 2025.10.11\n- readd console support\n- bump LibCombat>=83\n- bump LibCombat2>=8 (console)\n\n## 2025.10.08\n- remove console support until LibCombat>=83 is released\n- fix variable naming\n\n## 2025.10.04\n- add console support\n\n## 2025.09.27\n- add cryptcannon as a sharable ultimate - fixes: https://github.com/m00nyONE/LibGroupCombatStats/issues/5\n- fix a bug where the ult update did not get sent because the event for switching skills is not fired when equipping a set with ultimates\n- add dynamic MAX_U"
+      "version": "2026-01-11",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2026-01-11",
+      "published_at": "2026-01-11T00:45:17Z",
+      "release_notes": "## 2026.01.11\n- disable logging to LibDebugLogger on Console\n\n"
     },
     "libhyper": {
       "version": "1928d21",
@@ -324,13 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-11T00:19:50.924707+00:00",
+  "last_checked": "2026-01-11T06:06:04.660928+00:00",
   "updates": [
     {
-      "slug": "improveddeathrecap",
-      "old_version": "1.0.0",
-      "new_version": "1.0.1",
-      "repo": "Solinur/ImprovedDeathRecap"
+      "slug": "libgroupcombatstats",
+      "old_version": "2025.10.11",
+      "new_version": "2026-01-11",
+      "repo": "m00nyONE/LibGroupCombatStats"
     }
   ]
 }

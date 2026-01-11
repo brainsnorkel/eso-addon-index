@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-01-11T00:19:51.072257+00:00</updated>
+  <updated>2026-01-11T06:06:04.807966+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libgroupcombatstats:2026-01-11</id>
+    <title>LibGroupCombatStats updated: 2025.10.11 → 2026-01-11</title>
+    <link href="https://github.com/m00nyONE/LibGroupCombatStats" rel="alternate"/>
+    <updated>2026-01-11T06:06:04.807966+00:00</updated>
+    <summary>LibGroupCombatStats has been updated from version 2025.10.11 to 2026-01-11.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:improveddeathrecap:1.0.1</id>
     <title>ImprovedDeathRecap updated: 1.0.0 → 1.0.1</title>

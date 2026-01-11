@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-11T00:19:51.072257+00:00",
+  "generated_at": "2026-01-11T06:06:04.807966+00:00",
   "events": [
+    {
+      "slug": "libgroupcombatstats",
+      "name": "LibGroupCombatStats",
+      "url": "https://github.com/m00nyONE/LibGroupCombatStats",
+      "old_version": "2025.10.11",
+      "new_version": "2026-01-11",
+      "published_at": "2026-01-11T00:45:17Z",
+      "detected_at": "2026-01-11T06:06:04.807966+00:00"
+    },
     {
       "slug": "improveddeathrecap",
       "name": "ImprovedDeathRecap",
