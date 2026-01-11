@@ -144,11 +144,11 @@
       "commit_message": "version number"
     },
     "improveddeathrecap": {
-      "version": "1.0.0",
-      "download_url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.0.zip",
-      "published_at": "2025-02-22T15:21:06Z",
+      "version": "1.0.1",
+      "download_url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.1.zip",
+      "published_at": "2026-01-10T19:58:28Z",
       "release_notes": null,
-      "commit_sha": "ef01bfe6b88216f862320b98a283abf6e2d0f462"
+      "commit_sha": "24274cbbddcd61133a9b42ea776f0a60e272e6fa"
     },
     "libaddonmenu-2-0": {
       "version": "r32",
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-10T18:06:04.426796+00:00",
+  "last_checked": "2026-01-11T00:19:50.924707+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "236bb8a",
-      "new_version": "9c32338",
-      "repo": "votan73/ESO",
-      "commit_message": "version 1.42.9:"
+      "slug": "improveddeathrecap",
+      "old_version": "1.0.0",
+      "new_version": "1.0.1",
+      "repo": "Solinur/ImprovedDeathRecap"
     }
   ]
 }

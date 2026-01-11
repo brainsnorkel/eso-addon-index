@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-10T18:06:04.590302+00:00",
+  "generated_at": "2026-01-11T00:19:51.072257+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1341,20 +1341,20 @@
         ]
       },
       "latest_release": {
-        "version": "1.0.0",
-        "download_url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.0.zip",
-        "published_at": "2025-02-22T15:21:06Z",
-        "commit_sha": "ef01bfe6b88216f862320b98a283abf6e2d0f462"
+        "version": "1.0.1",
+        "download_url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.1.zip",
+        "published_at": "2026-01-10T19:58:28Z",
+        "commit_sha": "24274cbbddcd61133a9b42ea776f0a60e272e6fa"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/Solinur/ImprovedDeathRecap@1.0.0/ImprovedDeathRecap/",
+          "url": "https://cdn.jsdelivr.net/gh/Solinur/ImprovedDeathRecap@1.0.1/ImprovedDeathRecap/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.0.zip",
+          "url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.1.zip",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1362,14 +1362,14 @@
         "version_normalized": {
           "major": 1,
           "minor": 0,
-          "patch": 0,
+          "patch": 1,
           "prerelease": null
         },
-        "version_sort_key": 1000000000,
+        "version_sort_key": 1000001000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2025-02-22T15:21:06Z"
+      "last_updated": "2026-01-10T19:58:28Z"
     },
     {
       "slug": "bsjogroup",

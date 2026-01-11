@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-10T18:06:04.590302+00:00",
+  "generated_at": "2026-01-11T00:19:51.072257+00:00",
   "events": [
+    {
+      "slug": "improveddeathrecap",
+      "name": "ImprovedDeathRecap",
+      "url": "https://github.com/Solinur/ImprovedDeathRecap",
+      "old_version": "1.0.0",
+      "new_version": "1.0.1",
+      "published_at": "2026-01-10T19:58:28Z",
+      "detected_at": "2026-01-11T00:19:51.072257+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",

@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-01-10T18:06:04.590302+00:00</updated>
+  <updated>2026-01-11T00:19:51.072257+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:improveddeathrecap:1.0.1</id>
+    <title>ImprovedDeathRecap updated: 1.0.0 → 1.0.1</title>
+    <link href="https://github.com/Solinur/ImprovedDeathRecap" rel="alternate"/>
+    <updated>2026-01-11T00:19:51.072257+00:00</updated>
+    <summary>ImprovedDeathRecap has been updated from version 1.0.0 to 1.0.1.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustommenu:9c32338</id>
     <title>LibCustomMenu updated: 236bb8a → 9c32338</title>

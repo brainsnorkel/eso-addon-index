@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-10T18:06:04.590302+00:00",
+  "generated_at": "2026-01-11T00:19:51.072257+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -120,6 +120,12 @@
       }
     ],
     "improveddeathrecap": [
+      {
+        "version": "1.0.1",
+        "published_at": "2026-01-10T19:58:28Z",
+        "detected_at": "2026-01-11T00:19:51.072257+00:00",
+        "commit_sha": "24274cbbddcd61133a9b42ea776f0a60e272e6fa"
+      },
       {
         "version": "1.0.0",
         "published_at": "2025-02-22T15:21:06Z",
