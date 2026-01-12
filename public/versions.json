@@ -197,9 +197,9 @@
       "commit_message": "version 1.42.9:"
     },
     "libcustomnames": {
-      "version": "2026-01-11",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-01-11",
-      "published_at": "2026-01-11T22:39:57Z",
+      "version": "2026-01-12",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-01-12",
+      "published_at": "2026-01-12T00:39:54Z",
       "release_notes": "## 2025.10.24\n- The release pipeline now automatically creates separate versions for PC & Console. There is no need for users on PC having all the custom names of the console players and vice versa.\n\n"
     },
     "libdebuglogger": {
@@ -324,18 +324,12 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-12T00:18:40.811977+00:00",
+  "last_checked": "2026-01-12T06:08:23.428557+00:00",
   "updates": [
     {
-      "slug": "libcustomicons",
-      "old_version": "2026-01-04",
-      "new_version": "2026-01-11",
-      "repo": "m00nyONE/LibCustomIcons"
-    },
-    {
       "slug": "libcustomnames",
-      "old_version": "2026-01-04",
-      "new_version": "2026-01-11",
+      "old_version": "2026-01-11",
+      "new_version": "2026-01-12",
       "repo": "m00nyONE/LibCustomNames"
     }
   ]
