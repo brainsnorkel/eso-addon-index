@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "8740351",
+      "version": "f81b613",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-10T07:59:02Z",
-      "release_notes": "Add 3s alert for Inferno",
-      "commit_sha": "8740351eba1be00c20967315ef9389e5277523ef",
-      "commit_date": "2026-01-10T07:59:02Z",
-      "commit_message": "Add 3s alert for Inferno"
+      "published_at": "2026-01-13T08:33:06Z",
+      "release_notes": "Add others for Crashing Wave",
+      "commit_sha": "f81b61323b823511a3ed7742d652c016bfd2590b",
+      "commit_date": "2026-01-13T08:33:06Z",
+      "commit_message": "Add others for Crashing Wave"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-13T06:07:07.234849+00:00",
-  "updates": []
+  "last_checked": "2026-01-13T12:08:00.125114+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "8740351",
+      "new_version": "f81b613",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add others for Crashing Wave"
+    }
+  ]
 }
