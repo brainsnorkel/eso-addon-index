@@ -203,13 +203,13 @@
       "release_notes": "## 2025.10.24\n- The release pipeline now automatically creates separate versions for PC & Console. There is no need for users on PC having all the custom names of the console players and vice versa.\n\n"
     },
     "libdebuglogger": {
-      "version": "f29c489",
+      "version": "fe1b0e5",
       "download_url": "https://github.com/sirinsidiator/ESO-LibDebugLogger/archive/refs/heads/main.zip",
-      "published_at": "2025-05-01T18:03:17Z",
-      "release_notes": "built v2.5.2",
-      "commit_sha": "f29c489bf7f983964b16bba616901c26119b3673",
-      "commit_date": "2025-05-01T18:03:17Z",
-      "commit_message": "built v2.5.2"
+      "published_at": "2026-01-13T17:27:28Z",
+      "release_notes": "built v2.5.3",
+      "commit_sha": "fe1b0e5f83fb77ad6f2422d53cd2e9b3f2159730",
+      "commit_date": "2026-01-13T17:27:28Z",
+      "commit_message": "built v2.5.3"
     },
     "libfloatingicons": {
       "version": "release-0.1",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-13T12:08:00.125114+00:00",
+  "last_checked": "2026-01-13T18:07:28.756341+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "8740351",
-      "new_version": "f81b613",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add others for Crashing Wave"
+      "slug": "libdebuglogger",
+      "old_version": "f29c489",
+      "new_version": "fe1b0e5",
+      "repo": "sirinsidiator/ESO-LibDebugLogger",
+      "commit_message": "built v2.5.3"
     }
   ]
 }

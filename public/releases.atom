@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-01-13T12:08:00.274293+00:00</updated>
+  <updated>2026-01-13T18:07:28.903593+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libdebuglogger:fe1b0e5</id>
+    <title>LibDebugLogger updated: f29c489 → fe1b0e5</title>
+    <link href="https://github.com/sirinsidiator/ESO-LibDebugLogger" rel="alternate"/>
+    <updated>2026-01-13T18:07:28.903593+00:00</updated>
+    <summary>LibDebugLogger has been updated from version f29c489 to fe1b0e5.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:f81b613</id>
     <title>CrutchAlerts updated: 8740351 → f81b613</title>

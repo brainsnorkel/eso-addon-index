@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-13T12:08:00.274293+00:00",
+  "generated_at": "2026-01-13T18:07:28.903593+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2011,12 +2011,12 @@
         ]
       },
       "latest_release": {
-        "version": "f29c489",
+        "version": "fe1b0e5",
         "download_url": "https://github.com/sirinsidiator/ESO-LibDebugLogger/archive/refs/heads/main.zip",
-        "published_at": "2025-05-01T18:03:17Z",
-        "commit_sha": "f29c489bf7f983964b16bba616901c26119b3673",
-        "commit_date": "2025-05-01T18:03:17Z",
-        "commit_message": "built v2.5.2"
+        "published_at": "2026-01-13T17:27:28Z",
+        "commit_sha": "fe1b0e5f83fb77ad6f2422d53cd2e9b3f2159730",
+        "commit_date": "2026-01-13T17:27:28Z",
+        "commit_message": "built v2.5.3"
       },
       "download_sources": [
         {
@@ -2035,9 +2035,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "built v2.5.2"
+        "commit_message": "built v2.5.3"
       },
-      "last_updated": "2025-05-01T18:03:17Z"
+      "last_updated": "2026-01-13T17:27:28Z"
     },
     {
       "slug": "libfloatingicons",
