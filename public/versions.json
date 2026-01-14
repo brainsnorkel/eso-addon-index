@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-14T12:07:33.659295+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "f81b613",
-      "new_version": "bfe9f64",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add more default skills"
-    }
-  ]
+  "last_checked": "2026-01-14T18:06:36.496128+00:00",
+  "updates": []
 }
