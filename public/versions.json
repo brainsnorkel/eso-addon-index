@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-13T18:07:28.756341+00:00",
-  "updates": [
-    {
-      "slug": "libdebuglogger",
-      "old_version": "f29c489",
-      "new_version": "fe1b0e5",
-      "repo": "sirinsidiator/ESO-LibDebugLogger",
-      "commit_message": "built v2.5.3"
-    }
-  ]
+  "last_checked": "2026-01-14T00:18:15.564351+00:00",
+  "updates": []
 }
