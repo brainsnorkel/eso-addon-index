@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "f81b613",
+      "version": "bfe9f64",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-13T08:33:06Z",
-      "release_notes": "Add others for Crashing Wave",
-      "commit_sha": "f81b61323b823511a3ed7742d652c016bfd2590b",
-      "commit_date": "2026-01-13T08:33:06Z",
-      "commit_message": "Add others for Crashing Wave"
+      "published_at": "2026-01-14T08:32:24Z",
+      "release_notes": "Add more default skills",
+      "commit_sha": "bfe9f64ec7acf2b760233d5403ebe0280e1b924e",
+      "commit_date": "2026-01-14T08:32:24Z",
+      "commit_message": "Add more default skills"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-14T06:07:22.060541+00:00",
-  "updates": []
+  "last_checked": "2026-01-14T12:07:33.659295+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "f81b613",
+      "new_version": "bfe9f64",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add more default skills"
+    }
+  ]
 }
