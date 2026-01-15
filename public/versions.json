@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "bfe9f64",
+      "version": "f431355",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-14T08:32:24Z",
-      "release_notes": "Add more default skills",
-      "commit_sha": "bfe9f64ec7acf2b760233d5403ebe0280e1b924e",
-      "commit_date": "2026-01-14T08:32:24Z",
-      "commit_message": "Add more default skills"
+      "published_at": "2026-01-15T15:51:18Z",
+      "release_notes": "Add console settings that prob don't work for Bahsei portal abilities",
+      "commit_sha": "f43135573b75dc7f33eec9e9537a61eb4009e914",
+      "commit_date": "2026-01-15T15:51:18Z",
+      "commit_message": "Add console settings that prob don't work for Bahsei portal abilities"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-15T12:07:52.848426+00:00",
-  "updates": []
+  "last_checked": "2026-01-15T18:09:49.208921+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "bfe9f64",
+      "new_version": "f431355",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add console settings that prob don't work for Bahsei portal abilities"
+    }
+  ]
 }
