@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-16T06:07:11.489936+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "f431355",
-      "new_version": "aed756c",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add side thingy on info panel"
-    }
-  ]
+  "last_checked": "2026-01-16T12:07:33.672181+00:00",
+  "updates": []
 }
