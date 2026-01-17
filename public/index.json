@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-17T00:16:58.902636+00:00",
+  "generated_at": "2026-01-17T06:06:12.328972+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "aed756c",
+        "version": "04fe125",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-01-16T03:01:26Z",
-        "commit_sha": "aed756c9df643aa840933207d3412704a914cc07",
-        "commit_date": "2026-01-16T03:01:26Z",
-        "commit_message": "Add side thingy on info panel"
+        "published_at": "2026-01-17T02:56:08Z",
+        "commit_sha": "04fe1255a87875531894eaef23af45c8ba062631",
+        "commit_date": "2026-01-17T02:56:08Z",
+        "commit_message": "Add portal direction to panel"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add side thingy on info panel"
+        "commit_message": "Add portal direction to panel"
       },
-      "last_updated": "2026-01-16T03:01:26Z"
+      "last_updated": "2026-01-17T02:56:08Z"
     },
     {
       "slug": "elmsmarkers",
