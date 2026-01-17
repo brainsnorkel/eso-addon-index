@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-17T06:06:12.328972+00:00",
+  "generated_at": "2026-01-17T12:06:46.860497+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "04fe125",
+        "version": "38644d5",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-01-17T02:56:08Z",
-        "commit_sha": "04fe1255a87875531894eaef23af45c8ba062631",
-        "commit_date": "2026-01-17T02:56:08Z",
-        "commit_message": "Add portal direction to panel"
+        "published_at": "2026-01-17T08:02:19Z",
+        "commit_sha": "38644d5e27de2c1031f89b6ee74355a2f5b64869",
+        "commit_date": "2026-01-17T08:02:19Z",
+        "commit_message": "Add xoryn, lock, unlock commands, and fix panel side thing"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add portal direction to panel"
+        "commit_message": "Add xoryn, lock, unlock commands, and fix panel side thing"
       },
-      "last_updated": "2026-01-17T02:56:08Z"
+      "last_updated": "2026-01-17T08:02:19Z"
     },
     {
       "slug": "elmsmarkers",

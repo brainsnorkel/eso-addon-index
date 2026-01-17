@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "04fe125",
+      "version": "38644d5",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-17T02:56:08Z",
-      "release_notes": "Add portal direction to panel",
-      "commit_sha": "04fe1255a87875531894eaef23af45c8ba062631",
-      "commit_date": "2026-01-17T02:56:08Z",
-      "commit_message": "Add portal direction to panel"
+      "published_at": "2026-01-17T08:02:19Z",
+      "release_notes": "Add xoryn, lock, unlock commands, and fix panel side thing",
+      "commit_sha": "38644d5e27de2c1031f89b6ee74355a2f5b64869",
+      "commit_date": "2026-01-17T08:02:19Z",
+      "commit_message": "Add xoryn, lock, unlock commands, and fix panel side thing"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-17T06:06:12.181731+00:00",
+  "last_checked": "2026-01-17T12:06:46.709827+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "aed756c",
-      "new_version": "04fe125",
+      "old_version": "04fe125",
+      "new_version": "38644d5",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add portal direction to panel"
+      "commit_message": "Add xoryn, lock, unlock commands, and fix panel side thing"
     }
   ]
 }
