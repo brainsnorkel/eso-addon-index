@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "38644d5",
+      "version": "72f4922",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-17T08:02:19Z",
-      "release_notes": "Add xoryn, lock, unlock commands, and fix panel side thing",
-      "commit_sha": "38644d5e27de2c1031f89b6ee74355a2f5b64869",
-      "commit_date": "2026-01-17T08:02:19Z",
-      "commit_message": "Add xoryn, lock, unlock commands, and fix panel side thing"
+      "published_at": "2026-01-17T15:06:23Z",
+      "release_notes": "Fix panel side thing not always updating",
+      "commit_sha": "72f49226efe69cacf4c80a4786a789e4cd4f8228",
+      "commit_date": "2026-01-17T15:06:23Z",
+      "commit_message": "Fix panel side thing not always updating"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-17T12:06:46.709827+00:00",
+  "last_checked": "2026-01-17T18:05:43.512648+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "04fe125",
-      "new_version": "38644d5",
+      "old_version": "38644d5",
+      "new_version": "72f4922",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add xoryn, lock, unlock commands, and fix panel side thing"
+      "commit_message": "Fix panel side thing not always updating"
     }
   ]
 }
