@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-17T18:05:43.512648+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "38644d5",
-      "new_version": "72f4922",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix panel side thing not always updating"
-    }
-  ]
+  "last_checked": "2026-01-18T00:19:39.634366+00:00",
+  "updates": []
 }
