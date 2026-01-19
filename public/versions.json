@@ -197,9 +197,9 @@
       "commit_message": "version 1.42.9:"
     },
     "libcustomnames": {
-      "version": "2026-01-18",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-01-18",
-      "published_at": "2026-01-18T22:34:34Z",
+      "version": "2026-01-19",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-01-19",
+      "published_at": "2026-01-19T14:18:08Z",
       "release_notes": "## 2025.10.24\n- The release pipeline now automatically creates separate versions for PC & Console. There is no need for users on PC having all the custom names of the console players and vice versa.\n\n"
     },
     "libdebuglogger": {
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-19T12:08:09.663458+00:00",
+  "last_checked": "2026-01-19T18:06:16.052845+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "72f4922",
-      "new_version": "6e3e33c",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add damageable for Dagrund"
+      "slug": "libcustomnames",
+      "old_version": "2026-01-18",
+      "new_version": "2026-01-19",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }
