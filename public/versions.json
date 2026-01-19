@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "72f4922",
+      "version": "6e3e33c",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-17T15:06:23Z",
-      "release_notes": "Fix panel side thing not always updating",
-      "commit_sha": "72f49226efe69cacf4c80a4786a789e4cd4f8228",
-      "commit_date": "2026-01-17T15:06:23Z",
-      "commit_message": "Fix panel side thing not always updating"
+      "published_at": "2026-01-19T09:39:38Z",
+      "release_notes": "Add damageable for Dagrund",
+      "commit_sha": "6e3e33cbde297a04a055ff30baeac281faa595b1",
+      "commit_date": "2026-01-19T09:39:38Z",
+      "commit_message": "Add damageable for Dagrund"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-19T06:09:03.725972+00:00",
-  "updates": []
+  "last_checked": "2026-01-19T12:08:09.663458+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "72f4922",
+      "new_version": "6e3e33c",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add damageable for Dagrund"
+    }
+  ]
 }
