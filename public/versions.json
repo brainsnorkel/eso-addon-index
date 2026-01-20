@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "6e3e33c",
+      "version": "69dd099",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-19T09:39:38Z",
-      "release_notes": "Add damageable for Dagrund",
-      "commit_sha": "6e3e33cbde297a04a055ff30baeac281faa595b1",
-      "commit_date": "2026-01-19T09:39:38Z",
-      "commit_message": "Add damageable for Dagrund"
+      "published_at": "2026-01-19T20:23:52Z",
+      "release_notes": "[2.10.0] Bump version",
+      "commit_sha": "69dd09968063dde2d68d5f8980d5b25399b8bad0",
+      "commit_date": "2026-01-19T20:23:52Z",
+      "commit_message": "[2.10.0] Bump version"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-19T18:06:16.052845+00:00",
+  "last_checked": "2026-01-20T00:17:19.879009+00:00",
   "updates": [
     {
-      "slug": "libcustomnames",
-      "old_version": "2026-01-18",
-      "new_version": "2026-01-19",
-      "repo": "m00nyONE/LibCustomNames"
+      "slug": "crutchalerts",
+      "old_version": "6e3e33c",
+      "new_version": "69dd099",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.10.0] Bump version"
     }
   ]
 }
