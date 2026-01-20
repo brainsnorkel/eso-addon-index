@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "69dd099",
+      "version": "778a4d0",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-19T20:23:52Z",
-      "release_notes": "[2.10.0] Bump version",
-      "commit_sha": "69dd09968063dde2d68d5f8980d5b25399b8bad0",
-      "commit_date": "2026-01-19T20:23:52Z",
-      "commit_message": "[2.10.0] Bump version"
+      "published_at": "2026-01-20T08:47:16Z",
+      "release_notes": "Only do cone prominent 700ms before hit",
+      "commit_sha": "778a4d07cda2adae6baa1a10d9eb52796edf8174",
+      "commit_date": "2026-01-20T08:47:16Z",
+      "commit_message": "Only do cone prominent 700ms before hit"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-20T06:07:54.557492+00:00",
-  "updates": []
+  "last_checked": "2026-01-20T12:08:06.849413+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "69dd099",
+      "new_version": "778a4d0",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Only do cone prominent 700ms before hit"
+    }
+  ]
 }

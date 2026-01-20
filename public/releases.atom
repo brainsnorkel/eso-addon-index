@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-01-20T06:07:54.706318+00:00</updated>
+  <updated>2026-01-20T12:08:07.005595+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:778a4d0</id>
+    <title>CrutchAlerts updated: 69dd099 → 778a4d0</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-01-20T12:08:07.005595+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 69dd099 to 778a4d0.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:69dd099</id>
     <title>CrutchAlerts updated: 6e3e33c → 69dd099</title>
