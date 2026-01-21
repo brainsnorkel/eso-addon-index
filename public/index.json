@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-21T06:07:58.834077+00:00",
+  "generated_at": "2026-01-21T12:08:11.001460+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "0c43e63",
+        "version": "d1b3602",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-01-21T03:51:33Z",
-        "commit_sha": "0c43e633f98f6338d0cde00784c9fb8c594a4c7c",
-        "commit_date": "2026-01-21T03:51:33Z",
-        "commit_message": "Refactor info panel utils"
+        "published_at": "2026-01-21T08:47:33Z",
+        "commit_sha": "d1b3602e63700c67c06a73d394008654c0c513fc",
+        "commit_date": "2026-01-21T08:47:33Z",
+        "commit_message": "Fix info panel update from size setting"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Refactor info panel utils"
+        "commit_message": "Fix info panel update from size setting"
       },
-      "last_updated": "2026-01-21T03:51:33Z"
+      "last_updated": "2026-01-21T08:47:33Z"
     },
     {
       "slug": "elmsmarkers",

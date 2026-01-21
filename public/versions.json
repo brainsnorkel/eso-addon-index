@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "0c43e63",
+      "version": "d1b3602",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-21T03:51:33Z",
-      "release_notes": "Refactor info panel utils",
-      "commit_sha": "0c43e633f98f6338d0cde00784c9fb8c594a4c7c",
-      "commit_date": "2026-01-21T03:51:33Z",
-      "commit_message": "Refactor info panel utils"
+      "published_at": "2026-01-21T08:47:33Z",
+      "release_notes": "Fix info panel update from size setting",
+      "commit_sha": "d1b3602e63700c67c06a73d394008654c0c513fc",
+      "commit_date": "2026-01-21T08:47:33Z",
+      "commit_message": "Fix info panel update from size setting"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-21T06:07:58.680409+00:00",
+  "last_checked": "2026-01-21T12:08:10.842029+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "778a4d0",
-      "new_version": "0c43e63",
+      "old_version": "0c43e63",
+      "new_version": "d1b3602",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Refactor info panel utils"
+      "commit_message": "Fix info panel update from size setting"
     }
   ]
 }
