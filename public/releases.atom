@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-01-21T12:08:11.001460+00:00</updated>
+  <updated>2026-01-21T18:14:35.662526+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:pchat:baff4b8</id>
+    <title>pChat updated: 758e83c → baff4b8</title>
+    <link href="https://github.com/Baertram/pChat" rel="alternate"/>
+    <updated>2026-01-21T18:14:35.662526+00:00</updated>
+    <summary>pChat has been updated from version 758e83c to baff4b8.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:d1b3602</id>
     <title>CrutchAlerts updated: 0c43e63 → d1b3602</title>

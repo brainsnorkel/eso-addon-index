@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-21T12:08:11.001460+00:00",
+  "generated_at": "2026-01-21T18:14:35.662526+00:00",
   "events": [
+    {
+      "slug": "pchat",
+      "name": "pChat",
+      "url": "https://github.com/Baertram/pChat",
+      "old_version": "758e83c",
+      "new_version": "baff4b8",
+      "published_at": "2026-01-21T16:12:56Z",
+      "detected_at": "2026-01-21T18:14:35.662526+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",

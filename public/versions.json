@@ -292,13 +292,13 @@
       "commit_sha": "29c23c3a60f90106a8d5b402744f6c1930908b56"
     },
     "pchat": {
-      "version": "758e83c",
+      "version": "baff4b8",
       "download_url": "https://github.com/Baertram/pChat/archive/refs/heads/master.zip",
-      "published_at": "2025-11-28T00:50:08Z",
-      "release_notes": "Updated setting for LAM sound slider widget, chat mentions",
-      "commit_sha": "758e83c6de8370361faf0666adff1f3dc629aad9",
-      "commit_date": "2025-11-28T00:50:08Z",
-      "commit_message": "Updated setting for LAM sound slider widget, chat mentions"
+      "published_at": "2026-01-21T16:12:56Z",
+      "release_notes": "Fixed missing function check",
+      "commit_sha": "baff4b8b9df8a5054114dcdab8b4d86af2368a9e",
+      "commit_date": "2026-01-21T16:12:56Z",
+      "commit_message": "Fixed missing function check"
     },
     "synergypriority": {
       "version": "993aca7",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-21T12:08:10.842029+00:00",
+  "last_checked": "2026-01-21T18:14:35.513043+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "0c43e63",
-      "new_version": "d1b3602",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix info panel update from size setting"
+      "slug": "pchat",
+      "old_version": "758e83c",
+      "new_version": "baff4b8",
+      "repo": "Baertram/pChat",
+      "commit_message": "Fixed missing function check"
     }
   ]
 }

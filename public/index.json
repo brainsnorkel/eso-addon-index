@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-21T12:08:11.001460+00:00",
+  "generated_at": "2026-01-21T18:14:35.662526+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2923,12 +2923,12 @@
         ]
       },
       "latest_release": {
-        "version": "758e83c",
+        "version": "baff4b8",
         "download_url": "https://github.com/Baertram/pChat/archive/refs/heads/master.zip",
-        "published_at": "2025-11-28T00:50:08Z",
-        "commit_sha": "758e83c6de8370361faf0666adff1f3dc629aad9",
-        "commit_date": "2025-11-28T00:50:08Z",
-        "commit_message": "Updated setting for LAM sound slider widget, chat mentions"
+        "published_at": "2026-01-21T16:12:56Z",
+        "commit_sha": "baff4b8b9df8a5054114dcdab8b4d86af2368a9e",
+        "commit_date": "2026-01-21T16:12:56Z",
+        "commit_message": "Fixed missing function check"
       },
       "download_sources": [
         {
@@ -2947,9 +2947,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Updated setting for LAM sound slider widget, chat mentions"
+        "commit_message": "Fixed missing function check"
       },
-      "last_updated": "2025-11-28T00:50:08Z"
+      "last_updated": "2026-01-21T16:12:56Z"
     },
     {
       "slug": "synergypriority",
