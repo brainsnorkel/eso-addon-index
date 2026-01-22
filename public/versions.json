@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-21T18:14:35.513043+00:00",
-  "updates": [
-    {
-      "slug": "pchat",
-      "old_version": "758e83c",
-      "new_version": "baff4b8",
-      "repo": "Baertram/pChat",
-      "commit_message": "Fixed missing function check"
-    }
-  ]
+  "last_checked": "2026-01-22T00:18:44.589209+00:00",
+  "updates": []
 }
