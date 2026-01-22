@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-22T00:18:44.734742+00:00",
+  "generated_at": "2026-01-22T06:07:31.402793+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "d1b3602",
+      "new_version": "2dd5dc5",
+      "published_at": "2026-01-22T03:49:19Z",
+      "detected_at": "2026-01-22T06:07:31.402793+00:00"
+    },
     {
       "slug": "pchat",
       "name": "pChat",
