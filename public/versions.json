@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2dd5dc5",
+      "version": "c873209",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-22T03:49:19Z",
-      "release_notes": "Clean up some more refactoring",
-      "commit_sha": "2dd5dc55ad38b93e929af343e81bdc8a30035093",
-      "commit_date": "2026-01-22T03:49:19Z",
-      "commit_message": "Clean up some more refactoring"
+      "published_at": "2026-01-23T05:56:59Z",
+      "release_notes": "Fix refactoring bugs",
+      "commit_sha": "c873209e2cea99734f073fbd0740af2503d6c111",
+      "commit_date": "2026-01-23T05:56:59Z",
+      "commit_message": "Fix refactoring bugs"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-23T00:18:21.954593+00:00",
-  "updates": []
+  "last_checked": "2026-01-23T06:07:14.908380+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "2dd5dc5",
+      "new_version": "c873209",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix refactoring bugs"
+    }
+  ]
 }
