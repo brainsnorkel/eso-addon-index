@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-23T06:07:14.908380+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "2dd5dc5",
-      "new_version": "c873209",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix refactoring bugs"
-    }
-  ]
+  "last_checked": "2026-01-23T12:07:58.635635+00:00",
+  "updates": []
 }
