@@ -188,13 +188,13 @@
       "release_notes": "## 2025.11.16\n- BREAKING CHANGE FOR DEVELOPERS:\n- removed GetIcon() - use GetStatic() or GetAnimated() instead\n- BREAKING CHANGES IN THE NEAR FUTURE:\n- GetStatic() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom` instead of only texturePath\n- GetAnimated() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, framerate` instead of a table.\n- If you are a developer, and you have"
     },
     "libcustommenu": {
-      "version": "964360f",
+      "version": "ca6b397",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-01-24T14:25:23Z",
-      "release_notes": "version 0.5.1:",
-      "commit_sha": "964360fd7a837582b06c97f9615ebc727d179766",
-      "commit_date": "2026-01-24T14:25:23Z",
-      "commit_message": "version 0.5.1:"
+      "published_at": "2026-01-25T12:35:29Z",
+      "release_notes": "version 6:",
+      "commit_sha": "ca6b3977a079f3e4dc76e58f1fc8126860501f14",
+      "commit_date": "2026-01-25T12:35:29Z",
+      "commit_message": "version 6:"
     },
     "libcustomnames": {
       "version": "2026-01-19",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-25T12:07:23.911297+00:00",
-  "updates": []
+  "last_checked": "2026-01-25T18:06:07.129582+00:00",
+  "updates": [
+    {
+      "slug": "libcustommenu",
+      "old_version": "964360f",
+      "new_version": "ca6b397",
+      "repo": "votan73/ESO",
+      "commit_message": "version 6:"
+    }
+  ]
 }
