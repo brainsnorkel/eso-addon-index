@@ -182,9 +182,9 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-01-18",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-01-18",
-      "published_at": "2026-01-18T22:34:42Z",
+      "version": "2026-01-25",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-01-25",
+      "published_at": "2026-01-25T22:35:29Z",
       "release_notes": "## 2025.11.16\n- BREAKING CHANGE FOR DEVELOPERS:\n- removed GetIcon() - use GetStatic() or GetAnimated() instead\n- BREAKING CHANGES IN THE NEAR FUTURE:\n- GetStatic() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom` instead of only texturePath\n- GetAnimated() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, framerate` instead of a table.\n- If you are a developer, and you have"
     },
     "libcustommenu": {
@@ -197,9 +197,9 @@
       "commit_message": "version 6:"
     },
     "libcustomnames": {
-      "version": "2026-01-19",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-01-19",
-      "published_at": "2026-01-19T14:18:08Z",
+      "version": "2026-01-25",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-01-25",
+      "published_at": "2026-01-25T22:35:28Z",
       "release_notes": "## 2025.10.24\n- The release pipeline now automatically creates separate versions for PC & Console. There is no need for users on PC having all the custom names of the console players and vice versa.\n\n"
     },
     "libdebuglogger": {
@@ -324,14 +324,19 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-25T18:06:07.129582+00:00",
+  "last_checked": "2026-01-26T00:19:03.453622+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "964360f",
-      "new_version": "ca6b397",
-      "repo": "votan73/ESO",
-      "commit_message": "version 6:"
+      "slug": "libcustomicons",
+      "old_version": "2026-01-18",
+      "new_version": "2026-01-25",
+      "repo": "m00nyONE/LibCustomIcons"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-01-19",
+      "new_version": "2026-01-25",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }
