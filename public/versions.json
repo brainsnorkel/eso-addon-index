@@ -113,11 +113,11 @@
       "commit_message": "Delete temp_readme.txt"
     },
     "groupsetupwarnings": {
-      "version": "v1.7.1",
-      "download_url": "https://github.com/brainsnorkel/GroupSetupWarnings/archive/refs/tags/v1.7.1.zip",
-      "published_at": "2026-01-04T02:19:15Z",
+      "version": "v1.8.0",
+      "download_url": "https://github.com/brainsnorkel/GroupSetupWarnings/archive/refs/tags/v1.8.0.zip",
+      "published_at": "2026-01-28T10:31:37Z",
       "release_notes": null,
-      "commit_sha": "4dc9a973cba033e5f3023d69a393021a9b85754c"
+      "commit_sha": "907bfd5c32fcceeba4efe8dbff8633371d17bb92"
     },
     "hodorreflexes": {
       "version": "2025-12-17",
@@ -243,11 +243,11 @@
       "commit_message": "updated version number"
     },
     "libmediaprovider": {
-      "version": "r36",
-      "download_url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r36.zip",
-      "published_at": "2025-10-16T09:19:31Z",
+      "version": "r37",
+      "download_url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r37.zip",
+      "published_at": "2026-01-28T09:40:42Z",
       "release_notes": null,
-      "commit_sha": "19a7d0cedf5abf7e1309dc42706ee558ec0dcdcf"
+      "commit_sha": "c5338625fde800991dda22237019fee2f301e3da"
     },
     "libsetdetection": {
       "version": "Version-4.7",
@@ -324,14 +324,19 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-28T06:08:16.649201+00:00",
+  "last_checked": "2026-01-28T12:08:02.163409+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "fed068e",
-      "new_version": "d58c877",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add untested OO affinity icons, bombs, and lamplight"
+      "slug": "groupsetupwarnings",
+      "old_version": "v1.7.1",
+      "new_version": "v1.8.0",
+      "repo": "brainsnorkel/GroupSetupWarnings"
+    },
+    {
+      "slug": "libmediaprovider",
+      "old_version": "r36",
+      "new_version": "r37",
+      "repo": "calamath/LibMediaProvider"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-28T06:08:16.799216+00:00",
+  "generated_at": "2026-01-28T12:08:02.311207+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1036,35 +1036,35 @@
         ]
       },
       "latest_release": {
-        "version": "v1.7.1",
-        "download_url": "https://github.com/brainsnorkel/GroupSetupWarnings/archive/refs/tags/v1.7.1.zip",
-        "published_at": "2026-01-04T02:19:15Z",
-        "commit_sha": "4dc9a973cba033e5f3023d69a393021a9b85754c"
+        "version": "v1.8.0",
+        "download_url": "https://github.com/brainsnorkel/GroupSetupWarnings/archive/refs/tags/v1.8.0.zip",
+        "published_at": "2026-01-28T10:31:37Z",
+        "commit_sha": "907bfd5c32fcceeba4efe8dbff8633371d17bb92"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/brainsnorkel/GroupSetupWarnings@v1.7.1/",
+          "url": "https://cdn.jsdelivr.net/gh/brainsnorkel/GroupSetupWarnings@v1.8.0/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://github.com/brainsnorkel/GroupSetupWarnings/archive/refs/tags/v1.7.1.zip",
+          "url": "https://github.com/brainsnorkel/GroupSetupWarnings/archive/refs/tags/v1.8.0.zip",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
           "major": 1,
-          "minor": 7,
-          "patch": 1,
+          "minor": 8,
+          "patch": 0,
           "prerelease": null
         },
-        "version_sort_key": 1007001000,
+        "version_sort_key": 1008000000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-01-04T02:19:15Z"
+      "last_updated": "2026-01-28T10:31:37Z"
     },
     {
       "slug": "hodorreflexes",
@@ -2374,20 +2374,20 @@
         ]
       },
       "latest_release": {
-        "version": "r36",
-        "download_url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r36.zip",
-        "published_at": "2025-10-16T09:19:31Z",
-        "commit_sha": "19a7d0cedf5abf7e1309dc42706ee558ec0dcdcf"
+        "version": "r37",
+        "download_url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r37.zip",
+        "published_at": "2026-01-28T09:40:42Z",
+        "commit_sha": "c5338625fde800991dda22237019fee2f301e3da"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/calamath/LibMediaProvider@r36/",
+          "url": "https://cdn.jsdelivr.net/gh/calamath/LibMediaProvider@r37/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r36.zip",
+          "url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r37.zip",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2397,7 +2397,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2025-10-16T09:19:31Z"
+      "last_updated": "2026-01-28T09:40:42Z"
     },
     {
       "slug": "libsetdetection",

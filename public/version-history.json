@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-28T06:08:16.799216+00:00",
+  "generated_at": "2026-01-28T12:08:02.311207+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -401,6 +401,12 @@
     ],
     "libmediaprovider": [
       {
+        "version": "r37",
+        "published_at": "2026-01-28T09:40:42Z",
+        "detected_at": "2026-01-28T12:08:02.311207+00:00",
+        "commit_sha": "c5338625fde800991dda22237019fee2f301e3da"
+      },
+      {
         "version": "r36",
         "published_at": "2025-10-16T09:19:31Z",
         "detected_at": "2025-12-30T23:47:08.993712+00:00",
@@ -604,6 +610,12 @@
       }
     ],
     "groupsetupwarnings": [
+      {
+        "version": "v1.8.0",
+        "published_at": "2026-01-28T10:31:37Z",
+        "detected_at": "2026-01-28T12:08:02.311207+00:00",
+        "commit_sha": "907bfd5c32fcceeba4efe8dbff8633371d17bb92"
+      },
       {
         "version": "v1.7.1",
         "published_at": "2026-01-04T02:19:15Z",

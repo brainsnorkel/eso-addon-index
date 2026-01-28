@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-01-28T06:08:16.799216+00:00</updated>
+  <updated>2026-01-28T12:08:02.311207+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:groupsetupwarnings:v1.8.0</id>
+    <title>Group Setup Warnings updated: v1.7.1 → v1.8.0</title>
+    <link href="https://github.com/brainsnorkel/GroupSetupWarnings" rel="alternate"/>
+    <updated>2026-01-28T12:08:02.311207+00:00</updated>
+    <summary>Group Setup Warnings has been updated from version v1.7.1 to v1.8.0.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libmediaprovider:r37</id>
+    <title>LibMediaProvider updated: r36 → r37</title>
+    <link href="https://github.com/calamath/LibMediaProvider" rel="alternate"/>
+    <updated>2026-01-28T12:08:02.311207+00:00</updated>
+    <summary>LibMediaProvider has been updated from version r36 to r37.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:d58c877</id>
     <title>CrutchAlerts updated: fed068e → d58c877</title>

@@ -268,10 +268,10 @@
     },
     {
       "id": "groupsetupwarnings",
-      "title": "Group Setup Warnings v1.7.1",
+      "title": "Group Setup Warnings v1.8.0",
       "url": "https://github.com/brainsnorkel/GroupSetupWarnings",
-      "date_published": "2026-01-04T02:19:15Z",
-      "date_modified": "2026-01-04T02:19:15Z",
+      "date_published": "2026-01-28T10:31:37Z",
+      "date_modified": "2026-01-28T10:31:37Z",
       "authors": [
         {
           "name": "brainsnorkel"
@@ -629,10 +629,10 @@
     },
     {
       "id": "libmediaprovider",
-      "title": "LibMediaProvider r36",
+      "title": "LibMediaProvider r37",
       "url": "https://github.com/calamath/LibMediaProvider",
-      "date_published": "2025-10-16T09:19:31Z",
-      "date_modified": "2025-10-16T09:19:31Z",
+      "date_published": "2026-01-28T09:40:42Z",
+      "date_modified": "2026-01-28T09:40:42Z",
       "authors": [
         {
           "name": "Seerah"
