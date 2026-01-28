@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-28T00:18:37.104141+00:00",
+  "generated_at": "2026-01-28T06:08:16.799216+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "fed068e",
+        "version": "d58c877",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-01-27T07:35:11Z",
-        "commit_sha": "fed068e44490a7ea7bb004e29a9f17b089be21d5",
-        "commit_date": "2026-01-27T07:35:11Z",
-        "commit_message": "Add experimental damageable in panel"
+        "published_at": "2026-01-27T10:42:47Z",
+        "commit_sha": "d58c877a52119b97bcfdafd03ac555d81c18b71c",
+        "commit_date": "2026-01-27T10:42:47Z",
+        "commit_message": "Add untested OO affinity icons, bombs, and lamplight"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add experimental damageable in panel"
+        "commit_message": "Add untested OO affinity icons, bombs, and lamplight"
       },
-      "last_updated": "2026-01-27T07:35:11Z"
+      "last_updated": "2026-01-27T10:42:47Z"
     },
     {
       "slug": "elmsmarkers",
