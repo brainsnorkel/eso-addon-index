@@ -324,19 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-28T12:08:02.163409+00:00",
-  "updates": [
-    {
-      "slug": "groupsetupwarnings",
-      "old_version": "v1.7.1",
-      "new_version": "v1.8.0",
-      "repo": "brainsnorkel/GroupSetupWarnings"
-    },
-    {
-      "slug": "libmediaprovider",
-      "old_version": "r36",
-      "new_version": "r37",
-      "repo": "calamath/LibMediaProvider"
-    }
-  ]
+  "last_checked": "2026-01-28T18:08:35.172657+00:00",
+  "updates": []
 }
