@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-29T06:15:44.101813+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "d58c877",
-      "new_version": "2495f63",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add color to clash and leap"
-    }
-  ]
+  "last_checked": "2026-01-29T12:11:15.449655+00:00",
+  "updates": []
 }
