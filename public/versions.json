@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "d58c877",
+      "version": "2495f63",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-27T10:42:47Z",
-      "release_notes": "Add untested OO affinity icons, bombs, and lamplight",
-      "commit_sha": "d58c877a52119b97bcfdafd03ac555d81c18b71c",
-      "commit_date": "2026-01-27T10:42:47Z",
-      "commit_message": "Add untested OO affinity icons, bombs, and lamplight"
+      "published_at": "2026-01-29T03:48:53Z",
+      "release_notes": "Add color to clash and leap",
+      "commit_sha": "2495f635482a35d297e47df3ca5efd89a635450f",
+      "commit_date": "2026-01-29T03:48:53Z",
+      "commit_message": "Add color to clash and leap"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-29T00:20:34.381776+00:00",
-  "updates": []
+  "last_checked": "2026-01-29T06:15:44.101813+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "d58c877",
+      "new_version": "2495f63",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add color to clash and leap"
+    }
+  ]
 }
