@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-30T06:16:25.233479+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "2495f63",
-      "new_version": "49b7c8e",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add settings for OC panel"
-    }
-  ]
+  "last_checked": "2026-01-30T12:10:13.444938+00:00",
+  "updates": []
 }
