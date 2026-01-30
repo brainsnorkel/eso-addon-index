@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-30T00:21:18.307230+00:00",
+  "generated_at": "2026-01-30T06:16:25.388429+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "2495f63",
+        "version": "49b7c8e",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-01-29T03:48:53Z",
-        "commit_sha": "2495f635482a35d297e47df3ca5efd89a635450f",
-        "commit_date": "2026-01-29T03:48:53Z",
-        "commit_message": "Add color to clash and leap"
+        "published_at": "2026-01-30T01:54:25Z",
+        "commit_sha": "49b7c8e049efc39ddc93ab4cefd9864029e3939a",
+        "commit_date": "2026-01-30T01:54:25Z",
+        "commit_message": "Add settings for OC panel"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add color to clash and leap"
+        "commit_message": "Add settings for OC panel"
       },
-      "last_updated": "2026-01-29T03:48:53Z"
+      "last_updated": "2026-01-30T01:54:25Z"
     },
     {
       "slug": "elmsmarkers",

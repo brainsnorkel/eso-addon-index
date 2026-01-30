@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2495f63",
+      "version": "49b7c8e",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-29T03:48:53Z",
-      "release_notes": "Add color to clash and leap",
-      "commit_sha": "2495f635482a35d297e47df3ca5efd89a635450f",
-      "commit_date": "2026-01-29T03:48:53Z",
-      "commit_message": "Add color to clash and leap"
+      "published_at": "2026-01-30T01:54:25Z",
+      "release_notes": "Add settings for OC panel",
+      "commit_sha": "49b7c8e049efc39ddc93ab4cefd9864029e3939a",
+      "commit_date": "2026-01-30T01:54:25Z",
+      "commit_message": "Add settings for OC panel"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-01-30T00:21:18.152827+00:00",
-  "updates": []
+  "last_checked": "2026-01-30T06:16:25.233479+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "2495f63",
+      "new_version": "49b7c8e",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add settings for OC panel"
+    }
+  ]
 }
