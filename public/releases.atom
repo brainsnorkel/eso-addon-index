@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-02-01T18:07:24.324182+00:00</updated>
+  <updated>2026-02-02T00:22:08.256424+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2026-02-01</id>
+    <title>LibCustomIcons updated: 2026-01-25 → 2026-02-01</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-02-02T00:22:08.256424+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-01-25 to 2026-02-01.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2026-02-01</id>
+    <title>LibCustomNames updated: 2026-01-25 → 2026-02-01</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-02-02T00:22:08.256424+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-01-25 to 2026-02-01.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustommenu:875ce76</id>
     <title>LibCustomMenu updated: ca6b397 → 875ce76</title>
