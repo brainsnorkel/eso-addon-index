@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "49b7c8e",
+      "version": "f64878a",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-01-30T01:54:25Z",
-      "release_notes": "Add settings for OC panel",
-      "commit_sha": "49b7c8e049efc39ddc93ab4cefd9864029e3939a",
-      "commit_date": "2026-01-30T01:54:25Z",
-      "commit_message": "Add settings for OC panel"
+      "published_at": "2026-02-03T09:09:20Z",
+      "release_notes": "Add player names in portal in panel",
+      "commit_sha": "f64878af83408db6bf8b0f408dc526f5347c6e98",
+      "commit_date": "2026-02-03T09:09:20Z",
+      "commit_message": "Add player names in portal in panel"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-03T06:18:13.148519+00:00",
-  "updates": []
+  "last_checked": "2026-02-03T12:11:36.196929+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "49b7c8e",
+      "new_version": "f64878a",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add player names in portal in panel"
+    }
+  ]
 }
