@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "8a46317",
+      "version": "4b0d058",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-02-03T17:06:31Z",
-      "release_notes": "Add small size for portal players",
-      "commit_sha": "8a4631754603d500002fa0a5ba627f1c3e326e96",
-      "commit_date": "2026-02-03T17:06:31Z",
-      "commit_message": "Add small size for portal players"
+      "published_at": "2026-02-04T03:49:48Z",
+      "release_notes": "Add Ossein Cage prominents that may have dupe settings",
+      "commit_sha": "4b0d0581fd6ab2e462af1ba45ed1fdd38629edc4",
+      "commit_date": "2026-02-04T03:49:48Z",
+      "commit_message": "Add Ossein Cage prominents that may have dupe settings"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-04T00:20:04.934109+00:00",
-  "updates": []
+  "last_checked": "2026-02-04T06:17:53.309211+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "8a46317",
+      "new_version": "4b0d058",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add Ossein Cage prominents that may have dupe settings"
+    }
+  ]
 }
