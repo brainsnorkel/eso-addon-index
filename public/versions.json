@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-03T18:19:49.904141+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "f64878a",
-      "new_version": "8a46317",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add small size for portal players"
-    }
-  ]
+  "last_checked": "2026-02-04T00:20:04.934109+00:00",
+  "updates": []
 }
