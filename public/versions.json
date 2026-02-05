@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-05T12:12:32.366924+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "4b0d058",
-      "new_version": "6710172",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Remove dupe prominent settings, format long damageable timer"
-    }
-  ]
+  "last_checked": "2026-02-05T18:18:35.346070+00:00",
+  "updates": []
 }
