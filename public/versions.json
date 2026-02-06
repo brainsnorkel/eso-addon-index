@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "6710172",
+      "version": "b3551bc",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-02-05T07:59:54Z",
-      "release_notes": "Remove dupe prominent settings, format long damageable timer",
-      "commit_sha": "6710172e3389f36f8d929c70cb16228dc0a6ca04",
-      "commit_date": "2026-02-05T07:59:54Z",
-      "commit_message": "Remove dupe prominent settings, format long damageable timer"
+      "published_at": "2026-02-06T01:53:30Z",
+      "release_notes": "Add preliminary cursed ground and scythe timers",
+      "commit_sha": "b3551bcd8148a244e69aa37ef7b65a6ea729e448",
+      "commit_date": "2026-02-06T01:53:30Z",
+      "commit_message": "Add preliminary cursed ground and scythe timers"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-06T00:20:30.479605+00:00",
-  "updates": []
+  "last_checked": "2026-02-06T06:19:06.047150+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "6710172",
+      "new_version": "b3551bc",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add preliminary cursed ground and scythe timers"
+    }
+  ]
 }
