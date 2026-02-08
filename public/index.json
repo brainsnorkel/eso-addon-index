@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-08T12:08:03.332194+00:00",
+  "generated_at": "2026-02-08T18:08:02.309753+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "b3551bc",
+        "version": "f005fa7",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-02-06T01:53:30Z",
-        "commit_sha": "b3551bcd8148a244e69aa37ef7b65a6ea729e448",
-        "commit_date": "2026-02-06T01:53:30Z",
-        "commit_message": "Add preliminary cursed ground and scythe timers"
+        "published_at": "2026-02-08T13:43:05Z",
+        "commit_sha": "f005fa7514a0fdba2deba50ca6cb419a92ca92e8",
+        "commit_date": "2026-02-08T13:43:05Z",
+        "commit_message": "Fix scythe and cursed ground initial"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add preliminary cursed ground and scythe timers"
+        "commit_message": "Fix scythe and cursed ground initial"
       },
-      "last_updated": "2026-02-06T01:53:30Z"
+      "last_updated": "2026-02-08T13:43:05Z"
     },
     {
       "slug": "elmsmarkers",
