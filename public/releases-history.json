@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-08T18:08:02.309753+00:00",
+  "generated_at": "2026-02-09T00:23:08.455419+00:00",
   "events": [
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2026-02-01",
+      "new_version": "2026-02-08",
+      "published_at": "2026-02-08T22:47:23Z",
+      "detected_at": "2026-02-09T00:23:08.455419+00:00"
+    },
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2026-02-01",
+      "new_version": "2026-02-08",
+      "published_at": "2026-02-08T22:47:44Z",
+      "detected_at": "2026-02-09T00:23:08.455419+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
