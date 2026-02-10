@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-10T06:26:19.236302+00:00",
+  "generated_at": "2026-02-10T12:18:43.162229+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "f005fa7",
+        "version": "76dabe3",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-02-08T13:43:05Z",
-        "commit_sha": "f005fa7514a0fdba2deba50ca6cb419a92ca92e8",
-        "commit_date": "2026-02-08T13:43:05Z",
-        "commit_message": "Fix scythe and cursed ground initial"
+        "published_at": "2026-02-10T08:56:40Z",
+        "commit_sha": "76dabe30192992ecd9f55a0bef79d0d10bc0e8bc",
+        "commit_date": "2026-02-10T08:56:40Z",
+        "commit_message": "Add Focus Fire in panel"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix scythe and cursed ground initial"
+        "commit_message": "Add Focus Fire in panel"
       },
-      "last_updated": "2026-02-08T13:43:05Z"
+      "last_updated": "2026-02-10T08:56:40Z"
     },
     {
       "slug": "elmsmarkers",

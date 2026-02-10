@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-10T06:26:19.236302+00:00",
+  "generated_at": "2026-02-10T12:18:43.162229+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "f005fa7",
+      "new_version": "76dabe3",
+      "published_at": "2026-02-10T08:56:40Z",
+      "detected_at": "2026-02-10T12:18:43.162229+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
