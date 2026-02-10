@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-10T12:18:43.011436+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "f005fa7",
-      "new_version": "76dabe3",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add Focus Fire in panel"
-    }
-  ]
+  "last_checked": "2026-02-10T18:23:19.984805+00:00",
+  "updates": []
 }
