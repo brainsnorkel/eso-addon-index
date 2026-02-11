@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "65630f8",
+      "version": "76b9cd5",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-02-11T03:25:44Z",
-      "release_notes": "Move OsseinCage.xml",
-      "commit_sha": "65630f8fee2d3c3ca0b3716d21d8334b539cc6ea",
-      "commit_date": "2026-02-11T03:25:44Z",
-      "commit_message": "Move OsseinCage.xml"
+      "published_at": "2026-02-11T17:17:02Z",
+      "release_notes": "Add settings for Cursed Ground and Sickle Strike",
+      "commit_sha": "76b9cd5e9089ec4818bae9a72a94660043a0fc6c",
+      "commit_date": "2026-02-11T17:17:02Z",
+      "commit_message": "Add settings for Cursed Ground and Sickle Strike"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-11T12:16:59.886561+00:00",
+  "last_checked": "2026-02-11T18:21:22.159271+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.1.0.7",
-      "new_version": "v7.1.4.5",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "crutchalerts",
+      "old_version": "65630f8",
+      "new_version": "76b9cd5",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add settings for Cursed Ground and Sickle Strike"
     }
   ]
 }

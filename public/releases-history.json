@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-11T12:17:00.020673+00:00",
+  "generated_at": "2026-02-11T18:21:22.310709+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "65630f8",
+      "new_version": "76b9cd5",
+      "published_at": "2026-02-11T17:17:02Z",
+      "detected_at": "2026-02-11T18:21:22.310709+00:00"
+    },
     {
       "slug": "luiextended",
       "name": "LuiExtended",

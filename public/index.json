@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-11T12:17:00.020673+00:00",
+  "generated_at": "2026-02-11T18:21:22.310709+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "65630f8",
+        "version": "76b9cd5",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-02-11T03:25:44Z",
-        "commit_sha": "65630f8fee2d3c3ca0b3716d21d8334b539cc6ea",
-        "commit_date": "2026-02-11T03:25:44Z",
-        "commit_message": "Move OsseinCage.xml"
+        "published_at": "2026-02-11T17:17:02Z",
+        "commit_sha": "76b9cd5e9089ec4818bae9a72a94660043a0fc6c",
+        "commit_date": "2026-02-11T17:17:02Z",
+        "commit_message": "Add settings for Cursed Ground and Sickle Strike"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Move OsseinCage.xml"
+        "commit_message": "Add settings for Cursed Ground and Sickle Strike"
       },
-      "last_updated": "2026-02-11T03:25:44Z"
+      "last_updated": "2026-02-11T17:17:02Z"
     },
     {
       "slug": "elmsmarkers",
