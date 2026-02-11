@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-11T00:26:52.649650+00:00",
+  "generated_at": "2026-02-11T06:25:54.905782+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "76dabe3",
+        "version": "65630f8",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-02-10T08:56:40Z",
-        "commit_sha": "76dabe30192992ecd9f55a0bef79d0d10bc0e8bc",
-        "commit_date": "2026-02-10T08:56:40Z",
-        "commit_message": "Add Focus Fire in panel"
+        "published_at": "2026-02-11T03:25:44Z",
+        "commit_sha": "65630f8fee2d3c3ca0b3716d21d8334b539cc6ea",
+        "commit_date": "2026-02-11T03:25:44Z",
+        "commit_message": "Move OsseinCage.xml"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add Focus Fire in panel"
+        "commit_message": "Move OsseinCage.xml"
       },
-      "last_updated": "2026-02-10T08:56:40Z"
+      "last_updated": "2026-02-11T03:25:44Z"
     },
     {
       "slug": "elmsmarkers",

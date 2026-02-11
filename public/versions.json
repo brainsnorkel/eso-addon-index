@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "76dabe3",
+      "version": "65630f8",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-02-10T08:56:40Z",
-      "release_notes": "Add Focus Fire in panel",
-      "commit_sha": "76dabe30192992ecd9f55a0bef79d0d10bc0e8bc",
-      "commit_date": "2026-02-10T08:56:40Z",
-      "commit_message": "Add Focus Fire in panel"
+      "published_at": "2026-02-11T03:25:44Z",
+      "release_notes": "Move OsseinCage.xml",
+      "commit_sha": "65630f8fee2d3c3ca0b3716d21d8334b539cc6ea",
+      "commit_date": "2026-02-11T03:25:44Z",
+      "commit_message": "Move OsseinCage.xml"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-11T00:26:52.517237+00:00",
-  "updates": []
+  "last_checked": "2026-02-11T06:25:54.754519+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "76dabe3",
+      "new_version": "65630f8",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Move OsseinCage.xml"
+    }
+  ]
 }
