@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-11T06:25:54.905782+00:00",
+  "generated_at": "2026-02-11T12:17:00.020673+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.1.0.7",
+      "new_version": "v7.1.4.5",
+      "published_at": "2026-02-11T11:51:23Z",
+      "detected_at": "2026-02-11T12:17:00.020673+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",

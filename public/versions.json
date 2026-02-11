@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.1.0.7",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.1.0.7",
-      "published_at": "2025-11-10T16:59:06Z",
-      "release_notes": "**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.1.0.6...v7.1.0.7"
+      "version": "v7.1.4.5",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.1.4.5",
+      "published_at": "2026-02-11T11:51:23Z",
+      "release_notes": "## What's Changed\r\n* Metapool by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/351\r\n* 7.1.4.5 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/356\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.1.0.7...v7.1.4.5"
     },
     "m0rmarkers": {
       "version": "v1.2.1",
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-11T06:25:54.754519+00:00",
+  "last_checked": "2026-02-11T12:16:59.886561+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "76dabe3",
-      "new_version": "65630f8",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Move OsseinCage.xml"
+      "slug": "luiextended",
+      "old_version": "v7.1.0.7",
+      "new_version": "v7.1.4.5",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }
