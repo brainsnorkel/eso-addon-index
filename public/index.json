@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-11T18:21:22.310709+00:00",
+  "generated_at": "2026-02-12T00:21:29.855154+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2155,12 +2155,12 @@
         ]
       },
       "latest_release": {
-        "version": "a17a794",
+        "version": "ebee3e5",
         "download_url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast/archive/refs/heads/main.zip",
-        "published_at": "2025-05-03T14:08:58Z",
-        "commit_sha": "a17a79470bb1968ba80a882dcdb71e27cfc0ba66",
-        "commit_date": "2025-05-03T14:08:58Z",
-        "commit_message": "built v2.0.0-ea3"
+        "published_at": "2026-02-11T20:21:36Z",
+        "commit_sha": "ebee3e514be77419503236de0335d6413d5a21e0",
+        "commit_date": "2026-02-11T20:21:36Z",
+        "commit_message": "Merge pull request #4 from vladislavsheludchenkov/main"
       },
       "download_sources": [
         {
@@ -2179,9 +2179,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "built v2.0.0-ea3"
+        "commit_message": "Merge pull request #4 from vladislavsheludchenkov/main"
       },
-      "last_updated": "2025-05-03T14:08:58Z"
+      "last_updated": "2026-02-11T20:21:36Z"
     },
     {
       "slug": "libgroupcombatstats",

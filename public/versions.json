@@ -219,13 +219,13 @@
       "commit_sha": "0f7697e711b99dfa7468d59d4882b84f872a1a60"
     },
     "libgroupbroadcast": {
-      "version": "a17a794",
+      "version": "ebee3e5",
       "download_url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast/archive/refs/heads/main.zip",
-      "published_at": "2025-05-03T14:08:58Z",
-      "release_notes": "built v2.0.0-ea3",
-      "commit_sha": "a17a79470bb1968ba80a882dcdb71e27cfc0ba66",
-      "commit_date": "2025-05-03T14:08:58Z",
-      "commit_message": "built v2.0.0-ea3"
+      "published_at": "2026-02-11T20:21:36Z",
+      "release_notes": "Merge pull request #4 from vladislavsheludchenkov/main",
+      "commit_sha": "ebee3e514be77419503236de0335d6413d5a21e0",
+      "commit_date": "2026-02-11T20:21:36Z",
+      "commit_message": "Merge pull request #4 from vladislavsheludchenkov/main"
     },
     "libgroupcombatstats": {
       "version": "2026-01-11",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-11T18:21:22.159271+00:00",
+  "last_checked": "2026-02-12T00:21:29.713735+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "65630f8",
-      "new_version": "76b9cd5",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add settings for Cursed Ground and Sickle Strike"
+      "slug": "libgroupbroadcast",
+      "old_version": "a17a794",
+      "new_version": "ebee3e5",
+      "repo": "sirinsidiator/ESO-LibGroupBroadcast",
+      "commit_message": "Merge pull request #4 from vladislavsheludchenkov/main"
     }
   ]
 }
