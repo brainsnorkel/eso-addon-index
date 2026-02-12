@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-12T00:21:29.713735+00:00",
-  "updates": [
-    {
-      "slug": "libgroupbroadcast",
-      "old_version": "a17a794",
-      "new_version": "ebee3e5",
-      "repo": "sirinsidiator/ESO-LibGroupBroadcast",
-      "commit_message": "Merge pull request #4 from vladislavsheludchenkov/main"
-    }
-  ]
+  "last_checked": "2026-02-12T06:24:58.989377+00:00",
+  "updates": []
 }
