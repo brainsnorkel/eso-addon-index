@@ -120,10 +120,10 @@
       "commit_sha": "907bfd5c32fcceeba4efe8dbff8633371d17bb92"
     },
     "hodorreflexes": {
-      "version": "2025-12-17",
-      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2025-12-17",
-      "published_at": "2025-12-17T12:34:40Z",
-      "release_notes": "## 2025.12.17 - @m00nyONE\n- add configurator for console\n\n"
+      "version": "2026-02-14",
+      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-02-14",
+      "published_at": "2026-02-14T14:47:16Z",
+      "release_notes": "## 2026.02.14 - @m00nyONE\n- Valentines icons are now sticky and no longer random on every update.\n\n"
     },
     "huntsmanwarmaskreminder": {
       "version": "b35d4de",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-14T12:07:45.449734+00:00",
-  "updates": []
+  "last_checked": "2026-02-14T18:06:44.432653+00:00",
+  "updates": [
+    {
+      "slug": "hodorreflexes",
+      "old_version": "2025-12-17",
+      "new_version": "2026-02-14",
+      "repo": "m00nyONE/HodorReflexes"
+    }
+  ]
 }
