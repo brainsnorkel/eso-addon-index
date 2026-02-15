@@ -324,13 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-14T18:06:44.432653+00:00",
-  "updates": [
-    {
-      "slug": "hodorreflexes",
-      "old_version": "2025-12-17",
-      "new_version": "2026-02-14",
-      "repo": "m00nyONE/HodorReflexes"
-    }
-  ]
+  "last_checked": "2026-02-15T00:23:18.217944+00:00",
+  "updates": []
 }
