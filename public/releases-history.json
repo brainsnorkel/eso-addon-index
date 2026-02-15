@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-15T12:08:04.210645+00:00",
+  "generated_at": "2026-02-15T18:07:50.902450+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "76b9cd5",
+      "new_version": "2f67b4a",
+      "published_at": "2026-02-15T13:16:56Z",
+      "detected_at": "2026-02-15T18:07:50.902450+00:00"
+    },
     {
       "slug": "hodorreflexes",
       "name": "HodorReflexes",
