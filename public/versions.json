@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2f67b4a",
+      "version": "f4aab37",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-02-15T13:16:56Z",
-      "release_notes": "Use a different ID for clash timing",
-      "commit_sha": "2f67b4ae94e2889f9fcc3d80502ecda645cd57f4",
-      "commit_date": "2026-02-15T13:16:56Z",
-      "commit_message": "Use a different ID for clash timing"
+      "published_at": "2026-02-16T03:48:05Z",
+      "release_notes": "[2.11.0] Add API version",
+      "commit_sha": "f4aab37e26a2b781cf6431e2a96a479a94421a94",
+      "commit_date": "2026-02-16T03:48:05Z",
+      "commit_message": "[2.11.0] Add API version"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,19 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-16T00:22:30.641240+00:00",
+  "last_checked": "2026-02-16T06:24:55.702133+00:00",
   "updates": [
     {
-      "slug": "libcustomicons",
-      "old_version": "2026-02-08",
-      "new_version": "2026-02-15",
-      "repo": "m00nyONE/LibCustomIcons"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-02-08",
-      "new_version": "2026-02-15",
-      "repo": "m00nyONE/LibCustomNames"
+      "slug": "crutchalerts",
+      "old_version": "2f67b4a",
+      "new_version": "f4aab37",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.11.0] Add API version"
     }
   ]
 }

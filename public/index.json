@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-16T00:22:30.773580+00:00",
+  "generated_at": "2026-02-16T06:24:55.855154+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "2f67b4a",
+        "version": "f4aab37",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-02-15T13:16:56Z",
-        "commit_sha": "2f67b4ae94e2889f9fcc3d80502ecda645cd57f4",
-        "commit_date": "2026-02-15T13:16:56Z",
-        "commit_message": "Use a different ID for clash timing"
+        "published_at": "2026-02-16T03:48:05Z",
+        "commit_sha": "f4aab37e26a2b781cf6431e2a96a479a94421a94",
+        "commit_date": "2026-02-16T03:48:05Z",
+        "commit_message": "[2.11.0] Add API version"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Use a different ID for clash timing"
+        "commit_message": "[2.11.0] Add API version"
       },
-      "last_updated": "2026-02-15T13:16:56Z"
+      "last_updated": "2026-02-16T03:48:05Z"
     },
     {
       "slug": "elmsmarkers",
