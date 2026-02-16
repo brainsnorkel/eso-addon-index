@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-16T06:24:55.702133+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "2f67b4a",
-      "new_version": "f4aab37",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "[2.11.0] Add API version"
-    }
-  ]
+  "last_checked": "2026-02-16T12:13:26.759237+00:00",
+  "updates": []
 }
