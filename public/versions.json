@@ -182,9 +182,9 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-02-08",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-02-08",
-      "published_at": "2026-02-08T22:47:23Z",
+      "version": "2026-02-15",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-02-15",
+      "published_at": "2026-02-15T22:44:31Z",
       "release_notes": "## 2025.11.16\n- BREAKING CHANGE FOR DEVELOPERS:\n- removed GetIcon() - use GetStatic() or GetAnimated() instead\n- BREAKING CHANGES IN THE NEAR FUTURE:\n- GetStatic() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom` instead of only texturePath\n- GetAnimated() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, framerate` instead of a table.\n- If you are a developer, and you have"
     },
     "libcustommenu": {
@@ -197,9 +197,9 @@
       "commit_message": "version 3.3.1:"
     },
     "libcustomnames": {
-      "version": "2026-02-08",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-02-08",
-      "published_at": "2026-02-08T22:47:44Z",
+      "version": "2026-02-15",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-02-15",
+      "published_at": "2026-02-15T22:44:14Z",
       "release_notes": "## 2026.02.07\n- adding STUDLETON to the authors list\n\n"
     },
     "libdebuglogger": {
@@ -324,14 +324,19 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-15T18:07:50.749425+00:00",
+  "last_checked": "2026-02-16T00:22:30.641240+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "76b9cd5",
-      "new_version": "2f67b4a",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Use a different ID for clash timing"
+      "slug": "libcustomicons",
+      "old_version": "2026-02-08",
+      "new_version": "2026-02-15",
+      "repo": "m00nyONE/LibCustomIcons"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-02-08",
+      "new_version": "2026-02-15",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }
