@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "f4aab37",
+      "version": "c73a759",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-02-16T03:48:05Z",
-      "release_notes": "[2.11.0] Add API version",
-      "commit_sha": "f4aab37e26a2b781cf6431e2a96a479a94421a94",
-      "commit_date": "2026-02-16T03:48:05Z",
-      "commit_message": "[2.11.0] Add API version"
+      "published_at": "2026-02-18T17:20:21Z",
+      "release_notes": "[2.11.1] Fix damageable format",
+      "commit_sha": "c73a75978d3ba61532faf9ea69f16ec0fa227fd9",
+      "commit_date": "2026-02-18T17:20:21Z",
+      "commit_message": "[2.11.1] Fix damageable format"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-18T12:13:27.555406+00:00",
-  "updates": []
+  "last_checked": "2026-02-18T18:16:39.374856+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "f4aab37",
+      "new_version": "c73a759",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.11.1] Fix damageable format"
+    }
+  ]
 }
