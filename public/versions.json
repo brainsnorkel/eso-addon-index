@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-18T18:16:39.374856+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "f4aab37",
-      "new_version": "c73a759",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "[2.11.1] Fix damageable format"
-    }
-  ]
+  "last_checked": "2026-02-19T00:23:03.726212+00:00",
+  "updates": []
 }
