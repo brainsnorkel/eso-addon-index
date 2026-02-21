@@ -219,13 +219,13 @@
       "commit_sha": "0f7697e711b99dfa7468d59d4882b84f872a1a60"
     },
     "libgroupbroadcast": {
-      "version": "ebee3e5",
+      "version": "2359c0e",
       "download_url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast/archive/refs/heads/main.zip",
-      "published_at": "2026-02-11T20:21:36Z",
-      "release_notes": "Merge pull request #4 from vladislavsheludchenkov/main",
-      "commit_sha": "ebee3e514be77419503236de0335d6413d5a21e0",
-      "commit_date": "2026-02-11T20:21:36Z",
-      "commit_message": "Merge pull request #4 from vladislavsheludchenkov/main"
+      "published_at": "2026-02-21T13:46:01Z",
+      "release_notes": "changed how partial message handling works in the MessageQueue",
+      "commit_sha": "2359c0e26598479bd734ea23e11859ca8ad10c1a",
+      "commit_date": "2026-02-21T13:46:01Z",
+      "commit_message": "changed how partial message handling works in the MessageQueue"
     },
     "libgroupcombatstats": {
       "version": "2026-01-11",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-21T12:07:43.928147+00:00",
-  "updates": []
+  "last_checked": "2026-02-21T18:07:05.987869+00:00",
+  "updates": [
+    {
+      "slug": "libgroupbroadcast",
+      "old_version": "ebee3e5",
+      "new_version": "2359c0e",
+      "repo": "sirinsidiator/ESO-LibGroupBroadcast",
+      "commit_message": "changed how partial message handling works in the MessageQueue"
+    }
+  ]
 }
