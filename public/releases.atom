@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-02-21T18:07:06.139029+00:00</updated>
+  <updated>2026-02-22T00:22:03.504292+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libgroupbroadcast:e838289</id>
+    <title>LibGroupBroadcast updated: 2359c0e → e838289</title>
+    <link href="https://github.com/sirinsidiator/ESO-LibGroupBroadcast" rel="alternate"/>
+    <updated>2026-02-22T00:22:03.504292+00:00</updated>
+    <summary>LibGroupBroadcast has been updated from version 2359c0e to e838289.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libgroupbroadcast:2359c0e</id>
     <title>LibGroupBroadcast updated: ebee3e5 → 2359c0e</title>

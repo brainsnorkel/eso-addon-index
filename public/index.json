@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-21T18:07:06.139029+00:00",
+  "generated_at": "2026-02-22T00:22:03.504292+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2155,12 +2155,12 @@
         ]
       },
       "latest_release": {
-        "version": "2359c0e",
+        "version": "e838289",
         "download_url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast/archive/refs/heads/main.zip",
-        "published_at": "2026-02-21T13:46:01Z",
-        "commit_sha": "2359c0e26598479bd734ea23e11859ca8ad10c1a",
-        "commit_date": "2026-02-21T13:46:01Z",
-        "commit_message": "changed how partial message handling works in the MessageQueue"
+        "published_at": "2026-02-21T16:51:58Z",
+        "commit_sha": "e8382891d63677b0ad8b77a79d5295b93062cc58",
+        "commit_date": "2026-02-21T16:51:58Z",
+        "commit_message": "built v2.0.0"
       },
       "download_sources": [
         {
@@ -2179,9 +2179,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "changed how partial message handling works in the MessageQueue"
+        "commit_message": "built v2.0.0"
       },
-      "last_updated": "2026-02-21T13:46:01Z"
+      "last_updated": "2026-02-21T16:51:58Z"
     },
     {
       "slug": "libgroupcombatstats",
