@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-22T18:07:39.818392+00:00",
+  "generated_at": "2026-02-23T00:22:25.921197+00:00",
   "events": [
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2026-02-15",
+      "new_version": "2026-02-22",
+      "published_at": "2026-02-22T22:43:40Z",
+      "detected_at": "2026-02-23T00:22:25.921197+00:00"
+    },
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2026-02-15",
+      "new_version": "2026-02-22",
+      "published_at": "2026-02-22T22:43:40Z",
+      "detected_at": "2026-02-23T00:22:25.921197+00:00"
+    },
     {
       "slug": "libgroupbroadcast",
       "name": "LibGroupBroadcast",
