@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-24T00:22:44.783966+00:00",
+  "generated_at": "2026-02-24T06:22:44.493325+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "c73a759",
+        "version": "82fe6f3",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-02-18T17:20:21Z",
-        "commit_sha": "c73a75978d3ba61532faf9ea69f16ec0fa227fd9",
-        "commit_date": "2026-02-18T17:20:21Z",
-        "commit_message": "[2.11.1] Fix damageable format"
+        "published_at": "2026-02-24T05:22:44Z",
+        "commit_sha": "82fe6f394172fed5d659d5d20214715449df5b97",
+        "commit_date": "2026-02-24T05:22:44Z",
+        "commit_message": "Add jet"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.11.1] Fix damageable format"
+        "commit_message": "Add jet"
       },
-      "last_updated": "2026-02-18T17:20:21Z"
+      "last_updated": "2026-02-24T05:22:44Z"
     },
     {
       "slug": "elmsmarkers",

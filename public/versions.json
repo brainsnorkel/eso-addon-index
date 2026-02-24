@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "c73a759",
+      "version": "82fe6f3",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-02-18T17:20:21Z",
-      "release_notes": "[2.11.1] Fix damageable format",
-      "commit_sha": "c73a75978d3ba61532faf9ea69f16ec0fa227fd9",
-      "commit_date": "2026-02-18T17:20:21Z",
-      "commit_message": "[2.11.1] Fix damageable format"
+      "published_at": "2026-02-24T05:22:44Z",
+      "release_notes": "Add jet",
+      "commit_sha": "82fe6f394172fed5d659d5d20214715449df5b97",
+      "commit_date": "2026-02-24T05:22:44Z",
+      "commit_message": "Add jet"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-24T00:22:44.631246+00:00",
-  "updates": []
+  "last_checked": "2026-02-24T06:22:44.336815+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "c73a759",
+      "new_version": "82fe6f3",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add jet"
+    }
+  ]
 }
