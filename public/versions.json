@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-24T06:22:44.336815+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "c73a759",
-      "new_version": "82fe6f3",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add jet"
-    }
-  ]
+  "last_checked": "2026-02-24T12:14:42.887293+00:00",
+  "updates": []
 }
