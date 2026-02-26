@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-26T00:20:30.522259+00:00",
+  "generated_at": "2026-02-26T06:22:39.189328+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "82fe6f3",
+        "version": "15d6917",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-02-24T05:22:44Z",
-        "commit_sha": "82fe6f394172fed5d659d5d20214715449df5b97",
-        "commit_date": "2026-02-24T05:22:44Z",
-        "commit_message": "Add jet"
+        "published_at": "2026-02-26T04:57:58Z",
+        "commit_sha": "15d69177d96412266f001a606192a40a3e739f7d",
+        "commit_date": "2026-02-26T04:57:58Z",
+        "commit_message": "Clean up Arcane Conveyance"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add jet"
+        "commit_message": "Clean up Arcane Conveyance"
       },
-      "last_updated": "2026-02-24T05:22:44Z"
+      "last_updated": "2026-02-26T04:57:58Z"
     },
     {
       "slug": "elmsmarkers",

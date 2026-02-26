@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "82fe6f3",
+      "version": "15d6917",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-02-24T05:22:44Z",
-      "release_notes": "Add jet",
-      "commit_sha": "82fe6f394172fed5d659d5d20214715449df5b97",
-      "commit_date": "2026-02-24T05:22:44Z",
-      "commit_message": "Add jet"
+      "published_at": "2026-02-26T04:57:58Z",
+      "release_notes": "Clean up Arcane Conveyance",
+      "commit_sha": "15d69177d96412266f001a606192a40a3e739f7d",
+      "commit_date": "2026-02-26T04:57:58Z",
+      "commit_message": "Clean up Arcane Conveyance"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-26T00:20:30.367573+00:00",
-  "updates": []
+  "last_checked": "2026-02-26T06:22:39.032758+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "82fe6f3",
+      "new_version": "15d6917",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Clean up Arcane Conveyance"
+    }
+  ]
 }
