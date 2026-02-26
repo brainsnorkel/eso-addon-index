@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-26T06:22:39.032758+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "82fe6f3",
-      "new_version": "15d6917",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Clean up Arcane Conveyance"
-    }
-  ]
+  "last_checked": "2026-02-26T12:14:30.145521+00:00",
+  "updates": []
 }
