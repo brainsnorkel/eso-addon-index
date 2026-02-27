@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "15d6917",
+      "version": "7521e2d",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-02-26T04:57:58Z",
-      "release_notes": "Clean up Arcane Conveyance",
-      "commit_sha": "15d69177d96412266f001a606192a40a3e739f7d",
-      "commit_date": "2026-02-26T04:57:58Z",
-      "commit_message": "Clean up Arcane Conveyance"
+      "published_at": "2026-02-27T02:48:09Z",
+      "release_notes": "Add bitwise utils for role setting",
+      "commit_sha": "7521e2d35a255cc2132f1c1a1145c3fc2d046942",
+      "commit_date": "2026-02-27T02:48:09Z",
+      "commit_message": "Add bitwise utils for role setting"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-27T00:22:50.233397+00:00",
-  "updates": []
+  "last_checked": "2026-02-27T06:18:38.094119+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "15d6917",
+      "new_version": "7521e2d",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add bitwise utils for role setting"
+    }
+  ]
 }
