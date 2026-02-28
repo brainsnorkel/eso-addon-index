@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-02-27T18:12:06.624888+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "7521e2d",
-      "new_version": "8e2d999",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix double curse icon"
-    }
-  ]
+  "last_checked": "2026-02-28T00:18:59.690671+00:00",
+  "updates": []
 }
