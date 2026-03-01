@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-01T06:15:37.824746+00:00</updated>
+  <updated>2026-03-01T12:07:29.675932+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustommenu:0ee3139</id>
+    <title>LibCustomMenu updated: 875ce76 → 0ee3139</title>
+    <link href="https://github.com/votan73/ESO" rel="alternate"/>
+    <updated>2026-03-01T12:07:29.675932+00:00</updated>
+    <summary>LibCustomMenu has been updated from version 875ce76 to 0ee3139.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:8e2d999</id>
     <title>CrutchAlerts updated: 7521e2d → 8e2d999</title>
