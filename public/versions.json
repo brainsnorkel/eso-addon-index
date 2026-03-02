@@ -324,13 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-02T00:21:23.535403+00:00",
-  "updates": [
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-02-22",
-      "new_version": "2026-03-01",
-      "repo": "m00nyONE/LibCustomNames"
-    }
-  ]
+  "last_checked": "2026-03-02T06:19:49.891435+00:00",
+  "updates": []
 }
