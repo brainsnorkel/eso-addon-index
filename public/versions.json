@@ -197,9 +197,9 @@
       "commit_message": "version 3.4.0:"
     },
     "libcustomnames": {
-      "version": "2026-02-22",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-02-22",
-      "published_at": "2026-02-22T22:43:40Z",
+      "version": "2026-03-01",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-03-01",
+      "published_at": "2026-03-01T22:41:20Z",
       "release_notes": "## 2026.02.07\n- adding STUDLETON to the authors list\n\n"
     },
     "libdebuglogger": {
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-01T18:06:28.214544+00:00",
+  "last_checked": "2026-03-02T00:21:23.535403+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "0ee3139",
-      "new_version": "8796f14",
-      "repo": "votan73/ESO",
-      "commit_message": "version 3.4.0:"
+      "slug": "libcustomnames",
+      "old_version": "2026-02-22",
+      "new_version": "2026-03-01",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }

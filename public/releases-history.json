@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-01T18:06:28.368038+00:00",
+  "generated_at": "2026-03-02T00:21:23.693670+00:00",
   "events": [
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2026-02-22",
+      "new_version": "2026-03-01",
+      "published_at": "2026-03-01T22:41:20Z",
+      "detected_at": "2026-03-02T00:21:23.693670+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
