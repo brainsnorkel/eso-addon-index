@@ -65,11 +65,11 @@
       "commit_message": "API bump"
     },
     "combatmetrics": {
-      "version": "1.7.6",
-      "download_url": "https://github.com/Solinur/CombatMetrics/archive/refs/tags/1.7.6.zip",
-      "published_at": "2025-12-29T12:11:58Z",
+      "version": "1.7.7",
+      "download_url": "https://github.com/Solinur/CombatMetrics/archive/refs/tags/1.7.7.zip",
+      "published_at": "2026-03-03T14:06:37Z",
       "release_notes": null,
-      "commit_sha": "7895914634567c337adb1288e748681a9538bb2e"
+      "commit_sha": "7696f5736ac422a9c10800a218e5c23c797da543"
     },
     "combatmetronome": {
       "version": "1.7.4",
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-03T12:11:16.451665+00:00",
+  "last_checked": "2026-03-03T18:15:25.696979+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "8e2d999",
-      "new_version": "55c5c8d",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Track duration of CC and clean up more jet stuff"
+      "slug": "combatmetrics",
+      "old_version": "1.7.6",
+      "new_version": "1.7.7",
+      "repo": "Solinur/CombatMetrics"
     }
   ]
 }
