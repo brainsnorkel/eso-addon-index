@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "8e2d999",
+      "version": "55c5c8d",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-02-27T07:58:13Z",
-      "release_notes": "Fix double curse icon",
-      "commit_sha": "8e2d999eed06ccadfb2e7d15f6369873ae14f594",
-      "commit_date": "2026-02-27T07:58:13Z",
-      "commit_message": "Fix double curse icon"
+      "published_at": "2026-03-03T07:36:49Z",
+      "release_notes": "Track duration of CC and clean up more jet stuff",
+      "commit_sha": "55c5c8dfd50668ea4cdd4b9abd0b86806de7a8d0",
+      "commit_date": "2026-03-03T07:36:49Z",
+      "commit_message": "Track duration of CC and clean up more jet stuff"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-03T06:17:05.963506+00:00",
-  "updates": []
+  "last_checked": "2026-03-03T12:11:16.451665+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "8e2d999",
+      "new_version": "55c5c8d",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Track duration of CC and clean up more jet stuff"
+    }
+  ]
 }
