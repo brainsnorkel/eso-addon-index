@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T00:21:22.561906+00:00",
+  "generated_at": "2026-03-04T06:15:17.202509+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "55c5c8d",
+        "version": "62b6718",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-03T07:36:49Z",
-        "commit_sha": "55c5c8dfd50668ea4cdd4b9abd0b86806de7a8d0",
-        "commit_date": "2026-03-03T07:36:49Z",
-        "commit_message": "Track duration of CC and clean up more jet stuff"
+        "published_at": "2026-03-04T05:09:32Z",
+        "commit_sha": "62b671832ab37962289e6ef8d737606379f5c7b8",
+        "commit_date": "2026-03-04T05:09:32Z",
+        "commit_message": "Only detect Felms on effect gained, maybe fixes showing up after clear"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Track duration of CC and clean up more jet stuff"
+        "commit_message": "Only detect Felms on effect gained, maybe fixes showing up after clear"
       },
-      "last_updated": "2026-03-03T07:36:49Z"
+      "last_updated": "2026-03-04T05:09:32Z"
     },
     {
       "slug": "elmsmarkers",
