@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T06:15:17.202509+00:00",
+  "generated_at": "2026-03-04T12:10:35.765364+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -3230,36 +3230,10 @@
           "*.yaml"
         ]
       },
-      "latest_release": {
-        "version": "v1.18.2",
-        "download_url": "https://github.com/nicokimmel/wizardswardrobe/archive/refs/tags/v1.18.2.zip",
-        "published_at": "2024-05-15T13:50:16Z",
-        "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
-      },
-      "download_sources": [
-        {
-          "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/nicokimmel/wizardswardrobe@v1.18.2/src/",
-          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
-        },
-        {
-          "type": "github_archive",
-          "url": "https://github.com/nicokimmel/wizardswardrobe/archive/refs/tags/v1.18.2.zip",
-          "note": "Direct GitHub ZIP archive, subject to rate limits"
-        }
-      ],
-      "version_info": {
-        "version_normalized": {
-          "major": 1,
-          "minor": 18,
-          "patch": 2,
-          "prerelease": null
-        },
-        "version_sort_key": 1018002000,
-        "is_prerelease": false,
-        "release_channel": "stable"
-      },
-      "last_updated": "2024-05-15T13:50:16Z"
+      "latest_release": null,
+      "download_sources": [],
+      "version_info": null,
+      "last_updated": "2026-03-04T12:10:35.765364+00:00"
     }
   ]
 }

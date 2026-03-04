@@ -21,7 +21,7 @@
     "bandits-user-interface": {
       "version": "v4.428",
       "download_url": "https://github.com/secretrob/BanditsUserInterface/archive/refs/tags/v4.428.zip",
-      "published_at": "2025-04-16T23:36:06Z",
+      "published_at": null,
       "release_notes": null,
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-04T06:15:17.048750+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "55c5c8d",
-      "new_version": "62b6718",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Only detect Felms on effect gained, maybe fixes showing up after clear"
-    }
-  ]
+  "last_checked": "2026-03-04T12:10:35.599549+00:00",
+  "updates": []
 }
