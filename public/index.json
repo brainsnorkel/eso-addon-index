@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-04T12:10:35.765364+00:00",
+  "generated_at": "2026-03-04T18:14:23.578836+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1118,35 +1118,35 @@
         ]
       },
       "latest_release": {
-        "version": "2026-02-14",
-        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-02-14",
-        "published_at": "2026-02-14T14:47:16Z",
-        "commit_sha": "4e5ec4ce882b0b9effc63916fad2f47b3a028e2a"
+        "version": "2026-03-04",
+        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-03-04",
+        "published_at": "2026-03-04T16:54:08Z",
+        "commit_sha": "2d948bd41361619f9edd00d76bdf8d23b317c0ea"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/HodorReflexes@2026-02-14/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/HodorReflexes@2026-03-04/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-02-14",
+          "url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-03-04",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
           "major": 2026,
-          "minor": 2,
-          "patch": 14,
+          "minor": 3,
+          "patch": 4,
           "prerelease": null
         },
-        "version_sort_key": 2026002014000,
+        "version_sort_key": 2026003004000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-02-14T14:47:16Z"
+      "last_updated": "2026-03-04T16:54:08Z"
     },
     {
       "slug": "huntsmanwarmaskreminder",
@@ -3230,10 +3230,36 @@
           "*.yaml"
         ]
       },
-      "latest_release": null,
-      "download_sources": [],
-      "version_info": null,
-      "last_updated": "2026-03-04T12:10:35.765364+00:00"
+      "latest_release": {
+        "version": "v1.18.2",
+        "download_url": "https://github.com/nicokimmel/wizardswardrobe/archive/refs/tags/v1.18.2.zip",
+        "published_at": "2024-05-15T13:50:16Z",
+        "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
+      },
+      "download_sources": [
+        {
+          "type": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/nicokimmel/wizardswardrobe@v1.18.2/src/",
+          "note": "CDN - serves individual files, no rate limits, CORS-friendly"
+        },
+        {
+          "type": "github_archive",
+          "url": "https://github.com/nicokimmel/wizardswardrobe/archive/refs/tags/v1.18.2.zip",
+          "note": "Direct GitHub ZIP archive, subject to rate limits"
+        }
+      ],
+      "version_info": {
+        "version_normalized": {
+          "major": 1,
+          "minor": 18,
+          "patch": 2,
+          "prerelease": null
+        },
+        "version_sort_key": 1018002000,
+        "is_prerelease": false,
+        "release_channel": "stable"
+      },
+      "last_updated": "2024-05-15T13:50:16Z"
     }
   ]
 }
