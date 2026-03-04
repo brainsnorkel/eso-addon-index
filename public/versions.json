@@ -324,13 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-03T18:15:25.696979+00:00",
-  "updates": [
-    {
-      "slug": "combatmetrics",
-      "old_version": "1.7.6",
-      "new_version": "1.7.7",
-      "repo": "Solinur/CombatMetrics"
-    }
-  ]
+  "last_checked": "2026-03-04T00:21:22.404710+00:00",
+  "updates": []
 }
