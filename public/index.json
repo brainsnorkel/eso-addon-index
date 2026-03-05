@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T12:12:12.121417+00:00",
+  "generated_at": "2026-03-05T18:36:57.472662+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "570f51e",
+        "version": "559a070",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-05T03:44:52Z",
-        "commit_sha": "570f51e17f67c8f68ed35284a38d701c168298c3",
-        "commit_date": "2026-03-05T03:44:52Z",
-        "commit_message": "Start adding totally untested BHB attribute visuals"
+        "published_at": "2026-03-05T16:02:59Z",
+        "commit_sha": "559a070bff849dbdd650823cdf9e27fa9a035fc3",
+        "commit_date": "2026-03-05T16:02:59Z",
+        "commit_message": "Add invuln which may or may not work"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Start adding totally untested BHB attribute visuals"
+        "commit_message": "Add invuln which may or may not work"
       },
-      "last_updated": "2026-03-05T03:44:52Z"
+      "last_updated": "2026-03-05T16:02:59Z"
     },
     {
       "slug": "elmsmarkers",

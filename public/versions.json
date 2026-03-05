@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "570f51e",
+      "version": "559a070",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-05T03:44:52Z",
-      "release_notes": "Start adding totally untested BHB attribute visuals",
-      "commit_sha": "570f51e17f67c8f68ed35284a38d701c168298c3",
-      "commit_date": "2026-03-05T03:44:52Z",
-      "commit_message": "Start adding totally untested BHB attribute visuals"
+      "published_at": "2026-03-05T16:02:59Z",
+      "release_notes": "Add invuln which may or may not work",
+      "commit_sha": "559a070bff849dbdd650823cdf9e27fa9a035fc3",
+      "commit_date": "2026-03-05T16:02:59Z",
+      "commit_message": "Add invuln which may or may not work"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-05T12:12:11.968365+00:00",
-  "updates": []
+  "last_checked": "2026-03-05T18:36:57.317625+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "570f51e",
+      "new_version": "559a070",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add invuln which may or may not work"
+    }
+  ]
 }

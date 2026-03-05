@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T12:12:12.121417+00:00",
+  "generated_at": "2026-03-05T18:36:57.472662+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "570f51e",
+      "new_version": "559a070",
+      "published_at": "2026-03-05T16:02:59Z",
+      "detected_at": "2026-03-05T18:36:57.472662+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -891,15 +900,6 @@
       "old_version": null,
       "new_version": "Version-4.7",
       "published_at": "2025-04-21T08:41:00Z",
-      "detected_at": "2025-12-31T06:07:16.247610+00:00"
-    },
-    {
-      "slug": "libsfutils",
-      "name": "LibSFUtils",
-      "url": "https://github.com/Shadowfen/LibSFUtils",
-      "old_version": null,
-      "new_version": "v38",
-      "published_at": "2021-12-05T20:52:15Z",
       "detected_at": "2025-12-31T06:07:16.247610+00:00"
     }
   ]

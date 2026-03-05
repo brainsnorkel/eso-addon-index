@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-05T12:12:12.121417+00:00</updated>
+  <updated>2026-03-05T18:36:57.472662+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:559a070</id>
+    <title>CrutchAlerts updated: 570f51e → 559a070</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-03-05T18:36:57.472662+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 570f51e to 559a070.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:570f51e</id>
     <title>CrutchAlerts updated: 62b6718 → 570f51e</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/exoy94/LibSetDetection" rel="alternate"/>
     <updated>2025-12-31T06:07:16.247610+00:00</updated>
     <summary>LibSetDetection version Version-4.7 has been added to the index.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libsfutils:v38</id>
-    <title>LibSFUtils added: v38</title>
-    <link href="https://github.com/Shadowfen/LibSFUtils" rel="alternate"/>
-    <updated>2025-12-31T06:07:16.247610+00:00</updated>
-    <summary>LibSFUtils version v38 has been added to the index.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
