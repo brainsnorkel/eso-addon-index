@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-05T00:22:03.922701+00:00",
+  "generated_at": "2026-03-05T06:17:23.646455+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "62b6718",
+      "new_version": "570f51e",
+      "published_at": "2026-03-05T03:44:52Z",
+      "detected_at": "2026-03-05T06:17:23.646455+00:00"
+    },
     {
       "slug": "hodorreflexes",
       "name": "HodorReflexes",
@@ -892,15 +901,6 @@
       "new_version": "v38",
       "published_at": "2021-12-05T20:52:15Z",
       "detected_at": "2025-12-31T06:07:16.247610+00:00"
-    },
-    {
-      "slug": "warmask",
-      "name": "WarMask",
-      "url": "https://github.com/brainsnorkel/WarMask",
-      "old_version": "v1.3.0",
-      "new_version": "v1.4.0",
-      "published_at": "2025-12-30T20:44:30Z",
-      "detected_at": "2025-12-30T23:47:08.993712+00:00"
     }
   ]
 }

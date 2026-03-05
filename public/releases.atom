@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-05T00:22:03.922701+00:00</updated>
+  <updated>2026-03-05T06:17:23.646455+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:570f51e</id>
+    <title>CrutchAlerts updated: 62b6718 → 570f51e</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-03-05T06:17:23.646455+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 62b6718 to 570f51e.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:hodorreflexes:2026-03-04</id>
     <title>HodorReflexes updated: 2026-02-14 → 2026-03-04</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/Shadowfen/LibSFUtils" rel="alternate"/>
     <updated>2025-12-31T06:07:16.247610+00:00</updated>
     <summary>LibSFUtils version v38 has been added to the index.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:warmask:v1.4.0</id>
-    <title>WarMask updated: v1.3.0 → v1.4.0</title>
-    <link href="https://github.com/brainsnorkel/WarMask" rel="alternate"/>
-    <updated>2025-12-30T23:47:08.993712+00:00</updated>
-    <summary>WarMask has been updated from version v1.3.0 to v1.4.0.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

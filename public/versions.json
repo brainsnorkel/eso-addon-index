@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "62b6718",
+      "version": "570f51e",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-04T05:09:32Z",
-      "release_notes": "Only detect Felms on effect gained, maybe fixes showing up after clear",
-      "commit_sha": "62b671832ab37962289e6ef8d737606379f5c7b8",
-      "commit_date": "2026-03-04T05:09:32Z",
-      "commit_message": "Only detect Felms on effect gained, maybe fixes showing up after clear"
+      "published_at": "2026-03-05T03:44:52Z",
+      "release_notes": "Start adding totally untested BHB attribute visuals",
+      "commit_sha": "570f51e17f67c8f68ed35284a38d701c168298c3",
+      "commit_date": "2026-03-05T03:44:52Z",
+      "commit_message": "Start adding totally untested BHB attribute visuals"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-05T00:22:03.784543+00:00",
-  "updates": []
+  "last_checked": "2026-03-05T06:17:23.492969+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "62b6718",
+      "new_version": "570f51e",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Start adding totally untested BHB attribute visuals"
+    }
+  ]
 }
