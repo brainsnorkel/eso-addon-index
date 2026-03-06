@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-05T18:36:57.317625+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "570f51e",
-      "new_version": "559a070",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add invuln which may or may not work"
-    }
-  ]
+  "last_checked": "2026-03-06T00:26:23.972456+00:00",
+  "updates": []
 }
