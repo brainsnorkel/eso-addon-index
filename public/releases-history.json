@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T06:15:38.563569+00:00",
+  "generated_at": "2026-03-06T12:10:27.849546+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "11a26d0",
+      "new_version": "ea8b079",
+      "published_at": "2026-03-06T08:51:16Z",
+      "detected_at": "2026-03-06T12:10:27.849546+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -891,15 +900,6 @@
       "old_version": null,
       "new_version": "release-0.1",
       "published_at": "2023-04-30T09:23:07Z",
-      "detected_at": "2025-12-31T06:07:16.247610+00:00"
-    },
-    {
-      "slug": "libhyper",
-      "name": "LibHyper",
-      "url": "https://github.com/Hyperioxes/LibHyper",
-      "old_version": null,
-      "new_version": "1928d21",
-      "published_at": "2023-06-09T18:53:14Z",
       "detected_at": "2025-12-31T06:07:16.247610+00:00"
     }
   ]

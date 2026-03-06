@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-06T06:15:38.563569+00:00</updated>
+  <updated>2026-03-06T12:10:27.849546+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:ea8b079</id>
+    <title>CrutchAlerts updated: 11a26d0 → ea8b079</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-03-06T12:10:27.849546+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 11a26d0 to ea8b079.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:11a26d0</id>
     <title>CrutchAlerts updated: 559a070 → 11a26d0</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/exoy94/LibFloatingIcons" rel="alternate"/>
     <updated>2025-12-31T06:07:16.247610+00:00</updated>
     <summary>LibFloatingIcons version release-0.1 has been added to the index.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libhyper:1928d21</id>
-    <title>LibHyper added: 1928d21</title>
-    <link href="https://github.com/Hyperioxes/LibHyper" rel="alternate"/>
-    <updated>2025-12-31T06:07:16.247610+00:00</updated>
-    <summary>LibHyper version 1928d21 has been added to the index.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

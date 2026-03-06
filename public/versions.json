@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "11a26d0",
+      "version": "ea8b079",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-06T03:06:37Z",
-      "release_notes": "Fix getting sub bar because braingud",
-      "commit_sha": "11a26d0e683f537ee62af7063f8187c305a39b09",
-      "commit_date": "2026-03-06T03:06:37Z",
-      "commit_message": "Fix getting sub bar because braingud"
+      "published_at": "2026-03-06T08:51:16Z",
+      "release_notes": "Fix shield bar texture",
+      "commit_sha": "ea8b079faa2a0dc436b6548f7ceff4d374e9342b",
+      "commit_date": "2026-03-06T08:51:16Z",
+      "commit_message": "Fix shield bar texture"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-06T06:15:38.409679+00:00",
+  "last_checked": "2026-03-06T12:10:27.693806+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "559a070",
-      "new_version": "11a26d0",
+      "old_version": "11a26d0",
+      "new_version": "ea8b079",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix getting sub bar because braingud"
+      "commit_message": "Fix shield bar texture"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T06:15:38.563569+00:00",
+  "generated_at": "2026-03-06T12:10:27.849546+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "11a26d0",
+        "version": "ea8b079",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-06T03:06:37Z",
-        "commit_sha": "11a26d0e683f537ee62af7063f8187c305a39b09",
-        "commit_date": "2026-03-06T03:06:37Z",
-        "commit_message": "Fix getting sub bar because braingud"
+        "published_at": "2026-03-06T08:51:16Z",
+        "commit_sha": "ea8b079faa2a0dc436b6548f7ceff4d374e9342b",
+        "commit_date": "2026-03-06T08:51:16Z",
+        "commit_message": "Fix shield bar texture"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix getting sub bar because braingud"
+        "commit_message": "Fix shield bar texture"
       },
-      "last_updated": "2026-03-06T03:06:37Z"
+      "last_updated": "2026-03-06T08:51:16Z"
     },
     {
       "slug": "elmsmarkers",
