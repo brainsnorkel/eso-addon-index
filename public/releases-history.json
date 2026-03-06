@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-06T00:26:24.126423+00:00",
+  "generated_at": "2026-03-06T06:15:38.563569+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "559a070",
+      "new_version": "11a26d0",
+      "published_at": "2026-03-06T03:06:37Z",
+      "detected_at": "2026-03-06T06:15:38.563569+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -891,15 +900,6 @@
       "old_version": null,
       "new_version": "1928d21",
       "published_at": "2023-06-09T18:53:14Z",
-      "detected_at": "2025-12-31T06:07:16.247610+00:00"
-    },
-    {
-      "slug": "libsetdetection",
-      "name": "LibSetDetection",
-      "url": "https://github.com/exoy94/LibSetDetection",
-      "old_version": null,
-      "new_version": "Version-4.7",
-      "published_at": "2025-04-21T08:41:00Z",
       "detected_at": "2025-12-31T06:07:16.247610+00:00"
     }
   ]

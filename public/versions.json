@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "559a070",
+      "version": "11a26d0",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-05T16:02:59Z",
-      "release_notes": "Add invuln which may or may not work",
-      "commit_sha": "559a070bff849dbdd650823cdf9e27fa9a035fc3",
-      "commit_date": "2026-03-05T16:02:59Z",
-      "commit_message": "Add invuln which may or may not work"
+      "published_at": "2026-03-06T03:06:37Z",
+      "release_notes": "Fix getting sub bar because braingud",
+      "commit_sha": "11a26d0e683f537ee62af7063f8187c305a39b09",
+      "commit_date": "2026-03-06T03:06:37Z",
+      "commit_message": "Fix getting sub bar because braingud"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-06T00:26:23.972456+00:00",
-  "updates": []
+  "last_checked": "2026-03-06T06:15:38.409679+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "559a070",
+      "new_version": "11a26d0",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix getting sub bar because braingud"
+    }
+  ]
 }
