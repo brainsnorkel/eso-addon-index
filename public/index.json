@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-07T06:10:19.440826+00:00",
+  "generated_at": "2026-03-07T12:07:26.819713+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "ea8b079",
+        "version": "5cb21c4",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-06T08:51:16Z",
-        "commit_sha": "ea8b079faa2a0dc436b6548f7ceff4d374e9342b",
-        "commit_date": "2026-03-06T08:51:16Z",
-        "commit_message": "Fix shield bar texture"
+        "published_at": "2026-03-07T02:50:37Z",
+        "commit_sha": "5cb21c4f9cb6b13ec69ec2f57a032fc035e74807",
+        "commit_date": "2026-03-07T02:50:37Z",
+        "commit_message": "Fix BHB getting hidden after lock"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix shield bar texture"
+        "commit_message": "Fix BHB getting hidden after lock"
       },
-      "last_updated": "2026-03-06T08:51:16Z"
+      "last_updated": "2026-03-07T02:50:37Z"
     },
     {
       "slug": "elmsmarkers",

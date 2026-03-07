@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "ea8b079",
+      "version": "5cb21c4",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-06T08:51:16Z",
-      "release_notes": "Fix shield bar texture",
-      "commit_sha": "ea8b079faa2a0dc436b6548f7ceff4d374e9342b",
-      "commit_date": "2026-03-06T08:51:16Z",
-      "commit_message": "Fix shield bar texture"
+      "published_at": "2026-03-07T02:50:37Z",
+      "release_notes": "Fix BHB getting hidden after lock",
+      "commit_sha": "5cb21c4f9cb6b13ec69ec2f57a032fc035e74807",
+      "commit_date": "2026-03-07T02:50:37Z",
+      "commit_message": "Fix BHB getting hidden after lock"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-07T06:10:19.289092+00:00",
-  "updates": []
+  "last_checked": "2026-03-07T12:07:26.663303+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "ea8b079",
+      "new_version": "5cb21c4",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix BHB getting hidden after lock"
+    }
+  ]
 }
