@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-08T06:13:57.605896+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "5cb21c4",
-      "new_version": "1a17bc0",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Show shield and invuln on unlock"
-    },
-    {
-      "slug": "luiextended",
-      "old_version": "v7.1.4.6",
-      "new_version": "v7.2.0.0",
-      "repo": "DakJaniels/LuiExtended"
-    }
-  ]
+  "last_checked": "2026-03-08T12:08:11.443253+00:00",
+  "updates": []
 }
