@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-08T00:21:33.083780+00:00",
+  "generated_at": "2026-03-08T06:13:57.763759+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "5cb21c4",
+      "new_version": "1a17bc0",
+      "published_at": "2026-03-08T00:13:33Z",
+      "detected_at": "2026-03-08T06:13:57.763759+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.1.4.6",
+      "new_version": "v7.2.0.0",
+      "published_at": "2026-03-08T04:33:52Z",
+      "detected_at": "2026-03-08T06:13:57.763759+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -882,24 +900,6 @@
       "old_version": null,
       "new_version": "Version-1.3.0",
       "published_at": "2025-06-10T19:07:32Z",
-      "detected_at": "2025-12-31T06:07:16.247610+00:00"
-    },
-    {
-      "slug": "exoysproctimer",
-      "name": "ExoYs Proc Set Timer",
-      "url": "https://github.com/exoy94/ExoYsProcSetTimer",
-      "old_version": null,
-      "new_version": "fb15996",
-      "published_at": "2025-03-20T22:12:46Z",
-      "detected_at": "2025-12-31T06:07:16.247610+00:00"
-    },
-    {
-      "slug": "hypertools",
-      "name": "HyperTools",
-      "url": "https://github.com/Hyperioxes/HyperTools",
-      "old_version": null,
-      "new_version": "3c8e9d4",
-      "published_at": "2023-07-30T06:01:28Z",
       "detected_at": "2025-12-31T06:07:16.247610+00:00"
     }
   ]

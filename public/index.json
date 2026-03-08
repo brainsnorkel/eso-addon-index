@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-08T00:21:33.083780+00:00",
+  "generated_at": "2026-03-08T06:13:57.763759+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "5cb21c4",
+        "version": "1a17bc0",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-07T02:50:37Z",
-        "commit_sha": "5cb21c4f9cb6b13ec69ec2f57a032fc035e74807",
-        "commit_date": "2026-03-07T02:50:37Z",
-        "commit_message": "Fix BHB getting hidden after lock"
+        "published_at": "2026-03-08T00:13:33Z",
+        "commit_sha": "1a17bc07b51ff136437dcac5fac048ffdc39c95c",
+        "commit_date": "2026-03-08T00:13:33Z",
+        "commit_message": "Show shield and invuln on unlock"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix BHB getting hidden after lock"
+        "commit_message": "Show shield and invuln on unlock"
       },
-      "last_updated": "2026-03-07T02:50:37Z"
+      "last_updated": "2026-03-08T00:13:33Z"
     },
     {
       "slug": "elmsmarkers",
@@ -2680,35 +2680,35 @@
         ]
       },
       "latest_release": {
-        "version": "v7.1.4.6",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.1.4.6",
-        "published_at": "2026-02-13T16:57:22Z",
-        "commit_sha": "541babae6dd993bd2d43c2e7eb5cc0f1f5bb5b06"
+        "version": "v7.2.0.0",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.0",
+        "published_at": "2026-03-08T04:33:52Z",
+        "commit_sha": "1a46394180c612bbda595a84a497a9a7106eefbb"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.1.4.6/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.0.0/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.1.4.6",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.0",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
           "major": 7,
-          "minor": 1,
-          "patch": 4,
+          "minor": 2,
+          "patch": 0,
           "prerelease": null
         },
-        "version_sort_key": 7001004000,
+        "version_sort_key": 7002000000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-02-13T16:57:22Z"
+      "last_updated": "2026-03-08T04:33:52Z"
     },
     {
       "slug": "m0rmarkers",

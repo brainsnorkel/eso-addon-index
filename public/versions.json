@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "5cb21c4",
+      "version": "1a17bc0",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-07T02:50:37Z",
-      "release_notes": "Fix BHB getting hidden after lock",
-      "commit_sha": "5cb21c4f9cb6b13ec69ec2f57a032fc035e74807",
-      "commit_date": "2026-03-07T02:50:37Z",
-      "commit_message": "Fix BHB getting hidden after lock"
+      "published_at": "2026-03-08T00:13:33Z",
+      "release_notes": "Show shield and invuln on unlock",
+      "commit_sha": "1a17bc07b51ff136437dcac5fac048ffdc39c95c",
+      "commit_date": "2026-03-08T00:13:33Z",
+      "commit_message": "Show shield and invuln on unlock"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.1.4.6",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.1.4.6",
-      "published_at": "2026-02-13T16:57:22Z",
-      "release_notes": "## What's Changed\r\n* Spell cast buffs testing by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/357\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.1.4.5...v7.1.4.6"
+      "version": "v7.2.0.0",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.0",
+      "published_at": "2026-03-08T04:33:52Z",
+      "release_notes": "## What's Changed\r\n* Enhance API functionality and fix various issues by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/364\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/7.1.6.3...v7.2.0.0"
     },
     "m0rmarkers": {
       "version": "v1.2.1",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-08T00:21:32.914632+00:00",
-  "updates": []
+  "last_checked": "2026-03-08T06:13:57.605896+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "5cb21c4",
+      "new_version": "1a17bc0",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Show shield and invuln on unlock"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.1.4.6",
+      "new_version": "v7.2.0.0",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
