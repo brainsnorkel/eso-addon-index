@@ -5,11 +5,41 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-09T06:22:51.026186+00:00</updated>
+  <updated>2026-03-09T12:12:16.280579+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:beammeup:v4.0.0</id>
+    <title>BeamMeUp updated: v3.7.4 → v4.0.0</title>
+    <link href="https://github.com/david-tub/BeamMeUp" rel="alternate"/>
+    <updated>2026-03-09T12:12:16.280579+00:00</updated>
+    <summary>BeamMeUp has been updated from version v3.7.4 to v4.0.0.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:150de93</id>
+    <title>CrutchAlerts updated: 1a17bc0 → 150de93</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-03-09T12:12:16.280579+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 1a17bc0 to 150de93.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:luiextended:v7.2.0.1</id>
+    <title>LuiExtended updated: v7.2.0.0 → v7.2.0.1</title>
+    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
+    <updated>2026-03-09T12:12:16.280579+00:00</updated>
+    <summary>LuiExtended has been updated from version v7.2.0.0 to v7.2.0.1.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustomicons:2026-03-08</id>
     <title>LibCustomIcons updated: 2026-02-22 → 2026-03-08</title>
@@ -976,36 +1006,6 @@
     <link href="https://github.com/VollstaendigerName/HuntsmanWarmaskReminder" rel="alternate"/>
     <updated>2026-01-01T18:06:01.303173+00:00</updated>
     <summary>Huntsman Warmask Reminder has been updated from version 7e30d81 to 370d779.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:huntsmanwarmaskreminder:7e30d81</id>
-    <title>Huntsman Warmask Reminder added: 7e30d81</title>
-    <link href="https://github.com/VollstaendigerName/HuntsmanWarmaskReminder" rel="alternate"/>
-    <updated>2026-01-01T06:07:17.011420+00:00</updated>
-    <summary>Huntsman Warmask Reminder version 7e30d81 has been added to the index.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:actiondurationreminder:a450dc6</id>
-    <title>Action Duration Reminder added: a450dc6</title>
-    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
-    <updated>2025-12-31T06:07:16.247610+00:00</updated>
-    <summary>Action Duration Reminder version a450dc6 has been added to the index.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:bugcatcher:7b17572</id>
-    <title>BugCatcher added: 7b17572</title>
-    <link href="https://github.com/Shadowfen/BugCatcher" rel="alternate"/>
-    <updated>2025-12-31T06:07:16.247610+00:00</updated>
-    <summary>BugCatcher version 7b17572 has been added to the index.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

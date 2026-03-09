@@ -26,10 +26,10 @@
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
     "beammeup": {
-      "version": "v3.7.4",
-      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v3.7.4",
-      "published_at": "2025-12-14T17:34:22Z",
-      "release_notes": "- new context menu option in the own houses tab to set/unset preferred houses\r\n- small icons in the related items tab show what kind of map (survey type, treasure etc.) is located\r\n- smaller fixes and code adjustments\r\nDon't forget to update your libraries!"
+      "version": "v4.0.0",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.0",
+      "published_at": "2026-03-09T06:39:57Z",
+      "release_notes": "Joint revision by Baertram and Saranicole1980\r\n- Major performance optimization and code refactoring (Baertram)\r\n- Revision and extension of all context menus (Baertram)\r\n- Several adjustments and improved user guidance (Baertram)\r\n- Initial implementation of gamepad support on basis of the gamepad plugin by IsJustaGhost (Saranicole1980)\r\n- Preparation of console migration (Saranicole1980)\r\n- Updated zone data (Update 49)\r\n-----\r\nPlease update your libraries!\r\nPlease install LibScrollableMenu (L"
     },
     "breadcrumbs": {
       "version": "v1.2",
@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "1a17bc0",
+      "version": "150de93",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-08T00:13:33Z",
-      "release_notes": "Show shield and invuln on unlock",
-      "commit_sha": "1a17bc07b51ff136437dcac5fac048ffdc39c95c",
-      "commit_date": "2026-03-08T00:13:33Z",
-      "commit_message": "Show shield and invuln on unlock"
+      "published_at": "2026-03-09T08:53:44Z",
+      "release_notes": "Add initial cc ui",
+      "commit_sha": "150de93660cc7b28993adc4d6a922d0ad17c558c",
+      "commit_date": "2026-03-09T08:53:44Z",
+      "commit_message": "Add initial cc ui"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.0.0",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.0",
-      "published_at": "2026-03-08T04:33:52Z",
-      "release_notes": "## What's Changed\r\n* Enhance API functionality and fix various issues by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/364\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/7.1.6.3...v7.2.0.0"
+      "version": "v7.2.0.1",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.1",
+      "published_at": "2026-03-09T07:33:34Z",
+      "release_notes": "## What's Changed\r\n* Future by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/366\r\n* feat: add option to hide player frame when dead by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/367\r\n* Update BarHighlightOverride.lua to replace outdated ability IDs with \u2026 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/368\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.0...v7.2.0.1"
     },
     "m0rmarkers": {
       "version": "v1.2.1",
@@ -324,6 +324,26 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-09T06:22:50.861203+00:00",
-  "updates": []
+  "last_checked": "2026-03-09T12:12:16.139956+00:00",
+  "updates": [
+    {
+      "slug": "beammeup",
+      "old_version": "v3.7.4",
+      "new_version": "v4.0.0",
+      "repo": "david-tub/BeamMeUp"
+    },
+    {
+      "slug": "crutchalerts",
+      "old_version": "1a17bc0",
+      "new_version": "150de93",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add initial cc ui"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.0.0",
+      "new_version": "v7.2.0.1",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-09T06:22:51.026186+00:00",
+  "generated_at": "2026-03-09T12:12:16.280579+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -277,35 +277,35 @@
         ]
       },
       "latest_release": {
-        "version": "v3.7.4",
-        "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v3.7.4",
-        "published_at": "2025-12-14T17:34:22Z",
-        "commit_sha": "ab5d79f8b841805b1926e5f82862284f1f19435d"
+        "version": "v4.0.0",
+        "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.0",
+        "published_at": "2026-03-09T06:39:57Z",
+        "commit_sha": "87fd4f1fbb5283f8e7b7a2be95d6a42cce0f421c"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/david-tub/BeamMeUp@v3.7.4/BeamMeUp/",
+          "url": "https://cdn.jsdelivr.net/gh/david-tub/BeamMeUp@v4.0.0/BeamMeUp/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v3.7.4",
+          "url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.0",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
-          "major": 3,
-          "minor": 7,
-          "patch": 4,
+          "major": 4,
+          "minor": 0,
+          "patch": 0,
           "prerelease": null
         },
-        "version_sort_key": 3007004000,
+        "version_sort_key": 4000000000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2025-12-14T17:34:22Z"
+      "last_updated": "2026-03-09T06:39:57Z"
     },
     {
       "slug": "breadcrumbs",
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "1a17bc0",
+        "version": "150de93",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-08T00:13:33Z",
-        "commit_sha": "1a17bc07b51ff136437dcac5fac048ffdc39c95c",
-        "commit_date": "2026-03-08T00:13:33Z",
-        "commit_message": "Show shield and invuln on unlock"
+        "published_at": "2026-03-09T08:53:44Z",
+        "commit_sha": "150de93660cc7b28993adc4d6a922d0ad17c558c",
+        "commit_date": "2026-03-09T08:53:44Z",
+        "commit_message": "Add initial cc ui"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Show shield and invuln on unlock"
+        "commit_message": "Add initial cc ui"
       },
-      "last_updated": "2026-03-08T00:13:33Z"
+      "last_updated": "2026-03-09T08:53:44Z"
     },
     {
       "slug": "elmsmarkers",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.0.0",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.0",
-        "published_at": "2026-03-08T04:33:52Z",
-        "commit_sha": "1a46394180c612bbda595a84a497a9a7106eefbb"
+        "version": "v7.2.0.1",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.1",
+        "published_at": "2026-03-09T07:33:34Z",
+        "commit_sha": "3f717c9d1f01e0aba2bfb4f7cdc2cdcc42f91881"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.0.0/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.0.1/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.0",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.1",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2708,7 +2708,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-03-08T04:33:52Z"
+      "last_updated": "2026-03-09T07:33:34Z"
     },
     {
       "slug": "m0rmarkers",

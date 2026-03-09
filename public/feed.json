@@ -65,10 +65,10 @@
     },
     {
       "id": "beammeup",
-      "title": "BeamMeUp v3.7.4",
+      "title": "BeamMeUp v4.0.0",
       "url": "https://github.com/david-tub/BeamMeUp",
-      "date_published": "2025-12-14T17:34:22Z",
-      "date_modified": "2025-12-14T17:34:22Z",
+      "date_published": "2026-03-09T06:39:57Z",
+      "date_modified": "2026-03-09T06:39:57Z",
       "authors": [
         {
           "name": "DeadSoon"
@@ -192,10 +192,10 @@
     },
     {
       "id": "crutchalerts",
-      "title": "CrutchAlerts 1a17bc0",
+      "title": "CrutchAlerts 150de93",
       "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "date_published": "2026-03-08T00:13:33Z",
-      "date_modified": "2026-03-08T00:13:33Z",
+      "date_published": "2026-03-09T08:53:44Z",
+      "date_modified": "2026-03-09T08:53:44Z",
       "authors": [
         {
           "name": "Kyzeragon"
@@ -709,10 +709,10 @@
     },
     {
       "id": "luiextended",
-      "title": "LuiExtended v7.2.0.0",
+      "title": "LuiExtended v7.2.0.1",
       "url": "https://github.com/DakJaniels/LuiExtended",
-      "date_published": "2026-03-08T04:33:52Z",
-      "date_modified": "2026-03-08T04:33:52Z",
+      "date_published": "2026-03-09T07:33:34Z",
+      "date_modified": "2026-03-09T07:33:34Z",
       "authors": [
         {
           "name": "ArtOfShred"

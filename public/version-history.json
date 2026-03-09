@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-09T06:22:51.026186+00:00",
+  "generated_at": "2026-03-09T12:12:16.280579+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -20,6 +20,12 @@
       }
     ],
     "beammeup": [
+      {
+        "version": "v4.0.0",
+        "published_at": "2026-03-09T06:39:57Z",
+        "detected_at": "2026-03-09T12:12:16.280579+00:00",
+        "commit_sha": "87fd4f1fbb5283f8e7b7a2be95d6a42cce0f421c"
+      },
       {
         "version": "v3.7.4",
         "published_at": "2025-12-14T17:34:22Z",
@@ -66,6 +72,12 @@
       }
     ],
     "crutchalerts": [
+      {
+        "version": "150de93",
+        "published_at": "2026-03-09T08:53:44Z",
+        "detected_at": "2026-03-09T12:12:16.280579+00:00",
+        "commit_sha": "150de93660cc7b28993adc4d6a922d0ad17c558c"
+      },
       {
         "version": "1a17bc0",
         "published_at": "2026-03-08T00:13:33Z",
@@ -698,6 +710,12 @@
       }
     ],
     "luiextended": [
+      {
+        "version": "v7.2.0.1",
+        "published_at": "2026-03-09T07:33:34Z",
+        "detected_at": "2026-03-09T12:12:16.280579+00:00",
+        "commit_sha": "3f717c9d1f01e0aba2bfb4f7cdc2cdcc42f91881"
+      },
       {
         "version": "v7.2.0.0",
         "published_at": "2026-03-08T04:33:52Z",
