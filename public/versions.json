@@ -324,26 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-09T12:12:16.139956+00:00",
-  "updates": [
-    {
-      "slug": "beammeup",
-      "old_version": "v3.7.4",
-      "new_version": "v4.0.0",
-      "repo": "david-tub/BeamMeUp"
-    },
-    {
-      "slug": "crutchalerts",
-      "old_version": "1a17bc0",
-      "new_version": "150de93",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add initial cc ui"
-    },
-    {
-      "slug": "luiextended",
-      "old_version": "v7.2.0.0",
-      "new_version": "v7.2.0.1",
-      "repo": "DakJaniels/LuiExtended"
-    }
-  ]
+  "last_checked": "2026-03-09T18:17:22.678239+00:00",
+  "updates": []
 }
