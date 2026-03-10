@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-09T18:17:22.843895+00:00",
+  "generated_at": "2026-03-10T00:19:29.538674+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.0.1",
+      "new_version": "v7.2.0.2",
+      "published_at": "2026-03-09T21:19:57Z",
+      "detected_at": "2026-03-10T00:19:29.538674+00:00"
+    },
     {
       "slug": "beammeup",
       "name": "BeamMeUp",
@@ -892,15 +901,6 @@
       "new_version": "7ad638c",
       "published_at": "2026-01-02T12:06:35Z",
       "detected_at": "2026-01-02T12:07:21.200313+00:00"
-    },
-    {
-      "slug": "huntsmanwarmaskreminder",
-      "name": "Huntsman Warmask Reminder",
-      "url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder",
-      "old_version": "7e30d81",
-      "new_version": "370d779",
-      "published_at": "2026-01-01T12:20:27Z",
-      "detected_at": "2026-01-01T18:06:01.303173+00:00"
     }
   ]
 }

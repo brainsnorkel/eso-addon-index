@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.0.1",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.1",
-      "published_at": "2026-03-09T07:33:34Z",
-      "release_notes": "## What's Changed\r\n* Future by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/366\r\n* feat: add option to hide player frame when dead by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/367\r\n* Update BarHighlightOverride.lua to replace outdated ability IDs with \u2026 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/368\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.0...v7.2.0.1"
+      "version": "v7.2.0.2",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.2",
+      "published_at": "2026-03-09T21:19:57Z",
+      "release_notes": "## What's Changed\r\n* chore: bump version to 7.2.0.2 and update font handling by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/369\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.1...v7.2.0.2"
     },
     "m0rmarkers": {
       "version": "v1.2.1",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-09T18:17:22.678239+00:00",
-  "updates": []
+  "last_checked": "2026-03-10T00:19:29.380586+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.0.1",
+      "new_version": "v7.2.0.2",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
