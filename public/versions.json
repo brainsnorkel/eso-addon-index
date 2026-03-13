@@ -26,10 +26,10 @@
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
     "beammeup": {
-      "version": "v4.0.0",
-      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.0",
-      "published_at": "2026-03-09T06:39:57Z",
-      "release_notes": "Joint revision by Baertram and Saranicole1980\r\n- Major performance optimization and code refactoring (Baertram)\r\n- Revision and extension of all context menus (Baertram)\r\n- Several adjustments and improved user guidance (Baertram)\r\n- Initial implementation of gamepad support on basis of the gamepad plugin by IsJustaGhost (Saranicole1980)\r\n- Preparation of console migration (Saranicole1980)\r\n- Updated zone data (Update 49)\r\n-----\r\nPlease update your libraries!\r\nPlease install LibScrollableMenu (L"
+      "version": "v4.0.1",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.1",
+      "published_at": "2026-03-10T19:33:23Z",
+      "release_notes": "- Added LibHarvensAddonSettings as necessary dependency\r\n- Fixed repeating notifications when switching to/from gamepad mode\r\n- Fixed some smaller issues in gamepad mode"
     },
     "breadcrumbs": {
       "version": "v1.2",
@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "150de93",
+      "version": "78e896b",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-09T08:53:44Z",
-      "release_notes": "Add initial cc ui",
-      "commit_sha": "150de93660cc7b28993adc4d6a922d0ad17c558c",
-      "commit_date": "2026-03-09T08:53:44Z",
-      "commit_message": "Add initial cc ui"
+      "published_at": "2026-03-13T01:41:35Z",
+      "release_notes": "Add vAS mini panel settings for console",
+      "commit_sha": "78e896bba1bb7ad92cfaf3603584b5b932d40d89",
+      "commit_date": "2026-03-13T01:41:35Z",
+      "commit_message": "Add vAS mini panel settings for console"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -279,9 +279,9 @@
       "release_notes": "## What's Changed\r\n* chore: bump version to 7.2.0.2 and update font handling by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/369\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.1...v7.2.0.2"
     },
     "m0rmarkers": {
-      "version": "v1.2.1",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.2.1",
-      "published_at": "2025-11-07T19:19:34Z",
+      "version": "v1.9.0",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.0",
+      "published_at": "2026-03-10T06:07:30Z",
       "release_notes": ""
     },
     "odysupporticons": {
@@ -324,13 +324,26 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-10T00:19:29.380586+00:00",
+  "last_checked": "2026-03-13T06:17:45.091258+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.0.1",
-      "new_version": "v7.2.0.2",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "beammeup",
+      "old_version": "v4.0.0",
+      "new_version": "v4.0.1",
+      "repo": "david-tub/BeamMeUp"
+    },
+    {
+      "slug": "crutchalerts",
+      "old_version": "150de93",
+      "new_version": "78e896b",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add vAS mini panel settings for console"
+    },
+    {
+      "slug": "m0rmarkers",
+      "old_version": "v1.2.1",
+      "new_version": "v1.9.0",
+      "repo": "M0RGaming/M0RMarkers"
     }
   ]
 }

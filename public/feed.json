@@ -65,10 +65,10 @@
     },
     {
       "id": "beammeup",
-      "title": "BeamMeUp v4.0.0",
+      "title": "BeamMeUp v4.0.1",
       "url": "https://github.com/david-tub/BeamMeUp",
-      "date_published": "2026-03-09T06:39:57Z",
-      "date_modified": "2026-03-09T06:39:57Z",
+      "date_published": "2026-03-10T19:33:23Z",
+      "date_modified": "2026-03-10T19:33:23Z",
       "authors": [
         {
           "name": "DeadSoon"
@@ -192,10 +192,10 @@
     },
     {
       "id": "crutchalerts",
-      "title": "CrutchAlerts 150de93",
+      "title": "CrutchAlerts 78e896b",
       "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "date_published": "2026-03-09T08:53:44Z",
-      "date_modified": "2026-03-09T08:53:44Z",
+      "date_published": "2026-03-13T01:41:35Z",
+      "date_modified": "2026-03-13T01:41:35Z",
       "authors": [
         {
           "name": "Kyzeragon"
@@ -741,10 +741,10 @@
     },
     {
       "id": "m0rmarkers",
-      "title": "M0RMarkers v1.2.1",
+      "title": "M0RMarkers v1.9.0",
       "url": "https://github.com/M0RGaming/M0RMarkers",
-      "date_published": "2025-11-07T19:19:34Z",
-      "date_modified": "2025-11-07T19:19:34Z",
+      "date_published": "2026-03-10T06:07:30Z",
+      "date_modified": "2026-03-10T06:07:30Z",
       "authors": [
         {
           "name": "M0R_Gaming"
