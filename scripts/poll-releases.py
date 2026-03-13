@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Poll GitHub repositories for new releases and update version cache."""
+
 from __future__ import annotations
 
 import json
@@ -70,7 +71,7 @@ def get_latest_release(repo: str, release_type: str = "tag") -> dict | None:
                 "version": data.get("tag_name", "unknown"),
                 "download_url": data.get("zipball_url"),
                 "published_at": data.get("published_at"),
-                "release_notes": data.get("body", "")[:500],  # Truncate long notes
+                "release_notes": (data.get("body") or "")[:500],  # Truncate long notes
             }
         else:
             return get_latest_tag(repo)
@@ -141,7 +142,7 @@ def get_branch_info(repo: str, branch: str) -> dict | None:
             message_snippet += "..."
 
         return {
-            "version": data.get("sha", "")[:7],  # Short SHA as version
+            "version": (data.get("sha") or "")[:7],  # Short SHA as version
             "download_url": f"https://github.com/{repo}/archive/refs/heads/{branch}.zip",
             "published_at": committer.get("date"),
             "release_notes": message_snippet,
@@ -198,14 +199,18 @@ def poll_all_addons() -> dict:
                 new_sha = release_info.get("commit_sha")
 
                 if old_sha and old_sha != new_sha:
-                    updates.append({
-                        "slug": slug,
-                        "old_version": old_sha[:7] if old_sha else None,
-                        "new_version": new_sha[:7] if new_sha else None,
-                        "repo": repo,
-                        "commit_message": release_info.get("commit_message"),
-                    })
-                    print(f"  Updated: {old_sha[:7] if old_sha else 'unknown'} -> {new_sha[:7] if new_sha else 'unknown'}")
+                    updates.append(
+                        {
+                            "slug": slug,
+                            "old_version": old_sha[:7] if old_sha else None,
+                            "new_version": new_sha[:7] if new_sha else None,
+                            "repo": repo,
+                            "commit_message": release_info.get("commit_message"),
+                        }
+                    )
+                    print(
+                        f"  Updated: {old_sha[:7] if old_sha else 'unknown'} -> {new_sha[:7] if new_sha else 'unknown'}"
+                    )
                 else:
                     print(f"  Current: {new_sha[:7] if new_sha else 'unknown'}")
             else:
@@ -214,12 +219,14 @@ def poll_all_addons() -> dict:
                 new_version = release_info.get("version")
 
                 if old_version and old_version != new_version:
-                    updates.append({
-                        "slug": slug,
-                        "old_version": old_version,
-                        "new_version": new_version,
-                        "repo": repo,
-                    })
+                    updates.append(
+                        {
+                            "slug": slug,
+                            "old_version": old_version,
+                            "new_version": new_version,
+                            "repo": repo,
+                        }
+                    )
                     print(f"  Updated: {old_version} -> {new_version}")
                 else:
                     print(f"  Current: {new_version}")

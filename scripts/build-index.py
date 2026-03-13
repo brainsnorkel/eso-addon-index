@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Compile addon TOML files into a single JSON index."""
+
 from __future__ import annotations
 
 import json
@@ -225,15 +226,17 @@ def update_version_history(
         # Only create an event if this is a genuine new version (not just initializing history)
         # Skip if the old and new versions are the same
         if previous_version != current_version:
-            events.append({
-                "slug": slug,
-                "name": current_entry.get("name", slug),
-                "url": current_entry.get("url", ""),
-                "old_version": previous_version,
-                "new_version": current_version,
-                "published_at": published_at,
-                "detected_at": now,
-            })
+            events.append(
+                {
+                    "slug": slug,
+                    "name": current_entry.get("name", slug),
+                    "url": current_entry.get("url", ""),
+                    "old_version": previous_version,
+                    "new_version": current_version,
+                    "published_at": published_at,
+                    "detected_at": now,
+                }
+            )
 
     # Update history
     history[slug] = addon_history
@@ -249,20 +252,40 @@ def has_addon_changed(current: dict, previous: dict) -> tuple[bool, str]:
     """
     # Fields to compare for metadata changes
     metadata_fields = [
-        "name", "description", "authors", "license", "tags",
-        "source", "compatibility", "install"
+        "name",
+        "description",
+        "authors",
+        "license",
+        "tags",
+        "source",
+        "compatibility",
+        "install",
     ]
 
     # Check version change first
-    current_version = current.get("latest_release", {}).get("version") if current.get("latest_release") else None
-    previous_version = previous.get("latest_release", {}).get("version") if previous.get("latest_release") else None
+    current_version = (
+        current.get("latest_release", {}).get("version") if current.get("latest_release") else None
+    )
+    previous_version = (
+        previous.get("latest_release", {}).get("version")
+        if previous.get("latest_release")
+        else None
+    )
 
     if current_version != previous_version:
         return True, "version"
 
     # Check commit SHA for branch-based addons
-    current_sha = current.get("latest_release", {}).get("commit_sha") if current.get("latest_release") else None
-    previous_sha = previous.get("latest_release", {}).get("commit_sha") if previous.get("latest_release") else None
+    current_sha = (
+        current.get("latest_release", {}).get("commit_sha")
+        if current.get("latest_release")
+        else None
+    )
+    previous_sha = (
+        previous.get("latest_release", {}).get("commit_sha")
+        if previous.get("latest_release")
+        else None
+    )
 
     if current_sha != previous_sha:
         return True, "commit"
@@ -421,7 +444,7 @@ def fetch_branch_info(repo: str, branch: str) -> dict | None:
             message_snippet += "..."
 
         return {
-            "version": data.get("sha", "")[:7],  # Short SHA as version
+            "version": (data.get("sha") or "")[:7],  # Short SHA as version
             "download_url": f"https://github.com/{repo}/archive/refs/heads/{branch}.zip",
             "published_at": committer.get("date"),
             "commit_sha": data.get("sha"),
@@ -502,20 +525,24 @@ def build_download_sources(source: dict, release_info: dict | None) -> list[dict
     else:
         jsdelivr_base = f"https://cdn.jsdelivr.net/gh/{repo}@{ref}/"
 
-    sources.append({
-        "type": "jsdelivr",
-        "url": jsdelivr_base,
-        "note": "CDN - serves individual files, no rate limits, CORS-friendly",
-    })
+    sources.append(
+        {
+            "type": "jsdelivr",
+            "url": jsdelivr_base,
+            "note": "CDN - serves individual files, no rate limits, CORS-friendly",
+        }
+    )
 
     # Fallback: Direct GitHub archive (ZIP)
     github_url = release_info.get("download_url", "")
     if github_url:
-        sources.append({
-            "type": "github_archive",
-            "url": github_url,
-            "note": "Direct GitHub ZIP archive, subject to rate limits",
-        })
+        sources.append(
+            {
+                "type": "github_archive",
+                "url": github_url,
+                "note": "Direct GitHub ZIP archive, subject to rate limits",
+            }
+        )
 
     return sources
 
@@ -635,7 +662,9 @@ def build_addon_entry(
             entry["version_info"] = {
                 "version_normalized": version_normalized,
                 "version_sort_key": version_sort_key,
-                "is_prerelease": is_prerelease_version(version_str) if release_channel != "branch" else False,
+                "is_prerelease": is_prerelease_version(version_str)
+                if release_channel != "branch"
+                else False,
                 "release_channel": release_channel,
             }
 
@@ -703,9 +732,7 @@ def build_index(fetch_releases: bool = True) -> tuple[dict, dict, list[dict]]:
         entry["last_updated"] = compute_last_updated(entry, previous_entry, now)
 
         # Update version history and collect events
-        events = update_version_history(
-            version_history, slug, entry, previous_entry, now
-        )
+        events = update_version_history(version_history, slug, entry, previous_entry, now)
         all_version_events.extend(events)
 
         addons.append(entry)
@@ -728,16 +755,18 @@ def build_json_feed(index: dict) -> dict:
         release = addon.get("latest_release") or {}
         repo = addon["source"]["repo"]
 
-        items.append({
-            "id": addon["slug"],
-            "title": f"{addon['name']} {release.get('version', '')}".strip(),
-            "url": f"https://github.com/{repo}",
-            "date_published": release.get("published_at"),
-            "date_modified": addon.get("last_updated"),
-            "authors": [{"name": a} for a in addon["authors"]],
-            "summary": addon["description"],
-            "tags": addon["tags"],
-        })
+        items.append(
+            {
+                "id": addon["slug"],
+                "title": f"{addon['name']} {release.get('version', '')}".strip(),
+                "url": f"https://github.com/{repo}",
+                "date_published": release.get("published_at"),
+                "date_modified": addon.get("last_updated"),
+                "authors": [{"name": a} for a in addon["authors"]],
+                "summary": addon["description"],
+                "tags": addon["tags"],
+            }
+        )
 
     return {
         "version": "https://jsonfeed.org/version/1.1",
@@ -754,6 +783,7 @@ def build_atom_feed(version_events: list[dict], generated_at: str) -> str:
     This feed is useful for RSS readers and notification systems that want
     to track addon updates.
     """
+
     # XML escape helper
     def escape(s: str | None) -> str:
         if s is None:
@@ -784,7 +814,9 @@ def build_atom_feed(version_events: list[dict], generated_at: str) -> str:
 
         # Build summary
         if old_version:
-            summary = f"{name} has been updated from version {escape(old_version)} to {new_version}."
+            summary = (
+                f"{name} has been updated from version {escape(old_version)} to {new_version}."
+            )
         else:
             summary = f"{name} version {new_version} has been added to the index."
 
@@ -874,13 +906,15 @@ def build_missing_dependencies_feed(index: dict) -> dict:
         else:
             dep_type = "optional"
 
-        missing_list.append({
-            "slug": info["original_name"],
-            "slug_normalized": slug_lower,
-            "dependency_type": dep_type,
-            "needed_by": info["needed_by"],
-            "needed_by_count": len(info["needed_by"]),
-        })
+        missing_list.append(
+            {
+                "slug": info["original_name"],
+                "slug_normalized": slug_lower,
+                "dependency_type": dep_type,
+                "needed_by": info["needed_by"],
+                "needed_by_count": len(info["needed_by"]),
+            }
+        )
 
     # Sort by count descending, then name
     missing_list.sort(key=lambda x: (-x["needed_by_count"], x["slug"].lower()))
@@ -909,10 +943,7 @@ def load_existing_atom_events(output_dir: Path) -> list[dict]:
             data = json.load(f)
         events = data.get("events", [])
         # Filter out invalid events where old and new versions are the same
-        valid_events = [
-            e for e in events
-            if e.get("old_version") != e.get("new_version")
-        ]
+        valid_events = [e for e in events if e.get("old_version") != e.get("new_version")]
         if len(valid_events) < len(events):
             print(f"Filtered out {len(events) - len(valid_events)} invalid same-version event(s)")
         return valid_events
@@ -946,9 +977,7 @@ def main():
     print()
 
     # Build main index (now returns version history and events too)
-    index, version_history, new_version_events = build_index(
-        fetch_releases=not args.no_releases
-    )
+    index, version_history, new_version_events = build_index(fetch_releases=not args.no_releases)
 
     # Write full index
     index_path = output_dir / "index.json"
@@ -994,11 +1023,15 @@ def main():
     # Save events history for future builds
     events_history_path = output_dir / "releases-history.json"
     with open(events_history_path, "w") as f:
-        json.dump({
-            "version": "1.0",
-            "generated_at": index["generated_at"],
-            "events": all_events,
-        }, f, indent=2)
+        json.dump(
+            {
+                "version": "1.0",
+                "generated_at": index["generated_at"],
+                "events": all_events,
+            },
+            f,
+            indent=2,
+        )
     print(f"Wrote: {events_history_path}")
 
     # Write Atom feed
