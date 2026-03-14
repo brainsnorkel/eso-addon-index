@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "78e896b",
+      "version": "8b7627e",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-13T01:41:35Z",
-      "release_notes": "Add vAS mini panel settings for console",
-      "commit_sha": "78e896bba1bb7ad92cfaf3603584b5b932d40d89",
-      "commit_date": "2026-03-13T01:41:35Z",
-      "commit_message": "Add vAS mini panel settings for console"
+      "published_at": "2026-03-14T03:12:36Z",
+      "release_notes": "Improve Felms teleport timer to show target",
+      "commit_sha": "8b7627e2f180d0e22895f2c07cbc4b185011a908",
+      "commit_date": "2026-03-14T03:12:36Z",
+      "commit_message": "Improve Felms teleport timer to show target"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-14T00:20:33.129179+00:00",
-  "updates": []
+  "last_checked": "2026-03-14T06:16:09.013274+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "78e896b",
+      "new_version": "8b7627e",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Improve Felms teleport timer to show target"
+    }
+  ]
 }

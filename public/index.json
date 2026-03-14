@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-14T00:20:33.284227+00:00",
+  "generated_at": "2026-03-14T06:16:09.167527+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "78e896b",
+        "version": "8b7627e",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-13T01:41:35Z",
-        "commit_sha": "78e896bba1bb7ad92cfaf3603584b5b932d40d89",
-        "commit_date": "2026-03-13T01:41:35Z",
-        "commit_message": "Add vAS mini panel settings for console"
+        "published_at": "2026-03-14T03:12:36Z",
+        "commit_sha": "8b7627e2f180d0e22895f2c07cbc4b185011a908",
+        "commit_date": "2026-03-14T03:12:36Z",
+        "commit_message": "Improve Felms teleport timer to show target"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add vAS mini panel settings for console"
+        "commit_message": "Improve Felms teleport timer to show target"
       },
-      "last_updated": "2026-03-13T01:41:35Z"
+      "last_updated": "2026-03-14T03:12:36Z"
     },
     {
       "slug": "elmsmarkers",
