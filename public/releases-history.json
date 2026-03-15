@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-15T12:09:06.124322+00:00",
+  "generated_at": "2026-03-15T18:08:42.877163+00:00",
   "events": [
+    {
+      "slug": "libsets",
+      "name": "LibSets",
+      "url": "https://github.com/Baertram/LibSets",
+      "old_version": "895488f",
+      "new_version": "72aef75",
+      "published_at": "2026-03-15T12:57:20Z",
+      "detected_at": "2026-03-15T18:08:42.877163+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "622cdc9",
       "published_at": "2026-01-04T09:21:02Z",
       "detected_at": "2026-01-04T12:07:12.898436+00:00"
-    },
-    {
-      "slug": "groupsetupwarnings",
-      "name": "Group Setup Warnings",
-      "url": "https://github.com/brainsnorkel/GroupSetupWarnings",
-      "old_version": null,
-      "new_version": "v1.7.1",
-      "published_at": "2026-01-04T02:19:15Z",
-      "detected_at": "2026-01-04T06:06:16.034297+00:00"
     }
   ]
 }

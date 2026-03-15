@@ -257,13 +257,13 @@
       "commit_sha": "2d1a560be58aaad8e857a2271480189f81955575"
     },
     "libsets": {
-      "version": "895488f",
+      "version": "72aef75",
       "download_url": "https://github.com/Baertram/LibSets/archive/refs/heads/LibSets-reworked.zip",
-      "published_at": "2025-12-01T21:34:33Z",
-      "release_notes": "LibSets v0.86",
-      "commit_sha": "895488fd1216935ce023dac87eba9f5268deab33",
-      "commit_date": "2025-12-01T21:34:33Z",
-      "commit_message": "LibSets v0.86"
+      "published_at": "2026-03-15T12:57:20Z",
+      "release_notes": "LibSets v0.8.9",
+      "commit_sha": "72aef75450a47738a0ba2f6c2a75f8d0e5a26fcf",
+      "commit_date": "2026-03-15T12:57:20Z",
+      "commit_message": "LibSets v0.8.9"
     },
     "libsfutils": {
       "version": "v38",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-15T12:09:05.967268+00:00",
-  "updates": []
+  "last_checked": "2026-03-15T18:08:42.714850+00:00",
+  "updates": [
+    {
+      "slug": "libsets",
+      "old_version": "895488f",
+      "new_version": "72aef75",
+      "repo": "Baertram/LibSets",
+      "commit_message": "LibSets v0.8.9"
+    }
+  ]
 }

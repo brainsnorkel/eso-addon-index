@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-15T12:09:06.124322+00:00</updated>
+  <updated>2026-03-15T18:08:42.877163+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libsets:72aef75</id>
+    <title>LibSets updated: 895488f → 72aef75</title>
+    <link href="https://github.com/Baertram/LibSets" rel="alternate"/>
+    <updated>2026-03-15T18:08:42.877163+00:00</updated>
+    <summary>LibSets has been updated from version 895488f to 72aef75.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:8b7627e</id>
     <title>CrutchAlerts updated: 78e896b → 8b7627e</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
     <updated>2026-01-04T12:07:12.898436+00:00</updated>
     <summary>CrutchAlerts has been updated from version db35267 to 622cdc9.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:groupsetupwarnings:v1.7.1</id>
-    <title>Group Setup Warnings added: v1.7.1</title>
-    <link href="https://github.com/brainsnorkel/GroupSetupWarnings" rel="alternate"/>
-    <updated>2026-01-04T06:06:16.034297+00:00</updated>
-    <summary>Group Setup Warnings version v1.7.1 has been added to the index.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
