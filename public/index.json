@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-16T06:33:21.157296+00:00",
+  "generated_at": "2026-03-16T12:17:49.853873+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "8b7627e",
+        "version": "1663c4c",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-14T03:12:36Z",
-        "commit_sha": "8b7627e2f180d0e22895f2c07cbc4b185011a908",
-        "commit_date": "2026-03-14T03:12:36Z",
-        "commit_message": "Improve Felms teleport timer to show target"
+        "published_at": "2026-03-16T08:42:06Z",
+        "commit_sha": "1663c4c0514cef45c58a47aca6adbc13816b05d4",
+        "commit_date": "2026-03-16T08:42:06Z",
+        "commit_message": "[2.13.0] Bump version"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Improve Felms teleport timer to show target"
+        "commit_message": "[2.13.0] Bump version"
       },
-      "last_updated": "2026-03-14T03:12:36Z"
+      "last_updated": "2026-03-16T08:42:06Z"
     },
     {
       "slug": "elmsmarkers",

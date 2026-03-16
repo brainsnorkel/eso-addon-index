@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "8b7627e",
+      "version": "1663c4c",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-14T03:12:36Z",
-      "release_notes": "Improve Felms teleport timer to show target",
-      "commit_sha": "8b7627e2f180d0e22895f2c07cbc4b185011a908",
-      "commit_date": "2026-03-14T03:12:36Z",
-      "commit_message": "Improve Felms teleport timer to show target"
+      "published_at": "2026-03-16T08:42:06Z",
+      "release_notes": "[2.13.0] Bump version",
+      "commit_sha": "1663c4c0514cef45c58a47aca6adbc13816b05d4",
+      "commit_date": "2026-03-16T08:42:06Z",
+      "commit_message": "[2.13.0] Bump version"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-16T06:33:21.003587+00:00",
-  "updates": []
+  "last_checked": "2026-03-16T12:17:49.681363+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "8b7627e",
+      "new_version": "1663c4c",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.13.0] Bump version"
+    }
+  ]
 }
