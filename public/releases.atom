@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-15T18:08:42.877163+00:00</updated>
+  <updated>2026-03-16T00:25:03.006151+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2026-03-15</id>
+    <title>LibCustomIcons updated: 2026-03-08 → 2026-03-15</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-03-16T00:25:03.006151+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-03-08 to 2026-03-15.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2026-03-15</id>
+    <title>LibCustomNames updated: 2026-03-08 → 2026-03-15</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-03-16T00:25:03.006151+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-03-08 to 2026-03-15.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libsets:72aef75</id>
     <title>LibSets updated: 895488f → 72aef75</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
     <updated>2026-01-05T00:19:14.041523+00:00</updated>
     <summary>LibCustomNames has been updated from version 2025-12-28 to 2026-01-04.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:6c9c9bb</id>
-    <title>CrutchAlerts updated: 622cdc9 → 6c9c9bb</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-01-04T18:05:49.232985+00:00</updated>
-    <summary>CrutchAlerts has been updated from version 622cdc9 to 6c9c9bb.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:622cdc9</id>
-    <title>CrutchAlerts updated: db35267 → 622cdc9</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-01-04T12:07:12.898436+00:00</updated>
-    <summary>CrutchAlerts has been updated from version db35267 to 622cdc9.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
