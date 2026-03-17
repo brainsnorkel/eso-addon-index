@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "1663c4c",
+      "version": "99eb7dd",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-16T08:42:06Z",
-      "release_notes": "[2.13.0] Bump version",
-      "commit_sha": "1663c4c0514cef45c58a47aca6adbc13816b05d4",
-      "commit_date": "2026-03-16T08:42:06Z",
-      "commit_message": "[2.13.0] Bump version"
+      "published_at": "2026-03-17T04:27:26Z",
+      "release_notes": "Add Eternal Servant up next",
+      "commit_sha": "99eb7dddc391b815588088ad89952ce9f63ba833",
+      "commit_date": "2026-03-17T04:27:26Z",
+      "commit_message": "Add Eternal Servant up next"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-17T00:22:32.483398+00:00",
-  "updates": []
+  "last_checked": "2026-03-17T06:23:31.677488+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "1663c4c",
+      "new_version": "99eb7dd",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add Eternal Servant up next"
+    }
+  ]
 }

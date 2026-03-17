@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-17T00:22:32.667889+00:00",
+  "generated_at": "2026-03-17T06:23:31.851028+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "1663c4c",
+        "version": "99eb7dd",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-16T08:42:06Z",
-        "commit_sha": "1663c4c0514cef45c58a47aca6adbc13816b05d4",
-        "commit_date": "2026-03-16T08:42:06Z",
-        "commit_message": "[2.13.0] Bump version"
+        "published_at": "2026-03-17T04:27:26Z",
+        "commit_sha": "99eb7dddc391b815588088ad89952ce9f63ba833",
+        "commit_date": "2026-03-17T04:27:26Z",
+        "commit_message": "Add Eternal Servant up next"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.13.0] Bump version"
+        "commit_message": "Add Eternal Servant up next"
       },
-      "last_updated": "2026-03-16T08:42:06Z"
+      "last_updated": "2026-03-17T04:27:26Z"
     },
     {
       "slug": "elmsmarkers",
