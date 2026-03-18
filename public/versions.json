@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "a968361",
+      "version": "88abacf",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-18T02:49:34Z",
-      "release_notes": "Clean some comments",
-      "commit_sha": "a9683613598b22fe07e944f69ceb223fac7592ef",
-      "commit_date": "2026-03-18T02:49:34Z",
-      "commit_message": "Clean some comments"
+      "published_at": "2026-03-18T17:46:50Z",
+      "release_notes": "Add half-baked circling jet",
+      "commit_sha": "88abacf36c47441b5bc33cb4622187d2b06faae9",
+      "commit_date": "2026-03-18T17:46:50Z",
+      "commit_message": "Add half-baked circling jet"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-18T12:17:27.047191+00:00",
-  "updates": []
+  "last_checked": "2026-03-18T18:21:38.219086+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "a968361",
+      "new_version": "88abacf",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add half-baked circling jet"
+    }
+  ]
 }
