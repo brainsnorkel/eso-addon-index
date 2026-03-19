@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-18T18:21:38.400287+00:00",
+  "generated_at": "2026-03-19T00:23:41.029808+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1193,12 +1193,12 @@
         ]
       },
       "latest_release": {
-        "version": "b35d4de",
+        "version": "5931983",
         "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
-        "published_at": "2026-01-02T19:56:38Z",
-        "commit_sha": "b35d4deaa1856a6d5f26bd8fca8f4c90ce02cee5",
-        "commit_date": "2026-01-02T19:56:38Z",
-        "commit_message": "Small fix with the cooldown color"
+        "published_at": "2026-03-18T18:38:33Z",
+        "commit_sha": "59319834ec3689efc711a4919c94711988d1b46f",
+        "commit_date": "2026-03-18T18:38:33Z",
+        "commit_message": "Version 2.0.3"
       },
       "download_sources": [
         {
@@ -1217,9 +1217,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Small fix with the cooldown color"
+        "commit_message": "Version 2.0.3"
       },
-      "last_updated": "2026-01-02T19:56:38Z"
+      "last_updated": "2026-03-18T18:38:33Z"
     },
     {
       "slug": "hypertools",

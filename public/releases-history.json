@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-18T18:21:38.400287+00:00",
+  "generated_at": "2026-03-19T00:23:41.029808+00:00",
   "events": [
+    {
+      "slug": "huntsmanwarmaskreminder",
+      "name": "Huntsman Warmask Reminder",
+      "url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder",
+      "old_version": "b35d4de",
+      "new_version": "5931983",
+      "published_at": "2026-03-18T18:38:33Z",
+      "detected_at": "2026-03-19T00:23:41.029808+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "d3816d3",
       "published_at": "2026-01-09T08:05:12Z",
       "detected_at": "2026-01-09T12:07:46.059339+00:00"
-    },
-    {
-      "slug": "combatmetronome",
-      "name": "CombatMetronome",
-      "url": "https://github.com/barny22/CombatMetronome",
-      "old_version": "1.7.3",
-      "new_version": "1.7.4",
-      "published_at": "2026-01-08T15:35:50Z",
-      "detected_at": "2026-01-08T18:06:19.278557+00:00"
     }
   ]
 }

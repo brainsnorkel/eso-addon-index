@@ -126,13 +126,13 @@
       "release_notes": "## 2026.03.04 - @m00nyONE\n- fixing UI not being in the previously saved position on Console. Thanks to @panth13 for reporting that :-)\n- adding support for LibRadialMenu for PC. Thanks to @M0RGaming for implementing that :-)\n\n"
     },
     "huntsmanwarmaskreminder": {
-      "version": "b35d4de",
+      "version": "5931983",
       "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
-      "published_at": "2026-01-02T19:56:38Z",
-      "release_notes": "Small fix with the cooldown color",
-      "commit_sha": "b35d4deaa1856a6d5f26bd8fca8f4c90ce02cee5",
-      "commit_date": "2026-01-02T19:56:38Z",
-      "commit_message": "Small fix with the cooldown color"
+      "published_at": "2026-03-18T18:38:33Z",
+      "release_notes": "Version 2.0.3",
+      "commit_sha": "59319834ec3689efc711a4919c94711988d1b46f",
+      "commit_date": "2026-03-18T18:38:33Z",
+      "commit_message": "Version 2.0.3"
     },
     "hypertools": {
       "version": "3c8e9d4",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-18T18:21:38.219086+00:00",
+  "last_checked": "2026-03-19T00:23:40.851502+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "a968361",
-      "new_version": "88abacf",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add half-baked circling jet"
+      "slug": "huntsmanwarmaskreminder",
+      "old_version": "b35d4de",
+      "new_version": "5931983",
+      "repo": "VollstaendigerName/HuntsmanWarmaskReminder",
+      "commit_message": "Version 2.0.3"
     }
   ]
 }
