@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-20T00:22:38.747757+00:00",
+  "generated_at": "2026-03-20T06:18:52.717853+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "88abacf",
+        "version": "fc6ae7d",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-18T17:46:50Z",
-        "commit_sha": "88abacf36c47441b5bc33cb4622187d2b06faae9",
-        "commit_date": "2026-03-18T17:46:50Z",
-        "commit_message": "Add half-baked circling jet"
+        "published_at": "2026-03-20T01:40:35Z",
+        "commit_sha": "fc6ae7db012a59cd978411a6d302e356323ee61d",
+        "commit_date": "2026-03-20T01:40:35Z",
+        "commit_message": "Extract DrawStage"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add half-baked circling jet"
+        "commit_message": "Extract DrawStage"
       },
-      "last_updated": "2026-03-18T17:46:50Z"
+      "last_updated": "2026-03-20T01:40:35Z"
     },
     {
       "slug": "elmsmarkers",

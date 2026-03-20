@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "88abacf",
+      "version": "fc6ae7d",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-18T17:46:50Z",
-      "release_notes": "Add half-baked circling jet",
-      "commit_sha": "88abacf36c47441b5bc33cb4622187d2b06faae9",
-      "commit_date": "2026-03-18T17:46:50Z",
-      "commit_message": "Add half-baked circling jet"
+      "published_at": "2026-03-20T01:40:35Z",
+      "release_notes": "Extract DrawStage",
+      "commit_sha": "fc6ae7db012a59cd978411a6d302e356323ee61d",
+      "commit_date": "2026-03-20T01:40:35Z",
+      "commit_message": "Extract DrawStage"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,20 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-20T00:22:38.564529+00:00",
+  "last_checked": "2026-03-20T06:18:52.541575+00:00",
   "updates": [
     {
-      "slug": "libsets",
-      "old_version": "72aef75",
-      "new_version": "6ac92a9",
-      "repo": "Baertram/LibSets",
-      "commit_message": "Update license.md"
-    },
-    {
-      "slug": "m0rmarkers",
-      "old_version": "v1.9.0",
-      "new_version": "v1.9.1",
-      "repo": "M0RGaming/M0RMarkers"
+      "slug": "crutchalerts",
+      "old_version": "88abacf",
+      "new_version": "fc6ae7d",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Extract DrawStage"
     }
   ]
 }
