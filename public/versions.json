@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "fc6ae7d",
+      "version": "2ce1f81",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-20T01:40:35Z",
-      "release_notes": "Extract DrawStage",
-      "commit_sha": "fc6ae7db012a59cd978411a6d302e356323ee61d",
-      "commit_date": "2026-03-20T01:40:35Z",
-      "commit_message": "Extract DrawStage"
+      "published_at": "2026-03-20T12:27:24Z",
+      "release_notes": "Probably fix congrations",
+      "commit_sha": "2ce1f817808862a818a9220ebe089b7653b57808",
+      "commit_date": "2026-03-20T12:27:24Z",
+      "commit_message": "Probably fix congrations"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-20T12:11:11.963430+00:00",
-  "updates": []
+  "last_checked": "2026-03-20T18:13:20.456878+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "fc6ae7d",
+      "new_version": "2ce1f81",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Probably fix congrations"
+    }
+  ]
 }

@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-20T12:11:12.143093+00:00</updated>
+  <updated>2026-03-20T18:13:20.633049+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:2ce1f81</id>
+    <title>CrutchAlerts updated: fc6ae7d → 2ce1f81</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-03-20T18:13:20.633049+00:00</updated>
+    <summary>CrutchAlerts has been updated from version fc6ae7d to 2ce1f81.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:fc6ae7d</id>
     <title>CrutchAlerts updated: 88abacf → fc6ae7d</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibGroupCombatStats" rel="alternate"/>
     <updated>2026-01-11T06:06:04.807966+00:00</updated>
     <summary>LibGroupCombatStats has been updated from version 2025.10.11 to 2026-01-11.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:improveddeathrecap:1.0.1</id>
-    <title>ImprovedDeathRecap updated: 1.0.0 → 1.0.1</title>
-    <link href="https://github.com/Solinur/ImprovedDeathRecap" rel="alternate"/>
-    <updated>2026-01-11T00:19:51.072257+00:00</updated>
-    <summary>ImprovedDeathRecap has been updated from version 1.0.0 to 1.0.1.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

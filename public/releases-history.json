@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-20T12:11:12.143093+00:00",
+  "generated_at": "2026-03-20T18:13:20.633049+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "fc6ae7d",
+      "new_version": "2ce1f81",
+      "published_at": "2026-03-20T12:27:24Z",
+      "detected_at": "2026-03-20T18:13:20.633049+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "2026-01-11",
       "published_at": "2026-01-11T00:45:17Z",
       "detected_at": "2026-01-11T06:06:04.807966+00:00"
-    },
-    {
-      "slug": "improveddeathrecap",
-      "name": "ImprovedDeathRecap",
-      "url": "https://github.com/Solinur/ImprovedDeathRecap",
-      "old_version": "1.0.0",
-      "new_version": "1.0.1",
-      "published_at": "2026-01-10T19:58:28Z",
-      "detected_at": "2026-01-11T00:19:51.072257+00:00"
     }
   ]
 }
