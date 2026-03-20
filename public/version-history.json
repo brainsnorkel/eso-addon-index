@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-19T18:18:05.858442+00:00",
+  "generated_at": "2026-03-20T00:22:38.747757+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -757,6 +757,12 @@
     ],
     "libsets": [
       {
+        "version": "6ac92a9",
+        "published_at": "2026-03-19T21:31:33Z",
+        "detected_at": "2026-03-20T00:22:38.747757+00:00",
+        "commit_sha": "6ac92a94cd74a3ab2ca5b297cd794b0f662d1253"
+      },
+      {
         "version": "72aef75",
         "published_at": "2026-03-15T12:57:20Z",
         "detected_at": "2026-03-15T18:08:42.877163+00:00",
@@ -808,6 +814,12 @@
       }
     ],
     "m0rmarkers": [
+      {
+        "version": "v1.9.1",
+        "published_at": "2026-03-19T18:40:07Z",
+        "detected_at": "2026-03-20T00:22:38.747757+00:00",
+        "commit_sha": "65a477452910363c8e5779fa87a8f02cb06d2f29"
+      },
       {
         "version": "v1.9.0",
         "published_at": "2026-03-10T06:07:30Z",

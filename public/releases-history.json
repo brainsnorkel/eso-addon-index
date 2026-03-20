@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-19T18:18:05.858442+00:00",
+  "generated_at": "2026-03-20T00:22:38.747757+00:00",
   "events": [
+    {
+      "slug": "libsets",
+      "name": "LibSets",
+      "url": "https://github.com/Baertram/LibSets",
+      "old_version": "72aef75",
+      "new_version": "6ac92a9",
+      "published_at": "2026-03-19T21:31:33Z",
+      "detected_at": "2026-03-20T00:22:38.747757+00:00"
+    },
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "old_version": "v1.9.0",
+      "new_version": "v1.9.1",
+      "published_at": "2026-03-19T18:40:07Z",
+      "detected_at": "2026-03-20T00:22:38.747757+00:00"
+    },
     {
       "slug": "huntsmanwarmaskreminder",
       "name": "Huntsman Warmask Reminder",
@@ -883,24 +901,6 @@
       "new_version": "9c32338",
       "published_at": "2026-01-10T14:11:13Z",
       "detected_at": "2026-01-10T18:06:04.590302+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "d3816d3",
-      "new_version": "8740351",
-      "published_at": "2026-01-10T07:59:02Z",
-      "detected_at": "2026-01-10T12:07:03.048244+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "a40da1a",
-      "new_version": "d3816d3",
-      "published_at": "2026-01-09T08:05:12Z",
-      "detected_at": "2026-01-09T12:07:46.059339+00:00"
     }
   ]
 }

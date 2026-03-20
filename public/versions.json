@@ -257,13 +257,13 @@
       "commit_sha": "2d1a560be58aaad8e857a2271480189f81955575"
     },
     "libsets": {
-      "version": "72aef75",
+      "version": "6ac92a9",
       "download_url": "https://github.com/Baertram/LibSets/archive/refs/heads/LibSets-reworked.zip",
-      "published_at": "2026-03-15T12:57:20Z",
-      "release_notes": "LibSets v0.8.9",
-      "commit_sha": "72aef75450a47738a0ba2f6c2a75f8d0e5a26fcf",
-      "commit_date": "2026-03-15T12:57:20Z",
-      "commit_message": "LibSets v0.8.9"
+      "published_at": "2026-03-19T21:31:33Z",
+      "release_notes": "Update license.md",
+      "commit_sha": "6ac92a94cd74a3ab2ca5b297cd794b0f662d1253",
+      "commit_date": "2026-03-19T21:31:33Z",
+      "commit_message": "Update license.md"
     },
     "libsfutils": {
       "version": "v38",
@@ -279,9 +279,9 @@
       "release_notes": "## What's Changed\r\n* chore: bump version to 7.2.0.2 and update font handling by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/369\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.1...v7.2.0.2"
     },
     "m0rmarkers": {
-      "version": "v1.9.0",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.0",
-      "published_at": "2026-03-10T06:07:30Z",
+      "version": "v1.9.1",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.1",
+      "published_at": "2026-03-19T18:40:07Z",
       "release_notes": ""
     },
     "odysupporticons": {
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-19T18:18:05.685381+00:00",
-  "updates": []
+  "last_checked": "2026-03-20T00:22:38.564529+00:00",
+  "updates": [
+    {
+      "slug": "libsets",
+      "old_version": "72aef75",
+      "new_version": "6ac92a9",
+      "repo": "Baertram/LibSets",
+      "commit_message": "Update license.md"
+    },
+    {
+      "slug": "m0rmarkers",
+      "old_version": "v1.9.0",
+      "new_version": "v1.9.1",
+      "repo": "M0RGaming/M0RMarkers"
+    }
+  ]
 }

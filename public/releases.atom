@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-19T18:18:05.858442+00:00</updated>
+  <updated>2026-03-20T00:22:38.747757+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libsets:6ac92a9</id>
+    <title>LibSets updated: 72aef75 → 6ac92a9</title>
+    <link href="https://github.com/Baertram/LibSets" rel="alternate"/>
+    <updated>2026-03-20T00:22:38.747757+00:00</updated>
+    <summary>LibSets has been updated from version 72aef75 to 6ac92a9.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:m0rmarkers:v1.9.1</id>
+    <title>M0RMarkers updated: v1.9.0 → v1.9.1</title>
+    <link href="https://github.com/M0RGaming/M0RMarkers" rel="alternate"/>
+    <updated>2026-03-20T00:22:38.747757+00:00</updated>
+    <summary>M0RMarkers has been updated from version v1.9.0 to v1.9.1.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:huntsmanwarmaskreminder:5931983</id>
     <title>Huntsman Warmask Reminder updated: b35d4de → 5931983</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/votan73/ESO" rel="alternate"/>
     <updated>2026-01-10T18:06:04.590302+00:00</updated>
     <summary>LibCustomMenu has been updated from version 236bb8a to 9c32338.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:8740351</id>
-    <title>CrutchAlerts updated: d3816d3 → 8740351</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-01-10T12:07:03.048244+00:00</updated>
-    <summary>CrutchAlerts has been updated from version d3816d3 to 8740351.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:d3816d3</id>
-    <title>CrutchAlerts updated: a40da1a → d3816d3</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-01-09T12:07:46.059339+00:00</updated>
-    <summary>CrutchAlerts has been updated from version a40da1a to d3816d3.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
