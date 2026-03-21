@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-20T18:13:20.456878+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "fc6ae7d",
-      "new_version": "2ce1f81",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Probably fix congrations"
-    }
-  ]
+  "last_checked": "2026-03-21T00:21:02.218473+00:00",
+  "updates": []
 }
