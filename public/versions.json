@@ -26,10 +26,10 @@
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
     "beammeup": {
-      "version": "v4.0.1",
-      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.1",
-      "published_at": "2026-03-10T19:33:23Z",
-      "release_notes": "- Added LibHarvensAddonSettings as necessary dependency\r\n- Fixed repeating notifications when switching to/from gamepad mode\r\n- Fixed some smaller issues in gamepad mode"
+      "version": "4.0.2.009",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.2.009",
+      "published_at": "2026-03-21T20:39:44Z",
+      "release_notes": "Console Release Only\n## 2026.03.08\n- Add gamepad support and ci/cd\n"
     },
     "breadcrumbs": {
       "version": "v1.2",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-21T18:07:44.516798+00:00",
-  "updates": []
+  "last_checked": "2026-03-22T00:23:20.803281+00:00",
+  "updates": [
+    {
+      "slug": "beammeup",
+      "old_version": "v4.0.1",
+      "new_version": "4.0.2.009",
+      "repo": "david-tub/BeamMeUp"
+    }
+  ]
 }

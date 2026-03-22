@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-21T18:07:44.694419+00:00",
+  "generated_at": "2026-03-22T00:23:20.987148+00:00",
   "events": [
+    {
+      "slug": "beammeup",
+      "name": "BeamMeUp",
+      "url": "https://github.com/david-tub/BeamMeUp",
+      "old_version": "v4.0.1",
+      "new_version": "4.0.2.009",
+      "published_at": "2026-03-21T20:39:44Z",
+      "detected_at": "2026-03-22T00:23:20.987148+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "2026-01-11",
       "published_at": "2026-01-11T22:39:57Z",
       "detected_at": "2026-01-12T00:18:40.962754+00:00"
-    },
-    {
-      "slug": "libgroupcombatstats",
-      "name": "LibGroupCombatStats",
-      "url": "https://github.com/m00nyONE/LibGroupCombatStats",
-      "old_version": "2025.10.11",
-      "new_version": "2026-01-11",
-      "published_at": "2026-01-11T00:45:17Z",
-      "detected_at": "2026-01-11T06:06:04.807966+00:00"
     }
   ]
 }

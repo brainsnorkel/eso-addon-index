@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-21T18:07:44.694419+00:00</updated>
+  <updated>2026-03-22T00:23:20.987148+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:beammeup:4.0.2.009</id>
+    <title>BeamMeUp updated: v4.0.1 → 4.0.2.009</title>
+    <link href="https://github.com/david-tub/BeamMeUp" rel="alternate"/>
+    <updated>2026-03-22T00:23:20.987148+00:00</updated>
+    <summary>BeamMeUp has been updated from version v4.0.1 to 4.0.2.009.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:2ce1f81</id>
     <title>CrutchAlerts updated: fc6ae7d → 2ce1f81</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
     <updated>2026-01-12T00:18:40.962754+00:00</updated>
     <summary>LibCustomNames has been updated from version 2026-01-04 to 2026-01-11.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libgroupcombatstats:2026-01-11</id>
-    <title>LibGroupCombatStats updated: 2025.10.11 → 2026-01-11</title>
-    <link href="https://github.com/m00nyONE/LibGroupCombatStats" rel="alternate"/>
-    <updated>2026-01-11T06:06:04.807966+00:00</updated>
-    <summary>LibGroupCombatStats has been updated from version 2025.10.11 to 2026-01-11.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
