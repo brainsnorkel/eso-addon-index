@@ -26,10 +26,10 @@
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
     "beammeup": {
-      "version": "4.0.2.009",
-      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.2.009",
-      "published_at": "2026-03-21T20:39:44Z",
-      "release_notes": "Console Release Only\n## 2026.03.08\n- Add gamepad support and ci/cd\n"
+      "version": "v4.0.2",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.2",
+      "published_at": "2026-03-22T19:28:02Z",
+      "release_notes": "- Improved filter in the own houses tab\r\n- Fixed several bugs of the core features\r\n- Fixed several issues in gamepad mode\r\n- Improved gamepad compatibility and integration\r\n\r\nNOTE: You can now delete \"IsJusta BeamMeUp Gamepad Plugin\" because it is fully integrated."
     },
     "breadcrumbs": {
       "version": "v1.2",
@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2ce1f81",
+      "version": "5bd6295",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-20T12:27:24Z",
-      "release_notes": "Probably fix congrations",
-      "commit_sha": "2ce1f817808862a818a9220ebe089b7653b57808",
-      "commit_date": "2026-03-20T12:27:24Z",
-      "commit_message": "Probably fix congrations"
+      "published_at": "2026-03-22T23:30:28Z",
+      "release_notes": "Add backup guar",
+      "commit_sha": "5bd629540169de98f8332985bcbac35c956a17b7",
+      "commit_date": "2026-03-22T23:30:28Z",
+      "commit_message": "Add backup guar"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -182,9 +182,9 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-03-15",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-03-15",
-      "published_at": "2026-03-15T22:46:54Z",
+      "version": "2026-03-22",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-03-22",
+      "published_at": "2026-03-22T22:44:50Z",
       "release_notes": "## 2025.11.16\n- BREAKING CHANGE FOR DEVELOPERS:\n- removed GetIcon() - use GetStatic() or GetAnimated() instead\n- BREAKING CHANGES IN THE NEAR FUTURE:\n- GetStatic() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom` instead of only texturePath\n- GetAnimated() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, framerate` instead of a table.\n- If you are a developer, and you have"
     },
     "libcustommenu": {
@@ -197,9 +197,9 @@
       "commit_message": "version 3.4.0:"
     },
     "libcustomnames": {
-      "version": "2026-03-15",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-03-15",
-      "published_at": "2026-03-15T22:47:21Z",
+      "version": "2026-03-22",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-03-22",
+      "published_at": "2026-03-22T22:45:08Z",
       "release_notes": "## 2026.02.07\n- adding STUDLETON to the authors list\n\n"
     },
     "libdebuglogger": {
@@ -324,6 +324,32 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-22T18:08:18.324980+00:00",
-  "updates": []
+  "last_checked": "2026-03-23T00:24:55.719420+00:00",
+  "updates": [
+    {
+      "slug": "beammeup",
+      "old_version": "4.0.2.009",
+      "new_version": "v4.0.2",
+      "repo": "david-tub/BeamMeUp"
+    },
+    {
+      "slug": "crutchalerts",
+      "old_version": "2ce1f81",
+      "new_version": "5bd6295",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add backup guar"
+    },
+    {
+      "slug": "libcustomicons",
+      "old_version": "2026-03-15",
+      "new_version": "2026-03-22",
+      "repo": "m00nyONE/LibCustomIcons"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-03-15",
+      "new_version": "2026-03-22",
+      "repo": "m00nyONE/LibCustomNames"
+    }
+  ]
 }

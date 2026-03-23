@@ -65,10 +65,10 @@
     },
     {
       "id": "beammeup",
-      "title": "BeamMeUp 4.0.2.009",
+      "title": "BeamMeUp v4.0.2",
       "url": "https://github.com/david-tub/BeamMeUp",
-      "date_published": "2026-03-21T20:39:44Z",
-      "date_modified": "2026-03-21T20:39:44Z",
+      "date_published": "2026-03-22T19:28:02Z",
+      "date_modified": "2026-03-22T19:28:02Z",
       "authors": [
         {
           "name": "DeadSoon"
@@ -192,10 +192,10 @@
     },
     {
       "id": "crutchalerts",
-      "title": "CrutchAlerts 2ce1f81",
+      "title": "CrutchAlerts 5bd6295",
       "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "date_published": "2026-03-20T12:27:24Z",
-      "date_modified": "2026-03-20T12:27:24Z",
+      "date_published": "2026-03-22T23:30:28Z",
+      "date_modified": "2026-03-22T23:30:28Z",
       "authors": [
         {
           "name": "Kyzeragon"
@@ -477,10 +477,10 @@
     },
     {
       "id": "libcustomicons",
-      "title": "LibCustomIcons 2026-03-15",
+      "title": "LibCustomIcons 2026-03-22",
       "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "date_published": "2026-03-15T22:46:54Z",
-      "date_modified": "2026-03-15T22:46:54Z",
+      "date_published": "2026-03-22T22:44:50Z",
+      "date_modified": "2026-03-22T22:44:50Z",
       "authors": [
         {
           "name": "m00nyONE"
@@ -516,10 +516,10 @@
     },
     {
       "id": "libcustomnames",
-      "title": "LibCustomNames 2026-03-15",
+      "title": "LibCustomNames 2026-03-22",
       "url": "https://github.com/m00nyONE/LibCustomNames",
-      "date_published": "2026-03-15T22:47:21Z",
-      "date_modified": "2026-03-15T22:47:21Z",
+      "date_published": "2026-03-22T22:45:08Z",
+      "date_modified": "2026-03-22T22:45:08Z",
       "authors": [
         {
           "name": "m00nyONE"

@@ -5,11 +5,51 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-22T18:08:18.508317+00:00</updated>
+  <updated>2026-03-23T00:24:55.896401+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:beammeup:v4.0.2</id>
+    <title>BeamMeUp updated: 4.0.2.009 → v4.0.2</title>
+    <link href="https://github.com/david-tub/BeamMeUp" rel="alternate"/>
+    <updated>2026-03-23T00:24:55.896401+00:00</updated>
+    <summary>BeamMeUp has been updated from version 4.0.2.009 to v4.0.2.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:5bd6295</id>
+    <title>CrutchAlerts updated: 2ce1f81 → 5bd6295</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-03-23T00:24:55.896401+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 2ce1f81 to 5bd6295.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2026-03-22</id>
+    <title>LibCustomIcons updated: 2026-03-15 → 2026-03-22</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-03-23T00:24:55.896401+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-03-15 to 2026-03-22.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2026-03-22</id>
+    <title>LibCustomNames updated: 2026-03-15 → 2026-03-22</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-03-23T00:24:55.896401+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-03-15 to 2026-03-22.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:beammeup:4.0.2.009</id>
     <title>BeamMeUp updated: v4.0.1 → 4.0.2.009</title>
@@ -966,46 +1006,6 @@
     <link href="https://github.com/sirinsidiator/ESO-LibDebugLogger" rel="alternate"/>
     <updated>2026-01-13T18:07:28.903593+00:00</updated>
     <summary>LibDebugLogger has been updated from version f29c489 to fe1b0e5.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:f81b613</id>
-    <title>CrutchAlerts updated: 8740351 → f81b613</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-01-13T12:08:00.274293+00:00</updated>
-    <summary>CrutchAlerts has been updated from version 8740351 to f81b613.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomnames:2026-01-12</id>
-    <title>LibCustomNames updated: 2026-01-11 → 2026-01-12</title>
-    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
-    <updated>2026-01-12T06:08:23.580295+00:00</updated>
-    <summary>LibCustomNames has been updated from version 2026-01-11 to 2026-01-12.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomicons:2026-01-11</id>
-    <title>LibCustomIcons updated: 2026-01-04 → 2026-01-11</title>
-    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
-    <updated>2026-01-12T00:18:40.962754+00:00</updated>
-    <summary>LibCustomIcons has been updated from version 2026-01-04 to 2026-01-11.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomnames:2026-01-11</id>
-    <title>LibCustomNames updated: 2026-01-04 → 2026-01-11</title>
-    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
-    <updated>2026-01-12T00:18:40.962754+00:00</updated>
-    <summary>LibCustomNames has been updated from version 2026-01-04 to 2026-01-11.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
