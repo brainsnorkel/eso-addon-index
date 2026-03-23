@@ -10,13 +10,13 @@
       "commit_message": "v3.142a"
     },
     "aui": {
-      "version": "86be8ca",
+      "version": "cf79383",
       "download_url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
-      "published_at": "2024-10-19T10:16:13Z",
-      "release_notes": "Updated API Version to 101043",
-      "commit_sha": "86be8cafbb635e2501484f80390a86f89e887ba7",
-      "commit_date": "2024-10-19T10:16:13Z",
-      "commit_message": "Updated API Version to 101043"
+      "published_at": "2026-03-23T16:42:11Z",
+      "release_notes": "fix: stop tracking patch notes and guard framemover skillbar",
+      "commit_sha": "cf79383961e5e11dc976bb812fd5ac1d01bd7537",
+      "commit_date": "2026-03-23T16:42:11Z",
+      "commit_message": "fix: stop tracking patch notes and guard framemover skillbar"
     },
     "bandits-user-interface": {
       "version": "v4.428",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-23T12:16:30.498956+00:00",
-  "updates": []
+  "last_checked": "2026-03-23T18:17:22.290865+00:00",
+  "updates": [
+    {
+      "slug": "aui",
+      "old_version": "86be8ca",
+      "new_version": "cf79383",
+      "repo": "Sensi2010/AUI",
+      "commit_message": "fix: stop tracking patch notes and guard framemover skillbar"
+    }
+  ]
 }

@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-23T12:16:30.678930+00:00",
+  "generated_at": "2026-03-23T18:17:22.467403+00:00",
   "events": [
+    {
+      "slug": "aui",
+      "name": "Advanced UI",
+      "url": "https://github.com/Sensi2010/AUI",
+      "old_version": "86be8ca",
+      "new_version": "cf79383",
+      "published_at": "2026-03-23T16:42:11Z",
+      "detected_at": "2026-03-23T18:17:22.467403+00:00"
+    },
     {
       "slug": "m0rmarkers",
       "name": "M0RMarkers",
@@ -892,15 +901,6 @@
       "new_version": "f431355",
       "published_at": "2026-01-15T15:51:18Z",
       "detected_at": "2026-01-15T18:09:49.362917+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "f81b613",
-      "new_version": "bfe9f64",
-      "published_at": "2026-01-14T08:32:24Z",
-      "detected_at": "2026-01-14T12:07:33.811404+00:00"
     }
   ]
 }

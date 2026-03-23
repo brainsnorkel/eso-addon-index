@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-23T12:16:30.678930+00:00",
+  "generated_at": "2026-03-23T18:17:22.467403+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -120,12 +120,12 @@
         ]
       },
       "latest_release": {
-        "version": "86be8ca",
+        "version": "cf79383",
         "download_url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
-        "published_at": "2024-10-19T10:16:13Z",
-        "commit_sha": "86be8cafbb635e2501484f80390a86f89e887ba7",
-        "commit_date": "2024-10-19T10:16:13Z",
-        "commit_message": "Updated API Version to 101043"
+        "published_at": "2026-03-23T16:42:11Z",
+        "commit_sha": "cf79383961e5e11dc976bb812fd5ac1d01bd7537",
+        "commit_date": "2026-03-23T16:42:11Z",
+        "commit_message": "fix: stop tracking patch notes and guard framemover skillbar"
       },
       "download_sources": [
         {
@@ -144,9 +144,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Updated API Version to 101043"
+        "commit_message": "fix: stop tracking patch notes and guard framemover skillbar"
       },
-      "last_updated": "2024-10-19T10:16:13Z"
+      "last_updated": "2026-03-23T16:42:11Z"
     },
     {
       "slug": "bandits-user-interface",
