@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-23T00:24:55.896401+00:00",
+  "generated_at": "2026-03-23T06:26:54.872357+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2758,20 +2758,20 @@
         ]
       },
       "latest_release": {
-        "version": "v1.9.1",
-        "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.1",
-        "published_at": "2026-03-19T18:40:07Z",
-        "commit_sha": "65a477452910363c8e5779fa87a8f02cb06d2f29"
+        "version": "v1.9.2",
+        "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.2",
+        "published_at": "2026-03-23T04:08:14Z",
+        "commit_sha": "fb743d8fe96aa899fe5c8977cc035958f513b282"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/M0RGaming/M0RMarkers@v1.9.1/",
+          "url": "https://cdn.jsdelivr.net/gh/M0RGaming/M0RMarkers@v1.9.2/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.1",
+          "url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.2",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2779,14 +2779,14 @@
         "version_normalized": {
           "major": 1,
           "minor": 9,
-          "patch": 1,
+          "patch": 2,
           "prerelease": null
         },
-        "version_sort_key": 1009001000,
+        "version_sort_key": 1009002000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-03-19T18:40:07Z"
+      "last_updated": "2026-03-23T04:08:14Z"
     },
     {
       "slug": "odysupporticons",

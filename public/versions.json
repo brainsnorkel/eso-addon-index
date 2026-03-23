@@ -279,9 +279,9 @@
       "release_notes": "## What's Changed\r\n* chore: bump version to 7.2.0.2 and update font handling by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/369\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.1...v7.2.0.2"
     },
     "m0rmarkers": {
-      "version": "v1.9.1",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.1",
-      "published_at": "2026-03-19T18:40:07Z",
+      "version": "v1.9.2",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.2",
+      "published_at": "2026-03-23T04:08:14Z",
       "release_notes": ""
     },
     "odysupporticons": {
@@ -324,32 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-23T00:24:55.719420+00:00",
+  "last_checked": "2026-03-23T06:26:54.691952+00:00",
   "updates": [
     {
-      "slug": "beammeup",
-      "old_version": "4.0.2.009",
-      "new_version": "v4.0.2",
-      "repo": "david-tub/BeamMeUp"
-    },
-    {
-      "slug": "crutchalerts",
-      "old_version": "2ce1f81",
-      "new_version": "5bd6295",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add backup guar"
-    },
-    {
-      "slug": "libcustomicons",
-      "old_version": "2026-03-15",
-      "new_version": "2026-03-22",
-      "repo": "m00nyONE/LibCustomIcons"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-03-15",
-      "new_version": "2026-03-22",
-      "repo": "m00nyONE/LibCustomNames"
+      "slug": "m0rmarkers",
+      "old_version": "v1.9.1",
+      "new_version": "v1.9.2",
+      "repo": "M0RGaming/M0RMarkers"
     }
   ]
 }
