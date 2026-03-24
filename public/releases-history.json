@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-24T00:20:23.429033+00:00",
+  "generated_at": "2026-03-24T06:24:11.602608+00:00",
   "events": [
+    {
+      "slug": "actiondurationreminder",
+      "name": "Action Duration Reminder",
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "old_version": "a450dc6",
+      "new_version": "4360e65",
+      "published_at": "2026-03-24T04:03:24Z",
+      "detected_at": "2026-03-24T06:24:11.602608+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "04fe125",
       "published_at": "2026-01-17T02:56:08Z",
       "detected_at": "2026-01-17T06:06:12.328972+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "f431355",
-      "new_version": "aed756c",
-      "published_at": "2026-01-16T03:01:26Z",
-      "detected_at": "2026-01-16T06:07:11.639924+00:00"
     }
   ]
 }

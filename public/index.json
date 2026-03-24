@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-24T00:20:23.429033+00:00",
+  "generated_at": "2026-03-24T06:24:11.602608+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "a450dc6",
+        "version": "4360e65",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2025-10-04T05:39:51Z",
-        "commit_sha": "a450dc67b3f76c5e4afed016f5842b90fc6e599e",
-        "commit_date": "2025-10-04T05:39:51Z",
-        "commit_message": "v3.142a"
+        "published_at": "2026-03-24T04:03:24Z",
+        "commit_sha": "4360e650ee911829d23d41e74290eb8d1a79f8ef",
+        "commit_date": "2026-03-24T04:03:24Z",
+        "commit_message": "Inherit stackCount2 and stackEffect2 when action transforms"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "v3.142a"
+        "commit_message": "Inherit stackCount2 and stackEffect2 when action transforms"
       },
-      "last_updated": "2025-10-04T05:39:51Z"
+      "last_updated": "2026-03-24T04:03:24Z"
     },
     {
       "slug": "aui",
