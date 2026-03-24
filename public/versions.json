@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "5bd6295",
+      "version": "524848e",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-22T23:30:28Z",
-      "release_notes": "Add backup guar",
-      "commit_sha": "5bd629540169de98f8332985bcbac35c956a17b7",
-      "commit_date": "2026-03-22T23:30:28Z",
-      "commit_message": "Add backup guar"
+      "published_at": "2026-03-23T09:23:04Z",
+      "release_notes": "[2.14.0] Bump version",
+      "commit_sha": "524848ec62308c3bf766bfbce725ee036a02fd15",
+      "commit_date": "2026-03-23T09:23:04Z",
+      "commit_message": "[2.14.0] Bump version"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-23T18:17:22.290865+00:00",
+  "last_checked": "2026-03-24T00:20:23.246590+00:00",
   "updates": [
     {
-      "slug": "aui",
-      "old_version": "86be8ca",
-      "new_version": "cf79383",
-      "repo": "Sensi2010/AUI",
-      "commit_message": "fix: stop tracking patch notes and guard framemover skillbar"
+      "slug": "crutchalerts",
+      "old_version": "5bd6295",
+      "new_version": "524848e",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.14.0] Bump version"
     }
   ]
 }
