@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-25T12:16:27.282514+00:00",
+  "generated_at": "2026-03-25T18:20:40.030026+00:00",
   "events": [
+    {
+      "slug": "aui",
+      "name": "Advanced UI",
+      "url": "https://github.com/Sensi2010/AUI",
+      "old_version": "cf79383",
+      "new_version": "345c5b0",
+      "published_at": "2026-03-25T17:24:11Z",
+      "detected_at": "2026-03-25T18:20:40.030026+00:00"
+    },
     {
       "slug": "actiondurationreminder",
       "name": "Action Duration Reminder",
@@ -891,15 +900,6 @@
       "old_version": "2026-01-11",
       "new_version": "2026-01-18",
       "published_at": "2026-01-18T22:34:42Z",
-      "detected_at": "2026-01-19T00:19:02.213069+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-01-12",
-      "new_version": "2026-01-18",
-      "published_at": "2026-01-18T22:34:34Z",
       "detected_at": "2026-01-19T00:19:02.213069+00:00"
     }
   ]

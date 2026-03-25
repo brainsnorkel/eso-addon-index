@@ -10,13 +10,13 @@
       "commit_message": "ignore .claude/"
     },
     "aui": {
-      "version": "cf79383",
+      "version": "345c5b0",
       "download_url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
-      "published_at": "2026-03-23T16:42:11Z",
-      "release_notes": "fix: stop tracking patch notes and guard framemover skillbar",
-      "commit_sha": "cf79383961e5e11dc976bb812fd5ac1d01bd7537",
-      "commit_date": "2026-03-23T16:42:11Z",
-      "commit_message": "fix: stop tracking patch notes and guard framemover skillbar"
+      "published_at": "2026-03-25T17:24:11Z",
+      "release_notes": "chore: clean up addon manifests",
+      "commit_sha": "345c5b0932ec3f0eddca4f7101d3b76a90057883",
+      "commit_date": "2026-03-25T17:24:11Z",
+      "commit_message": "chore: clean up addon manifests"
     },
     "bandits-user-interface": {
       "version": "v4.428",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-25T12:16:27.104238+00:00",
-  "updates": []
+  "last_checked": "2026-03-25T18:20:39.855205+00:00",
+  "updates": [
+    {
+      "slug": "aui",
+      "old_version": "cf79383",
+      "new_version": "345c5b0",
+      "repo": "Sensi2010/AUI",
+      "commit_message": "chore: clean up addon manifests"
+    }
+  ]
 }
