@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "4360e65",
+      "version": "7ac716b",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-03-24T04:03:24Z",
-      "release_notes": "Inherit stackCount2 and stackEffect2 when action transforms",
-      "commit_sha": "4360e650ee911829d23d41e74290eb8d1a79f8ef",
-      "commit_date": "2026-03-24T04:03:24Z",
-      "commit_message": "Inherit stackCount2 and stackEffect2 when action transforms"
+      "published_at": "2026-03-25T00:13:15Z",
+      "release_notes": "ignore .claude/",
+      "commit_sha": "7ac716bc13de8e002a27bbf84c819eedf470e7af",
+      "commit_date": "2026-03-25T00:13:15Z",
+      "commit_message": "ignore .claude/"
     },
     "aui": {
       "version": "cf79383",
@@ -279,9 +279,9 @@
       "release_notes": "## What's Changed\r\n* chore: bump version to 7.2.0.2 and update font handling by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/369\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.1...v7.2.0.2"
     },
     "m0rmarkers": {
-      "version": "v1.9.2",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.2",
-      "published_at": "2026-03-23T04:08:14Z",
+      "version": "v1.9.3",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.3",
+      "published_at": "2026-03-24T19:02:51Z",
       "release_notes": ""
     },
     "odysupporticons": {
@@ -324,14 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-24T18:20:34.209870+00:00",
+  "last_checked": "2026-03-25T00:22:55.531118+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "8796f14",
-      "new_version": "1ac8392",
-      "repo": "votan73/ESO",
-      "commit_message": "version 2.1.4:"
+      "slug": "actiondurationreminder",
+      "old_version": "4360e65",
+      "new_version": "7ac716b",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "ignore .claude/"
+    },
+    {
+      "slug": "m0rmarkers",
+      "old_version": "v1.9.2",
+      "new_version": "v1.9.3",
+      "repo": "M0RGaming/M0RMarkers"
     }
   ]
 }
