@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-26T00:25:17.379903+00:00",
+  "generated_at": "2026-03-26T06:26:14.197436+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "524848e",
+      "new_version": "799559a",
+      "published_at": "2026-03-26T06:01:40Z",
+      "detected_at": "2026-03-26T06:26:14.197436+00:00"
+    },
     {
       "slug": "exoyscruxtracker",
       "name": "ExoYs Crux Tracker",
@@ -892,15 +901,6 @@
       "new_version": "2026-01-19",
       "published_at": "2026-01-19T14:18:08Z",
       "detected_at": "2026-01-19T18:06:16.216830+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "72f4922",
-      "new_version": "6e3e33c",
-      "published_at": "2026-01-19T09:39:38Z",
-      "detected_at": "2026-01-19T12:08:09.809212+00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-26T00:25:17.379903+00:00",
+  "generated_at": "2026-03-26T06:26:14.197436+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "524848e",
+        "version": "799559a",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-23T09:23:04Z",
-        "commit_sha": "524848ec62308c3bf766bfbce725ee036a02fd15",
-        "commit_date": "2026-03-23T09:23:04Z",
-        "commit_message": "[2.14.0] Bump version"
+        "published_at": "2026-03-26T06:01:40Z",
+        "commit_sha": "799559ad0b1956300f59e4040e4ebc84cb867422",
+        "commit_date": "2026-03-26T06:01:40Z",
+        "commit_message": "Add listener for thresholds change"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.14.0] Bump version"
+        "commit_message": "Add listener for thresholds change"
       },
-      "last_updated": "2026-03-23T09:23:04Z"
+      "last_updated": "2026-03-26T06:01:40Z"
     },
     {
       "slug": "elmsmarkers",

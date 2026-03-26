@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "524848e",
+      "version": "799559a",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-23T09:23:04Z",
-      "release_notes": "[2.14.0] Bump version",
-      "commit_sha": "524848ec62308c3bf766bfbce725ee036a02fd15",
-      "commit_date": "2026-03-23T09:23:04Z",
-      "commit_message": "[2.14.0] Bump version"
+      "published_at": "2026-03-26T06:01:40Z",
+      "release_notes": "Add listener for thresholds change",
+      "commit_sha": "799559ad0b1956300f59e4040e4ebc84cb867422",
+      "commit_date": "2026-03-26T06:01:40Z",
+      "commit_message": "Add listener for thresholds change"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-26T00:25:17.204206+00:00",
+  "last_checked": "2026-03-26T06:26:14.028003+00:00",
   "updates": [
     {
-      "slug": "exoyscruxtracker",
-      "old_version": "Version-1.3.0",
-      "new_version": "Version-2.0.0",
-      "repo": "exoy94/ExoYsCruxTracker"
+      "slug": "crutchalerts",
+      "old_version": "524848e",
+      "new_version": "799559a",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add listener for thresholds change"
     }
   ]
 }
