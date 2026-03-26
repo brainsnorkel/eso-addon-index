@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-25T18:20:40.030026+00:00",
+  "generated_at": "2026-03-26T00:25:17.379903+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -1008,6 +1008,12 @@
       }
     ],
     "exoyscruxtracker": [
+      {
+        "version": "Version-2.0.0",
+        "published_at": "2026-03-25T19:25:24Z",
+        "detected_at": "2026-03-26T00:25:17.379903+00:00",
+        "commit_sha": "bda80f18d782616df6b4fd01c2ecf8f8c4296c2b"
+      },
       {
         "version": "Version-1.3.0",
         "published_at": "2025-06-10T19:07:32Z",

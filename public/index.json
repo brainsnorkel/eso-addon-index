@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-25T18:20:40.030026+00:00",
+  "generated_at": "2026-03-26T00:25:17.379903+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -887,35 +887,35 @@
         ]
       },
       "latest_release": {
-        "version": "Version-1.3.0",
-        "download_url": "https://github.com/exoy94/ExoYsCruxTracker/archive/refs/tags/Version-1.3.0.zip",
-        "published_at": "2025-06-10T19:07:32Z",
-        "commit_sha": "23acbcad3470695cb4e6acd738996e5bd41bdd51"
+        "version": "Version-2.0.0",
+        "download_url": "https://github.com/exoy94/ExoYsCruxTracker/archive/refs/tags/Version-2.0.0.zip",
+        "published_at": "2026-03-25T19:25:24Z",
+        "commit_sha": "bda80f18d782616df6b4fd01c2ecf8f8c4296c2b"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/exoy94/ExoYsCruxTracker@Version-1.3.0/",
+          "url": "https://cdn.jsdelivr.net/gh/exoy94/ExoYsCruxTracker@Version-2.0.0/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://github.com/exoy94/ExoYsCruxTracker/archive/refs/tags/Version-1.3.0.zip",
+          "url": "https://github.com/exoy94/ExoYsCruxTracker/archive/refs/tags/Version-2.0.0.zip",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
-          "major": 1,
-          "minor": 3,
+          "major": 2,
+          "minor": 0,
           "patch": 0,
           "prerelease": null
         },
-        "version_sort_key": 1003000000,
+        "version_sort_key": 2000000000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2025-06-10T19:07:32Z"
+      "last_updated": "2026-03-25T19:25:24Z"
     },
     {
       "slug": "exoysproctimer",
