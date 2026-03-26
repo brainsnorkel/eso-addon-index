@@ -10,13 +10,13 @@
       "commit_message": "Fix l.debugEnabled to require DSS table parameter"
     },
     "aui": {
-      "version": "345c5b0",
+      "version": "cdb80c7",
       "download_url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
-      "published_at": "2026-03-25T17:24:11Z",
-      "release_notes": "chore: clean up addon manifests",
-      "commit_sha": "345c5b0932ec3f0eddca4f7101d3b76a90057883",
-      "commit_date": "2026-03-25T17:24:11Z",
-      "commit_message": "chore: clean up addon manifests"
+      "published_at": "2026-03-26T18:17:01Z",
+      "release_notes": "Fix cooldown reset: only clear on remainTime==0, not below 1500ms threshold",
+      "commit_sha": "cdb80c78a34b1e9f900e9945f5c00d7dd127b9b3",
+      "commit_date": "2026-03-26T18:17:01Z",
+      "commit_message": "Fix cooldown reset: only clear on remainTime==0, not below 1500ms threshold"
     },
     "bandits-user-interface": {
       "version": "v4.428",
@@ -324,27 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-26T12:19:48.790350+00:00",
+  "last_checked": "2026-03-26T18:22:06.329105+00:00",
   "updates": [
     {
-      "slug": "actiondurationreminder",
-      "old_version": "7ac716b",
-      "new_version": "712b1ad",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Fix l.debugEnabled to require DSS table parameter"
-    },
-    {
-      "slug": "crutchalerts",
-      "old_version": "799559a",
-      "new_version": "ca58217",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add Defense Prism 30%"
-    },
-    {
-      "slug": "m0rmarkers",
-      "old_version": "v1.9.3",
-      "new_version": "v1.9.4",
-      "repo": "M0RGaming/M0RMarkers"
+      "slug": "aui",
+      "old_version": "345c5b0",
+      "new_version": "cdb80c7",
+      "repo": "Sensi2010/AUI",
+      "commit_message": "Fix cooldown reset: only clear on remainTime==0, not below 1500ms threshold"
     }
   ]
 }

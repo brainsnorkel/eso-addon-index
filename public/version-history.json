@@ -1,9 +1,15 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-26T12:19:48.967442+00:00",
+  "generated_at": "2026-03-26T18:22:06.496684+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
+      {
+        "version": "cdb80c7",
+        "published_at": "2026-03-26T18:17:01Z",
+        "detected_at": "2026-03-26T18:22:06.496684+00:00",
+        "commit_sha": "cdb80c78a34b1e9f900e9945f5c00d7dd127b9b3"
+      },
       {
         "version": "345c5b0",
         "published_at": "2026-03-25T17:24:11Z",
