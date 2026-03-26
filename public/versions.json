@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "7ac716b",
+      "version": "712b1ad",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-03-25T00:13:15Z",
-      "release_notes": "ignore .claude/",
-      "commit_sha": "7ac716bc13de8e002a27bbf84c819eedf470e7af",
-      "commit_date": "2026-03-25T00:13:15Z",
-      "commit_message": "ignore .claude/"
+      "published_at": "2026-03-26T00:05:47Z",
+      "release_notes": "Fix l.debugEnabled to require DSS table parameter",
+      "commit_sha": "712b1ad8a4955e41c9c8c0b1b31282878f55a835",
+      "commit_date": "2026-03-26T00:05:47Z",
+      "commit_message": "Fix l.debugEnabled to require DSS table parameter"
     },
     "aui": {
       "version": "345c5b0",
@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "799559a",
+      "version": "ca58217",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-26T06:01:40Z",
-      "release_notes": "Add listener for thresholds change",
-      "commit_sha": "799559ad0b1956300f59e4040e4ebc84cb867422",
-      "commit_date": "2026-03-26T06:01:40Z",
-      "commit_message": "Add listener for thresholds change"
+      "published_at": "2026-03-26T06:32:45Z",
+      "release_notes": "Add Defense Prism 30%",
+      "commit_sha": "ca58217b0a992acfad5864df2efc94c69340a853",
+      "commit_date": "2026-03-26T06:32:45Z",
+      "commit_message": "Add Defense Prism 30%"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -279,9 +279,9 @@
       "release_notes": "## What's Changed\r\n* chore: bump version to 7.2.0.2 and update font handling by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/369\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.1...v7.2.0.2"
     },
     "m0rmarkers": {
-      "version": "v1.9.3",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.3",
-      "published_at": "2026-03-24T19:02:51Z",
+      "version": "v1.9.4",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.4",
+      "published_at": "2026-03-26T06:36:36Z",
       "release_notes": ""
     },
     "odysupporticons": {
@@ -324,14 +324,27 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-26T06:26:14.028003+00:00",
+  "last_checked": "2026-03-26T12:19:48.790350+00:00",
   "updates": [
     {
+      "slug": "actiondurationreminder",
+      "old_version": "7ac716b",
+      "new_version": "712b1ad",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Fix l.debugEnabled to require DSS table parameter"
+    },
+    {
       "slug": "crutchalerts",
-      "old_version": "524848e",
-      "new_version": "799559a",
+      "old_version": "799559a",
+      "new_version": "ca58217",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add listener for thresholds change"
+      "commit_message": "Add Defense Prism 30%"
+    },
+    {
+      "slug": "m0rmarkers",
+      "old_version": "v1.9.3",
+      "new_version": "v1.9.4",
+      "repo": "M0RGaming/M0RMarkers"
     }
   ]
 }

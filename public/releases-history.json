@@ -1,7 +1,34 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-26T06:26:14.197436+00:00",
+  "generated_at": "2026-03-26T12:19:48.967442+00:00",
   "events": [
+    {
+      "slug": "actiondurationreminder",
+      "name": "Action Duration Reminder",
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "old_version": "7ac716b",
+      "new_version": "712b1ad",
+      "published_at": "2026-03-26T00:05:47Z",
+      "detected_at": "2026-03-26T12:19:48.967442+00:00"
+    },
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "799559a",
+      "new_version": "ca58217",
+      "published_at": "2026-03-26T06:32:45Z",
+      "detected_at": "2026-03-26T12:19:48.967442+00:00"
+    },
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "old_version": "v1.9.3",
+      "new_version": "v1.9.4",
+      "published_at": "2026-03-26T06:36:36Z",
+      "detected_at": "2026-03-26T12:19:48.967442+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -874,33 +901,6 @@
       "new_version": "0c43e63",
       "published_at": "2026-01-21T03:51:33Z",
       "detected_at": "2026-01-21T06:07:58.834077+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "69dd099",
-      "new_version": "778a4d0",
-      "published_at": "2026-01-20T08:47:16Z",
-      "detected_at": "2026-01-20T12:08:07.005595+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "6e3e33c",
-      "new_version": "69dd099",
-      "published_at": "2026-01-19T20:23:52Z",
-      "detected_at": "2026-01-20T00:17:20.028943+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-01-18",
-      "new_version": "2026-01-19",
-      "published_at": "2026-01-19T14:18:08Z",
-      "detected_at": "2026-01-19T18:06:16.216830+00:00"
     }
   ]
 }

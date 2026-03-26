@@ -6,10 +6,10 @@
   "items": [
     {
       "id": "actiondurationreminder",
-      "title": "Action Duration Reminder 7ac716b",
+      "title": "Action Duration Reminder 712b1ad",
       "url": "https://github.com/cloudor126/lua-eso-addon-adr",
-      "date_published": "2026-03-25T00:13:15Z",
-      "date_modified": "2026-03-25T00:13:15Z",
+      "date_published": "2026-03-26T00:05:47Z",
+      "date_modified": "2026-03-26T00:05:47Z",
       "authors": [
         {
           "name": "cloudor126"
@@ -192,10 +192,10 @@
     },
     {
       "id": "crutchalerts",
-      "title": "CrutchAlerts 799559a",
+      "title": "CrutchAlerts ca58217",
       "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "date_published": "2026-03-26T06:01:40Z",
-      "date_modified": "2026-03-26T06:01:40Z",
+      "date_published": "2026-03-26T06:32:45Z",
+      "date_modified": "2026-03-26T06:32:45Z",
       "authors": [
         {
           "name": "Kyzeragon"
@@ -741,10 +741,10 @@
     },
     {
       "id": "m0rmarkers",
-      "title": "M0RMarkers v1.9.3",
+      "title": "M0RMarkers v1.9.4",
       "url": "https://github.com/M0RGaming/M0RMarkers",
-      "date_published": "2026-03-24T19:02:51Z",
-      "date_modified": "2026-03-24T19:02:51Z",
+      "date_published": "2026-03-26T06:36:36Z",
+      "date_modified": "2026-03-26T06:36:36Z",
       "authors": [
         {
           "name": "M0R_Gaming"
