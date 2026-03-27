@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-26T18:22:06.496684+00:00",
+  "generated_at": "2026-03-27T00:25:02.125505+00:00",
   "events": [
+    {
+      "slug": "exoyscruxtracker",
+      "name": "ExoYs Crux Tracker",
+      "url": "https://github.com/exoy94/ExoYsCruxTracker",
+      "old_version": "Version-2.0.0",
+      "new_version": "Version-2.0.1",
+      "published_at": "2026-03-26T22:24:06Z",
+      "detected_at": "2026-03-27T00:25:02.125505+00:00"
+    },
     {
       "slug": "aui",
       "name": "Advanced UI",
@@ -892,15 +901,6 @@
       "new_version": "baff4b8",
       "published_at": "2026-01-21T16:12:56Z",
       "detected_at": "2026-01-21T18:14:35.662526+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "0c43e63",
-      "new_version": "d1b3602",
-      "published_at": "2026-01-21T08:47:33Z",
-      "detected_at": "2026-01-21T12:08:11.001460+00:00"
     }
   ]
 }

@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-26T18:22:06.496684+00:00</updated>
+  <updated>2026-03-27T00:25:02.125505+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:exoyscruxtracker:Version-2.0.1</id>
+    <title>ExoYs Crux Tracker updated: Version-2.0.0 → Version-2.0.1</title>
+    <link href="https://github.com/exoy94/ExoYsCruxTracker" rel="alternate"/>
+    <updated>2026-03-27T00:25:02.125505+00:00</updated>
+    <summary>ExoYs Crux Tracker has been updated from version Version-2.0.0 to Version-2.0.1.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:aui:cdb80c7</id>
     <title>Advanced UI updated: 345c5b0 → cdb80c7</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/Baertram/pChat" rel="alternate"/>
     <updated>2026-01-21T18:14:35.662526+00:00</updated>
     <summary>pChat has been updated from version 758e83c to baff4b8.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:d1b3602</id>
-    <title>CrutchAlerts updated: 0c43e63 → d1b3602</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-01-21T12:08:11.001460+00:00</updated>
-    <summary>CrutchAlerts has been updated from version 0c43e63 to d1b3602.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

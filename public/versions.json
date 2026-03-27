@@ -97,11 +97,11 @@
       "commit_message": "3.0.0"
     },
     "exoyscruxtracker": {
-      "version": "Version-2.0.0",
-      "download_url": "https://github.com/exoy94/ExoYsCruxTracker/archive/refs/tags/Version-2.0.0.zip",
-      "published_at": "2026-03-25T19:25:24Z",
+      "version": "Version-2.0.1",
+      "download_url": "https://github.com/exoy94/ExoYsCruxTracker/archive/refs/tags/Version-2.0.1.zip",
+      "published_at": "2026-03-26T22:24:06Z",
       "release_notes": null,
-      "commit_sha": "bda80f18d782616df6b4fd01c2ecf8f8c4296c2b"
+      "commit_sha": "5b390f5efdd44125fa689dfa7f35c8f783b69fe5"
     },
     "exoysproctimer": {
       "version": "fb15996",
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-26T18:22:06.329105+00:00",
+  "last_checked": "2026-03-27T00:25:01.956317+00:00",
   "updates": [
     {
-      "slug": "aui",
-      "old_version": "345c5b0",
-      "new_version": "cdb80c7",
-      "repo": "Sensi2010/AUI",
-      "commit_message": "Fix cooldown reset: only clear on remainTime==0, not below 1500ms threshold"
+      "slug": "exoyscruxtracker",
+      "old_version": "Version-2.0.0",
+      "new_version": "Version-2.0.1",
+      "repo": "exoy94/ExoYsCruxTracker"
     }
   ]
 }
