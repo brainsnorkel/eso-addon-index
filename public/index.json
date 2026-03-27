@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-27T00:25:02.125505+00:00",
+  "generated_at": "2026-03-27T06:27:08.207471+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "ca58217",
+        "version": "44167fa",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-26T06:32:45Z",
-        "commit_sha": "ca58217b0a992acfad5864df2efc94c69340a853",
-        "commit_date": "2026-03-26T06:32:45Z",
-        "commit_message": "Add Defense Prism 30%"
+        "published_at": "2026-03-27T01:42:10Z",
+        "commit_sha": "44167faa8a710ec7b0d966f6a65ae2a9fa056b28",
+        "commit_date": "2026-03-27T01:42:10Z",
+        "commit_message": "Maybe highlight individual thresholds based on individual boss"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add Defense Prism 30%"
+        "commit_message": "Maybe highlight individual thresholds based on individual boss"
       },
-      "last_updated": "2026-03-26T06:32:45Z"
+      "last_updated": "2026-03-27T01:42:10Z"
     },
     {
       "slug": "elmsmarkers",

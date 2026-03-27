@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-27T00:25:02.125505+00:00",
+  "generated_at": "2026-03-27T06:27:08.207471+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "ca58217",
+      "new_version": "44167fa",
+      "published_at": "2026-03-27T01:42:10Z",
+      "detected_at": "2026-03-27T06:27:08.207471+00:00"
+    },
     {
       "slug": "exoyscruxtracker",
       "name": "ExoYs Crux Tracker",
@@ -892,15 +901,6 @@
       "new_version": "2dd5dc5",
       "published_at": "2026-01-22T03:49:19Z",
       "detected_at": "2026-01-22T06:07:31.402793+00:00"
-    },
-    {
-      "slug": "pchat",
-      "name": "pChat",
-      "url": "https://github.com/Baertram/pChat",
-      "old_version": "758e83c",
-      "new_version": "baff4b8",
-      "published_at": "2026-01-21T16:12:56Z",
-      "detected_at": "2026-01-21T18:14:35.662526+00:00"
     }
   ]
 }

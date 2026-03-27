@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "ca58217",
+      "version": "44167fa",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-26T06:32:45Z",
-      "release_notes": "Add Defense Prism 30%",
-      "commit_sha": "ca58217b0a992acfad5864df2efc94c69340a853",
-      "commit_date": "2026-03-26T06:32:45Z",
-      "commit_message": "Add Defense Prism 30%"
+      "published_at": "2026-03-27T01:42:10Z",
+      "release_notes": "Maybe highlight individual thresholds based on individual boss",
+      "commit_sha": "44167faa8a710ec7b0d966f6a65ae2a9fa056b28",
+      "commit_date": "2026-03-27T01:42:10Z",
+      "commit_message": "Maybe highlight individual thresholds based on individual boss"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-27T00:25:01.956317+00:00",
+  "last_checked": "2026-03-27T06:27:08.021717+00:00",
   "updates": [
     {
-      "slug": "exoyscruxtracker",
-      "old_version": "Version-2.0.0",
-      "new_version": "Version-2.0.1",
-      "repo": "exoy94/ExoYsCruxTracker"
+      "slug": "crutchalerts",
+      "old_version": "ca58217",
+      "new_version": "44167fa",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Maybe highlight individual thresholds based on individual boss"
     }
   ]
 }
