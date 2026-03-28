@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-28T12:10:27.280369+00:00",
+  "generated_at": "2026-03-28T18:08:51.534629+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -1009,6 +1009,12 @@
     ],
     "actiondurationreminder": [
       {
+        "version": "51e8d64",
+        "published_at": "2026-03-28T15:28:33Z",
+        "detected_at": "2026-03-28T18:08:51.534629+00:00",
+        "commit_sha": "51e8d64c0f77dfa8b282fe421bdb2866ed8889b3"
+      },
+      {
         "version": "712b1ad",
         "published_at": "2026-03-26T00:05:47Z",
         "detected_at": "2026-03-26T12:19:48.967442+00:00",
@@ -1076,6 +1082,12 @@
       }
     ],
     "exoysproctimer": [
+      {
+        "version": "d197b0d",
+        "published_at": "2026-03-28T15:44:01Z",
+        "detected_at": "2026-03-28T18:08:51.534629+00:00",
+        "commit_sha": "d197b0d980b332da1d824ee89ebfa9afc00fb3c9"
+      },
       {
         "version": "fb15996",
         "published_at": "2025-03-20T22:12:46Z",

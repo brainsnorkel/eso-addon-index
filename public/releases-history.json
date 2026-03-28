@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-28T12:10:27.280369+00:00",
+  "generated_at": "2026-03-28T18:08:51.534629+00:00",
   "events": [
+    {
+      "slug": "actiondurationreminder",
+      "name": "Action Duration Reminder",
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "old_version": "712b1ad",
+      "new_version": "51e8d64",
+      "published_at": "2026-03-28T15:28:33Z",
+      "detected_at": "2026-03-28T18:08:51.534629+00:00"
+    },
+    {
+      "slug": "exoysproctimer",
+      "name": "ExoYs Proc Set Timer",
+      "url": "https://github.com/exoy94/ExoYsProcSetTimer",
+      "old_version": "fb15996",
+      "new_version": "d197b0d",
+      "published_at": "2026-03-28T15:44:01Z",
+      "detected_at": "2026-03-28T18:08:51.534629+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -883,24 +901,6 @@
       "new_version": "2026-01-25",
       "published_at": "2026-01-25T22:35:28Z",
       "detected_at": "2026-01-26T00:19:03.606126+00:00"
-    },
-    {
-      "slug": "libcustommenu",
-      "name": "LibCustomMenu",
-      "url": "https://github.com/votan73/ESO",
-      "old_version": "964360f",
-      "new_version": "ca6b397",
-      "published_at": "2026-01-25T12:35:29Z",
-      "detected_at": "2026-01-25T18:06:07.277997+00:00"
-    },
-    {
-      "slug": "libcustommenu",
-      "name": "LibCustomMenu",
-      "url": "https://github.com/votan73/ESO",
-      "old_version": "9c32338",
-      "new_version": "964360f",
-      "published_at": "2026-01-24T14:25:23Z",
-      "detected_at": "2026-01-24T18:06:12.390193+00:00"
     }
   ]
 }

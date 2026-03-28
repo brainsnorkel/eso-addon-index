@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-28T12:10:27.280369+00:00</updated>
+  <updated>2026-03-28T18:08:51.534629+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:actiondurationreminder:51e8d64</id>
+    <title>Action Duration Reminder updated: 712b1ad → 51e8d64</title>
+    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
+    <updated>2026-03-28T18:08:51.534629+00:00</updated>
+    <summary>Action Duration Reminder has been updated from version 712b1ad to 51e8d64.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:exoysproctimer:d197b0d</id>
+    <title>ExoYs Proc Set Timer updated: fb15996 → d197b0d</title>
+    <link href="https://github.com/exoy94/ExoYsProcSetTimer" rel="alternate"/>
+    <updated>2026-03-28T18:08:51.534629+00:00</updated>
+    <summary>ExoYs Proc Set Timer has been updated from version fb15996 to d197b0d.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:5971b60</id>
     <title>CrutchAlerts updated: 6f88bd4 → 5971b60</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
     <updated>2026-01-26T00:19:03.606126+00:00</updated>
     <summary>LibCustomNames has been updated from version 2026-01-19 to 2026-01-25.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustommenu:ca6b397</id>
-    <title>LibCustomMenu updated: 964360f → ca6b397</title>
-    <link href="https://github.com/votan73/ESO" rel="alternate"/>
-    <updated>2026-01-25T18:06:07.277997+00:00</updated>
-    <summary>LibCustomMenu has been updated from version 964360f to ca6b397.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustommenu:964360f</id>
-    <title>LibCustomMenu updated: 9c32338 → 964360f</title>
-    <link href="https://github.com/votan73/ESO" rel="alternate"/>
-    <updated>2026-01-24T18:06:12.390193+00:00</updated>
-    <summary>LibCustomMenu has been updated from version 9c32338 to 964360f.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

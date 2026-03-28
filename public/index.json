@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-28T12:10:27.280369+00:00",
+  "generated_at": "2026-03-28T18:08:51.534629+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "712b1ad",
+        "version": "51e8d64",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-03-26T00:05:47Z",
-        "commit_sha": "712b1ad8a4955e41c9c8c0b1b31282878f55a835",
-        "commit_date": "2026-03-26T00:05:47Z",
-        "commit_message": "Fix l.debugEnabled to require DSS table parameter"
+        "published_at": "2026-03-28T15:28:33Z",
+        "commit_sha": "51e8d64c0f77dfa8b282fe421bdb2866ed8889b3",
+        "commit_date": "2026-03-28T15:28:33Z",
+        "commit_message": "Improve effect logging and stack effect handling"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix l.debugEnabled to require DSS table parameter"
+        "commit_message": "Improve effect logging and stack effect handling"
       },
-      "last_updated": "2026-03-26T00:05:47Z"
+      "last_updated": "2026-03-28T15:28:33Z"
     },
     {
       "slug": "aui",
@@ -961,12 +961,12 @@
         ]
       },
       "latest_release": {
-        "version": "fb15996",
+        "version": "d197b0d",
         "download_url": "https://github.com/exoy94/ExoYsProcSetTimer/archive/refs/heads/legacy.zip",
-        "published_at": "2025-03-20T22:12:46Z",
-        "commit_sha": "fb1599663be4f83e239a4565d30e2778f45c43a8",
-        "commit_date": "2025-03-20T22:12:46Z",
-        "commit_message": "Delete temp_readme.txt"
+        "published_at": "2026-03-28T15:44:01Z",
+        "commit_sha": "d197b0d980b332da1d824ee89ebfa9afc00fb3c9",
+        "commit_date": "2026-03-28T15:44:01Z",
+        "commit_message": "api bump u49 + some sets"
       },
       "download_sources": [
         {
@@ -985,9 +985,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Delete temp_readme.txt"
+        "commit_message": "api bump u49 + some sets"
       },
-      "last_updated": "2025-03-20T22:12:46Z"
+      "last_updated": "2026-03-28T15:44:01Z"
     },
     {
       "slug": "groupsetupwarnings",

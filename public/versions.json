@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "712b1ad",
+      "version": "51e8d64",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-03-26T00:05:47Z",
-      "release_notes": "Fix l.debugEnabled to require DSS table parameter",
-      "commit_sha": "712b1ad8a4955e41c9c8c0b1b31282878f55a835",
-      "commit_date": "2026-03-26T00:05:47Z",
-      "commit_message": "Fix l.debugEnabled to require DSS table parameter"
+      "published_at": "2026-03-28T15:28:33Z",
+      "release_notes": "Improve effect logging and stack effect handling",
+      "commit_sha": "51e8d64c0f77dfa8b282fe421bdb2866ed8889b3",
+      "commit_date": "2026-03-28T15:28:33Z",
+      "commit_message": "Improve effect logging and stack effect handling"
     },
     "aui": {
       "version": "cdb80c7",
@@ -104,13 +104,13 @@
       "commit_sha": "5b390f5efdd44125fa689dfa7f35c8f783b69fe5"
     },
     "exoysproctimer": {
-      "version": "fb15996",
+      "version": "d197b0d",
       "download_url": "https://github.com/exoy94/ExoYsProcSetTimer/archive/refs/heads/legacy.zip",
-      "published_at": "2025-03-20T22:12:46Z",
-      "release_notes": "Delete temp_readme.txt",
-      "commit_sha": "fb1599663be4f83e239a4565d30e2778f45c43a8",
-      "commit_date": "2025-03-20T22:12:46Z",
-      "commit_message": "Delete temp_readme.txt"
+      "published_at": "2026-03-28T15:44:01Z",
+      "release_notes": "api bump u49 + some sets",
+      "commit_sha": "d197b0d980b332da1d824ee89ebfa9afc00fb3c9",
+      "commit_date": "2026-03-28T15:44:01Z",
+      "commit_message": "api bump u49 + some sets"
     },
     "groupsetupwarnings": {
       "version": "v1.8.0",
@@ -324,14 +324,21 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-28T12:10:27.100074+00:00",
+  "last_checked": "2026-03-28T18:08:51.363501+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "6f88bd4",
-      "new_version": "5971b60",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add more documentation for BHB API"
+      "slug": "actiondurationreminder",
+      "old_version": "712b1ad",
+      "new_version": "51e8d64",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Improve effect logging and stack effect handling"
+    },
+    {
+      "slug": "exoysproctimer",
+      "old_version": "fb15996",
+      "new_version": "d197b0d",
+      "repo": "exoy94/ExoYsProcSetTimer",
+      "commit_message": "api bump u49 + some sets"
     }
   ]
 }
