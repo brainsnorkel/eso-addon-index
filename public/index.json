@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-28T06:21:26.708256+00:00",
+  "generated_at": "2026-03-28T12:10:27.280369+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "6f88bd4",
+        "version": "5971b60",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-28T03:16:37Z",
-        "commit_sha": "6f88bd4128498540ecafd2a1ddec7c268863863f",
-        "commit_date": "2026-03-28T03:16:37Z",
-        "commit_message": "Fix individual boss highlighting but only sort of"
+        "published_at": "2026-03-28T08:05:34Z",
+        "commit_sha": "5971b60efdfe49838b187e6bb7d66834ac95e420",
+        "commit_date": "2026-03-28T08:05:34Z",
+        "commit_message": "Add more documentation for BHB API"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix individual boss highlighting but only sort of"
+        "commit_message": "Add more documentation for BHB API"
       },
-      "last_updated": "2026-03-28T03:16:37Z"
+      "last_updated": "2026-03-28T08:05:34Z"
     },
     {
       "slug": "elmsmarkers",
