@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "44167fa",
+      "version": "6f88bd4",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-27T01:42:10Z",
-      "release_notes": "Maybe highlight individual thresholds based on individual boss",
-      "commit_sha": "44167faa8a710ec7b0d966f6a65ae2a9fa056b28",
-      "commit_date": "2026-03-27T01:42:10Z",
-      "commit_message": "Maybe highlight individual thresholds based on individual boss"
+      "published_at": "2026-03-28T03:16:37Z",
+      "release_notes": "Fix individual boss highlighting but only sort of",
+      "commit_sha": "6f88bd4128498540ecafd2a1ddec7c268863863f",
+      "commit_date": "2026-03-28T03:16:37Z",
+      "commit_message": "Fix individual boss highlighting but only sort of"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-28T00:23:40.484412+00:00",
-  "updates": []
+  "last_checked": "2026-03-28T06:21:26.532902+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "44167fa",
+      "new_version": "6f88bd4",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix individual boss highlighting but only sort of"
+    }
+  ]
 }
