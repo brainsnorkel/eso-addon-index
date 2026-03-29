@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "51e8d64",
+      "version": "cffceb1",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-03-28T15:28:33Z",
-      "release_notes": "Improve effect logging and stack effect handling",
-      "commit_sha": "51e8d64c0f77dfa8b282fe421bdb2866ed8889b3",
-      "commit_date": "2026-03-28T15:28:33Z",
-      "commit_message": "Improve effect logging and stack effect handling"
+      "published_at": "2026-03-29T02:39:57Z",
+      "release_notes": "Add blinking effect for stackLabel when stageInfoBlink is set",
+      "commit_sha": "cffceb1a06fdd477429afa12e910b4f184a6a03a",
+      "commit_date": "2026-03-29T02:39:57Z",
+      "commit_message": "Add blinking effect for stackLabel when stageInfoBlink is set"
     },
     "aui": {
       "version": "cdb80c7",
@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "5971b60",
+      "version": "8f2cf3d",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-28T08:05:34Z",
-      "release_notes": "Add more documentation for BHB API",
-      "commit_sha": "5971b60efdfe49838b187e6bb7d66834ac95e420",
-      "commit_date": "2026-03-28T08:05:34Z",
-      "commit_message": "Add more documentation for BHB API"
+      "published_at": "2026-03-29T04:14:18Z",
+      "release_notes": "Put threshold line back behind status bar and add /crutch dump",
+      "commit_sha": "8f2cf3da5821d5b0c65d8a554dd8902f23752dbe",
+      "commit_date": "2026-03-29T04:14:18Z",
+      "commit_message": "Put threshold line back behind status bar and add /crutch dump"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,21 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-29T00:25:50.168834+00:00",
-  "updates": []
+  "last_checked": "2026-03-29T06:25:33.087266+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "51e8d64",
+      "new_version": "cffceb1",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Add blinking effect for stackLabel when stageInfoBlink is set"
+    },
+    {
+      "slug": "crutchalerts",
+      "old_version": "5971b60",
+      "new_version": "8f2cf3d",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Put threshold line back behind status bar and add /crutch dump"
+    }
+  ]
 }

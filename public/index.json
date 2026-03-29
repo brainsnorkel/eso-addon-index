@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-29T00:25:50.325930+00:00",
+  "generated_at": "2026-03-29T06:25:33.272934+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "51e8d64",
+        "version": "cffceb1",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-03-28T15:28:33Z",
-        "commit_sha": "51e8d64c0f77dfa8b282fe421bdb2866ed8889b3",
-        "commit_date": "2026-03-28T15:28:33Z",
-        "commit_message": "Improve effect logging and stack effect handling"
+        "published_at": "2026-03-29T02:39:57Z",
+        "commit_sha": "cffceb1a06fdd477429afa12e910b4f184a6a03a",
+        "commit_date": "2026-03-29T02:39:57Z",
+        "commit_message": "Add blinking effect for stackLabel when stageInfoBlink is set"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Improve effect logging and stack effect handling"
+        "commit_message": "Add blinking effect for stackLabel when stageInfoBlink is set"
       },
-      "last_updated": "2026-03-28T15:28:33Z"
+      "last_updated": "2026-03-29T02:39:57Z"
     },
     {
       "slug": "aui",
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "5971b60",
+        "version": "8f2cf3d",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-28T08:05:34Z",
-        "commit_sha": "5971b60efdfe49838b187e6bb7d66834ac95e420",
-        "commit_date": "2026-03-28T08:05:34Z",
-        "commit_message": "Add more documentation for BHB API"
+        "published_at": "2026-03-29T04:14:18Z",
+        "commit_sha": "8f2cf3da5821d5b0c65d8a554dd8902f23752dbe",
+        "commit_date": "2026-03-29T04:14:18Z",
+        "commit_message": "Put threshold line back behind status bar and add /crutch dump"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add more documentation for BHB API"
+        "commit_message": "Put threshold line back behind status bar and add /crutch dump"
       },
-      "last_updated": "2026-03-28T08:05:34Z"
+      "last_updated": "2026-03-29T04:14:18Z"
     },
     {
       "slug": "elmsmarkers",
