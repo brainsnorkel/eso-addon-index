@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-03-29T12:10:35.159378+00:00</updated>
+  <updated>2026-03-29T18:09:58.717602+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:actiondurationreminder:b406032</id>
+    <title>Action Duration Reminder updated: cffceb1 → b406032</title>
+    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
+    <updated>2026-03-29T18:09:58.717602+00:00</updated>
+    <summary>Action Duration Reminder has been updated from version cffceb1 to b406032.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustommenu:4701fa6</id>
+    <title>LibCustomMenu updated: 1ac8392 → 4701fa6</title>
+    <link href="https://github.com/votan73/ESO" rel="alternate"/>
+    <updated>2026-03-29T18:09:58.717602+00:00</updated>
+    <summary>LibCustomMenu has been updated from version 1ac8392 to 4701fa6.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:actiondurationreminder:cffceb1</id>
     <title>Action Duration Reminder updated: 51e8d64 → cffceb1</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/calamath/LibMediaProvider" rel="alternate"/>
     <updated>2026-01-28T12:08:02.311207+00:00</updated>
     <summary>LibMediaProvider has been updated from version r36 to r37.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:d58c877</id>
-    <title>CrutchAlerts updated: fed068e → d58c877</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-01-28T06:08:16.799216+00:00</updated>
-    <summary>CrutchAlerts has been updated from version fed068e to d58c877.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:fed068e</id>
-    <title>CrutchAlerts updated: c873209 → fed068e</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-01-27T12:08:23.527170+00:00</updated>
-    <summary>CrutchAlerts has been updated from version c873209 to fed068e.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

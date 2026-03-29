@@ -6,10 +6,10 @@
   "items": [
     {
       "id": "actiondurationreminder",
-      "title": "Action Duration Reminder cffceb1",
+      "title": "Action Duration Reminder b406032",
       "url": "https://github.com/cloudor126/lua-eso-addon-adr",
-      "date_published": "2026-03-29T02:39:57Z",
-      "date_modified": "2026-03-29T02:39:57Z",
+      "date_published": "2026-03-29T17:50:57Z",
+      "date_modified": "2026-03-29T17:50:57Z",
       "authors": [
         {
           "name": "cloudor126"
@@ -498,10 +498,10 @@
     },
     {
       "id": "libcustommenu",
-      "title": "LibCustomMenu 1ac8392",
+      "title": "LibCustomMenu 4701fa6",
       "url": "https://github.com/votan73/ESO",
-      "date_published": "2026-03-24T17:32:33Z",
-      "date_modified": "2026-03-24T17:32:33Z",
+      "date_published": "2026-03-29T15:17:25Z",
+      "date_modified": "2026-03-29T15:17:25Z",
       "authors": [
         {
           "name": "votan"

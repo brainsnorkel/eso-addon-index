@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-29T12:10:35.159378+00:00",
+  "generated_at": "2026-03-29T18:09:58.717602+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "cffceb1",
+        "version": "b406032",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-03-29T02:39:57Z",
-        "commit_sha": "cffceb1a06fdd477429afa12e910b4f184a6a03a",
-        "commit_date": "2026-03-29T02:39:57Z",
-        "commit_message": "Add blinking effect for stackLabel when stageInfoBlink is set"
+        "published_at": "2026-03-29T17:50:57Z",
+        "commit_sha": "b4060329bb156d70ebbcd0630adb896c16246bde",
+        "commit_date": "2026-03-29T17:50:57Z",
+        "commit_message": "Fix alert showing wrong ability after bar swap"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add blinking effect for stackLabel when stageInfoBlink is set"
+        "commit_message": "Fix alert showing wrong ability after bar swap"
       },
-      "last_updated": "2026-03-29T02:39:57Z"
+      "last_updated": "2026-03-29T17:50:57Z"
     },
     {
       "slug": "aui",
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "1ac8392",
+        "version": "4701fa6",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-03-24T17:32:33Z",
-        "commit_sha": "1ac83928ad3565a335be39cec03efdbf1d1a8ed1",
-        "commit_date": "2026-03-24T17:32:33Z",
-        "commit_message": "version 2.1.4:"
+        "published_at": "2026-03-29T15:17:25Z",
+        "commit_sha": "4701fa68ce8f02aaa0b13ff845b1d68406611b26",
+        "commit_date": "2026-03-29T15:17:25Z",
+        "commit_message": "version 2.9.3:"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "version 2.1.4:"
+        "commit_message": "version 2.9.3:"
       },
-      "last_updated": "2026-03-24T17:32:33Z"
+      "last_updated": "2026-03-29T15:17:25Z"
     },
     {
       "slug": "libcustomnames",
