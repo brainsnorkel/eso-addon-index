@@ -324,21 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-28T18:08:51.363501+00:00",
-  "updates": [
-    {
-      "slug": "actiondurationreminder",
-      "old_version": "712b1ad",
-      "new_version": "51e8d64",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Improve effect logging and stack effect handling"
-    },
-    {
-      "slug": "exoysproctimer",
-      "old_version": "fb15996",
-      "new_version": "d197b0d",
-      "repo": "exoy94/ExoYsProcSetTimer",
-      "commit_message": "api bump u49 + some sets"
-    }
-  ]
+  "last_checked": "2026-03-29T00:25:50.168834+00:00",
+  "updates": []
 }
