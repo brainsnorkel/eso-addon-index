@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-30T06:38:27.404484+00:00",
+  "generated_at": "2026-03-30T12:19:34.846671+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "8f2cf3d",
+      "new_version": "0549f81",
+      "published_at": "2026-03-30T08:31:27Z",
+      "detected_at": "2026-03-30T12:19:34.846671+00:00"
+    },
+    {
+      "slug": "hodorreflexes",
+      "name": "HodorReflexes",
+      "url": "https://github.com/m00nyONE/HodorReflexes",
+      "old_version": "2026-03-04",
+      "new_version": "2026-03-30",
+      "published_at": "2026-03-30T11:17:29Z",
+      "detected_at": "2026-03-30T12:19:34.846671+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
@@ -883,24 +901,6 @@
       "new_version": "2026-02-01",
       "published_at": "2026-02-01T22:43:43Z",
       "detected_at": "2026-02-02T00:22:08.256424+00:00"
-    },
-    {
-      "slug": "libcustommenu",
-      "name": "LibCustomMenu",
-      "url": "https://github.com/votan73/ESO",
-      "old_version": "ca6b397",
-      "new_version": "875ce76",
-      "published_at": "2026-01-31T14:08:13Z",
-      "detected_at": "2026-01-31T18:06:50.798115+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "2495f63",
-      "new_version": "49b7c8e",
-      "published_at": "2026-01-30T01:54:25Z",
-      "detected_at": "2026-01-30T06:16:25.388429+00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-30T06:38:27.404484+00:00",
+  "generated_at": "2026-03-30T12:19:34.846671+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "8f2cf3d",
+        "version": "0549f81",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-29T04:14:18Z",
-        "commit_sha": "8f2cf3da5821d5b0c65d8a554dd8902f23752dbe",
-        "commit_date": "2026-03-29T04:14:18Z",
-        "commit_message": "Put threshold line back behind status bar and add /crutch dump"
+        "published_at": "2026-03-30T08:31:27Z",
+        "commit_sha": "0549f81e6f5ef28152aac1fc238142af6e46c8ad",
+        "commit_date": "2026-03-30T08:31:27Z",
+        "commit_message": "Add /crutch dumpbhb"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Put threshold line back behind status bar and add /crutch dump"
+        "commit_message": "Add /crutch dumpbhb"
       },
-      "last_updated": "2026-03-29T04:14:18Z"
+      "last_updated": "2026-03-30T08:31:27Z"
     },
     {
       "slug": "elmsmarkers",
@@ -1118,20 +1118,20 @@
         ]
       },
       "latest_release": {
-        "version": "2026-03-04",
-        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-03-04",
-        "published_at": "2026-03-04T16:54:08Z",
-        "commit_sha": "2d948bd41361619f9edd00d76bdf8d23b317c0ea"
+        "version": "2026-03-30",
+        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-03-30",
+        "published_at": "2026-03-30T11:17:29Z",
+        "commit_sha": "a7268d1394af47be501a1837bc2eb830a21d98b6"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/HodorReflexes@2026-03-04/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/HodorReflexes@2026-03-30/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-03-04",
+          "url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-03-30",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1139,14 +1139,14 @@
         "version_normalized": {
           "major": 2026,
           "minor": 3,
-          "patch": 4,
+          "patch": 30,
           "prerelease": null
         },
-        "version_sort_key": 2026003004000,
+        "version_sort_key": 2026003030000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-03-04T16:54:08Z"
+      "last_updated": "2026-03-30T11:17:29Z"
     },
     {
       "slug": "huntsmanwarmaskreminder",

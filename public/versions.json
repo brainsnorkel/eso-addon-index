@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "8f2cf3d",
+      "version": "0549f81",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-29T04:14:18Z",
-      "release_notes": "Put threshold line back behind status bar and add /crutch dump",
-      "commit_sha": "8f2cf3da5821d5b0c65d8a554dd8902f23752dbe",
-      "commit_date": "2026-03-29T04:14:18Z",
-      "commit_message": "Put threshold line back behind status bar and add /crutch dump"
+      "published_at": "2026-03-30T08:31:27Z",
+      "release_notes": "Add /crutch dumpbhb",
+      "commit_sha": "0549f81e6f5ef28152aac1fc238142af6e46c8ad",
+      "commit_date": "2026-03-30T08:31:27Z",
+      "commit_message": "Add /crutch dumpbhb"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -120,10 +120,10 @@
       "commit_sha": "907bfd5c32fcceeba4efe8dbff8633371d17bb92"
     },
     "hodorreflexes": {
-      "version": "2026-03-04",
-      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-03-04",
-      "published_at": "2026-03-04T16:54:08Z",
-      "release_notes": "## 2026.03.04 - @m00nyONE\n- fixing UI not being in the previously saved position on Console. Thanks to @panth13 for reporting that :-)\n- adding support for LibRadialMenu for PC. Thanks to @M0RGaming for implementing that :-)\n\n"
+      "version": "2026-03-30",
+      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-03-30",
+      "published_at": "2026-03-30T11:17:29Z",
+      "release_notes": "## 2026.03.30 - @m00nyONE\n- bump api version to 101049 & 101050\n\n"
     },
     "huntsmanwarmaskreminder": {
       "version": "5931983",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-30T06:38:27.233954+00:00",
-  "updates": []
+  "last_checked": "2026-03-30T12:19:34.676078+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "8f2cf3d",
+      "new_version": "0549f81",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add /crutch dumpbhb"
+    },
+    {
+      "slug": "hodorreflexes",
+      "old_version": "2026-03-04",
+      "new_version": "2026-03-30",
+      "repo": "m00nyONE/HodorReflexes"
+    }
+  ]
 }
