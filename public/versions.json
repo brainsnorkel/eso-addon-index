@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-30T12:19:34.676078+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "8f2cf3d",
-      "new_version": "0549f81",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add /crutch dumpbhb"
-    },
-    {
-      "slug": "hodorreflexes",
-      "old_version": "2026-03-04",
-      "new_version": "2026-03-30",
-      "repo": "m00nyONE/HodorReflexes"
-    }
-  ]
+  "last_checked": "2026-03-30T18:20:25.097307+00:00",
+  "updates": []
 }
