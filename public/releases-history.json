@@ -1,7 +1,34 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-29T18:09:58.717602+00:00",
+  "generated_at": "2026-03-30T00:26:19.395762+00:00",
   "events": [
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2026-03-22",
+      "new_version": "2026-03-29",
+      "published_at": "2026-03-29T22:50:47Z",
+      "detected_at": "2026-03-30T00:26:19.395762+00:00"
+    },
+    {
+      "slug": "libcustommenu",
+      "name": "LibCustomMenu",
+      "url": "https://github.com/votan73/ESO",
+      "old_version": "4701fa6",
+      "new_version": "8fb80bf",
+      "published_at": "2026-03-29T19:47:08Z",
+      "detected_at": "2026-03-30T00:26:19.395762+00:00"
+    },
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2026-03-22",
+      "new_version": "2026-03-29",
+      "published_at": "2026-03-29T22:51:46Z",
+      "detected_at": "2026-03-30T00:26:19.395762+00:00"
+    },
     {
       "slug": "actiondurationreminder",
       "name": "Action Duration Reminder",
@@ -874,33 +901,6 @@
       "new_version": "49b7c8e",
       "published_at": "2026-01-30T01:54:25Z",
       "detected_at": "2026-01-30T06:16:25.388429+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "d58c877",
-      "new_version": "2495f63",
-      "published_at": "2026-01-29T03:48:53Z",
-      "detected_at": "2026-01-29T06:15:44.250962+00:00"
-    },
-    {
-      "slug": "groupsetupwarnings",
-      "name": "Group Setup Warnings",
-      "url": "https://github.com/brainsnorkel/GroupSetupWarnings",
-      "old_version": "v1.7.1",
-      "new_version": "v1.8.0",
-      "published_at": "2026-01-28T10:31:37Z",
-      "detected_at": "2026-01-28T12:08:02.311207+00:00"
-    },
-    {
-      "slug": "libmediaprovider",
-      "name": "LibMediaProvider",
-      "url": "https://github.com/calamath/LibMediaProvider",
-      "old_version": "r36",
-      "new_version": "r37",
-      "published_at": "2026-01-28T09:40:42Z",
-      "detected_at": "2026-01-28T12:08:02.311207+00:00"
     }
   ]
 }

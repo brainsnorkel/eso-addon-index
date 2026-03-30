@@ -182,24 +182,24 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-03-22",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-03-22",
-      "published_at": "2026-03-22T22:44:50Z",
+      "version": "2026-03-29",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-03-29",
+      "published_at": "2026-03-29T22:50:47Z",
       "release_notes": "## 2025.11.16\n- BREAKING CHANGE FOR DEVELOPERS:\n- removed GetIcon() - use GetStatic() or GetAnimated() instead\n- BREAKING CHANGES IN THE NEAR FUTURE:\n- GetStatic() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom` instead of only texturePath\n- GetAnimated() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, framerate` instead of a table.\n- If you are a developer, and you have"
     },
     "libcustommenu": {
-      "version": "4701fa6",
+      "version": "8fb80bf",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-03-29T15:17:25Z",
-      "release_notes": "version 2.9.3:",
-      "commit_sha": "4701fa68ce8f02aaa0b13ff845b1d68406611b26",
-      "commit_date": "2026-03-29T15:17:25Z",
-      "commit_message": "version 2.9.3:"
+      "published_at": "2026-03-29T19:47:08Z",
+      "release_notes": "Update LibAsync to 3.1.2 with performance tracking enhancement for ConsoleUI (#56)",
+      "commit_sha": "8fb80bf57aa971602d1cf6a22b84528cac0dbe13",
+      "commit_date": "2026-03-29T19:47:08Z",
+      "commit_message": "Update LibAsync to 3.1.2 with performance tracking enhancement for ConsoleUI (#56)"
     },
     "libcustomnames": {
-      "version": "2026-03-22",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-03-22",
-      "published_at": "2026-03-22T22:45:08Z",
+      "version": "2026-03-29",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-03-29",
+      "published_at": "2026-03-29T22:51:46Z",
       "release_notes": "## 2026.02.07\n- adding STUDLETON to the authors list\n\n"
     },
     "libdebuglogger": {
@@ -324,21 +324,26 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-29T18:09:58.559260+00:00",
+  "last_checked": "2026-03-30T00:26:19.210081+00:00",
   "updates": [
     {
-      "slug": "actiondurationreminder",
-      "old_version": "cffceb1",
-      "new_version": "b406032",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Fix alert showing wrong ability after bar swap"
+      "slug": "libcustomicons",
+      "old_version": "2026-03-22",
+      "new_version": "2026-03-29",
+      "repo": "m00nyONE/LibCustomIcons"
     },
     {
       "slug": "libcustommenu",
-      "old_version": "1ac8392",
-      "new_version": "4701fa6",
+      "old_version": "4701fa6",
+      "new_version": "8fb80bf",
       "repo": "votan73/ESO",
-      "commit_message": "version 2.9.3:"
+      "commit_message": "Update LibAsync to 3.1.2 with performance tracking enhancement for ConsoleUI (#56)"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-03-22",
+      "new_version": "2026-03-29",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }
