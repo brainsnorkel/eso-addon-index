@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-31T00:25:27.162625+00:00",
+  "generated_at": "2026-03-31T06:29:55.551680+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "b406032",
+        "version": "0bb574f",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-03-29T17:50:57Z",
-        "commit_sha": "b4060329bb156d70ebbcd0630adb896c16246bde",
-        "commit_date": "2026-03-29T17:50:57Z",
-        "commit_message": "Fix alert showing wrong ability after bar swap"
+        "published_at": "2026-03-31T00:52:15Z",
+        "commit_sha": "0bb574f549b05e9d66f0cfb17ffd6d299ec3cd89",
+        "commit_date": "2026-03-31T00:52:15Z",
+        "commit_message": "Bump version to 3.144c for function rename"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix alert showing wrong ability after bar swap"
+        "commit_message": "Bump version to 3.144c for function rename"
       },
-      "last_updated": "2026-03-29T17:50:57Z"
+      "last_updated": "2026-03-31T00:52:15Z"
     },
     {
       "slug": "aui",
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "0549f81",
+        "version": "9d3e4dc",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-30T08:31:27Z",
-        "commit_sha": "0549f81e6f5ef28152aac1fc238142af6e46c8ad",
-        "commit_date": "2026-03-30T08:31:27Z",
-        "commit_message": "Add /crutch dumpbhb"
+        "published_at": "2026-03-31T05:55:26Z",
+        "commit_sha": "9d3e4dccedbc70d4870c3c93ffeb0fd4f1601988",
+        "commit_date": "2026-03-31T05:55:26Z",
+        "commit_message": "Fix individual thresholds that aren't multi disappearing"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add /crutch dumpbhb"
+        "commit_message": "Fix individual thresholds that aren't multi disappearing"
       },
-      "last_updated": "2026-03-30T08:31:27Z"
+      "last_updated": "2026-03-31T05:55:26Z"
     },
     {
       "slug": "elmsmarkers",

@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-31T00:25:27.162625+00:00",
+  "generated_at": "2026-03-31T06:29:55.551680+00:00",
   "events": [
+    {
+      "slug": "actiondurationreminder",
+      "name": "Action Duration Reminder",
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "old_version": "b406032",
+      "new_version": "0bb574f",
+      "published_at": "2026-03-31T00:52:15Z",
+      "detected_at": "2026-03-31T06:29:55.551680+00:00"
+    },
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "0549f81",
+      "new_version": "9d3e4dc",
+      "published_at": "2026-03-31T05:55:26Z",
+      "detected_at": "2026-03-31T06:29:55.551680+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -883,24 +901,6 @@
       "new_version": "f64878a",
       "published_at": "2026-02-03T09:09:20Z",
       "detected_at": "2026-02-03T12:11:36.342846+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-01-25",
-      "new_version": "2026-02-01",
-      "published_at": "2026-02-01T22:43:37Z",
-      "detected_at": "2026-02-02T00:22:08.256424+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-01-25",
-      "new_version": "2026-02-01",
-      "published_at": "2026-02-01T22:43:43Z",
-      "detected_at": "2026-02-02T00:22:08.256424+00:00"
     }
   ]
 }

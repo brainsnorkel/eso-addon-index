@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "b406032",
+      "version": "0bb574f",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-03-29T17:50:57Z",
-      "release_notes": "Fix alert showing wrong ability after bar swap",
-      "commit_sha": "b4060329bb156d70ebbcd0630adb896c16246bde",
-      "commit_date": "2026-03-29T17:50:57Z",
-      "commit_message": "Fix alert showing wrong ability after bar swap"
+      "published_at": "2026-03-31T00:52:15Z",
+      "release_notes": "Bump version to 3.144c for function rename",
+      "commit_sha": "0bb574f549b05e9d66f0cfb17ffd6d299ec3cd89",
+      "commit_date": "2026-03-31T00:52:15Z",
+      "commit_message": "Bump version to 3.144c for function rename"
     },
     "aui": {
       "version": "cdb80c7",
@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "0549f81",
+      "version": "9d3e4dc",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-30T08:31:27Z",
-      "release_notes": "Add /crutch dumpbhb",
-      "commit_sha": "0549f81e6f5ef28152aac1fc238142af6e46c8ad",
-      "commit_date": "2026-03-30T08:31:27Z",
-      "commit_message": "Add /crutch dumpbhb"
+      "published_at": "2026-03-31T05:55:26Z",
+      "release_notes": "Fix individual thresholds that aren't multi disappearing",
+      "commit_sha": "9d3e4dccedbc70d4870c3c93ffeb0fd4f1601988",
+      "commit_date": "2026-03-31T05:55:26Z",
+      "commit_message": "Fix individual thresholds that aren't multi disappearing"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,21 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-03-31T00:25:26.988445+00:00",
-  "updates": []
+  "last_checked": "2026-03-31T06:29:55.366790+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "b406032",
+      "new_version": "0bb574f",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Bump version to 3.144c for function rename"
+    },
+    {
+      "slug": "crutchalerts",
+      "old_version": "0549f81",
+      "new_version": "9d3e4dc",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix individual thresholds that aren't multi disappearing"
+    }
+  ]
 }
