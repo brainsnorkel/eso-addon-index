@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "0bb574f",
+      "version": "a0ee696",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-03-31T00:52:15Z",
-      "release_notes": "Bump version to 3.144c for function rename",
-      "commit_sha": "0bb574f549b05e9d66f0cfb17ffd6d299ec3cd89",
-      "commit_date": "2026-03-31T00:52:15Z",
-      "commit_message": "Bump version to 3.144c for function rename"
+      "published_at": "2026-04-01T08:37:45Z",
+      "release_notes": "Bump version to 3.145",
+      "commit_sha": "a0ee69658dd133529b95ad2ef396d98c083e849b",
+      "commit_date": "2026-04-01T08:37:45Z",
+      "commit_message": "Bump version to 3.145"
     },
     "aui": {
       "version": "cdb80c7",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-01T06:35:49.940043+00:00",
+  "last_checked": "2026-04-01T12:19:55.586918+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "9d3e4dc",
-      "new_version": "4990892",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add lang files for damageable"
+      "slug": "actiondurationreminder",
+      "old_version": "0bb574f",
+      "new_version": "a0ee696",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Bump version to 3.145"
     }
   ]
 }
