@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-01T00:28:05.979866+00:00",
+  "generated_at": "2026-04-01T06:35:50.120309+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "9d3e4dc",
+        "version": "4990892",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-03-31T05:55:26Z",
-        "commit_sha": "9d3e4dccedbc70d4870c3c93ffeb0fd4f1601988",
-        "commit_date": "2026-03-31T05:55:26Z",
-        "commit_message": "Fix individual thresholds that aren't multi disappearing"
+        "published_at": "2026-04-01T02:20:07Z",
+        "commit_sha": "499089273e85b859c20fd8da51b4518e9fd5be21",
+        "commit_date": "2026-04-01T02:20:07Z",
+        "commit_message": "Add lang files for damageable"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix individual thresholds that aren't multi disappearing"
+        "commit_message": "Add lang files for damageable"
       },
-      "last_updated": "2026-03-31T05:55:26Z"
+      "last_updated": "2026-04-01T02:20:07Z"
     },
     {
       "slug": "elmsmarkers",

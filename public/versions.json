@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "9d3e4dc",
+      "version": "4990892",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-03-31T05:55:26Z",
-      "release_notes": "Fix individual thresholds that aren't multi disappearing",
-      "commit_sha": "9d3e4dccedbc70d4870c3c93ffeb0fd4f1601988",
-      "commit_date": "2026-03-31T05:55:26Z",
-      "commit_message": "Fix individual thresholds that aren't multi disappearing"
+      "published_at": "2026-04-01T02:20:07Z",
+      "release_notes": "Add lang files for damageable",
+      "commit_sha": "499089273e85b859c20fd8da51b4518e9fd5be21",
+      "commit_date": "2026-04-01T02:20:07Z",
+      "commit_message": "Add lang files for damageable"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-01T00:28:05.802785+00:00",
-  "updates": []
+  "last_checked": "2026-04-01T06:35:49.940043+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "9d3e4dc",
+      "new_version": "4990892",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add lang files for damageable"
+    }
+  ]
 }
