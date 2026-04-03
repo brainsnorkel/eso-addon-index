@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-03T06:26:41.363105+00:00",
+  "generated_at": "2026-04-03T12:13:53.218625+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "8fb80bf",
+        "version": "7910a7b",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-03-29T19:47:08Z",
-        "commit_sha": "8fb80bf57aa971602d1cf6a22b84528cac0dbe13",
-        "commit_date": "2026-03-29T19:47:08Z",
-        "commit_message": "Update LibAsync to 3.1.2 with performance tracking enhancement for ConsoleUI (#56)"
+        "published_at": "2026-04-03T11:31:04Z",
+        "commit_sha": "7910a7bdce2733fd0330ca1d06a773ad0116ecc2",
+        "commit_date": "2026-04-03T11:31:04Z",
+        "commit_message": "version 2.9.3:"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Update LibAsync to 3.1.2 with performance tracking enhancement for ConsoleUI (#56)"
+        "commit_message": "version 2.9.3:"
       },
-      "last_updated": "2026-03-29T19:47:08Z"
+      "last_updated": "2026-04-03T11:31:04Z"
     },
     {
       "slug": "libcustomnames",
