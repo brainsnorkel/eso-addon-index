@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-08T12:20:06.858902+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "4990892",
-      "new_version": "d88e562",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Maybe fix vDSR twins HM boss damage detection"
-    }
-  ]
+  "last_checked": "2026-04-08T18:26:55.034628+00:00",
+  "updates": []
 }
