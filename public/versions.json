@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "4990892",
+      "version": "d88e562",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-01T02:20:07Z",
-      "release_notes": "Add lang files for damageable",
-      "commit_sha": "499089273e85b859c20fd8da51b4518e9fd5be21",
-      "commit_date": "2026-04-01T02:20:07Z",
-      "commit_message": "Add lang files for damageable"
+      "published_at": "2026-04-08T07:29:16Z",
+      "release_notes": "Maybe fix vDSR twins HM boss damage detection",
+      "commit_sha": "d88e56271ca23e0f11bfe4b0000034dc01de0b97",
+      "commit_date": "2026-04-08T07:29:16Z",
+      "commit_message": "Maybe fix vDSR twins HM boss damage detection"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-08T06:33:37.915951+00:00",
-  "updates": []
+  "last_checked": "2026-04-08T12:20:06.858902+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "4990892",
+      "new_version": "d88e562",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Maybe fix vDSR twins HM boss damage detection"
+    }
+  ]
 }

@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-08T06:33:38.082659+00:00",
+  "generated_at": "2026-04-08T12:20:07.039759+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "4990892",
+      "new_version": "d88e562",
+      "published_at": "2026-04-08T07:29:16Z",
+      "detected_at": "2026-04-08T12:20:07.039759+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
@@ -892,15 +901,6 @@
       "new_version": "76dabe3",
       "published_at": "2026-02-10T08:56:40Z",
       "detected_at": "2026-02-10T12:18:43.162229+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-02-01",
-      "new_version": "2026-02-08",
-      "published_at": "2026-02-08T22:47:23Z",
-      "detected_at": "2026-02-09T00:23:08.455419+00:00"
     }
   ]
 }
