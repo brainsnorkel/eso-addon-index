@@ -26,10 +26,10 @@
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
     "beammeup": {
-      "version": "v4.0.2",
-      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.2",
-      "published_at": "2026-03-22T19:28:02Z",
-      "release_notes": "- Improved filter in the own houses tab\r\n- Fixed several bugs of the core features\r\n- Fixed several issues in gamepad mode\r\n- Improved gamepad compatibility and integration\r\n\r\nNOTE: You can now delete \"IsJusta BeamMeUp Gamepad Plugin\" because it is fully integrated."
+      "version": "v4.0.3",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.3",
+      "published_at": "2026-04-08T19:16:09Z",
+      "release_notes": "- fixed several issues in gamepad mode\r\n- fixed Clue filter\r\n- further improvements for console integration\r\n- added new partner guild on NA server"
     },
     "breadcrumbs": {
       "version": "v1.2",
@@ -279,9 +279,9 @@
       "release_notes": "## What's Changed\r\n* chore: bump version to 7.2.0.2 and update font handling by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/369\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.1...v7.2.0.2"
     },
     "m0rmarkers": {
-      "version": "v1.9.4",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v1.9.4",
-      "published_at": "2026-03-26T06:36:36Z",
+      "version": "v2.0.0",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.0.0",
+      "published_at": "2026-04-08T23:46:32Z",
       "release_notes": ""
     },
     "odysupporticons": {
@@ -324,6 +324,19 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-08T18:26:55.034628+00:00",
-  "updates": []
+  "last_checked": "2026-04-09T00:22:18.313055+00:00",
+  "updates": [
+    {
+      "slug": "beammeup",
+      "old_version": "v4.0.2",
+      "new_version": "v4.0.3",
+      "repo": "david-tub/BeamMeUp"
+    },
+    {
+      "slug": "m0rmarkers",
+      "old_version": "v1.9.4",
+      "new_version": "v2.0.0",
+      "repo": "M0RGaming/M0RMarkers"
+    }
+  ]
 }

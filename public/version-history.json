@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-08T18:26:55.209365+00:00",
+  "generated_at": "2026-04-09T00:22:18.488535+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -38,6 +38,12 @@
       }
     ],
     "beammeup": [
+      {
+        "version": "v4.0.3",
+        "published_at": "2026-04-08T19:16:09Z",
+        "detected_at": "2026-04-09T00:22:18.488535+00:00",
+        "commit_sha": "84d3ddc367e5b9c11a6bef72d8e901e1c437a60d"
+      },
       {
         "version": "v4.0.2",
         "published_at": "2026-03-22T19:28:02Z",
@@ -1006,6 +1012,12 @@
       }
     ],
     "m0rmarkers": [
+      {
+        "version": "v2.0.0",
+        "published_at": "2026-04-08T23:46:32Z",
+        "detected_at": "2026-04-09T00:22:18.488535+00:00",
+        "commit_sha": "1642b44bd21d443c1cdf80f66c84aba593ed7184"
+      },
       {
         "version": "v1.9.4",
         "published_at": "2026-03-26T06:36:36Z",
