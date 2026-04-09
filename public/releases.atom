@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-04-09T12:21:46.565534+00:00</updated>
+  <updated>2026-04-09T18:22:03.214352+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:m0rmarkers:v2.0.3</id>
+    <title>M0RMarkers updated: v2.0.1 → v2.0.3</title>
+    <link href="https://github.com/M0RGaming/M0RMarkers" rel="alternate"/>
+    <updated>2026-04-09T18:22:03.214352+00:00</updated>
+    <summary>M0RMarkers has been updated from version v2.0.1 to v2.0.3.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:d0d0beb</id>
     <title>CrutchAlerts updated: d88e562 → d0d0beb</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
     <updated>2026-02-13T18:13:56.247925+00:00</updated>
     <summary>LuiExtended has been updated from version v7.1.4.5 to v7.1.4.6.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libgroupbroadcast:ebee3e5</id>
-    <title>LibGroupBroadcast updated: a17a794 → ebee3e5</title>
-    <link href="https://github.com/sirinsidiator/ESO-LibGroupBroadcast" rel="alternate"/>
-    <updated>2026-02-12T00:21:29.855154+00:00</updated>
-    <summary>LibGroupBroadcast has been updated from version a17a794 to ebee3e5.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

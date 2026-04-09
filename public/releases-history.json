@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-09T12:21:46.565534+00:00",
+  "generated_at": "2026-04-09T18:22:03.214352+00:00",
   "events": [
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "old_version": "v2.0.1",
+      "new_version": "v2.0.3",
+      "published_at": "2026-04-09T17:31:16Z",
+      "detected_at": "2026-04-09T18:22:03.214352+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "v7.1.4.6",
       "published_at": "2026-02-13T16:57:22Z",
       "detected_at": "2026-02-13T18:13:56.247925+00:00"
-    },
-    {
-      "slug": "libgroupbroadcast",
-      "name": "LibGroupBroadcast",
-      "url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast",
-      "old_version": "a17a794",
-      "new_version": "ebee3e5",
-      "published_at": "2026-02-11T20:21:36Z",
-      "detected_at": "2026-02-12T00:21:29.855154+00:00"
     }
   ]
 }

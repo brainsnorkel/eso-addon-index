@@ -279,9 +279,9 @@
       "release_notes": "## What's Changed\r\n* chore: bump version to 7.2.0.2 and update font handling by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/369\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.1...v7.2.0.2"
     },
     "m0rmarkers": {
-      "version": "v2.0.1",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.0.1",
-      "published_at": "2026-04-09T04:00:52Z",
+      "version": "v2.0.3",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.0.3",
+      "published_at": "2026-04-09T17:31:16Z",
       "release_notes": ""
     },
     "odysupporticons": {
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-09T12:21:46.384004+00:00",
-  "updates": []
+  "last_checked": "2026-04-09T18:22:03.033196+00:00",
+  "updates": [
+    {
+      "slug": "m0rmarkers",
+      "old_version": "v2.0.1",
+      "new_version": "v2.0.3",
+      "repo": "M0RGaming/M0RMarkers"
+    }
+  ]
 }
