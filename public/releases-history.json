@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-09T00:22:18.488535+00:00",
+  "generated_at": "2026-04-09T06:33:49.962264+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "d88e562",
+      "new_version": "d0d0beb",
+      "published_at": "2026-04-09T04:30:34Z",
+      "detected_at": "2026-04-09T06:33:49.962264+00:00"
+    },
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "old_version": "v2.0.0",
+      "new_version": "v2.0.1",
+      "published_at": "2026-04-09T04:00:52Z",
+      "detected_at": "2026-04-09T06:33:49.962264+00:00"
+    },
     {
       "slug": "beammeup",
       "name": "BeamMeUp",
@@ -883,24 +901,6 @@
       "new_version": "ebee3e5",
       "published_at": "2026-02-11T20:21:36Z",
       "detected_at": "2026-02-12T00:21:29.855154+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "65630f8",
-      "new_version": "76b9cd5",
-      "published_at": "2026-02-11T17:17:02Z",
-      "detected_at": "2026-02-11T18:21:22.310709+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.1.0.7",
-      "new_version": "v7.1.4.5",
-      "published_at": "2026-02-11T11:51:23Z",
-      "detected_at": "2026-02-11T12:17:00.020673+00:00"
     }
   ]
 }

@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "d88e562",
+      "version": "d0d0beb",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-08T07:29:16Z",
-      "release_notes": "Maybe fix vDSR twins HM boss damage detection",
-      "commit_sha": "d88e56271ca23e0f11bfe4b0000034dc01de0b97",
-      "commit_date": "2026-04-08T07:29:16Z",
-      "commit_message": "Maybe fix vDSR twins HM boss damage detection"
+      "published_at": "2026-04-09T04:30:34Z",
+      "release_notes": "Add untested Arctic Shred timer",
+      "commit_sha": "d0d0beb193bafe431ff1a9ffdb244289def76e1f",
+      "commit_date": "2026-04-09T04:30:34Z",
+      "commit_message": "Add untested Arctic Shred timer"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -279,9 +279,9 @@
       "release_notes": "## What's Changed\r\n* chore: bump version to 7.2.0.2 and update font handling by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/369\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.1...v7.2.0.2"
     },
     "m0rmarkers": {
-      "version": "v2.0.0",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.0.0",
-      "published_at": "2026-04-08T23:46:32Z",
+      "version": "v2.0.1",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.0.1",
+      "published_at": "2026-04-09T04:00:52Z",
       "release_notes": ""
     },
     "odysupporticons": {
@@ -324,18 +324,19 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-09T00:22:18.313055+00:00",
+  "last_checked": "2026-04-09T06:33:49.771391+00:00",
   "updates": [
     {
-      "slug": "beammeup",
-      "old_version": "v4.0.2",
-      "new_version": "v4.0.3",
-      "repo": "david-tub/BeamMeUp"
+      "slug": "crutchalerts",
+      "old_version": "d88e562",
+      "new_version": "d0d0beb",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add untested Arctic Shred timer"
     },
     {
       "slug": "m0rmarkers",
-      "old_version": "v1.9.4",
-      "new_version": "v2.0.0",
+      "old_version": "v2.0.0",
+      "new_version": "v2.0.1",
       "repo": "M0RGaming/M0RMarkers"
     }
   ]
