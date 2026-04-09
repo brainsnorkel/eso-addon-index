@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-09T06:33:49.771391+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "d88e562",
-      "new_version": "d0d0beb",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add untested Arctic Shred timer"
-    },
-    {
-      "slug": "m0rmarkers",
-      "old_version": "v2.0.0",
-      "new_version": "v2.0.1",
-      "repo": "M0RGaming/M0RMarkers"
-    }
-  ]
+  "last_checked": "2026-04-09T12:21:46.384004+00:00",
+  "updates": []
 }
