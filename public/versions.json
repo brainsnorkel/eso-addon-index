@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-10T06:37:47.639248+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "d0d0beb",
-      "new_version": "96e9dcf",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix common effect changed name because braingud"
-    }
-  ]
+  "last_checked": "2026-04-10T12:18:04.919423+00:00",
+  "updates": []
 }
