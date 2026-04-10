@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-09T18:22:03.214352+00:00",
+  "generated_at": "2026-04-10T00:25:40.984258+00:00",
   "events": [
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "old_version": "v2.0.3",
+      "new_version": "v2.0.4",
+      "published_at": "2026-04-09T22:14:08Z",
+      "detected_at": "2026-04-10T00:25:40.984258+00:00"
+    },
     {
       "slug": "m0rmarkers",
       "name": "M0RMarkers",
@@ -892,15 +901,6 @@
       "new_version": "2026-02-14",
       "published_at": "2026-02-14T14:47:16Z",
       "detected_at": "2026-02-14T18:06:44.585300+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.1.4.5",
-      "new_version": "v7.1.4.6",
-      "published_at": "2026-02-13T16:57:22Z",
-      "detected_at": "2026-02-13T18:13:56.247925+00:00"
     }
   ]
 }
