@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-10T00:25:40.984258+00:00",
+  "generated_at": "2026-04-10T06:37:47.812685+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "d0d0beb",
+        "version": "96e9dcf",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-09T04:30:34Z",
-        "commit_sha": "d0d0beb193bafe431ff1a9ffdb244289def76e1f",
-        "commit_date": "2026-04-09T04:30:34Z",
-        "commit_message": "Add untested Arctic Shred timer"
+        "published_at": "2026-04-10T03:04:22Z",
+        "commit_sha": "96e9dcfd7a2a3fc253db06fe085a7859fa655acd",
+        "commit_date": "2026-04-10T03:04:22Z",
+        "commit_message": "Fix common effect changed name because braingud"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add untested Arctic Shred timer"
+        "commit_message": "Fix common effect changed name because braingud"
       },
-      "last_updated": "2026-04-09T04:30:34Z"
+      "last_updated": "2026-04-10T03:04:22Z"
     },
     {
       "slug": "elmsmarkers",

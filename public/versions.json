@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "d0d0beb",
+      "version": "96e9dcf",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-09T04:30:34Z",
-      "release_notes": "Add untested Arctic Shred timer",
-      "commit_sha": "d0d0beb193bafe431ff1a9ffdb244289def76e1f",
-      "commit_date": "2026-04-09T04:30:34Z",
-      "commit_message": "Add untested Arctic Shred timer"
+      "published_at": "2026-04-10T03:04:22Z",
+      "release_notes": "Fix common effect changed name because braingud",
+      "commit_sha": "96e9dcfd7a2a3fc253db06fe085a7859fa655acd",
+      "commit_date": "2026-04-10T03:04:22Z",
+      "commit_message": "Fix common effect changed name because braingud"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-10T00:25:40.830194+00:00",
+  "last_checked": "2026-04-10T06:37:47.639248+00:00",
   "updates": [
     {
-      "slug": "m0rmarkers",
-      "old_version": "v2.0.3",
-      "new_version": "v2.0.4",
-      "repo": "M0RGaming/M0RMarkers"
+      "slug": "crutchalerts",
+      "old_version": "d0d0beb",
+      "new_version": "96e9dcf",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix common effect changed name because braingud"
     }
   ]
 }
