@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-04-11T12:10:48.165012+00:00</updated>
+  <updated>2026-04-11T18:10:37.976912+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustommenu:770e7f7</id>
+    <title>LibCustomMenu updated: 9f38731 → 770e7f7</title>
+    <link href="https://github.com/votan73/ESO" rel="alternate"/>
+    <updated>2026-04-11T18:10:37.976912+00:00</updated>
+    <summary>LibCustomMenu has been updated from version 9f38731 to 770e7f7.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:synergypriority:8dac15f</id>
     <title>SynergyPriority updated: 993aca7 → 8dac15f</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
     <updated>2026-02-16T00:22:30.773580+00:00</updated>
     <summary>LibCustomIcons has been updated from version 2026-02-08 to 2026-02-15.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomnames:2026-02-15</id>
-    <title>LibCustomNames updated: 2026-02-08 → 2026-02-15</title>
-    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
-    <updated>2026-02-16T00:22:30.773580+00:00</updated>
-    <summary>LibCustomNames has been updated from version 2026-02-08 to 2026-02-15.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

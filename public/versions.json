@@ -188,13 +188,13 @@
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
-      "version": "9f38731",
+      "version": "770e7f7",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-04-05T15:16:47Z",
-      "release_notes": "Merge branch 'master' of https://github.com/votan73/ESO",
-      "commit_sha": "9f38731250d4f58e6ebb8780e6534608cfa9ca01",
-      "commit_date": "2026-04-05T15:16:47Z",
-      "commit_message": "Merge branch 'master' of https://github.com/votan73/ESO"
+      "published_at": "2026-04-11T15:22:23Z",
+      "release_notes": "version 4.5.0:",
+      "commit_sha": "770e7f75b220936d656c1752f637abb7ab9bf914",
+      "commit_date": "2026-04-11T15:22:23Z",
+      "commit_message": "version 4.5.0:"
     },
     "libcustomnames": {
       "version": "2026-04-05",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-11T12:10:47.997683+00:00",
-  "updates": []
+  "last_checked": "2026-04-11T18:10:37.804708+00:00",
+  "updates": [
+    {
+      "slug": "libcustommenu",
+      "old_version": "9f38731",
+      "new_version": "770e7f7",
+      "repo": "votan73/ESO",
+      "commit_message": "version 4.5.0:"
+    }
+  ]
 }
