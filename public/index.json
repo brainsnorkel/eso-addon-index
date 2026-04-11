@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-11T00:24:51.903672+00:00",
+  "generated_at": "2026-04-11T06:23:47.532542+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2998,12 +2998,12 @@
         ]
       },
       "latest_release": {
-        "version": "993aca7",
+        "version": "8dac15f",
         "download_url": "https://github.com/sheumais/synergypriority/archive/refs/heads/main.zip",
-        "published_at": "2025-10-30T18:15:54Z",
-        "commit_sha": "993aca7127825e501c09e95dceb52a5104e86be3",
-        "commit_date": "2025-10-30T18:15:54Z",
-        "commit_message": "add description"
+        "published_at": "2026-04-11T04:46:10Z",
+        "commit_sha": "8dac15f88aa754238a86144f84960efcb64b2fac",
+        "commit_date": "2026-04-11T04:46:10Z",
+        "commit_message": "custom profiles, debug view, better ui"
       },
       "download_sources": [
         {
@@ -3022,9 +3022,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "add description"
+        "commit_message": "custom profiles, debug view, better ui"
       },
-      "last_updated": "2025-10-30T18:15:54Z"
+      "last_updated": "2026-04-11T04:46:10Z"
     },
     {
       "slug": "untaunted",

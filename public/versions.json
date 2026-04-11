@@ -301,13 +301,13 @@
       "commit_message": "Fixed missing function check"
     },
     "synergypriority": {
-      "version": "993aca7",
+      "version": "8dac15f",
       "download_url": "https://github.com/sheumais/synergypriority/archive/refs/heads/main.zip",
-      "published_at": "2025-10-30T18:15:54Z",
-      "release_notes": "add description",
-      "commit_sha": "993aca7127825e501c09e95dceb52a5104e86be3",
-      "commit_date": "2025-10-30T18:15:54Z",
-      "commit_message": "add description"
+      "published_at": "2026-04-11T04:46:10Z",
+      "release_notes": "custom profiles, debug view, better ui",
+      "commit_sha": "8dac15f88aa754238a86144f84960efcb64b2fac",
+      "commit_date": "2026-04-11T04:46:10Z",
+      "commit_message": "custom profiles, debug view, better ui"
     },
     "untaunted": {
       "version": "1.1.5",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-11T00:24:51.706635+00:00",
-  "updates": []
+  "last_checked": "2026-04-11T06:23:47.358364+00:00",
+  "updates": [
+    {
+      "slug": "synergypriority",
+      "old_version": "993aca7",
+      "new_version": "8dac15f",
+      "repo": "sheumais/synergypriority",
+      "commit_message": "custom profiles, debug view, better ui"
+    }
+  ]
 }
