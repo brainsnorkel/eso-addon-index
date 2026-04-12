@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-12T06:33:07.905540+00:00",
+  "generated_at": "2026-04-12T12:12:41.169097+00:00",
   "events": [
+    {
+      "slug": "libcustommenu",
+      "name": "LibCustomMenu",
+      "url": "https://github.com/votan73/ESO",
+      "old_version": "770e7f7",
+      "new_version": "602897c",
+      "published_at": "2026-04-12T09:02:12Z",
+      "detected_at": "2026-04-12T12:12:41.169097+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
@@ -892,15 +901,6 @@
       "new_version": "f4aab37",
       "published_at": "2026-02-16T03:48:05Z",
       "detected_at": "2026-02-16T06:24:55.855154+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-02-08",
-      "new_version": "2026-02-15",
-      "published_at": "2026-02-15T22:44:31Z",
-      "detected_at": "2026-02-16T00:22:30.773580+00:00"
     }
   ]
 }
