@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-04-15T12:21:57.218228+00:00</updated>
+  <updated>2026-04-15T18:26:06.195337+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libdebuglogger:bbb1afb</id>
+    <title>LibDebugLogger updated: fe1b0e5 → bbb1afb</title>
+    <link href="https://github.com/sirinsidiator/ESO-LibDebugLogger" rel="alternate"/>
+    <updated>2026-04-15T18:26:06.195337+00:00</updated>
+    <summary>LibDebugLogger has been updated from version fe1b0e5 to bbb1afb.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libsets:4c47f00</id>
     <title>LibSets updated: 6ac92a9 → 4c47f00</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
     <updated>2026-02-24T06:22:44.493325+00:00</updated>
     <summary>CrutchAlerts has been updated from version c73a759 to 82fe6f3.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomicons:2026-02-22</id>
-    <title>LibCustomIcons updated: 2026-02-15 → 2026-02-22</title>
-    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
-    <updated>2026-02-23T00:22:25.921197+00:00</updated>
-    <summary>LibCustomIcons has been updated from version 2026-02-15 to 2026-02-22.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
