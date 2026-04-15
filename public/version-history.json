@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-15T06:38:27.740995+00:00",
+  "generated_at": "2026-04-15T12:21:57.218228+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -996,6 +996,12 @@
       }
     ],
     "libsets": [
+      {
+        "version": "4c47f00",
+        "published_at": "2026-04-15T09:18:28Z",
+        "detected_at": "2026-04-15T12:21:57.218228+00:00",
+        "commit_sha": "4c47f00d732e704ed80a648054bef77adb317519"
+      },
       {
         "version": "6ac92a9",
         "published_at": "2026-03-19T21:31:33Z",

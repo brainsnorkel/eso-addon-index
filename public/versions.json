@@ -257,13 +257,13 @@
       "commit_sha": "2d1a560be58aaad8e857a2271480189f81955575"
     },
     "libsets": {
-      "version": "6ac92a9",
+      "version": "4c47f00",
       "download_url": "https://github.com/Baertram/LibSets/archive/refs/heads/LibSets-reworked.zip",
-      "published_at": "2026-03-19T21:31:33Z",
-      "release_notes": "Update license.md",
-      "commit_sha": "6ac92a94cd74a3ab2ca5b297cd794b0f662d1253",
-      "commit_date": "2026-03-19T21:31:33Z",
-      "commit_message": "Update license.md"
+      "published_at": "2026-04-15T09:18:28Z",
+      "release_notes": "-Fixed set search UI context menus",
+      "commit_sha": "4c47f00d732e704ed80a648054bef77adb317519",
+      "commit_date": "2026-04-15T09:18:28Z",
+      "commit_message": "-Fixed set search UI context menus"
     },
     "libsfutils": {
       "version": "v38",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-15T06:38:27.573009+00:00",
+  "last_checked": "2026-04-15T12:21:57.042069+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "96e9dcf",
-      "new_version": "85390ec",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Maybe fix Chimera detection"
+      "slug": "libsets",
+      "old_version": "6ac92a9",
+      "new_version": "4c47f00",
+      "repo": "Baertram/LibSets",
+      "commit_message": "-Fixed set search UI context menus"
     }
   ]
 }
