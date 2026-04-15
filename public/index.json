@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-15T00:31:33.443619+00:00",
+  "generated_at": "2026-04-15T06:38:27.740995+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "96e9dcf",
+        "version": "85390ec",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-10T03:04:22Z",
-        "commit_sha": "96e9dcfd7a2a3fc253db06fe085a7859fa655acd",
-        "commit_date": "2026-04-10T03:04:22Z",
-        "commit_message": "Fix common effect changed name because braingud"
+        "published_at": "2026-04-15T03:05:04Z",
+        "commit_sha": "85390ec1475b35879d1ed3340276c26e04434f64",
+        "commit_date": "2026-04-15T03:05:04Z",
+        "commit_message": "Maybe fix Chimera detection"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix common effect changed name because braingud"
+        "commit_message": "Maybe fix Chimera detection"
       },
-      "last_updated": "2026-04-10T03:04:22Z"
+      "last_updated": "2026-04-15T03:05:04Z"
     },
     {
       "slug": "elmsmarkers",

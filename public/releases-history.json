@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-15T00:31:33.443619+00:00",
+  "generated_at": "2026-04-15T06:38:27.740995+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "96e9dcf",
+      "new_version": "85390ec",
+      "published_at": "2026-04-15T03:05:04Z",
+      "detected_at": "2026-04-15T06:38:27.740995+00:00"
+    },
     {
       "slug": "luiextended",
       "name": "LuiExtended",
@@ -892,15 +901,6 @@
       "new_version": "2026-02-22",
       "published_at": "2026-02-22T22:43:40Z",
       "detected_at": "2026-02-23T00:22:25.921197+00:00"
-    },
-    {
-      "slug": "libgroupbroadcast",
-      "name": "LibGroupBroadcast",
-      "url": "https://github.com/sirinsidiator/ESO-LibGroupBroadcast",
-      "old_version": "2359c0e",
-      "new_version": "e838289",
-      "published_at": "2026-02-21T16:51:58Z",
-      "detected_at": "2026-02-22T00:22:03.504292+00:00"
     }
   ]
 }

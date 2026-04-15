@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "96e9dcf",
+      "version": "85390ec",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-10T03:04:22Z",
-      "release_notes": "Fix common effect changed name because braingud",
-      "commit_sha": "96e9dcfd7a2a3fc253db06fe085a7859fa655acd",
-      "commit_date": "2026-04-10T03:04:22Z",
-      "commit_message": "Fix common effect changed name because braingud"
+      "published_at": "2026-04-15T03:05:04Z",
+      "release_notes": "Maybe fix Chimera detection",
+      "commit_sha": "85390ec1475b35879d1ed3340276c26e04434f64",
+      "commit_date": "2026-04-15T03:05:04Z",
+      "commit_message": "Maybe fix Chimera detection"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-15T00:31:33.279060+00:00",
-  "updates": []
+  "last_checked": "2026-04-15T06:38:27.573009+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "96e9dcf",
+      "new_version": "85390ec",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Maybe fix Chimera detection"
+    }
+  ]
 }
