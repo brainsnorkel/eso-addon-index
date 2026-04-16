@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-16T00:31:50.323176+00:00",
+  "generated_at": "2026-04-16T06:39:17.981653+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "85390ec",
+        "version": "c01edb5",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-15T03:05:04Z",
-        "commit_sha": "85390ec1475b35879d1ed3340276c26e04434f64",
-        "commit_date": "2026-04-15T03:05:04Z",
-        "commit_message": "Maybe fix Chimera detection"
+        "published_at": "2026-04-16T03:56:43Z",
+        "commit_sha": "c01edb53819c02a81da118c269f4802b366676e8",
+        "commit_date": "2026-04-16T03:56:43Z",
+        "commit_message": "Use some lang in damageable"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Maybe fix Chimera detection"
+        "commit_message": "Use some lang in damageable"
       },
-      "last_updated": "2026-04-15T03:05:04Z"
+      "last_updated": "2026-04-16T03:56:43Z"
     },
     {
       "slug": "elmsmarkers",

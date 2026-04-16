@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "85390ec",
+      "version": "c01edb5",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-15T03:05:04Z",
-      "release_notes": "Maybe fix Chimera detection",
-      "commit_sha": "85390ec1475b35879d1ed3340276c26e04434f64",
-      "commit_date": "2026-04-15T03:05:04Z",
-      "commit_message": "Maybe fix Chimera detection"
+      "published_at": "2026-04-16T03:56:43Z",
+      "release_notes": "Use some lang in damageable",
+      "commit_sha": "c01edb53819c02a81da118c269f4802b366676e8",
+      "commit_date": "2026-04-16T03:56:43Z",
+      "commit_message": "Use some lang in damageable"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-16T00:31:50.159370+00:00",
-  "updates": []
+  "last_checked": "2026-04-16T06:39:17.792412+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "85390ec",
+      "new_version": "c01edb5",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Use some lang in damageable"
+    }
+  ]
 }
