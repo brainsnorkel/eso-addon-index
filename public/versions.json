@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-16T12:24:02.880855+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "c01edb5",
-      "new_version": "adb2a73",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Move Z'Maja damageable to lang"
-    }
-  ]
+  "last_checked": "2026-04-16T18:26:17.829961+00:00",
+  "updates": []
 }
