@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "c01edb5",
+      "version": "adb2a73",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-16T03:56:43Z",
-      "release_notes": "Use some lang in damageable",
-      "commit_sha": "c01edb53819c02a81da118c269f4802b366676e8",
-      "commit_date": "2026-04-16T03:56:43Z",
-      "commit_message": "Use some lang in damageable"
+      "published_at": "2026-04-16T07:03:32Z",
+      "release_notes": "Move Z'Maja damageable to lang",
+      "commit_sha": "adb2a7354b2e93774db27bc022b3e377e3f37714",
+      "commit_date": "2026-04-16T07:03:32Z",
+      "commit_message": "Move Z'Maja damageable to lang"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-16T06:39:17.792412+00:00",
+  "last_checked": "2026-04-16T12:24:02.880855+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "85390ec",
-      "new_version": "c01edb5",
+      "old_version": "c01edb5",
+      "new_version": "adb2a73",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Use some lang in damageable"
+      "commit_message": "Move Z'Maja damageable to lang"
     }
   ]
 }
