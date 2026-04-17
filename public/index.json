@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-17T00:30:04.095617+00:00",
+  "generated_at": "2026-04-17T06:39:01.878329+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "adb2a73",
+        "version": "3defd9b",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-16T07:03:32Z",
-        "commit_sha": "adb2a7354b2e93774db27bc022b3e377e3f37714",
-        "commit_date": "2026-04-16T07:03:32Z",
-        "commit_message": "Move Z'Maja damageable to lang"
+        "published_at": "2026-04-17T01:55:18Z",
+        "commit_sha": "3defd9b5e13217715b53cd2b776f5492b767d731",
+        "commit_date": "2026-04-17T01:55:18Z",
+        "commit_message": "Found the missing bracket"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Move Z'Maja damageable to lang"
+        "commit_message": "Found the missing bracket"
       },
-      "last_updated": "2026-04-16T07:03:32Z"
+      "last_updated": "2026-04-17T01:55:18Z"
     },
     {
       "slug": "elmsmarkers",
