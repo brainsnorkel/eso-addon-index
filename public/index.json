@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-18T06:26:59.911911+00:00",
+  "generated_at": "2026-04-18T12:12:48.382564+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "a0ee696",
+        "version": "ddecb04",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-04-01T08:37:45Z",
-        "commit_sha": "a0ee69658dd133529b95ad2ef396d98c083e849b",
-        "commit_date": "2026-04-01T08:37:45Z",
-        "commit_message": "Bump version to 3.145"
+        "published_at": "2026-04-18T07:10:09Z",
+        "commit_sha": "ddecb04b17f2478c23a218d43c0b0e16349b5675",
+        "commit_date": "2026-04-18T07:10:09Z",
+        "commit_message": "Fix stack2 detection: raise threshold to >=3 and require descriptionNum match"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Bump version to 3.145"
+        "commit_message": "Fix stack2 detection: raise threshold to >=3 and require descriptionNum match"
       },
-      "last_updated": "2026-04-01T08:37:45Z"
+      "last_updated": "2026-04-18T07:10:09Z"
     },
     {
       "slug": "aui",

@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "a0ee696",
+      "version": "ddecb04",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-04-01T08:37:45Z",
-      "release_notes": "Bump version to 3.145",
-      "commit_sha": "a0ee69658dd133529b95ad2ef396d98c083e849b",
-      "commit_date": "2026-04-01T08:37:45Z",
-      "commit_message": "Bump version to 3.145"
+      "published_at": "2026-04-18T07:10:09Z",
+      "release_notes": "Fix stack2 detection: raise threshold to >=3 and require descriptionNum match",
+      "commit_sha": "ddecb04b17f2478c23a218d43c0b0e16349b5675",
+      "commit_date": "2026-04-18T07:10:09Z",
+      "commit_message": "Fix stack2 detection: raise threshold to >=3 and require descriptionNum match"
     },
     "aui": {
       "version": "cdb80c7",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-18T06:26:59.721390+00:00",
-  "updates": []
+  "last_checked": "2026-04-18T12:12:48.208292+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "a0ee696",
+      "new_version": "ddecb04",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Fix stack2 detection: raise threshold to >=3 and require descriptionNum match"
+    }
+  ]
 }
