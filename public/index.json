@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-19T06:35:57.450141+00:00",
+  "generated_at": "2026-04-19T12:12:24.116174+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "51f800b",
+        "version": "e51cef3",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-18T22:25:39Z",
-        "commit_sha": "51f800b0c5a05581597900b9860e2a462fd4543b",
-        "commit_date": "2026-04-18T22:25:39Z",
-        "commit_message": "Add Voltaic Current alert and sound"
+        "published_at": "2026-04-19T12:07:44Z",
+        "commit_sha": "e51cef3181eb4811ca40dea1461fc1eabd8cef70",
+        "commit_date": "2026-04-19T12:07:44Z",
+        "commit_message": "Maybe fix lingering highlight after settings change"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add Voltaic Current alert and sound"
+        "commit_message": "Maybe fix lingering highlight after settings change"
       },
-      "last_updated": "2026-04-18T22:25:39Z"
+      "last_updated": "2026-04-19T12:07:44Z"
     },
     {
       "slug": "elmsmarkers",

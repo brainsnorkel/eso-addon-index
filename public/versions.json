@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "51f800b",
+      "version": "e51cef3",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-18T22:25:39Z",
-      "release_notes": "Add Voltaic Current alert and sound",
-      "commit_sha": "51f800b0c5a05581597900b9860e2a462fd4543b",
-      "commit_date": "2026-04-18T22:25:39Z",
-      "commit_message": "Add Voltaic Current alert and sound"
+      "published_at": "2026-04-19T12:07:44Z",
+      "release_notes": "Maybe fix lingering highlight after settings change",
+      "commit_sha": "e51cef3181eb4811ca40dea1461fc1eabd8cef70",
+      "commit_date": "2026-04-19T12:07:44Z",
+      "commit_message": "Maybe fix lingering highlight after settings change"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-19T06:35:57.272873+00:00",
-  "updates": []
+  "last_checked": "2026-04-19T12:12:23.943524+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "51f800b",
+      "new_version": "e51cef3",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Maybe fix lingering highlight after settings change"
+    }
+  ]
 }
