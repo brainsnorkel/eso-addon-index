@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "3defd9b",
+      "version": "51f800b",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-17T01:55:18Z",
-      "release_notes": "Found the missing bracket",
-      "commit_sha": "3defd9b5e13217715b53cd2b776f5492b767d731",
-      "commit_date": "2026-04-17T01:55:18Z",
-      "commit_message": "Found the missing bracket"
+      "published_at": "2026-04-18T22:25:39Z",
+      "release_notes": "Add Voltaic Current alert and sound",
+      "commit_sha": "51f800b0c5a05581597900b9860e2a462fd4543b",
+      "commit_date": "2026-04-18T22:25:39Z",
+      "commit_message": "Add Voltaic Current alert and sound"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-18T18:13:15.360337+00:00",
-  "updates": []
+  "last_checked": "2026-04-19T00:29:15.969378+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "3defd9b",
+      "new_version": "51f800b",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add Voltaic Current alert and sound"
+    }
+  ]
 }
