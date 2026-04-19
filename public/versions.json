@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-19T00:29:15.969378+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "3defd9b",
-      "new_version": "51f800b",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add Voltaic Current alert and sound"
-    }
-  ]
+  "last_checked": "2026-04-19T06:35:57.272873+00:00",
+  "updates": []
 }
