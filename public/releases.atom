@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-04-19T18:13:44.806566+00:00</updated>
+  <updated>2026-04-20T00:29:26.459358+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2026-04-19</id>
+    <title>LibCustomIcons updated: 2026-04-12 → 2026-04-19</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-04-20T00:29:26.459358+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-04-12 to 2026-04-19.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2026-04-19</id>
+    <title>LibCustomNames updated: 2026-04-12 → 2026-04-19</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-04-20T00:29:26.459358+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-04-12 to 2026-04-19.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:e51cef3</id>
     <title>CrutchAlerts updated: 51f800b → e51cef3</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/Solinur/CombatMetrics" rel="alternate"/>
     <updated>2026-03-03T18:15:25.852993+00:00</updated>
     <summary>CombatMetrics has been updated from version 1.7.6 to 1.7.7.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:55c5c8d</id>
-    <title>CrutchAlerts updated: 8e2d999 → 55c5c8d</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-03-03T12:11:16.606722+00:00</updated>
-    <summary>CrutchAlerts has been updated from version 8e2d999 to 55c5c8d.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomnames:2026-03-01</id>
-    <title>LibCustomNames updated: 2026-02-22 → 2026-03-01</title>
-    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
-    <updated>2026-03-02T00:21:23.693670+00:00</updated>
-    <summary>LibCustomNames has been updated from version 2026-02-22 to 2026-03-01.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
