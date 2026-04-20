@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-20T12:25:40.686640+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "e51cef3",
-      "new_version": "8312028",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Color some Eternal Servant abilities"
-    }
-  ]
+  "last_checked": "2026-04-20T18:21:23.832679+00:00",
+  "updates": []
 }
