@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-20T06:46:02.499790+00:00",
+  "generated_at": "2026-04-20T12:25:40.862654+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "e51cef3",
+      "new_version": "8312028",
+      "published_at": "2026-04-20T08:55:10Z",
+      "detected_at": "2026-04-20T12:25:40.862654+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
@@ -892,15 +901,6 @@
       "new_version": "62b6718",
       "published_at": "2026-03-04T05:09:32Z",
       "detected_at": "2026-03-04T06:15:17.202509+00:00"
-    },
-    {
-      "slug": "combatmetrics",
-      "name": "CombatMetrics",
-      "url": "https://github.com/Solinur/CombatMetrics",
-      "old_version": "1.7.6",
-      "new_version": "1.7.7",
-      "published_at": "2026-03-03T14:06:37Z",
-      "detected_at": "2026-03-03T18:15:25.852993+00:00"
     }
   ]
 }

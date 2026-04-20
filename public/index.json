@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-20T06:46:02.499790+00:00",
+  "generated_at": "2026-04-20T12:25:40.862654+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "e51cef3",
+        "version": "8312028",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-19T12:07:44Z",
-        "commit_sha": "e51cef3181eb4811ca40dea1461fc1eabd8cef70",
-        "commit_date": "2026-04-19T12:07:44Z",
-        "commit_message": "Maybe fix lingering highlight after settings change"
+        "published_at": "2026-04-20T08:55:10Z",
+        "commit_sha": "8312028a0e06c00f750d68c4240e73a448b9e648",
+        "commit_date": "2026-04-20T08:55:10Z",
+        "commit_message": "Color some Eternal Servant abilities"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Maybe fix lingering highlight after settings change"
+        "commit_message": "Color some Eternal Servant abilities"
       },
-      "last_updated": "2026-04-19T12:07:44Z"
+      "last_updated": "2026-04-20T08:55:10Z"
     },
     {
       "slug": "elmsmarkers",
