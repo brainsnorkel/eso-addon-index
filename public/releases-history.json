@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-21T06:39:10.536183+00:00",
+  "generated_at": "2026-04-21T12:23:18.332720+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "33b16ba",
+      "new_version": "8e25924",
+      "published_at": "2026-04-21T07:07:12Z",
+      "detected_at": "2026-04-21T12:23:18.332720+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "570f51e",
       "published_at": "2026-03-05T03:44:52Z",
       "detected_at": "2026-03-05T06:17:23.646455+00:00"
-    },
-    {
-      "slug": "hodorreflexes",
-      "name": "HodorReflexes",
-      "url": "https://github.com/m00nyONE/HodorReflexes",
-      "old_version": "2026-02-14",
-      "new_version": "2026-03-04",
-      "published_at": "2026-03-04T16:54:08Z",
-      "detected_at": "2026-03-04T18:14:23.578836+00:00"
     }
   ]
 }

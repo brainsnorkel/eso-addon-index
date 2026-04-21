@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-21T06:39:10.536183+00:00",
+  "generated_at": "2026-04-21T12:23:18.332720+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "33b16ba",
+        "version": "8e25924",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-21T00:34:42Z",
-        "commit_sha": "33b16ba93fa420124a076d1ea67cb1fbab436755",
-        "commit_date": "2026-04-21T00:34:42Z",
-        "commit_message": "Fix Ice Comet"
+        "published_at": "2026-04-21T07:07:12Z",
+        "commit_sha": "8e259242875a9ce5f3f8adc112a0320e1338405b",
+        "commit_date": "2026-04-21T07:07:12Z",
+        "commit_message": "[2.15.0] Bump version"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix Ice Comet"
+        "commit_message": "[2.15.0] Bump version"
       },
-      "last_updated": "2026-04-21T00:34:42Z"
+      "last_updated": "2026-04-21T07:07:12Z"
     },
     {
       "slug": "elmsmarkers",

@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "33b16ba",
+      "version": "8e25924",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-21T00:34:42Z",
-      "release_notes": "Fix Ice Comet",
-      "commit_sha": "33b16ba93fa420124a076d1ea67cb1fbab436755",
-      "commit_date": "2026-04-21T00:34:42Z",
-      "commit_message": "Fix Ice Comet"
+      "published_at": "2026-04-21T07:07:12Z",
+      "release_notes": "[2.15.0] Bump version",
+      "commit_sha": "8e259242875a9ce5f3f8adc112a0320e1338405b",
+      "commit_date": "2026-04-21T07:07:12Z",
+      "commit_message": "[2.15.0] Bump version"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-21T06:39:10.362848+00:00",
+  "last_checked": "2026-04-21T12:23:18.163466+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "8312028",
-      "new_version": "33b16ba",
+      "old_version": "33b16ba",
+      "new_version": "8e25924",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix Ice Comet"
+      "commit_message": "[2.15.0] Bump version"
     }
   ]
 }
