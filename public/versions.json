@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "8312028",
+      "version": "33b16ba",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-20T08:55:10Z",
-      "release_notes": "Color some Eternal Servant abilities",
-      "commit_sha": "8312028a0e06c00f750d68c4240e73a448b9e648",
-      "commit_date": "2026-04-20T08:55:10Z",
-      "commit_message": "Color some Eternal Servant abilities"
+      "published_at": "2026-04-21T00:34:42Z",
+      "release_notes": "Fix Ice Comet",
+      "commit_sha": "33b16ba93fa420124a076d1ea67cb1fbab436755",
+      "commit_date": "2026-04-21T00:34:42Z",
+      "commit_message": "Fix Ice Comet"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-21T00:30:30.635768+00:00",
-  "updates": []
+  "last_checked": "2026-04-21T06:39:10.362848+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "8312028",
+      "new_version": "33b16ba",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix Ice Comet"
+    }
+  ]
 }

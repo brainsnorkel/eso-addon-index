@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-21T00:30:30.810126+00:00",
+  "generated_at": "2026-04-21T06:39:10.536183+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "8312028",
+        "version": "33b16ba",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-20T08:55:10Z",
-        "commit_sha": "8312028a0e06c00f750d68c4240e73a448b9e648",
-        "commit_date": "2026-04-20T08:55:10Z",
-        "commit_message": "Color some Eternal Servant abilities"
+        "published_at": "2026-04-21T00:34:42Z",
+        "commit_sha": "33b16ba93fa420124a076d1ea67cb1fbab436755",
+        "commit_date": "2026-04-21T00:34:42Z",
+        "commit_message": "Fix Ice Comet"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Color some Eternal Servant abilities"
+        "commit_message": "Fix Ice Comet"
       },
-      "last_updated": "2026-04-20T08:55:10Z"
+      "last_updated": "2026-04-21T00:34:42Z"
     },
     {
       "slug": "elmsmarkers",

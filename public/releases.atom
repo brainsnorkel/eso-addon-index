@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-04-21T00:30:30.810126+00:00</updated>
+  <updated>2026-04-21T06:39:10.536183+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:33b16ba</id>
+    <title>CrutchAlerts updated: 8312028 → 33b16ba</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-04-21T06:39:10.536183+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 8312028 to 33b16ba.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:8312028</id>
     <title>CrutchAlerts updated: e51cef3 → 8312028</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/m00nyONE/HodorReflexes" rel="alternate"/>
     <updated>2026-03-04T18:14:23.578836+00:00</updated>
     <summary>HodorReflexes has been updated from version 2026-02-14 to 2026-03-04.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:62b6718</id>
-    <title>CrutchAlerts updated: 55c5c8d → 62b6718</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-03-04T06:15:17.202509+00:00</updated>
-    <summary>CrutchAlerts has been updated from version 55c5c8d to 62b6718.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
