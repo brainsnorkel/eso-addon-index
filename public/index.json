@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-22T00:27:37.443174+00:00",
+  "generated_at": "2026-04-22T06:39:24.636539+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "8e25924",
+        "version": "5d86b2f",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-21T07:07:12Z",
-        "commit_sha": "8e259242875a9ce5f3f8adc112a0320e1338405b",
-        "commit_date": "2026-04-21T07:07:12Z",
-        "commit_message": "[2.15.0] Bump version"
+        "published_at": "2026-04-22T03:44:08Z",
+        "commit_sha": "5d86b2fa79b7d9705101103442061a14fe6449df",
+        "commit_date": "2026-04-22T03:44:08Z",
+        "commit_message": "Revert circle radius restriction"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.15.0] Bump version"
+        "commit_message": "Revert circle radius restriction"
       },
-      "last_updated": "2026-04-21T07:07:12Z"
+      "last_updated": "2026-04-22T03:44:08Z"
     },
     {
       "slug": "elmsmarkers",
