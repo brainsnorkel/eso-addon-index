@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-23T00:32:52.255441+00:00",
+  "generated_at": "2026-04-23T06:39:45.440597+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "ddecb04",
+        "version": "db61541",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-04-18T07:10:09Z",
-        "commit_sha": "ddecb04b17f2478c23a218d43c0b0e16349b5675",
-        "commit_date": "2026-04-18T07:10:09Z",
-        "commit_message": "Fix stack2 detection: raise threshold to >=3 and require descriptionNum match"
+        "published_at": "2026-04-23T00:50:10Z",
+        "commit_sha": "db615410fed4bb3b7b24c95604a902812c009688",
+        "commit_date": "2026-04-23T00:50:10Z",
+        "commit_message": "Preserve channelEndTime on cancel instead of clearing it"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix stack2 detection: raise threshold to >=3 and require descriptionNum match"
+        "commit_message": "Preserve channelEndTime on cancel instead of clearing it"
       },
-      "last_updated": "2026-04-18T07:10:09Z"
+      "last_updated": "2026-04-23T00:50:10Z"
     },
     {
       "slug": "aui",
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "5d86b2f",
+        "version": "3dff966",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-22T03:44:08Z",
-        "commit_sha": "5d86b2fa79b7d9705101103442061a14fe6449df",
-        "commit_date": "2026-04-22T03:44:08Z",
-        "commit_message": "Revert circle radius restriction"
+        "published_at": "2026-04-23T03:35:35Z",
+        "commit_sha": "3dff9667dd8fb371e53db48af72d81b1d5ff6364",
+        "commit_date": "2026-04-23T03:35:35Z",
+        "commit_message": "[2.15.1] Bump version"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Revert circle radius restriction"
+        "commit_message": "[2.15.1] Bump version"
       },
-      "last_updated": "2026-04-22T03:44:08Z"
+      "last_updated": "2026-04-23T03:35:35Z"
     },
     {
       "slug": "elmsmarkers",

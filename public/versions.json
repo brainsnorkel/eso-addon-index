@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "ddecb04",
+      "version": "db61541",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-04-18T07:10:09Z",
-      "release_notes": "Fix stack2 detection: raise threshold to >=3 and require descriptionNum match",
-      "commit_sha": "ddecb04b17f2478c23a218d43c0b0e16349b5675",
-      "commit_date": "2026-04-18T07:10:09Z",
-      "commit_message": "Fix stack2 detection: raise threshold to >=3 and require descriptionNum match"
+      "published_at": "2026-04-23T00:50:10Z",
+      "release_notes": "Preserve channelEndTime on cancel instead of clearing it",
+      "commit_sha": "db615410fed4bb3b7b24c95604a902812c009688",
+      "commit_date": "2026-04-23T00:50:10Z",
+      "commit_message": "Preserve channelEndTime on cancel instead of clearing it"
     },
     "aui": {
       "version": "cdb80c7",
@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "5d86b2f",
+      "version": "3dff966",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-22T03:44:08Z",
-      "release_notes": "Revert circle radius restriction",
-      "commit_sha": "5d86b2fa79b7d9705101103442061a14fe6449df",
-      "commit_date": "2026-04-22T03:44:08Z",
-      "commit_message": "Revert circle radius restriction"
+      "published_at": "2026-04-23T03:35:35Z",
+      "release_notes": "[2.15.1] Bump version",
+      "commit_sha": "3dff9667dd8fb371e53db48af72d81b1d5ff6364",
+      "commit_date": "2026-04-23T03:35:35Z",
+      "commit_message": "[2.15.1] Bump version"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,21 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-23T00:32:52.069005+00:00",
-  "updates": []
+  "last_checked": "2026-04-23T06:39:45.264001+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "ddecb04",
+      "new_version": "db61541",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Preserve channelEndTime on cancel instead of clearing it"
+    },
+    {
+      "slug": "crutchalerts",
+      "old_version": "5d86b2f",
+      "new_version": "3dff966",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.15.1] Bump version"
+    }
+  ]
 }
