@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "db61541",
+      "version": "17fe73a",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-04-23T00:50:10Z",
-      "release_notes": "Preserve channelEndTime on cancel instead of clearing it",
-      "commit_sha": "db615410fed4bb3b7b24c95604a902812c009688",
-      "commit_date": "2026-04-23T00:50:10Z",
-      "commit_message": "Preserve channelEndTime on cancel instead of clearing it"
+      "published_at": "2026-04-24T15:04:11Z",
+      "release_notes": "Bump version to 3.148",
+      "commit_sha": "17fe73ae43806304ba0174fe00fed12d3baca26f",
+      "commit_date": "2026-04-24T15:04:11Z",
+      "commit_message": "Bump version to 3.148"
     },
     "aui": {
       "version": "cdb80c7",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-24T12:22:18.774495+00:00",
-  "updates": []
+  "last_checked": "2026-04-24T18:15:38.827641+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "db61541",
+      "new_version": "17fe73a",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Bump version to 3.148"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T12:22:18.946329+00:00",
+  "generated_at": "2026-04-24T18:15:38.996810+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "db61541",
+        "version": "17fe73a",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-04-23T00:50:10Z",
-        "commit_sha": "db615410fed4bb3b7b24c95604a902812c009688",
-        "commit_date": "2026-04-23T00:50:10Z",
-        "commit_message": "Preserve channelEndTime on cancel instead of clearing it"
+        "published_at": "2026-04-24T15:04:11Z",
+        "commit_sha": "17fe73ae43806304ba0174fe00fed12d3baca26f",
+        "commit_date": "2026-04-24T15:04:11Z",
+        "commit_message": "Bump version to 3.148"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Preserve channelEndTime on cancel instead of clearing it"
+        "commit_message": "Bump version to 3.148"
       },
-      "last_updated": "2026-04-23T00:50:10Z"
+      "last_updated": "2026-04-24T15:04:11Z"
     },
     {
       "slug": "aui",
