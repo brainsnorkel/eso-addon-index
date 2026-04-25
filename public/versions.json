@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "4ecb742",
+      "version": "804ee98",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-24T01:41:55Z",
-      "release_notes": "Clean some comments and test",
-      "commit_sha": "4ecb74213b0bbffbb851d6a16ab7cb190a0a99a3",
-      "commit_date": "2026-04-24T01:41:55Z",
-      "commit_message": "Clean some comments and test"
+      "published_at": "2026-04-25T06:44:35Z",
+      "release_notes": "Move spammy CC debug to spam",
+      "commit_sha": "804ee98ab4b571d4e740a954bcd50ee232e4825a",
+      "commit_date": "2026-04-25T06:44:35Z",
+      "commit_message": "Move spammy CC debug to spam"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-25T06:32:01.773433+00:00",
-  "updates": []
+  "last_checked": "2026-04-25T12:14:29.196469+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "4ecb742",
+      "new_version": "804ee98",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Move spammy CC debug to spam"
+    }
+  ]
 }
