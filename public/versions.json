@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "804ee98",
+      "version": "2031d62",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-25T06:44:35Z",
-      "release_notes": "Move spammy CC debug to spam",
-      "commit_sha": "804ee98ab4b571d4e740a954bcd50ee232e4825a",
-      "commit_date": "2026-04-25T06:44:35Z",
-      "commit_message": "Move spammy CC debug to spam"
+      "published_at": "2026-04-25T22:20:15Z",
+      "release_notes": "Adjust grapes UI",
+      "commit_sha": "2031d623f5159f0c832c04c1c70f4ec29aad9984",
+      "commit_date": "2026-04-25T22:20:15Z",
+      "commit_message": "Adjust grapes UI"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-25T18:14:47.457218+00:00",
+  "last_checked": "2026-04-26T00:31:38.371564+00:00",
   "updates": [
     {
-      "slug": "actiondurationreminder",
-      "old_version": "17fe73a",
-      "new_version": "0840405",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Bump version to 3.149"
+      "slug": "crutchalerts",
+      "old_version": "804ee98",
+      "new_version": "2031d62",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Adjust grapes UI"
     }
   ]
 }
