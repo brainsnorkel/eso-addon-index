@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-26T00:31:38.371564+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "804ee98",
-      "new_version": "2031d62",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Adjust grapes UI"
-    }
-  ]
+  "last_checked": "2026-04-26T06:38:52.407194+00:00",
+  "updates": []
 }
