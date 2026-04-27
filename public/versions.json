@@ -182,9 +182,9 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-04-19",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-04-19",
-      "published_at": "2026-04-19T22:55:33Z",
+      "version": "2026-04-26",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-04-26",
+      "published_at": "2026-04-26T22:58:27Z",
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
@@ -197,9 +197,9 @@
       "commit_message": "version 2.9.3:"
     },
     "libcustomnames": {
-      "version": "2026-04-19",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-04-19",
-      "published_at": "2026-04-19T22:55:47Z",
+      "version": "2026-04-26",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-04-26",
+      "published_at": "2026-04-26T22:58:35Z",
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libdebuglogger": {
@@ -324,6 +324,19 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-26T18:15:17.613715+00:00",
-  "updates": []
+  "last_checked": "2026-04-27T00:32:09.432897+00:00",
+  "updates": [
+    {
+      "slug": "libcustomicons",
+      "old_version": "2026-04-19",
+      "new_version": "2026-04-26",
+      "repo": "m00nyONE/LibCustomIcons"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-04-19",
+      "new_version": "2026-04-26",
+      "repo": "m00nyONE/LibCustomNames"
+    }
+  ]
 }

@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-04-26T18:15:17.787906+00:00</updated>
+  <updated>2026-04-27T00:32:09.598470+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2026-04-26</id>
+    <title>LibCustomIcons updated: 2026-04-19 → 2026-04-26</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-04-27T00:32:09.598470+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-04-19 to 2026-04-26.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2026-04-26</id>
+    <title>LibCustomNames updated: 2026-04-19 → 2026-04-26</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-04-27T00:32:09.598470+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-04-19 to 2026-04-26.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:2031d62</id>
     <title>CrutchAlerts updated: 804ee98 → 2031d62</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
     <updated>2026-03-09T12:12:16.280579+00:00</updated>
     <summary>CrutchAlerts has been updated from version 1a17bc0 to 150de93.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:luiextended:v7.2.0.1</id>
-    <title>LuiExtended updated: v7.2.0.0 → v7.2.0.1</title>
-    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
-    <updated>2026-03-09T12:12:16.280579+00:00</updated>
-    <summary>LuiExtended has been updated from version v7.2.0.0 to v7.2.0.1.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomicons:2026-03-08</id>
-    <title>LibCustomIcons updated: 2026-02-22 → 2026-03-08</title>
-    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
-    <updated>2026-03-09T00:21:42.771813+00:00</updated>
-    <summary>LibCustomIcons has been updated from version 2026-02-22 to 2026-03-08.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
