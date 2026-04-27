@@ -151,10 +151,11 @@
       "commit_sha": "24274cbbddcd61133a9b42ea776f0a60e272e6fa"
     },
     "libaddonmenu-2-0": {
-      "version": "r32",
-      "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
-      "published_at": "2020-12-17T20:09:33Z",
-      "release_notes": ""
+      "version": "r41",
+      "download_url": "https://github.com/sirinsidiator/ESO-LibAddonMenu/archive/refs/tags/r41.zip",
+      "published_at": "2025-10-28T19:46:28Z",
+      "release_notes": null,
+      "commit_sha": "bac3a8f834b68077182b11dad162eef6aaad8ed6"
     },
     "libasync": {
       "version": "bdada44",
@@ -324,6 +325,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-27T12:33:27.179962+00:00",
-  "updates": []
+  "last_checked": "2026-04-27T18:28:51.720831+00:00",
+  "updates": [
+    {
+      "slug": "libaddonmenu-2-0",
+      "old_version": "r32",
+      "new_version": "r41",
+      "repo": "sirinsidiator/ESO-LibAddonMenu"
+    }
+  ]
 }
