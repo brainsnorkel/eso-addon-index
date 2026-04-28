@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-28T06:55:49.740731+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "2031d62",
-      "new_version": "a760492",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fuss with CR stuff some more"
-    }
-  ]
+  "last_checked": "2026-04-28T12:36:50.591120+00:00",
+  "updates": []
 }
