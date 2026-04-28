@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-28T12:36:50.803815+00:00",
+  "generated_at": "2026-04-28T18:33:19.476022+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -1136,6 +1136,12 @@
       }
     ],
     "luiextended": [
+      {
+        "version": "v7.2.0.7",
+        "published_at": "2026-04-28T17:04:55Z",
+        "detected_at": "2026-04-28T18:33:19.476022+00:00",
+        "commit_sha": "131de5c20dd55aab54551970342f800c43acb596"
+      },
       {
         "version": "v7.2.0.5",
         "published_at": "2026-04-13T12:53:36Z",

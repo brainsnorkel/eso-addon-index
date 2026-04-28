@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-28T12:36:50.803815+00:00",
+  "generated_at": "2026-04-28T18:33:19.476022+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.0.5",
+      "new_version": "v7.2.0.7",
+      "published_at": "2026-04-28T17:04:55Z",
+      "detected_at": "2026-04-28T18:33:19.476022+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "v7.2.0.2",
       "published_at": "2026-03-09T21:19:57Z",
       "detected_at": "2026-03-10T00:19:29.538674+00:00"
-    },
-    {
-      "slug": "beammeup",
-      "name": "BeamMeUp",
-      "url": "https://github.com/david-tub/BeamMeUp",
-      "old_version": "v3.7.4",
-      "new_version": "v4.0.0",
-      "published_at": "2026-03-09T06:39:57Z",
-      "detected_at": "2026-03-09T12:12:16.280579+00:00"
     }
   ]
 }
