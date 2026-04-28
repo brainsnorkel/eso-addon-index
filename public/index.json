@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-28T00:34:47.355817+00:00",
+  "generated_at": "2026-04-28T06:55:49.875969+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "2031d62",
+        "version": "a760492",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-25T22:20:15Z",
-        "commit_sha": "2031d623f5159f0c832c04c1c70f4ec29aad9984",
-        "commit_date": "2026-04-25T22:20:15Z",
-        "commit_message": "Adjust grapes UI"
+        "published_at": "2026-04-28T06:35:38Z",
+        "commit_sha": "a760492a674c754fc307cc3f8d7219fb432041c1",
+        "commit_date": "2026-04-28T06:35:38Z",
+        "commit_message": "Fuss with CR stuff some more"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Adjust grapes UI"
+        "commit_message": "Fuss with CR stuff some more"
       },
-      "last_updated": "2026-04-25T22:20:15Z"
+      "last_updated": "2026-04-28T06:35:38Z"
     },
     {
       "slug": "elmsmarkers",
