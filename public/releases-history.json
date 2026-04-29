@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-28T18:33:19.476022+00:00",
+  "generated_at": "2026-04-29T00:36:23.072266+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.0.7",
+      "new_version": "v7.2.0.8",
+      "published_at": "2026-04-28T22:37:36Z",
+      "detected_at": "2026-04-29T00:36:23.072266+00:00"
+    },
     {
       "slug": "luiextended",
       "name": "LuiExtended",
@@ -892,15 +901,6 @@
       "new_version": "v1.9.0",
       "published_at": "2026-03-10T06:07:30Z",
       "detected_at": "2026-03-13T06:17:45.255639+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.2.0.1",
-      "new_version": "v7.2.0.2",
-      "published_at": "2026-03-09T21:19:57Z",
-      "detected_at": "2026-03-10T00:19:29.538674+00:00"
     }
   ]
 }
