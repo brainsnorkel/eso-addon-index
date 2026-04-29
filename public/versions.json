@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "a760492",
+      "version": "9aef55e",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-28T06:35:38Z",
-      "release_notes": "Fuss with CR stuff some more",
-      "commit_sha": "a760492a674c754fc307cc3f8d7219fb432041c1",
-      "commit_date": "2026-04-28T06:35:38Z",
-      "commit_message": "Fuss with CR stuff some more"
+      "published_at": "2026-04-29T03:23:16Z",
+      "release_notes": "Add untested PC settings for OC portal ability overlay",
+      "commit_sha": "9aef55ec202dc749e6f7345212a52f2a6a197472",
+      "commit_date": "2026-04-29T03:23:16Z",
+      "commit_message": "Add untested PC settings for OC portal ability overlay"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-29T00:36:22.903176+00:00",
+  "last_checked": "2026-04-29T06:50:54.209637+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.0.7",
-      "new_version": "v7.2.0.8",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "crutchalerts",
+      "old_version": "a760492",
+      "new_version": "9aef55e",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add untested PC settings for OC portal ability overlay"
     }
   ]
 }

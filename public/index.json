@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T00:36:23.072266+00:00",
+  "generated_at": "2026-04-29T06:50:54.361189+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "a760492",
+        "version": "9aef55e",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-04-28T06:35:38Z",
-        "commit_sha": "a760492a674c754fc307cc3f8d7219fb432041c1",
-        "commit_date": "2026-04-28T06:35:38Z",
-        "commit_message": "Fuss with CR stuff some more"
+        "published_at": "2026-04-29T03:23:16Z",
+        "commit_sha": "9aef55ec202dc749e6f7345212a52f2a6a197472",
+        "commit_date": "2026-04-29T03:23:16Z",
+        "commit_message": "Add untested PC settings for OC portal ability overlay"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fuss with CR stuff some more"
+        "commit_message": "Add untested PC settings for OC portal ability overlay"
       },
-      "last_updated": "2026-04-28T06:35:38Z"
+      "last_updated": "2026-04-29T03:23:16Z"
     },
     {
       "slug": "elmsmarkers",
