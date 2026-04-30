@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.0.8",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.8",
-      "published_at": "2026-04-28T22:37:36Z",
-      "release_notes": "## What's Changed\r\n* fix: update 50 api revert by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/384\r\n* fix a fix by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/385\r\n* Make code65536 happy by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/386\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.6...v7.2.0.8"
+      "version": "v7.2.0.9",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.9",
+      "published_at": "2026-04-30T00:02:05Z",
+      "release_notes": "## What's Changed\r\n* feat: DynamicEventsTracker mover by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/387\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.0.8...v7.2.0.9"
     },
     "m0rmarkers": {
       "version": "v2.0.4",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-04-29T18:31:45.001120+00:00",
-  "updates": []
+  "last_checked": "2026-04-30T00:35:56.623767+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.0.8",
+      "new_version": "v7.2.0.9",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
