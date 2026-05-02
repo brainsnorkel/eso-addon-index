@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "3a60b1b",
+      "version": "bd9f770",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-02T04:02:30Z",
-      "release_notes": "Add some thresholds and display for NM",
-      "commit_sha": "3a60b1b9f207d9bbbb9c3588c11a1ea9181892af",
-      "commit_date": "2026-05-02T04:02:30Z",
-      "commit_message": "Add some thresholds and display for NM"
+      "published_at": "2026-05-02T07:25:43Z",
+      "release_notes": "Fix Impaling Shards",
+      "commit_sha": "bd9f7704b0fda79deaadf1aa7a2bbf185ef6057d",
+      "commit_date": "2026-05-02T07:25:43Z",
+      "commit_message": "Fix Impaling Shards"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -188,12 +188,12 @@
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
-      "version": "602897c",
+      "version": "d200708",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-04-12T09:02:12Z",
+      "published_at": "2026-05-02T10:59:56Z",
       "release_notes": "version 2.9.3:",
-      "commit_sha": "602897c02d0406a09cc414031684150cce7e1971",
-      "commit_date": "2026-04-12T09:02:12Z",
+      "commit_sha": "d20070801731887c66d9a606f97d33a05d323008",
+      "commit_date": "2026-05-02T10:59:56Z",
       "commit_message": "version 2.9.3:"
     },
     "libcustomnames": {
@@ -324,14 +324,21 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-02T06:40:09.358397+00:00",
+  "last_checked": "2026-05-02T12:18:35.499251+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "9aef55e",
-      "new_version": "3a60b1b",
+      "old_version": "3a60b1b",
+      "new_version": "bd9f770",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add some thresholds and display for NM"
+      "commit_message": "Fix Impaling Shards"
+    },
+    {
+      "slug": "libcustommenu",
+      "old_version": "602897c",
+      "new_version": "d200708",
+      "repo": "votan73/ESO",
+      "commit_message": "version 2.9.3:"
     }
   ]
 }

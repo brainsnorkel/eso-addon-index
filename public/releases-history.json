@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-02T06:40:09.549708+00:00",
+  "generated_at": "2026-05-02T12:18:35.667737+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "3a60b1b",
+      "new_version": "bd9f770",
+      "published_at": "2026-05-02T07:25:43Z",
+      "detected_at": "2026-05-02T12:18:35.667737+00:00"
+    },
+    {
+      "slug": "libcustommenu",
+      "name": "LibCustomMenu",
+      "url": "https://github.com/votan73/ESO",
+      "old_version": "602897c",
+      "new_version": "d200708",
+      "published_at": "2026-05-02T10:59:56Z",
+      "detected_at": "2026-05-02T12:18:35.667737+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -883,24 +901,6 @@
       "new_version": "2026-03-15",
       "published_at": "2026-03-15T22:47:21Z",
       "detected_at": "2026-03-16T00:25:03.006151+00:00"
-    },
-    {
-      "slug": "libsets",
-      "name": "LibSets",
-      "url": "https://github.com/Baertram/LibSets",
-      "old_version": "895488f",
-      "new_version": "72aef75",
-      "published_at": "2026-03-15T12:57:20Z",
-      "detected_at": "2026-03-15T18:08:42.877163+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "78e896b",
-      "new_version": "8b7627e",
-      "published_at": "2026-03-14T03:12:36Z",
-      "detected_at": "2026-03-14T06:16:09.167527+00:00"
     }
   ]
 }
