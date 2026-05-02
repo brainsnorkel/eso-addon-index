@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-05-02T00:35:05.371227+00:00</updated>
+  <updated>2026-05-02T06:40:09.549708+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:3a60b1b</id>
+    <title>CrutchAlerts updated: 9aef55e → 3a60b1b</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-05-02T06:40:09.549708+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 9aef55e to 3a60b1b.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:luiextended:v7.2.0.9</id>
     <title>LuiExtended updated: v7.2.0.8 → v7.2.0.9</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
     <updated>2026-03-14T06:16:09.167527+00:00</updated>
     <summary>CrutchAlerts has been updated from version 78e896b to 8b7627e.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:beammeup:v4.0.1</id>
-    <title>BeamMeUp updated: v4.0.0 → v4.0.1</title>
-    <link href="https://github.com/david-tub/BeamMeUp" rel="alternate"/>
-    <updated>2026-03-13T06:17:45.255639+00:00</updated>
-    <summary>BeamMeUp has been updated from version v4.0.0 to v4.0.1.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

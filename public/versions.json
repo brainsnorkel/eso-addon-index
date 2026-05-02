@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "9aef55e",
+      "version": "3a60b1b",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-04-29T03:23:16Z",
-      "release_notes": "Add untested PC settings for OC portal ability overlay",
-      "commit_sha": "9aef55ec202dc749e6f7345212a52f2a6a197472",
-      "commit_date": "2026-04-29T03:23:16Z",
-      "commit_message": "Add untested PC settings for OC portal ability overlay"
+      "published_at": "2026-05-02T04:02:30Z",
+      "release_notes": "Add some thresholds and display for NM",
+      "commit_sha": "3a60b1b9f207d9bbbb9c3588c11a1ea9181892af",
+      "commit_date": "2026-05-02T04:02:30Z",
+      "commit_message": "Add some thresholds and display for NM"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-02T00:35:05.203529+00:00",
-  "updates": []
+  "last_checked": "2026-05-02T06:40:09.358397+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "9aef55e",
+      "new_version": "3a60b1b",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add some thresholds and display for NM"
+    }
+  ]
 }
