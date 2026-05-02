@@ -324,21 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-02T12:18:35.499251+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "3a60b1b",
-      "new_version": "bd9f770",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix Impaling Shards"
-    },
-    {
-      "slug": "libcustommenu",
-      "old_version": "602897c",
-      "new_version": "d200708",
-      "repo": "votan73/ESO",
-      "commit_message": "version 2.9.3:"
-    }
-  ]
+  "last_checked": "2026-05-02T18:18:54.281541+00:00",
+  "updates": []
 }
