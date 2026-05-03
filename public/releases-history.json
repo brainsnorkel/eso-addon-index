@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-02T18:18:54.448938+00:00",
+  "generated_at": "2026-05-03T00:35:44.022541+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.0.9",
+      "new_version": "v7.2.1.1",
+      "published_at": "2026-05-03T00:09:34Z",
+      "detected_at": "2026-05-03T00:35:44.022541+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -891,15 +900,6 @@
       "old_version": "2026-03-08",
       "new_version": "2026-03-15",
       "published_at": "2026-03-15T22:46:54Z",
-      "detected_at": "2026-03-16T00:25:03.006151+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-03-08",
-      "new_version": "2026-03-15",
-      "published_at": "2026-03-15T22:47:21Z",
       "detected_at": "2026-03-16T00:25:03.006151+00:00"
     }
   ]

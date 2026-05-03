@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-02T18:18:54.448938+00:00",
+  "generated_at": "2026-05-03T00:35:44.022541+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.0.9",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.9",
-        "published_at": "2026-04-30T00:02:05Z",
-        "commit_sha": "c52ebb48de25db62382a4e851fc8bf9cd581a1dc"
+        "version": "v7.2.1.1",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.1",
+        "published_at": "2026-05-03T00:09:34Z",
+        "commit_sha": "80b6dad6e890f27231a6cb2d7ce72bd2d5f43165"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.0.9/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.1.1/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.0.9",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.1",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2701,14 +2701,14 @@
         "version_normalized": {
           "major": 7,
           "minor": 2,
-          "patch": 0,
+          "patch": 1,
           "prerelease": null
         },
-        "version_sort_key": 7002000000,
+        "version_sort_key": 7002001000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-04-30T00:02:05Z"
+      "last_updated": "2026-05-03T00:09:34Z"
     },
     {
       "slug": "m0rmarkers",
