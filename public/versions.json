@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "0840405",
+      "version": "2ff473d",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-04-25T13:48:05Z",
-      "release_notes": "Bump version to 3.149",
-      "commit_sha": "0840405624b8d6542dcb53a3e46f9f9713e9b2a8",
-      "commit_date": "2026-04-25T13:48:05Z",
-      "commit_message": "Bump version to 3.149"
+      "published_at": "2026-05-03T17:31:11Z",
+      "release_notes": "Bump version to 3.150",
+      "commit_sha": "2ff473d8a19e7e490d02f0b6df72c327a0630270",
+      "commit_date": "2026-05-03T17:31:11Z",
+      "commit_message": "Bump version to 3.150"
     },
     "aui": {
       "version": "cdb80c7",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-03T12:18:17.636970+00:00",
+  "last_checked": "2026-05-03T18:19:23.172156+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "d200708",
-      "new_version": "a0479c0",
-      "repo": "votan73/ESO",
-      "commit_message": "version 1.2.5:"
+      "slug": "actiondurationreminder",
+      "old_version": "0840405",
+      "new_version": "2ff473d",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Bump version to 3.150"
     }
   ]
 }
