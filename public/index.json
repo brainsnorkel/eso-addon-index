@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-04T12:35:32.566917+00:00",
+  "generated_at": "2026-05-04T18:33:37.759471+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "4f7c429",
+        "version": "58390e5",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-05-04T10:30:14Z",
-        "commit_sha": "4f7c4296df804bbcc51834c8812d5020707e40a6",
-        "commit_date": "2026-05-04T10:30:14Z",
-        "commit_message": "Add progress bar display mode for action bar timers"
+        "published_at": "2026-05-04T12:39:52Z",
+        "commit_sha": "58390e588a8844547a372245155d9c0429e49edb",
+        "commit_date": "2026-05-04T12:39:52Z",
+        "commit_message": "Add Chinese ability name patch to fix translation typos"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add progress bar display mode for action bar timers"
+        "commit_message": "Add Chinese ability name patch to fix translation typos"
       },
-      "last_updated": "2026-05-04T10:30:14Z"
+      "last_updated": "2026-05-04T12:39:52Z"
     },
     {
       "slug": "aui",

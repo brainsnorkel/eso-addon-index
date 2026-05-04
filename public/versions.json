@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "4f7c429",
+      "version": "58390e5",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-05-04T10:30:14Z",
-      "release_notes": "Add progress bar display mode for action bar timers",
-      "commit_sha": "4f7c4296df804bbcc51834c8812d5020707e40a6",
-      "commit_date": "2026-05-04T10:30:14Z",
-      "commit_message": "Add progress bar display mode for action bar timers"
+      "published_at": "2026-05-04T12:39:52Z",
+      "release_notes": "Add Chinese ability name patch to fix translation typos",
+      "commit_sha": "58390e588a8844547a372245155d9c0429e49edb",
+      "commit_date": "2026-05-04T12:39:52Z",
+      "commit_message": "Add Chinese ability name patch to fix translation typos"
     },
     "aui": {
       "version": "cdb80c7",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-04T12:35:32.395670+00:00",
+  "last_checked": "2026-05-04T18:33:37.580862+00:00",
   "updates": [
     {
       "slug": "actiondurationreminder",
-      "old_version": "fe3cb9d",
-      "new_version": "4f7c429",
+      "old_version": "4f7c429",
+      "new_version": "58390e5",
       "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Add progress bar display mode for action bar timers"
+      "commit_message": "Add Chinese ability name patch to fix translation typos"
     }
   ]
 }
