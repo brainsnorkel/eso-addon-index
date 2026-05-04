@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-04T00:34:54.006350+00:00",
+  "generated_at": "2026-05-04T07:02:53.329276+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "2ff473d",
+        "version": "fe3cb9d",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-05-03T17:31:11Z",
-        "commit_sha": "2ff473d8a19e7e490d02f0b6df72c327a0630270",
-        "commit_date": "2026-05-03T17:31:11Z",
-        "commit_message": "Bump version to 3.150"
+        "published_at": "2026-05-04T04:30:38Z",
+        "commit_sha": "fe3cb9df2471811442ff32ee431234c7ea92063a",
+        "commit_date": "2026-05-04T04:30:38Z",
+        "commit_message": "Bump version to 3.151, add Chat Alert to changelog"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Bump version to 3.150"
+        "commit_message": "Bump version to 3.151, add Chat Alert to changelog"
       },
-      "last_updated": "2026-05-03T17:31:11Z"
+      "last_updated": "2026-05-04T04:30:38Z"
     },
     {
       "slug": "aui",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.1.1",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.1",
-        "published_at": "2026-05-03T00:09:34Z",
-        "commit_sha": "80b6dad6e890f27231a6cb2d7ce72bd2d5f43165"
+        "version": "v7.2.1.2",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.2",
+        "published_at": "2026-05-04T06:44:10Z",
+        "commit_sha": "7f1c9a7be4c03d1b2cc072edbeb959982075588d"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.1.1/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.1.2/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.1",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.2",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2708,7 +2708,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-05-03T00:09:34Z"
+      "last_updated": "2026-05-04T06:44:10Z"
     },
     {
       "slug": "m0rmarkers",

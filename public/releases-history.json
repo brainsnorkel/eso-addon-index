@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-04T00:34:54.006350+00:00",
+  "generated_at": "2026-05-04T07:02:53.329276+00:00",
   "events": [
+    {
+      "slug": "actiondurationreminder",
+      "name": "Action Duration Reminder",
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "old_version": "2ff473d",
+      "new_version": "fe3cb9d",
+      "published_at": "2026-05-04T04:30:38Z",
+      "detected_at": "2026-05-04T07:02:53.329276+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.1.1",
+      "new_version": "v7.2.1.2",
+      "published_at": "2026-05-04T06:44:10Z",
+      "detected_at": "2026-05-04T07:02:53.329276+00:00"
+    },
     {
       "slug": "beammeup",
       "name": "BeamMeUp",
@@ -883,24 +901,6 @@
       "new_version": "fc6ae7d",
       "published_at": "2026-03-20T01:40:35Z",
       "detected_at": "2026-03-20T06:18:52.717853+00:00"
-    },
-    {
-      "slug": "libsets",
-      "name": "LibSets",
-      "url": "https://github.com/Baertram/LibSets",
-      "old_version": "72aef75",
-      "new_version": "6ac92a9",
-      "published_at": "2026-03-19T21:31:33Z",
-      "detected_at": "2026-03-20T00:22:38.747757+00:00"
-    },
-    {
-      "slug": "m0rmarkers",
-      "name": "M0RMarkers",
-      "url": "https://github.com/M0RGaming/M0RMarkers",
-      "old_version": "v1.9.0",
-      "new_version": "v1.9.1",
-      "published_at": "2026-03-19T18:40:07Z",
-      "detected_at": "2026-03-20T00:22:38.747757+00:00"
     }
   ]
 }
