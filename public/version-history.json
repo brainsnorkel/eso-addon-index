@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-04T07:02:53.329276+00:00",
+  "generated_at": "2026-05-04T12:35:32.566917+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -1386,6 +1386,12 @@
       }
     ],
     "actiondurationreminder": [
+      {
+        "version": "4f7c429",
+        "published_at": "2026-05-04T10:30:14Z",
+        "detected_at": "2026-05-04T12:35:32.566917+00:00",
+        "commit_sha": "4f7c4296df804bbcc51834c8812d5020707e40a6"
+      },
       {
         "version": "fe3cb9d",
         "published_at": "2026-05-04T04:30:38Z",
