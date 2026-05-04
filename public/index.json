@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T18:19:23.342803+00:00",
+  "generated_at": "2026-05-04T00:34:54.006350+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -277,20 +277,20 @@
         ]
       },
       "latest_release": {
-        "version": "v4.0.3",
-        "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.3",
-        "published_at": "2026-04-08T19:16:09Z",
+        "version": "4.0.3.010",
+        "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.3.010",
+        "published_at": "2026-05-03T19:12:19Z",
         "commit_sha": "84d3ddc367e5b9c11a6bef72d8e901e1c437a60d"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/david-tub/BeamMeUp@v4.0.3/BeamMeUp/",
+          "url": "https://cdn.jsdelivr.net/gh/david-tub/BeamMeUp@4.0.3.010/BeamMeUp/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.3",
+          "url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.3.010",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -305,7 +305,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-04-08T19:16:09Z"
+      "last_updated": "2026-05-03T19:12:19Z"
     },
     {
       "slug": "breadcrumbs",
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "bd9f770",
+        "version": "b5f88c5",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-02T07:25:43Z",
-        "commit_sha": "bd9f7704b0fda79deaadf1aa7a2bbf185ef6057d",
-        "commit_date": "2026-05-02T07:25:43Z",
-        "commit_message": "Fix Impaling Shards"
+        "published_at": "2026-05-03T22:29:09Z",
+        "commit_sha": "b5f88c579e64094a3b57a84ea14fed1ffed36639",
+        "commit_date": "2026-05-03T22:29:09Z",
+        "commit_message": "[2.16.0] Add preview line duration"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix Impaling Shards"
+        "commit_message": "[2.16.0] Add preview line duration"
       },
-      "last_updated": "2026-05-02T07:25:43Z"
+      "last_updated": "2026-05-03T22:29:09Z"
     },
     {
       "slug": "elmsmarkers",
@@ -1789,35 +1789,35 @@
         ]
       },
       "latest_release": {
-        "version": "2026-04-26",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-04-26",
-        "published_at": "2026-04-26T22:58:27Z",
-        "commit_sha": "ce6b3341f0449c3f6e514d916400ccb1cdc17e55"
+        "version": "2026-05-03",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-05-03",
+        "published_at": "2026-05-03T23:02:46Z",
+        "commit_sha": "92ef75e1c48579f48b7dd5183753c66e5a2fe9e5"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomIcons@2026-04-26/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomIcons@2026-05-03/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-04-26",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-05-03",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
           "major": 2026,
-          "minor": 4,
-          "patch": 26,
+          "minor": 5,
+          "patch": 3,
           "prerelease": null
         },
-        "version_sort_key": 2026004026000,
+        "version_sort_key": 2026005003000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-04-26T22:58:27Z"
+      "last_updated": "2026-05-03T23:02:46Z"
     },
     {
       "slug": "libcustommenu",
@@ -1937,35 +1937,35 @@
         ]
       },
       "latest_release": {
-        "version": "2026-04-26",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-04-26",
-        "published_at": "2026-04-26T22:58:35Z",
-        "commit_sha": "33704d47ff58917f43f5393a4725dc5bec6fda4e"
+        "version": "2026-05-03",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-05-03",
+        "published_at": "2026-05-03T23:02:52Z",
+        "commit_sha": "007ca0ad4ca3d8fe3d1fa63889f1f396b8c8dce4"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-04-26/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-05-03/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-04-26",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-05-03",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
           "major": 2026,
-          "minor": 4,
-          "patch": 26,
+          "minor": 5,
+          "patch": 3,
           "prerelease": null
         },
-        "version_sort_key": 2026004026000,
+        "version_sort_key": 2026005003000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-04-26T22:58:35Z"
+      "last_updated": "2026-05-03T23:02:52Z"
     },
     {
       "slug": "libdebuglogger",

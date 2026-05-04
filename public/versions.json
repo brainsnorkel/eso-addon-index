@@ -26,10 +26,10 @@
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
     "beammeup": {
-      "version": "v4.0.3",
-      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/v4.0.3",
-      "published_at": "2026-04-08T19:16:09Z",
-      "release_notes": "- fixed several issues in gamepad mode\r\n- fixed Clue filter\r\n- further improvements for console integration\r\n- added new partner guild on NA server"
+      "version": "4.0.3.010",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.3.010",
+      "published_at": "2026-05-03T19:12:19Z",
+      "release_notes": "Console Release Only\n## 2026.03.08\n- Add gamepad support and ci/cd\n"
     },
     "breadcrumbs": {
       "version": "v1.2",
@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "bd9f770",
+      "version": "b5f88c5",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-02T07:25:43Z",
-      "release_notes": "Fix Impaling Shards",
-      "commit_sha": "bd9f7704b0fda79deaadf1aa7a2bbf185ef6057d",
-      "commit_date": "2026-05-02T07:25:43Z",
-      "commit_message": "Fix Impaling Shards"
+      "published_at": "2026-05-03T22:29:09Z",
+      "release_notes": "[2.16.0] Add preview line duration",
+      "commit_sha": "b5f88c579e64094a3b57a84ea14fed1ffed36639",
+      "commit_date": "2026-05-03T22:29:09Z",
+      "commit_message": "[2.16.0] Add preview line duration"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -182,9 +182,9 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-04-26",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-04-26",
-      "published_at": "2026-04-26T22:58:27Z",
+      "version": "2026-05-03",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-05-03",
+      "published_at": "2026-05-03T23:02:46Z",
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
@@ -197,9 +197,9 @@
       "commit_message": "version 1.2.5:"
     },
     "libcustomnames": {
-      "version": "2026-04-26",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-04-26",
-      "published_at": "2026-04-26T22:58:35Z",
+      "version": "2026-05-03",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-05-03",
+      "published_at": "2026-05-03T23:02:52Z",
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libdebuglogger": {
@@ -324,14 +324,32 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-03T18:19:23.172156+00:00",
+  "last_checked": "2026-05-04T00:34:53.828540+00:00",
   "updates": [
     {
-      "slug": "actiondurationreminder",
-      "old_version": "0840405",
-      "new_version": "2ff473d",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Bump version to 3.150"
+      "slug": "beammeup",
+      "old_version": "v4.0.3",
+      "new_version": "4.0.3.010",
+      "repo": "david-tub/BeamMeUp"
+    },
+    {
+      "slug": "crutchalerts",
+      "old_version": "bd9f770",
+      "new_version": "b5f88c5",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.16.0] Add preview line duration"
+    },
+    {
+      "slug": "libcustomicons",
+      "old_version": "2026-04-26",
+      "new_version": "2026-05-03",
+      "repo": "m00nyONE/LibCustomIcons"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-04-26",
+      "new_version": "2026-05-03",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }

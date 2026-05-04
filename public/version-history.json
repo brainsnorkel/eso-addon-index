@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T18:19:23.342803+00:00",
+  "generated_at": "2026-05-04T00:34:54.006350+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -38,6 +38,12 @@
       }
     ],
     "beammeup": [
+      {
+        "version": "4.0.3.010",
+        "published_at": "2026-05-03T19:12:19Z",
+        "detected_at": "2026-05-04T00:34:54.006350+00:00",
+        "commit_sha": "84d3ddc367e5b9c11a6bef72d8e901e1c437a60d"
+      },
       {
         "version": "v4.0.3",
         "published_at": "2026-04-08T19:16:09Z",
@@ -114,6 +120,12 @@
       }
     ],
     "crutchalerts": [
+      {
+        "version": "b5f88c5",
+        "published_at": "2026-05-03T22:29:09Z",
+        "detected_at": "2026-05-04T00:34:54.006350+00:00",
+        "commit_sha": "b5f88c579e64094a3b57a84ea14fed1ffed36639"
+      },
       {
         "version": "bd9f770",
         "published_at": "2026-05-02T07:25:43Z",
@@ -737,6 +749,12 @@
     ],
     "libcustomicons": [
       {
+        "version": "2026-05-03",
+        "published_at": "2026-05-03T23:02:46Z",
+        "detected_at": "2026-05-04T00:34:54.006350+00:00",
+        "commit_sha": "92ef75e1c48579f48b7dd5183753c66e5a2fe9e5"
+      },
+      {
         "version": "2026-04-26",
         "published_at": "2026-04-26T22:58:27Z",
         "detected_at": "2026-04-27T00:32:09.598470+00:00",
@@ -944,6 +962,12 @@
       }
     ],
     "libcustomnames": [
+      {
+        "version": "2026-05-03",
+        "published_at": "2026-05-03T23:02:52Z",
+        "detected_at": "2026-05-04T00:34:54.006350+00:00",
+        "commit_sha": "007ca0ad4ca3d8fe3d1fa63889f1f396b8c8dce4"
+      },
       {
         "version": "2026-04-26",
         "published_at": "2026-04-26T22:58:35Z",
