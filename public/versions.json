@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "58390e5",
+      "version": "eade68b",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-05-04T12:39:52Z",
-      "release_notes": "Add Chinese ability name patch to fix translation typos",
-      "commit_sha": "58390e588a8844547a372245155d9c0429e49edb",
-      "commit_date": "2026-05-04T12:39:52Z",
-      "commit_message": "Add Chinese ability name patch to fix translation typos"
+      "published_at": "2026-05-05T02:10:37Z",
+      "release_notes": "Add progress bar direction option (horizontal/vertical)",
+      "commit_sha": "eade68b826155e346e93e1586ac8c5b8aac30974",
+      "commit_date": "2026-05-05T02:10:37Z",
+      "commit_message": "Add progress bar direction option (horizontal/vertical)"
     },
     "aui": {
       "version": "cdb80c7",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-05T00:34:44.976819+00:00",
-  "updates": []
+  "last_checked": "2026-05-05T06:47:14.117862+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "58390e5",
+      "new_version": "eade68b",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Add progress bar direction option (horizontal/vertical)"
+    }
+  ]
 }

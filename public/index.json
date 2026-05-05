@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-05T00:34:45.132859+00:00",
+  "generated_at": "2026-05-05T06:47:14.320402+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "58390e5",
+        "version": "eade68b",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-05-04T12:39:52Z",
-        "commit_sha": "58390e588a8844547a372245155d9c0429e49edb",
-        "commit_date": "2026-05-04T12:39:52Z",
-        "commit_message": "Add Chinese ability name patch to fix translation typos"
+        "published_at": "2026-05-05T02:10:37Z",
+        "commit_sha": "eade68b826155e346e93e1586ac8c5b8aac30974",
+        "commit_date": "2026-05-05T02:10:37Z",
+        "commit_message": "Add progress bar direction option (horizontal/vertical)"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add Chinese ability name patch to fix translation typos"
+        "commit_message": "Add progress bar direction option (horizontal/vertical)"
       },
-      "last_updated": "2026-05-04T12:39:52Z"
+      "last_updated": "2026-05-05T02:10:37Z"
     },
     {
       "slug": "aui",
