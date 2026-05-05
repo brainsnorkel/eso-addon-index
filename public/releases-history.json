@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-05T06:47:14.320402+00:00",
+  "generated_at": "2026-05-05T12:26:49.761628+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "b5f88c5",
+      "new_version": "3e0072f",
+      "published_at": "2026-05-05T07:41:18Z",
+      "detected_at": "2026-05-05T12:26:49.761628+00:00"
+    },
     {
       "slug": "actiondurationreminder",
       "name": "Action Duration Reminder",
@@ -891,15 +900,6 @@
       "old_version": "2026-03-15",
       "new_version": "2026-03-22",
       "published_at": "2026-03-22T22:44:50Z",
-      "detected_at": "2026-03-23T00:24:55.896401+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-03-15",
-      "new_version": "2026-03-22",
-      "published_at": "2026-03-22T22:45:08Z",
       "detected_at": "2026-03-23T00:24:55.896401+00:00"
     }
   ]

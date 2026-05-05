@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "b5f88c5",
+      "version": "3e0072f",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-03T22:29:09Z",
-      "release_notes": "[2.16.0] Add preview line duration",
-      "commit_sha": "b5f88c579e64094a3b57a84ea14fed1ffed36639",
-      "commit_date": "2026-05-03T22:29:09Z",
-      "commit_message": "[2.16.0] Add preview line duration"
+      "published_at": "2026-05-05T07:41:18Z",
+      "release_notes": "Re-add vKA tank spots and totems",
+      "commit_sha": "3e0072f01896f343f101f5aac35a0ef7f1444314",
+      "commit_date": "2026-05-05T07:41:18Z",
+      "commit_message": "Re-add vKA tank spots and totems"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-05T06:47:14.117862+00:00",
+  "last_checked": "2026-05-05T12:26:49.593331+00:00",
   "updates": [
     {
-      "slug": "actiondurationreminder",
-      "old_version": "58390e5",
-      "new_version": "eade68b",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Add progress bar direction option (horizontal/vertical)"
+      "slug": "crutchalerts",
+      "old_version": "b5f88c5",
+      "new_version": "3e0072f",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Re-add vKA tank spots and totems"
     }
   ]
 }
