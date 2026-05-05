@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-04T18:33:37.580862+00:00",
-  "updates": [
-    {
-      "slug": "actiondurationreminder",
-      "old_version": "4f7c429",
-      "new_version": "58390e5",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Add Chinese ability name patch to fix translation typos"
-    }
-  ]
+  "last_checked": "2026-05-05T00:34:44.976819+00:00",
+  "updates": []
 }
