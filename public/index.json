@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T00:33:59.716624+00:00",
+  "generated_at": "2026-05-06T06:56:00.534741+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "3e0072f",
+        "version": "768a413",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-05T07:41:18Z",
-        "commit_sha": "3e0072f01896f343f101f5aac35a0ef7f1444314",
-        "commit_date": "2026-05-05T07:41:18Z",
-        "commit_message": "Re-add vKA tank spots and totems"
+        "published_at": "2026-05-06T05:22:28Z",
+        "commit_sha": "768a4132a7823b6d0dab5aa103400838283fee17",
+        "commit_date": "2026-05-06T05:22:28Z",
+        "commit_message": "[2.16.1] Fix Gossamer Crypt threshold"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Re-add vKA tank spots and totems"
+        "commit_message": "[2.16.1] Fix Gossamer Crypt threshold"
       },
-      "last_updated": "2026-05-05T07:41:18Z"
+      "last_updated": "2026-05-06T05:22:28Z"
     },
     {
       "slug": "elmsmarkers",
