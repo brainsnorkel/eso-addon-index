@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-06T06:56:00.363024+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "3e0072f",
-      "new_version": "768a413",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "[2.16.1] Fix Gossamer Crypt threshold"
-    }
-  ]
+  "last_checked": "2026-05-06T12:38:21.378816+00:00",
+  "updates": []
 }
