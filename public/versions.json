@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "768a413",
+      "version": "bc12f8c",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-06T05:22:28Z",
-      "release_notes": "[2.16.1] Fix Gossamer Crypt threshold",
-      "commit_sha": "768a4132a7823b6d0dab5aa103400838283fee17",
-      "commit_date": "2026-05-06T05:22:28Z",
-      "commit_message": "[2.16.1] Fix Gossamer Crypt threshold"
+      "published_at": "2026-05-07T02:30:32Z",
+      "release_notes": "Fill out more of Reef Guardian",
+      "commit_sha": "bc12f8c22cad3a316e0d909c6e34e14730f8f9d1",
+      "commit_date": "2026-05-07T02:30:32Z",
+      "commit_message": "Fill out more of Reef Guardian"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-07T00:35:18.617426+00:00",
+  "last_checked": "2026-05-07T07:01:08.760962+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.1.3",
-      "new_version": "v7.2.1.5",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "crutchalerts",
+      "old_version": "768a413",
+      "new_version": "bc12f8c",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fill out more of Reef Guardian"
     }
   ]
 }
