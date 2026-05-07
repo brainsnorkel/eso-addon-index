@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-07T07:01:08.760962+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "768a413",
-      "new_version": "bc12f8c",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fill out more of Reef Guardian"
-    }
-  ]
+  "last_checked": "2026-05-07T12:38:35.796063+00:00",
+  "updates": []
 }
