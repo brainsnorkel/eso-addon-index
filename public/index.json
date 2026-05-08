@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-08T00:35:54.471630+00:00",
+  "generated_at": "2026-05-08T06:37:30.072609+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "bc12f8c",
+        "version": "9d7a8ad",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-07T02:30:32Z",
-        "commit_sha": "bc12f8c22cad3a316e0d909c6e34e14730f8f9d1",
-        "commit_date": "2026-05-07T02:30:32Z",
-        "commit_message": "Fill out more of Reef Guardian"
+        "published_at": "2026-05-08T01:36:36Z",
+        "commit_sha": "9d7a8ad95a37bdd784b7cf9901a7a3a70f9f6844",
+        "commit_date": "2026-05-08T01:36:36Z",
+        "commit_message": "Add run order and add console settings oops"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fill out more of Reef Guardian"
+        "commit_message": "Add run order and add console settings oops"
       },
-      "last_updated": "2026-05-07T02:30:32Z"
+      "last_updated": "2026-05-08T01:36:36Z"
     },
     {
       "slug": "elmsmarkers",

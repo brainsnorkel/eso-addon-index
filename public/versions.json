@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "bc12f8c",
+      "version": "9d7a8ad",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-07T02:30:32Z",
-      "release_notes": "Fill out more of Reef Guardian",
-      "commit_sha": "bc12f8c22cad3a316e0d909c6e34e14730f8f9d1",
-      "commit_date": "2026-05-07T02:30:32Z",
-      "commit_message": "Fill out more of Reef Guardian"
+      "published_at": "2026-05-08T01:36:36Z",
+      "release_notes": "Add run order and add console settings oops",
+      "commit_sha": "9d7a8ad95a37bdd784b7cf9901a7a3a70f9f6844",
+      "commit_date": "2026-05-08T01:36:36Z",
+      "commit_message": "Add run order and add console settings oops"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-08T00:35:54.304640+00:00",
-  "updates": []
+  "last_checked": "2026-05-08T06:37:29.904947+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "bc12f8c",
+      "new_version": "9d7a8ad",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add run order and add console settings oops"
+    }
+  ]
 }
