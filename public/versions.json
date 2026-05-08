@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-08T06:37:29.904947+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "bc12f8c",
-      "new_version": "9d7a8ad",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add run order and add console settings oops"
-    }
-  ]
+  "last_checked": "2026-05-08T12:29:56.103371+00:00",
+  "updates": []
 }
