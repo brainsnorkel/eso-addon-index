@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "9d7a8ad",
+      "version": "7b36196",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-08T01:36:36Z",
-      "release_notes": "Add run order and add console settings oops",
-      "commit_sha": "9d7a8ad95a37bdd784b7cf9901a7a3a70f9f6844",
-      "commit_date": "2026-05-08T01:36:36Z",
-      "commit_message": "Add run order and add console settings oops"
+      "published_at": "2026-05-09T06:41:22Z",
+      "release_notes": "Adjust still untested Reef",
+      "commit_sha": "7b3619624bc85c579382b91c229404f0966a8c39",
+      "commit_date": "2026-05-09T06:41:22Z",
+      "commit_message": "Adjust still untested Reef"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-09T00:36:38.846279+00:00",
-  "updates": []
+  "last_checked": "2026-05-09T06:43:59.743554+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "9d7a8ad",
+      "new_version": "7b36196",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Adjust still untested Reef"
+    }
+  ]
 }

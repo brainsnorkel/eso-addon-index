@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-09T00:36:39.018093+00:00",
+  "generated_at": "2026-05-09T06:43:59.915426+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "9d7a8ad",
+        "version": "7b36196",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-08T01:36:36Z",
-        "commit_sha": "9d7a8ad95a37bdd784b7cf9901a7a3a70f9f6844",
-        "commit_date": "2026-05-08T01:36:36Z",
-        "commit_message": "Add run order and add console settings oops"
+        "published_at": "2026-05-09T06:41:22Z",
+        "commit_sha": "7b3619624bc85c579382b91c229404f0966a8c39",
+        "commit_date": "2026-05-09T06:41:22Z",
+        "commit_message": "Adjust still untested Reef"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add run order and add console settings oops"
+        "commit_message": "Adjust still untested Reef"
       },
-      "last_updated": "2026-05-08T01:36:36Z"
+      "last_updated": "2026-05-09T06:41:22Z"
     },
     {
       "slug": "elmsmarkers",
