@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-10T06:55:36.609971+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "7b36196",
-      "new_version": "4e8f1f6",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Maybe fix Reef Heartburn"
-    }
-  ]
+  "last_checked": "2026-05-10T12:19:57.968524+00:00",
+  "updates": []
 }
