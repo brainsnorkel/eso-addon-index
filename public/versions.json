@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "7b36196",
+      "version": "4e8f1f6",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-09T06:41:22Z",
-      "release_notes": "Adjust still untested Reef",
-      "commit_sha": "7b3619624bc85c579382b91c229404f0966a8c39",
-      "commit_date": "2026-05-09T06:41:22Z",
-      "commit_message": "Adjust still untested Reef"
+      "published_at": "2026-05-10T00:51:42Z",
+      "release_notes": "Maybe fix Reef Heartburn",
+      "commit_sha": "4e8f1f6864259f28e1b9a7340ddf6c2878f8e88b",
+      "commit_date": "2026-05-10T00:51:42Z",
+      "commit_message": "Maybe fix Reef Heartburn"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-10T00:37:09.756919+00:00",
-  "updates": []
+  "last_checked": "2026-05-10T06:55:36.609971+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "7b36196",
+      "new_version": "4e8f1f6",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Maybe fix Reef Heartburn"
+    }
+  ]
 }
