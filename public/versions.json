@@ -188,13 +188,13 @@
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
-      "version": "a0479c0",
+      "version": "4e31d97",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-05-03T09:59:11Z",
-      "release_notes": "version 1.2.5:",
-      "commit_sha": "a0479c0a323ab8f0387fae5c85ac872278a2c84e",
-      "commit_date": "2026-05-03T09:59:11Z",
-      "commit_message": "version 1.2.5:"
+      "published_at": "2026-05-11T17:49:50Z",
+      "release_notes": "version 2.1.6:",
+      "commit_sha": "4e31d9737962634769426741e3dbcb5a1ab0c419",
+      "commit_date": "2026-05-11T17:49:50Z",
+      "commit_message": "version 2.1.6:"
     },
     "libcustomnames": {
       "version": "2026-05-10",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-11T13:00:01.569955+00:00",
+  "last_checked": "2026-05-11T18:38:43.765072+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "4e8f1f6",
-      "new_version": "f50b2f8",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add /crutch settings"
+      "slug": "libcustommenu",
+      "old_version": "a0479c0",
+      "new_version": "4e31d97",
+      "repo": "votan73/ESO",
+      "commit_message": "version 2.1.6:"
     }
   ]
 }
