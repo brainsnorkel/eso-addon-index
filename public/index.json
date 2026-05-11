@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-11T07:12:50.323708+00:00",
+  "generated_at": "2026-05-11T13:00:01.745460+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "4e8f1f6",
+        "version": "f50b2f8",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-10T00:51:42Z",
-        "commit_sha": "4e8f1f6864259f28e1b9a7340ddf6c2878f8e88b",
-        "commit_date": "2026-05-10T00:51:42Z",
-        "commit_message": "Maybe fix Reef Heartburn"
+        "published_at": "2026-05-11T07:26:46Z",
+        "commit_sha": "f50b2f8c098f9ab76e8bb3a94e0aed8ee4e47230",
+        "commit_date": "2026-05-11T07:26:46Z",
+        "commit_message": "Add /crutch settings"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Maybe fix Reef Heartburn"
+        "commit_message": "Add /crutch settings"
       },
-      "last_updated": "2026-05-10T00:51:42Z"
+      "last_updated": "2026-05-11T07:26:46Z"
     },
     {
       "slug": "elmsmarkers",
