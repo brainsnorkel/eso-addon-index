@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-12T06:59:35.784006+00:00",
+  "generated_at": "2026-05-12T12:41:41.011413+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "2bca401",
+      "new_version": "980481c",
+      "published_at": "2026-05-12T07:06:53Z",
+      "detected_at": "2026-05-12T12:41:41.011413+00:00"
+    },
     {
       "slug": "actiondurationreminder",
       "name": "Action Duration Reminder",
@@ -891,15 +900,6 @@
       "old_version": "799559a",
       "new_version": "ca58217",
       "published_at": "2026-03-26T06:32:45Z",
-      "detected_at": "2026-03-26T12:19:48.967442+00:00"
-    },
-    {
-      "slug": "m0rmarkers",
-      "name": "M0RMarkers",
-      "url": "https://github.com/M0RGaming/M0RMarkers",
-      "old_version": "v1.9.3",
-      "new_version": "v1.9.4",
-      "published_at": "2026-03-26T06:36:36Z",
       "detected_at": "2026-03-26T12:19:48.967442+00:00"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-12T06:59:35.784006+00:00",
+  "generated_at": "2026-05-12T12:41:41.011413+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "2bca401",
+        "version": "980481c",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-12T05:44:03Z",
-        "commit_sha": "2bca401b8bbd560ce5e8953f5af16c787390d678",
-        "commit_date": "2026-05-12T05:44:03Z",
-        "commit_message": "Add Soul Discharge"
+        "published_at": "2026-05-12T07:06:53Z",
+        "commit_sha": "980481c712c09aa7d4e4dab71edb71b7b3a61256",
+        "commit_date": "2026-05-12T07:06:53Z",
+        "commit_message": "Maybe actually fix jet keys this time"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add Soul Discharge"
+        "commit_message": "Maybe actually fix jet keys this time"
       },
-      "last_updated": "2026-05-12T05:44:03Z"
+      "last_updated": "2026-05-12T07:06:53Z"
     },
     {
       "slug": "elmsmarkers",

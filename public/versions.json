@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2bca401",
+      "version": "980481c",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-12T05:44:03Z",
-      "release_notes": "Add Soul Discharge",
-      "commit_sha": "2bca401b8bbd560ce5e8953f5af16c787390d678",
-      "commit_date": "2026-05-12T05:44:03Z",
-      "commit_message": "Add Soul Discharge"
+      "published_at": "2026-05-12T07:06:53Z",
+      "release_notes": "Maybe actually fix jet keys this time",
+      "commit_sha": "980481c712c09aa7d4e4dab71edb71b7b3a61256",
+      "commit_date": "2026-05-12T07:06:53Z",
+      "commit_message": "Maybe actually fix jet keys this time"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,21 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-12T06:59:35.631147+00:00",
+  "last_checked": "2026-05-12T12:41:40.839193+00:00",
   "updates": [
     {
-      "slug": "actiondurationreminder",
-      "old_version": "eade68b",
-      "new_version": "35d7559",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Bump version to 3.157, update changelog"
-    },
-    {
       "slug": "crutchalerts",
-      "old_version": "f50b2f8",
-      "new_version": "2bca401",
+      "old_version": "2bca401",
+      "new_version": "980481c",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add Soul Discharge"
+      "commit_message": "Maybe actually fix jet keys this time"
     }
   ]
 }
