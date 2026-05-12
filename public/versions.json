@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-12T12:41:40.839193+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "2bca401",
-      "new_version": "980481c",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Maybe actually fix jet keys this time"
-    }
-  ]
+  "last_checked": "2026-05-12T18:37:48.226598+00:00",
+  "updates": []
 }
