@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "eade68b",
+      "version": "35d7559",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-05-05T02:10:37Z",
-      "release_notes": "Add progress bar direction option (horizontal/vertical)",
-      "commit_sha": "eade68b826155e346e93e1586ac8c5b8aac30974",
-      "commit_date": "2026-05-05T02:10:37Z",
-      "commit_message": "Add progress bar direction option (horizontal/vertical)"
+      "published_at": "2026-05-12T00:38:50Z",
+      "release_notes": "Bump version to 3.157, update changelog",
+      "commit_sha": "35d75590bd585f259851f529877bb29dfcc1bb9c",
+      "commit_date": "2026-05-12T00:38:50Z",
+      "commit_message": "Bump version to 3.157, update changelog"
     },
     "aui": {
       "version": "cdb80c7",
@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "f50b2f8",
+      "version": "2bca401",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-11T07:26:46Z",
-      "release_notes": "Add /crutch settings",
-      "commit_sha": "f50b2f8c098f9ab76e8bb3a94e0aed8ee4e47230",
-      "commit_date": "2026-05-11T07:26:46Z",
-      "commit_message": "Add /crutch settings"
+      "published_at": "2026-05-12T05:44:03Z",
+      "release_notes": "Add Soul Discharge",
+      "commit_sha": "2bca401b8bbd560ce5e8953f5af16c787390d678",
+      "commit_date": "2026-05-12T05:44:03Z",
+      "commit_message": "Add Soul Discharge"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,21 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-12T00:35:02.390322+00:00",
-  "updates": []
+  "last_checked": "2026-05-12T06:59:35.631147+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "eade68b",
+      "new_version": "35d7559",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Bump version to 3.157, update changelog"
+    },
+    {
+      "slug": "crutchalerts",
+      "old_version": "f50b2f8",
+      "new_version": "2bca401",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add Soul Discharge"
+    }
+  ]
 }

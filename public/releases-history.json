@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-12T00:35:02.563941+00:00",
+  "generated_at": "2026-05-12T06:59:35.784006+00:00",
   "events": [
+    {
+      "slug": "actiondurationreminder",
+      "name": "Action Duration Reminder",
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "old_version": "eade68b",
+      "new_version": "35d7559",
+      "published_at": "2026-05-12T00:38:50Z",
+      "detected_at": "2026-05-12T06:59:35.784006+00:00"
+    },
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "f50b2f8",
+      "new_version": "2bca401",
+      "published_at": "2026-05-12T05:44:03Z",
+      "detected_at": "2026-05-12T06:59:35.784006+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
@@ -883,24 +901,6 @@
       "new_version": "v1.9.4",
       "published_at": "2026-03-26T06:36:36Z",
       "detected_at": "2026-03-26T12:19:48.967442+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "524848e",
-      "new_version": "799559a",
-      "published_at": "2026-03-26T06:01:40Z",
-      "detected_at": "2026-03-26T06:26:14.197436+00:00"
-    },
-    {
-      "slug": "exoyscruxtracker",
-      "name": "ExoYs Crux Tracker",
-      "url": "https://github.com/exoy94/ExoYsCruxTracker",
-      "old_version": "Version-1.3.0",
-      "new_version": "Version-2.0.0",
-      "published_at": "2026-03-25T19:25:24Z",
-      "detected_at": "2026-03-26T00:25:17.379903+00:00"
     }
   ]
 }

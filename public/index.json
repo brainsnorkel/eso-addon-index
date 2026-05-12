@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-12T00:35:02.563941+00:00",
+  "generated_at": "2026-05-12T06:59:35.784006+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "eade68b",
+        "version": "35d7559",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-05-05T02:10:37Z",
-        "commit_sha": "eade68b826155e346e93e1586ac8c5b8aac30974",
-        "commit_date": "2026-05-05T02:10:37Z",
-        "commit_message": "Add progress bar direction option (horizontal/vertical)"
+        "published_at": "2026-05-12T00:38:50Z",
+        "commit_sha": "35d75590bd585f259851f529877bb29dfcc1bb9c",
+        "commit_date": "2026-05-12T00:38:50Z",
+        "commit_message": "Bump version to 3.157, update changelog"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add progress bar direction option (horizontal/vertical)"
+        "commit_message": "Bump version to 3.157, update changelog"
       },
-      "last_updated": "2026-05-05T02:10:37Z"
+      "last_updated": "2026-05-12T00:38:50Z"
     },
     {
       "slug": "aui",
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "f50b2f8",
+        "version": "2bca401",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-11T07:26:46Z",
-        "commit_sha": "f50b2f8c098f9ab76e8bb3a94e0aed8ee4e47230",
-        "commit_date": "2026-05-11T07:26:46Z",
-        "commit_message": "Add /crutch settings"
+        "published_at": "2026-05-12T05:44:03Z",
+        "commit_sha": "2bca401b8bbd560ce5e8953f5af16c787390d678",
+        "commit_date": "2026-05-12T05:44:03Z",
+        "commit_message": "Add Soul Discharge"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add /crutch settings"
+        "commit_message": "Add Soul Discharge"
       },
-      "last_updated": "2026-05-11T07:26:46Z"
+      "last_updated": "2026-05-12T05:44:03Z"
     },
     {
       "slug": "elmsmarkers",
