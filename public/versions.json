@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-13T07:03:35.473045+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "980481c",
-      "new_version": "83d1f9d",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add untested brands and fix constant derp"
-    }
-  ]
+  "last_checked": "2026-05-13T12:44:36.204341+00:00",
+  "updates": []
 }
