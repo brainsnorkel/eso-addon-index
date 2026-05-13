@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "980481c",
+      "version": "83d1f9d",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-12T07:06:53Z",
-      "release_notes": "Maybe actually fix jet keys this time",
-      "commit_sha": "980481c712c09aa7d4e4dab71edb71b7b3a61256",
-      "commit_date": "2026-05-12T07:06:53Z",
-      "commit_message": "Maybe actually fix jet keys this time"
+      "published_at": "2026-05-13T03:15:57Z",
+      "release_notes": "Add untested brands and fix constant derp",
+      "commit_sha": "83d1f9d229d70b0c43529fe0ad6558936e9f1f81",
+      "commit_date": "2026-05-13T03:15:57Z",
+      "commit_message": "Add untested brands and fix constant derp"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-13T00:39:07.984283+00:00",
-  "updates": []
+  "last_checked": "2026-05-13T07:03:35.473045+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "980481c",
+      "new_version": "83d1f9d",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add untested brands and fix constant derp"
+    }
+  ]
 }
