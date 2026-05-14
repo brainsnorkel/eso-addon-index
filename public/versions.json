@@ -188,13 +188,13 @@
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
-      "version": "4e31d97",
+      "version": "74df493",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-05-11T17:49:50Z",
-      "release_notes": "version 2.1.6:",
-      "commit_sha": "4e31d9737962634769426741e3dbcb5a1ab0c419",
-      "commit_date": "2026-05-11T17:49:50Z",
-      "commit_message": "version 2.1.6:"
+      "published_at": "2026-05-14T09:45:23Z",
+      "release_notes": "version 1.43.0:",
+      "commit_sha": "74df4933ff8bcd27a8ecd48dc19e73791a38a33b",
+      "commit_date": "2026-05-14T09:45:23Z",
+      "commit_message": "version 1.43.0:"
     },
     "libcustomnames": {
       "version": "2026-05-10",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-14T07:01:52.334424+00:00",
+  "last_checked": "2026-05-14T12:38:13.082460+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "83d1f9d",
-      "new_version": "64c30e5",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add Chaurus Bile prominent"
+      "slug": "libcustommenu",
+      "old_version": "4e31d97",
+      "new_version": "74df493",
+      "repo": "votan73/ESO",
+      "commit_message": "version 1.43.0:"
     }
   ]
 }

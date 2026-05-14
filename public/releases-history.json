@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-14T07:01:52.489524+00:00",
+  "generated_at": "2026-05-14T12:38:13.258554+00:00",
   "events": [
+    {
+      "slug": "libcustommenu",
+      "name": "LibCustomMenu",
+      "url": "https://github.com/votan73/ESO",
+      "old_version": "4e31d97",
+      "new_version": "74df493",
+      "published_at": "2026-05-14T09:45:23Z",
+      "detected_at": "2026-05-14T12:38:13.258554+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "Version-2.0.1",
       "published_at": "2026-03-26T22:24:06Z",
       "detected_at": "2026-03-27T00:25:02.125505+00:00"
-    },
-    {
-      "slug": "aui",
-      "name": "Advanced UI",
-      "url": "https://github.com/Sensi2010/AUI",
-      "old_version": "345c5b0",
-      "new_version": "cdb80c7",
-      "published_at": "2026-03-26T18:17:01Z",
-      "detected_at": "2026-03-26T18:22:06.496684+00:00"
     }
   ]
 }
