@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "83d1f9d",
+      "version": "64c30e5",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-13T03:15:57Z",
-      "release_notes": "Add untested brands and fix constant derp",
-      "commit_sha": "83d1f9d229d70b0c43529fe0ad6558936e9f1f81",
-      "commit_date": "2026-05-13T03:15:57Z",
-      "commit_message": "Add untested brands and fix constant derp"
+      "published_at": "2026-05-14T02:50:49Z",
+      "release_notes": "Add Chaurus Bile prominent",
+      "commit_sha": "64c30e556ed2314fb0cfc1553c9cea7c13db2b76",
+      "commit_date": "2026-05-14T02:50:49Z",
+      "commit_message": "Add Chaurus Bile prominent"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-14T00:40:03.856840+00:00",
-  "updates": []
+  "last_checked": "2026-05-14T07:01:52.334424+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "83d1f9d",
+      "new_version": "64c30e5",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add Chaurus Bile prominent"
+    }
+  ]
 }

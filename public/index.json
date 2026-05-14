@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-14T00:40:04.026048+00:00",
+  "generated_at": "2026-05-14T07:01:52.489524+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "83d1f9d",
+        "version": "64c30e5",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-13T03:15:57Z",
-        "commit_sha": "83d1f9d229d70b0c43529fe0ad6558936e9f1f81",
-        "commit_date": "2026-05-13T03:15:57Z",
-        "commit_message": "Add untested brands and fix constant derp"
+        "published_at": "2026-05-14T02:50:49Z",
+        "commit_sha": "64c30e556ed2314fb0cfc1553c9cea7c13db2b76",
+        "commit_date": "2026-05-14T02:50:49Z",
+        "commit_message": "Add Chaurus Bile prominent"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add untested brands and fix constant derp"
+        "commit_message": "Add Chaurus Bile prominent"
       },
-      "last_updated": "2026-05-13T03:15:57Z"
+      "last_updated": "2026-05-14T02:50:49Z"
     },
     {
       "slug": "elmsmarkers",
