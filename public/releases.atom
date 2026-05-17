@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-05-17T06:58:37.166422+00:00</updated>
+  <updated>2026-05-17T12:20:56.608863+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:hodorreflexes:2026-05-17</id>
+    <title>HodorReflexes updated: 2026-03-30 → 2026-05-17</title>
+    <link href="https://github.com/m00nyONE/HodorReflexes" rel="alternate"/>
+    <updated>2026-05-17T12:20:56.608863+00:00</updated>
+    <summary>HodorReflexes has been updated from version 2026-03-30 to 2026-05-17.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:4f777a0</id>
     <title>CrutchAlerts updated: 64c30e5 → 4f777a0</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
     <updated>2026-03-28T18:08:51.534629+00:00</updated>
     <summary>Action Duration Reminder has been updated from version 712b1ad to 51e8d64.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:exoysproctimer:d197b0d</id>
-    <title>ExoYs Proc Set Timer updated: fb15996 → d197b0d</title>
-    <link href="https://github.com/exoy94/ExoYsProcSetTimer" rel="alternate"/>
-    <updated>2026-03-28T18:08:51.534629+00:00</updated>
-    <summary>ExoYs Proc Set Timer has been updated from version fb15996 to d197b0d.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

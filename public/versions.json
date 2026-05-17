@@ -120,10 +120,10 @@
       "commit_sha": "907bfd5c32fcceeba4efe8dbff8633371d17bb92"
     },
     "hodorreflexes": {
-      "version": "2026-03-30",
-      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-03-30",
-      "published_at": "2026-03-30T11:17:29Z",
-      "release_notes": "## 2026.03.30 - @m00nyONE\n- bump api version to 101049 & 101050\n\n"
+      "version": "2026-05-17",
+      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-05-17",
+      "published_at": "2026-05-17T09:15:34Z",
+      "release_notes": "## 2026.05.10 - @m00nyONE\n- add HPS module and list. This is still in BETA since I can not test it properly.\n- add Standard of Might to compact ultimate list.\n\n"
     },
     "huntsmanwarmaskreminder": {
       "version": "5931983",
@@ -324,20 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-17T06:58:36.991456+00:00",
+  "last_checked": "2026-05-17T12:20:56.430827+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "64c30e5",
-      "new_version": "4f777a0",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Adjust more DSR Reef stuff"
-    },
-    {
-      "slug": "luiextended",
-      "old_version": "v7.2.1.7",
-      "new_version": "v7.2.1.9",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "hodorreflexes",
+      "old_version": "2026-03-30",
+      "new_version": "2026-05-17",
+      "repo": "m00nyONE/HodorReflexes"
     }
   ]
 }
