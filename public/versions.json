@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "64c30e5",
+      "version": "4f777a0",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-14T02:50:49Z",
-      "release_notes": "Add Chaurus Bile prominent",
-      "commit_sha": "64c30e556ed2314fb0cfc1553c9cea7c13db2b76",
-      "commit_date": "2026-05-14T02:50:49Z",
-      "commit_message": "Add Chaurus Bile prominent"
+      "published_at": "2026-05-17T03:51:22Z",
+      "release_notes": "Adjust more DSR Reef stuff",
+      "commit_sha": "4f777a01b25b6784fdfed2c0e62b10c47cbddb0f",
+      "commit_date": "2026-05-17T03:51:22Z",
+      "commit_message": "Adjust more DSR Reef stuff"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.1.7",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.7",
-      "published_at": "2026-05-16T21:23:15Z",
-      "release_notes": "## What's Changed\r\n* Update by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/396\r\n* chore: update min version of luidata by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/397\r\n* General Update and Fixes by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/398\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.1.5...v7.2.1.7"
+      "version": "v7.2.1.9",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.9",
+      "published_at": "2026-05-17T03:41:35Z",
+      "release_notes": "## What's Changed\r\n* chore: update version to 7.2.1.9 and implement dynamic events tracker\u2026 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/400\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.1.8...v7.2.1.9"
     },
     "m0rmarkers": {
       "version": "v2.0.4",
@@ -324,12 +324,19 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-17T00:38:30.704778+00:00",
+  "last_checked": "2026-05-17T06:58:36.991456+00:00",
   "updates": [
     {
+      "slug": "crutchalerts",
+      "old_version": "64c30e5",
+      "new_version": "4f777a0",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Adjust more DSR Reef stuff"
+    },
+    {
       "slug": "luiextended",
-      "old_version": "v7.2.1.5",
-      "new_version": "v7.2.1.7",
+      "old_version": "v7.2.1.7",
+      "new_version": "v7.2.1.9",
       "repo": "DakJaniels/LuiExtended"
     }
   ]

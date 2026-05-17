@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-17T00:38:30.889489+00:00",
+  "generated_at": "2026-05-17T06:58:37.166422+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "64c30e5",
+        "version": "4f777a0",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-14T02:50:49Z",
-        "commit_sha": "64c30e556ed2314fb0cfc1553c9cea7c13db2b76",
-        "commit_date": "2026-05-14T02:50:49Z",
-        "commit_message": "Add Chaurus Bile prominent"
+        "published_at": "2026-05-17T03:51:22Z",
+        "commit_sha": "4f777a01b25b6784fdfed2c0e62b10c47cbddb0f",
+        "commit_date": "2026-05-17T03:51:22Z",
+        "commit_message": "Adjust more DSR Reef stuff"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add Chaurus Bile prominent"
+        "commit_message": "Adjust more DSR Reef stuff"
       },
-      "last_updated": "2026-05-14T02:50:49Z"
+      "last_updated": "2026-05-17T03:51:22Z"
     },
     {
       "slug": "elmsmarkers",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.1.7",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.7",
-        "published_at": "2026-05-16T21:23:15Z",
-        "commit_sha": "bc5fce0631ea042a8f5aa4ff45f987ad6ebaf35d"
+        "version": "v7.2.1.9",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.9",
+        "published_at": "2026-05-17T03:41:35Z",
+        "commit_sha": "03953feddc24ae40ee814e494bddaff833fc1a90"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.1.7/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.1.9/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.7",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.9",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2708,7 +2708,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-05-16T21:23:15Z"
+      "last_updated": "2026-05-17T03:41:35Z"
     },
     {
       "slug": "m0rmarkers",
