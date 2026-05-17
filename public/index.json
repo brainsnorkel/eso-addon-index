@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-17T12:20:56.608863+00:00",
+  "generated_at": "2026-05-17T18:23:11.885016+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -277,20 +277,20 @@
         ]
       },
       "latest_release": {
-        "version": "4.0.3.010",
-        "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.3.010",
-        "published_at": "2026-05-03T19:12:19Z",
-        "commit_sha": "84d3ddc367e5b9c11a6bef72d8e901e1c437a60d"
+        "version": "4.0.4.012",
+        "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.012",
+        "published_at": "2026-05-17T17:44:18Z",
+        "commit_sha": "d8e6804a3dcf004ababcbab1ce47ac0b0069107c"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/david-tub/BeamMeUp@4.0.3.010/BeamMeUp/",
+          "url": "https://cdn.jsdelivr.net/gh/david-tub/BeamMeUp@4.0.4.012/BeamMeUp/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.3.010",
+          "url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.012",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -298,14 +298,14 @@
         "version_normalized": {
           "major": 4,
           "minor": 0,
-          "patch": 3,
+          "patch": 4,
           "prerelease": null
         },
-        "version_sort_key": 4000003000,
+        "version_sort_key": 4000004000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-05-03T19:12:19Z"
+      "last_updated": "2026-05-17T17:44:18Z"
     },
     {
       "slug": "breadcrumbs",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.1.9",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.9",
-        "published_at": "2026-05-17T03:41:35Z",
-        "commit_sha": "03953feddc24ae40ee814e494bddaff833fc1a90"
+        "version": "v7.2.2.1",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.2.1",
+        "published_at": "2026-05-17T14:51:08Z",
+        "commit_sha": "fd0c9bf4e3a207e6e74033268208cb7419b8992b"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.1.9/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.2.1/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.9",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.2.1",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2701,14 +2701,14 @@
         "version_normalized": {
           "major": 7,
           "minor": 2,
-          "patch": 1,
+          "patch": 2,
           "prerelease": null
         },
-        "version_sort_key": 7002001000,
+        "version_sort_key": 7002002000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-05-17T03:41:35Z"
+      "last_updated": "2026-05-17T14:51:08Z"
     },
     {
       "slug": "m0rmarkers",

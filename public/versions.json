@@ -26,9 +26,9 @@
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
     "beammeup": {
-      "version": "4.0.3.010",
-      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.3.010",
-      "published_at": "2026-05-03T19:12:19Z",
+      "version": "4.0.4.012",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.012",
+      "published_at": "2026-05-17T17:44:18Z",
       "release_notes": "Console Release Only\n## 2026.03.08\n- Add gamepad support and ci/cd\n"
     },
     "breadcrumbs": {
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.1.9",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.1.9",
-      "published_at": "2026-05-17T03:41:35Z",
-      "release_notes": "## What's Changed\r\n* chore: update version to 7.2.1.9 and implement dynamic events tracker\u2026 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/400\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.1.8...v7.2.1.9"
+      "version": "v7.2.2.1",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.2.1",
+      "published_at": "2026-05-17T14:51:08Z",
+      "release_notes": "## What's Changed\r\n* V7221 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/402\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.2.0...v7.2.2.1"
     },
     "m0rmarkers": {
       "version": "v2.0.4",
@@ -324,13 +324,19 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-17T12:20:56.430827+00:00",
+  "last_checked": "2026-05-17T18:23:11.727696+00:00",
   "updates": [
     {
-      "slug": "hodorreflexes",
-      "old_version": "2026-03-30",
-      "new_version": "2026-05-17",
-      "repo": "m00nyONE/HodorReflexes"
+      "slug": "beammeup",
+      "old_version": "4.0.3.010",
+      "new_version": "4.0.4.012",
+      "repo": "david-tub/BeamMeUp"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.1.9",
+      "new_version": "v7.2.2.1",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }
