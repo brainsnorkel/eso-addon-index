@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-18T00:40:24.885498+00:00",
+  "generated_at": "2026-05-18T07:24:20.916382+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "4f777a0",
+        "version": "1e57c1a",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-17T03:51:22Z",
-        "commit_sha": "4f777a01b25b6784fdfed2c0e62b10c47cbddb0f",
-        "commit_date": "2026-05-17T03:51:22Z",
-        "commit_message": "Adjust more DSR Reef stuff"
+        "published_at": "2026-05-17T22:28:13Z",
+        "commit_sha": "1e57c1a30c6660e7a4895f06b5c8878762b29759",
+        "commit_date": "2026-05-17T22:28:13Z",
+        "commit_message": "Add OO bombs timer"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Adjust more DSR Reef stuff"
+        "commit_message": "Add OO bombs timer"
       },
-      "last_updated": "2026-05-17T03:51:22Z"
+      "last_updated": "2026-05-17T22:28:13Z"
     },
     {
       "slug": "elmsmarkers",
