@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-05-18T13:14:20.031228+00:00</updated>
+  <updated>2026-05-18T18:37:51.730250+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:beammeup:4.0.4.019</id>
+    <title>BeamMeUp updated: 4.0.4.016 → 4.0.4.019</title>
+    <link href="https://github.com/david-tub/BeamMeUp" rel="alternate"/>
+    <updated>2026-05-18T18:37:51.730250+00:00</updated>
+    <summary>BeamMeUp has been updated from version 4.0.4.016 to 4.0.4.019.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:luiextended:v7.2.2.2</id>
+    <title>LuiExtended updated: v7.2.2.1 → v7.2.2.2</title>
+    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
+    <updated>2026-05-18T18:37:51.730250+00:00</updated>
+    <summary>LuiExtended has been updated from version v7.2.2.1 to v7.2.2.2.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:1e57c1a</id>
     <title>CrutchAlerts updated: 4f777a0 → 1e57c1a</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/m00nyONE/HodorReflexes" rel="alternate"/>
     <updated>2026-03-30T12:19:34.846671+00:00</updated>
     <summary>HodorReflexes has been updated from version 2026-03-04 to 2026-03-30.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomicons:2026-03-29</id>
-    <title>LibCustomIcons updated: 2026-03-22 → 2026-03-29</title>
-    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
-    <updated>2026-03-30T00:26:19.395762+00:00</updated>
-    <summary>LibCustomIcons has been updated from version 2026-03-22 to 2026-03-29.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustommenu:8fb80bf</id>
-    <title>LibCustomMenu updated: 4701fa6 → 8fb80bf</title>
-    <link href="https://github.com/votan73/ESO" rel="alternate"/>
-    <updated>2026-03-30T00:26:19.395762+00:00</updated>
-    <summary>LibCustomMenu has been updated from version 4701fa6 to 8fb80bf.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-18T13:14:20.031228+00:00",
+  "generated_at": "2026-05-18T18:37:51.730250+00:00",
   "events": [
+    {
+      "slug": "beammeup",
+      "name": "BeamMeUp",
+      "url": "https://github.com/david-tub/BeamMeUp",
+      "old_version": "4.0.4.016",
+      "new_version": "4.0.4.019",
+      "published_at": "2026-05-18T15:14:33Z",
+      "detected_at": "2026-05-18T18:37:51.730250+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.2.1",
+      "new_version": "v7.2.2.2",
+      "published_at": "2026-05-18T14:20:33Z",
+      "detected_at": "2026-05-18T18:37:51.730250+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -883,24 +901,6 @@
       "new_version": "2026-03-30",
       "published_at": "2026-03-30T11:17:29Z",
       "detected_at": "2026-03-30T12:19:34.846671+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-03-22",
-      "new_version": "2026-03-29",
-      "published_at": "2026-03-29T22:50:47Z",
-      "detected_at": "2026-03-30T00:26:19.395762+00:00"
-    },
-    {
-      "slug": "libcustommenu",
-      "name": "LibCustomMenu",
-      "url": "https://github.com/votan73/ESO",
-      "old_version": "4701fa6",
-      "new_version": "8fb80bf",
-      "published_at": "2026-03-29T19:47:08Z",
-      "detected_at": "2026-03-30T00:26:19.395762+00:00"
     }
   ]
 }
