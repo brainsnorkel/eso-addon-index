@@ -26,9 +26,9 @@
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
     "beammeup": {
-      "version": "4.0.4.012",
-      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.012",
-      "published_at": "2026-05-17T17:44:18Z",
+      "version": "4.0.4.016",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.016",
+      "published_at": "2026-05-17T21:23:14Z",
       "release_notes": "Console Release Only\n## 2026.03.08\n- Add gamepad support and ci/cd\n"
     },
     "breadcrumbs": {
@@ -182,9 +182,9 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-05-10",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-05-10",
-      "published_at": "2026-05-10T23:08:04Z",
+      "version": "2026-05-17",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-05-17",
+      "published_at": "2026-05-17T23:11:23Z",
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
@@ -197,9 +197,9 @@
       "commit_message": "version 2.1.7:"
     },
     "libcustomnames": {
-      "version": "2026-05-10",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-05-10",
-      "published_at": "2026-05-10T23:08:00Z",
+      "version": "2026-05-17",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-05-17",
+      "published_at": "2026-05-17T23:10:17Z",
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libdebuglogger": {
@@ -324,19 +324,25 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-17T18:23:11.727696+00:00",
+  "last_checked": "2026-05-18T00:40:24.700484+00:00",
   "updates": [
     {
       "slug": "beammeup",
-      "old_version": "4.0.3.010",
-      "new_version": "4.0.4.012",
+      "old_version": "4.0.4.012",
+      "new_version": "4.0.4.016",
       "repo": "david-tub/BeamMeUp"
     },
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.1.9",
-      "new_version": "v7.2.2.1",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "libcustomicons",
+      "old_version": "2026-05-10",
+      "new_version": "2026-05-17",
+      "repo": "m00nyONE/LibCustomIcons"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-05-10",
+      "new_version": "2026-05-17",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }

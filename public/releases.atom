@@ -5,11 +5,41 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-05-17T18:23:11.885016+00:00</updated>
+  <updated>2026-05-18T00:40:24.885498+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:beammeup:4.0.4.016</id>
+    <title>BeamMeUp updated: 4.0.4.012 → 4.0.4.016</title>
+    <link href="https://github.com/david-tub/BeamMeUp" rel="alternate"/>
+    <updated>2026-05-18T00:40:24.885498+00:00</updated>
+    <summary>BeamMeUp has been updated from version 4.0.4.012 to 4.0.4.016.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2026-05-17</id>
+    <title>LibCustomIcons updated: 2026-05-10 → 2026-05-17</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-05-18T00:40:24.885498+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-05-10 to 2026-05-17.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2026-05-17</id>
+    <title>LibCustomNames updated: 2026-05-10 → 2026-05-17</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-05-18T00:40:24.885498+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-05-10 to 2026-05-17.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:beammeup:4.0.4.012</id>
     <title>BeamMeUp updated: 4.0.3.010 → 4.0.4.012</title>
@@ -976,36 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
     <updated>2026-03-30T00:26:19.395762+00:00</updated>
     <summary>LibCustomNames has been updated from version 2026-03-22 to 2026-03-29.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:actiondurationreminder:b406032</id>
-    <title>Action Duration Reminder updated: cffceb1 → b406032</title>
-    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
-    <updated>2026-03-29T18:09:58.717602+00:00</updated>
-    <summary>Action Duration Reminder has been updated from version cffceb1 to b406032.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustommenu:4701fa6</id>
-    <title>LibCustomMenu updated: 1ac8392 → 4701fa6</title>
-    <link href="https://github.com/votan73/ESO" rel="alternate"/>
-    <updated>2026-03-29T18:09:58.717602+00:00</updated>
-    <summary>LibCustomMenu has been updated from version 1ac8392 to 4701fa6.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:actiondurationreminder:cffceb1</id>
-    <title>Action Duration Reminder updated: 51e8d64 → cffceb1</title>
-    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
-    <updated>2026-03-29T06:25:33.272934+00:00</updated>
-    <summary>Action Duration Reminder has been updated from version 51e8d64 to cffceb1.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

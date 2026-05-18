@@ -65,10 +65,10 @@
     },
     {
       "id": "beammeup",
-      "title": "BeamMeUp 4.0.4.012",
+      "title": "BeamMeUp 4.0.4.016",
       "url": "https://github.com/david-tub/BeamMeUp",
-      "date_published": "2026-05-17T17:44:18Z",
-      "date_modified": "2026-05-17T17:44:18Z",
+      "date_published": "2026-05-17T21:23:14Z",
+      "date_modified": "2026-05-17T21:23:14Z",
       "authors": [
         {
           "name": "DeadSoon"
@@ -477,10 +477,10 @@
     },
     {
       "id": "libcustomicons",
-      "title": "LibCustomIcons 2026-05-10",
+      "title": "LibCustomIcons 2026-05-17",
       "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "date_published": "2026-05-10T23:08:04Z",
-      "date_modified": "2026-05-10T23:08:04Z",
+      "date_published": "2026-05-17T23:11:23Z",
+      "date_modified": "2026-05-17T23:11:23Z",
       "authors": [
         {
           "name": "m00nyONE"
@@ -516,10 +516,10 @@
     },
     {
       "id": "libcustomnames",
-      "title": "LibCustomNames 2026-05-10",
+      "title": "LibCustomNames 2026-05-17",
       "url": "https://github.com/m00nyONE/LibCustomNames",
-      "date_published": "2026-05-10T23:08:00Z",
-      "date_modified": "2026-05-10T23:08:00Z",
+      "date_published": "2026-05-17T23:10:17Z",
+      "date_modified": "2026-05-17T23:10:17Z",
       "authors": [
         {
           "name": "m00nyONE"
