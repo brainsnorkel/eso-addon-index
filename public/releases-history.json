@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-19T07:14:09.772032+00:00",
+  "generated_at": "2026-05-19T13:05:48.687405+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "1e57c1a",
+      "new_version": "a87d804",
+      "published_at": "2026-05-19T07:33:14Z",
+      "detected_at": "2026-05-19T13:05:48.687405+00:00"
+    },
     {
       "slug": "beammeup",
       "name": "BeamMeUp",
@@ -891,15 +900,6 @@
       "old_version": "8f2cf3d",
       "new_version": "0549f81",
       "published_at": "2026-03-30T08:31:27Z",
-      "detected_at": "2026-03-30T12:19:34.846671+00:00"
-    },
-    {
-      "slug": "hodorreflexes",
-      "name": "HodorReflexes",
-      "url": "https://github.com/m00nyONE/HodorReflexes",
-      "old_version": "2026-03-04",
-      "new_version": "2026-03-30",
-      "published_at": "2026-03-30T11:17:29Z",
       "detected_at": "2026-03-30T12:19:34.846671+00:00"
     }
   ]

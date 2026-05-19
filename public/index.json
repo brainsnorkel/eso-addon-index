@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-19T07:14:09.772032+00:00",
+  "generated_at": "2026-05-19T13:05:48.687405+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "1e57c1a",
+        "version": "a87d804",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-17T22:28:13Z",
-        "commit_sha": "1e57c1a30c6660e7a4895f06b5c8878762b29759",
-        "commit_date": "2026-05-17T22:28:13Z",
-        "commit_message": "Add OO bombs timer"
+        "published_at": "2026-05-19T07:33:14Z",
+        "commit_sha": "a87d8045f41a8ff159865648fa1414c7ec601b2a",
+        "commit_date": "2026-05-19T07:33:14Z",
+        "commit_message": "Add final IA puzzle IDs"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add OO bombs timer"
+        "commit_message": "Add final IA puzzle IDs"
       },
-      "last_updated": "2026-05-17T22:28:13Z"
+      "last_updated": "2026-05-19T07:33:14Z"
     },
     {
       "slug": "elmsmarkers",
