@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-19T18:38:21.633253+00:00",
+  "generated_at": "2026-05-20T00:42:51.457587+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -277,20 +277,20 @@
         ]
       },
       "latest_release": {
-        "version": "4.0.4.019",
-        "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.019",
-        "published_at": "2026-05-18T15:14:33Z",
-        "commit_sha": "1a8664aa29a41583949d26bbd0497650d912b650"
+        "version": "4.0.4.020",
+        "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.020",
+        "published_at": "2026-05-19T21:04:31Z",
+        "commit_sha": "54f76f52a74fdab57497341e31adbf1eae86673b"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/david-tub/BeamMeUp@4.0.4.019/BeamMeUp/",
+          "url": "https://cdn.jsdelivr.net/gh/david-tub/BeamMeUp@4.0.4.020/BeamMeUp/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.019",
+          "url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.020",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -305,7 +305,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-05-18T15:14:33Z"
+      "last_updated": "2026-05-19T21:04:31Z"
     },
     {
       "slug": "breadcrumbs",
