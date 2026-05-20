@@ -324,13 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-20T00:42:51.280100+00:00",
-  "updates": [
-    {
-      "slug": "beammeup",
-      "old_version": "4.0.4.019",
-      "new_version": "4.0.4.020",
-      "repo": "david-tub/BeamMeUp"
-    }
-  ]
+  "last_checked": "2026-05-20T07:14:27.513333+00:00",
+  "updates": []
 }
