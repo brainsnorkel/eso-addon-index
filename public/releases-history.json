@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-21T00:42:38.904806+00:00",
+  "generated_at": "2026-05-21T07:18:12.387570+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "a87d804",
+      "new_version": "66ed8ee",
+      "published_at": "2026-05-21T02:31:18Z",
+      "detected_at": "2026-05-21T07:18:12.387570+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.2.4",
+      "new_version": "v7.2.2.5",
+      "published_at": "2026-05-21T04:20:50Z",
+      "detected_at": "2026-05-21T07:18:12.387570+00:00"
+    },
     {
       "slug": "m0rmarkers",
       "name": "M0RMarkers",
@@ -883,24 +901,6 @@
       "new_version": "7910a7b",
       "published_at": "2026-04-03T11:31:04Z",
       "detected_at": "2026-04-03T12:13:53.218625+00:00"
-    },
-    {
-      "slug": "actiondurationreminder",
-      "name": "Action Duration Reminder",
-      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
-      "old_version": "0bb574f",
-      "new_version": "a0ee696",
-      "published_at": "2026-04-01T08:37:45Z",
-      "detected_at": "2026-04-01T12:19:55.761011+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "9d3e4dc",
-      "new_version": "4990892",
-      "published_at": "2026-04-01T02:20:07Z",
-      "detected_at": "2026-04-01T06:35:50.120309+00:00"
     }
   ]
 }

@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "a87d804",
+      "version": "66ed8ee",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-19T07:33:14Z",
-      "release_notes": "Add final IA puzzle IDs",
-      "commit_sha": "a87d8045f41a8ff159865648fa1414c7ec601b2a",
-      "commit_date": "2026-05-19T07:33:14Z",
-      "commit_message": "Add final IA puzzle IDs"
+      "published_at": "2026-05-21T02:31:18Z",
+      "release_notes": "Fill out settings for OC twins dangerous abilities",
+      "commit_sha": "66ed8ee94a2cc0a95644153ae17c09ae2a288d01",
+      "commit_date": "2026-05-21T02:31:18Z",
+      "commit_message": "Fill out settings for OC twins dangerous abilities"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.2.4",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.2.4",
-      "published_at": "2026-05-20T09:43:47Z",
-      "release_notes": "## What's Changed\r\n* V7223 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/405\r\n* V7224 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/406\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.2.2...v7.2.2.4"
+      "version": "v7.2.2.5",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.2.5",
+      "published_at": "2026-05-21T04:20:50Z",
+      "release_notes": "## Version 7.2.2.5\r\n\r\n### Fixed\r\n\r\n- ChatAnnouncements: Smithing and universal deconstruction (station deconstruction tab, Giladil, and LibLazyCrafting deconstruct queues such as Dolgubon's Lazy Writ Creator) now use deconstruct/receive item messages (and extract for glyphs) instead of craft/use. Destroyed gear no longer shows as \"You use.\" LibLazyCrafting provisioning writs and other active craft/improve paths still use craft/use labels.\r\n\r\n\r\n## What's Changed\r\n* V7225 by @DakJaniels in https:/"
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,13 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-21T00:42:38.725137+00:00",
+  "last_checked": "2026-05-21T07:18:12.218475+00:00",
   "updates": [
     {
-      "slug": "m0rmarkers",
-      "old_version": "v2.0.4",
-      "new_version": "v2.1.0",
-      "repo": "M0RGaming/M0RMarkers"
+      "slug": "crutchalerts",
+      "old_version": "a87d804",
+      "new_version": "66ed8ee",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fill out settings for OC twins dangerous abilities"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.2.4",
+      "new_version": "v7.2.2.5",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }
