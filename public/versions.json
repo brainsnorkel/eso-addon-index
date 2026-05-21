@@ -279,10 +279,10 @@
       "release_notes": "## What's Changed\r\n* V7223 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/405\r\n* V7224 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/406\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.2.2...v7.2.2.4"
     },
     "m0rmarkers": {
-      "version": "v2.0.4",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.0.4",
-      "published_at": "2026-04-09T22:14:08Z",
-      "release_notes": "----- 2.0.4 -----\n(Console) Changed temp markers to use Milliseconds instead of Microseconds for timing the removal\n\n"
+      "version": "v2.1.0",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.1.0",
+      "published_at": "2026-05-20T18:53:29Z",
+      "release_notes": "----- 2.1.0 -----\nAdded an optional dependancy for LibMapPins to allow users to show markers on their world map after enabling a map filter.\nAdded 2 new preset marker sets: vSE General v2, and Kyzer's Night Market Quests (Thank you Kyzeragon for creating them!).\nAdded a remove duplicates button to the editor.\n(minor) Fixed a bug where using the editor would not properly compress the path\n(minor) Fixed a bug where Kynes would show the wrong map name (thanks dack for the heads up lol)\n\n"
     },
     "odysupporticons": {
       "version": "Version-1.13.1",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-20T18:48:52.811322+00:00",
-  "updates": []
+  "last_checked": "2026-05-21T00:42:38.725137+00:00",
+  "updates": [
+    {
+      "slug": "m0rmarkers",
+      "old_version": "v2.0.4",
+      "new_version": "v2.1.0",
+      "repo": "M0RGaming/M0RMarkers"
+    }
+  ]
 }
