@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.2.5",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.2.5",
-      "published_at": "2026-05-21T04:20:50Z",
-      "release_notes": "## Version 7.2.2.5\r\n\r\n### Fixed\r\n\r\n- ChatAnnouncements: Smithing and universal deconstruction (station deconstruction tab, Giladil, and LibLazyCrafting deconstruct queues such as Dolgubon's Lazy Writ Creator) now use deconstruct/receive item messages (and extract for glyphs) instead of craft/use. Destroyed gear no longer shows as \"You use.\" LibLazyCrafting provisioning writs and other active craft/improve paths still use craft/use labels.\r\n\r\n\r\n## What's Changed\r\n* V7225 by @DakJaniels in https:/"
+      "version": "v7.2.2.6",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.2.6",
+      "published_at": "2026-05-21T12:07:04Z",
+      "release_notes": "## Version 7.2.2.6\r\n\r\n### New\r\n\r\n- ChatAnnouncements: Display Announcements \u2014 [B]Event Zone: Night Market (PC and console). Separate chat, center-screen, and alert toggles for [B]Daring Race, [B]Arachnid Invasion, and [B]Guiding Light Still missing some; will be added when I see them.\r\n- Classified Night Market [C]EVENT_DISPLAY_ANNOUNCEMENT[/C] lines by activity text (not whole zone 1559): Daring Race (for example Tempest earned, race objectives, Daring Race: \u2026 Complete, Void Collapse); Arachnid"
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,19 +324,12 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-21T07:18:12.218475+00:00",
+  "last_checked": "2026-05-21T13:07:48.444628+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "a87d804",
-      "new_version": "66ed8ee",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fill out settings for OC twins dangerous abilities"
-    },
-    {
       "slug": "luiextended",
-      "old_version": "v7.2.2.4",
-      "new_version": "v7.2.2.5",
+      "old_version": "v7.2.2.5",
+      "new_version": "v7.2.2.6",
       "repo": "DakJaniels/LuiExtended"
     }
   ]
