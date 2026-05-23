@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-23T06:55:35.563450+00:00",
+  "generated_at": "2026-05-23T12:21:40.323415+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "66ed8ee",
+        "version": "2044555",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-21T02:31:18Z",
-        "commit_sha": "66ed8ee94a2cc0a95644153ae17c09ae2a288d01",
-        "commit_date": "2026-05-21T02:31:18Z",
-        "commit_message": "Fill out settings for OC twins dangerous abilities"
+        "published_at": "2026-05-23T09:34:56Z",
+        "commit_sha": "20445557970ea2187fc2d79010831d42ae422b64",
+        "commit_date": "2026-05-23T09:34:56Z",
+        "commit_message": "Make CR portal and grapes, DSR elixirs, and OC overlay not experimental"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fill out settings for OC twins dangerous abilities"
+        "commit_message": "Make CR portal and grapes, DSR elixirs, and OC overlay not experimental"
       },
-      "last_updated": "2026-05-21T02:31:18Z"
+      "last_updated": "2026-05-23T09:34:56Z"
     },
     {
       "slug": "elmsmarkers",

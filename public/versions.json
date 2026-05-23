@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "66ed8ee",
+      "version": "2044555",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-21T02:31:18Z",
-      "release_notes": "Fill out settings for OC twins dangerous abilities",
-      "commit_sha": "66ed8ee94a2cc0a95644153ae17c09ae2a288d01",
-      "commit_date": "2026-05-21T02:31:18Z",
-      "commit_message": "Fill out settings for OC twins dangerous abilities"
+      "published_at": "2026-05-23T09:34:56Z",
+      "release_notes": "Make CR portal and grapes, DSR elixirs, and OC overlay not experimental",
+      "commit_sha": "20445557970ea2187fc2d79010831d42ae422b64",
+      "commit_date": "2026-05-23T09:34:56Z",
+      "commit_message": "Make CR portal and grapes, DSR elixirs, and OC overlay not experimental"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-23T06:55:35.388587+00:00",
-  "updates": []
+  "last_checked": "2026-05-23T12:21:40.150671+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "66ed8ee",
+      "new_version": "2044555",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Make CR portal and grapes, DSR elixirs, and OC overlay not experimental"
+    }
+  ]
 }
