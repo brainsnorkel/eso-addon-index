@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-24T18:22:51.542027+00:00",
+  "generated_at": "2026-05-25T00:42:15.888577+00:00",
   "events": [
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2026-05-17",
+      "new_version": "2026-05-24",
+      "published_at": "2026-05-24T23:14:15Z",
+      "detected_at": "2026-05-25T00:42:15.888577+00:00"
+    },
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2026-05-17",
+      "new_version": "2026-05-24",
+      "published_at": "2026-05-24T23:13:57Z",
+      "detected_at": "2026-05-25T00:42:15.888577+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -883,24 +901,6 @@
       "new_version": "d88e562",
       "published_at": "2026-04-08T07:29:16Z",
       "detected_at": "2026-04-08T12:20:07.039759+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-03-29",
-      "new_version": "2026-04-05",
-      "published_at": "2026-04-05T22:50:50Z",
-      "detected_at": "2026-04-06T00:26:52.495960+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-03-29",
-      "new_version": "2026-04-05",
-      "published_at": "2026-04-05T22:50:44Z",
-      "detected_at": "2026-04-06T00:26:52.495960+00:00"
     }
   ]
 }
