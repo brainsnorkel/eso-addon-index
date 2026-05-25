@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-25T13:09:51.207024+00:00",
+  "generated_at": "2026-05-25T18:34:40.488321+00:00",
   "events": [
+    {
+      "slug": "actiondurationreminder",
+      "name": "Action Duration Reminder",
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "old_version": "35d7559",
+      "new_version": "e751750",
+      "published_at": "2026-05-25T15:37:34Z",
+      "detected_at": "2026-05-25T18:34:40.488321+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.2.6",
+      "new_version": "v7.2.2.7",
+      "published_at": "2026-05-25T16:29:02Z",
+      "detected_at": "2026-05-25T18:34:40.488321+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
@@ -883,24 +901,6 @@
       "new_version": "v4.0.3",
       "published_at": "2026-04-08T19:16:09Z",
       "detected_at": "2026-04-09T00:22:18.488535+00:00"
-    },
-    {
-      "slug": "m0rmarkers",
-      "name": "M0RMarkers",
-      "url": "https://github.com/M0RGaming/M0RMarkers",
-      "old_version": "v1.9.4",
-      "new_version": "v2.0.0",
-      "published_at": "2026-04-08T23:46:32Z",
-      "detected_at": "2026-04-09T00:22:18.488535+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "4990892",
-      "new_version": "d88e562",
-      "published_at": "2026-04-08T07:29:16Z",
-      "detected_at": "2026-04-08T12:20:07.039759+00:00"
     }
   ]
 }

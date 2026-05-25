@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "35d7559",
+      "version": "e751750",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-05-12T00:38:50Z",
-      "release_notes": "Bump version to 3.157, update changelog",
-      "commit_sha": "35d75590bd585f259851f529877bb29dfcc1bb9c",
-      "commit_date": "2026-05-12T00:38:50Z",
-      "commit_message": "Bump version to 3.157, update changelog"
+      "published_at": "2026-05-25T15:37:34Z",
+      "release_notes": "Bump version to 3.158a",
+      "commit_sha": "e751750cfcc91987fb359d224e1972badf260ee7",
+      "commit_date": "2026-05-25T15:37:34Z",
+      "commit_message": "Bump version to 3.158a"
     },
     "aui": {
       "version": "cdb80c7",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.2.6",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.2.6",
-      "published_at": "2026-05-21T12:07:04Z",
-      "release_notes": "## Version 7.2.2.6\r\n\r\n### New\r\n\r\n- ChatAnnouncements: Display Announcements \u2014 [B]Event Zone: Night Market (PC and console). Separate chat, center-screen, and alert toggles for [B]Daring Race, [B]Arachnid Invasion, and [B]Guiding Light Still missing some; will be added when I see them.\r\n- Classified Night Market [C]EVENT_DISPLAY_ANNOUNCEMENT[/C] lines by activity text (not whole zone 1559): Daring Race (for example Tempest earned, race objectives, Daring Race: \u2026 Complete, Void Collapse); Arachnid"
+      "version": "v7.2.2.7",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.2.7",
+      "published_at": "2026-05-25T16:29:02Z",
+      "release_notes": "## What's Changed\r\n* V7227 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/409\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.2.6...v7.2.2.7"
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-25T13:09:51.000964+00:00",
-  "updates": []
+  "last_checked": "2026-05-25T18:34:40.333611+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "35d7559",
+      "new_version": "e751750",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Bump version to 3.158a"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.2.6",
+      "new_version": "v7.2.2.7",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

@@ -6,10 +6,10 @@
   "items": [
     {
       "id": "actiondurationreminder",
-      "title": "Action Duration Reminder 35d7559",
+      "title": "Action Duration Reminder e751750",
       "url": "https://github.com/cloudor126/lua-eso-addon-adr",
-      "date_published": "2026-05-12T00:38:50Z",
-      "date_modified": "2026-05-12T00:38:50Z",
+      "date_published": "2026-05-25T15:37:34Z",
+      "date_modified": "2026-05-25T15:37:34Z",
       "authors": [
         {
           "name": "cloudor126"
@@ -709,10 +709,10 @@
     },
     {
       "id": "luiextended",
-      "title": "LuiExtended v7.2.2.6",
+      "title": "LuiExtended v7.2.2.7",
       "url": "https://github.com/DakJaniels/LuiExtended",
-      "date_published": "2026-05-21T12:07:04Z",
-      "date_modified": "2026-05-21T12:07:04Z",
+      "date_published": "2026-05-25T16:29:02Z",
+      "date_modified": "2026-05-25T16:29:02Z",
       "authors": [
         {
           "name": "ArtOfShred"
