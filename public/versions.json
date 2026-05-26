@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.2.8",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.2.8",
-      "published_at": "2026-05-25T18:50:45Z",
-      "release_notes": "## Version 7.2.2.8\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Roll dodge stamina indicator on the custom player bar now follows **Left to Right**, **Right to Left**, and **Center** stamina bar alignment settings.\r\n- Unit Frames: With **Center** alignment, the dodge indicator uses two lines that bracket your stamina after the next dodge (the band moves inward toward the middle as stamina drops).\r\n- Unit Frames: Roll dodge prediction includes **Medium Armor Athletics** dodge cost reduction (per piece of mediu"
+      "version": "v7.2.3.0",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.0",
+      "published_at": "2026-05-26T18:04:31Z",
+      "release_notes": "## Version 7.2.3.0\r\n\r\n### Changes\r\n\r\n- Unit Frames: Player and Target **Display Power Change Overlay** now default to **off**. A one-time migration turns the overlay off for existing saves that still had the previous default (on). Re-enable under Custom Unit Frames if you want the increased-power halo.\r\n- Unit Frames: When that overlay is enabled, increased power and possession animated halo textures on the custom **health bar** tint with the same RGBA as the health bar when LUIE applies custom "
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-26T13:00:01.345011+00:00",
+  "last_checked": "2026-05-26T18:48:52.984800+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "d69fcc1",
-      "new_version": "2304034",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Start fixing console settings ugh"
+      "slug": "luiextended",
+      "old_version": "v7.2.2.8",
+      "new_version": "v7.2.3.0",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }
