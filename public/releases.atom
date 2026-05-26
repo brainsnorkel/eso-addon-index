@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-05-25T18:34:40.488321+00:00</updated>
+  <updated>2026-05-26T00:40:44.367070+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:luiextended:v7.2.2.8</id>
+    <title>LuiExtended updated: v7.2.2.7 → v7.2.2.8</title>
+    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
+    <updated>2026-05-26T00:40:44.367070+00:00</updated>
+    <summary>LuiExtended has been updated from version v7.2.2.7 to v7.2.2.8.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:actiondurationreminder:e751750</id>
     <title>Action Duration Reminder updated: 35d7559 → e751750</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/M0RGaming/M0RMarkers" rel="alternate"/>
     <updated>2026-04-09T06:33:49.962264+00:00</updated>
     <summary>M0RMarkers has been updated from version v2.0.0 to v2.0.1.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:beammeup:v4.0.3</id>
-    <title>BeamMeUp updated: v4.0.2 → v4.0.3</title>
-    <link href="https://github.com/david-tub/BeamMeUp" rel="alternate"/>
-    <updated>2026-04-09T00:22:18.488535+00:00</updated>
-    <summary>BeamMeUp has been updated from version v4.0.2 to v4.0.3.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
