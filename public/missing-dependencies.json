@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-26T00:41:10.730908+00:00",
+  "generated_at": "2026-05-26T07:14:05.590731+00:00",
   "description": "Dependencies referenced by addons but not available in the index",
   "missing_count": 0,
   "missing_dependencies": []
