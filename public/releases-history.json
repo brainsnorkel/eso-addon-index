@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-26T07:13:24.182351+00:00",
+  "generated_at": "2026-05-26T13:00:01.523457+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "d69fcc1",
+      "new_version": "2304034",
+      "published_at": "2026-05-26T01:54:46Z",
+      "detected_at": "2026-05-26T13:00:01.523457+00:00"
+    },
     {
       "slug": "luiextended",
       "name": "LuiExtended",
@@ -891,15 +900,6 @@
       "old_version": "d88e562",
       "new_version": "d0d0beb",
       "published_at": "2026-04-09T04:30:34Z",
-      "detected_at": "2026-04-09T06:33:49.962264+00:00"
-    },
-    {
-      "slug": "m0rmarkers",
-      "name": "M0RMarkers",
-      "url": "https://github.com/M0RGaming/M0RMarkers",
-      "old_version": "v2.0.0",
-      "new_version": "v2.0.1",
-      "published_at": "2026-04-09T04:00:52Z",
       "detected_at": "2026-04-09T06:33:49.962264+00:00"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-26T07:13:24.182351+00:00",
+  "generated_at": "2026-05-26T13:00:01.523457+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "d69fcc1",
+        "version": "2304034",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-23T13:54:04Z",
-        "commit_sha": "d69fcc197197f09881e9ba808d7503c630d74100",
-        "commit_date": "2026-05-23T13:54:04Z",
-        "commit_message": "Clean Taleria lines when unregistering DSR"
+        "published_at": "2026-05-26T01:54:46Z",
+        "commit_sha": "230403476b438927a725b0be74d495a0211ec348",
+        "commit_date": "2026-05-26T01:54:46Z",
+        "commit_message": "Start fixing console settings ugh"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Clean Taleria lines when unregistering DSR"
+        "commit_message": "Start fixing console settings ugh"
       },
-      "last_updated": "2026-05-23T13:54:04Z"
+      "last_updated": "2026-05-26T01:54:46Z"
     },
     {
       "slug": "elmsmarkers",
