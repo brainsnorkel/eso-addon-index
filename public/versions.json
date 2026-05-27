@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2304034",
+      "version": "0a0a913",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-26T01:54:46Z",
-      "release_notes": "Start fixing console settings ugh",
-      "commit_sha": "230403476b438927a725b0be74d495a0211ec348",
-      "commit_date": "2026-05-26T01:54:46Z",
-      "commit_message": "Start fixing console settings ugh"
+      "published_at": "2026-05-27T05:33:52Z",
+      "release_notes": "[2.19.0] Bump version",
+      "commit_sha": "0a0a9136375b963e847f758d04ca258adb6798ab",
+      "commit_date": "2026-05-27T05:33:52Z",
+      "commit_message": "[2.19.0] Bump version"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-27T00:42:05.712554+00:00",
-  "updates": []
+  "last_checked": "2026-05-27T07:27:31.835159+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "2304034",
+      "new_version": "0a0a913",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.19.0] Bump version"
+    }
+  ]
 }
