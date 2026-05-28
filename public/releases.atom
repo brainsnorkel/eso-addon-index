@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-05-28T00:38:42.690901+00:00</updated>
+  <updated>2026-05-28T07:21:24.368278+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:d483362</id>
+    <title>CrutchAlerts updated: 0a0a913 → d483362</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-05-28T07:21:24.368278+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 0a0a913 to d483362.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:luiextended:v7.2.3.1</id>
     <title>LuiExtended updated: v7.2.3.0 → v7.2.3.1</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/sheumais/synergypriority" rel="alternate"/>
     <updated>2026-04-11T06:23:47.532542+00:00</updated>
     <summary>SynergyPriority has been updated from version 993aca7 to 8dac15f.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:96e9dcf</id>
-    <title>CrutchAlerts updated: d0d0beb → 96e9dcf</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-04-10T06:37:47.812685+00:00</updated>
-    <summary>CrutchAlerts has been updated from version d0d0beb to 96e9dcf.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
