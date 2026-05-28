@@ -9,19 +9,10 @@
       "commit_date": "2026-05-25T15:37:34Z",
       "commit_message": "Bump version to 3.158a"
     },
-    "aui": {
-      "version": "cdb80c7",
-      "download_url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
-      "published_at": "2026-03-26T18:17:01Z",
-      "release_notes": "Fix cooldown reset: only clear on remainTime==0, not below 1500ms threshold",
-      "commit_sha": "cdb80c78a34b1e9f900e9945f5c00d7dd127b9b3",
-      "commit_date": "2026-03-26T18:17:01Z",
-      "commit_message": "Fix cooldown reset: only clear on remainTime==0, not below 1500ms threshold"
-    },
     "bandits-user-interface": {
       "version": "v4.428",
       "download_url": "https://github.com/secretrob/BanditsUserInterface/archive/refs/tags/v4.428.zip",
-      "published_at": "2025-04-16T23:36:06Z",
+      "published_at": null,
       "release_notes": null,
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
@@ -33,9 +24,10 @@
     },
     "breadcrumbs": {
       "version": "v1.2",
-      "download_url": "https://api.github.com/repos/sheumais/Breadcrumbs/zipball/v1.2",
-      "published_at": "2024-11-24T08:54:56Z",
-      "release_notes": ""
+      "download_url": "https://github.com/sheumais/Breadcrumbs/archive/refs/tags/v1.2.zip",
+      "published_at": null,
+      "release_notes": null,
+      "commit_sha": "1081914e8340c5fa4f3a6890f438d893417c7600"
     },
     "bsjogroup": {
       "version": "c3673ce",
@@ -46,28 +38,10 @@
       "commit_date": "2024-02-07T10:16:12Z",
       "commit_message": "Change hide chat to its own keybind"
     },
-    "buffthegroup": {
-      "version": "51f8305",
-      "download_url": "https://github.com/Fostecks/BuffTheGroup/archive/refs/heads/master.zip",
-      "published_at": "2023-09-20T20:50:33Z",
-      "release_notes": "3.4.0",
-      "commit_sha": "51f8305a75019abf0102874d85e7aa5a9dce0bd9",
-      "commit_date": "2023-09-20T20:50:33Z",
-      "commit_message": "3.4.0"
-    },
-    "bugcatcher": {
-      "version": "7b17572",
-      "download_url": "https://github.com/Shadowfen/BugCatcher/archive/refs/heads/master.zip",
-      "published_at": "2024-04-17T21:46:12Z",
-      "release_notes": "API bump",
-      "commit_sha": "7b175726031b7fc7d41de393b35850abf42f1363",
-      "commit_date": "2024-04-17T21:46:12Z",
-      "commit_message": "API bump"
-    },
     "combatmetrics": {
       "version": "1.7.7",
       "download_url": "https://github.com/Solinur/CombatMetrics/archive/refs/tags/1.7.7.zip",
-      "published_at": "2026-03-03T14:06:37Z",
+      "published_at": null,
       "release_notes": null,
       "commit_sha": "7696f5736ac422a9c10800a218e5c23c797da543"
     },
@@ -115,77 +89,23 @@
     "groupsetupwarnings": {
       "version": "v1.8.0",
       "download_url": "https://github.com/brainsnorkel/GroupSetupWarnings/archive/refs/tags/v1.8.0.zip",
-      "published_at": "2026-01-28T10:31:37Z",
+      "published_at": null,
       "release_notes": null,
       "commit_sha": "907bfd5c32fcceeba4efe8dbff8633371d17bb92"
-    },
-    "hodorreflexes": {
-      "version": "2026-05-17",
-      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-05-17",
-      "published_at": "2026-05-17T09:15:34Z",
-      "release_notes": "## 2026.05.10 - @m00nyONE\n- add HPS module and list. This is still in BETA since I can not test it properly.\n- add Standard of Might to compact ultimate list.\n\n"
-    },
-    "huntsmanwarmaskreminder": {
-      "version": "5931983",
-      "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
-      "published_at": "2026-03-18T18:38:33Z",
-      "release_notes": "Version 2.0.3",
-      "commit_sha": "59319834ec3689efc711a4919c94711988d1b46f",
-      "commit_date": "2026-03-18T18:38:33Z",
-      "commit_message": "Version 2.0.3"
-    },
-    "hypertools": {
-      "version": "3c8e9d4",
-      "download_url": "https://github.com/Hyperioxes/HyperTools/archive/refs/heads/main.zip",
-      "published_at": "2023-07-30T06:01:28Z",
-      "release_notes": "version number",
-      "commit_sha": "3c8e9d4ea29d45b1d3447bc112863a366956b3ab",
-      "commit_date": "2023-07-30T06:01:28Z",
-      "commit_message": "version number"
     },
     "improveddeathrecap": {
       "version": "1.0.1",
       "download_url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.1.zip",
-      "published_at": "2026-01-10T19:58:28Z",
+      "published_at": null,
       "release_notes": null,
       "commit_sha": "24274cbbddcd61133a9b42ea776f0a60e272e6fa"
-    },
-    "libaddonmenu-2-0": {
-      "version": "r32",
-      "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
-      "published_at": "2020-12-17T20:09:33Z",
-      "release_notes": ""
-    },
-    "libasync": {
-      "version": "bdada44",
-      "download_url": "https://github.com/DakJaniels/libasync/archive/refs/heads/main.zip",
-      "published_at": "2025-12-11T01:38:23Z",
-      "release_notes": "space",
-      "commit_sha": "bdada44c98c1e1cc511d078d3bd0ae2a5ceda840",
-      "commit_date": "2025-12-11T01:38:23Z",
-      "commit_message": "space"
-    },
-    "libchatmessage": {
-      "version": "5dd0dd0",
-      "download_url": "https://github.com/sirinsidiator/ESO-LibChatMessage/archive/refs/heads/master.zip",
-      "published_at": "2021-01-23T13:37:19Z",
-      "release_notes": "added license",
-      "commit_sha": "5dd0dd0d27b0d6c70cf9967bf0ecf1aa45495292",
-      "commit_date": "2021-01-23T13:37:19Z",
-      "commit_message": "added license"
     },
     "libcombat": {
       "version": "v7",
       "download_url": "https://github.com/Solinur/LibCombat/archive/refs/tags/v7.zip",
-      "published_at": "2025-10-08T21:24:22Z",
+      "published_at": null,
       "release_notes": null,
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
-    },
-    "libcustomicons": {
-      "version": "2026-05-24",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-05-24",
-      "published_at": "2026-05-24T23:14:15Z",
-      "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
       "version": "d12fa89",
@@ -197,10 +117,11 @@
       "commit_message": "version 2.1.7:"
     },
     "libcustomnames": {
-      "version": "2026-05-24",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-05-24",
-      "published_at": "2026-05-24T23:13:57Z",
-      "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
+      "version": "latest",
+      "download_url": "https://github.com/m00nyONE/LibCustomNames/archive/refs/tags/latest.zip",
+      "published_at": null,
+      "release_notes": null,
+      "commit_sha": "8ec11876c4253c7d28b9a2e56f29ea457fc5f9f4"
     },
     "libdebuglogger": {
       "version": "bbb1afb",
@@ -210,13 +131,6 @@
       "commit_sha": "bbb1afb961632400982a278ef9f2c6967a35b64c",
       "commit_date": "2026-04-15T14:40:46Z",
       "commit_message": "built v2.6.1"
-    },
-    "libfloatingicons": {
-      "version": "release-0.1",
-      "download_url": "https://github.com/exoy94/LibFloatingIcons/archive/refs/tags/release-0.1.zip",
-      "published_at": "2023-04-30T09:23:07Z",
-      "release_notes": null,
-      "commit_sha": "0f7697e711b99dfa7468d59d4882b84f872a1a60"
     },
     "libgroupbroadcast": {
       "version": "e838289",
@@ -265,40 +179,18 @@
       "commit_date": "2026-04-15T09:18:28Z",
       "commit_message": "-Fixed set search UI context menus"
     },
-    "libsfutils": {
-      "version": "v38",
-      "download_url": "https://github.com/Shadowfen/LibSFUtils/archive/refs/tags/v38.zip",
-      "published_at": "2021-12-05T20:52:15Z",
-      "release_notes": null,
-      "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
-    },
     "luiextended": {
       "version": "v7.2.3.1",
       "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.1",
       "published_at": "2026-05-27T09:49:33Z",
       "release_notes": "## Version 7.2.3.1\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Per-category **Font/Texture** settings now show **Font Size (Label)** and **Font Size (Bar)** only for **Player**, **Target**, **Group** (small group), and **AvA** frames that use a separate top caption row. **Raid**, **Companion**, **Pet**, and **Boss** use a single **Font Size** slider for all text on the health bar (name and values). Compact frames with different saved label and bar sizes now render one consistent size until you change that sl"
     },
-    "m0rmarkers": {
-      "version": "v2.1.0",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.1.0",
-      "published_at": "2026-05-20T18:53:29Z",
-      "release_notes": "----- 2.1.0 -----\nAdded an optional dependancy for LibMapPins to allow users to show markers on their world map after enabling a map filter.\nAdded 2 new preset marker sets: vSE General v2, and Kyzer's Night Market Quests (Thank you Kyzeragon for creating them!).\nAdded a remove duplicates button to the editor.\n(minor) Fixed a bug where using the editor would not properly compress the path\n(minor) Fixed a bug where Kynes would show the wrong map name (thanks dack for the heads up lol)\n\n"
-    },
     "odysupporticons": {
       "version": "Version-1.13.1",
       "download_url": "https://github.com/exoy94/OdySupportIcons/archive/refs/tags/Version-1.13.1.zip",
-      "published_at": "2025-03-16T15:50:45Z",
+      "published_at": null,
       "release_notes": null,
       "commit_sha": "29c23c3a60f90106a8d5b402744f6c1930908b56"
-    },
-    "pchat": {
-      "version": "baff4b8",
-      "download_url": "https://github.com/Baertram/pChat/archive/refs/heads/master.zip",
-      "published_at": "2026-01-21T16:12:56Z",
-      "release_notes": "Fixed missing function check",
-      "commit_sha": "baff4b8b9df8a5054114dcdab8b4d86af2368a9e",
-      "commit_date": "2026-01-21T16:12:56Z",
-      "commit_message": "Fixed missing function check"
     },
     "synergypriority": {
       "version": "8dac15f",
@@ -312,7 +204,7 @@
     "untaunted": {
       "version": "1.1.5",
       "download_url": "https://github.com/Solinur/Untaunted/archive/refs/tags/1.1.5.zip",
-      "published_at": "2023-10-12T21:06:05Z",
+      "published_at": null,
       "release_notes": null,
       "commit_sha": "d53214a83029476baf69852aa05acbffc9392ec1"
     },
@@ -324,14 +216,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-28T07:21:24.194172+00:00",
+  "last_checked": "2026-05-28T13:14:16.153920+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "0a0a913",
-      "new_version": "d483362",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Support all the separate prominent alerts for console"
+      "slug": "libcustomnames",
+      "old_version": "2026-05-24",
+      "new_version": "latest",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }

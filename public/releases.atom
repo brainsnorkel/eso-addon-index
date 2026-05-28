@@ -5,11 +5,41 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-05-28T07:21:24.368278+00:00</updated>
+  <updated>2026-05-28T13:14:16.330088+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libaddonmenu-2-0:r44</id>
+    <title>LibAddonMenu-2.0 updated: r32 → r44</title>
+    <link href="https://github.com/sirinsidiator/ESO-LibAddonMenu" rel="alternate"/>
+    <updated>2026-05-28T13:14:16.330088+00:00</updated>
+    <summary>LibAddonMenu-2.0 has been updated from version r32 to r44.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:latest</id>
+    <title>LibCustomIcons updated: 2026-05-24 → latest</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-05-28T13:14:16.330088+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-05-24 to latest.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:latest</id>
+    <title>LibCustomNames updated: 2026-05-24 → latest</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-05-28T13:14:16.330088+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-05-24 to latest.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:d483362</id>
     <title>CrutchAlerts updated: 0a0a913 → d483362</title>
@@ -976,36 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
     <updated>2026-04-13T00:28:58.599194+00:00</updated>
     <summary>LibCustomNames has been updated from version 2026-04-05 to 2026-04-12.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustommenu:602897c</id>
-    <title>LibCustomMenu updated: 770e7f7 → 602897c</title>
-    <link href="https://github.com/votan73/ESO" rel="alternate"/>
-    <updated>2026-04-12T12:12:41.169097+00:00</updated>
-    <summary>LibCustomMenu has been updated from version 770e7f7 to 602897c.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustommenu:770e7f7</id>
-    <title>LibCustomMenu updated: 9f38731 → 770e7f7</title>
-    <link href="https://github.com/votan73/ESO" rel="alternate"/>
-    <updated>2026-04-11T18:10:37.976912+00:00</updated>
-    <summary>LibCustomMenu has been updated from version 9f38731 to 770e7f7.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:synergypriority:8dac15f</id>
-    <title>SynergyPriority updated: 993aca7 → 8dac15f</title>
-    <link href="https://github.com/sheumais/synergypriority" rel="alternate"/>
-    <updated>2026-04-11T06:23:47.532542+00:00</updated>
-    <summary>SynergyPriority has been updated from version 993aca7 to 8dac15f.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
