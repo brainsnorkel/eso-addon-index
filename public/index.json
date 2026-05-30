@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-30T12:26:26.081884+00:00",
+  "generated_at": "2026-05-30T18:24:39.903823+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "2c5b609",
+        "version": "35e26a7",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-30T09:01:09Z",
-        "commit_sha": "2c5b609b23f44df4602d45072172e9b088fc4113",
-        "commit_date": "2026-05-30T09:01:09Z",
-        "commit_message": "Add sirens at 75 and enable OC overlay"
+        "published_at": "2026-05-30T14:14:46Z",
+        "commit_sha": "35e26a7133b595ac64f1dfffd7dc1701e2f9ce88",
+        "commit_date": "2026-05-30T14:14:46Z",
+        "commit_message": "Maybe fix chill/fragility"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add sirens at 75 and enable OC overlay"
+        "commit_message": "Maybe fix chill/fragility"
       },
-      "last_updated": "2026-05-30T09:01:09Z"
+      "last_updated": "2026-05-30T14:14:46Z"
     },
     {
       "slug": "elmsmarkers",

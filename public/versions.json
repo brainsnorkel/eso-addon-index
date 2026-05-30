@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2c5b609",
+      "version": "35e26a7",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-30T09:01:09Z",
-      "release_notes": "Add sirens at 75 and enable OC overlay",
-      "commit_sha": "2c5b609b23f44df4602d45072172e9b088fc4113",
-      "commit_date": "2026-05-30T09:01:09Z",
-      "commit_message": "Add sirens at 75 and enable OC overlay"
+      "published_at": "2026-05-30T14:14:46Z",
+      "release_notes": "Maybe fix chill/fragility",
+      "commit_sha": "35e26a7133b595ac64f1dfffd7dc1701e2f9ce88",
+      "commit_date": "2026-05-30T14:14:46Z",
+      "commit_message": "Maybe fix chill/fragility"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,27 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-30T12:26:25.912575+00:00",
+  "last_checked": "2026-05-30T18:24:39.733553+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "d483362",
-      "new_version": "2c5b609",
+      "old_version": "2c5b609",
+      "new_version": "35e26a7",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add sirens at 75 and enable OC overlay"
-    },
-    {
-      "slug": "libcustommenu",
-      "old_version": "d12fa89",
-      "new_version": "f770dc7",
-      "repo": "votan73/ESO",
-      "commit_message": "version 2.1.8:"
-    },
-    {
-      "slug": "luiextended",
-      "old_version": "v7.2.3.1",
-      "new_version": "v7.2.3.2",
-      "repo": "DakJaniels/LuiExtended"
+      "commit_message": "Maybe fix chill/fragility"
     }
   ]
 }
