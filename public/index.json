@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-30T07:01:24.456960+00:00",
+  "generated_at": "2026-05-30T12:26:26.081884+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "d483362",
+        "version": "2c5b609",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-28T02:44:30Z",
-        "commit_sha": "d483362449fba8953df9ae8520d377db331c140b",
-        "commit_date": "2026-05-28T02:44:30Z",
-        "commit_message": "Support all the separate prominent alerts for console"
+        "published_at": "2026-05-30T09:01:09Z",
+        "commit_sha": "2c5b609b23f44df4602d45072172e9b088fc4113",
+        "commit_date": "2026-05-30T09:01:09Z",
+        "commit_message": "Add sirens at 75 and enable OC overlay"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Support all the separate prominent alerts for console"
+        "commit_message": "Add sirens at 75 and enable OC overlay"
       },
-      "last_updated": "2026-05-28T02:44:30Z"
+      "last_updated": "2026-05-30T09:01:09Z"
     },
     {
       "slug": "elmsmarkers",
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "d12fa89",
+        "version": "f770dc7",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-05-16T11:38:56Z",
-        "commit_sha": "d12fa896e24bdf93bd019a9eebb37862c90bc734",
-        "commit_date": "2026-05-16T11:38:56Z",
-        "commit_message": "version 2.1.7:"
+        "published_at": "2026-05-30T09:16:52Z",
+        "commit_sha": "f770dc70c92ea4ae721810db5c7de7fce42d507e",
+        "commit_date": "2026-05-30T09:16:52Z",
+        "commit_message": "version 2.1.8:"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "version 2.1.7:"
+        "commit_message": "version 2.1.8:"
       },
-      "last_updated": "2026-05-16T11:38:56Z"
+      "last_updated": "2026-05-30T09:16:52Z"
     },
     {
       "slug": "libcustomnames",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.3.1",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.1",
-        "published_at": "2026-05-27T09:49:33Z",
-        "commit_sha": "910bd34a069add98340f5c3f7f8cddc5fbf07a06"
+        "version": "v7.2.3.2",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.2",
+        "published_at": "2026-05-30T12:00:48Z",
+        "commit_sha": "813afd9ae283df2eefc9f4faf721d7a8cea454df"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.3.1/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.3.2/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.1",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.2",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2708,7 +2708,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-05-27T09:49:33Z"
+      "last_updated": "2026-05-30T12:00:48Z"
     },
     {
       "slug": "m0rmarkers",
