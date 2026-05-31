@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-30T18:24:39.733553+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "2c5b609",
-      "new_version": "35e26a7",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Maybe fix chill/fragility"
-    }
-  ]
+  "last_checked": "2026-05-31T00:43:39.940864+00:00",
+  "updates": []
 }
