@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T07:19:26.899235+00:00",
+  "generated_at": "2026-05-31T12:29:37.836886+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "35e26a7",
+        "version": "187db04",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-30T14:14:46Z",
-        "commit_sha": "35e26a7133b595ac64f1dfffd7dc1701e2f9ce88",
-        "commit_date": "2026-05-30T14:14:46Z",
-        "commit_message": "Maybe fix chill/fragility"
+        "published_at": "2026-05-31T07:54:57Z",
+        "commit_sha": "187db0433c825a852aae148c2d542bd7c1779d49",
+        "commit_date": "2026-05-31T07:54:57Z",
+        "commit_message": "Add behemoth summon timer"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Maybe fix chill/fragility"
+        "commit_message": "Add behemoth summon timer"
       },
-      "last_updated": "2026-05-30T14:14:46Z"
+      "last_updated": "2026-05-31T07:54:57Z"
     },
     {
       "slug": "elmsmarkers",

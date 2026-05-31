@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T07:19:26.899235+00:00",
+  "generated_at": "2026-05-31T12:29:37.836886+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "35e26a7",
+      "new_version": "187db04",
+      "published_at": "2026-05-31T07:54:57Z",
+      "detected_at": "2026-05-31T12:29:37.836886+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "bbb1afb",
       "published_at": "2026-04-15T14:40:46Z",
       "detected_at": "2026-04-15T18:26:06.195337+00:00"
-    },
-    {
-      "slug": "libsets",
-      "name": "LibSets",
-      "url": "https://github.com/Baertram/LibSets",
-      "old_version": "6ac92a9",
-      "new_version": "4c47f00",
-      "published_at": "2026-04-15T09:18:28Z",
-      "detected_at": "2026-04-15T12:21:57.218228+00:00"
     }
   ]
 }
