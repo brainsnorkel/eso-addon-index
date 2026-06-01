@@ -324,25 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-01T00:46:02.424786+00:00",
-  "updates": [
-    {
-      "slug": "libcustomicons",
-      "old_version": "2026-05-24",
-      "new_version": "2026-05-31",
-      "repo": "m00nyONE/LibCustomIcons"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-05-24",
-      "new_version": "2026-05-31",
-      "repo": "m00nyONE/LibCustomNames"
-    },
-    {
-      "slug": "luiextended",
-      "old_version": "v7.2.3.3",
-      "new_version": "v7.2.3.4",
-      "repo": "DakJaniels/LuiExtended"
-    }
-  ]
+  "last_checked": "2026-06-01T07:46:53.853037+00:00",
+  "updates": []
 }
