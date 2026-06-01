@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-01T14:01:47.480068+00:00",
+  "generated_at": "2026-06-01T19:38:52.205996+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -38,6 +38,12 @@
       }
     ],
     "beammeup": [
+      {
+        "version": "4.0.4.021",
+        "published_at": "2026-06-01T19:32:59Z",
+        "detected_at": "2026-06-01T19:38:52.205996+00:00",
+        "commit_sha": "a7d6008b5b7254217cc1cf0374237a118aa2133c"
+      },
       {
         "version": "4.0.4.020",
         "published_at": "2026-05-19T21:04:31Z",

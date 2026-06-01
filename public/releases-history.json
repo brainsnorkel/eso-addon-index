@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-01T14:01:47.480068+00:00",
+  "generated_at": "2026-06-01T19:38:52.205996+00:00",
   "events": [
+    {
+      "slug": "beammeup",
+      "name": "BeamMeUp",
+      "url": "https://github.com/david-tub/BeamMeUp",
+      "old_version": "4.0.4.020",
+      "new_version": "4.0.4.021",
+      "published_at": "2026-06-01T19:32:59Z",
+      "detected_at": "2026-06-01T19:38:52.205996+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
@@ -892,15 +901,6 @@
       "new_version": "51f800b",
       "published_at": "2026-04-18T22:25:39Z",
       "detected_at": "2026-04-19T00:29:16.146042+00:00"
-    },
-    {
-      "slug": "actiondurationreminder",
-      "name": "Action Duration Reminder",
-      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
-      "old_version": "a0ee696",
-      "new_version": "ddecb04",
-      "published_at": "2026-04-18T07:10:09Z",
-      "detected_at": "2026-04-18T12:12:48.382564+00:00"
     }
   ]
 }
