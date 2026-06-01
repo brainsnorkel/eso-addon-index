@@ -182,9 +182,9 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-05-24",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-05-24",
-      "published_at": "2026-05-24T23:14:15Z",
+      "version": "2026-05-31",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-05-31",
+      "published_at": "2026-05-31T23:17:02Z",
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
@@ -197,9 +197,9 @@
       "commit_message": "version 2.1.8:"
     },
     "libcustomnames": {
-      "version": "2026-05-24",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-05-24",
-      "published_at": "2026-05-24T23:13:57Z",
+      "version": "2026-05-31",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-05-31",
+      "published_at": "2026-05-31T23:17:03Z",
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libdebuglogger": {
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.3.3",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.3",
-      "published_at": "2026-05-31T17:45:04Z",
-      "release_notes": "## Version 7.2.3.3\r\n\r\n### New\r\n\r\n- Unit Frames: **Companion Ability Track** adds an optional icon row on the custom **Companion** frame for companion hotbar abilities (including built-in interrupt), with optional cooldown radial, effect timer, and stack labels. Enable it under Custom Unit Frames \u2192 Companion; it is **off by default** for new installs.\r\n\r\n### Fixed\r\n\r\n- Unit Frames: **Use Separate Shield Bar** again shows shield on custom **Player**, **Target**, **Small Group**, **Companion**, and"
+      "version": "v7.2.3.4",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.4",
+      "published_at": "2026-05-31T20:31:10Z",
+      "release_notes": "## Version 7.2.3.4\r\n\r\n### New\r\n\r\n- Misc Settings (PC) / Settings (console): **Alert Text Alignment** dropdown (Left, Center, Right) for on-screen combat alerts. Sets the default notification anchor when the frame is not unlocked, re-anchors the scrolling alert buffer to match, and applies the same alignment to **wrapped** multi-line alert lines on keyboard and gamepad.\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Custom **Raid**, **Companion**, **Pet**, and **Boss** frames no longer render unit names larger t"
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,12 +324,24 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-05-31T18:25:13.879345+00:00",
+  "last_checked": "2026-06-01T00:46:02.424786+00:00",
   "updates": [
     {
+      "slug": "libcustomicons",
+      "old_version": "2026-05-24",
+      "new_version": "2026-05-31",
+      "repo": "m00nyONE/LibCustomIcons"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-05-24",
+      "new_version": "2026-05-31",
+      "repo": "m00nyONE/LibCustomNames"
+    },
+    {
       "slug": "luiextended",
-      "old_version": "v7.2.3.2",
-      "new_version": "v7.2.3.3",
+      "old_version": "v7.2.3.3",
+      "new_version": "v7.2.3.4",
       "repo": "DakJaniels/LuiExtended"
     }
   ]
