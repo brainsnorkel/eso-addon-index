@@ -26,9 +26,9 @@
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
     "beammeup": {
-      "version": "4.0.4.021",
-      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.021",
-      "published_at": "2026-06-01T19:32:59Z",
+      "version": "4.0.4.023",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.023",
+      "published_at": "2026-06-01T21:13:44Z",
       "release_notes": "Console Release Only\n## 2026.06.01\n- Work on performance enhancements\n\n"
     },
     "breadcrumbs": {
@@ -324,12 +324,12 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-01T19:38:52.028451+00:00",
+  "last_checked": "2026-06-02T00:47:36.454805+00:00",
   "updates": [
     {
       "slug": "beammeup",
-      "old_version": "4.0.4.020",
-      "new_version": "4.0.4.021",
+      "old_version": "4.0.4.021",
+      "new_version": "4.0.4.023",
       "repo": "david-tub/BeamMeUp"
     }
   ]
