@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "187db04",
+      "version": "c8eed24",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-05-31T07:54:57Z",
-      "release_notes": "Add behemoth summon timer",
-      "commit_sha": "187db0433c825a852aae148c2d542bd7c1779d49",
-      "commit_date": "2026-05-31T07:54:57Z",
-      "commit_message": "Add behemoth summon timer"
+      "published_at": "2026-06-02T08:03:12Z",
+      "release_notes": "Fix some DSR things and start adding extra timers",
+      "commit_sha": "c8eed242991134c755ee2e7a990923ad9d3ca6fa",
+      "commit_date": "2026-06-02T08:03:12Z",
+      "commit_message": "Fix some DSR things and start adding extra timers"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-02T07:39:20.917202+00:00",
-  "updates": []
+  "last_checked": "2026-06-02T13:16:36.194971+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "187db04",
+      "new_version": "c8eed24",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix some DSR things and start adding extra timers"
+    }
+  ]
 }

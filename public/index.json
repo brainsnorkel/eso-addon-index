@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-02T07:39:21.090958+00:00",
+  "generated_at": "2026-06-02T13:16:36.369708+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "187db04",
+        "version": "c8eed24",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-05-31T07:54:57Z",
-        "commit_sha": "187db0433c825a852aae148c2d542bd7c1779d49",
-        "commit_date": "2026-05-31T07:54:57Z",
-        "commit_message": "Add behemoth summon timer"
+        "published_at": "2026-06-02T08:03:12Z",
+        "commit_sha": "c8eed242991134c755ee2e7a990923ad9d3ca6fa",
+        "commit_date": "2026-06-02T08:03:12Z",
+        "commit_message": "Fix some DSR things and start adding extra timers"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add behemoth summon timer"
+        "commit_message": "Fix some DSR things and start adding extra timers"
       },
-      "last_updated": "2026-05-31T07:54:57Z"
+      "last_updated": "2026-06-02T08:03:12Z"
     },
     {
       "slug": "elmsmarkers",
