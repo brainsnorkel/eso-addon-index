@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-02T13:16:36.194971+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "187db04",
-      "new_version": "c8eed24",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix some DSR things and start adding extra timers"
-    }
-  ]
+  "last_checked": "2026-06-02T19:14:50.555931+00:00",
+  "updates": []
 }
