@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "c8eed24",
+      "version": "5d3de65",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-02T08:03:12Z",
-      "release_notes": "Fix some DSR things and start adding extra timers",
-      "commit_sha": "c8eed242991134c755ee2e7a990923ad9d3ca6fa",
-      "commit_date": "2026-06-02T08:03:12Z",
-      "commit_message": "Fix some DSR things and start adding extra timers"
+      "published_at": "2026-06-02T16:19:59Z",
+      "release_notes": "Add settings for Winter Storm and Summon Siren",
+      "commit_sha": "5d3de6514bac5b93bda1c1e6b0e124c7aafdb84c",
+      "commit_date": "2026-06-02T16:19:59Z",
+      "commit_message": "Add settings for Winter Storm and Summon Siren"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.3.5",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.5",
-      "published_at": "2026-06-03T04:46:52Z",
-      "release_notes": "## Version 7.2.3.5\r\n\r\n### New\r\n\r\n- SpellCastBuffs: When **Color Debuffs by Crowd Control Type** is enabled, optional **Color non-CC debuffs by damage type (cooldown fill)** plus per-damage-type color pickers tint the cooldown fill from combat-reported damage type when no crowd-control class applies.\r\n- Misc Settings: In-game **Changelog** uses collapsible version sections with stable scroll and wrap width, and layout refresh when sections expand.\r\n- Chat Output (PC): When **LibChatMessage** is i"
+      "version": "v7.2.3.6",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.6",
+      "published_at": "2026-06-03T16:35:03Z",
+      "release_notes": "## Version 7.2.3.6\r\n\r\n### Changes\r\n\r\n- Chat Output (PC): Per-tab routing grid with **LUIE** and **System** columns (up to 20 tabs). Shorter setting tooltips.\r\n\r\n### Fixed\r\n\r\n- Chat Output: **Print to Specific Tabs** works again with **LibChatMessage** loaded.\r\n- Chat Output: Tab rows follow the number of open chat tabs; inactive slots stay disabled.\r\n- Chat Output: **Display System Messages in ALL Tabs** honors **Print to All Tabs** for system-style messages.\r\n- Chat Output: Per-tab toggles keep"
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-03T13:37:49.926309+00:00",
-  "updates": []
+  "last_checked": "2026-06-03T19:20:18.064064+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "c8eed24",
+      "new_version": "5d3de65",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add settings for Winter Storm and Summon Siren"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.3.5",
+      "new_version": "v7.2.3.6",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

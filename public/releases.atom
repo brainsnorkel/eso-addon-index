@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-03T13:37:50.122127+00:00</updated>
+  <updated>2026-06-03T19:20:18.238856+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:5d3de65</id>
+    <title>CrutchAlerts updated: c8eed24 → 5d3de65</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-06-03T19:20:18.238856+00:00</updated>
+    <summary>CrutchAlerts has been updated from version c8eed24 to 5d3de65.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:luiextended:v7.2.3.6</id>
+    <title>LuiExtended updated: v7.2.3.5 → v7.2.3.6</title>
+    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
+    <updated>2026-06-03T19:20:18.238856+00:00</updated>
+    <summary>LuiExtended has been updated from version v7.2.3.5 to v7.2.3.6.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:luiextended:v7.2.3.5</id>
     <title>LuiExtended updated: v7.2.3.4 → v7.2.3.5</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
     <updated>2026-04-21T06:39:10.536183+00:00</updated>
     <summary>CrutchAlerts has been updated from version 8312028 to 33b16ba.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:8312028</id>
-    <title>CrutchAlerts updated: e51cef3 → 8312028</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-04-20T12:25:40.862654+00:00</updated>
-    <summary>CrutchAlerts has been updated from version e51cef3 to 8312028.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomicons:2026-04-19</id>
-    <title>LibCustomIcons updated: 2026-04-12 → 2026-04-19</title>
-    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
-    <updated>2026-04-20T00:29:26.459358+00:00</updated>
-    <summary>LibCustomIcons has been updated from version 2026-04-12 to 2026-04-19.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
