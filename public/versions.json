@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-03T19:20:18.064064+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "c8eed24",
-      "new_version": "5d3de65",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add settings for Winter Storm and Summon Siren"
-    },
-    {
-      "slug": "luiextended",
-      "old_version": "v7.2.3.5",
-      "new_version": "v7.2.3.6",
-      "repo": "DakJaniels/LuiExtended"
-    }
-  ]
+  "last_checked": "2026-06-04T00:52:42.244315+00:00",
+  "updates": []
 }
