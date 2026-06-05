@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-05T13:01:31.789420+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "065efa6",
-      "new_version": "7da350d",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add lang for RG and KA damageable, shorten some lang names"
-    }
-  ]
+  "last_checked": "2026-06-05T18:40:46.336350+00:00",
+  "updates": []
 }
