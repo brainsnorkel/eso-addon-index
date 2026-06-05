@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "5d3de65",
+      "version": "065efa6",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-02T16:19:59Z",
-      "release_notes": "Add settings for Winter Storm and Summon Siren",
-      "commit_sha": "5d3de6514bac5b93bda1c1e6b0e124c7aafdb84c",
-      "commit_date": "2026-06-02T16:19:59Z",
-      "commit_message": "Add settings for Winter Storm and Summon Siren"
+      "published_at": "2026-06-05T01:41:39Z",
+      "release_notes": "Use some BHB lang in damageable names",
+      "commit_sha": "065efa61488d06a95aa43d0d7823d62ba4b360f9",
+      "commit_date": "2026-06-05T01:41:39Z",
+      "commit_message": "Use some BHB lang in damageable names"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.3.6",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.6",
-      "published_at": "2026-06-03T16:35:03Z",
-      "release_notes": "## Version 7.2.3.6\r\n\r\n### Changes\r\n\r\n- Chat Output (PC): Per-tab routing grid with **LUIE** and **System** columns (up to 20 tabs). Shorter setting tooltips.\r\n\r\n### Fixed\r\n\r\n- Chat Output: **Print to Specific Tabs** works again with **LibChatMessage** loaded.\r\n- Chat Output: Tab rows follow the number of open chat tabs; inactive slots stay disabled.\r\n- Chat Output: **Display System Messages in ALL Tabs** honors **Print to All Tabs** for system-style messages.\r\n- Chat Output: Per-tab toggles keep"
+      "version": "v7.2.3.7",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.7",
+      "published_at": "2026-06-05T02:18:27Z",
+      "release_notes": "## Version 7.2.3.7\r\n\r\n### New\r\n\r\n- ChatAnnouncements: Optional **Display Collection Status** on loot announcements shows a green check when a set collection piece or container collectible is already known, or a red X when it is not (**off by default**).\r\n\r\n### Changes\r\n\r\n- Chat Output / ChatAnnouncements: When Chat Announcements owns friend, ignore, and related social lines, default **CHAT_ROUTER** duplicates are suppressed; friend online/offline and friend/ignore Chat Announcements toggles are "
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-05T00:45:01.075872+00:00",
-  "updates": []
+  "last_checked": "2026-06-05T07:30:37.008747+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "5d3de65",
+      "new_version": "065efa6",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Use some BHB lang in damageable names"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.3.6",
+      "new_version": "v7.2.3.7",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

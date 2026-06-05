@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-05T00:45:01.249333+00:00",
+  "generated_at": "2026-06-05T07:30:37.184434+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "5d3de65",
+        "version": "065efa6",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-02T16:19:59Z",
-        "commit_sha": "5d3de6514bac5b93bda1c1e6b0e124c7aafdb84c",
-        "commit_date": "2026-06-02T16:19:59Z",
-        "commit_message": "Add settings for Winter Storm and Summon Siren"
+        "published_at": "2026-06-05T01:41:39Z",
+        "commit_sha": "065efa61488d06a95aa43d0d7823d62ba4b360f9",
+        "commit_date": "2026-06-05T01:41:39Z",
+        "commit_message": "Use some BHB lang in damageable names"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add settings for Winter Storm and Summon Siren"
+        "commit_message": "Use some BHB lang in damageable names"
       },
-      "last_updated": "2026-06-02T16:19:59Z"
+      "last_updated": "2026-06-05T01:41:39Z"
     },
     {
       "slug": "elmsmarkers",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.3.6",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.6",
-        "published_at": "2026-06-03T16:35:03Z",
-        "commit_sha": "21bfabcbc90f5bf0a86f4711b549cfe354902ddf"
+        "version": "v7.2.3.7",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.7",
+        "published_at": "2026-06-05T02:18:27Z",
+        "commit_sha": "aeabb5d2f071e76203511e237bf706636bf3822b"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.3.6/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.3.7/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.6",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.7",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2708,7 +2708,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-06-03T16:35:03Z"
+      "last_updated": "2026-06-05T02:18:27Z"
     },
     {
       "slug": "m0rmarkers",
