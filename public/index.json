@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-05T07:30:37.184434+00:00",
+  "generated_at": "2026-06-05T13:01:31.957395+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "065efa6",
+        "version": "7da350d",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-05T01:41:39Z",
-        "commit_sha": "065efa61488d06a95aa43d0d7823d62ba4b360f9",
-        "commit_date": "2026-06-05T01:41:39Z",
-        "commit_message": "Use some BHB lang in damageable names"
+        "published_at": "2026-06-05T08:05:50Z",
+        "commit_sha": "7da350da2e82e416605ae69aa2df172507a400b4",
+        "commit_date": "2026-06-05T08:05:50Z",
+        "commit_message": "Add lang for RG and KA damageable, shorten some lang names"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Use some BHB lang in damageable names"
+        "commit_message": "Add lang for RG and KA damageable, shorten some lang names"
       },
-      "last_updated": "2026-06-05T01:41:39Z"
+      "last_updated": "2026-06-05T08:05:50Z"
     },
     {
       "slug": "elmsmarkers",

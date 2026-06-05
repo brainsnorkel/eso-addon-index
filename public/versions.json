@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "065efa6",
+      "version": "7da350d",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-05T01:41:39Z",
-      "release_notes": "Use some BHB lang in damageable names",
-      "commit_sha": "065efa61488d06a95aa43d0d7823d62ba4b360f9",
-      "commit_date": "2026-06-05T01:41:39Z",
-      "commit_message": "Use some BHB lang in damageable names"
+      "published_at": "2026-06-05T08:05:50Z",
+      "release_notes": "Add lang for RG and KA damageable, shorten some lang names",
+      "commit_sha": "7da350da2e82e416605ae69aa2df172507a400b4",
+      "commit_date": "2026-06-05T08:05:50Z",
+      "commit_message": "Add lang for RG and KA damageable, shorten some lang names"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,20 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-05T07:30:37.008747+00:00",
+  "last_checked": "2026-06-05T13:01:31.789420+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "5d3de65",
-      "new_version": "065efa6",
+      "old_version": "065efa6",
+      "new_version": "7da350d",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Use some BHB lang in damageable names"
-    },
-    {
-      "slug": "luiextended",
-      "old_version": "v7.2.3.6",
-      "new_version": "v7.2.3.7",
-      "repo": "DakJaniels/LuiExtended"
+      "commit_message": "Add lang for RG and KA damageable, shorten some lang names"
     }
   ]
 }
