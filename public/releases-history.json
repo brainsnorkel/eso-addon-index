@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-06T00:42:59.230301+00:00",
+  "generated_at": "2026-06-06T07:05:24.192109+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "7da350d",
+      "new_version": "7db9a18",
+      "published_at": "2026-06-06T02:33:25Z",
+      "detected_at": "2026-06-06T07:05:24.192109+00:00"
+    },
     {
       "slug": "huntsmanwarmaskreminder",
       "name": "Huntsman Warmask Reminder",
@@ -892,15 +901,6 @@
       "new_version": "17fe73a",
       "published_at": "2026-04-24T15:04:11Z",
       "detected_at": "2026-04-24T18:15:38.996810+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "3dff966",
-      "new_version": "4ecb742",
-      "published_at": "2026-04-24T01:41:55Z",
-      "detected_at": "2026-04-24T06:40:04.307934+00:00"
     }
   ]
 }

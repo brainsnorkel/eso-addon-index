@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-06T00:42:59.230301+00:00",
+  "generated_at": "2026-06-06T07:05:24.192109+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "7da350d",
+        "version": "7db9a18",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-05T08:05:50Z",
-        "commit_sha": "7da350da2e82e416605ae69aa2df172507a400b4",
-        "commit_date": "2026-06-05T08:05:50Z",
-        "commit_message": "Add lang for RG and KA damageable, shorten some lang names"
+        "published_at": "2026-06-06T02:33:25Z",
+        "commit_sha": "7db9a18ae1ca769950037488f03c81277d89a5f2",
+        "commit_date": "2026-06-06T02:33:25Z",
+        "commit_message": "Add Frost Bomb timer which seems to have too many priority skills"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add lang for RG and KA damageable, shorten some lang names"
+        "commit_message": "Add Frost Bomb timer which seems to have too many priority skills"
       },
-      "last_updated": "2026-06-05T08:05:50Z"
+      "last_updated": "2026-06-06T02:33:25Z"
     },
     {
       "slug": "elmsmarkers",
