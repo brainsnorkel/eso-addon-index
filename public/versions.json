@@ -126,13 +126,13 @@
       "release_notes": "## 2026.05.10 - @m00nyONE\n- add HPS module and list. This is still in BETA since I can not test it properly.\n- add Standard of Might to compact ultimate list.\n\n"
     },
     "huntsmanwarmaskreminder": {
-      "version": "5931983",
+      "version": "278ddaa",
       "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
-      "published_at": "2026-03-18T18:38:33Z",
-      "release_notes": "Version 2.0.3",
-      "commit_sha": "59319834ec3689efc711a4919c94711988d1b46f",
-      "commit_date": "2026-03-18T18:38:33Z",
-      "commit_message": "Version 2.0.3"
+      "published_at": "2026-06-05T20:15:54Z",
+      "release_notes": "Version 2.0.4 Patch Notes",
+      "commit_sha": "278ddaa4d0b6d3b5b3974b94b0a53a15e4bc0f4a",
+      "commit_date": "2026-06-05T20:15:54Z",
+      "commit_message": "Version 2.0.4 Patch Notes"
     },
     "hypertools": {
       "version": "3c8e9d4",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.3.7",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.7",
-      "published_at": "2026-06-05T02:18:27Z",
-      "release_notes": "## Version 7.2.3.7\r\n\r\n### New\r\n\r\n- ChatAnnouncements: Optional **Display Collection Status** on loot announcements shows a green check when a set collection piece or container collectible is already known, or a red X when it is not (**off by default**).\r\n\r\n### Changes\r\n\r\n- Chat Output / ChatAnnouncements: When Chat Announcements owns friend, ignore, and related social lines, default **CHAT_ROUTER** duplicates are suppressed; friend online/offline and friend/ignore Chat Announcements toggles are "
+      "version": "v7.2.3.8",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.8",
+      "published_at": "2026-06-05T20:49:24Z",
+      "release_notes": "## Version 7.2.3.8\r\n\r\n### Fixed\r\n\r\n- Action Bar / LuiData: Bar highlight taunt timers on each slotted taunt ability (including multiple taunts on one bar and on the back bar) share the player taunt debuff on your reticle target; previously only one slot updated because highlights were keyed only to debuff id **38254**.\r\n\r\n## What's Changed\r\n* Dev by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/421\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.3."
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-05T18:40:46.336350+00:00",
-  "updates": []
+  "last_checked": "2026-06-06T00:42:59.051059+00:00",
+  "updates": [
+    {
+      "slug": "huntsmanwarmaskreminder",
+      "old_version": "5931983",
+      "new_version": "278ddaa",
+      "repo": "VollstaendigerName/HuntsmanWarmaskReminder",
+      "commit_message": "Version 2.0.4 Patch Notes"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.3.7",
+      "new_version": "v7.2.3.8",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

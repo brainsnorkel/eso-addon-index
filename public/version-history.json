@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-05T18:40:46.500339+00:00",
+  "generated_at": "2026-06-06T00:42:59.230301+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -1485,6 +1485,12 @@
     ],
     "luiextended": [
       {
+        "version": "v7.2.3.8",
+        "published_at": "2026-06-05T20:49:24Z",
+        "detected_at": "2026-06-06T00:42:59.230301+00:00",
+        "commit_sha": "f1719904525cc53d4bccd329b8c498d3bbdd146c"
+      },
+      {
         "version": "v7.2.3.7",
         "published_at": "2026-06-05T02:18:27Z",
         "detected_at": "2026-06-05T07:30:37.184434+00:00",
@@ -2018,6 +2024,12 @@
       }
     ],
     "huntsmanwarmaskreminder": [
+      {
+        "version": "278ddaa",
+        "published_at": "2026-06-05T20:15:54Z",
+        "detected_at": "2026-06-06T00:42:59.230301+00:00",
+        "commit_sha": "278ddaa4d0b6d3b5b3974b94b0a53a15e4bc0f4a"
+      },
       {
         "version": "5931983",
         "published_at": "2026-03-18T18:38:33Z",
