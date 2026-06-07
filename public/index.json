@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-06T18:28:08.801966+00:00",
+  "generated_at": "2026-06-07T00:45:31.853918+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "7db9a18",
+        "version": "ab03d66",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-06T02:33:25Z",
-        "commit_sha": "7db9a18ae1ca769950037488f03c81277d89a5f2",
-        "commit_date": "2026-06-06T02:33:25Z",
-        "commit_message": "Add Frost Bomb timer which seems to have too many priority skills"
+        "published_at": "2026-06-06T20:53:38Z",
+        "commit_sha": "ab03d6646865b1ce0c151a643646b4cbbfa96aba",
+        "commit_date": "2026-06-06T20:53:38Z",
+        "commit_message": "Fix Imminent colors and debug timing for refresh group"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add Frost Bomb timer which seems to have too many priority skills"
+        "commit_message": "Fix Imminent colors and debug timing for refresh group"
       },
-      "last_updated": "2026-06-06T02:33:25Z"
+      "last_updated": "2026-06-06T20:53:38Z"
     },
     {
       "slug": "elmsmarkers",

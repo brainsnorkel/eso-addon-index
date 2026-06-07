@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-06T18:28:08.801966+00:00</updated>
+  <updated>2026-06-07T00:45:31.853918+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:ab03d66</id>
+    <title>CrutchAlerts updated: 7db9a18 → ab03d66</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-06-07T00:45:31.853918+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 7db9a18 to ab03d66.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:7db9a18</id>
     <title>CrutchAlerts updated: 7da350d → 7db9a18</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
     <updated>2026-04-25T12:14:29.363213+00:00</updated>
     <summary>CrutchAlerts has been updated from version 4ecb742 to 804ee98.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:actiondurationreminder:17fe73a</id>
-    <title>Action Duration Reminder updated: db61541 → 17fe73a</title>
-    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
-    <updated>2026-04-24T18:15:38.996810+00:00</updated>
-    <summary>Action Duration Reminder has been updated from version db61541 to 17fe73a.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

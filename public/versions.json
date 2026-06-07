@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "7db9a18",
+      "version": "ab03d66",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-06T02:33:25Z",
-      "release_notes": "Add Frost Bomb timer which seems to have too many priority skills",
-      "commit_sha": "7db9a18ae1ca769950037488f03c81277d89a5f2",
-      "commit_date": "2026-06-06T02:33:25Z",
-      "commit_message": "Add Frost Bomb timer which seems to have too many priority skills"
+      "published_at": "2026-06-06T20:53:38Z",
+      "release_notes": "Fix Imminent colors and debug timing for refresh group",
+      "commit_sha": "ab03d6646865b1ce0c151a643646b4cbbfa96aba",
+      "commit_date": "2026-06-06T20:53:38Z",
+      "commit_message": "Fix Imminent colors and debug timing for refresh group"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-06T18:28:08.624888+00:00",
-  "updates": []
+  "last_checked": "2026-06-07T00:45:31.694600+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "7db9a18",
+      "new_version": "ab03d66",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix Imminent colors and debug timing for refresh group"
+    }
+  ]
 }
