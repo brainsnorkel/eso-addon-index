@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-07T00:45:31.694600+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "7db9a18",
-      "new_version": "ab03d66",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix Imminent colors and debug timing for refresh group"
-    }
-  ]
+  "last_checked": "2026-06-07T07:24:58.065184+00:00",
+  "updates": []
 }
