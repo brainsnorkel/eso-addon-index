@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-07T12:33:38.129113+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "ab03d66",
-      "new_version": "2952642",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "[2.20.0-beta1] Adjust summon behemoth timer for nonHM"
-    }
-  ]
+  "last_checked": "2026-06-07T18:27:52.617989+00:00",
+  "updates": []
 }
