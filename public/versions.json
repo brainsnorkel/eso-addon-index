@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "ab03d66",
+      "version": "2952642",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-06T20:53:38Z",
-      "release_notes": "Fix Imminent colors and debug timing for refresh group",
-      "commit_sha": "ab03d6646865b1ce0c151a643646b4cbbfa96aba",
-      "commit_date": "2026-06-06T20:53:38Z",
-      "commit_message": "Fix Imminent colors and debug timing for refresh group"
+      "published_at": "2026-06-07T07:58:43Z",
+      "release_notes": "[2.20.0-beta1] Adjust summon behemoth timer for nonHM",
+      "commit_sha": "2952642abf1e9c8b2a812ea06dd3f451dab043d8",
+      "commit_date": "2026-06-07T07:58:43Z",
+      "commit_message": "[2.20.0-beta1] Adjust summon behemoth timer for nonHM"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-07T07:24:58.065184+00:00",
-  "updates": []
+  "last_checked": "2026-06-07T12:33:38.129113+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "ab03d66",
+      "new_version": "2952642",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.20.0-beta1] Adjust summon behemoth timer for nonHM"
+    }
+  ]
 }

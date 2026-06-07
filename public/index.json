@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-07T07:24:58.250232+00:00",
+  "generated_at": "2026-06-07T12:33:38.315502+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "ab03d66",
+        "version": "2952642",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-06T20:53:38Z",
-        "commit_sha": "ab03d6646865b1ce0c151a643646b4cbbfa96aba",
-        "commit_date": "2026-06-06T20:53:38Z",
-        "commit_message": "Fix Imminent colors and debug timing for refresh group"
+        "published_at": "2026-06-07T07:58:43Z",
+        "commit_sha": "2952642abf1e9c8b2a812ea06dd3f451dab043d8",
+        "commit_date": "2026-06-07T07:58:43Z",
+        "commit_message": "[2.20.0-beta1] Adjust summon behemoth timer for nonHM"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix Imminent colors and debug timing for refresh group"
+        "commit_message": "[2.20.0-beta1] Adjust summon behemoth timer for nonHM"
       },
-      "last_updated": "2026-06-06T20:53:38Z"
+      "last_updated": "2026-06-07T07:58:43Z"
     },
     {
       "slug": "elmsmarkers",
