@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-08T13:28:15.169993+00:00",
+  "generated_at": "2026-06-08T18:50:29.220194+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2011,12 +2011,12 @@
         ]
       },
       "latest_release": {
-        "version": "bbb1afb",
+        "version": "8ac0428",
         "download_url": "https://github.com/sirinsidiator/ESO-LibDebugLogger/archive/refs/heads/main.zip",
-        "published_at": "2026-04-15T14:40:46Z",
-        "commit_sha": "bbb1afb961632400982a278ef9f2c6967a35b64c",
-        "commit_date": "2026-04-15T14:40:46Z",
-        "commit_message": "built v2.6.1"
+        "published_at": "2026-06-08T18:32:40Z",
+        "commit_sha": "8ac0428043ea0374866905559a70fa3f64b15006",
+        "commit_date": "2026-06-08T18:32:40Z",
+        "commit_message": "built v2.6.2"
       },
       "download_sources": [
         {
@@ -2035,9 +2035,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "built v2.6.1"
+        "commit_message": "built v2.6.2"
       },
-      "last_updated": "2026-04-15T14:40:46Z"
+      "last_updated": "2026-06-08T18:32:40Z"
     },
     {
       "slug": "libfloatingicons",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.3.9",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.9",
-        "published_at": "2026-06-08T05:06:49Z",
-        "commit_sha": "f428972a21bc87f58fba3053aa1e3a24ced25948"
+        "version": "v7.2.4.1",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.1",
+        "published_at": "2026-06-08T18:36:23Z",
+        "commit_sha": "ac3a8db679a5fd785a6aa702338aea33ebaf8f29"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.3.9/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.4.1/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.9",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.1",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2701,14 +2701,14 @@
         "version_normalized": {
           "major": 7,
           "minor": 2,
-          "patch": 3,
+          "patch": 4,
           "prerelease": null
         },
-        "version_sort_key": 7002003000,
+        "version_sort_key": 7002004000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-06-08T05:06:49Z"
+      "last_updated": "2026-06-08T18:36:23Z"
     },
     {
       "slug": "m0rmarkers",
@@ -2923,12 +2923,12 @@
         ]
       },
       "latest_release": {
-        "version": "baff4b8",
+        "version": "3a433e3",
         "download_url": "https://github.com/Baertram/pChat/archive/refs/heads/master.zip",
-        "published_at": "2026-01-21T16:12:56Z",
-        "commit_sha": "baff4b8b9df8a5054114dcdab8b4d86af2368a9e",
-        "commit_date": "2026-01-21T16:12:56Z",
-        "commit_message": "Fixed missing function check"
+        "published_at": "2026-06-08T15:44:43Z",
+        "commit_sha": "3a433e33fe8fcffbe24497374e4f98d75217eaef",
+        "commit_date": "2026-06-08T15:44:43Z",
+        "commit_message": "pChat v10.0.7.4"
       },
       "download_sources": [
         {
@@ -2947,9 +2947,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fixed missing function check"
+        "commit_message": "pChat v10.0.7.4"
       },
-      "last_updated": "2026-01-21T16:12:56Z"
+      "last_updated": "2026-06-08T15:44:43Z"
     },
     {
       "slug": "synergypriority",

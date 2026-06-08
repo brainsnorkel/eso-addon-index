@@ -537,10 +537,10 @@
     },
     {
       "id": "libdebuglogger",
-      "title": "LibDebugLogger bbb1afb",
+      "title": "LibDebugLogger 8ac0428",
       "url": "https://github.com/sirinsidiator/ESO-LibDebugLogger",
-      "date_published": "2026-04-15T14:40:46Z",
-      "date_modified": "2026-04-15T14:40:46Z",
+      "date_published": "2026-06-08T18:32:40Z",
+      "date_modified": "2026-06-08T18:32:40Z",
       "authors": [
         {
           "name": "sirinsidiator"
@@ -709,10 +709,10 @@
     },
     {
       "id": "luiextended",
-      "title": "LuiExtended v7.2.3.9",
+      "title": "LuiExtended v7.2.4.1",
       "url": "https://github.com/DakJaniels/LuiExtended",
-      "date_published": "2026-06-08T05:06:49Z",
-      "date_modified": "2026-06-08T05:06:49Z",
+      "date_published": "2026-06-08T18:36:23Z",
+      "date_modified": "2026-06-08T18:36:23Z",
       "authors": [
         {
           "name": "ArtOfShred"
@@ -783,10 +783,10 @@
     },
     {
       "id": "pchat",
-      "title": "pChat baff4b8",
+      "title": "pChat 3a433e3",
       "url": "https://github.com/Baertram/pChat",
-      "date_published": "2026-01-21T16:12:56Z",
-      "date_modified": "2026-01-21T16:12:56Z",
+      "date_published": "2026-06-08T15:44:43Z",
+      "date_modified": "2026-06-08T15:44:43Z",
       "authors": [
         {
           "name": "Ayantir"

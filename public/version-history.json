@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-08T13:28:15.169993+00:00",
+  "generated_at": "2026-06-08T18:50:29.220194+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -1421,6 +1421,12 @@
     ],
     "libdebuglogger": [
       {
+        "version": "8ac0428",
+        "published_at": "2026-06-08T18:32:40Z",
+        "detected_at": "2026-06-08T18:50:29.220194+00:00",
+        "commit_sha": "8ac0428043ea0374866905559a70fa3f64b15006"
+      },
+      {
         "version": "bbb1afb",
         "published_at": "2026-04-15T14:40:46Z",
         "detected_at": "2026-04-15T18:26:06.195337+00:00",
@@ -1520,6 +1526,12 @@
       }
     ],
     "luiextended": [
+      {
+        "version": "v7.2.4.1",
+        "published_at": "2026-06-08T18:36:23Z",
+        "detected_at": "2026-06-08T18:50:29.220194+00:00",
+        "commit_sha": "ac3a8db679a5fd785a6aa702338aea33ebaf8f29"
+      },
       {
         "version": "v7.2.3.9",
         "published_at": "2026-06-08T05:06:49Z",
@@ -1796,6 +1808,12 @@
       }
     ],
     "pchat": [
+      {
+        "version": "3a433e3",
+        "published_at": "2026-06-08T15:44:43Z",
+        "detected_at": "2026-06-08T18:50:29.220194+00:00",
+        "commit_sha": "3a433e33fe8fcffbe24497374e4f98d75217eaef"
+      },
       {
         "version": "baff4b8",
         "published_at": "2026-01-21T16:12:56Z",

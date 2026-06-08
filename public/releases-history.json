@@ -1,7 +1,34 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-08T13:28:15.169993+00:00",
+  "generated_at": "2026-06-08T18:50:29.220194+00:00",
   "events": [
+    {
+      "slug": "libdebuglogger",
+      "name": "LibDebugLogger",
+      "url": "https://github.com/sirinsidiator/ESO-LibDebugLogger",
+      "old_version": "bbb1afb",
+      "new_version": "8ac0428",
+      "published_at": "2026-06-08T18:32:40Z",
+      "detected_at": "2026-06-08T18:50:29.220194+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.3.9",
+      "new_version": "v7.2.4.1",
+      "published_at": "2026-06-08T18:36:23Z",
+      "detected_at": "2026-06-08T18:50:29.220194+00:00"
+    },
+    {
+      "slug": "pchat",
+      "name": "pChat",
+      "url": "https://github.com/Baertram/pChat",
+      "old_version": "baff4b8",
+      "new_version": "3a433e3",
+      "published_at": "2026-06-08T15:44:43Z",
+      "detected_at": "2026-06-08T18:50:29.220194+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
@@ -874,33 +901,6 @@
       "new_version": "9aef55e",
       "published_at": "2026-04-29T03:23:16Z",
       "detected_at": "2026-04-29T06:50:54.361189+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.2.0.7",
-      "new_version": "v7.2.0.8",
-      "published_at": "2026-04-28T22:37:36Z",
-      "detected_at": "2026-04-29T00:36:23.072266+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.2.0.5",
-      "new_version": "v7.2.0.7",
-      "published_at": "2026-04-28T17:04:55Z",
-      "detected_at": "2026-04-28T18:33:19.476022+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "2031d62",
-      "new_version": "a760492",
-      "published_at": "2026-04-28T06:35:38Z",
-      "detected_at": "2026-04-28T06:55:49.875969+00:00"
     }
   ]
 }
