@@ -188,13 +188,13 @@
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
-      "version": "f770dc7",
+      "version": "2f2db96",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-05-30T09:16:52Z",
-      "release_notes": "version 2.1.8:",
-      "commit_sha": "f770dc70c92ea4ae721810db5c7de7fce42d507e",
-      "commit_date": "2026-05-30T09:16:52Z",
-      "commit_message": "version 2.1.8:"
+      "published_at": "2026-06-08T10:42:49Z",
+      "release_notes": "feat: add callstack depth to debug (#60)",
+      "commit_sha": "2f2db96c22535850825433639769f5b368fc458c",
+      "commit_date": "2026-06-08T10:42:49Z",
+      "commit_message": "feat: add callstack depth to debug (#60)"
     },
     "libcustomnames": {
       "version": "2026-06-07",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-08T07:43:13.476338+00:00",
+  "last_checked": "2026-06-08T13:28:14.993766+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.3.8",
-      "new_version": "v7.2.3.9",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "libcustommenu",
+      "old_version": "f770dc7",
+      "new_version": "2f2db96",
+      "repo": "votan73/ESO",
+      "commit_message": "feat: add callstack depth to debug (#60)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-08T07:43:13.654411+00:00",
+  "generated_at": "2026-06-08T13:28:15.169993+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "f770dc7",
+        "version": "2f2db96",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-05-30T09:16:52Z",
-        "commit_sha": "f770dc70c92ea4ae721810db5c7de7fce42d507e",
-        "commit_date": "2026-05-30T09:16:52Z",
-        "commit_message": "version 2.1.8:"
+        "published_at": "2026-06-08T10:42:49Z",
+        "commit_sha": "2f2db96c22535850825433639769f5b368fc458c",
+        "commit_date": "2026-06-08T10:42:49Z",
+        "commit_message": "feat: add callstack depth to debug (#60)"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "version 2.1.8:"
+        "commit_message": "feat: add callstack depth to debug (#60)"
       },
-      "last_updated": "2026-05-30T09:16:52Z"
+      "last_updated": "2026-06-08T10:42:49Z"
     },
     {
       "slug": "libcustomnames",
