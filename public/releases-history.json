@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-08T00:46:51.975368+00:00",
+  "generated_at": "2026-06-08T07:43:13.654411+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.3.8",
+      "new_version": "v7.2.3.9",
+      "published_at": "2026-06-08T05:06:49Z",
+      "detected_at": "2026-06-08T07:43:13.654411+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
@@ -891,15 +900,6 @@
       "old_version": "2026-04-19",
       "new_version": "2026-04-26",
       "published_at": "2026-04-26T22:58:27Z",
-      "detected_at": "2026-04-27T00:32:09.598470+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-04-19",
-      "new_version": "2026-04-26",
-      "published_at": "2026-04-26T22:58:35Z",
       "detected_at": "2026-04-27T00:32:09.598470+00:00"
     }
   ]

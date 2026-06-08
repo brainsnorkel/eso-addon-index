@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.3.8",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.8",
-      "published_at": "2026-06-05T20:49:24Z",
-      "release_notes": "## Version 7.2.3.8\r\n\r\n### Fixed\r\n\r\n- Action Bar / LuiData: Bar highlight taunt timers on each slotted taunt ability (including multiple taunts on one bar and on the back bar) share the player taunt debuff on your reticle target; previously only one slot updated because highlights were keyed only to debuff id **38254**.\r\n\r\n## What's Changed\r\n* Dev by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/421\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.3."
+      "version": "v7.2.3.9",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.3.9",
+      "published_at": "2026-06-08T05:06:49Z",
+      "release_notes": "## Version 7.2.3.9\r\n\r\n### New\r\n\r\n- Unit Frames: Optional **Show Rapport Change** on custom companion frames shows a green **+** or red **-** beside the companion bar when rapport goes up or down.\r\n\r\n### Changes\r\n\r\n- ChatAnnouncements: **Update 50** announcements cover Tamriel Tomes rollover currency, veterancy rank-up notices, overland difficulty alerts, timed activity reroll reset, season recap, clearer hireling mail sender names, and large-group invite messaging aligned with the base game.\r\n- "
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,19 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-08T00:46:51.799840+00:00",
+  "last_checked": "2026-06-08T07:43:13.476338+00:00",
   "updates": [
     {
-      "slug": "libcustomicons",
-      "old_version": "2026-05-31",
-      "new_version": "2026-06-07",
-      "repo": "m00nyONE/LibCustomIcons"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-05-31",
-      "new_version": "2026-06-07",
-      "repo": "m00nyONE/LibCustomNames"
+      "slug": "luiextended",
+      "old_version": "v7.2.3.8",
+      "new_version": "v7.2.3.9",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }
