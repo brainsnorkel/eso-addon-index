@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.4.2",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.2",
-      "published_at": "2026-06-08T20:40:33Z",
-      "release_notes": "## Version 7.2.4.2\r\n\r\n### Fixed\r\n\r\n- Gamepad **Character Sheet**: The **Challenge Difficulty** row and dropdown are visible again after **Update 50**.\r\n- Gamepad **Skills** and **Skills Advisor**: Custom ability icons on skill lists still display correctly after **Update 50** compatibility updates.\r\n\r\n\r\n## What's Changed\r\n* V7242 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/428\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.4.1...v7.2.4.2"
+      "version": "v7.2.4.3",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.3",
+      "published_at": "2026-06-09T01:43:00Z",
+      "release_notes": "## Version 7.2.4.3\r\n\r\n### New\r\n\r\n- Combat Info **Synergy Tracker**: Optional **Horizontal Icon Alignment** (left or right) when minimal display uses **Horizontal Icon Layout**; row width follows **Maximum Synergies to Display**.\r\n\r\n### Changes\r\n\r\n- Unit Frames: **CrutchAlerts** boss threshold mechanic labels fade in and out and only the next upcoming mechanic is highlighted when several thresholds share the same name; markers still update from cached boss health when the boss unit is absent.\r\n- "
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,12 +324,12 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-09T00:40:38.878963+00:00",
+  "last_checked": "2026-06-09T07:15:18.604618+00:00",
   "updates": [
     {
       "slug": "luiextended",
-      "old_version": "v7.2.4.1",
-      "new_version": "v7.2.4.2",
+      "old_version": "v7.2.4.2",
+      "new_version": "v7.2.4.3",
       "repo": "DakJaniels/LuiExtended"
     }
   ]
