@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.4.3",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.3",
-      "published_at": "2026-06-09T01:43:00Z",
-      "release_notes": "## Version 7.2.4.3\r\n\r\n### New\r\n\r\n- Combat Info **Synergy Tracker**: Optional **Horizontal Icon Alignment** (left or right) when minimal display uses **Horizontal Icon Layout**; row width follows **Maximum Synergies to Display**.\r\n\r\n### Changes\r\n\r\n- Unit Frames: **CrutchAlerts** boss threshold mechanic labels fade in and out and only the next upcoming mechanic is highlighted when several thresholds share the same name; markers still update from cached boss health when the boss unit is absent.\r\n- "
+      "version": "v7.2.4.4",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.4",
+      "published_at": "2026-06-09T14:33:56Z",
+      "release_notes": "## Version 7.2.4.4\r\n\r\n### Changes\r\n\r\n- Info Panel: Top and bottom rows reflow from a single layout pass when enabled meters change; nested rearrange calls no longer double-refresh meters. Label padding and minimum widths are adjusted for FPS, memory, latency, and bags.\r\n\r\n### Fixed\r\n\r\n- Unit Frames: **Reset to defaults** (and other settings that refresh boss threshold markers) no longer cause a Lua error when **CrutchAlerts** is loaded and no boss unit is present; default 25/50/75 markers apply "
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-09T13:00:54.751347+00:00",
+  "last_checked": "2026-06-09T18:44:39.620367+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "2f2db96",
-      "new_version": "33f0721",
-      "repo": "votan73/ESO",
-      "commit_message": "version 1.14.11:"
+      "slug": "luiextended",
+      "old_version": "v7.2.4.3",
+      "new_version": "v7.2.4.4",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }
