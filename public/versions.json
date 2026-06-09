@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.4.1",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.1",
-      "published_at": "2026-06-08T18:36:23Z",
-      "release_notes": "## Version 7.2.4.1\r\n\r\n### Fixed\r\n\r\n- ChatAnnouncements: Other players' overland challenge tier changes no longer spam chat; your own tier still announces once under **Notify \u2192 Challenge Difficulty**. Cooldown and combat failure alerts use the same Notify toggles.\r\n- Unit Frames: Custom **target**, **group**, and **raid** frames now show other players' overland challenge tier icons on their names.\r\n\r\n## What's Changed\r\n* V7241 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/426\r\n"
+      "version": "v7.2.4.2",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.2",
+      "published_at": "2026-06-08T20:40:33Z",
+      "release_notes": "## Version 7.2.4.2\r\n\r\n### Fixed\r\n\r\n- Gamepad **Character Sheet**: The **Challenge Difficulty** row and dropdown are visible again after **Update 50**.\r\n- Gamepad **Skills** and **Skills Advisor**: Custom ability icons on skill lists still display correctly after **Update 50** compatibility updates.\r\n\r\n\r\n## What's Changed\r\n* V7242 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/428\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.4.1...v7.2.4.2"
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,27 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-08T18:50:29.048581+00:00",
+  "last_checked": "2026-06-09T00:40:38.878963+00:00",
   "updates": [
     {
-      "slug": "libdebuglogger",
-      "old_version": "bbb1afb",
-      "new_version": "8ac0428",
-      "repo": "sirinsidiator/ESO-LibDebugLogger",
-      "commit_message": "built v2.6.2"
-    },
-    {
       "slug": "luiextended",
-      "old_version": "v7.2.3.9",
-      "new_version": "v7.2.4.1",
+      "old_version": "v7.2.4.1",
+      "new_version": "v7.2.4.2",
       "repo": "DakJaniels/LuiExtended"
-    },
-    {
-      "slug": "pchat",
-      "old_version": "baff4b8",
-      "new_version": "3a433e3",
-      "repo": "Baertram/pChat",
-      "commit_message": "pChat v10.0.7.4"
     }
   ]
 }
