@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.4.4",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.4",
-      "published_at": "2026-06-09T14:33:56Z",
-      "release_notes": "## Version 7.2.4.4\r\n\r\n### Changes\r\n\r\n- Info Panel: Top and bottom rows reflow from a single layout pass when enabled meters change; nested rearrange calls no longer double-refresh meters. Label padding and minimum widths are adjusted for FPS, memory, latency, and bags.\r\n\r\n### Fixed\r\n\r\n- Unit Frames: **Reset to defaults** (and other settings that refresh boss threshold markers) no longer cause a Lua error when **CrutchAlerts** is loaded and no boss unit is present; default 25/50/75 markers apply "
+      "version": "v7.2.4.5",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.5",
+      "published_at": "2026-06-09T20:13:56Z",
+      "release_notes": "## Version 7.2.4.5\r\n\r\n### Fixed\r\n\r\n- Character Profile: **Enable Character-Specific Settings** now correctly applies to all LuiExtended module saved variables (including **Unit Frames** repositioning); custom frame positions no longer carry over between characters when profiles are enabled. Module data that was written to the account-wide bucket while the toggle was on may seed into the current character on first login after this update.\r\n- Unit Frames: **Character Name** name display on custom "
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,12 +324,12 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-09T18:44:39.620367+00:00",
+  "last_checked": "2026-06-10T00:46:55.970478+00:00",
   "updates": [
     {
       "slug": "luiextended",
-      "old_version": "v7.2.4.3",
-      "new_version": "v7.2.4.4",
+      "old_version": "v7.2.4.4",
+      "new_version": "v7.2.4.5",
       "repo": "DakJaniels/LuiExtended"
     }
   ]
