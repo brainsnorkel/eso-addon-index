@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2952642",
+      "version": "2b982c5",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-07T07:58:43Z",
-      "release_notes": "[2.20.0-beta1] Adjust summon behemoth timer for nonHM",
-      "commit_sha": "2952642abf1e9c8b2a812ea06dd3f451dab043d8",
-      "commit_date": "2026-06-07T07:58:43Z",
-      "commit_message": "[2.20.0-beta1] Adjust summon behemoth timer for nonHM"
+      "published_at": "2026-06-10T20:11:57Z",
+      "release_notes": "[2.20.0] Improve console content settings dividers",
+      "commit_sha": "2b982c5aea0fb0269c400015813ea8950b92a161",
+      "commit_date": "2026-06-10T20:11:57Z",
+      "commit_message": "[2.20.0] Improve console content settings dividers"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.4.5",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.5",
-      "published_at": "2026-06-09T20:13:56Z",
-      "release_notes": "## Version 7.2.4.5\r\n\r\n### Fixed\r\n\r\n- Character Profile: **Enable Character-Specific Settings** now correctly applies to all LuiExtended module saved variables (including **Unit Frames** repositioning); custom frame positions no longer carry over between characters when profiles are enabled. Module data that was written to the account-wide bucket while the toggle was on may seed into the current character on first login after this update.\r\n- Unit Frames: **Character Name** name display on custom "
+      "version": "v7.2.4.6",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.6",
+      "published_at": "2026-06-10T19:02:16Z",
+      "release_notes": "## Version 7.2.4.6\r\n\r\n### Changes\r\n\r\n- Combat Info: **Synergy Tracker** has been temporarily removed from the addon while it is reworked (settings and UI will return in a future update).\r\n\r\n### Fixed\r\n\r\n- Chat Announcements: Fixed repeated UI errors when multiple guild bank item deposit or withdraw lines printed in the same loot queue batch.\r\n- Chat Announcements: Guild bank loot announcements now retain the guild id per queued message so the guild name stays correct when several items are moved"
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-10T18:53:40.706183+00:00",
-  "updates": []
+  "last_checked": "2026-06-11T00:46:25.310057+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "2952642",
+      "new_version": "2b982c5",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.20.0] Improve console content settings dividers"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.4.5",
+      "new_version": "v7.2.4.6",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

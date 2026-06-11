@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T18:53:40.878207+00:00",
+  "generated_at": "2026-06-11T00:46:25.486705+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "2952642",
+        "version": "2b982c5",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-07T07:58:43Z",
-        "commit_sha": "2952642abf1e9c8b2a812ea06dd3f451dab043d8",
-        "commit_date": "2026-06-07T07:58:43Z",
-        "commit_message": "[2.20.0-beta1] Adjust summon behemoth timer for nonHM"
+        "published_at": "2026-06-10T20:11:57Z",
+        "commit_sha": "2b982c5aea0fb0269c400015813ea8950b92a161",
+        "commit_date": "2026-06-10T20:11:57Z",
+        "commit_message": "[2.20.0] Improve console content settings dividers"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.20.0-beta1] Adjust summon behemoth timer for nonHM"
+        "commit_message": "[2.20.0] Improve console content settings dividers"
       },
-      "last_updated": "2026-06-07T07:58:43Z"
+      "last_updated": "2026-06-10T20:11:57Z"
     },
     {
       "slug": "elmsmarkers",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.4.5",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.5",
-        "published_at": "2026-06-09T20:13:56Z",
-        "commit_sha": "497f18af11dc6dee67118bafe7e6c1f8010dcf4e"
+        "version": "v7.2.4.6",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.6",
+        "published_at": "2026-06-10T19:02:16Z",
+        "commit_sha": "e2a88ed46e47fc9cf1ef23eb5f784c34d5aa99e3"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.4.5/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.4.6/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.5",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.6",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2708,7 +2708,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-06-09T20:13:56Z"
+      "last_updated": "2026-06-10T19:02:16Z"
     },
     {
       "slug": "m0rmarkers",

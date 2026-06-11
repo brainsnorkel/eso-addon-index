@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T18:53:40.878207+00:00",
+  "generated_at": "2026-06-11T00:46:25.486705+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "2952642",
+      "new_version": "2b982c5",
+      "published_at": "2026-06-10T20:11:57Z",
+      "detected_at": "2026-06-11T00:46:25.486705+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.4.5",
+      "new_version": "v7.2.4.6",
+      "published_at": "2026-06-10T19:02:16Z",
+      "detected_at": "2026-06-11T00:46:25.486705+00:00"
+    },
     {
       "slug": "luiextended",
       "name": "LuiExtended",
@@ -883,24 +901,6 @@
       "new_version": "2ff473d",
       "published_at": "2026-05-03T17:31:11Z",
       "detected_at": "2026-05-03T18:19:23.342803+00:00"
-    },
-    {
-      "slug": "libcustommenu",
-      "name": "LibCustomMenu",
-      "url": "https://github.com/votan73/ESO",
-      "old_version": "d200708",
-      "new_version": "a0479c0",
-      "published_at": "2026-05-03T09:59:11Z",
-      "detected_at": "2026-05-03T12:18:17.803447+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.2.0.9",
-      "new_version": "v7.2.1.1",
-      "published_at": "2026-05-03T00:09:34Z",
-      "detected_at": "2026-05-03T00:35:44.022541+00:00"
     }
   ]
 }
