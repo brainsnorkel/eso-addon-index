@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-13T12:37:08.003873+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "2b982c5",
-      "new_version": "d561a9c",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add werewolf bar to /crutch printskills"
-    }
-  ]
+  "last_checked": "2026-06-13T18:30:04.980345+00:00",
+  "updates": []
 }
