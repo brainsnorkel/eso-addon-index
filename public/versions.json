@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2b982c5",
+      "version": "d561a9c",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-10T20:11:57Z",
-      "release_notes": "[2.20.0] Improve console content settings dividers",
-      "commit_sha": "2b982c5aea0fb0269c400015813ea8950b92a161",
-      "commit_date": "2026-06-10T20:11:57Z",
-      "commit_message": "[2.20.0] Improve console content settings dividers"
+      "published_at": "2026-06-13T07:40:16Z",
+      "release_notes": "Add werewolf bar to /crutch printskills",
+      "commit_sha": "d561a9c5be9f544ace19d756fdce23d20a169c0f",
+      "commit_date": "2026-06-13T07:40:16Z",
+      "commit_message": "Add werewolf bar to /crutch printskills"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-13T07:19:49.991133+00:00",
-  "updates": []
+  "last_checked": "2026-06-13T12:37:08.003873+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "2b982c5",
+      "new_version": "d561a9c",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add werewolf bar to /crutch printskills"
+    }
+  ]
 }
