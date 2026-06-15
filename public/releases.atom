@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-14T18:30:13.693470+00:00</updated>
+  <updated>2026-06-15T00:49:24.090636+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2026-06-14</id>
+    <title>LibCustomIcons updated: 2026-06-07 → 2026-06-14</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-06-15T00:49:24.090636+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-06-07 to 2026-06-14.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2026-06-14</id>
+    <title>LibCustomNames updated: 2026-06-07 → 2026-06-14</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-06-15T00:49:24.090636+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-06-07 to 2026-06-14.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustommenu:00b54ea</id>
     <title>LibCustomMenu updated: 33f0721 → 00b54ea</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/david-tub/BeamMeUp" rel="alternate"/>
     <updated>2026-05-04T00:34:54.006350+00:00</updated>
     <summary>BeamMeUp has been updated from version v4.0.3 to 4.0.3.010.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:b5f88c5</id>
-    <title>CrutchAlerts updated: bd9f770 → b5f88c5</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-05-04T00:34:54.006350+00:00</updated>
-    <summary>CrutchAlerts has been updated from version bd9f770 to b5f88c5.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomicons:2026-05-03</id>
-    <title>LibCustomIcons updated: 2026-04-26 → 2026-05-03</title>
-    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
-    <updated>2026-05-04T00:34:54.006350+00:00</updated>
-    <summary>LibCustomIcons has been updated from version 2026-04-26 to 2026-05-03.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

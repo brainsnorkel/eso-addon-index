@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T18:30:13.693470+00:00",
+  "generated_at": "2026-06-15T00:49:24.090636+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -989,6 +989,12 @@
     ],
     "libcustomicons": [
       {
+        "version": "2026-06-14",
+        "published_at": "2026-06-14T23:37:28Z",
+        "detected_at": "2026-06-15T00:49:24.090636+00:00",
+        "commit_sha": "c5079bb7c1ab27527688ca0bc28f50a61ee28004"
+      },
+      {
         "version": "2026-06-07",
         "published_at": "2026-06-07T23:24:04Z",
         "detected_at": "2026-06-08T00:46:51.975368+00:00",
@@ -1280,6 +1286,12 @@
       }
     ],
     "libcustomnames": [
+      {
+        "version": "2026-06-14",
+        "published_at": "2026-06-14T23:36:57Z",
+        "detected_at": "2026-06-15T00:49:24.090636+00:00",
+        "commit_sha": "8d37b31d180a13dd531fe0ab9d6ff134ba867776"
+      },
       {
         "version": "2026-06-07",
         "published_at": "2026-06-07T23:19:06Z",

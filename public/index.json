@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T18:30:13.693470+00:00",
+  "generated_at": "2026-06-15T00:49:24.090636+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1789,20 +1789,20 @@
         ]
       },
       "latest_release": {
-        "version": "2026-06-07",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-06-07",
-        "published_at": "2026-06-07T23:24:04Z",
-        "commit_sha": "8ca387f9f38bd50cf8976d40fd63c04c6a9cf604"
+        "version": "2026-06-14",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-06-14",
+        "published_at": "2026-06-14T23:37:28Z",
+        "commit_sha": "c5079bb7c1ab27527688ca0bc28f50a61ee28004"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomIcons@2026-06-07/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomIcons@2026-06-14/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-06-07",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-06-14",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1810,14 +1810,14 @@
         "version_normalized": {
           "major": 2026,
           "minor": 6,
-          "patch": 7,
+          "patch": 14,
           "prerelease": null
         },
-        "version_sort_key": 2026006007000,
+        "version_sort_key": 2026006014000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-06-07T23:24:04Z"
+      "last_updated": "2026-06-14T23:37:28Z"
     },
     {
       "slug": "libcustommenu",
@@ -1937,20 +1937,20 @@
         ]
       },
       "latest_release": {
-        "version": "2026-06-07",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-06-07",
-        "published_at": "2026-06-07T23:19:06Z",
-        "commit_sha": "53b4db0f527d383d157f80bc0ebf48fca1fbf139"
+        "version": "2026-06-14",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-06-14",
+        "published_at": "2026-06-14T23:36:57Z",
+        "commit_sha": "8d37b31d180a13dd531fe0ab9d6ff134ba867776"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-06-07/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-06-14/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-06-07",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-06-14",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1958,14 +1958,14 @@
         "version_normalized": {
           "major": 2026,
           "minor": 6,
-          "patch": 7,
+          "patch": 14,
           "prerelease": null
         },
-        "version_sort_key": 2026006007000,
+        "version_sort_key": 2026006014000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-06-07T23:19:06Z"
+      "last_updated": "2026-06-14T23:36:57Z"
     },
     {
       "slug": "libdebuglogger",
