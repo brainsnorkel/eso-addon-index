@@ -126,13 +126,13 @@
       "release_notes": "## 2026.05.10 - @m00nyONE\n- add HPS module and list. This is still in BETA since I can not test it properly.\n- add Standard of Might to compact ultimate list.\n\n"
     },
     "huntsmanwarmaskreminder": {
-      "version": "278ddaa",
+      "version": "ad5a552",
       "download_url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder/archive/refs/heads/main.zip",
-      "published_at": "2026-06-05T20:15:54Z",
-      "release_notes": "Version 2.0.4 Patch Notes",
-      "commit_sha": "278ddaa4d0b6d3b5b3974b94b0a53a15e4bc0f4a",
-      "commit_date": "2026-06-05T20:15:54Z",
-      "commit_message": "Version 2.0.4 Patch Notes"
+      "published_at": "2026-06-15T16:01:25Z",
+      "release_notes": "Version 2.0.5",
+      "commit_sha": "ad5a5524cd8c9cdbd55987a5477bcd26e2e61a4d",
+      "commit_date": "2026-06-15T16:01:25Z",
+      "commit_message": "Version 2.0.5"
     },
     "hypertools": {
       "version": "3c8e9d4",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-15T14:07:18.623136+00:00",
+  "last_checked": "2026-06-15T19:20:52.851485+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "00b54ea",
-      "new_version": "83ba6ef",
-      "repo": "votan73/ESO",
-      "commit_message": "version 1.23.5:"
+      "slug": "huntsmanwarmaskreminder",
+      "old_version": "278ddaa",
+      "new_version": "ad5a552",
+      "repo": "VollstaendigerName/HuntsmanWarmaskReminder",
+      "commit_message": "Version 2.0.5"
     }
   ]
 }

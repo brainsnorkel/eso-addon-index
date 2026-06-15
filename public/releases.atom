@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-15T14:07:18.802933+00:00</updated>
+  <updated>2026-06-15T19:20:53.020009+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:huntsmanwarmaskreminder:ad5a552</id>
+    <title>Huntsman Warmask Reminder updated: 278ddaa → ad5a552</title>
+    <link href="https://github.com/VollstaendigerName/HuntsmanWarmaskReminder" rel="alternate"/>
+    <updated>2026-06-15T19:20:53.020009+00:00</updated>
+    <summary>Huntsman Warmask Reminder has been updated from version 278ddaa to ad5a552.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustommenu:83ba6ef</id>
     <title>LibCustomMenu updated: 00b54ea → 83ba6ef</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
     <updated>2026-05-04T07:02:53.329276+00:00</updated>
     <summary>Action Duration Reminder has been updated from version 2ff473d to fe3cb9d.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:luiextended:v7.2.1.2</id>
-    <title>LuiExtended updated: v7.2.1.1 → v7.2.1.2</title>
-    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
-    <updated>2026-05-04T07:02:53.329276+00:00</updated>
-    <summary>LuiExtended has been updated from version v7.2.1.1 to v7.2.1.2.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-15T14:07:18.802933+00:00",
+  "generated_at": "2026-06-15T19:20:53.020009+00:00",
   "events": [
+    {
+      "slug": "huntsmanwarmaskreminder",
+      "name": "Huntsman Warmask Reminder",
+      "url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder",
+      "old_version": "278ddaa",
+      "new_version": "ad5a552",
+      "published_at": "2026-06-15T16:01:25Z",
+      "detected_at": "2026-06-15T19:20:53.020009+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
@@ -891,15 +900,6 @@
       "old_version": "2ff473d",
       "new_version": "fe3cb9d",
       "published_at": "2026-05-04T04:30:38Z",
-      "detected_at": "2026-05-04T07:02:53.329276+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.2.1.1",
-      "new_version": "v7.2.1.2",
-      "published_at": "2026-05-04T06:44:10Z",
       "detected_at": "2026-05-04T07:02:53.329276+00:00"
     }
   ]
