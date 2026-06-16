@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-15T19:20:52.851485+00:00",
-  "updates": [
-    {
-      "slug": "huntsmanwarmaskreminder",
-      "old_version": "278ddaa",
-      "new_version": "ad5a552",
-      "repo": "VollstaendigerName/HuntsmanWarmaskReminder",
-      "commit_message": "Version 2.0.5"
-    }
-  ]
+  "last_checked": "2026-06-16T00:54:13.396281+00:00",
+  "updates": []
 }
