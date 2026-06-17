@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.4.7",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.7",
-      "published_at": "2026-06-16T23:05:50Z",
-      "release_notes": "## Version 7.2.4.7\r\n\r\n### New\r\n\r\n- MiniMap (BETA): Optional HUD minimap module (**/luimm**). Zoom (default, subzone, dungeon, battleground, mounted), follow player, lock position and size, per-category pin scales, visibility rules (HUD, combat, looting, mounted, housing, draw tier), waypoint click behavior, and keybinds for zoom, recenter, visibility, combat, and fixed position. Enable under Misc Settings; requires UI reload.\r\n- Unit Frames: Optional suppress vanilla player attribute bars, targe"
+      "version": "v7.2.4.8",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.8",
+      "published_at": "2026-06-17T10:47:50Z",
+      "release_notes": "## Version 7.2.4.8\r\n\r\n### New\r\n\r\n- MiniMap: **Show during Death Recap** visibility toggle under Visibility.\r\n- MiniMap: **Player Pip Color** and **Camera Wedge Color** pickers under Appearance.\r\n- MiniMap: **Zone Name Font** face, size, and style submenu when **Show Zone Name** is enabled (PC).\r\n- MiniMap: **Pin Updates** sliders for **Moving pins (ms)** and **Pin hover (ms)** under Advanced.\r\n- MiniMap (console): **Frame Layout** with **Show Map Now**, bottom-right position offsets, and **Frame"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,13 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-17T07:51:16.668108+00:00",
+  "last_checked": "2026-06-17T13:15:51.315527+00:00",
   "updates": [
     {
-      "slug": "m0rmarkers",
-      "old_version": "v2.1.0",
-      "new_version": "v2.1.1",
-      "repo": "M0RGaming/M0RMarkers"
+      "slug": "luiextended",
+      "old_version": "v7.2.4.7",
+      "new_version": "v7.2.4.8",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }
