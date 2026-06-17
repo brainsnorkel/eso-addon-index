@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-16T19:14:07.056114+00:00",
+  "generated_at": "2026-06-17T00:48:52.903952+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.4.6",
+      "new_version": "v7.2.4.7",
+      "published_at": "2026-06-16T23:05:50Z",
+      "detected_at": "2026-06-17T00:48:52.903952+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
@@ -892,15 +901,6 @@
       "new_version": "58390e5",
       "published_at": "2026-05-04T12:39:52Z",
       "detected_at": "2026-05-04T18:33:37.759471+00:00"
-    },
-    {
-      "slug": "actiondurationreminder",
-      "name": "Action Duration Reminder",
-      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
-      "old_version": "fe3cb9d",
-      "new_version": "4f7c429",
-      "published_at": "2026-05-04T10:30:14Z",
-      "detected_at": "2026-05-04T12:35:32.566917+00:00"
     }
   ]
 }

@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.4.6",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.6",
-      "published_at": "2026-06-10T19:02:16Z",
-      "release_notes": "## Version 7.2.4.6\r\n\r\n### Changes\r\n\r\n- Combat Info: **Synergy Tracker** has been temporarily removed from the addon while it is reworked (settings and UI will return in a future update).\r\n\r\n### Fixed\r\n\r\n- Chat Announcements: Fixed repeated UI errors when multiple guild bank item deposit or withdraw lines printed in the same loot queue batch.\r\n- Chat Announcements: Guild bank loot announcements now retain the guild id per queued message so the guild name stays correct when several items are moved"
+      "version": "v7.2.4.7",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.7",
+      "published_at": "2026-06-16T23:05:50Z",
+      "release_notes": "## Version 7.2.4.7\r\n\r\n### New\r\n\r\n- MiniMap (BETA): Optional HUD minimap module (**/luimm**). Zoom (default, subzone, dungeon, battleground, mounted), follow player, lock position and size, per-category pin scales, visibility rules (HUD, combat, looting, mounted, housing, draw tier), waypoint click behavior, and keybinds for zoom, recenter, visibility, combat, and fixed position. Enable under Misc Settings; requires UI reload.\r\n- Unit Frames: Optional suppress vanilla player attribute bars, targe"
     },
     "m0rmarkers": {
       "version": "v2.1.0",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-16T19:14:06.868776+00:00",
-  "updates": []
+  "last_checked": "2026-06-17T00:48:52.731428+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.4.6",
+      "new_version": "v7.2.4.7",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

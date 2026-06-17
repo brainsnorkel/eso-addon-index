@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-16T19:14:07.056114+00:00</updated>
+  <updated>2026-06-17T00:48:52.903952+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:luiextended:v7.2.4.7</id>
+    <title>LuiExtended updated: v7.2.4.6 → v7.2.4.7</title>
+    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
+    <updated>2026-06-17T00:48:52.903952+00:00</updated>
+    <summary>LuiExtended has been updated from version v7.2.4.6 to v7.2.4.7.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustommenu:d8eedbc</id>
     <title>LibCustomMenu updated: 83ba6ef → d8eedbc</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
     <updated>2026-05-04T18:33:37.759471+00:00</updated>
     <summary>Action Duration Reminder has been updated from version 4f7c429 to 58390e5.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:actiondurationreminder:4f7c429</id>
-    <title>Action Duration Reminder updated: fe3cb9d → 4f7c429</title>
-    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
-    <updated>2026-05-04T12:35:32.566917+00:00</updated>
-    <summary>Action Duration Reminder has been updated from version fe3cb9d to 4f7c429.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
