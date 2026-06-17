@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T00:48:52.903952+00:00",
+  "generated_at": "2026-06-17T07:51:16.851450+00:00",
   "events": [
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "old_version": "v2.1.0",
+      "new_version": "v2.1.1",
+      "published_at": "2026-06-17T04:44:11Z",
+      "detected_at": "2026-06-17T07:51:16.851450+00:00"
+    },
     {
       "slug": "luiextended",
       "name": "LuiExtended",
@@ -892,15 +901,6 @@
       "new_version": "eade68b",
       "published_at": "2026-05-05T02:10:37Z",
       "detected_at": "2026-05-05T06:47:14.320402+00:00"
-    },
-    {
-      "slug": "actiondurationreminder",
-      "name": "Action Duration Reminder",
-      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
-      "old_version": "4f7c429",
-      "new_version": "58390e5",
-      "published_at": "2026-05-04T12:39:52Z",
-      "detected_at": "2026-05-04T18:33:37.759471+00:00"
     }
   ]
 }

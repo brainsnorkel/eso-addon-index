@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-17T00:48:52.903952+00:00</updated>
+  <updated>2026-06-17T07:51:16.851450+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:m0rmarkers:v2.1.1</id>
+    <title>M0RMarkers updated: v2.1.0 → v2.1.1</title>
+    <link href="https://github.com/M0RGaming/M0RMarkers" rel="alternate"/>
+    <updated>2026-06-17T07:51:16.851450+00:00</updated>
+    <summary>M0RMarkers has been updated from version v2.1.0 to v2.1.1.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:luiextended:v7.2.4.7</id>
     <title>LuiExtended updated: v7.2.4.6 → v7.2.4.7</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
     <updated>2026-05-05T06:47:14.320402+00:00</updated>
     <summary>Action Duration Reminder has been updated from version 58390e5 to eade68b.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:actiondurationreminder:58390e5</id>
-    <title>Action Duration Reminder updated: 4f7c429 → 58390e5</title>
-    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
-    <updated>2026-05-04T18:33:37.759471+00:00</updated>
-    <summary>Action Duration Reminder has been updated from version 4f7c429 to 58390e5.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
