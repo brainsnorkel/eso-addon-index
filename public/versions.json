@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.4.8",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.8",
-      "published_at": "2026-06-17T10:47:50Z",
-      "release_notes": "## Version 7.2.4.8\r\n\r\n### New\r\n\r\n- MiniMap: **Show during Death Recap** visibility toggle under Visibility.\r\n- MiniMap: **Player Pip Color** and **Camera Wedge Color** pickers under Appearance.\r\n- MiniMap: **Zone Name Font** face, size, and style submenu when **Show Zone Name** is enabled (PC).\r\n- MiniMap: **Pin Updates** sliders for **Moving pins (ms)** and **Pin hover (ms)** under Advanced.\r\n- MiniMap (console): **Frame Layout** with **Show Map Now**, bottom-right position offsets, and **Frame"
+      "version": "v7.2.4.9",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.9",
+      "published_at": "2026-06-17T21:04:40Z",
+      "release_notes": "## Version 7.2.4.9\r\n\r\n### Changes\r\n\r\n- Action Bar: **Show Global Cooldown** now updates cooldown visuals on the LUIE backbar row as well as the active bar.\r\n- Action Bar: Backbar base-game activation (proc) glow syncs slot use-failure state and only listens to inactive-hotbar slot/effect events.\r\n- Chat Announcements: Inventory loot and bag updates refactored into dedicated handlers (bag, bank, craft, fence, guild bank, item delay/formatting).\r\n- MiniMap: Removed **Camera Wedge** scale setting f"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-17T18:50:08.597936+00:00",
-  "updates": []
+  "last_checked": "2026-06-18T00:49:13.036524+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.4.8",
+      "new_version": "v7.2.4.9",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
