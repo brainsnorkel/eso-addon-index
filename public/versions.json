@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "d561a9c",
+      "version": "984ef80",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-13T07:40:16Z",
-      "release_notes": "Add werewolf bar to /crutch printskills",
-      "commit_sha": "d561a9c5be9f544ace19d756fdce23d20a169c0f",
-      "commit_date": "2026-06-13T07:40:16Z",
-      "commit_message": "Add werewolf bar to /crutch printskills"
+      "published_at": "2026-06-18T06:43:23Z",
+      "release_notes": "Somewhat fix pvp cc but sort of not",
+      "commit_sha": "984ef805919497cf784071f70e15512d37cf0e6f",
+      "commit_date": "2026-06-18T06:43:23Z",
+      "commit_message": "Somewhat fix pvp cc but sort of not"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-18T00:49:13.036524+00:00",
+  "last_checked": "2026-06-18T07:41:53.417317+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.4.8",
-      "new_version": "v7.2.4.9",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "crutchalerts",
+      "old_version": "d561a9c",
+      "new_version": "984ef80",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Somewhat fix pvp cc but sort of not"
     }
   ]
 }
