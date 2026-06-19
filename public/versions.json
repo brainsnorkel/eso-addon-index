@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "984ef80",
+      "version": "12ce737",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-18T06:43:23Z",
-      "release_notes": "Somewhat fix pvp cc but sort of not",
-      "commit_sha": "984ef805919497cf784071f70e15512d37cf0e6f",
-      "commit_date": "2026-06-18T06:43:23Z",
-      "commit_message": "Somewhat fix pvp cc but sort of not"
+      "published_at": "2026-06-18T16:04:22Z",
+      "release_notes": "Rename casts on others to AOE / important",
+      "commit_sha": "12ce737d57fe6d6628b2c438c0272773161658e4",
+      "commit_date": "2026-06-18T16:04:22Z",
+      "commit_message": "Rename casts on others to AOE / important"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.4.9",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.4.9",
-      "published_at": "2026-06-17T21:04:40Z",
-      "release_notes": "## Version 7.2.4.9\r\n\r\n### Changes\r\n\r\n- Action Bar: **Show Global Cooldown** now updates cooldown visuals on the LUIE backbar row as well as the active bar.\r\n- Action Bar: Backbar base-game activation (proc) glow syncs slot use-failure state and only listens to inactive-hotbar slot/effect events.\r\n- Chat Announcements: Inventory loot and bag updates refactored into dedicated handlers (bag, bank, craft, fence, guild bank, item delay/formatting).\r\n- MiniMap: Removed **Camera Wedge** scale setting f"
+      "version": "v7.2.5.0",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.0",
+      "published_at": "2026-06-19T05:37:20Z",
+      "release_notes": "## Version 7.2.5.0\r\n\r\n### Changes\r\n\r\n- Unit Frames: Default Unit Frames dropdowns add **Disable + Unregister ZOS Events** as a fourth choice alongside Disable, Do nothing, and Use Extender (per-slot hide vs unregister; applies without UI reload when changed in settings).\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Fixed UI error when updating default group Extender frames on title or rank events (TopInfo overland icon on frames without TopInfo controls).\r\n- Unit Frames: Target champion point and level displa"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-19T00:53:17.575287+00:00",
-  "updates": []
+  "last_checked": "2026-06-19T07:53:09.474438+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "984ef80",
+      "new_version": "12ce737",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Rename casts on others to AOE / important"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.4.9",
+      "new_version": "v7.2.5.0",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
