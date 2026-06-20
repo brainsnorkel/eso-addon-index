@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "46adb90",
+      "version": "c473612",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-19T22:33:14Z",
-      "release_notes": "Probably actually fix pvp cc",
-      "commit_sha": "46adb90557535b50b6d9f1824ac9f045ac4ea247",
-      "commit_date": "2026-06-19T22:33:14Z",
-      "commit_message": "Probably actually fix pvp cc"
+      "published_at": "2026-06-20T08:33:52Z",
+      "release_notes": "Make cc chat default to false",
+      "commit_sha": "c4736129262315fa6687b5a10606fd63777821cd",
+      "commit_date": "2026-06-20T08:33:52Z",
+      "commit_message": "Make cc chat default to false"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-20T07:21:14.241178+00:00",
-  "updates": []
+  "last_checked": "2026-06-20T12:37:23.170471+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "46adb90",
+      "new_version": "c473612",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Make cc chat default to false"
+    }
+  ]
 }
