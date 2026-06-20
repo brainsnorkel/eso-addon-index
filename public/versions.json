@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-20T00:44:28.263247+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "12ce737",
-      "new_version": "46adb90",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Probably actually fix pvp cc"
-    },
-    {
-      "slug": "luiextended",
-      "old_version": "v7.2.5.0",
-      "new_version": "v7.2.5.1",
-      "repo": "DakJaniels/LuiExtended"
-    }
-  ]
+  "last_checked": "2026-06-20T07:21:14.241178+00:00",
+  "updates": []
 }
