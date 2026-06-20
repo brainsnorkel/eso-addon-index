@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "12ce737",
+      "version": "46adb90",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-18T16:04:22Z",
-      "release_notes": "Rename casts on others to AOE / important",
-      "commit_sha": "12ce737d57fe6d6628b2c438c0272773161658e4",
-      "commit_date": "2026-06-18T16:04:22Z",
-      "commit_message": "Rename casts on others to AOE / important"
+      "published_at": "2026-06-19T22:33:14Z",
+      "release_notes": "Probably actually fix pvp cc",
+      "commit_sha": "46adb90557535b50b6d9f1824ac9f045ac4ea247",
+      "commit_date": "2026-06-19T22:33:14Z",
+      "commit_message": "Probably actually fix pvp cc"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.5.0",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.0",
-      "published_at": "2026-06-19T05:37:20Z",
-      "release_notes": "## Version 7.2.5.0\r\n\r\n### Changes\r\n\r\n- Unit Frames: Default Unit Frames dropdowns add **Disable + Unregister ZOS Events** as a fourth choice alongside Disable, Do nothing, and Use Extender (per-slot hide vs unregister; applies without UI reload when changed in settings).\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Fixed UI error when updating default group Extender frames on title or rank events (TopInfo overland icon on frames without TopInfo controls).\r\n- Unit Frames: Target champion point and level displa"
+      "version": "v7.2.5.1",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.1",
+      "published_at": "2026-06-20T00:18:08Z",
+      "release_notes": "## Version 7.2.5.1\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Restored pre-7.2.5 behavior for existing Default Unit Frames saved values (read-time legacy decode until you re-select a dropdown to store the new four-option scheme).\r\n- Unit Frames: Fixed compass boss health bars and Extender / Do nothing modes misbehaving after the 7.2.5.0 Default Frames dropdown change.\r\n- Unit Frames: Re-show default player attribute bars when Default PLAYER Frame no longer uses a hide-vanilla mode; clear group/raid disable "
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-19T18:37:24.079656+00:00",
-  "updates": []
+  "last_checked": "2026-06-20T00:44:28.263247+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "12ce737",
+      "new_version": "46adb90",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Probably actually fix pvp cc"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.5.0",
+      "new_version": "v7.2.5.1",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

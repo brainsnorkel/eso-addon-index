@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-19T18:37:24.260539+00:00</updated>
+  <updated>2026-06-20T00:44:28.436398+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:46adb90</id>
+    <title>CrutchAlerts updated: 12ce737 → 46adb90</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-06-20T00:44:28.436398+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 12ce737 to 46adb90.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:luiextended:v7.2.5.1</id>
+    <title>LuiExtended updated: v7.2.5.0 → v7.2.5.1</title>
+    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
+    <updated>2026-06-20T00:44:28.436398+00:00</updated>
+    <summary>LuiExtended has been updated from version v7.2.5.0 to v7.2.5.1.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:12ce737</id>
     <title>CrutchAlerts updated: 984ef80 → 12ce737</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
     <updated>2026-05-09T06:43:59.915426+00:00</updated>
     <summary>CrutchAlerts has been updated from version 9d7a8ad to 7b36196.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:9d7a8ad</id>
-    <title>CrutchAlerts updated: bc12f8c → 9d7a8ad</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-05-08T06:37:30.072609+00:00</updated>
-    <summary>CrutchAlerts has been updated from version bc12f8c to 9d7a8ad.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:bc12f8c</id>
-    <title>CrutchAlerts updated: 768a413 → bc12f8c</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-05-07T07:01:08.926875+00:00</updated>
-    <summary>CrutchAlerts has been updated from version 768a413 to bc12f8c.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
