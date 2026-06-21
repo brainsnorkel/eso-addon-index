@@ -188,13 +188,13 @@
       "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
     },
     "libcustommenu": {
-      "version": "d8eedbc",
+      "version": "9940f89",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-06-16T12:28:10Z",
-      "release_notes": "version 5.10.3:",
-      "commit_sha": "d8eedbc98924a59e83095da58002637c792785f9",
-      "commit_date": "2026-06-16T12:28:10Z",
-      "commit_message": "version 5.10.3:"
+      "published_at": "2026-06-21T15:39:30Z",
+      "release_notes": "version 1.6.6:",
+      "commit_sha": "9940f89c86ee53c5006ffc7b55635da78a110321",
+      "commit_date": "2026-06-21T15:39:30Z",
+      "commit_message": "version 1.6.6:"
     },
     "libcustomnames": {
       "version": "2026-06-14",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.5.2",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.2",
-      "published_at": "2026-06-20T18:10:44Z",
-      "release_notes": "## Version 7.2.5.2\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Removed ZO unit frame suppression (runtime hide/release/unregister of vanilla player, target, group, and companion UI). Default hide behavior is again init-time and matches pre-7.2.5 patterns.\r\n- Unit Frames: Default Unit Frames dropdowns are back to three choices (Disable, Do nothing, Use Extender). Removed **Disable + Unregister ZOS Events** and related strings.\r\n- Unit Frames: Existing saves from 7.2.5.0/7.2.5.1 four-option values are mapped a"
+      "version": "v7.2.5.3",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.3",
+      "published_at": "2026-06-21T17:50:41Z",
+      "release_notes": "## Version 7.2.5.3\r\n\r\n### Changes\r\n\r\n- Combat Info: Block indicator remaining-block count uses a shadow label and vertical offset on the shield art for clearer readability.\r\n- MiniMap: Pin mirror and waypoint sync run deferred work when the world map unblocks; map reload failures no longer leave gameplay pin tickers stuck.\r\n\r\n### Fixed\r\n\r\n- Chat Announcements: Group invite response when you are already in a group now names the inviter correctly (matches ZOS alert handler argument order).\r\n- Unit"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-21T12:40:40.257539+00:00",
-  "updates": []
+  "last_checked": "2026-06-21T18:32:34.837879+00:00",
+  "updates": [
+    {
+      "slug": "libcustommenu",
+      "old_version": "d8eedbc",
+      "new_version": "9940f89",
+      "repo": "votan73/ESO",
+      "commit_message": "version 1.6.6:"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.5.2",
+      "new_version": "v7.2.5.3",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
