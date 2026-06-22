@@ -182,10 +182,10 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-06-14",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-06-14",
-      "published_at": "2026-06-14T23:37:28Z",
-      "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
+      "version": "2026-06-21",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-06-21",
+      "published_at": "2026-06-21T23:43:53Z",
+      "release_notes": "## 2026.06.21\n- add AGENTS.md which states that AI is not allowed here\n\n"
     },
     "libcustommenu": {
       "version": "9940f89",
@@ -197,10 +197,10 @@
       "commit_message": "version 1.6.6:"
     },
     "libcustomnames": {
-      "version": "2026-06-14",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-06-14",
-      "published_at": "2026-06-14T23:36:57Z",
-      "release_notes": "## 2026.03.30\n- bump API version to 101049 & 101050\n\n"
+      "version": "2026-06-21",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-06-21",
+      "published_at": "2026-06-21T23:43:49Z",
+      "release_notes": "## 2026.06.21\n- add AGENTS.md which states that AI is not allowed here\n\n"
     },
     "libdebuglogger": {
       "version": "8ac0428",
@@ -324,20 +324,19 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-21T18:32:34.837879+00:00",
+  "last_checked": "2026-06-22T00:48:02.891414+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "d8eedbc",
-      "new_version": "9940f89",
-      "repo": "votan73/ESO",
-      "commit_message": "version 1.6.6:"
+      "slug": "libcustomicons",
+      "old_version": "2026-06-14",
+      "new_version": "2026-06-21",
+      "repo": "m00nyONE/LibCustomIcons"
     },
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.5.2",
-      "new_version": "v7.2.5.3",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "libcustomnames",
+      "old_version": "2026-06-14",
+      "new_version": "2026-06-21",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }

@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-21T18:32:35.016968+00:00</updated>
+  <updated>2026-06-22T00:48:03.068377+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2026-06-21</id>
+    <title>LibCustomIcons updated: 2026-06-14 → 2026-06-21</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-06-22T00:48:03.068377+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-06-14 to 2026-06-21.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2026-06-21</id>
+    <title>LibCustomNames updated: 2026-06-14 → 2026-06-21</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-06-22T00:48:03.068377+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-06-14 to 2026-06-21.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustommenu:9940f89</id>
     <title>LibCustomMenu updated: d8eedbc → 9940f89</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
     <updated>2026-05-12T06:59:35.784006+00:00</updated>
     <summary>Action Duration Reminder has been updated from version eade68b to 35d7559.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:2bca401</id>
-    <title>CrutchAlerts updated: f50b2f8 → 2bca401</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-05-12T06:59:35.784006+00:00</updated>
-    <summary>CrutchAlerts has been updated from version f50b2f8 to 2bca401.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustommenu:4e31d97</id>
-    <title>LibCustomMenu updated: a0479c0 → 4e31d97</title>
-    <link href="https://github.com/votan73/ESO" rel="alternate"/>
-    <updated>2026-05-11T18:38:43.922568+00:00</updated>
-    <summary>LibCustomMenu has been updated from version a0479c0 to 4e31d97.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
