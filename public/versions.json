@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "8b11e32",
+      "version": "073f4ce",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-21T06:38:58Z",
-      "release_notes": "[2.21.0] Bump versions",
-      "commit_sha": "8b11e32dff771ae51df54d81b40ac62595d62629",
-      "commit_date": "2026-06-21T06:38:58Z",
-      "commit_message": "[2.21.0] Bump versions"
+      "published_at": "2026-06-23T07:28:28Z",
+      "release_notes": "Clean up minor things",
+      "commit_sha": "073f4ce7421ce70a92b32d518903ecb01267d165",
+      "commit_date": "2026-06-23T07:28:28Z",
+      "commit_message": "Clean up minor things"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.5.3",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.3",
-      "published_at": "2026-06-21T17:50:41Z",
-      "release_notes": "## Version 7.2.5.3\r\n\r\n### Changes\r\n\r\n- Combat Info: Block indicator remaining-block count uses a shadow label and vertical offset on the shield art for clearer readability.\r\n- MiniMap: Pin mirror and waypoint sync run deferred work when the world map unblocks; map reload failures no longer leave gameplay pin tickers stuck.\r\n\r\n### Fixed\r\n\r\n- Chat Announcements: Group invite response when you are already in a group now names the inviter correctly (matches ZOS alert handler argument order).\r\n- Unit"
+      "version": "v7.2.5.4",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.4",
+      "published_at": "2026-06-23T12:44:26Z",
+      "release_notes": "## Version 7.2.5.4\r\n\r\n### New\r\n\r\n- Action Bar: Ultimate now shows cost instead of out of 500. While in werewolf form, the ultimate count reflects your current fury count out of 1000.\r\n\r\n### Changes\r\n\r\n- Unit Frames: Changed the base draw tier of unitframes so prompts will now be able to draw on top.\r\n- MiniMap: Disabled tooltips for future me to look into fixing :)\r\n\r\n### Fixed\r\n\r\n- General stability and performance improvements...\r\n\r\n## What's Changed\r\n* version. oops by @DakJaniels in https://"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-23T07:15:32.953491+00:00",
-  "updates": []
+  "last_checked": "2026-06-23T12:58:12.831329+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "8b11e32",
+      "new_version": "073f4ce",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Clean up minor things"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.5.3",
+      "new_version": "v7.2.5.4",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

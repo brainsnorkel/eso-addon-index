@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-23T07:15:33.141782+00:00",
+  "generated_at": "2026-06-23T12:58:13.002513+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "8b11e32",
+      "new_version": "073f4ce",
+      "published_at": "2026-06-23T07:28:28Z",
+      "detected_at": "2026-06-23T12:58:13.002513+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.5.3",
+      "new_version": "v7.2.5.4",
+      "published_at": "2026-06-23T12:44:26Z",
+      "detected_at": "2026-06-23T12:58:13.002513+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
@@ -883,24 +901,6 @@
       "new_version": "83d1f9d",
       "published_at": "2026-05-13T03:15:57Z",
       "detected_at": "2026-05-13T07:03:35.628952+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "2bca401",
-      "new_version": "980481c",
-      "published_at": "2026-05-12T07:06:53Z",
-      "detected_at": "2026-05-12T12:41:41.011413+00:00"
-    },
-    {
-      "slug": "actiondurationreminder",
-      "name": "Action Duration Reminder",
-      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
-      "old_version": "eade68b",
-      "new_version": "35d7559",
-      "published_at": "2026-05-12T00:38:50Z",
-      "detected_at": "2026-05-12T06:59:35.784006+00:00"
     }
   ]
 }

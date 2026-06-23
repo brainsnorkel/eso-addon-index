@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-23T07:15:33.141782+00:00",
+  "generated_at": "2026-06-23T12:58:13.002513+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "8b11e32",
+        "version": "073f4ce",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-21T06:38:58Z",
-        "commit_sha": "8b11e32dff771ae51df54d81b40ac62595d62629",
-        "commit_date": "2026-06-21T06:38:58Z",
-        "commit_message": "[2.21.0] Bump versions"
+        "published_at": "2026-06-23T07:28:28Z",
+        "commit_sha": "073f4ce7421ce70a92b32d518903ecb01267d165",
+        "commit_date": "2026-06-23T07:28:28Z",
+        "commit_message": "Clean up minor things"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.21.0] Bump versions"
+        "commit_message": "Clean up minor things"
       },
-      "last_updated": "2026-06-21T06:38:58Z"
+      "last_updated": "2026-06-23T07:28:28Z"
     },
     {
       "slug": "elmsmarkers",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.5.3",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.3",
-        "published_at": "2026-06-21T17:50:41Z",
-        "commit_sha": "fcb64164011672ca526592e93f3ba78c48f1ac29"
+        "version": "v7.2.5.4",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.4",
+        "published_at": "2026-06-23T12:44:26Z",
+        "commit_sha": "932ac5b75e20626be120bd2a1aba740be3da40e5"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.5.3/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.5.4/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.3",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.4",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2708,7 +2708,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-06-21T17:50:41Z"
+      "last_updated": "2026-06-23T12:44:26Z"
     },
     {
       "slug": "m0rmarkers",
