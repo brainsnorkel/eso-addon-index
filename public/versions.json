@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.5.4",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.4",
-      "published_at": "2026-06-23T12:44:26Z",
-      "release_notes": "## Version 7.2.5.4\r\n\r\n### New\r\n\r\n- Action Bar: Ultimate now shows cost instead of out of 500. While in werewolf form, the ultimate count reflects your current fury count out of 1000.\r\n\r\n### Changes\r\n\r\n- Unit Frames: Changed the base draw tier of unitframes so prompts will now be able to draw on top.\r\n- MiniMap: Disabled tooltips for future me to look into fixing :)\r\n\r\n### Fixed\r\n\r\n- General stability and performance improvements...\r\n\r\n## What's Changed\r\n* version. oops by @DakJaniels in https://"
+      "version": "v7.2.5.5",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.5",
+      "published_at": "2026-06-23T15:36:24Z",
+      "release_notes": "## Version 7.2.5.5\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Default Unit Frames -> Default TARGET Frame ; Use Extender option ; Now shows Veterancy Rank Icon to the right of the Alliance Rank Icon.\r\n- General stability and performance improvements...\r\n\r\n## What's Changed\r\n* V7255 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/444\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.5.4...v7.2.5.5"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,19 +324,12 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-23T12:58:12.831329+00:00",
+  "last_checked": "2026-06-23T18:42:44.123858+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "8b11e32",
-      "new_version": "073f4ce",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Clean up minor things"
-    },
-    {
       "slug": "luiextended",
-      "old_version": "v7.2.5.3",
-      "new_version": "v7.2.5.4",
+      "old_version": "v7.2.5.4",
+      "new_version": "v7.2.5.5",
       "repo": "DakJaniels/LuiExtended"
     }
   ]
