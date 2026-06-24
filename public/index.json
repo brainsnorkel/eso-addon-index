@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T00:38:32.397672+00:00",
+  "generated_at": "2026-06-24T07:12:27.209186+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "073f4ce",
+        "version": "f1a4c07",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-23T07:28:28Z",
-        "commit_sha": "073f4ce7421ce70a92b32d518903ecb01267d165",
-        "commit_date": "2026-06-23T07:28:28Z",
-        "commit_message": "Clean up minor things"
+        "published_at": "2026-06-23T16:41:52Z",
+        "commit_sha": "f1a4c0790e353cf9b6c6a416e25f7da0be32e944",
+        "commit_date": "2026-06-23T16:41:52Z",
+        "commit_message": "Add setting to hide the nailguns :("
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Clean up minor things"
+        "commit_message": "Add setting to hide the nailguns :("
       },
-      "last_updated": "2026-06-23T07:28:28Z"
+      "last_updated": "2026-06-23T16:41:52Z"
     },
     {
       "slug": "elmsmarkers",
