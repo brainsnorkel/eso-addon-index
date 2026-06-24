@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T07:12:27.209186+00:00",
+  "generated_at": "2026-06-24T12:45:35.643158+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2442,35 +2442,35 @@
         ]
       },
       "latest_release": {
-        "version": "Version-4.7",
-        "download_url": "https://github.com/exoy94/LibSetDetection/archive/refs/tags/Version-4.7.zip",
-        "published_at": "2025-04-21T08:41:00Z",
-        "commit_sha": "2d1a560be58aaad8e857a2271480189f81955575"
+        "version": "Version-5.0",
+        "download_url": "https://github.com/exoy94/LibSetDetection/archive/refs/tags/Version-5.0.zip",
+        "published_at": "2026-06-24T11:35:40Z",
+        "commit_sha": "c1689c40e95a676a0c81e0a3b025676ac636545f"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/exoy94/LibSetDetection@Version-4.7/",
+          "url": "https://cdn.jsdelivr.net/gh/exoy94/LibSetDetection@Version-5.0/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://github.com/exoy94/LibSetDetection/archive/refs/tags/Version-4.7.zip",
+          "url": "https://github.com/exoy94/LibSetDetection/archive/refs/tags/Version-5.0.zip",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
-          "major": 4,
-          "minor": 7,
+          "major": 5,
+          "minor": 0,
           "patch": 0,
           "prerelease": null
         },
-        "version_sort_key": 4007000000,
+        "version_sort_key": 5000000000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2025-04-21T08:41:00Z"
+      "last_updated": "2026-06-24T11:35:40Z"
     },
     {
       "slug": "libsets",

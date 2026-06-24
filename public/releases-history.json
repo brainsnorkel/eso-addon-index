@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T07:12:27.209186+00:00",
+  "generated_at": "2026-06-24T12:45:35.643158+00:00",
   "events": [
+    {
+      "slug": "libsetdetection",
+      "name": "LibSetDetection",
+      "url": "https://github.com/exoy94/LibSetDetection",
+      "old_version": "Version-4.7",
+      "new_version": "Version-5.0",
+      "published_at": "2026-06-24T11:35:40Z",
+      "detected_at": "2026-06-24T12:45:35.643158+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "d12fa89",
       "published_at": "2026-05-16T11:38:56Z",
       "detected_at": "2026-05-16T12:22:13.721361+00:00"
-    },
-    {
-      "slug": "libcustommenu",
-      "name": "LibCustomMenu",
-      "url": "https://github.com/votan73/ESO",
-      "old_version": "4e31d97",
-      "new_version": "74df493",
-      "published_at": "2026-05-14T09:45:23Z",
-      "detected_at": "2026-05-14T12:38:13.258554+00:00"
     }
   ]
 }
