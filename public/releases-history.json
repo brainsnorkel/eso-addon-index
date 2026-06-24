@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T12:45:35.643158+00:00",
+  "generated_at": "2026-06-24T18:36:45.843555+00:00",
   "events": [
+    {
+      "slug": "exoyscruxtracker",
+      "name": "ExoYs Crux Tracker",
+      "url": "https://github.com/exoy94/ExoYsCruxTracker",
+      "old_version": "Version-2.0.1",
+      "new_version": "Version-2.1.0",
+      "published_at": "2026-06-24T16:28:06Z",
+      "detected_at": "2026-06-24T18:36:45.843555+00:00"
+    },
     {
       "slug": "libsetdetection",
       "name": "LibSetDetection",
@@ -892,15 +901,6 @@
       "new_version": "v7.2.1.7",
       "published_at": "2026-05-16T21:23:15Z",
       "detected_at": "2026-05-17T00:38:30.889489+00:00"
-    },
-    {
-      "slug": "libcustommenu",
-      "name": "LibCustomMenu",
-      "url": "https://github.com/votan73/ESO",
-      "old_version": "74df493",
-      "new_version": "d12fa89",
-      "published_at": "2026-05-16T11:38:56Z",
-      "detected_at": "2026-05-16T12:22:13.721361+00:00"
     }
   ]
 }
