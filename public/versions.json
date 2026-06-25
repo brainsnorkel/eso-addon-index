@@ -324,13 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-24T18:36:45.664942+00:00",
-  "updates": [
-    {
-      "slug": "exoyscruxtracker",
-      "old_version": "Version-2.0.1",
-      "new_version": "Version-2.1.0",
-      "repo": "exoy94/ExoYsCruxTracker"
-    }
-  ]
+  "last_checked": "2026-06-25T00:43:43.162830+00:00",
+  "updates": []
 }
