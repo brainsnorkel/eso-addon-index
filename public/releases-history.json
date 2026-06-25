@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-25T12:49:13.958387+00:00",
+  "generated_at": "2026-06-25T18:45:46.861211+00:00",
   "events": [
+    {
+      "slug": "beammeup",
+      "name": "BeamMeUp",
+      "url": "https://github.com/david-tub/BeamMeUp",
+      "old_version": "4.0.4.023",
+      "new_version": "4.0.4.025",
+      "published_at": "2026-06-25T17:35:58Z",
+      "detected_at": "2026-06-25T18:45:46.861211+00:00"
+    },
     {
       "slug": "exoyscruxtracker",
       "name": "ExoYs Crux Tracker",
@@ -892,15 +901,6 @@
       "new_version": "v7.2.1.9",
       "published_at": "2026-05-17T03:41:35Z",
       "detected_at": "2026-05-17T06:58:37.166422+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.2.1.5",
-      "new_version": "v7.2.1.7",
-      "published_at": "2026-05-16T21:23:15Z",
-      "detected_at": "2026-05-17T00:38:30.889489+00:00"
     }
   ]
 }
