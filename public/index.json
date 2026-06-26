@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-26T00:45:04.862449+00:00",
+  "generated_at": "2026-06-26T07:18:45.243924+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "f1a4c07",
+        "version": "b167280",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-23T16:41:52Z",
-        "commit_sha": "f1a4c0790e353cf9b6c6a416e25f7da0be32e944",
-        "commit_date": "2026-06-23T16:41:52Z",
-        "commit_message": "Add setting to hide the nailguns :("
+        "published_at": "2026-06-26T03:50:15Z",
+        "commit_sha": "b167280d346f7305c65211284845efff29802386",
+        "commit_date": "2026-06-26T03:50:15Z",
+        "commit_message": "Revert \"Add edgeSize for space backdrop\""
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add setting to hide the nailguns :("
+        "commit_message": "Revert \"Add edgeSize for space backdrop\""
       },
-      "last_updated": "2026-06-23T16:41:52Z"
+      "last_updated": "2026-06-26T03:50:15Z"
     },
     {
       "slug": "elmsmarkers",
