@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "b167280",
+      "version": "319d2f7",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-26T03:50:15Z",
-      "release_notes": "Revert \"Add edgeSize for space backdrop\"",
-      "commit_sha": "b167280d346f7305c65211284845efff29802386",
-      "commit_date": "2026-06-26T03:50:15Z",
-      "commit_message": "Revert \"Add edgeSize for space backdrop\""
+      "published_at": "2026-06-26T12:04:26Z",
+      "release_notes": "Probably fix curse lines immediately disappearing after PTE during portal",
+      "commit_sha": "319d2f78a7752592ed18c712a30fe6c179b0bc52",
+      "commit_date": "2026-06-26T12:04:26Z",
+      "commit_message": "Probably fix curse lines immediately disappearing after PTE during portal"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-26T07:18:45.061814+00:00",
+  "last_checked": "2026-06-26T12:44:15.973103+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "f1a4c07",
-      "new_version": "b167280",
+      "old_version": "b167280",
+      "new_version": "319d2f7",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Revert \"Add edgeSize for space backdrop\""
+      "commit_message": "Probably fix curse lines immediately disappearing after PTE during portal"
     }
   ]
 }
