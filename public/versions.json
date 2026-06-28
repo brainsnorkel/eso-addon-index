@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.5.5",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.5",
-      "published_at": "2026-06-23T15:36:24Z",
-      "release_notes": "## Version 7.2.5.5\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Default Unit Frames -> Default TARGET Frame ; Use Extender option ; Now shows Veterancy Rank Icon to the right of the Alliance Rank Icon.\r\n- General stability and performance improvements...\r\n\r\n## What's Changed\r\n* V7255 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/444\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.5.4...v7.2.5.5"
+      "version": "v7.2.5.6",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.6",
+      "published_at": "2026-06-28T11:39:52Z",
+      "release_notes": "## Version 7.2.5.6\r\n\r\n### New\r\n\r\n- Chat Announcements: Optional announcements when an individual ability gains experience (for example from quest rewards). Per skill line under Skills \u2014 chat message and/or alert, optional icon, optional progress toward the next ability rank, and a minimum gain filter.\r\n\r\n### Changes\r\n\r\n- Changelog (PC): The version welcome window opens after you enter the world (load screen) instead of during addon load; closing the window marks that version as seen.\r\n- Unit Fra"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-28T07:22:08.152884+00:00",
-  "updates": []
+  "last_checked": "2026-06-28T12:29:28.219569+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.5.5",
+      "new_version": "v7.2.5.6",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

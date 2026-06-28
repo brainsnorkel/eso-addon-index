@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T07:22:08.322460+00:00",
+  "generated_at": "2026-06-28T12:29:28.396259+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.5.5",
+      "new_version": "v7.2.5.6",
+      "published_at": "2026-06-28T11:39:52Z",
+      "detected_at": "2026-06-28T12:29:28.396259+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "v7.2.2.1",
       "published_at": "2026-05-17T14:51:08Z",
       "detected_at": "2026-05-17T18:23:11.885016+00:00"
-    },
-    {
-      "slug": "hodorreflexes",
-      "name": "HodorReflexes",
-      "url": "https://github.com/m00nyONE/HodorReflexes",
-      "old_version": "2026-03-30",
-      "new_version": "2026-05-17",
-      "published_at": "2026-05-17T09:15:34Z",
-      "detected_at": "2026-05-17T12:20:56.608863+00:00"
     }
   ]
 }

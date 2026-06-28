@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-28T07:22:08.322460+00:00</updated>
+  <updated>2026-06-28T12:29:28.396259+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:luiextended:v7.2.5.6</id>
+    <title>LuiExtended updated: v7.2.5.5 → v7.2.5.6</title>
+    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
+    <updated>2026-06-28T12:29:28.396259+00:00</updated>
+    <summary>LuiExtended has been updated from version v7.2.5.5 to v7.2.5.6.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:319d2f7</id>
     <title>CrutchAlerts updated: b167280 → 319d2f7</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
     <updated>2026-05-17T18:23:11.885016+00:00</updated>
     <summary>LuiExtended has been updated from version v7.2.1.9 to v7.2.2.1.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:hodorreflexes:2026-05-17</id>
-    <title>HodorReflexes updated: 2026-03-30 → 2026-05-17</title>
-    <link href="https://github.com/m00nyONE/HodorReflexes" rel="alternate"/>
-    <updated>2026-05-17T12:20:56.608863+00:00</updated>
-    <summary>HodorReflexes has been updated from version 2026-03-30 to 2026-05-17.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
