@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.5.6",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.6",
-      "published_at": "2026-06-28T11:39:52Z",
-      "release_notes": "## Version 7.2.5.6\r\n\r\n### New\r\n\r\n- Chat Announcements: Optional announcements when an individual ability gains experience (for example from quest rewards). Per skill line under Skills \u2014 chat message and/or alert, optional icon, optional progress toward the next ability rank, and a minimum gain filter.\r\n\r\n### Changes\r\n\r\n- Changelog (PC): The version welcome window opens after you enter the world (load screen) instead of during addon load; closing the window marks that version as seen.\r\n- Unit Fra"
+      "version": "v7.2.5.7",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.7",
+      "published_at": "2026-06-29T03:02:16Z",
+      "release_notes": "## Version 7.2.5.7\r\n\r\n### New\r\n\r\n- Unit Frames: Custom target and custom small group frames: optional friend, guild, and ignored icons (separate toggles).\r\n- Action Bar / LuiData: Cyrodiil Vengeance bag items (siege deployables, repair kit, and related gear): cast bar times, ability and buff data, and custom tooltips.\r\n\r\n### Fixed\r\n\r\n- Chat Announcements: Group loot messages now respect Player Name Display Method (for example @ UserID), including on localized game clients.\r\n- Chat Announcements:"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,19 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-29T00:44:48.310940+00:00",
+  "last_checked": "2026-06-29T07:43:45.512904+00:00",
   "updates": [
     {
-      "slug": "libcustomicons",
-      "old_version": "2026-06-21",
-      "new_version": "2026-06-28",
-      "repo": "m00nyONE/LibCustomIcons"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-06-21",
-      "new_version": "2026-06-28",
-      "repo": "m00nyONE/LibCustomNames"
+      "slug": "luiextended",
+      "old_version": "v7.2.5.6",
+      "new_version": "v7.2.5.7",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }

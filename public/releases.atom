@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-29T00:44:48.482405+00:00</updated>
+  <updated>2026-06-29T07:43:45.676845+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:luiextended:v7.2.5.7</id>
+    <title>LuiExtended updated: v7.2.5.6 → v7.2.5.7</title>
+    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
+    <updated>2026-06-29T07:43:45.676845+00:00</updated>
+    <summary>LuiExtended has been updated from version v7.2.5.6 to v7.2.5.7.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustomicons:2026-06-28</id>
     <title>LibCustomIcons updated: 2026-06-21 → 2026-06-28</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
     <updated>2026-05-18T00:40:24.885498+00:00</updated>
     <summary>LibCustomIcons has been updated from version 2026-05-10 to 2026-05-17.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomnames:2026-05-17</id>
-    <title>LibCustomNames updated: 2026-05-10 → 2026-05-17</title>
-    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
-    <updated>2026-05-18T00:40:24.885498+00:00</updated>
-    <summary>LibCustomNames has been updated from version 2026-05-10 to 2026-05-17.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
