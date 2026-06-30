@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-30T12:41:53.425881+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "319d2f7",
-      "new_version": "8e8d234",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Maybe fix OC ability overlay not getting unregistered"
-    }
-  ]
+  "last_checked": "2026-06-30T18:38:00.227705+00:00",
+  "updates": []
 }
