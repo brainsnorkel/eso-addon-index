@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-06-30T07:19:14.369470+00:00</updated>
+  <updated>2026-06-30T12:41:53.598673+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:8e8d234</id>
+    <title>CrutchAlerts updated: 319d2f7 → 8e8d234</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-06-30T12:41:53.598673+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 319d2f7 to 8e8d234.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:luiextended:v7.2.5.7</id>
     <title>LuiExtended updated: v7.2.5.6 → v7.2.5.7</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/david-tub/BeamMeUp" rel="alternate"/>
     <updated>2026-05-18T00:40:24.885498+00:00</updated>
     <summary>BeamMeUp has been updated from version 4.0.4.012 to 4.0.4.016.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomicons:2026-05-17</id>
-    <title>LibCustomIcons updated: 2026-05-10 → 2026-05-17</title>
-    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
-    <updated>2026-05-18T00:40:24.885498+00:00</updated>
-    <summary>LibCustomIcons has been updated from version 2026-05-10 to 2026-05-17.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

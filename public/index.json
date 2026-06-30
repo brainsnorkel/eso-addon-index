@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-30T07:19:14.369470+00:00",
+  "generated_at": "2026-06-30T12:41:53.598673+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "319d2f7",
+        "version": "8e8d234",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-26T12:04:26Z",
-        "commit_sha": "319d2f78a7752592ed18c712a30fe6c179b0bc52",
-        "commit_date": "2026-06-26T12:04:26Z",
-        "commit_message": "Probably fix curse lines immediately disappearing after PTE during portal"
+        "published_at": "2026-06-28T07:34:36Z",
+        "commit_sha": "8e8d2342c249c85b674c4fbf30fbc60f345cbcb4",
+        "commit_date": "2026-06-28T07:34:36Z",
+        "commit_message": "Maybe fix OC ability overlay not getting unregistered"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Probably fix curse lines immediately disappearing after PTE during portal"
+        "commit_message": "Maybe fix OC ability overlay not getting unregistered"
       },
-      "last_updated": "2026-06-26T12:04:26Z"
+      "last_updated": "2026-06-28T07:34:36Z"
     },
     {
       "slug": "elmsmarkers",

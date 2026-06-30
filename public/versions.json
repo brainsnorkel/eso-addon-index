@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "319d2f7",
+      "version": "8e8d234",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-26T12:04:26Z",
-      "release_notes": "Probably fix curse lines immediately disappearing after PTE during portal",
-      "commit_sha": "319d2f78a7752592ed18c712a30fe6c179b0bc52",
-      "commit_date": "2026-06-26T12:04:26Z",
-      "commit_message": "Probably fix curse lines immediately disappearing after PTE during portal"
+      "published_at": "2026-06-28T07:34:36Z",
+      "release_notes": "Maybe fix OC ability overlay not getting unregistered",
+      "commit_sha": "8e8d2342c249c85b674c4fbf30fbc60f345cbcb4",
+      "commit_date": "2026-06-28T07:34:36Z",
+      "commit_message": "Maybe fix OC ability overlay not getting unregistered"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-06-30T07:19:14.189410+00:00",
-  "updates": []
+  "last_checked": "2026-06-30T12:41:53.425881+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "319d2f7",
+      "new_version": "8e8d234",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Maybe fix OC ability overlay not getting unregistered"
+    }
+  ]
 }
