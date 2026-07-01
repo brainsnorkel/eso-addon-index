@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "8e8d234",
+      "version": "f46c8d7",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-06-28T07:34:36Z",
-      "release_notes": "Maybe fix OC ability overlay not getting unregistered",
-      "commit_sha": "8e8d2342c249c85b674c4fbf30fbc60f345cbcb4",
-      "commit_date": "2026-06-28T07:34:36Z",
-      "commit_message": "Maybe fix OC ability overlay not getting unregistered"
+      "published_at": "2026-07-01T02:45:55Z",
+      "release_notes": "Add Calamity timer",
+      "commit_sha": "f46c8d7db197fb328947c425bbe55ead363d82d9",
+      "commit_date": "2026-07-01T02:45:55Z",
+      "commit_message": "Add Calamity timer"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-01T00:45:21.837618+00:00",
-  "updates": []
+  "last_checked": "2026-07-01T07:30:49.252499+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "8e8d234",
+      "new_version": "f46c8d7",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add Calamity timer"
+    }
+  ]
 }

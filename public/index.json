@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T00:45:22.007245+00:00",
+  "generated_at": "2026-07-01T07:30:49.446621+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "8e8d234",
+        "version": "f46c8d7",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-06-28T07:34:36Z",
-        "commit_sha": "8e8d2342c249c85b674c4fbf30fbc60f345cbcb4",
-        "commit_date": "2026-06-28T07:34:36Z",
-        "commit_message": "Maybe fix OC ability overlay not getting unregistered"
+        "published_at": "2026-07-01T02:45:55Z",
+        "commit_sha": "f46c8d7db197fb328947c425bbe55ead363d82d9",
+        "commit_date": "2026-07-01T02:45:55Z",
+        "commit_message": "Add Calamity timer"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Maybe fix OC ability overlay not getting unregistered"
+        "commit_message": "Add Calamity timer"
       },
-      "last_updated": "2026-06-28T07:34:36Z"
+      "last_updated": "2026-07-01T02:45:55Z"
     },
     {
       "slug": "elmsmarkers",
