@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-02T08:49:09.185525+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "f46c8d7",
-      "new_version": "0e03c24",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add /crutch printeffects"
-    }
-  ]
+  "last_checked": "2026-07-02T13:49:07.818567+00:00",
+  "updates": []
 }
