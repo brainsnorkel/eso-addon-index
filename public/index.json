@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-02T13:49:07.988895+00:00",
+  "generated_at": "2026-07-02T19:18:02.420930+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "0e03c24",
+        "version": "2439174",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-02T02:10:22Z",
-        "commit_sha": "0e03c24a759fb78766c08d656271847b9f323d0b",
-        "commit_date": "2026-07-02T02:10:22Z",
-        "commit_message": "Add /crutch printeffects"
+        "published_at": "2026-07-02T19:07:20Z",
+        "commit_sha": "2439174957cc4e2183f36a784a62a2d4ecd9f4d3",
+        "commit_date": "2026-07-02T19:07:20Z",
+        "commit_message": "Raise version to use with CAE"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add /crutch printeffects"
+        "commit_message": "Raise version to use with CAE"
       },
-      "last_updated": "2026-07-02T02:10:22Z"
+      "last_updated": "2026-07-02T19:07:20Z"
     },
     {
       "slug": "elmsmarkers",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.5.7",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.7",
-        "published_at": "2026-06-29T03:02:16Z",
-        "commit_sha": "fe1e8c474d8367afbe71cfff038d3d1228558d89"
+        "version": "v7.2.5.8",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.8",
+        "published_at": "2026-07-02T15:47:15Z",
+        "commit_sha": "3b13b2923c013a7899d4f8e1c6a7c8a691f1b0b2"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.5.7/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.5.8/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.7",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.8",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2708,7 +2708,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-06-29T03:02:16Z"
+      "last_updated": "2026-07-02T15:47:15Z"
     },
     {
       "slug": "m0rmarkers",

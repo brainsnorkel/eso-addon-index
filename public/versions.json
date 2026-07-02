@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "0e03c24",
+      "version": "2439174",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-02T02:10:22Z",
-      "release_notes": "Add /crutch printeffects",
-      "commit_sha": "0e03c24a759fb78766c08d656271847b9f323d0b",
-      "commit_date": "2026-07-02T02:10:22Z",
-      "commit_message": "Add /crutch printeffects"
+      "published_at": "2026-07-02T19:07:20Z",
+      "release_notes": "Raise version to use with CAE",
+      "commit_sha": "2439174957cc4e2183f36a784a62a2d4ecd9f4d3",
+      "commit_date": "2026-07-02T19:07:20Z",
+      "commit_message": "Raise version to use with CAE"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.5.7",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.7",
-      "published_at": "2026-06-29T03:02:16Z",
-      "release_notes": "## Version 7.2.5.7\r\n\r\n### New\r\n\r\n- Unit Frames: Custom target and custom small group frames: optional friend, guild, and ignored icons (separate toggles).\r\n- Action Bar / LuiData: Cyrodiil Vengeance bag items (siege deployables, repair kit, and related gear): cast bar times, ability and buff data, and custom tooltips.\r\n\r\n### Fixed\r\n\r\n- Chat Announcements: Group loot messages now respect Player Name Display Method (for example @ UserID), including on localized game clients.\r\n- Chat Announcements:"
+      "version": "v7.2.5.8",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.8",
+      "published_at": "2026-07-02T15:47:15Z",
+      "release_notes": "## Version 7.2.5.8\r\n\r\n### New\r\n\r\n- Combat Text: Optional **Show Ability Icon Frame** and **Color Icon Frame** (PC) on outgoing combat text, with frames around ability icons (round for passives, square for actives). On PC, **Color Icon Frame** tints the frame using colors sampled from each ability icon; otherwise the frame uses the default white style. Console: **Show Ability Icon Frame** only.\r\n- Console: LUIE messages appear in the gamepad chat log; unsupported chat links no longer cause errors"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-02T13:49:07.818567+00:00",
-  "updates": []
+  "last_checked": "2026-07-02T19:18:02.234677+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "0e03c24",
+      "new_version": "2439174",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Raise version to use with CAE"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.5.7",
+      "new_version": "v7.2.5.8",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
