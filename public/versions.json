@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "f46c8d7",
+      "version": "0e03c24",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-01T02:45:55Z",
-      "release_notes": "Add Calamity timer",
-      "commit_sha": "f46c8d7db197fb328947c425bbe55ead363d82d9",
-      "commit_date": "2026-07-01T02:45:55Z",
-      "commit_message": "Add Calamity timer"
+      "published_at": "2026-07-02T02:10:22Z",
+      "release_notes": "Add /crutch printeffects",
+      "commit_sha": "0e03c24a759fb78766c08d656271847b9f323d0b",
+      "commit_date": "2026-07-02T02:10:22Z",
+      "commit_message": "Add /crutch printeffects"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-02T00:42:46.573013+00:00",
-  "updates": []
+  "last_checked": "2026-07-02T08:49:09.185525+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "f46c8d7",
+      "new_version": "0e03c24",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add /crutch printeffects"
+    }
+  ]
 }

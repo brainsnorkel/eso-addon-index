@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-02T00:42:46.747131+00:00",
+  "generated_at": "2026-07-02T08:49:09.341150+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "f46c8d7",
+        "version": "0e03c24",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-01T02:45:55Z",
-        "commit_sha": "f46c8d7db197fb328947c425bbe55ead363d82d9",
-        "commit_date": "2026-07-01T02:45:55Z",
-        "commit_message": "Add Calamity timer"
+        "published_at": "2026-07-02T02:10:22Z",
+        "commit_sha": "0e03c24a759fb78766c08d656271847b9f323d0b",
+        "commit_date": "2026-07-02T02:10:22Z",
+        "commit_message": "Add /crutch printeffects"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add Calamity timer"
+        "commit_message": "Add /crutch printeffects"
       },
-      "last_updated": "2026-07-01T02:45:55Z"
+      "last_updated": "2026-07-02T02:10:22Z"
     },
     {
       "slug": "elmsmarkers",
