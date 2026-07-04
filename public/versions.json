@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.5.8",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.8",
-      "published_at": "2026-07-02T15:47:15Z",
-      "release_notes": "## Version 7.2.5.8\r\n\r\n### New\r\n\r\n- Combat Text: Optional **Show Ability Icon Frame** and **Color Icon Frame** (PC) on outgoing combat text, with frames around ability icons (round for passives, square for actives). On PC, **Color Icon Frame** tints the frame using colors sampled from each ability icon; otherwise the frame uses the default white style. Console: **Show Ability Icon Frame** only.\r\n- Console: LUIE messages appear in the gamepad chat log; unsupported chat links no longer cause errors"
+      "version": "v7.2.5.9",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.9",
+      "published_at": "2026-07-04T13:16:33Z",
+      "release_notes": "## Version 7.2.5.9\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Champion and Level info on custom target frame should now refresh properly, it was only being updated if the toggle for overland difficulty icons were enabled.\r\n\r\n## What's Changed\r\n* Luidata console by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/452\r\n* V7259 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/453\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.5.8...v7.2.5.9"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-04T13:14:42.310917+00:00",
+  "last_checked": "2026-07-04T19:03:47.945344+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "7bdc023",
-      "new_version": "70ee362",
-      "repo": "votan73/ESO",
-      "commit_message": "version 1.6.1:"
+      "slug": "luiextended",
+      "old_version": "v7.2.5.8",
+      "new_version": "v7.2.5.9",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }
