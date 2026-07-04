@@ -188,13 +188,13 @@
       "release_notes": "## 2026.06.21\n- add AGENTS.md which states that AI is not allowed here\n\n"
     },
     "libcustommenu": {
-      "version": "9940f89",
+      "version": "7bdc023",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-06-21T15:39:30Z",
-      "release_notes": "version 1.6.6:",
-      "commit_sha": "9940f89c86ee53c5006ffc7b55635da78a110321",
-      "commit_date": "2026-06-21T15:39:30Z",
-      "commit_message": "version 1.6.6:"
+      "published_at": "2026-07-04T06:58:15Z",
+      "release_notes": "version 2.1.9: Batch section setup in `AddSettings` to avoid O(n\u00b2) CPU on large panels",
+      "commit_sha": "7bdc0234690e1fff8d6410a174dc92bb2b638031",
+      "commit_date": "2026-07-04T06:58:15Z",
+      "commit_message": "version 2.1.9: Batch section setup in `AddSettings` to avoid O(n\u00b2) CPU on large panels"
     },
     "libcustomnames": {
       "version": "2026-06-28",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-04T02:30:05.698112+00:00",
+  "last_checked": "2026-07-04T08:30:31.818744+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "2439174",
-      "new_version": "6de4250",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Adjust Calamity timers"
+      "slug": "libcustommenu",
+      "old_version": "9940f89",
+      "new_version": "7bdc023",
+      "repo": "votan73/ESO",
+      "commit_message": "version 2.1.9: Batch section setup in `AddSettings` to avoid O(n\u00b2) CPU on large panels"
     }
   ]
 }

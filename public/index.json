@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-04T02:30:05.869157+00:00",
+  "generated_at": "2026-07-04T08:30:32.040085+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "9940f89",
+        "version": "7bdc023",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-06-21T15:39:30Z",
-        "commit_sha": "9940f89c86ee53c5006ffc7b55635da78a110321",
-        "commit_date": "2026-06-21T15:39:30Z",
-        "commit_message": "version 1.6.6:"
+        "published_at": "2026-07-04T06:58:15Z",
+        "commit_sha": "7bdc0234690e1fff8d6410a174dc92bb2b638031",
+        "commit_date": "2026-07-04T06:58:15Z",
+        "commit_message": "version 2.1.9: Batch section setup in `AddSettings` to avoid O(n\u00b2) CPU on large panels"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "version 1.6.6:"
+        "commit_message": "version 2.1.9: Batch section setup in `AddSettings` to avoid O(n\u00b2) CPU on large panels"
       },
-      "last_updated": "2026-06-21T15:39:30Z"
+      "last_updated": "2026-07-04T06:58:15Z"
     },
     {
       "slug": "libcustomnames",
