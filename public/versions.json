@@ -188,13 +188,13 @@
       "release_notes": "## 2026.06.21\n- add AGENTS.md which states that AI is not allowed here\n\n"
     },
     "libcustommenu": {
-      "version": "7bdc023",
+      "version": "70ee362",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-07-04T06:58:15Z",
-      "release_notes": "version 2.1.9: Batch section setup in `AddSettings` to avoid O(n\u00b2) CPU on large panels",
-      "commit_sha": "7bdc0234690e1fff8d6410a174dc92bb2b638031",
-      "commit_date": "2026-07-04T06:58:15Z",
-      "commit_message": "version 2.1.9: Batch section setup in `AddSettings` to avoid O(n\u00b2) CPU on large panels"
+      "published_at": "2026-07-04T09:35:40Z",
+      "release_notes": "version 1.6.1:",
+      "commit_sha": "70ee36229c3a0a5e9f6069c223d840a6a0afee09",
+      "commit_date": "2026-07-04T09:35:40Z",
+      "commit_message": "version 1.6.1:"
     },
     "libcustomnames": {
       "version": "2026-06-28",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-04T08:30:31.818744+00:00",
+  "last_checked": "2026-07-04T13:14:42.310917+00:00",
   "updates": [
     {
       "slug": "libcustommenu",
-      "old_version": "9940f89",
-      "new_version": "7bdc023",
+      "old_version": "7bdc023",
+      "new_version": "70ee362",
       "repo": "votan73/ESO",
-      "commit_message": "version 2.1.9: Batch section setup in `AddSettings` to avoid O(n\u00b2) CPU on large panels"
+      "commit_message": "version 1.6.1:"
     }
   ]
 }
