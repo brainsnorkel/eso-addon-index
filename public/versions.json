@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2439174",
+      "version": "6de4250",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-02T19:07:20Z",
-      "release_notes": "Raise version to use with CAE",
-      "commit_sha": "2439174957cc4e2183f36a784a62a2d4ecd9f4d3",
-      "commit_date": "2026-07-02T19:07:20Z",
-      "commit_message": "Raise version to use with CAE"
+      "published_at": "2026-07-03T21:34:19Z",
+      "release_notes": "Adjust Calamity timers",
+      "commit_sha": "6de42504db77b3f358594232a07a7b94b675d118",
+      "commit_date": "2026-07-03T21:34:19Z",
+      "commit_message": "Adjust Calamity timers"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-03T19:12:51.813968+00:00",
-  "updates": []
+  "last_checked": "2026-07-04T02:30:05.698112+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "2439174",
+      "new_version": "6de4250",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Adjust Calamity timers"
+    }
+  ]
 }
