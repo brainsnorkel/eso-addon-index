@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.5.9",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.5.9",
-      "published_at": "2026-07-04T13:16:33Z",
-      "release_notes": "## Version 7.2.5.9\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Champion and Level info on custom target frame should now refresh properly, it was only being updated if the toggle for overland difficulty icons were enabled.\r\n\r\n## What's Changed\r\n* Luidata console by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/452\r\n* V7259 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/453\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.5.8...v7.2.5.9"
+      "version": "v7.2.6.0",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.0",
+      "published_at": "2026-07-05T14:07:30Z",
+      "release_notes": "## Version 7.2.6.0\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Custom player completely hide Magicka or Stamina bar no longer leaves a stray bar at the frame corner; hide-bar toggles apply immediately.\r\n\r\n\r\n## What's Changed\r\n* Custom player frame fix by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/455\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.5.9...v7.2.6.0"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-05T13:21:55.529239+00:00",
-  "updates": []
+  "last_checked": "2026-07-05T19:09:55.921550+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.5.9",
+      "new_version": "v7.2.6.0",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
