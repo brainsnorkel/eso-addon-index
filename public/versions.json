@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "6de4250",
+      "version": "e5837f7",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-03T21:34:19Z",
-      "release_notes": "Adjust Calamity timers",
-      "commit_sha": "6de42504db77b3f358594232a07a7b94b675d118",
-      "commit_date": "2026-07-03T21:34:19Z",
-      "commit_message": "Adjust Calamity timers"
+      "published_at": "2026-07-04T23:51:14Z",
+      "release_notes": "[2.22.0] Bump version",
+      "commit_sha": "e5837f77d2260e6058dcc11541bf7f0fe3c58f60",
+      "commit_date": "2026-07-04T23:51:14Z",
+      "commit_message": "[2.22.0] Bump version"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -182,10 +182,10 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-06-28",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-06-28",
-      "published_at": "2026-06-28T23:17:15Z",
-      "release_notes": "## 2026.06.21\n- add AGENTS.md which states that AI is not allowed here\n\n"
+      "version": "2026-07-05",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-07-05",
+      "published_at": "2026-07-05T23:17:26Z",
+      "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
       "version": "70ee362",
@@ -197,10 +197,10 @@
       "commit_message": "version 1.6.1:"
     },
     "libcustomnames": {
-      "version": "2026-06-28",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-06-28",
-      "published_at": "2026-06-28T23:17:36Z",
-      "release_notes": "## 2026.06.21\n- add AGENTS.md which states that AI is not allowed here\n\n"
+      "version": "2026-07-05",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-07-05",
+      "published_at": "2026-07-05T23:17:11Z",
+      "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libdebuglogger": {
       "version": "8ac0428",
@@ -324,13 +324,26 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-05T19:09:55.921550+00:00",
+  "last_checked": "2026-07-06T02:44:59.463894+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.5.9",
-      "new_version": "v7.2.6.0",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "crutchalerts",
+      "old_version": "6de4250",
+      "new_version": "e5837f7",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.22.0] Bump version"
+    },
+    {
+      "slug": "libcustomicons",
+      "old_version": "2026-06-28",
+      "new_version": "2026-07-05",
+      "repo": "m00nyONE/LibCustomIcons"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-06-28",
+      "new_version": "2026-07-05",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }

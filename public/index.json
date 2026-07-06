@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T19:09:56.107574+00:00",
+  "generated_at": "2026-07-06T02:44:59.601394+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "6de4250",
+        "version": "e5837f7",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-03T21:34:19Z",
-        "commit_sha": "6de42504db77b3f358594232a07a7b94b675d118",
-        "commit_date": "2026-07-03T21:34:19Z",
-        "commit_message": "Adjust Calamity timers"
+        "published_at": "2026-07-04T23:51:14Z",
+        "commit_sha": "e5837f77d2260e6058dcc11541bf7f0fe3c58f60",
+        "commit_date": "2026-07-04T23:51:14Z",
+        "commit_message": "[2.22.0] Bump version"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Adjust Calamity timers"
+        "commit_message": "[2.22.0] Bump version"
       },
-      "last_updated": "2026-07-03T21:34:19Z"
+      "last_updated": "2026-07-04T23:51:14Z"
     },
     {
       "slug": "elmsmarkers",
@@ -1789,35 +1789,35 @@
         ]
       },
       "latest_release": {
-        "version": "2026-06-28",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-06-28",
-        "published_at": "2026-06-28T23:17:15Z",
-        "commit_sha": "6b77ef30dbfdc8c3189c4503acc874a02c38329d"
+        "version": "2026-07-05",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-07-05",
+        "published_at": "2026-07-05T23:17:26Z",
+        "commit_sha": "b55ff16db0e6a7b4e46ce81da37846b06b92e44e"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomIcons@2026-06-28/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomIcons@2026-07-05/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-06-28",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-07-05",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
           "major": 2026,
-          "minor": 6,
-          "patch": 28,
+          "minor": 7,
+          "patch": 5,
           "prerelease": null
         },
-        "version_sort_key": 2026006028000,
+        "version_sort_key": 2026007005000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-06-28T23:17:15Z"
+      "last_updated": "2026-07-05T23:17:26Z"
     },
     {
       "slug": "libcustommenu",
@@ -1937,35 +1937,35 @@
         ]
       },
       "latest_release": {
-        "version": "2026-06-28",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-06-28",
-        "published_at": "2026-06-28T23:17:36Z",
-        "commit_sha": "1a3ace90a1a9470f47babdcea8057dcf27ab8d82"
+        "version": "2026-07-05",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-07-05",
+        "published_at": "2026-07-05T23:17:11Z",
+        "commit_sha": "5f623698dc2b1241a16ffe737f0578639b474114"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-06-28/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-07-05/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-06-28",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-07-05",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
           "major": 2026,
-          "minor": 6,
-          "patch": 28,
+          "minor": 7,
+          "patch": 5,
           "prerelease": null
         },
-        "version_sort_key": 2026006028000,
+        "version_sort_key": 2026007005000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-06-28T23:17:36Z"
+      "last_updated": "2026-07-05T23:17:11Z"
     },
     {
       "slug": "libdebuglogger",

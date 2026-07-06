@@ -1,7 +1,34 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T19:09:56.107574+00:00",
+  "generated_at": "2026-07-06T02:44:59.601394+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "6de4250",
+      "new_version": "e5837f7",
+      "published_at": "2026-07-04T23:51:14Z",
+      "detected_at": "2026-07-06T02:44:59.601394+00:00"
+    },
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2026-06-28",
+      "new_version": "2026-07-05",
+      "published_at": "2026-07-05T23:17:26Z",
+      "detected_at": "2026-07-06T02:44:59.601394+00:00"
+    },
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2026-06-28",
+      "new_version": "2026-07-05",
+      "published_at": "2026-07-05T23:17:11Z",
+      "detected_at": "2026-07-06T02:44:59.601394+00:00"
+    },
     {
       "slug": "luiextended",
       "name": "LuiExtended",
@@ -874,33 +901,6 @@
       "new_version": "d69fcc1",
       "published_at": "2026-05-23T13:54:04Z",
       "detected_at": "2026-05-23T18:21:50.222938+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "66ed8ee",
-      "new_version": "2044555",
-      "published_at": "2026-05-23T09:34:56Z",
-      "detected_at": "2026-05-23T12:21:40.323415+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.2.2.5",
-      "new_version": "v7.2.2.6",
-      "published_at": "2026-05-21T12:07:04Z",
-      "detected_at": "2026-05-21T13:07:48.620950+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "a87d804",
-      "new_version": "66ed8ee",
-      "published_at": "2026-05-21T02:31:18Z",
-      "detected_at": "2026-05-21T07:18:12.387570+00:00"
     }
   ]
 }
