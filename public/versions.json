@@ -324,26 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-06T02:44:59.463894+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "6de4250",
-      "new_version": "e5837f7",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "[2.22.0] Bump version"
-    },
-    {
-      "slug": "libcustomicons",
-      "old_version": "2026-06-28",
-      "new_version": "2026-07-05",
-      "repo": "m00nyONE/LibCustomIcons"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-06-28",
-      "new_version": "2026-07-05",
-      "repo": "m00nyONE/LibCustomNames"
-    }
-  ]
+  "last_checked": "2026-07-06T10:09:00.467431+00:00",
+  "updates": []
 }
