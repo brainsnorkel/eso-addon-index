@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.6.0",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.0",
-      "published_at": "2026-07-05T14:07:30Z",
-      "release_notes": "## Version 7.2.6.0\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Custom player completely hide Magicka or Stamina bar no longer leaves a stray bar at the frame corner; hide-bar toggles apply immediately.\r\n\r\n\r\n## What's Changed\r\n* Custom player frame fix by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/455\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.5.9...v7.2.6.0"
+      "version": "v7.2.6.1",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.1",
+      "published_at": "2026-07-08T18:41:52Z",
+      "release_notes": "## Version 7.2.6.1\r\n\r\n### Fixed\r\n\r\n- SpellCastBuffs: Active assistant buff icons now use the game's collectible art when no custom icon is configured, so newly added assistants display correctly.\r\n\r\n## What's Changed\r\n* 7.2.6.1 by @DakJaniels in https://github.com/DakJaniels/LuiExtended/pull/456\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.6.0...v7.2.6.1"
     },
     "m0rmarkers": {
       "version": "v2.1.1",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-08T13:52:32.209732+00:00",
-  "updates": []
+  "last_checked": "2026-07-08T19:18:08.109534+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.6.0",
+      "new_version": "v7.2.6.1",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

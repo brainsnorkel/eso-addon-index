@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T13:52:32.382781+00:00",
+  "generated_at": "2026-07-08T19:18:08.273346+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.6.0",
+      "new_version": "v7.2.6.1",
+      "published_at": "2026-07-08T18:41:52Z",
+      "detected_at": "2026-07-08T19:18:08.273346+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "2026-05-24",
       "published_at": "2026-05-24T23:13:57Z",
       "detected_at": "2026-05-25T00:42:15.888577+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "2044555",
-      "new_version": "d69fcc1",
-      "published_at": "2026-05-23T13:54:04Z",
-      "detected_at": "2026-05-23T18:21:50.222938+00:00"
     }
   ]
 }
