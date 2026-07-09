@@ -324,13 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-08T19:18:08.109534+00:00",
-  "updates": [
-    {
-      "slug": "luiextended",
-      "old_version": "v7.2.6.0",
-      "new_version": "v7.2.6.1",
-      "repo": "DakJaniels/LuiExtended"
-    }
-  ]
+  "last_checked": "2026-07-09T02:32:31.390999+00:00",
+  "updates": []
 }
