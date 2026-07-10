@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-10T09:26:54.598592+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "67c0112",
-      "new_version": "e5fdb4d",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix Bus Code"
-    },
-    {
-      "slug": "m0rmarkers",
-      "old_version": "v2.1.1",
-      "new_version": "v2.2.0",
-      "repo": "M0RGaming/M0RMarkers"
-    }
-  ]
+  "last_checked": "2026-07-10T14:11:45.747648+00:00",
+  "updates": []
 }
