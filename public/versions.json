@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "e5837f7",
+      "version": "67c0112",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-04T23:51:14Z",
-      "release_notes": "[2.22.0] Bump version",
-      "commit_sha": "e5837f77d2260e6058dcc11541bf7f0fe3c58f60",
-      "commit_date": "2026-07-04T23:51:14Z",
-      "commit_message": "[2.22.0] Bump version"
+      "published_at": "2026-07-10T01:48:13Z",
+      "release_notes": "Refresh all aspect icons on unit tag change",
+      "commit_sha": "67c0112e676d80933a235ad7bd5698d2083a186b",
+      "commit_date": "2026-07-10T01:48:13Z",
+      "commit_message": "Refresh all aspect icons on unit tag change"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-09T19:37:37.180031+00:00",
+  "last_checked": "2026-07-10T02:34:52.969242+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.6.1",
-      "new_version": "v7.2.6.2",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "crutchalerts",
+      "old_version": "e5837f7",
+      "new_version": "67c0112",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Refresh all aspect icons on unit tag change"
     }
   ]
 }

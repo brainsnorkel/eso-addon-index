@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-09T19:37:37.348323+00:00",
+  "generated_at": "2026-07-10T02:34:53.123195+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "e5837f7",
+        "version": "67c0112",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-04T23:51:14Z",
-        "commit_sha": "e5837f77d2260e6058dcc11541bf7f0fe3c58f60",
-        "commit_date": "2026-07-04T23:51:14Z",
-        "commit_message": "[2.22.0] Bump version"
+        "published_at": "2026-07-10T01:48:13Z",
+        "commit_sha": "67c0112e676d80933a235ad7bd5698d2083a186b",
+        "commit_date": "2026-07-10T01:48:13Z",
+        "commit_message": "Refresh all aspect icons on unit tag change"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.22.0] Bump version"
+        "commit_message": "Refresh all aspect icons on unit tag change"
       },
-      "last_updated": "2026-07-04T23:51:14Z"
+      "last_updated": "2026-07-10T01:48:13Z"
     },
     {
       "slug": "elmsmarkers",
