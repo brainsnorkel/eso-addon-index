@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-07-10T02:34:53.123195+00:00</updated>
+  <updated>2026-07-10T09:26:54.750556+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:e5fdb4d</id>
+    <title>CrutchAlerts updated: 67c0112 → e5fdb4d</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-07-10T09:26:54.750556+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 67c0112 to e5fdb4d.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:m0rmarkers:v2.2.0</id>
+    <title>M0RMarkers updated: v2.1.1 → v2.2.0</title>
+    <link href="https://github.com/M0RGaming/M0RMarkers" rel="alternate"/>
+    <updated>2026-07-10T09:26:54.750556+00:00</updated>
+    <summary>M0RMarkers has been updated from version v2.1.1 to v2.2.0.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:67c0112</id>
     <title>CrutchAlerts updated: e5837f7 → 67c0112</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
     <updated>2026-05-26T00:40:44.367070+00:00</updated>
     <summary>LuiExtended has been updated from version v7.2.2.7 to v7.2.2.8.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:actiondurationreminder:e751750</id>
-    <title>Action Duration Reminder updated: 35d7559 → e751750</title>
-    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
-    <updated>2026-05-25T18:34:40.488321+00:00</updated>
-    <summary>Action Duration Reminder has been updated from version 35d7559 to e751750.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:luiextended:v7.2.2.7</id>
-    <title>LuiExtended updated: v7.2.2.6 → v7.2.2.7</title>
-    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
-    <updated>2026-05-25T18:34:40.488321+00:00</updated>
-    <summary>LuiExtended has been updated from version v7.2.2.6 to v7.2.2.7.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
