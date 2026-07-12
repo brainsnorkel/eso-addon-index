@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T13:10:00.247809+00:00",
+  "generated_at": "2026-07-12T18:58:47.372095+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2520,12 +2520,12 @@
         ]
       },
       "latest_release": {
-        "version": "4c47f00",
+        "version": "6bbb37e",
         "download_url": "https://github.com/Baertram/LibSets/archive/refs/heads/LibSets-reworked.zip",
-        "published_at": "2026-04-15T09:18:28Z",
-        "commit_sha": "4c47f00d732e704ed80a648054bef77adb317519",
-        "commit_date": "2026-04-15T09:18:28Z",
-        "commit_message": "-Fixed set search UI context menus"
+        "published_at": "2026-07-12T16:30:53Z",
+        "commit_sha": "6bbb37e5800dac1cc4456e3898cc9b1fadfa931f",
+        "commit_date": "2026-07-12T16:30:53Z",
+        "commit_message": "LibSets v0009030"
       },
       "download_sources": [
         {
@@ -2544,9 +2544,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "-Fixed set search UI context menus"
+        "commit_message": "LibSets v0009030"
       },
-      "last_updated": "2026-04-15T09:18:28Z"
+      "last_updated": "2026-07-12T16:30:53Z"
     },
     {
       "slug": "libsfutils",

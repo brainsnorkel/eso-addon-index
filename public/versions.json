@@ -257,13 +257,13 @@
       "commit_sha": "c1689c40e95a676a0c81e0a3b025676ac636545f"
     },
     "libsets": {
-      "version": "4c47f00",
+      "version": "6bbb37e",
       "download_url": "https://github.com/Baertram/LibSets/archive/refs/heads/LibSets-reworked.zip",
-      "published_at": "2026-04-15T09:18:28Z",
-      "release_notes": "-Fixed set search UI context menus",
-      "commit_sha": "4c47f00d732e704ed80a648054bef77adb317519",
-      "commit_date": "2026-04-15T09:18:28Z",
-      "commit_message": "-Fixed set search UI context menus"
+      "published_at": "2026-07-12T16:30:53Z",
+      "release_notes": "LibSets v0009030",
+      "commit_sha": "6bbb37e5800dac1cc4456e3898cc9b1fadfa931f",
+      "commit_date": "2026-07-12T16:30:53Z",
+      "commit_message": "LibSets v0009030"
     },
     "libsfutils": {
       "version": "v38",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-12T13:10:00.099328+00:00",
+  "last_checked": "2026-07-12T18:58:47.212187+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "70ee362",
-      "new_version": "e274d6d",
-      "repo": "votan73/ESO",
-      "commit_message": "Add `ST_ATLASICONPICKER` control type \u2013 pick a sprite from a texture atlas (#62)"
+      "slug": "libsets",
+      "old_version": "4c47f00",
+      "new_version": "6bbb37e",
+      "repo": "Baertram/LibSets",
+      "commit_message": "LibSets v0009030"
     }
   ]
 }
