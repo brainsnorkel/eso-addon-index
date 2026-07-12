@@ -188,13 +188,13 @@
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
-      "version": "70ee362",
+      "version": "e274d6d",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-07-04T09:35:40Z",
-      "release_notes": "version 1.6.1:",
-      "commit_sha": "70ee36229c3a0a5e9f6069c223d840a6a0afee09",
-      "commit_date": "2026-07-04T09:35:40Z",
-      "commit_message": "version 1.6.1:"
+      "published_at": "2026-07-12T11:48:49Z",
+      "release_notes": "Add `ST_ATLASICONPICKER` control type \u2013 pick a sprite from a texture atlas (#62)",
+      "commit_sha": "e274d6df07bbe778ee05ef3061209bd2bd904131",
+      "commit_date": "2026-07-12T11:48:49Z",
+      "commit_message": "Add `ST_ATLASICONPICKER` control type \u2013 pick a sprite from a texture atlas (#62)"
     },
     "libcustomnames": {
       "version": "2026-07-05",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-12T08:09:21.702530+00:00",
+  "last_checked": "2026-07-12T13:10:00.099328+00:00",
   "updates": [
     {
-      "slug": "m0rmarkers",
-      "old_version": "v2.2.0",
-      "new_version": "v2.2.1",
-      "repo": "M0RGaming/M0RMarkers"
+      "slug": "libcustommenu",
+      "old_version": "70ee362",
+      "new_version": "e274d6d",
+      "repo": "votan73/ESO",
+      "commit_message": "Add `ST_ATLASICONPICKER` control type \u2013 pick a sprite from a texture atlas (#62)"
     }
   ]
 }

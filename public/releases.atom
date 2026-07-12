@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-07-12T08:09:21.827374+00:00</updated>
+  <updated>2026-07-12T13:10:00.247809+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustommenu:e274d6d</id>
+    <title>LibCustomMenu updated: 70ee362 → e274d6d</title>
+    <link href="https://github.com/votan73/ESO" rel="alternate"/>
+    <updated>2026-07-12T13:10:00.247809+00:00</updated>
+    <summary>LibCustomMenu has been updated from version 70ee362 to e274d6d.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:m0rmarkers:v2.2.1</id>
     <title>M0RMarkers updated: v2.2.0 → v2.2.1</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
     <updated>2026-05-26T18:48:53.165737+00:00</updated>
     <summary>LuiExtended has been updated from version v7.2.2.8 to v7.2.3.0.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:2304034</id>
-    <title>CrutchAlerts updated: d69fcc1 → 2304034</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-05-26T13:00:01.523457+00:00</updated>
-    <summary>CrutchAlerts has been updated from version d69fcc1 to 2304034.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
