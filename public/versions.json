@@ -279,10 +279,10 @@
       "release_notes": "## Version 7.2.6.2\r\n\r\n### New\r\n\r\n- Chat Announcements: Optional notifications when you save or equip an armory build (chat, center-screen message, and/or alert), with customizable message color, under Notify settings.\r\n\r\n### Fixed\r\n\r\n- Chat Announcements: Outfit equip notifications no longer error when the game reports success without an equipped outfit index.\r\n- SpellCastBuffs: Bloodthorn Cultist Outfit disguise shows the correct buff icon and tooltip.\r\n- Chat Announcements: Disguise enter and "
     },
     "m0rmarkers": {
-      "version": "v2.2.0",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.2.0",
-      "published_at": "2026-07-10T06:08:58Z",
-      "release_notes": "----- 2.2.0 -----\nAdded 2 new preset marker sets: a vRG Oax Posion Safe zone, and HatchetHaro's Jynorah + Skorkhif Markers for vOC. Thank you HatchetHaro for creating them!\nAdded a Merge Profiles button to the settings menu\nAdded a Duplicate Profile button to the settings menu\n\n"
+      "version": "v2.2.1",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.2.1",
+      "published_at": "2026-07-12T04:35:50Z",
+      "release_notes": "----- 2.2.1 -----\n(minor) Forgot to remove a debug script, removed it now. Whoops\n\n"
     },
     "odysupporticons": {
       "version": "Version-1.13.1",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-12T02:20:53.247301+00:00",
-  "updates": []
+  "last_checked": "2026-07-12T08:09:21.702530+00:00",
+  "updates": [
+    {
+      "slug": "m0rmarkers",
+      "old_version": "v2.2.0",
+      "new_version": "v2.2.1",
+      "repo": "M0RGaming/M0RMarkers"
+    }
+  ]
 }
