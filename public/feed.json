@@ -477,10 +477,10 @@
     },
     {
       "id": "libcustomicons",
-      "title": "LibCustomIcons 2026-07-05",
+      "title": "LibCustomIcons 2026-07-12",
       "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "date_published": "2026-07-05T23:17:26Z",
-      "date_modified": "2026-07-05T23:17:26Z",
+      "date_published": "2026-07-12T23:08:19Z",
+      "date_modified": "2026-07-12T23:08:19Z",
       "authors": [
         {
           "name": "m00nyONE"
@@ -516,10 +516,10 @@
     },
     {
       "id": "libcustomnames",
-      "title": "LibCustomNames 2026-07-05",
+      "title": "LibCustomNames 2026-07-12",
       "url": "https://github.com/m00nyONE/LibCustomNames",
-      "date_published": "2026-07-05T23:17:11Z",
-      "date_modified": "2026-07-05T23:17:11Z",
+      "date_published": "2026-07-12T23:08:36Z",
+      "date_modified": "2026-07-12T23:08:36Z",
       "authors": [
         {
           "name": "m00nyONE"
@@ -673,10 +673,10 @@
     },
     {
       "id": "libsets",
-      "title": "LibSets 6bbb37e",
+      "title": "LibSets 76f2ada",
       "url": "https://github.com/Baertram/LibSets",
-      "date_published": "2026-07-12T16:30:53Z",
-      "date_modified": "2026-07-12T16:30:53Z",
+      "date_published": "2026-07-12T19:33:41Z",
+      "date_modified": "2026-07-12T19:33:41Z",
       "authors": [
         {
           "name": "Baertram"

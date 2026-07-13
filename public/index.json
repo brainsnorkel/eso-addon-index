@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T18:58:47.372095+00:00",
+  "generated_at": "2026-07-13T02:22:54.339002+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1789,20 +1789,20 @@
         ]
       },
       "latest_release": {
-        "version": "2026-07-05",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-07-05",
-        "published_at": "2026-07-05T23:17:26Z",
-        "commit_sha": "b55ff16db0e6a7b4e46ce81da37846b06b92e44e"
+        "version": "2026-07-12",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-07-12",
+        "published_at": "2026-07-12T23:08:19Z",
+        "commit_sha": "3e838e9380c878c2ae40fef87d9d4b29a9695a39"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomIcons@2026-07-05/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomIcons@2026-07-12/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-07-05",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-07-12",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1810,14 +1810,14 @@
         "version_normalized": {
           "major": 2026,
           "minor": 7,
-          "patch": 5,
+          "patch": 12,
           "prerelease": null
         },
-        "version_sort_key": 2026007005000,
+        "version_sort_key": 2026007012000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-07-05T23:17:26Z"
+      "last_updated": "2026-07-12T23:08:19Z"
     },
     {
       "slug": "libcustommenu",
@@ -1937,20 +1937,20 @@
         ]
       },
       "latest_release": {
-        "version": "2026-07-05",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-07-05",
-        "published_at": "2026-07-05T23:17:11Z",
-        "commit_sha": "5f623698dc2b1241a16ffe737f0578639b474114"
+        "version": "2026-07-12",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-07-12",
+        "published_at": "2026-07-12T23:08:36Z",
+        "commit_sha": "324cfdd477f66b44dc92487276407933b809147b"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-07-05/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-07-12/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-07-05",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-07-12",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1958,14 +1958,14 @@
         "version_normalized": {
           "major": 2026,
           "minor": 7,
-          "patch": 5,
+          "patch": 12,
           "prerelease": null
         },
-        "version_sort_key": 2026007005000,
+        "version_sort_key": 2026007012000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-07-05T23:17:11Z"
+      "last_updated": "2026-07-12T23:08:36Z"
     },
     {
       "slug": "libdebuglogger",
@@ -2520,12 +2520,12 @@
         ]
       },
       "latest_release": {
-        "version": "6bbb37e",
+        "version": "76f2ada",
         "download_url": "https://github.com/Baertram/LibSets/archive/refs/heads/LibSets-reworked.zip",
-        "published_at": "2026-07-12T16:30:53Z",
-        "commit_sha": "6bbb37e5800dac1cc4456e3898cc9b1fadfa931f",
-        "commit_date": "2026-07-12T16:30:53Z",
-        "commit_message": "LibSets v0009030"
+        "published_at": "2026-07-12T19:33:41Z",
+        "commit_sha": "76f2adab4e495f0b3ddb9884cb10c47f32e9f4b1",
+        "commit_date": "2026-07-12T19:33:41Z",
+        "commit_message": "LibSets v0.9.3"
       },
       "download_sources": [
         {
@@ -2544,9 +2544,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "LibSets v0009030"
+        "commit_message": "LibSets v0.9.3"
       },
-      "last_updated": "2026-07-12T16:30:53Z"
+      "last_updated": "2026-07-12T19:33:41Z"
     },
     {
       "slug": "libsfutils",

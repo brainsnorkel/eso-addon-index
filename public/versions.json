@@ -182,9 +182,9 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-07-05",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-07-05",
-      "published_at": "2026-07-05T23:17:26Z",
+      "version": "2026-07-12",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-07-12",
+      "published_at": "2026-07-12T23:08:19Z",
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
@@ -197,9 +197,9 @@
       "commit_message": "Add `ST_ATLASICONPICKER` control type \u2013 pick a sprite from a texture atlas (#62)"
     },
     "libcustomnames": {
-      "version": "2026-07-05",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-07-05",
-      "published_at": "2026-07-05T23:17:11Z",
+      "version": "2026-07-12",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-07-12",
+      "published_at": "2026-07-12T23:08:36Z",
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libdebuglogger": {
@@ -257,13 +257,13 @@
       "commit_sha": "c1689c40e95a676a0c81e0a3b025676ac636545f"
     },
     "libsets": {
-      "version": "6bbb37e",
+      "version": "76f2ada",
       "download_url": "https://github.com/Baertram/LibSets/archive/refs/heads/LibSets-reworked.zip",
-      "published_at": "2026-07-12T16:30:53Z",
-      "release_notes": "LibSets v0009030",
-      "commit_sha": "6bbb37e5800dac1cc4456e3898cc9b1fadfa931f",
-      "commit_date": "2026-07-12T16:30:53Z",
-      "commit_message": "LibSets v0009030"
+      "published_at": "2026-07-12T19:33:41Z",
+      "release_notes": "LibSets v0.9.3",
+      "commit_sha": "76f2adab4e495f0b3ddb9884cb10c47f32e9f4b1",
+      "commit_date": "2026-07-12T19:33:41Z",
+      "commit_message": "LibSets v0.9.3"
     },
     "libsfutils": {
       "version": "v38",
@@ -324,14 +324,26 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-12T18:58:47.212187+00:00",
+  "last_checked": "2026-07-13T02:22:54.180313+00:00",
   "updates": [
     {
+      "slug": "libcustomicons",
+      "old_version": "2026-07-05",
+      "new_version": "2026-07-12",
+      "repo": "m00nyONE/LibCustomIcons"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-07-05",
+      "new_version": "2026-07-12",
+      "repo": "m00nyONE/LibCustomNames"
+    },
+    {
       "slug": "libsets",
-      "old_version": "4c47f00",
-      "new_version": "6bbb37e",
+      "old_version": "6bbb37e",
+      "new_version": "76f2ada",
       "repo": "Baertram/LibSets",
-      "commit_message": "LibSets v0009030"
+      "commit_message": "LibSets v0.9.3"
     }
   ]
 }
