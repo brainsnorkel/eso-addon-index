@@ -324,26 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-13T02:22:54.180313+00:00",
-  "updates": [
-    {
-      "slug": "libcustomicons",
-      "old_version": "2026-07-05",
-      "new_version": "2026-07-12",
-      "repo": "m00nyONE/LibCustomIcons"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-07-05",
-      "new_version": "2026-07-12",
-      "repo": "m00nyONE/LibCustomNames"
-    },
-    {
-      "slug": "libsets",
-      "old_version": "6bbb37e",
-      "new_version": "76f2ada",
-      "repo": "Baertram/LibSets",
-      "commit_message": "LibSets v0.9.3"
-    }
-  ]
+  "last_checked": "2026-07-13T09:16:46.317840+00:00",
+  "updates": []
 }
