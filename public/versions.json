@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "e5fdb4d",
+      "version": "1891f7a",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-10T06:28:43Z",
-      "release_notes": "Fix Bus Code",
-      "commit_sha": "e5fdb4d3d8557f5e1a1f2810917b7bd8ccc7a962",
-      "commit_date": "2026-07-10T06:28:43Z",
-      "commit_message": "Fix Bus Code"
+      "published_at": "2026-07-14T07:27:47Z",
+      "release_notes": "Exclude Hiding Spot stuns from cc",
+      "commit_sha": "1891f7a63503b993e8b9e6df678148995f485402",
+      "commit_date": "2026-07-14T07:27:47Z",
+      "commit_message": "Exclude Hiding Spot stuns from cc"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-14T02:02:39.215111+00:00",
-  "updates": []
+  "last_checked": "2026-07-14T07:54:52.214460+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "e5fdb4d",
+      "new_version": "1891f7a",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Exclude Hiding Spot stuns from cc"
+    }
+  ]
 }

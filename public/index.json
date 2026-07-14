@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-14T02:02:39.339445+00:00",
+  "generated_at": "2026-07-14T07:54:52.353951+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "e5fdb4d",
+        "version": "1891f7a",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-10T06:28:43Z",
-        "commit_sha": "e5fdb4d3d8557f5e1a1f2810917b7bd8ccc7a962",
-        "commit_date": "2026-07-10T06:28:43Z",
-        "commit_message": "Fix Bus Code"
+        "published_at": "2026-07-14T07:27:47Z",
+        "commit_sha": "1891f7a63503b993e8b9e6df678148995f485402",
+        "commit_date": "2026-07-14T07:27:47Z",
+        "commit_message": "Exclude Hiding Spot stuns from cc"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix Bus Code"
+        "commit_message": "Exclude Hiding Spot stuns from cc"
       },
-      "last_updated": "2026-07-10T06:28:43Z"
+      "last_updated": "2026-07-14T07:27:47Z"
     },
     {
       "slug": "elmsmarkers",
