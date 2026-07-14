@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-14T07:54:52.214460+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "e5fdb4d",
-      "new_version": "1891f7a",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Exclude Hiding Spot stuns from cc"
-    }
-  ]
+  "last_checked": "2026-07-14T13:23:33.368262+00:00",
+  "updates": []
 }
