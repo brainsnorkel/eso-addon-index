@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-15T07:59:24.496075+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "1891f7a",
-      "new_version": "ca94ee3",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Maybe fix Wrathstorm after combat"
-    }
-  ]
+  "last_checked": "2026-07-15T13:26:48.973347+00:00",
+  "updates": []
 }
