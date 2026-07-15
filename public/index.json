@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T01:59:35.646448+00:00",
+  "generated_at": "2026-07-15T07:59:24.656992+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "1891f7a",
+        "version": "ca94ee3",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-14T07:27:47Z",
-        "commit_sha": "1891f7a63503b993e8b9e6df678148995f485402",
-        "commit_date": "2026-07-14T07:27:47Z",
-        "commit_message": "Exclude Hiding Spot stuns from cc"
+        "published_at": "2026-07-15T02:53:11Z",
+        "commit_sha": "ca94ee366c51e6ea03a6bab1ffadada50c18d521",
+        "commit_date": "2026-07-15T02:53:11Z",
+        "commit_message": "Maybe fix Wrathstorm after combat"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Exclude Hiding Spot stuns from cc"
+        "commit_message": "Maybe fix Wrathstorm after combat"
       },
-      "last_updated": "2026-07-14T07:27:47Z"
+      "last_updated": "2026-07-15T02:53:11Z"
     },
     {
       "slug": "elmsmarkers",
