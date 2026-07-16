@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-16T02:09:22.839852+00:00",
+  "generated_at": "2026-07-16T08:04:57.076419+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "ca94ee3",
+      "new_version": "e84d979",
+      "published_at": "2026-07-16T02:56:19Z",
+      "detected_at": "2026-07-16T08:04:57.076419+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "v7.2.3.2",
       "published_at": "2026-05-30T12:00:48Z",
       "detected_at": "2026-05-30T12:26:26.081884+00:00"
-    },
-    {
-      "slug": "libaddonmenu-2-0",
-      "name": "LibAddonMenu-2.0",
-      "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu",
-      "old_version": "r32",
-      "new_version": "r44",
-      "published_at": null,
-      "detected_at": "2026-05-28T13:14:16.330088+00:00"
     }
   ]
 }
