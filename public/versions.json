@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "86801ce",
+      "version": "56d2435",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-17T04:04:14Z",
-      "release_notes": "Maybe fix Stone Form",
-      "commit_sha": "86801ceb246385d916a3b87d8f2e0abbbc4ef2a4",
-      "commit_date": "2026-07-17T04:04:14Z",
-      "commit_message": "Maybe fix Stone Form"
+      "published_at": "2026-07-17T11:50:23Z",
+      "release_notes": "Increase opacity of stone form",
+      "commit_sha": "56d24352df64289debdbbc65507e36215a175999",
+      "commit_date": "2026-07-17T11:50:23Z",
+      "commit_message": "Increase opacity of stone form"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-17T08:01:52.079323+00:00",
+  "last_checked": "2026-07-17T13:18:14.341356+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "8b54855",
-      "new_version": "86801ce",
+      "old_version": "86801ce",
+      "new_version": "56d2435",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Maybe fix Stone Form"
+      "commit_message": "Increase opacity of stone form"
     }
   ]
 }
