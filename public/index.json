@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-17T02:12:29.812524+00:00",
+  "generated_at": "2026-07-17T08:01:52.235886+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "8b54855",
+        "version": "86801ce",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-16T15:57:53Z",
-        "commit_sha": "8b5485559da6922316e48722e869ba5e706f5bef",
-        "commit_date": "2026-07-16T15:57:53Z",
-        "commit_message": "Implement untested HRC Stone Form"
+        "published_at": "2026-07-17T04:04:14Z",
+        "commit_sha": "86801ceb246385d916a3b87d8f2e0abbbc4ef2a4",
+        "commit_date": "2026-07-17T04:04:14Z",
+        "commit_message": "Maybe fix Stone Form"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Implement untested HRC Stone Form"
+        "commit_message": "Maybe fix Stone Form"
       },
-      "last_updated": "2026-07-16T15:57:53Z"
+      "last_updated": "2026-07-17T04:04:14Z"
     },
     {
       "slug": "elmsmarkers",

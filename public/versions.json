@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "8b54855",
+      "version": "86801ce",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-16T15:57:53Z",
-      "release_notes": "Implement untested HRC Stone Form",
-      "commit_sha": "8b5485559da6922316e48722e869ba5e706f5bef",
-      "commit_date": "2026-07-16T15:57:53Z",
-      "commit_message": "Implement untested HRC Stone Form"
+      "published_at": "2026-07-17T04:04:14Z",
+      "release_notes": "Maybe fix Stone Form",
+      "commit_sha": "86801ceb246385d916a3b87d8f2e0abbbc4ef2a4",
+      "commit_date": "2026-07-17T04:04:14Z",
+      "commit_message": "Maybe fix Stone Form"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-17T02:12:29.653055+00:00",
+  "last_checked": "2026-07-17T08:01:52.079323+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "e84d979",
-      "new_version": "8b54855",
+      "old_version": "8b54855",
+      "new_version": "86801ce",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Implement untested HRC Stone Form"
+      "commit_message": "Maybe fix Stone Form"
     }
   ]
 }
