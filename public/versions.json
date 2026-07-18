@@ -273,10 +273,10 @@
       "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
     },
     "luiextended": {
-      "version": "v7.2.6.2",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.2",
-      "published_at": "2026-07-09T17:26:10Z",
-      "release_notes": "## Version 7.2.6.2\r\n\r\n### New\r\n\r\n- Chat Announcements: Optional notifications when you save or equip an armory build (chat, center-screen message, and/or alert), with customizable message color, under Notify settings.\r\n\r\n### Fixed\r\n\r\n- Chat Announcements: Outfit equip notifications no longer error when the game reports success without an equipped outfit index.\r\n- SpellCastBuffs: Bloodthorn Cultist Outfit disguise shows the correct buff icon and tooltip.\r\n- Chat Announcements: Disguise enter and "
+      "version": "v7.2.6.3",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.3",
+      "published_at": "2026-07-17T23:40:47Z",
+      "release_notes": "## Version 7.2.6.3\r\n\r\n### New\r\n\r\n- Chat Announcements: Display Announcements for Dynamic Encounters (PC and console). Separate chat, center-screen, and alert toggles for Vampire Hunt, Flowervine Farm, Bilsa's Delivery, and Misc.\r\n\r\n### Fixed\r\n\r\n- SpellCastBuffs: Adding any **Off Balance** ability id (or the canonical name) to **Prominent Debuffs** now tracks all Off Balance variants and Off Balance Immunity. Profiles that never received the default Off Balance prominent entry are seeded once on "
     },
     "m0rmarkers": {
       "version": "v2.2.1",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-17T19:00:08.580370+00:00",
-  "updates": []
+  "last_checked": "2026-07-18T02:01:30.448879+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.6.2",
+      "new_version": "v7.2.6.3",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
