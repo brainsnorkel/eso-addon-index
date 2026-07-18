@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "56d2435",
+      "version": "9e4c4f5",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-17T11:50:23Z",
-      "release_notes": "Increase opacity of stone form",
-      "commit_sha": "56d24352df64289debdbbc65507e36215a175999",
-      "commit_date": "2026-07-17T11:50:23Z",
-      "commit_message": "Increase opacity of stone form"
+      "published_at": "2026-07-18T01:55:54Z",
+      "release_notes": "[2.23.0] Bump version",
+      "commit_sha": "9e4c4f59d48dc34b87912e517cfdb9fbb2267bfa",
+      "commit_date": "2026-07-18T01:55:54Z",
+      "commit_message": "[2.23.0] Bump version"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-18T02:01:30.448879+00:00",
+  "last_checked": "2026-07-18T07:41:18.451917+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.6.2",
-      "new_version": "v7.2.6.3",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "crutchalerts",
+      "old_version": "56d2435",
+      "new_version": "9e4c4f5",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.23.0] Bump version"
     }
   ]
 }

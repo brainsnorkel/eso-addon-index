@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-07-18T02:01:30.637470+00:00</updated>
+  <updated>2026-07-18T07:41:18.613457+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:9e4c4f5</id>
+    <title>CrutchAlerts updated: 56d2435 → 9e4c4f5</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-07-18T07:41:18.613457+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 56d2435 to 9e4c4f5.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:luiextended:v7.2.6.3</id>
     <title>LuiExtended updated: v7.2.6.2 → v7.2.6.3</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
     <updated>2026-05-31T18:25:14.055045+00:00</updated>
     <summary>LuiExtended has been updated from version v7.2.3.2 to v7.2.3.3.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:187db04</id>
-    <title>CrutchAlerts updated: 35e26a7 → 187db04</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-05-31T12:29:37.836886+00:00</updated>
-    <summary>CrutchAlerts has been updated from version 35e26a7 to 187db04.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
