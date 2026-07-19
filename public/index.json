@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:08:34.622875+00:00",
+  "generated_at": "2026-07-19T13:06:38.380884+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "e274d6d",
+        "version": "679ff03",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-07-12T11:48:49Z",
-        "commit_sha": "e274d6df07bbe778ee05ef3061209bd2bd904131",
-        "commit_date": "2026-07-12T11:48:49Z",
-        "commit_message": "Add `ST_ATLASICONPICKER` control type \u2013 pick a sprite from a texture atlas (#62)"
+        "published_at": "2026-07-19T11:44:14Z",
+        "commit_sha": "679ff032985f75d809ce08d62f94a36fccf53184",
+        "commit_date": "2026-07-19T11:44:14Z",
+        "commit_message": "version 2.2.0:"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add `ST_ATLASICONPICKER` control type \u2013 pick a sprite from a texture atlas (#62)"
+        "commit_message": "version 2.2.0:"
       },
-      "last_updated": "2026-07-12T11:48:49Z"
+      "last_updated": "2026-07-19T11:44:14Z"
     },
     {
       "slug": "libcustomnames",
