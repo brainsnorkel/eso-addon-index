@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-20T08:50:01.761944+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "9e4c4f5",
-      "new_version": "2e3b3b6",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Show portal number while active, fix flashing line in portal"
-    }
-  ]
+  "last_checked": "2026-07-20T13:56:25.238832+00:00",
+  "updates": []
 }
