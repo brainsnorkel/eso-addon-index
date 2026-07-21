@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-21T08:19:37.970994+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "2e3b3b6",
-      "new_version": "adab804",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add all language damageable for Blessed Crucible"
-    }
-  ]
+  "last_checked": "2026-07-21T13:28:27.916742+00:00",
+  "updates": []
 }
