@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "2e3b3b6",
+      "version": "adab804",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-20T01:06:00Z",
-      "release_notes": "Show portal number while active, fix flashing line in portal",
-      "commit_sha": "2e3b3b616e8b02e950e82b135c6fa271acfcde9b",
-      "commit_date": "2026-07-20T01:06:00Z",
-      "commit_message": "Show portal number while active, fix flashing line in portal"
+      "published_at": "2026-07-21T04:26:04Z",
+      "release_notes": "Add all language damageable for Blessed Crucible",
+      "commit_sha": "adab8045276e04499e297db86c2acb50d9f01191",
+      "commit_date": "2026-07-21T04:26:04Z",
+      "commit_message": "Add all language damageable for Blessed Crucible"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-21T02:11:48.544192+00:00",
-  "updates": []
+  "last_checked": "2026-07-21T08:19:37.970994+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "2e3b3b6",
+      "new_version": "adab804",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add all language damageable for Blessed Crucible"
+    }
+  ]
 }

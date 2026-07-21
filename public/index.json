@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-21T02:11:48.708895+00:00",
+  "generated_at": "2026-07-21T08:19:38.130445+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "2e3b3b6",
+        "version": "adab804",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-20T01:06:00Z",
-        "commit_sha": "2e3b3b616e8b02e950e82b135c6fa271acfcde9b",
-        "commit_date": "2026-07-20T01:06:00Z",
-        "commit_message": "Show portal number while active, fix flashing line in portal"
+        "published_at": "2026-07-21T04:26:04Z",
+        "commit_sha": "adab8045276e04499e297db86c2acb50d9f01191",
+        "commit_date": "2026-07-21T04:26:04Z",
+        "commit_message": "Add all language damageable for Blessed Crucible"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Show portal number while active, fix flashing line in portal"
+        "commit_message": "Add all language damageable for Blessed Crucible"
       },
-      "last_updated": "2026-07-20T01:06:00Z"
+      "last_updated": "2026-07-21T04:26:04Z"
     },
     {
       "slug": "elmsmarkers",
