@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T02:10:01.093838+00:00",
+  "generated_at": "2026-07-22T08:20:40.478603+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "adab804",
+        "version": "1941be1",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-21T04:26:04Z",
-        "commit_sha": "adab8045276e04499e297db86c2acb50d9f01191",
-        "commit_date": "2026-07-21T04:26:04Z",
-        "commit_message": "Add all language damageable for Blessed Crucible"
+        "published_at": "2026-07-22T04:19:57Z",
+        "commit_sha": "1941be11cc0dfcf0c874e2b45084c39bce0ccf7d",
+        "commit_date": "2026-07-22T04:19:57Z",
+        "commit_message": "Fix bus code"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add all language damageable for Blessed Crucible"
+        "commit_message": "Fix bus code"
       },
-      "last_updated": "2026-07-21T04:26:04Z"
+      "last_updated": "2026-07-22T04:19:57Z"
     },
     {
       "slug": "elmsmarkers",

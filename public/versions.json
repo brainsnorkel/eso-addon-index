@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "adab804",
+      "version": "1941be1",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-21T04:26:04Z",
-      "release_notes": "Add all language damageable for Blessed Crucible",
-      "commit_sha": "adab8045276e04499e297db86c2acb50d9f01191",
-      "commit_date": "2026-07-21T04:26:04Z",
-      "commit_message": "Add all language damageable for Blessed Crucible"
+      "published_at": "2026-07-22T04:19:57Z",
+      "release_notes": "Fix bus code",
+      "commit_sha": "1941be11cc0dfcf0c874e2b45084c39bce0ccf7d",
+      "commit_date": "2026-07-22T04:19:57Z",
+      "commit_message": "Fix bus code"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-22T02:10:00.924514+00:00",
-  "updates": []
+  "last_checked": "2026-07-22T08:20:40.348402+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "adab804",
+      "new_version": "1941be1",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix bus code"
+    }
+  ]
 }

@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T02:10:01.093838+00:00",
+  "generated_at": "2026-07-22T08:20:40.478603+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "adab804",
+      "new_version": "1941be1",
+      "published_at": "2026-07-22T04:19:57Z",
+      "detected_at": "2026-07-22T08:20:40.478603+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "c8eed24",
       "published_at": "2026-06-02T08:03:12Z",
       "detected_at": "2026-06-02T13:16:36.369708+00:00"
-    },
-    {
-      "slug": "beammeup",
-      "name": "BeamMeUp",
-      "url": "https://github.com/david-tub/BeamMeUp",
-      "old_version": "4.0.4.021",
-      "new_version": "4.0.4.023",
-      "published_at": "2026-06-01T21:13:44Z",
-      "detected_at": "2026-06-02T00:47:36.627112+00:00"
     }
   ]
 }
