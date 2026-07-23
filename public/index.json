@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-23T13:46:25.993991+00:00",
+  "generated_at": "2026-07-23T19:07:58.346222+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "e751750",
+        "version": "1913eb7",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-05-25T15:37:34Z",
-        "commit_sha": "e751750cfcc91987fb359d224e1972badf260ee7",
-        "commit_date": "2026-05-25T15:37:34Z",
-        "commit_message": "Bump version to 3.158a"
+        "published_at": "2026-07-23T15:45:12Z",
+        "commit_sha": "1913eb70613428e6a909f66847d7923e0cbf9a08",
+        "commit_date": "2026-07-23T15:45:12Z",
+        "commit_message": "Fix Fire Keeper stale stack and demote late-arriving minor buffs"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Bump version to 3.158a"
+        "commit_message": "Fix Fire Keeper stale stack and demote late-arriving minor buffs"
       },
-      "last_updated": "2026-05-25T15:37:34Z"
+      "last_updated": "2026-07-23T15:45:12Z"
     },
     {
       "slug": "aui",
