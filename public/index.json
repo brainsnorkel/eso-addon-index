@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-24T02:13:09.347281+00:00",
+  "generated_at": "2026-07-24T08:18:57.466426+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "f2efd10",
+        "version": "83e0104",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-24T01:57:03Z",
-        "commit_sha": "f2efd10373bdbd9a9fc0a946202e5ee4586e80f0",
-        "commit_date": "2026-07-24T01:57:03Z",
-        "commit_message": "Use common event in IA, BV, CA, SR"
+        "published_at": "2026-07-24T06:15:33Z",
+        "commit_sha": "83e0104f59710f121e9a976f76c5f037e7035ffd",
+        "commit_date": "2026-07-24T06:15:33Z",
+        "commit_message": "Probably fix titan hp lingering"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Use common event in IA, BV, CA, SR"
+        "commit_message": "Probably fix titan hp lingering"
       },
-      "last_updated": "2026-07-24T01:57:03Z"
+      "last_updated": "2026-07-24T06:15:33Z"
     },
     {
       "slug": "elmsmarkers",

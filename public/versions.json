@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "f2efd10",
+      "version": "83e0104",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-24T01:57:03Z",
-      "release_notes": "Use common event in IA, BV, CA, SR",
-      "commit_sha": "f2efd10373bdbd9a9fc0a946202e5ee4586e80f0",
-      "commit_date": "2026-07-24T01:57:03Z",
-      "commit_message": "Use common event in IA, BV, CA, SR"
+      "published_at": "2026-07-24T06:15:33Z",
+      "release_notes": "Probably fix titan hp lingering",
+      "commit_sha": "83e0104f59710f121e9a976f76c5f037e7035ffd",
+      "commit_date": "2026-07-24T06:15:33Z",
+      "commit_message": "Probably fix titan hp lingering"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-24T02:13:09.187771+00:00",
+  "last_checked": "2026-07-24T08:18:57.305311+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "d852c17",
-      "new_version": "f2efd10",
+      "old_version": "f2efd10",
+      "new_version": "83e0104",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Use common event in IA, BV, CA, SR"
+      "commit_message": "Probably fix titan hp lingering"
     }
   ]
 }
