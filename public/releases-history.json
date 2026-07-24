@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-23T19:07:58.346222+00:00",
+  "generated_at": "2026-07-24T02:13:09.347281+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "d852c17",
+      "new_version": "f2efd10",
+      "published_at": "2026-07-24T01:57:03Z",
+      "detected_at": "2026-07-24T02:13:09.347281+00:00"
+    },
     {
       "slug": "actiondurationreminder",
       "name": "Action Duration Reminder",
@@ -891,15 +900,6 @@
       "old_version": "c8eed24",
       "new_version": "5d3de65",
       "published_at": "2026-06-02T16:19:59Z",
-      "detected_at": "2026-06-03T19:20:18.238856+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.2.3.5",
-      "new_version": "v7.2.3.6",
-      "published_at": "2026-06-03T16:35:03Z",
       "detected_at": "2026-06-03T19:20:18.238856+00:00"
     }
   ]

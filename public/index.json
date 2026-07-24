@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-23T19:07:58.346222+00:00",
+  "generated_at": "2026-07-24T02:13:09.347281+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "d852c17",
+        "version": "f2efd10",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-23T02:49:22Z",
-        "commit_sha": "d852c1740c6da0bc39c09c91d3fe17e939cbf3f3",
-        "commit_date": "2026-07-23T02:49:22Z",
-        "commit_message": "Add untested CR mini spoof"
+        "published_at": "2026-07-24T01:57:03Z",
+        "commit_sha": "f2efd10373bdbd9a9fc0a946202e5ee4586e80f0",
+        "commit_date": "2026-07-24T01:57:03Z",
+        "commit_message": "Use common event in IA, BV, CA, SR"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add untested CR mini spoof"
+        "commit_message": "Use common event in IA, BV, CA, SR"
       },
-      "last_updated": "2026-07-23T02:49:22Z"
+      "last_updated": "2026-07-24T01:57:03Z"
     },
     {
       "slug": "elmsmarkers",
