@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "83e0104",
+      "version": "bb0159d",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-24T06:15:33Z",
-      "release_notes": "Probably fix titan hp lingering",
-      "commit_sha": "83e0104f59710f121e9a976f76c5f037e7035ffd",
-      "commit_date": "2026-07-24T06:15:33Z",
-      "commit_message": "Probably fix titan hp lingering"
+      "published_at": "2026-07-25T00:05:14Z",
+      "release_notes": "Add dmg language support for FL",
+      "commit_sha": "bb0159d5a4e8d043c7f61cdb3f410a6e1400637e",
+      "commit_date": "2026-07-25T00:05:14Z",
+      "commit_message": "Add dmg language support for FL"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-24T19:18:14.293842+00:00",
-  "updates": []
+  "last_checked": "2026-07-25T02:12:01.656410+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "83e0104",
+      "new_version": "bb0159d",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add dmg language support for FL"
+    }
+  ]
 }

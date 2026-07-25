@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-24T19:18:14.462398+00:00",
+  "generated_at": "2026-07-25T02:12:01.815554+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "83e0104",
+        "version": "bb0159d",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-24T06:15:33Z",
-        "commit_sha": "83e0104f59710f121e9a976f76c5f037e7035ffd",
-        "commit_date": "2026-07-24T06:15:33Z",
-        "commit_message": "Probably fix titan hp lingering"
+        "published_at": "2026-07-25T00:05:14Z",
+        "commit_sha": "bb0159d5a4e8d043c7f61cdb3f410a6e1400637e",
+        "commit_date": "2026-07-25T00:05:14Z",
+        "commit_message": "Add dmg language support for FL"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Probably fix titan hp lingering"
+        "commit_message": "Add dmg language support for FL"
       },
-      "last_updated": "2026-07-24T06:15:33Z"
+      "last_updated": "2026-07-25T00:05:14Z"
     },
     {
       "slug": "elmsmarkers",
