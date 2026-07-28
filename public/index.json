@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-28T02:05:50.168918+00:00",
+  "generated_at": "2026-07-28T08:26:04.724599+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "bb0159d",
+        "version": "d4f9549",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-25T00:05:14Z",
-        "commit_sha": "bb0159d5a4e8d043c7f61cdb3f410a6e1400637e",
-        "commit_date": "2026-07-25T00:05:14Z",
-        "commit_message": "Add dmg language support for FL"
+        "published_at": "2026-07-28T07:27:18Z",
+        "commit_sha": "d4f9549ed1ebe8565d5c7f78ddd0458dcd0fdcb4",
+        "commit_date": "2026-07-28T07:27:18Z",
+        "commit_message": "Sort of fix CR mini spoofing"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add dmg language support for FL"
+        "commit_message": "Sort of fix CR mini spoofing"
       },
-      "last_updated": "2026-07-25T00:05:14Z"
+      "last_updated": "2026-07-28T07:27:18Z"
     },
     {
       "slug": "elmsmarkers",

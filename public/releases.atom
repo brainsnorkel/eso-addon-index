@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-07-28T02:05:50.168918+00:00</updated>
+  <updated>2026-07-28T08:26:04.724599+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:d4f9549</id>
+    <title>CrutchAlerts updated: bb0159d → d4f9549</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-07-28T08:26:04.724599+00:00</updated>
+    <summary>CrutchAlerts has been updated from version bb0159d to d4f9549.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustomicons:2026-07-26</id>
     <title>LibCustomIcons updated: 2026-07-19 → 2026-07-26</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
     <updated>2026-06-06T07:05:24.192109+00:00</updated>
     <summary>CrutchAlerts has been updated from version 7da350d to 7db9a18.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:huntsmanwarmaskreminder:278ddaa</id>
-    <title>Huntsman Warmask Reminder updated: 5931983 → 278ddaa</title>
-    <link href="https://github.com/VollstaendigerName/HuntsmanWarmaskReminder" rel="alternate"/>
-    <updated>2026-06-06T00:42:59.230301+00:00</updated>
-    <summary>Huntsman Warmask Reminder has been updated from version 5931983 to 278ddaa.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

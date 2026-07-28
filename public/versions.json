@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "bb0159d",
+      "version": "d4f9549",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-25T00:05:14Z",
-      "release_notes": "Add dmg language support for FL",
-      "commit_sha": "bb0159d5a4e8d043c7f61cdb3f410a6e1400637e",
-      "commit_date": "2026-07-25T00:05:14Z",
-      "commit_message": "Add dmg language support for FL"
+      "published_at": "2026-07-28T07:27:18Z",
+      "release_notes": "Sort of fix CR mini spoofing",
+      "commit_sha": "d4f9549ed1ebe8565d5c7f78ddd0458dcd0fdcb4",
+      "commit_date": "2026-07-28T07:27:18Z",
+      "commit_message": "Sort of fix CR mini spoofing"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-28T02:05:50.010774+00:00",
-  "updates": []
+  "last_checked": "2026-07-28T08:26:04.601018+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "bb0159d",
+      "new_version": "d4f9549",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Sort of fix CR mini spoofing"
+    }
+  ]
 }
