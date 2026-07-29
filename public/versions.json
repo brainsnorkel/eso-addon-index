@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "d4f9549",
+      "version": "f631246",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-28T07:27:18Z",
-      "release_notes": "Sort of fix CR mini spoofing",
-      "commit_sha": "d4f9549ed1ebe8565d5c7f78ddd0458dcd0fdcb4",
-      "commit_date": "2026-07-28T07:27:18Z",
-      "commit_message": "Sort of fix CR mini spoofing"
+      "published_at": "2026-07-29T02:32:02Z",
+      "release_notes": "Add setting for lure of the sea sound",
+      "commit_sha": "f6312468d20e2ce750b822344f5cbc6f8519816b",
+      "commit_date": "2026-07-29T02:32:02Z",
+      "commit_message": "Add setting for lure of the sea sound"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-29T02:08:38.033397+00:00",
-  "updates": []
+  "last_checked": "2026-07-29T08:32:10.343722+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "d4f9549",
+      "new_version": "f631246",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add setting for lure of the sea sound"
+    }
+  ]
 }

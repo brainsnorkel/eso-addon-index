@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-29T02:08:38.191951+00:00",
+  "generated_at": "2026-07-29T08:32:10.751291+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "d4f9549",
+        "version": "f631246",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-28T07:27:18Z",
-        "commit_sha": "d4f9549ed1ebe8565d5c7f78ddd0458dcd0fdcb4",
-        "commit_date": "2026-07-28T07:27:18Z",
-        "commit_message": "Sort of fix CR mini spoofing"
+        "published_at": "2026-07-29T02:32:02Z",
+        "commit_sha": "f6312468d20e2ce750b822344f5cbc6f8519816b",
+        "commit_date": "2026-07-29T02:32:02Z",
+        "commit_message": "Add setting for lure of the sea sound"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Sort of fix CR mini spoofing"
+        "commit_message": "Add setting for lure of the sea sound"
       },
-      "last_updated": "2026-07-28T07:27:18Z"
+      "last_updated": "2026-07-29T02:32:02Z"
     },
     {
       "slug": "elmsmarkers",
@@ -1493,20 +1493,20 @@
         ]
       },
       "latest_release": {
-        "version": "r44",
-        "download_url": "https://github.com/sirinsidiator/ESO-LibAddonMenu/archive/refs/tags/r44.zip",
-        "published_at": "2026-05-13T19:53:48Z",
-        "commit_sha": "9aff84837d5478cb6044dc46960fa88097ac3bde"
+        "version": "r32",
+        "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
+        "published_at": "2020-12-17T20:09:33Z",
+        "commit_sha": "dcf47510012d269531b7554620199e36bf3dafcd"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/sirinsidiator/ESO-LibAddonMenu@r44/LibAddonMenu-2.0/",
+          "url": "https://cdn.jsdelivr.net/gh/sirinsidiator/ESO-LibAddonMenu@r32/LibAddonMenu-2.0/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu/archive/refs/tags/r44.zip",
+          "url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1516,7 +1516,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-05-13T19:53:48Z"
+      "last_updated": "2020-12-17T20:09:33Z"
     },
     {
       "slug": "libasync",
