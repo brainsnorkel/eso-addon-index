@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-28T19:15:49.500982+00:00",
+  "generated_at": "2026-07-29T02:08:38.191951+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1493,20 +1493,20 @@
         ]
       },
       "latest_release": {
-        "version": "r32",
-        "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
-        "published_at": "2020-12-17T20:09:33Z",
-        "commit_sha": "dcf47510012d269531b7554620199e36bf3dafcd"
+        "version": "r44",
+        "download_url": "https://github.com/sirinsidiator/ESO-LibAddonMenu/archive/refs/tags/r44.zip",
+        "published_at": "2026-05-13T19:53:48Z",
+        "commit_sha": "9aff84837d5478cb6044dc46960fa88097ac3bde"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/sirinsidiator/ESO-LibAddonMenu@r32/LibAddonMenu-2.0/",
+          "url": "https://cdn.jsdelivr.net/gh/sirinsidiator/ESO-LibAddonMenu@r44/LibAddonMenu-2.0/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
+          "url": "https://github.com/sirinsidiator/ESO-LibAddonMenu/archive/refs/tags/r44.zip",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1516,7 +1516,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2020-12-17T20:09:33Z"
+      "last_updated": "2026-05-13T19:53:48Z"
     },
     {
       "slug": "libasync",
