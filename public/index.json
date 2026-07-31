@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-31T02:23:20.777550+00:00",
+  "generated_at": "2026-07-31T08:42:32.128961+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "f631246",
+        "version": "7b37049",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-29T02:32:02Z",
-        "commit_sha": "f6312468d20e2ce750b822344f5cbc6f8519816b",
-        "commit_date": "2026-07-29T02:32:02Z",
-        "commit_message": "Add setting for lure of the sea sound"
+        "published_at": "2026-07-31T03:53:18Z",
+        "commit_sha": "7b370492d87db3e5da818c979f771d44ff9ecf75",
+        "commit_date": "2026-07-31T03:53:18Z",
+        "commit_message": "Start messy changes for CR mini spoof"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add setting for lure of the sea sound"
+        "commit_message": "Start messy changes for CR mini spoof"
       },
-      "last_updated": "2026-07-29T02:32:02Z"
+      "last_updated": "2026-07-31T03:53:18Z"
     },
     {
       "slug": "elmsmarkers",
