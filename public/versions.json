@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-31T08:42:31.972621+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "f631246",
-      "new_version": "7b37049",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Start messy changes for CR mini spoof"
-    }
-  ]
+  "last_checked": "2026-07-31T13:53:22.557888+00:00",
+  "updates": []
 }
