@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-31T19:17:18.672428+00:00",
+  "generated_at": "2026-08-01T02:24:33.805121+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "7b37049",
+        "version": "4753c17",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-07-31T03:53:18Z",
-        "commit_sha": "7b370492d87db3e5da818c979f771d44ff9ecf75",
-        "commit_date": "2026-07-31T03:53:18Z",
-        "commit_message": "Start messy changes for CR mini spoof"
+        "published_at": "2026-07-31T22:45:20Z",
+        "commit_sha": "4753c170957cfa21261bbbf1daa0b3b64b1f153f",
+        "commit_date": "2026-07-31T22:45:20Z",
+        "commit_message": "Fix bus code"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Start messy changes for CR mini spoof"
+        "commit_message": "Fix bus code"
       },
-      "last_updated": "2026-07-31T03:53:18Z"
+      "last_updated": "2026-07-31T22:45:20Z"
     },
     {
       "slug": "elmsmarkers",

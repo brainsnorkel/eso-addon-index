@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "7b37049",
+      "version": "4753c17",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-07-31T03:53:18Z",
-      "release_notes": "Start messy changes for CR mini spoof",
-      "commit_sha": "7b370492d87db3e5da818c979f771d44ff9ecf75",
-      "commit_date": "2026-07-31T03:53:18Z",
-      "commit_message": "Start messy changes for CR mini spoof"
+      "published_at": "2026-07-31T22:45:20Z",
+      "release_notes": "Fix bus code",
+      "commit_sha": "4753c170957cfa21261bbbf1daa0b3b64b1f153f",
+      "commit_date": "2026-07-31T22:45:20Z",
+      "commit_message": "Fix bus code"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-07-31T19:17:18.514075+00:00",
-  "updates": []
+  "last_checked": "2026-08-01T02:24:33.644728+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "7b37049",
+      "new_version": "4753c17",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix bus code"
+    }
+  ]
 }
