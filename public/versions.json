@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-01T02:24:33.644728+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "7b37049",
-      "new_version": "4753c17",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix bus code"
-    }
-  ]
+  "last_checked": "2026-08-01T08:13:00.953645+00:00",
+  "updates": []
 }
