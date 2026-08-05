@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-05T06:54:23.058878+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "e5e79bf",
-      "new_version": "b41232b",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Elevate death icon when grave is on"
-    }
-  ]
+  "last_checked": "2026-08-05T12:36:50.254094+00:00",
+  "updates": []
 }
