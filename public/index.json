@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-05T00:30:32.356568+00:00",
+  "generated_at": "2026-08-05T06:54:23.215723+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "e5e79bf",
+        "version": "b41232b",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-04T08:06:55Z",
-        "commit_sha": "e5e79bf2d792a0e616a723d0d91339c736c97a04",
-        "commit_date": "2026-08-04T08:06:55Z",
-        "commit_message": "Fix up more CR mini tracking"
+        "published_at": "2026-08-05T02:44:27Z",
+        "commit_sha": "b41232bd5cade36e651628e152a4cb9061602bc4",
+        "commit_date": "2026-08-05T02:44:27Z",
+        "commit_message": "Elevate death icon when grave is on"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix up more CR mini tracking"
+        "commit_message": "Elevate death icon when grave is on"
       },
-      "last_updated": "2026-08-04T08:06:55Z"
+      "last_updated": "2026-08-05T02:44:27Z"
     },
     {
       "slug": "elmsmarkers",

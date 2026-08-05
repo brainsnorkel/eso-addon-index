@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "e5e79bf",
+      "version": "b41232b",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-04T08:06:55Z",
-      "release_notes": "Fix up more CR mini tracking",
-      "commit_sha": "e5e79bf2d792a0e616a723d0d91339c736c97a04",
-      "commit_date": "2026-08-04T08:06:55Z",
-      "commit_message": "Fix up more CR mini tracking"
+      "published_at": "2026-08-05T02:44:27Z",
+      "release_notes": "Elevate death icon when grave is on",
+      "commit_sha": "b41232bd5cade36e651628e152a4cb9061602bc4",
+      "commit_date": "2026-08-05T02:44:27Z",
+      "commit_message": "Elevate death icon when grave is on"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-05T00:30:32.188387+00:00",
-  "updates": []
+  "last_checked": "2026-08-05T06:54:23.058878+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "e5e79bf",
+      "new_version": "b41232b",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Elevate death icon when grave is on"
+    }
+  ]
 }

@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-08-05T00:30:32.356568+00:00</updated>
+  <updated>2026-08-05T06:54:23.215723+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:b41232b</id>
+    <title>CrutchAlerts updated: e5e79bf → b41232b</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-08-05T06:54:23.215723+00:00</updated>
+    <summary>CrutchAlerts has been updated from version e5e79bf to b41232b.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:e5e79bf</id>
     <title>CrutchAlerts updated: 4753c17 → e5e79bf</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/Baertram/pChat" rel="alternate"/>
     <updated>2026-06-08T18:50:29.220194+00:00</updated>
     <summary>pChat has been updated from version baff4b8 to 3a433e3.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustommenu:2f2db96</id>
-    <title>LibCustomMenu updated: f770dc7 → 2f2db96</title>
-    <link href="https://github.com/votan73/ESO" rel="alternate"/>
-    <updated>2026-06-08T13:28:15.169993+00:00</updated>
-    <summary>LibCustomMenu has been updated from version f770dc7 to 2f2db96.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
