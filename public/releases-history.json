@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-06T00:27:05.796228+00:00",
+  "generated_at": "2026-08-06T06:54:46.325722+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "b41232b",
+      "new_version": "7ea7929",
+      "published_at": "2026-08-06T02:56:08Z",
+      "detected_at": "2026-08-06T06:54:46.325722+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -891,15 +900,6 @@
       "old_version": "v7.2.3.9",
       "new_version": "v7.2.4.1",
       "published_at": "2026-06-08T18:36:23Z",
-      "detected_at": "2026-06-08T18:50:29.220194+00:00"
-    },
-    {
-      "slug": "pchat",
-      "name": "pChat",
-      "url": "https://github.com/Baertram/pChat",
-      "old_version": "baff4b8",
-      "new_version": "3a433e3",
-      "published_at": "2026-06-08T15:44:43Z",
       "detected_at": "2026-06-08T18:50:29.220194+00:00"
     }
   ]

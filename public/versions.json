@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "b41232b",
+      "version": "7ea7929",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-05T02:44:27Z",
-      "release_notes": "Elevate death icon when grave is on",
-      "commit_sha": "b41232bd5cade36e651628e152a4cb9061602bc4",
-      "commit_date": "2026-08-05T02:44:27Z",
-      "commit_message": "Elevate death icon when grave is on"
+      "published_at": "2026-08-06T02:56:08Z",
+      "release_notes": "Clean up comments",
+      "commit_sha": "7ea7929365ba90aef07179097acf8c766b906b81",
+      "commit_date": "2026-08-06T02:56:08Z",
+      "commit_message": "Clean up comments"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-06T00:27:05.644829+00:00",
-  "updates": []
+  "last_checked": "2026-08-06T06:54:46.166939+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "b41232b",
+      "new_version": "7ea7929",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Clean up comments"
+    }
+  ]
 }
