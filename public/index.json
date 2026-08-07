@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-06T12:38:15.730713+00:00",
+  "generated_at": "2026-08-07T01:12:57.224494+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "7ea7929",
+        "version": "4523b9b",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-06T02:56:08Z",
-        "commit_sha": "7ea7929365ba90aef07179097acf8c766b906b81",
-        "commit_date": "2026-08-06T02:56:08Z",
-        "commit_message": "Clean up comments"
+        "published_at": "2026-08-06T15:02:56Z",
+        "commit_sha": "4523b9bbe63c31024cb0a17ad89937a549fb4182",
+        "commit_date": "2026-08-06T15:02:56Z",
+        "commit_message": "Clean up more TODOs"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Clean up comments"
+        "commit_message": "Clean up more TODOs"
       },
-      "last_updated": "2026-08-06T02:56:08Z"
+      "last_updated": "2026-08-06T15:02:56Z"
     },
     {
       "slug": "elmsmarkers",

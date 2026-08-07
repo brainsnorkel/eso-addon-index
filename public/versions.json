@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "7ea7929",
+      "version": "4523b9b",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-06T02:56:08Z",
-      "release_notes": "Clean up comments",
-      "commit_sha": "7ea7929365ba90aef07179097acf8c766b906b81",
-      "commit_date": "2026-08-06T02:56:08Z",
-      "commit_message": "Clean up comments"
+      "published_at": "2026-08-06T15:02:56Z",
+      "release_notes": "Clean up more TODOs",
+      "commit_sha": "4523b9bbe63c31024cb0a17ad89937a549fb4182",
+      "commit_date": "2026-08-06T15:02:56Z",
+      "commit_message": "Clean up more TODOs"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-06T12:38:15.575925+00:00",
-  "updates": []
+  "last_checked": "2026-08-07T01:12:57.056294+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "7ea7929",
+      "new_version": "4523b9b",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Clean up more TODOs"
+    }
+  ]
 }
