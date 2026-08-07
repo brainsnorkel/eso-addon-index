@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-07T12:16:22.025863+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "4523b9b",
-      "new_version": "9cc9007",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix bus code and lower dead icon with grave"
-    }
-  ]
+  "last_checked": "2026-08-07T18:16:32.978305+00:00",
+  "updates": []
 }
