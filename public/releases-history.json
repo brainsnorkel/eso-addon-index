@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-07T06:24:42.991685+00:00",
+  "generated_at": "2026-08-07T12:16:22.193038+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "4523b9b",
+      "new_version": "9cc9007",
+      "published_at": "2026-08-07T07:36:53Z",
+      "detected_at": "2026-08-07T12:16:22.193038+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "v7.2.4.2",
       "published_at": "2026-06-08T20:40:33Z",
       "detected_at": "2026-06-09T00:40:39.055573+00:00"
-    },
-    {
-      "slug": "libdebuglogger",
-      "name": "LibDebugLogger",
-      "url": "https://github.com/sirinsidiator/ESO-LibDebugLogger",
-      "old_version": "bbb1afb",
-      "new_version": "8ac0428",
-      "published_at": "2026-06-08T18:32:40Z",
-      "detected_at": "2026-06-08T18:50:29.220194+00:00"
     }
   ]
 }

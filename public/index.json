@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-07T06:24:42.991685+00:00",
+  "generated_at": "2026-08-07T12:16:22.193038+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "4523b9b",
+        "version": "9cc9007",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-06T15:02:56Z",
-        "commit_sha": "4523b9bbe63c31024cb0a17ad89937a549fb4182",
-        "commit_date": "2026-08-06T15:02:56Z",
-        "commit_message": "Clean up more TODOs"
+        "published_at": "2026-08-07T07:36:53Z",
+        "commit_sha": "9cc90076554416655cac69fc84d8888b673c45bb",
+        "commit_date": "2026-08-07T07:36:53Z",
+        "commit_message": "Fix bus code and lower dead icon with grave"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Clean up more TODOs"
+        "commit_message": "Fix bus code and lower dead icon with grave"
       },
-      "last_updated": "2026-08-06T15:02:56Z"
+      "last_updated": "2026-08-07T07:36:53Z"
     },
     {
       "slug": "elmsmarkers",
