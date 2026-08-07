@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-07T01:12:57.056294+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "7ea7929",
-      "new_version": "4523b9b",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Clean up more TODOs"
-    }
-  ]
+  "last_checked": "2026-08-07T06:24:42.834798+00:00",
+  "updates": []
 }
