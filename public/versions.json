@@ -79,13 +79,13 @@
       "commit_sha": "13f15e142ca3ad1b6cb9cab278b5bc73234e822f"
     },
     "crutchalerts": {
-      "version": "9cc9007",
+      "version": "ba5d0bc",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-07T07:36:53Z",
-      "release_notes": "Fix bus code and lower dead icon with grave",
-      "commit_sha": "9cc90076554416655cac69fc84d8888b673c45bb",
-      "commit_date": "2026-08-07T07:36:53Z",
-      "commit_message": "Fix bus code and lower dead icon with grave"
+      "published_at": "2026-08-09T00:58:02Z",
+      "release_notes": "Fix typo",
+      "commit_sha": "ba5d0bc4404c8159702a5f89d0e890509fcc019e",
+      "commit_date": "2026-08-09T00:58:02Z",
+      "commit_message": "Fix typo"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-09T00:15:43.430268+00:00",
-  "updates": []
+  "last_checked": "2026-08-09T06:15:41.190683+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "9cc9007",
+      "new_version": "ba5d0bc",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix typo"
+    }
+  ]
 }
