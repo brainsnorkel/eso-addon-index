@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-08-11T00:16:14.325020+00:00</updated>
+  <updated>2026-08-11T06:18:48.429120+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:1e46744</id>
+    <title>CrutchAlerts updated: ba5d0bc → 1e46744</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-08-11T06:18:48.429120+00:00</updated>
+    <summary>CrutchAlerts has been updated from version ba5d0bc to 1e46744.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:combatmetronome:1.7.5</id>
     <title>CombatMetronome updated: 1.7.4 → 1.7.5</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
     <updated>2026-06-11T00:46:25.486705+00:00</updated>
     <summary>LuiExtended has been updated from version v7.2.4.5 to v7.2.4.6.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:luiextended:v7.2.4.5</id>
-    <title>LuiExtended updated: v7.2.4.4 → v7.2.4.5</title>
-    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
-    <updated>2026-06-10T00:46:56.144473+00:00</updated>
-    <summary>LuiExtended has been updated from version v7.2.4.4 to v7.2.4.5.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
