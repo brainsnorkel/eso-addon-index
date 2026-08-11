@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-11T12:16:50.466780+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "1e46744",
-      "new_version": "da058ca",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Maybe fix mini bar and panel after Olms dies"
-    }
-  ]
+  "last_checked": "2026-08-11T18:18:00.364120+00:00",
+  "updates": []
 }
