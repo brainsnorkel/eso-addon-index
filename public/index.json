@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-11T18:18:00.533622+00:00",
+  "generated_at": "2026-08-12T00:20:42.677137+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2592,35 +2592,35 @@
         ]
       },
       "latest_release": {
-        "version": "v38",
-        "download_url": "https://github.com/Shadowfen/LibSFUtils/archive/refs/tags/v38.zip",
-        "published_at": "2021-12-05T20:52:15Z",
-        "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
+        "version": "version-69",
+        "download_url": "https://github.com/Shadowfen/LibSFUtils/archive/refs/tags/version-69.zip",
+        "published_at": "2026-02-18T23:42:06Z",
+        "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/Shadowfen/LibSFUtils@v38/",
+          "url": "https://cdn.jsdelivr.net/gh/Shadowfen/LibSFUtils@version-69/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://github.com/Shadowfen/LibSFUtils/archive/refs/tags/v38.zip",
+          "url": "https://github.com/Shadowfen/LibSFUtils/archive/refs/tags/version-69.zip",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
-          "major": 38,
+          "major": 69,
           "minor": 0,
           "patch": 0,
           "prerelease": null
         },
-        "version_sort_key": 38000000000,
+        "version_sort_key": 69000000000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2021-12-05T20:52:15Z"
+      "last_updated": "2026-02-18T23:42:06Z"
     },
     {
       "slug": "luiextended",

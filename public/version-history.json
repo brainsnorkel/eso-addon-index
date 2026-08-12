@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-11T18:18:00.533622+00:00",
+  "generated_at": "2026-08-12T00:20:42.677137+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -2706,6 +2706,12 @@
       }
     ],
     "libsfutils": [
+      {
+        "version": "version-69",
+        "published_at": "2026-02-18T23:42:06Z",
+        "detected_at": "2026-08-12T00:20:42.677137+00:00",
+        "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
+      },
       {
         "version": "v38",
         "published_at": "2021-12-05T20:52:15Z",

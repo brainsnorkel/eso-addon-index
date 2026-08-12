@@ -266,11 +266,11 @@
       "commit_message": "LibSets v0.9.3"
     },
     "libsfutils": {
-      "version": "v38",
-      "download_url": "https://github.com/Shadowfen/LibSFUtils/archive/refs/tags/v38.zip",
-      "published_at": "2021-12-05T20:52:15Z",
+      "version": "version-69",
+      "download_url": "https://github.com/Shadowfen/LibSFUtils/archive/refs/tags/version-69.zip",
+      "published_at": "2026-02-18T23:42:06Z",
       "release_notes": null,
-      "commit_sha": "519625c003f72d8455ced3fec0bb7d66d972750d"
+      "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
       "version": "v7.2.6.3",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-11T18:18:00.364120+00:00",
-  "updates": []
+  "last_checked": "2026-08-12T00:20:42.523592+00:00",
+  "updates": [
+    {
+      "slug": "libsfutils",
+      "old_version": "v38",
+      "new_version": "version-69",
+      "repo": "Shadowfen/LibSFUtils"
+    }
+  ]
 }
