@@ -324,13 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-12T00:20:42.523592+00:00",
-  "updates": [
-    {
-      "slug": "libsfutils",
-      "old_version": "v38",
-      "new_version": "version-69",
-      "repo": "Shadowfen/LibSFUtils"
-    }
-  ]
+  "last_checked": "2026-08-12T06:29:34.316230+00:00",
+  "updates": []
 }
