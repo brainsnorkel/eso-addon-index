@@ -657,7 +657,7 @@
       "id": "libsetdetection",
       "title": "LibSetDetection Version-5.0",
       "url": "https://github.com/exoy94/LibSetDetection",
-      "date_published": null,
+      "date_published": "2026-06-24T11:35:40Z",
       "date_modified": "2026-06-24T11:35:40Z",
       "authors": [
         {
@@ -692,10 +692,10 @@
     },
     {
       "id": "libsfutils",
-      "title": "LibSFUtils",
+      "title": "LibSFUtils version-69",
       "url": "https://github.com/Shadowfen/LibSFUtils",
-      "date_published": null,
-      "date_modified": "2026-08-12T06:29:34.470258+00:00",
+      "date_published": "2026-02-18T23:42:06Z",
+      "date_modified": "2026-02-18T23:42:06Z",
       "authors": [
         {
           "name": "Shadowfen"
@@ -868,10 +868,10 @@
     },
     {
       "id": "wizards-wardrobe",
-      "title": "Wizard's Wardrobe",
+      "title": "Wizard's Wardrobe v1.18.2",
       "url": "https://github.com/nicokimmel/wizardswardrobe",
-      "date_published": null,
-      "date_modified": "2026-08-12T06:29:34.470258+00:00",
+      "date_published": "2024-05-15T13:50:16Z",
+      "date_modified": "2024-05-15T13:50:16Z",
       "authors": [
         {
           "name": "ownedbynico"
