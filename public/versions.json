@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-15T12:05:04.775965+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "da058ca",
-      "new_version": "7312d92",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Iteratively determine font size for grave"
-    }
-  ]
+  "last_checked": "2026-08-15T18:04:00.591797+00:00",
+  "updates": []
 }
