@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-16T06:07:49.573019+00:00",
+  "generated_at": "2026-08-16T12:05:14.026361+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -2620,6 +2620,12 @@
       }
     ],
     "combatmetronome": [
+      {
+        "version": "1.7.6",
+        "published_at": "2026-08-16T10:21:21Z",
+        "detected_at": "2026-08-16T12:05:14.026361+00:00",
+        "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
+      },
       {
         "version": "1.7.5",
         "published_at": "2026-08-10T15:36:46Z",

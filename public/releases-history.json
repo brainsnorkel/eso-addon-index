@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-16T06:07:49.573019+00:00",
+  "generated_at": "2026-08-16T12:05:14.026361+00:00",
   "events": [
+    {
+      "slug": "combatmetronome",
+      "name": "CombatMetronome",
+      "url": "https://github.com/barny22/CombatMetronome",
+      "old_version": "1.7.5",
+      "new_version": "1.7.6",
+      "published_at": "2026-08-16T10:21:21Z",
+      "detected_at": "2026-08-16T12:05:14.026361+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -891,15 +900,6 @@
       "old_version": "2026-06-07",
       "new_version": "2026-06-14",
       "published_at": "2026-06-14T23:37:28Z",
-      "detected_at": "2026-06-15T00:49:24.090636+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-06-07",
-      "new_version": "2026-06-14",
-      "published_at": "2026-06-14T23:36:57Z",
       "detected_at": "2026-06-15T00:49:24.090636+00:00"
     }
   ]
