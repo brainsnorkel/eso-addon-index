@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-15T18:04:00.742458+00:00",
+  "generated_at": "2026-08-16T00:11:22.004349+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "7312d92",
+        "version": "963607e",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-15T07:52:53Z",
-        "commit_sha": "7312d92ab001e383492cc39c55527bc6036492ff",
-        "commit_date": "2026-08-15T07:52:53Z",
-        "commit_message": "Iteratively determine font size for grave"
+        "published_at": "2026-08-15T20:12:32Z",
+        "commit_sha": "963607edf3aa43e1cf6bced3c28b1938e13d3525",
+        "commit_date": "2026-08-15T20:12:32Z",
+        "commit_message": "Only enable involuntary grave if depth buffers are on"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Iteratively determine font size for grave"
+        "commit_message": "Only enable involuntary grave if depth buffers are on"
       },
-      "last_updated": "2026-08-15T07:52:53Z"
+      "last_updated": "2026-08-15T20:12:32Z"
     },
     {
       "slug": "elmsmarkers",
