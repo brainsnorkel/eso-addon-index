@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-16T00:11:21.853438+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "7312d92",
-      "new_version": "963607e",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Only enable involuntary grave if depth buffers are on"
-    }
-  ]
+  "last_checked": "2026-08-16T06:07:49.444231+00:00",
+  "updates": []
 }
