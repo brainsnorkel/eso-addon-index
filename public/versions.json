@@ -324,13 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-16T12:05:13.868639+00:00",
-  "updates": [
-    {
-      "slug": "combatmetronome",
-      "old_version": "1.7.5",
-      "new_version": "1.7.6",
-      "repo": "barny22/CombatMetronome"
-    }
-  ]
+  "last_checked": "2026-08-16T18:04:12.964403+00:00",
+  "updates": []
 }
