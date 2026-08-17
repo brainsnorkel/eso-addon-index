@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-16T18:04:13.134365+00:00",
+  "generated_at": "2026-08-17T00:09:53.353407+00:00",
   "events": [
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2026-08-09",
+      "new_version": "2026-08-16",
+      "published_at": "2026-08-16T22:35:30Z",
+      "detected_at": "2026-08-17T00:09:53.353407+00:00"
+    },
     {
       "slug": "combatmetronome",
       "name": "CombatMetronome",
@@ -892,15 +901,6 @@
       "new_version": "83ba6ef",
       "published_at": "2026-06-15T12:32:42Z",
       "detected_at": "2026-06-15T14:07:18.802933+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-06-07",
-      "new_version": "2026-06-14",
-      "published_at": "2026-06-14T23:37:28Z",
-      "detected_at": "2026-06-15T00:49:24.090636+00:00"
     }
   ]
 }
