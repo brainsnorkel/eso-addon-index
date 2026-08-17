@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-17T12:06:48.956217+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "963607e",
-      "new_version": "ec81872",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "[2.24.0] Bump version and sync ACACUC"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-08-09",
-      "new_version": "2026-08-17",
-      "repo": "m00nyONE/LibCustomNames"
-    }
-  ]
+  "last_checked": "2026-08-17T18:08:15.325262+00:00",
+  "updates": []
 }
