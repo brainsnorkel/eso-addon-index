@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-18T12:07:55.027545+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "ec81872",
-      "new_version": "921d87f",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Start adding solo dungeon stuff"
-    }
-  ]
+  "last_checked": "2026-08-18T18:07:54.411869+00:00",
+  "updates": []
 }
