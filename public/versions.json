@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "ec81872",
+      "version": "921d87f",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-17T07:21:07Z",
-      "release_notes": "[2.24.0] Bump version and sync ACACUC",
-      "commit_sha": "ec81872bcf135711bff01e4300db5014d01940a9",
-      "commit_date": "2026-08-17T07:21:07Z",
-      "commit_message": "[2.24.0] Bump version and sync ACACUC"
+      "published_at": "2026-08-18T07:10:58Z",
+      "release_notes": "Start adding solo dungeon stuff",
+      "commit_sha": "921d87fbaa43831452a4a853a6f8f414354585b4",
+      "commit_date": "2026-08-18T07:10:58Z",
+      "commit_message": "Start adding solo dungeon stuff"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-18T06:08:36.557915+00:00",
-  "updates": []
+  "last_checked": "2026-08-18T12:07:55.027545+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "ec81872",
+      "new_version": "921d87f",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Start adding solo dungeon stuff"
+    }
+  ]
 }
