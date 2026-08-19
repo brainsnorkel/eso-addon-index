@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-08-19T00:10:12.923887+00:00</updated>
+  <updated>2026-08-19T06:09:20.900965+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:2a2b6eb</id>
+    <title>CrutchAlerts updated: 921d87f → 2a2b6eb</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-08-19T06:09:20.900965+00:00</updated>
+    <summary>CrutchAlerts has been updated from version 921d87f to 2a2b6eb.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:921d87f</id>
     <title>CrutchAlerts updated: ec81872 → 921d87f</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/M0RGaming/M0RMarkers" rel="alternate"/>
     <updated>2026-06-17T07:51:16.851450+00:00</updated>
     <summary>M0RMarkers has been updated from version v2.1.0 to v2.1.1.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:luiextended:v7.2.4.7</id>
-    <title>LuiExtended updated: v7.2.4.6 → v7.2.4.7</title>
-    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
-    <updated>2026-06-17T00:48:52.903952+00:00</updated>
-    <summary>LuiExtended has been updated from version v7.2.4.6 to v7.2.4.7.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "921d87f",
+      "version": "2a2b6eb",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-18T07:10:58Z",
-      "release_notes": "Start adding solo dungeon stuff",
-      "commit_sha": "921d87fbaa43831452a4a853a6f8f414354585b4",
-      "commit_date": "2026-08-18T07:10:58Z",
-      "commit_message": "Start adding solo dungeon stuff"
+      "published_at": "2026-08-19T06:05:51Z",
+      "release_notes": "Probably fix installation wide init aaaaaaaaaaa metatables",
+      "commit_sha": "2a2b6eb041a8ee59a1458461fb0af9c5703ad48b",
+      "commit_date": "2026-08-19T06:05:51Z",
+      "commit_message": "Probably fix installation wide init aaaaaaaaaaa metatables"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-19T00:10:12.766126+00:00",
-  "updates": []
+  "last_checked": "2026-08-19T06:09:20.742028+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "921d87f",
+      "new_version": "2a2b6eb",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Probably fix installation wide init aaaaaaaaaaa metatables"
+    }
+  ]
 }
