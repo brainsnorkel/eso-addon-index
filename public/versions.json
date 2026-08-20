@@ -279,9 +279,9 @@
       "release_notes": "## Version 7.2.6.3\r\n\r\n### New\r\n\r\n- Chat Announcements: Display Announcements for Dynamic Encounters (PC and console). Separate chat, center-screen, and alert toggles for Vampire Hunt, Flowervine Farm, Bilsa's Delivery, and Misc.\r\n\r\n### Fixed\r\n\r\n- SpellCastBuffs: Adding any **Off Balance** ability id (or the canonical name) to **Prominent Debuffs** now tracks all Off Balance variants and Off Balance Immunity. Profiles that never received the default Off Balance prominent entry are seeded once on "
     },
     "m0rmarkers": {
-      "version": "v2.2.1",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.2.1",
-      "published_at": "2026-07-12T04:35:50Z",
+      "version": "v2.2.2-beta2",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.2.2-beta2",
+      "published_at": "2026-08-19T20:53:43Z",
       "release_notes": "----- 2.2.1 -----\n(minor) Forgot to remove a debug script, removed it now. Whoops\n\n"
     },
     "odysupporticons": {
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-19T18:06:28.423538+00:00",
-  "updates": []
+  "last_checked": "2026-08-20T00:11:00.356262+00:00",
+  "updates": [
+    {
+      "slug": "m0rmarkers",
+      "old_version": "v2.2.1",
+      "new_version": "v2.2.2-beta2",
+      "repo": "M0RGaming/M0RMarkers"
+    }
+  ]
 }

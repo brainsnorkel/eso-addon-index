@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-19T18:06:28.587263+00:00",
+  "generated_at": "2026-08-20T00:11:00.535555+00:00",
   "events": [
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "old_version": "v2.2.1",
+      "new_version": "v2.2.2-beta2",
+      "published_at": "2026-08-19T20:53:43Z",
+      "detected_at": "2026-08-20T00:11:00.535555+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "v7.2.4.8",
       "published_at": "2026-06-17T10:47:50Z",
       "detected_at": "2026-06-17T13:15:51.455865+00:00"
-    },
-    {
-      "slug": "m0rmarkers",
-      "name": "M0RMarkers",
-      "url": "https://github.com/M0RGaming/M0RMarkers",
-      "old_version": "v2.1.0",
-      "new_version": "v2.1.1",
-      "published_at": "2026-06-17T04:44:11Z",
-      "detected_at": "2026-06-17T07:51:16.851450+00:00"
     }
   ]
 }
