@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "2a2b6eb",
+      "version": "ad89df7",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-19T06:05:51Z",
-      "release_notes": "Probably fix installation wide init aaaaaaaaaaa metatables",
-      "commit_sha": "2a2b6eb041a8ee59a1458461fb0af9c5703ad48b",
-      "commit_date": "2026-08-19T06:05:51Z",
-      "commit_message": "Probably fix installation wide init aaaaaaaaaaa metatables"
+      "published_at": "2026-08-20T03:41:40Z",
+      "release_notes": "Fix y animation",
+      "commit_sha": "ad89df7b5829afab6f68d0ed891058a7ee8f33b7",
+      "commit_date": "2026-08-20T03:41:40Z",
+      "commit_message": "Fix y animation"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,13 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-20T00:11:00.356262+00:00",
+  "last_checked": "2026-08-20T06:09:02.965020+00:00",
   "updates": [
     {
-      "slug": "m0rmarkers",
-      "old_version": "v2.2.1",
-      "new_version": "v2.2.2-beta2",
-      "repo": "M0RGaming/M0RMarkers"
+      "slug": "crutchalerts",
+      "old_version": "2a2b6eb",
+      "new_version": "ad89df7",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix y animation"
     }
   ]
 }

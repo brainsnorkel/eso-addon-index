@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-20T00:11:00.535555+00:00",
+  "generated_at": "2026-08-20T06:09:03.128568+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "2a2b6eb",
+        "version": "ad89df7",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-19T06:05:51Z",
-        "commit_sha": "2a2b6eb041a8ee59a1458461fb0af9c5703ad48b",
-        "commit_date": "2026-08-19T06:05:51Z",
-        "commit_message": "Probably fix installation wide init aaaaaaaaaaa metatables"
+        "published_at": "2026-08-20T03:41:40Z",
+        "commit_sha": "ad89df7b5829afab6f68d0ed891058a7ee8f33b7",
+        "commit_date": "2026-08-20T03:41:40Z",
+        "commit_message": "Fix y animation"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Probably fix installation wide init aaaaaaaaaaa metatables"
+        "commit_message": "Fix y animation"
       },
-      "last_updated": "2026-08-19T06:05:51Z"
+      "last_updated": "2026-08-20T03:41:40Z"
     },
     {
       "slug": "elmsmarkers",
