@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "9f292de",
+      "version": "5614fda",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-21T04:26:52Z",
-      "release_notes": "Fix x animation",
-      "commit_sha": "9f292de97c844f34cf4493fc8625090938f14aea",
-      "commit_date": "2026-08-21T04:26:52Z",
-      "commit_message": "Fix x animation"
+      "published_at": "2026-08-24T10:15:58Z",
+      "release_notes": "Add Insatiable Hunger channel",
+      "commit_sha": "5614fdabce670dea71974bb57869e79319f21345",
+      "commit_date": "2026-08-24T10:15:58Z",
+      "commit_message": "Add Insatiable Hunger channel"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-24T06:13:31.825519+00:00",
-  "updates": []
+  "last_checked": "2026-08-24T12:08:23.278807+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "9f292de",
+      "new_version": "5614fda",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add Insatiable Hunger channel"
+    }
+  ]
 }
