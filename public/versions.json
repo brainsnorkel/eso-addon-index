@@ -188,13 +188,13 @@
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
-      "version": "679ff03",
+      "version": "d38f9bd",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-07-19T11:44:14Z",
-      "release_notes": "version 2.2.0:",
-      "commit_sha": "679ff032985f75d809ce08d62f94a36fccf53184",
-      "commit_date": "2026-07-19T11:44:14Z",
-      "commit_message": "version 2.2.0:"
+      "published_at": "2026-08-24T17:36:39Z",
+      "release_notes": "feat: update alchemy data for update 51. (#63)",
+      "commit_sha": "d38f9bdf01f7a09477654337732b7fa0fcbb5bb5",
+      "commit_date": "2026-08-24T17:36:39Z",
+      "commit_message": "feat: update alchemy data for update 51. (#63)"
     },
     "libcustomnames": {
       "version": "2026-08-23",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-24T12:08:23.278807+00:00",
+  "last_checked": "2026-08-24T18:08:20.699852+00:00",
   "updates": [
     {
-      "slug": "crutchalerts",
-      "old_version": "9f292de",
-      "new_version": "5614fda",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add Insatiable Hunger channel"
+      "slug": "libcustommenu",
+      "old_version": "679ff03",
+      "new_version": "d38f9bd",
+      "repo": "votan73/ESO",
+      "commit_message": "feat: update alchemy data for update 51. (#63)"
     }
   ]
 }

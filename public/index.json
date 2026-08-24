@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-24T12:08:23.449359+00:00",
+  "generated_at": "2026-08-24T18:08:20.871058+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "679ff03",
+        "version": "d38f9bd",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-07-19T11:44:14Z",
-        "commit_sha": "679ff032985f75d809ce08d62f94a36fccf53184",
-        "commit_date": "2026-07-19T11:44:14Z",
-        "commit_message": "version 2.2.0:"
+        "published_at": "2026-08-24T17:36:39Z",
+        "commit_sha": "d38f9bdf01f7a09477654337732b7fa0fcbb5bb5",
+        "commit_date": "2026-08-24T17:36:39Z",
+        "commit_message": "feat: update alchemy data for update 51. (#63)"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "version 2.2.0:"
+        "commit_message": "feat: update alchemy data for update 51. (#63)"
       },
-      "last_updated": "2026-07-19T11:44:14Z"
+      "last_updated": "2026-08-24T17:36:39Z"
     },
     {
       "slug": "libcustomnames",
