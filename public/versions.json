@@ -197,9 +197,9 @@
       "commit_message": "version 2.2.0:"
     },
     "libcustomnames": {
-      "version": "2026-08-17",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-08-17",
-      "published_at": "2026-08-17T09:26:12Z",
+      "version": "2026-08-23",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-08-23",
+      "published_at": "2026-08-23T22:36:40Z",
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libdebuglogger": {
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-23T18:04:41.066028+00:00",
-  "updates": []
+  "last_checked": "2026-08-24T00:10:47.478302+00:00",
+  "updates": [
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-08-17",
+      "new_version": "2026-08-23",
+      "repo": "m00nyONE/LibCustomNames"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-23T18:04:41.226704+00:00",
+  "generated_at": "2026-08-24T00:10:47.642878+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1937,20 +1937,20 @@
         ]
       },
       "latest_release": {
-        "version": "2026-08-17",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-08-17",
-        "published_at": "2026-08-17T09:26:12Z",
-        "commit_sha": "997c7f8c302f7129cec166a00947f95c50e7d341"
+        "version": "2026-08-23",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-08-23",
+        "published_at": "2026-08-23T22:36:40Z",
+        "commit_sha": "4d45fa259302a01499a1a09c22efae5df9355626"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-08-17/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-08-23/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-08-17",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-08-23",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1958,14 +1958,14 @@
         "version_normalized": {
           "major": 2026,
           "minor": 8,
-          "patch": 17,
+          "patch": 23,
           "prerelease": null
         },
-        "version_sort_key": 2026008017000,
+        "version_sort_key": 2026008023000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-08-17T09:26:12Z"
+      "last_updated": "2026-08-23T22:36:40Z"
     },
     {
       "slug": "libdebuglogger",

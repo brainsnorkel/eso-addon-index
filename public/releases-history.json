@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-23T18:04:41.226704+00:00",
+  "generated_at": "2026-08-24T00:10:47.642878+00:00",
   "events": [
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2026-08-17",
+      "new_version": "2026-08-23",
+      "published_at": "2026-08-23T22:36:40Z",
+      "detected_at": "2026-08-24T00:10:47.642878+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "v7.2.5.0",
       "published_at": "2026-06-19T05:37:20Z",
       "detected_at": "2026-06-19T07:53:09.649626+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "d561a9c",
-      "new_version": "984ef80",
-      "published_at": "2026-06-18T06:43:23Z",
-      "detected_at": "2026-06-18T07:41:53.594028+00:00"
     }
   ]
 }
