@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-25T06:09:46.907847+00:00",
+  "generated_at": "2026-08-25T12:08:57.790222+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "5614fda",
+      "new_version": "d04c3cb",
+      "published_at": "2026-08-25T08:08:24Z",
+      "detected_at": "2026-08-25T12:08:57.790222+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
@@ -891,15 +900,6 @@
       "old_version": "12ce737",
       "new_version": "46adb90",
       "published_at": "2026-06-19T22:33:14Z",
-      "detected_at": "2026-06-20T00:44:28.436398+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.2.5.0",
-      "new_version": "v7.2.5.1",
-      "published_at": "2026-06-20T00:18:08Z",
       "detected_at": "2026-06-20T00:44:28.436398+00:00"
     }
   ]
