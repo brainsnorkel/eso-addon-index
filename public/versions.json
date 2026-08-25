@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-25T12:08:57.616603+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "5614fda",
-      "new_version": "d04c3cb",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add all language damageable for MoS"
-    }
-  ]
+  "last_checked": "2026-08-25T18:08:42.584891+00:00",
+  "updates": []
 }
