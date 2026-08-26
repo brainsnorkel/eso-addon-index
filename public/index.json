@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-26T00:11:27.567636+00:00",
+  "generated_at": "2026-08-26T06:10:28.015931+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "d04c3cb",
+        "version": "a371c2f",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-25T08:08:24Z",
-        "commit_sha": "d04c3cb6f54fb87e98ef5e81e4a5416c8ac685c0",
-        "commit_date": "2026-08-25T08:08:24Z",
-        "commit_message": "Add all language damageable for MoS"
+        "published_at": "2026-08-26T02:45:22Z",
+        "commit_sha": "a371c2f0081dec7639100cc9dc084c14c07eefbc",
+        "commit_date": "2026-08-26T02:45:22Z",
+        "commit_message": "Probably fix enfeeblement refresh when icons aren't enabled"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add all language damageable for MoS"
+        "commit_message": "Probably fix enfeeblement refresh when icons aren't enabled"
       },
-      "last_updated": "2026-08-25T08:08:24Z"
+      "last_updated": "2026-08-26T02:45:22Z"
     },
     {
       "slug": "elmsmarkers",

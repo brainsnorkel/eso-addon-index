@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "d04c3cb",
+      "version": "a371c2f",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-25T08:08:24Z",
-      "release_notes": "Add all language damageable for MoS",
-      "commit_sha": "d04c3cb6f54fb87e98ef5e81e4a5416c8ac685c0",
-      "commit_date": "2026-08-25T08:08:24Z",
-      "commit_message": "Add all language damageable for MoS"
+      "published_at": "2026-08-26T02:45:22Z",
+      "release_notes": "Probably fix enfeeblement refresh when icons aren't enabled",
+      "commit_sha": "a371c2f0081dec7639100cc9dc084c14c07eefbc",
+      "commit_date": "2026-08-26T02:45:22Z",
+      "commit_message": "Probably fix enfeeblement refresh when icons aren't enabled"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-26T00:11:27.406504+00:00",
-  "updates": []
+  "last_checked": "2026-08-26T06:10:27.855973+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "d04c3cb",
+      "new_version": "a371c2f",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Probably fix enfeeblement refresh when icons aren't enabled"
+    }
+  ]
 }
