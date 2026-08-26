@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-26T12:09:01.041686+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "a371c2f",
-      "new_version": "228a589",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Adjust nMHK thresholds"
-    }
-  ]
+  "last_checked": "2026-08-26T18:37:39.045170+00:00",
+  "updates": []
 }
