@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "a371c2f",
+      "version": "228a589",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-26T02:45:22Z",
-      "release_notes": "Probably fix enfeeblement refresh when icons aren't enabled",
-      "commit_sha": "a371c2f0081dec7639100cc9dc084c14c07eefbc",
-      "commit_date": "2026-08-26T02:45:22Z",
-      "commit_message": "Probably fix enfeeblement refresh when icons aren't enabled"
+      "published_at": "2026-08-26T07:46:34Z",
+      "release_notes": "Adjust nMHK thresholds",
+      "commit_sha": "228a589d18c496332b79dd2693d08207dfd3d4f5",
+      "commit_date": "2026-08-26T07:46:34Z",
+      "commit_message": "Adjust nMHK thresholds"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-26T06:10:27.855973+00:00",
+  "last_checked": "2026-08-26T12:09:01.041686+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "d04c3cb",
-      "new_version": "a371c2f",
+      "old_version": "a371c2f",
+      "new_version": "228a589",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Probably fix enfeeblement refresh when icons aren't enabled"
+      "commit_message": "Adjust nMHK thresholds"
     }
   ]
 }
