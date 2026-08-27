@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-27T01:27:31.011537+00:00",
+  "generated_at": "2026-08-27T09:05:30.791611+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "45e248e",
+        "version": "eb69c7b",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-27T00:17:59Z",
-        "commit_sha": "45e248ef9c6592cb4e761405f4a2fef3eef46b13",
-        "commit_date": "2026-08-27T00:17:59Z",
-        "commit_message": "Add setting for True Shot on others"
+        "published_at": "2026-08-27T06:37:19Z",
+        "commit_sha": "eb69c7b576b6d132ac84ee34a5078318a2e80472",
+        "commit_date": "2026-08-27T06:37:19Z",
+        "commit_message": "Update ACACUC"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add setting for True Shot on others"
+        "commit_message": "Update ACACUC"
       },
-      "last_updated": "2026-08-27T00:17:59Z"
+      "last_updated": "2026-08-27T06:37:19Z"
     },
     {
       "slug": "elmsmarkers",

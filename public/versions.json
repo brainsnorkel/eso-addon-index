@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "45e248e",
+      "version": "eb69c7b",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-27T00:17:59Z",
-      "release_notes": "Add setting for True Shot on others",
-      "commit_sha": "45e248ef9c6592cb4e761405f4a2fef3eef46b13",
-      "commit_date": "2026-08-27T00:17:59Z",
-      "commit_message": "Add setting for True Shot on others"
+      "published_at": "2026-08-27T06:37:19Z",
+      "release_notes": "Update ACACUC",
+      "commit_sha": "eb69c7b576b6d132ac84ee34a5078318a2e80472",
+      "commit_date": "2026-08-27T06:37:19Z",
+      "commit_message": "Update ACACUC"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-27T01:27:30.846611+00:00",
+  "last_checked": "2026-08-27T09:05:30.630611+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "228a589",
-      "new_version": "45e248e",
+      "old_version": "45e248e",
+      "new_version": "eb69c7b",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add setting for True Shot on others"
+      "commit_message": "Update ACACUC"
     }
   ]
 }
