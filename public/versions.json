@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "eb69c7b",
+      "version": "d8a7c7e",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-27T06:37:19Z",
-      "release_notes": "Update ACACUC",
-      "commit_sha": "eb69c7b576b6d132ac84ee34a5078318a2e80472",
-      "commit_date": "2026-08-27T06:37:19Z",
-      "commit_message": "Update ACACUC"
+      "published_at": "2026-08-28T01:47:22Z",
+      "release_notes": "Think about redoing core",
+      "commit_sha": "d8a7c7ebee62878c2e5ba7072b349f63f4cb6f24",
+      "commit_date": "2026-08-28T01:47:22Z",
+      "commit_message": "Think about redoing core"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-27T21:12:04.503678+00:00",
-  "updates": []
+  "last_checked": "2026-08-28T02:49:22.253613+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "eb69c7b",
+      "new_version": "d8a7c7e",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Think about redoing core"
+    }
+  ]
 }
