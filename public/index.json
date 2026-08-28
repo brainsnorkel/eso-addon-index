@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-28T02:49:22.416613+00:00",
+  "generated_at": "2026-08-28T09:09:27.534931+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "d8a7c7e",
+        "version": "b0deb43",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-28T01:47:22Z",
-        "commit_sha": "d8a7c7ebee62878c2e5ba7072b349f63f4cb6f24",
-        "commit_date": "2026-08-28T01:47:22Z",
-        "commit_message": "Think about redoing core"
+        "published_at": "2026-08-28T07:26:21Z",
+        "commit_sha": "b0deb4353231b3c5fc78be10ca656ced85c62746",
+        "commit_date": "2026-08-28T07:26:21Z",
+        "commit_message": "Add heat ray and color some abilities"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Think about redoing core"
+        "commit_message": "Add heat ray and color some abilities"
       },
-      "last_updated": "2026-08-28T01:47:22Z"
+      "last_updated": "2026-08-28T07:26:21Z"
     },
     {
       "slug": "elmsmarkers",
