@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-28T16:06:54.293398+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "b0deb43",
-      "new_version": "1b66ebd",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Maybe make OC twins target more robust"
-    },
-    {
-      "slug": "m0rmarkers",
-      "old_version": "v2.2.2-beta2",
-      "new_version": "v2.2.2",
-      "repo": "M0RGaming/M0RMarkers"
-    }
-  ]
+  "last_checked": "2026-08-28T21:23:25.026229+00:00",
+  "updates": []
 }
