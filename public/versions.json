@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "b0deb43",
+      "version": "1b66ebd",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-28T07:26:21Z",
-      "release_notes": "Add heat ray and color some abilities",
-      "commit_sha": "b0deb4353231b3c5fc78be10ca656ced85c62746",
-      "commit_date": "2026-08-28T07:26:21Z",
-      "commit_message": "Add heat ray and color some abilities"
+      "published_at": "2026-08-28T12:14:19Z",
+      "release_notes": "Maybe make OC twins target more robust",
+      "commit_sha": "1b66ebd95ac0e03533f25fd312c611597ae1171c",
+      "commit_date": "2026-08-28T12:14:19Z",
+      "commit_message": "Maybe make OC twins target more robust"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -279,10 +279,10 @@
       "release_notes": "## Version 7.2.6.3\r\n\r\n### New\r\n\r\n- Chat Announcements: Display Announcements for Dynamic Encounters (PC and console). Separate chat, center-screen, and alert toggles for Vampire Hunt, Flowervine Farm, Bilsa's Delivery, and Misc.\r\n\r\n### Fixed\r\n\r\n- SpellCastBuffs: Adding any **Off Balance** ability id (or the canonical name) to **Prominent Debuffs** now tracks all Off Balance variants and Off Balance Immunity. Profiles that never received the default Off Balance prominent entry are seeded once on "
     },
     "m0rmarkers": {
-      "version": "v2.2.2-beta2",
-      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.2.2-beta2",
-      "published_at": "2026-08-19T20:53:43Z",
-      "release_notes": "----- 2.2.1 -----\n(minor) Forgot to remove a debug script, removed it now. Whoops\n\n"
+      "version": "v2.2.2",
+      "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.2.2",
+      "published_at": "2026-08-28T12:42:20Z",
+      "release_notes": "----- 2.2.2 -----\nAdded a new DSR preset profile: Taleria Clock v2 by Code. This clock is designed to match codes combat alerts (which has more accurate placement of markers) instead of qcells DSR helper.\nAlso added a DSR preset: vDSR General v2, which is just the general dsr markers but with the new clock.\n(PC/minor) Added support for ACAC update checker on PC\n\n"
     },
     "odysupporticons": {
       "version": "Version-1.13.1",
@@ -324,14 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-28T09:09:27.422603+00:00",
+  "last_checked": "2026-08-28T16:06:54.293398+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "d8a7c7e",
-      "new_version": "b0deb43",
+      "old_version": "b0deb43",
+      "new_version": "1b66ebd",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add heat ray and color some abilities"
+      "commit_message": "Maybe make OC twins target more robust"
+    },
+    {
+      "slug": "m0rmarkers",
+      "old_version": "v2.2.2-beta2",
+      "new_version": "v2.2.2",
+      "repo": "M0RGaming/M0RMarkers"
     }
   ]
 }

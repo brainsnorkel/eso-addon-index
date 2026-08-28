@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-28T09:09:27.534931+00:00",
+  "generated_at": "2026-08-28T16:06:54.426917+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "b0deb43",
+        "version": "1b66ebd",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-28T07:26:21Z",
-        "commit_sha": "b0deb4353231b3c5fc78be10ca656ced85c62746",
-        "commit_date": "2026-08-28T07:26:21Z",
-        "commit_message": "Add heat ray and color some abilities"
+        "published_at": "2026-08-28T12:14:19Z",
+        "commit_sha": "1b66ebd95ac0e03533f25fd312c611597ae1171c",
+        "commit_date": "2026-08-28T12:14:19Z",
+        "commit_message": "Maybe make OC twins target more robust"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add heat ray and color some abilities"
+        "commit_message": "Maybe make OC twins target more robust"
       },
-      "last_updated": "2026-08-28T07:26:21Z"
+      "last_updated": "2026-08-28T12:14:19Z"
     },
     {
       "slug": "elmsmarkers",
@@ -2758,20 +2758,20 @@
         ]
       },
       "latest_release": {
-        "version": "v2.2.2-beta2",
-        "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.2.2-beta2",
-        "published_at": "2026-08-19T20:53:43Z",
-        "commit_sha": "66b538937c644b38342b43f0b34d9cabf468b9eb"
+        "version": "v2.2.2",
+        "download_url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.2.2",
+        "published_at": "2026-08-28T12:42:20Z",
+        "commit_sha": "0160b81ece89e1b0198d23eb7e78c20dedb7412b"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/M0RGaming/M0RMarkers@v2.2.2-beta2/",
+          "url": "https://cdn.jsdelivr.net/gh/M0RGaming/M0RMarkers@v2.2.2/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.2.2-beta2",
+          "url": "https://api.github.com/repos/M0RGaming/M0RMarkers/zipball/v2.2.2",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2780,13 +2780,13 @@
           "major": 2,
           "minor": 2,
           "patch": 2,
-          "prerelease": "beta2"
+          "prerelease": null
         },
-        "version_sort_key": 2002001999,
-        "is_prerelease": true,
-        "release_channel": "prerelease"
+        "version_sort_key": 2002002000,
+        "is_prerelease": false,
+        "release_channel": "stable"
       },
-      "last_updated": "2026-08-19T20:53:43Z"
+      "last_updated": "2026-08-28T12:42:20Z"
     },
     {
       "slug": "odysupporticons",

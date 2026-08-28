@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-28T09:09:27.534931+00:00",
+  "generated_at": "2026-08-28T16:06:54.426917+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "b0deb43",
+      "new_version": "1b66ebd",
+      "published_at": "2026-08-28T12:14:19Z",
+      "detected_at": "2026-08-28T16:06:54.426917+00:00"
+    },
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "old_version": "v2.2.2-beta2",
+      "new_version": "v2.2.2",
+      "published_at": "2026-08-28T12:42:20Z",
+      "detected_at": "2026-08-28T16:06:54.426917+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -883,24 +901,6 @@
       "new_version": "v7.2.5.4",
       "published_at": "2026-06-23T12:44:26Z",
       "detected_at": "2026-06-23T12:58:13.002513+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-06-14",
-      "new_version": "2026-06-21",
-      "published_at": "2026-06-21T23:43:53Z",
-      "detected_at": "2026-06-22T00:48:03.068377+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-06-14",
-      "new_version": "2026-06-21",
-      "published_at": "2026-06-21T23:43:49Z",
-      "detected_at": "2026-06-22T00:48:03.068377+00:00"
     }
   ]
 }
