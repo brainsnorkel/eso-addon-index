@@ -310,10 +310,10 @@
     },
     {
       "id": "huntsmanwarmaskreminder",
-      "title": "Huntsman Warmask Reminder ad5a552",
+      "title": "Huntsman Warmask Reminder",
       "url": "https://github.com/VollstaendigerName/HuntsmanWarmaskReminder",
-      "date_published": "2026-06-15T16:01:25Z",
-      "date_modified": "2026-06-15T16:01:25Z",
+      "date_published": null,
+      "date_modified": "2026-08-29T06:13:42.613797+00:00",
       "authors": [
         {
           "name": "VollstaendigerName"
@@ -441,10 +441,10 @@
     },
     {
       "id": "libchatmessage",
-      "title": "LibChatMessage 5dd0dd0",
+      "title": "LibChatMessage",
       "url": "https://github.com/sirinsidiator/ESO-LibChatMessage",
-      "date_published": "2021-01-23T13:37:19Z",
-      "date_modified": "2021-01-23T13:37:19Z",
+      "date_published": null,
+      "date_modified": "2026-08-29T06:13:42.613797+00:00",
       "authors": [
         {
           "name": "sirinsidiator"
@@ -629,10 +629,10 @@
     },
     {
       "id": "libmediaprovider",
-      "title": "LibMediaProvider r37",
+      "title": "LibMediaProvider",
       "url": "https://github.com/calamath/LibMediaProvider",
-      "date_published": "2026-01-28T09:40:42Z",
-      "date_modified": "2026-01-28T09:40:42Z",
+      "date_published": null,
+      "date_modified": "2026-08-29T06:13:42.613797+00:00",
       "authors": [
         {
           "name": "Seerah"
@@ -741,10 +741,10 @@
     },
     {
       "id": "m0rmarkers",
-      "title": "M0RMarkers v2.2.2",
+      "title": "M0RMarkers",
       "url": "https://github.com/M0RGaming/M0RMarkers",
-      "date_published": "2026-08-28T12:42:20Z",
-      "date_modified": "2026-08-28T12:42:20Z",
+      "date_published": null,
+      "date_modified": "2026-08-29T06:13:42.613797+00:00",
       "authors": [
         {
           "name": "M0R_Gaming"
