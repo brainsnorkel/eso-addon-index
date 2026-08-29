@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "1b66ebd",
+      "version": "9b22b0c",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-28T12:14:19Z",
-      "release_notes": "Maybe make OC twins target more robust",
-      "commit_sha": "1b66ebd95ac0e03533f25fd312c611597ae1171c",
-      "commit_date": "2026-08-28T12:14:19Z",
-      "commit_message": "Maybe make OC twins target more robust"
+      "published_at": "2026-08-29T00:00:35Z",
+      "release_notes": "Force attribute visuals update on player activated",
+      "commit_sha": "9b22b0c1fccde11aeef5f3a9a56cea05fb3b9e48",
+      "commit_date": "2026-08-29T00:00:35Z",
+      "commit_message": "Force attribute visuals update on player activated"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-28T21:23:25.026229+00:00",
-  "updates": []
+  "last_checked": "2026-08-29T00:20:32.791613+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "1b66ebd",
+      "new_version": "9b22b0c",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Force attribute visuals update on player activated"
+    }
+  ]
 }
