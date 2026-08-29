@@ -25,6 +25,12 @@
       "release_notes": null,
       "commit_sha": "9ea749d4e9fbd4f77acc98115f114ebd79d40443"
     },
+    "beammeup": {
+      "version": "4.0.4.025",
+      "download_url": "https://api.github.com/repos/david-tub/BeamMeUp/zipball/4.0.4.025",
+      "published_at": "2026-06-25T17:35:58Z",
+      "release_notes": "Console Release Only\n## 2026.06.01\n- Work on performance enhancements\n\n"
+    },
     "breadcrumbs": {
       "version": "v1.2",
       "download_url": "https://api.github.com/repos/sheumais/Breadcrumbs/zipball/v1.2",
@@ -90,6 +96,13 @@
       "commit_date": "2023-09-16T08:06:55Z",
       "commit_message": "3.0.0"
     },
+    "exoyscruxtracker": {
+      "version": "Version-2.1.0",
+      "download_url": "https://github.com/exoy94/ExoYsCruxTracker/archive/refs/tags/Version-2.1.0.zip",
+      "published_at": "2026-06-24T16:28:06Z",
+      "release_notes": null,
+      "commit_sha": "95ec2d206b733dffd382f8755450822591a6c13b"
+    },
     "exoysproctimer": {
       "version": "d197b0d",
       "download_url": "https://github.com/exoy94/ExoYsProcSetTimer/archive/refs/heads/legacy.zip",
@@ -152,6 +165,15 @@
       "commit_date": "2025-12-11T01:38:23Z",
       "commit_message": "space"
     },
+    "libchatmessage": {
+      "version": "5dd0dd0",
+      "download_url": "https://github.com/sirinsidiator/ESO-LibChatMessage/archive/refs/heads/master.zip",
+      "published_at": "2021-01-23T13:37:19Z",
+      "release_notes": "added license",
+      "commit_sha": "5dd0dd0d27b0d6c70cf9967bf0ecf1aa45495292",
+      "commit_date": "2021-01-23T13:37:19Z",
+      "commit_message": "added license"
+    },
     "libcombat": {
       "version": "v7",
       "download_url": "https://github.com/Solinur/LibCombat/archive/refs/tags/v7.zip",
@@ -211,6 +233,15 @@
       "published_at": "2026-07-26T10:51:03Z",
       "release_notes": "## 2026.07.26\n- BREAKING CHANGE! Update ASAP and tell your friends to update too - otherwise there will be an ID missmatch!\n- adding support for vengeance ultimates - thanks to @Masteroshi430\n\n"
     },
+    "libhyper": {
+      "version": "1928d21",
+      "download_url": "https://github.com/Hyperioxes/LibHyper/archive/refs/heads/main.zip",
+      "published_at": "2023-06-09T18:53:14Z",
+      "release_notes": "updated version number",
+      "commit_sha": "1928d21498e07063adb5e3e6af7dc43ccd778ce1",
+      "commit_date": "2023-06-09T18:53:14Z",
+      "commit_message": "updated version number"
+    },
     "libmediaprovider": {
       "version": "r37",
       "download_url": "https://github.com/calamath/LibMediaProvider/archive/refs/tags/r37.zip",
@@ -256,7 +287,7 @@
     "odysupporticons": {
       "version": "Version-1.13.1",
       "download_url": "https://github.com/exoy94/OdySupportIcons/archive/refs/tags/Version-1.13.1.zip",
-      "published_at": null,
+      "published_at": "2025-03-16T15:50:45Z",
       "release_notes": null,
       "commit_sha": "29c23c3a60f90106a8d5b402744f6c1930908b56"
     },
@@ -293,6 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-29T06:13:42.450171+00:00",
+  "last_checked": "2026-08-29T12:10:52.485830+00:00",
   "updates": []
 }
