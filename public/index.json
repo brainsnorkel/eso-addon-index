@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-30T06:13:14.628460+00:00",
+  "generated_at": "2026-08-30T12:11:19.739165+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "9b22b0c",
+        "version": "adf71f2",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-29T00:00:35Z",
-        "commit_sha": "9b22b0c1fccde11aeef5f3a9a56cea05fb3b9e48",
-        "commit_date": "2026-08-29T00:00:35Z",
-        "commit_message": "Force attribute visuals update on player activated"
+        "published_at": "2026-08-30T08:33:13Z",
+        "commit_sha": "adf71f2ba9785d06c4673f52ceaf429431f4b141",
+        "commit_date": "2026-08-30T08:33:13Z",
+        "commit_message": "Let Reflective show multiple, but it probably doesn't matter"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Force attribute visuals update on player activated"
+        "commit_message": "Let Reflective show multiple, but it probably doesn't matter"
       },
-      "last_updated": "2026-08-29T00:00:35Z"
+      "last_updated": "2026-08-30T08:33:13Z"
     },
     {
       "slug": "elmsmarkers",
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "d38f9bd",
+        "version": "ca511bc",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-08-24T17:36:39Z",
-        "commit_sha": "d38f9bdf01f7a09477654337732b7fa0fcbb5bb5",
-        "commit_date": "2026-08-24T17:36:39Z",
-        "commit_message": "feat: update alchemy data for update 51. (#63)"
+        "published_at": "2026-08-30T10:39:50Z",
+        "commit_sha": "ca511bce51a202256baba376386aac29f1c83637",
+        "commit_date": "2026-08-30T10:39:50Z",
+        "commit_message": "version 5.11.0:"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "feat: update alchemy data for update 51. (#63)"
+        "commit_message": "version 5.11.0:"
       },
-      "last_updated": "2026-08-24T17:36:39Z"
+      "last_updated": "2026-08-30T10:39:50Z"
     },
     {
       "slug": "libcustomnames",

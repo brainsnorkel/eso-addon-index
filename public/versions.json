@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "9b22b0c",
+      "version": "adf71f2",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-29T00:00:35Z",
-      "release_notes": "Force attribute visuals update on player activated",
-      "commit_sha": "9b22b0c1fccde11aeef5f3a9a56cea05fb3b9e48",
-      "commit_date": "2026-08-29T00:00:35Z",
-      "commit_message": "Force attribute visuals update on player activated"
+      "published_at": "2026-08-30T08:33:13Z",
+      "release_notes": "Let Reflective show multiple, but it probably doesn't matter",
+      "commit_sha": "adf71f2ba9785d06c4673f52ceaf429431f4b141",
+      "commit_date": "2026-08-30T08:33:13Z",
+      "commit_message": "Let Reflective show multiple, but it probably doesn't matter"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -143,13 +143,6 @@
       "commit_date": "2023-07-30T06:01:28Z",
       "commit_message": "version number"
     },
-    "improveddeathrecap": {
-      "version": "1.0.1",
-      "download_url": "https://github.com/Solinur/ImprovedDeathRecap/archive/refs/tags/1.0.1.zip",
-      "published_at": "2026-01-10T19:58:28Z",
-      "release_notes": null,
-      "commit_sha": "24274cbbddcd61133a9b42ea776f0a60e272e6fa"
-    },
     "libaddonmenu-2-0": {
       "version": "r32",
       "download_url": "https://api.github.com/repos/sirinsidiator/ESO-LibAddonMenu/zipball/r32",
@@ -188,13 +181,13 @@
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
-      "version": "d38f9bd",
+      "version": "ca511bc",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-08-24T17:36:39Z",
-      "release_notes": "feat: update alchemy data for update 51. (#63)",
-      "commit_sha": "d38f9bdf01f7a09477654337732b7fa0fcbb5bb5",
-      "commit_date": "2026-08-24T17:36:39Z",
-      "commit_message": "feat: update alchemy data for update 51. (#63)"
+      "published_at": "2026-08-30T10:39:50Z",
+      "release_notes": "version 5.11.0:",
+      "commit_sha": "ca511bce51a202256baba376386aac29f1c83637",
+      "commit_date": "2026-08-30T10:39:50Z",
+      "commit_message": "version 5.11.0:"
     },
     "libcustomnames": {
       "version": "2026-08-23",
@@ -324,6 +317,21 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-08-30T06:13:14.460068+00:00",
-  "updates": []
+  "last_checked": "2026-08-30T12:11:19.610853+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "9b22b0c",
+      "new_version": "adf71f2",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Let Reflective show multiple, but it probably doesn't matter"
+    },
+    {
+      "slug": "libcustommenu",
+      "old_version": "d38f9bd",
+      "new_version": "ca511bc",
+      "repo": "votan73/ESO",
+      "commit_message": "version 5.11.0:"
+    }
+  ]
 }
