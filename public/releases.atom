@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-08-31T00:25:36.346512+00:00</updated>
+  <updated>2026-08-31T06:18:25.019782+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2026-08-31</id>
+    <title>LibCustomIcons updated: 2026-08-16 → 2026-08-31</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-08-31T06:18:25.019782+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-08-16 to 2026-08-31.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2026-08-31</id>
+    <title>LibCustomNames updated: 2026-08-23 → 2026-08-31</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-08-31T06:18:25.019782+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-08-23 to 2026-08-31.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:adf71f2</id>
     <title>CrutchAlerts updated: 9b22b0c → adf71f2</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/exoy94/ExoYsCruxTracker" rel="alternate"/>
     <updated>2026-06-24T18:36:45.843555+00:00</updated>
     <summary>ExoYs Crux Tracker has been updated from version Version-2.0.1 to Version-2.1.0.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libsetdetection:Version-5.0</id>
-    <title>LibSetDetection updated: Version-4.7 → Version-5.0</title>
-    <link href="https://github.com/exoy94/LibSetDetection" rel="alternate"/>
-    <updated>2026-06-24T12:45:35.643158+00:00</updated>
-    <summary>LibSetDetection has been updated from version Version-4.7 to Version-5.0.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:f1a4c07</id>
-    <title>CrutchAlerts updated: 073f4ce → f1a4c07</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-06-24T07:12:27.209186+00:00</updated>
-    <summary>CrutchAlerts has been updated from version 073f4ce to f1a4c07.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
