@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-01T00:27:15.121518+00:00",
-  "updates": [
-    {
-      "slug": "actiondurationreminder",
-      "old_version": "1913eb7",
-      "new_version": "75f7c90",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Bump version to 3.161, update changelog"
-    }
-  ]
+  "last_checked": "2026-09-01T06:15:02.383356+00:00",
+  "updates": []
 }
