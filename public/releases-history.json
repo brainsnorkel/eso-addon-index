@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-31T18:11:08.971801+00:00",
+  "generated_at": "2026-09-01T00:27:15.287222+00:00",
   "events": [
+    {
+      "slug": "actiondurationreminder",
+      "name": "Action Duration Reminder",
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "old_version": "1913eb7",
+      "new_version": "75f7c90",
+      "published_at": "2026-08-31T22:54:20Z",
+      "detected_at": "2026-09-01T00:27:15.287222+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
@@ -892,15 +901,6 @@
       "new_version": "4.0.4.025",
       "published_at": "2026-06-25T17:35:58Z",
       "detected_at": "2026-06-25T18:45:46.861211+00:00"
-    },
-    {
-      "slug": "exoyscruxtracker",
-      "name": "ExoYs Crux Tracker",
-      "url": "https://github.com/exoy94/ExoYsCruxTracker",
-      "old_version": "Version-2.0.1",
-      "new_version": "Version-2.1.0",
-      "published_at": "2026-06-24T16:28:06Z",
-      "detected_at": "2026-06-24T18:36:45.843555+00:00"
     }
   ]
 }
