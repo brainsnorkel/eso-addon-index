@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-01T06:15:02.536995+00:00",
+  "generated_at": "2026-09-01T12:12:37.657433+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "adf71f2",
+        "version": "79d7027",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-08-30T08:33:13Z",
-        "commit_sha": "adf71f2ba9785d06c4673f52ceaf429431f4b141",
-        "commit_date": "2026-08-30T08:33:13Z",
-        "commit_message": "Let Reflective show multiple, but it probably doesn't matter"
+        "published_at": "2026-09-01T08:24:25Z",
+        "commit_sha": "79d70278f45713e3eb1f4802041e82dda2c75d44",
+        "commit_date": "2026-09-01T08:24:25Z",
+        "commit_message": "[2.25.0-rc] Bump version for testing"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Let Reflective show multiple, but it probably doesn't matter"
+        "commit_message": "[2.25.0-rc] Bump version for testing"
       },
-      "last_updated": "2026-08-30T08:33:13Z"
+      "last_updated": "2026-09-01T08:24:25Z"
     },
     {
       "slug": "elmsmarkers",

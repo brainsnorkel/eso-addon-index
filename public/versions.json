@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "adf71f2",
+      "version": "79d7027",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-08-30T08:33:13Z",
-      "release_notes": "Let Reflective show multiple, but it probably doesn't matter",
-      "commit_sha": "adf71f2ba9785d06c4673f52ceaf429431f4b141",
-      "commit_date": "2026-08-30T08:33:13Z",
-      "commit_message": "Let Reflective show multiple, but it probably doesn't matter"
+      "published_at": "2026-09-01T08:24:25Z",
+      "release_notes": "[2.25.0-rc] Bump version for testing",
+      "commit_sha": "79d70278f45713e3eb1f4802041e82dda2c75d44",
+      "commit_date": "2026-09-01T08:24:25Z",
+      "commit_message": "[2.25.0-rc] Bump version for testing"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-01T06:15:02.383356+00:00",
-  "updates": []
+  "last_checked": "2026-09-01T12:12:37.527830+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "adf71f2",
+      "new_version": "79d7027",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.25.0-rc] Bump version for testing"
+    }
+  ]
 }
