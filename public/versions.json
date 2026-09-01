@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-01T12:12:37.527830+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "adf71f2",
-      "new_version": "79d7027",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "[2.25.0-rc] Bump version for testing"
-    }
-  ]
+  "last_checked": "2026-09-01T18:10:49.735510+00:00",
+  "updates": []
 }
