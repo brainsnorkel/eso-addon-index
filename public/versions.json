@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "79d7027",
+      "version": "98e221e",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-01T08:24:25Z",
-      "release_notes": "[2.25.0-rc] Bump version for testing",
-      "commit_sha": "79d70278f45713e3eb1f4802041e82dda2c75d44",
-      "commit_date": "2026-09-01T08:24:25Z",
-      "commit_message": "[2.25.0-rc] Bump version for testing"
+      "published_at": "2026-09-02T03:34:14Z",
+      "release_notes": "[2.25.0] Update ACACUC",
+      "commit_sha": "98e221eb24f0bd3598ba2ced0c30180405b9614f",
+      "commit_date": "2026-09-02T03:34:14Z",
+      "commit_message": "[2.25.0] Update ACACUC"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-02T00:23:09.072731+00:00",
-  "updates": []
+  "last_checked": "2026-09-02T06:18:52.665059+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "79d7027",
+      "new_version": "98e221e",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.25.0] Update ACACUC"
+    }
+  ]
 }
