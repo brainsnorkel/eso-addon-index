@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-03T06:15:08.284506+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "98e221e",
-      "new_version": "330850a",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix bus code and remove texture"
-    }
-  ]
+  "last_checked": "2026-09-03T12:13:27.805613+00:00",
+  "updates": []
 }
