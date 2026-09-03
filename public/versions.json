@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "98e221e",
+      "version": "330850a",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-02T03:34:14Z",
-      "release_notes": "[2.25.0] Update ACACUC",
-      "commit_sha": "98e221eb24f0bd3598ba2ced0c30180405b9614f",
-      "commit_date": "2026-09-02T03:34:14Z",
-      "commit_message": "[2.25.0] Update ACACUC"
+      "published_at": "2026-09-03T03:30:46Z",
+      "release_notes": "Fix bus code and remove texture",
+      "commit_sha": "330850afac10c5a7a0e80fc95d4accf2270d4fe6",
+      "commit_date": "2026-09-03T03:30:46Z",
+      "commit_message": "Fix bus code and remove texture"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-03T00:23:45.480028+00:00",
-  "updates": []
+  "last_checked": "2026-09-03T06:15:08.284506+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "98e221e",
+      "new_version": "330850a",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix bus code and remove texture"
+    }
+  ]
 }

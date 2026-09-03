@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-03T00:23:45.624280+00:00",
+  "generated_at": "2026-09-03T06:15:08.450886+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "98e221e",
+        "version": "330850a",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-09-02T03:34:14Z",
-        "commit_sha": "98e221eb24f0bd3598ba2ced0c30180405b9614f",
-        "commit_date": "2026-09-02T03:34:14Z",
-        "commit_message": "[2.25.0] Update ACACUC"
+        "published_at": "2026-09-03T03:30:46Z",
+        "commit_sha": "330850afac10c5a7a0e80fc95d4accf2270d4fe6",
+        "commit_date": "2026-09-03T03:30:46Z",
+        "commit_message": "Fix bus code and remove texture"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.25.0] Update ACACUC"
+        "commit_message": "Fix bus code and remove texture"
       },
-      "last_updated": "2026-09-02T03:34:14Z"
+      "last_updated": "2026-09-03T03:30:46Z"
     },
     {
       "slug": "elmsmarkers",
