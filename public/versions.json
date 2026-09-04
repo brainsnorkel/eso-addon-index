@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "330850a",
+      "version": "6883905",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-03T03:30:46Z",
-      "release_notes": "Fix bus code and remove texture",
-      "commit_sha": "330850afac10c5a7a0e80fc95d4accf2270d4fe6",
-      "commit_date": "2026-09-03T03:30:46Z",
-      "commit_message": "Fix bus code and remove texture"
+      "published_at": "2026-09-04T01:41:01Z",
+      "release_notes": "Fill out some more core v2",
+      "commit_sha": "6883905586729e93aa201ebcfbd7f05f4f27a459",
+      "commit_date": "2026-09-04T01:41:01Z",
+      "commit_message": "Fill out some more core v2"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-04T00:21:15.656493+00:00",
-  "updates": []
+  "last_checked": "2026-09-04T06:14:16.381179+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "330850a",
+      "new_version": "6883905",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fill out some more core v2"
+    }
+  ]
 }
