@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-09-05T12:10:39.738868+00:00</updated>
+  <updated>2026-09-05T18:09:01.081514+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:m0rmarkers:v2.2.3</id>
+    <title>M0RMarkers updated: v2.2.2 → v2.2.3</title>
+    <link href="https://github.com/M0RGaming/M0RMarkers" rel="alternate"/>
+    <updated>2026-09-05T18:09:01.081514+00:00</updated>
+    <summary>M0RMarkers has been updated from version v2.2.2 to v2.2.3.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:6883905</id>
     <title>CrutchAlerts updated: 330850a → 6883905</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
     <updated>2026-06-29T00:44:48.482405+00:00</updated>
     <summary>LibCustomIcons has been updated from version 2026-06-21 to 2026-06-28.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomnames:2026-06-28</id>
-    <title>LibCustomNames updated: 2026-06-21 → 2026-06-28</title>
-    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
-    <updated>2026-06-29T00:44:48.482405+00:00</updated>
-    <summary>LibCustomNames has been updated from version 2026-06-21 to 2026-06-28.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

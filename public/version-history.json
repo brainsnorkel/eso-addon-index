@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-05T12:10:39.738868+00:00",
+  "generated_at": "2026-09-05T18:09:01.081514+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -2494,6 +2494,12 @@
       }
     ],
     "m0rmarkers": [
+      {
+        "version": "v2.2.3",
+        "published_at": "2026-09-05T17:06:32Z",
+        "detected_at": "2026-09-05T18:09:01.081514+00:00",
+        "commit_sha": "305a74c73ddf05ffaf17e7f0a4198dea9bf38bcd"
+      },
       {
         "version": "v2.2.2",
         "published_at": "2026-08-28T12:42:20Z",

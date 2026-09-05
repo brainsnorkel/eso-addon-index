@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-05T12:10:39.738868+00:00",
+  "generated_at": "2026-09-05T18:09:01.081514+00:00",
   "events": [
+    {
+      "slug": "m0rmarkers",
+      "name": "M0RMarkers",
+      "url": "https://github.com/M0RGaming/M0RMarkers",
+      "old_version": "v2.2.2",
+      "new_version": "v2.2.3",
+      "published_at": "2026-09-05T17:06:32Z",
+      "detected_at": "2026-09-05T18:09:01.081514+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -891,15 +900,6 @@
       "old_version": "2026-06-21",
       "new_version": "2026-06-28",
       "published_at": "2026-06-28T23:17:15Z",
-      "detected_at": "2026-06-29T00:44:48.482405+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-06-21",
-      "new_version": "2026-06-28",
-      "published_at": "2026-06-28T23:17:36Z",
       "detected_at": "2026-06-29T00:44:48.482405+00:00"
     }
   ]
