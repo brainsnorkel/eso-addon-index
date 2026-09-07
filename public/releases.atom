@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-09-06T18:09:01.873746+00:00</updated>
+  <updated>2026-09-07T00:24:50.113961+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libcustomicons:2026-09-06</id>
+    <title>LibCustomIcons updated: 2026-08-31 → 2026-09-06</title>
+    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
+    <updated>2026-09-07T00:24:50.113961+00:00</updated>
+    <summary>LibCustomIcons has been updated from version 2026-08-31 to 2026-09-06.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustomnames:2026-09-06</id>
+    <title>LibCustomNames updated: 2026-08-31 → 2026-09-06</title>
+    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
+    <updated>2026-09-07T00:24:50.113961+00:00</updated>
+    <summary>LibCustomNames has been updated from version 2026-08-31 to 2026-09-06.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:m0rmarkers:v2.2.3</id>
     <title>M0RMarkers updated: v2.2.2 → v2.2.3</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
     <updated>2026-06-30T12:41:53.598673+00:00</updated>
     <summary>CrutchAlerts has been updated from version 319d2f7 to 8e8d234.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:luiextended:v7.2.5.7</id>
-    <title>LuiExtended updated: v7.2.5.6 → v7.2.5.7</title>
-    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
-    <updated>2026-06-29T07:43:45.676845+00:00</updated>
-    <summary>LuiExtended has been updated from version v7.2.5.6 to v7.2.5.7.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomicons:2026-06-28</id>
-    <title>LibCustomIcons updated: 2026-06-21 → 2026-06-28</title>
-    <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
-    <updated>2026-06-29T00:44:48.482405+00:00</updated>
-    <summary>LibCustomIcons has been updated from version 2026-06-21 to 2026-06-28.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
