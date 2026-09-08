@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-08T06:14:06.980137+00:00",
+  "generated_at": "2026-09-08T12:12:51.146325+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "6883905",
+        "version": "2346c89",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-09-04T01:41:01Z",
-        "commit_sha": "6883905586729e93aa201ebcfbd7f05f4f27a459",
-        "commit_date": "2026-09-04T01:41:01Z",
-        "commit_message": "Fill out some more core v2"
+        "published_at": "2026-09-08T03:51:21Z",
+        "commit_sha": "2346c89c46b6c0a0d1e411b294fb34f505f0fd8c",
+        "commit_date": "2026-09-08T03:51:21Z",
+        "commit_message": "Add Thunderous Leap alert"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fill out some more core v2"
+        "commit_message": "Add Thunderous Leap alert"
       },
-      "last_updated": "2026-09-04T01:41:01Z"
+      "last_updated": "2026-09-08T03:51:21Z"
     },
     {
       "slug": "elmsmarkers",
