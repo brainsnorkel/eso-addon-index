@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "2346c89",
+      "version": "fee4a39",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-08T03:51:21Z",
-      "release_notes": "Add Thunderous Leap alert",
-      "commit_sha": "2346c89c46b6c0a0d1e411b294fb34f505f0fd8c",
-      "commit_date": "2026-09-08T03:51:21Z",
-      "commit_message": "Add Thunderous Leap alert"
+      "published_at": "2026-09-11T07:08:06Z",
+      "release_notes": "Add untested seething vile leap",
+      "commit_sha": "fee4a39622bc5c6ea45af23ff5cc5a28557f4221",
+      "commit_date": "2026-09-11T07:08:06Z",
+      "commit_message": "Add untested seething vile leap"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-11T06:14:03.787204+00:00",
-  "updates": []
+  "last_checked": "2026-09-11T12:13:12.753237+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "2346c89",
+      "new_version": "fee4a39",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add untested seething vile leap"
+    }
+  ]
 }
