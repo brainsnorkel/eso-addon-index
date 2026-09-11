@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-11T12:13:12.753237+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "2346c89",
-      "new_version": "fee4a39",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add untested seething vile leap"
-    }
-  ]
+  "last_checked": "2026-09-11T18:09:31.083453+00:00",
+  "updates": []
 }
