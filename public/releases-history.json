@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-13T18:09:25.018293+00:00",
+  "generated_at": "2026-09-14T00:24:45.822901+00:00",
   "events": [
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2026-09-06",
+      "new_version": "2026-09-14",
+      "published_at": "2026-09-14T00:11:31Z",
+      "detected_at": "2026-09-14T00:24:45.822901+00:00"
+    },
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2026-09-06",
+      "new_version": "2026-09-14",
+      "published_at": "2026-09-14T00:10:48Z",
+      "detected_at": "2026-09-14T00:24:45.822901+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -883,24 +901,6 @@
       "new_version": "7bdc023",
       "published_at": "2026-07-04T06:58:15Z",
       "detected_at": "2026-07-04T08:30:32.040085+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "2439174",
-      "new_version": "6de4250",
-      "published_at": "2026-07-03T21:34:19Z",
-      "detected_at": "2026-07-04T02:30:05.869157+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "0e03c24",
-      "new_version": "2439174",
-      "published_at": "2026-07-02T19:07:20Z",
-      "detected_at": "2026-07-02T19:18:02.420930+00:00"
     }
   ]
 }
