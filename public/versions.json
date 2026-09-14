@@ -324,19 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-14T00:24:45.684731+00:00",
-  "updates": [
-    {
-      "slug": "libcustomicons",
-      "old_version": "2026-09-06",
-      "new_version": "2026-09-14",
-      "repo": "m00nyONE/LibCustomIcons"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-09-06",
-      "new_version": "2026-09-14",
-      "repo": "m00nyONE/LibCustomNames"
-    }
-  ]
+  "last_checked": "2026-09-14T06:19:03.506755+00:00",
+  "updates": []
 }
