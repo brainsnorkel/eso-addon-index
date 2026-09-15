@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-15T12:12:02.422932+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "4efa268",
-      "new_version": "3d9002f",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Allow nil returns from line endpoints func"
-    }
-  ]
+  "last_checked": "2026-09-15T18:09:29.842217+00:00",
+  "updates": []
 }
