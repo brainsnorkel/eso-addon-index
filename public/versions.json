@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "4efa268",
+      "version": "3d9002f",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-13T06:07:12Z",
-      "release_notes": "[2.26.0] Update ACACUC",
-      "commit_sha": "4efa268cf6ac8552e4923064b57d56d85255ebdc",
-      "commit_date": "2026-09-13T06:07:12Z",
-      "commit_message": "[2.26.0] Update ACACUC"
+      "published_at": "2026-09-15T07:55:34Z",
+      "release_notes": "Allow nil returns from line endpoints func",
+      "commit_sha": "3d9002f4b95eb8e4edd3a8e7a257596735079ecd",
+      "commit_date": "2026-09-15T07:55:34Z",
+      "commit_message": "Allow nil returns from line endpoints func"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-15T06:14:47.635557+00:00",
-  "updates": []
+  "last_checked": "2026-09-15T12:12:02.422932+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "4efa268",
+      "new_version": "3d9002f",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Allow nil returns from line endpoints func"
+    }
+  ]
 }

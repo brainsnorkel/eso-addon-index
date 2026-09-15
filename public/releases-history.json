@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-15T06:14:47.795594+00:00",
+  "generated_at": "2026-09-15T12:12:02.582546+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "4efa268",
+      "new_version": "3d9002f",
+      "published_at": "2026-09-15T07:55:34Z",
+      "detected_at": "2026-09-15T12:12:02.582546+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
@@ -892,15 +901,6 @@
       "new_version": "70ee362",
       "published_at": "2026-07-04T09:35:40Z",
       "detected_at": "2026-07-04T13:14:42.468499+00:00"
-    },
-    {
-      "slug": "libcustommenu",
-      "name": "LibCustomMenu",
-      "url": "https://github.com/votan73/ESO",
-      "old_version": "9940f89",
-      "new_version": "7bdc023",
-      "published_at": "2026-07-04T06:58:15Z",
-      "detected_at": "2026-07-04T08:30:32.040085+00:00"
     }
   ]
 }
