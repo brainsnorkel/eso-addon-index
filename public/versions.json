@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "3d9002f",
+      "version": "15f8e56",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-15T07:55:34Z",
-      "release_notes": "Allow nil returns from line endpoints func",
-      "commit_sha": "3d9002f4b95eb8e4edd3a8e7a257596735079ecd",
-      "commit_date": "2026-09-15T07:55:34Z",
-      "commit_message": "Allow nil returns from line endpoints func"
+      "published_at": "2026-09-16T02:38:18Z",
+      "release_notes": "Add untested portal direction override",
+      "commit_sha": "15f8e566eb84ded284913998101635d18d1545f9",
+      "commit_date": "2026-09-16T02:38:18Z",
+      "commit_message": "Add untested portal direction override"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-16T00:21:51.549633+00:00",
-  "updates": []
+  "last_checked": "2026-09-16T06:14:46.654727+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "3d9002f",
+      "new_version": "15f8e56",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add untested portal direction override"
+    }
+  ]
 }
