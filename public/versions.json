@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-16T06:14:46.654727+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "3d9002f",
-      "new_version": "15f8e56",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add untested portal direction override"
-    }
-  ]
+  "last_checked": "2026-09-16T12:13:01.972327+00:00",
+  "updates": []
 }
