@@ -324,21 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-17T06:15:07.824318+00:00",
-  "updates": [
-    {
-      "slug": "bugcatcher",
-      "old_version": "7b17572",
-      "new_version": "ab3896c",
-      "repo": "Shadowfen/BugCatcher",
-      "commit_message": "Update LibSFUtils version required"
-    },
-    {
-      "slug": "crutchalerts",
-      "old_version": "15f8e56",
-      "new_version": "1efa1aa",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Poke at core v2 some more"
-    }
-  ]
+  "last_checked": "2026-09-17T12:12:48.826226+00:00",
+  "updates": []
 }
