@@ -56,13 +56,13 @@
       "commit_message": "3.4.0"
     },
     "bugcatcher": {
-      "version": "7b17572",
+      "version": "ab3896c",
       "download_url": "https://github.com/Shadowfen/BugCatcher/archive/refs/heads/master.zip",
-      "published_at": "2024-04-17T21:46:12Z",
-      "release_notes": "API bump",
-      "commit_sha": "7b175726031b7fc7d41de393b35850abf42f1363",
-      "commit_date": "2024-04-17T21:46:12Z",
-      "commit_message": "API bump"
+      "published_at": "2026-08-14T00:54:41Z",
+      "release_notes": "Update LibSFUtils version required",
+      "commit_sha": "ab3896ce0e720b8ee79a27aa1a8a999ac885c5ec",
+      "commit_date": "2026-08-14T00:54:41Z",
+      "commit_message": "Update LibSFUtils version required"
     },
     "combatmetrics": {
       "version": "1.7.7",
@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "15f8e56",
+      "version": "1efa1aa",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-16T02:38:18Z",
-      "release_notes": "Add untested portal direction override",
-      "commit_sha": "15f8e566eb84ded284913998101635d18d1545f9",
-      "commit_date": "2026-09-16T02:38:18Z",
-      "commit_message": "Add untested portal direction override"
+      "published_at": "2026-09-17T02:50:54Z",
+      "release_notes": "Poke at core v2 some more",
+      "commit_sha": "1efa1aa6bdef1be5f326e9249a5d792695af8dc5",
+      "commit_date": "2026-09-17T02:50:54Z",
+      "commit_message": "Poke at core v2 some more"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,21 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-17T00:21:51.956475+00:00",
-  "updates": []
+  "last_checked": "2026-09-17T06:15:07.824318+00:00",
+  "updates": [
+    {
+      "slug": "bugcatcher",
+      "old_version": "7b17572",
+      "new_version": "ab3896c",
+      "repo": "Shadowfen/BugCatcher",
+      "commit_message": "Update LibSFUtils version required"
+    },
+    {
+      "slug": "crutchalerts",
+      "old_version": "15f8e56",
+      "new_version": "1efa1aa",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Poke at core v2 some more"
+    }
+  ]
 }

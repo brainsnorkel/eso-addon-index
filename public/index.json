@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-17T00:21:52.121633+00:00",
+  "generated_at": "2026-09-17T06:15:07.950386+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -504,12 +504,12 @@
         ]
       },
       "latest_release": {
-        "version": "7b17572",
+        "version": "ab3896c",
         "download_url": "https://github.com/Shadowfen/BugCatcher/archive/refs/heads/master.zip",
-        "published_at": "2024-04-17T21:46:12Z",
-        "commit_sha": "7b175726031b7fc7d41de393b35850abf42f1363",
-        "commit_date": "2024-04-17T21:46:12Z",
-        "commit_message": "API bump"
+        "published_at": "2026-08-14T00:54:41Z",
+        "commit_sha": "ab3896ce0e720b8ee79a27aa1a8a999ac885c5ec",
+        "commit_date": "2026-08-14T00:54:41Z",
+        "commit_message": "Update LibSFUtils version required"
       },
       "download_sources": [
         {
@@ -528,9 +528,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "API bump"
+        "commit_message": "Update LibSFUtils version required"
       },
-      "last_updated": "2024-04-17T21:46:12Z"
+      "last_updated": "2026-08-14T00:54:41Z"
     },
     {
       "slug": "combatmetrics",
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "15f8e56",
+        "version": "1efa1aa",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-09-16T02:38:18Z",
-        "commit_sha": "15f8e566eb84ded284913998101635d18d1545f9",
-        "commit_date": "2026-09-16T02:38:18Z",
-        "commit_message": "Add untested portal direction override"
+        "published_at": "2026-09-17T02:50:54Z",
+        "commit_sha": "1efa1aa6bdef1be5f326e9249a5d792695af8dc5",
+        "commit_date": "2026-09-17T02:50:54Z",
+        "commit_message": "Poke at core v2 some more"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add untested portal direction override"
+        "commit_message": "Poke at core v2 some more"
       },
-      "last_updated": "2026-09-16T02:38:18Z"
+      "last_updated": "2026-09-17T02:50:54Z"
     },
     {
       "slug": "elmsmarkers",
