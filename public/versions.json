@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "1efa1aa",
+      "version": "5e1858e",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-17T02:50:54Z",
-      "release_notes": "Poke at core v2 some more",
-      "commit_sha": "1efa1aa6bdef1be5f326e9249a5d792695af8dc5",
-      "commit_date": "2026-09-17T02:50:54Z",
-      "commit_message": "Poke at core v2 some more"
+      "published_at": "2026-09-18T01:54:42Z",
+      "release_notes": "Fill out more core v2",
+      "commit_sha": "5e1858ea4a070e200df1832ac8d6e62325dcda13",
+      "commit_date": "2026-09-18T01:54:42Z",
+      "commit_message": "Fill out more core v2"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-18T00:22:24.853199+00:00",
-  "updates": []
+  "last_checked": "2026-09-18T06:14:43.484533+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "1efa1aa",
+      "new_version": "5e1858e",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fill out more core v2"
+    }
+  ]
 }
