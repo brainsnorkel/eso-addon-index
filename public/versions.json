@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-24T06:15:04.152216+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "5e1858e",
-      "new_version": "b3ce5bf",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix bus code and set the prominent offset to relative"
-    }
-  ]
+  "last_checked": "2026-09-24T12:12:51.586532+00:00",
+  "updates": []
 }
