@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "5e1858e",
+      "version": "b3ce5bf",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-18T01:54:42Z",
-      "release_notes": "Fill out more core v2",
-      "commit_sha": "5e1858ea4a070e200df1832ac8d6e62325dcda13",
-      "commit_date": "2026-09-18T01:54:42Z",
-      "commit_message": "Fill out more core v2"
+      "published_at": "2026-09-24T06:07:43Z",
+      "release_notes": "Fix bus code and set the prominent offset to relative",
+      "commit_sha": "b3ce5bf67d7a99f368823f6b80e416b0074d9747",
+      "commit_date": "2026-09-24T06:07:43Z",
+      "commit_message": "Fix bus code and set the prominent offset to relative"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-24T00:22:03.393441+00:00",
-  "updates": []
+  "last_checked": "2026-09-24T06:15:04.152216+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "5e1858e",
+      "new_version": "b3ce5bf",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fix bus code and set the prominent offset to relative"
+    }
+  ]
 }

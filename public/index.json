@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-24T00:22:03.526982+00:00",
+  "generated_at": "2026-09-24T06:15:04.324664+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "5e1858e",
+        "version": "b3ce5bf",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-09-18T01:54:42Z",
-        "commit_sha": "5e1858ea4a070e200df1832ac8d6e62325dcda13",
-        "commit_date": "2026-09-18T01:54:42Z",
-        "commit_message": "Fill out more core v2"
+        "published_at": "2026-09-24T06:07:43Z",
+        "commit_sha": "b3ce5bf67d7a99f368823f6b80e416b0074d9747",
+        "commit_date": "2026-09-24T06:07:43Z",
+        "commit_message": "Fix bus code and set the prominent offset to relative"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fill out more core v2"
+        "commit_message": "Fix bus code and set the prominent offset to relative"
       },
-      "last_updated": "2026-09-18T01:54:42Z"
+      "last_updated": "2026-09-24T06:07:43Z"
     },
     {
       "slug": "elmsmarkers",
