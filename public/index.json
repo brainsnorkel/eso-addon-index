@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-27T06:14:18.399564+00:00",
+  "generated_at": "2026-09-27T12:12:10.615214+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "b3ce5bf",
+        "version": "4a8680b",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-09-24T06:07:43Z",
-        "commit_sha": "b3ce5bf67d7a99f368823f6b80e416b0074d9747",
-        "commit_date": "2026-09-24T06:07:43Z",
-        "commit_message": "Fix bus code and set the prominent offset to relative"
+        "published_at": "2026-09-27T11:51:55Z",
+        "commit_sha": "4a8680b538a2fc3e4e31fbda4d1afa48949c4683",
+        "commit_date": "2026-09-27T11:51:55Z",
+        "commit_message": "Make grave face character"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Fix bus code and set the prominent offset to relative"
+        "commit_message": "Make grave face character"
       },
-      "last_updated": "2026-09-24T06:07:43Z"
+      "last_updated": "2026-09-27T11:51:55Z"
     },
     {
       "slug": "elmsmarkers",

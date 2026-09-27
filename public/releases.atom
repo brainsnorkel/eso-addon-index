@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-09-27T06:14:18.399564+00:00</updated>
+  <updated>2026-09-27T12:12:10.615214+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:crutchalerts:4a8680b</id>
+    <title>CrutchAlerts updated: b3ce5bf → 4a8680b</title>
+    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
+    <updated>2026-09-27T12:12:10.615214+00:00</updated>
+    <summary>CrutchAlerts has been updated from version b3ce5bf to 4a8680b.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:crutchalerts:b3ce5bf</id>
     <title>CrutchAlerts updated: 5e1858e → b3ce5bf</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/M0RGaming/M0RMarkers" rel="alternate"/>
     <updated>2026-07-10T09:26:54.750556+00:00</updated>
     <summary>M0RMarkers has been updated from version v2.1.1 to v2.2.0.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:67c0112</id>
-    <title>CrutchAlerts updated: e5837f7 → 67c0112</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-07-10T02:34:53.123195+00:00</updated>
-    <summary>CrutchAlerts has been updated from version e5837f7 to 67c0112.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

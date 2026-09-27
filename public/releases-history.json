@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-27T06:14:18.399564+00:00",
+  "generated_at": "2026-09-27T12:12:10.615214+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "b3ce5bf",
+      "new_version": "4a8680b",
+      "published_at": "2026-09-27T11:51:55Z",
+      "detected_at": "2026-09-27T12:12:10.615214+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "v2.2.0",
       "published_at": "2026-07-10T06:08:58Z",
       "detected_at": "2026-07-10T09:26:54.750556+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "e5837f7",
-      "new_version": "67c0112",
-      "published_at": "2026-07-10T01:48:13Z",
-      "detected_at": "2026-07-10T02:34:53.123195+00:00"
     }
   ]
 }

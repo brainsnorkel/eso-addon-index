@@ -79,13 +79,13 @@
       "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
     },
     "crutchalerts": {
-      "version": "b3ce5bf",
+      "version": "4a8680b",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-24T06:07:43Z",
-      "release_notes": "Fix bus code and set the prominent offset to relative",
-      "commit_sha": "b3ce5bf67d7a99f368823f6b80e416b0074d9747",
-      "commit_date": "2026-09-24T06:07:43Z",
-      "commit_message": "Fix bus code and set the prominent offset to relative"
+      "published_at": "2026-09-27T11:51:55Z",
+      "release_notes": "Make grave face character",
+      "commit_sha": "4a8680b538a2fc3e4e31fbda4d1afa48949c4683",
+      "commit_date": "2026-09-27T11:51:55Z",
+      "commit_message": "Make grave face character"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-27T06:14:18.231568+00:00",
-  "updates": []
+  "last_checked": "2026-09-27T12:12:10.446160+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "b3ce5bf",
+      "new_version": "4a8680b",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Make grave face character"
+    }
+  ]
 }
