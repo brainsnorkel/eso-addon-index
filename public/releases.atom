@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-09-28T12:14:41.767601+00:00</updated>
+  <updated>2026-09-28T18:11:46.023573+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:combatmetronome:1.7.7</id>
+    <title>CombatMetronome updated: 1.7.6 → 1.7.7</title>
+    <link href="https://github.com/barny22/CombatMetronome" rel="alternate"/>
+    <updated>2026-09-28T18:11:46.023573+00:00</updated>
+    <summary>CombatMetronome has been updated from version 1.7.6 to 1.7.7.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:luiextended:v7.2.6.4-u51</id>
     <title>LuiExtended updated: v7.2.6.3 → v7.2.6.4-u51</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/Baertram/LibSets" rel="alternate"/>
     <updated>2026-07-13T02:22:54.339002+00:00</updated>
     <summary>LibSets has been updated from version 6bbb37e to 76f2ada.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libsets:6bbb37e</id>
-    <title>LibSets updated: 4c47f00 → 6bbb37e</title>
-    <link href="https://github.com/Baertram/LibSets" rel="alternate"/>
-    <updated>2026-07-12T18:58:47.372095+00:00</updated>
-    <summary>LibSets has been updated from version 4c47f00 to 6bbb37e.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-28T12:14:41.767601+00:00",
+  "generated_at": "2026-09-28T18:11:46.023573+00:00",
   "events": [
+    {
+      "slug": "combatmetronome",
+      "name": "CombatMetronome",
+      "url": "https://github.com/barny22/CombatMetronome",
+      "old_version": "1.7.6",
+      "new_version": "1.7.7",
+      "published_at": "2026-09-28T16:19:24Z",
+      "detected_at": "2026-09-28T18:11:46.023573+00:00"
+    },
     {
       "slug": "luiextended",
       "name": "LuiExtended",
@@ -892,15 +901,6 @@
       "new_version": "76f2ada",
       "published_at": "2026-07-12T19:33:41Z",
       "detected_at": "2026-07-13T02:22:54.339002+00:00"
-    },
-    {
-      "slug": "libsets",
-      "name": "LibSets",
-      "url": "https://github.com/Baertram/LibSets",
-      "old_version": "4c47f00",
-      "new_version": "6bbb37e",
-      "published_at": "2026-07-12T16:30:53Z",
-      "detected_at": "2026-07-12T18:58:47.372095+00:00"
     }
   ]
 }

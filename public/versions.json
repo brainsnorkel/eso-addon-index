@@ -72,11 +72,11 @@
       "commit_sha": "7696f5736ac422a9c10800a218e5c23c797da543"
     },
     "combatmetronome": {
-      "version": "1.7.6",
-      "download_url": "https://github.com/barny22/CombatMetronome/archive/refs/tags/1.7.6.zip",
-      "published_at": "2026-08-16T10:21:21Z",
+      "version": "1.7.7",
+      "download_url": "https://github.com/barny22/CombatMetronome/archive/refs/tags/1.7.7.zip",
+      "published_at": "2026-09-28T16:19:24Z",
       "release_notes": null,
-      "commit_sha": "529d0a1a4daeca04f058a023464ac8d786b98ac7"
+      "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
       "version": "4a8680b",
@@ -324,13 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-28T12:14:41.633612+00:00",
+  "last_checked": "2026-09-28T18:11:45.851142+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.6.3",
-      "new_version": "v7.2.6.4-u51",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "combatmetronome",
+      "old_version": "1.7.6",
+      "new_version": "1.7.7",
+      "repo": "barny22/CombatMetronome"
     }
   ]
 }
