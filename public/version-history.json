@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-28T00:26:13.266680+00:00",
+  "generated_at": "2026-09-28T06:20:32.196409+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -1451,6 +1451,12 @@
     ],
     "libcustomicons": [
       {
+        "version": "2026-09-28",
+        "published_at": "2026-09-28T00:45:17Z",
+        "detected_at": "2026-09-28T06:20:32.196409+00:00",
+        "commit_sha": "8e25216b1c65de33f768b2fd6b51a17e7c1f9400"
+      },
+      {
         "version": "2026-09-21",
         "published_at": "2026-09-21T00:15:50Z",
         "detected_at": "2026-09-21T00:24:57.307380+00:00",
@@ -1881,6 +1887,12 @@
     ],
     "libcustomnames": [
       {
+        "version": "2026-09-28",
+        "published_at": "2026-09-28T00:44:20Z",
+        "detected_at": "2026-09-28T06:20:32.196409+00:00",
+        "commit_sha": "bdf46bf043eac1391607940bdbb3621bdb3831c3"
+      },
+      {
         "version": "2026-09-21",
         "published_at": "2026-09-21T00:15:29Z",
         "detected_at": "2026-09-21T00:24:57.307380+00:00",
@@ -2206,6 +2218,12 @@
       }
     ],
     "libmediaprovider": [
+      {
+        "version": "r39",
+        "published_at": "2026-09-28T05:39:56Z",
+        "detected_at": "2026-09-28T06:20:32.196409+00:00",
+        "commit_sha": "6f3653298bf6bf93b2149a3ef1df4cf03b2049ba"
+      },
       {
         "version": "r37",
         "published_at": "2026-01-28T09:40:42Z",
