@@ -273,10 +273,10 @@
       "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
-      "version": "v7.2.6.3",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.3",
-      "published_at": "2026-07-17T23:40:47Z",
-      "release_notes": "## Version 7.2.6.3\r\n\r\n### New\r\n\r\n- Chat Announcements: Display Announcements for Dynamic Encounters (PC and console). Separate chat, center-screen, and alert toggles for Vampire Hunt, Flowervine Farm, Bilsa's Delivery, and Misc.\r\n\r\n### Fixed\r\n\r\n- SpellCastBuffs: Adding any **Off Balance** ability id (or the canonical name) to **Prominent Debuffs** now tracks all Off Balance variants and Off Balance Immunity. Profiles that never received the default Off Balance prominent entry are seeded once on "
+      "version": "v7.2.6.4-u51",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.4-u51",
+      "published_at": "2026-09-28T08:21:29Z",
+      "release_notes": "## Version 7.2.6.4\r\n\r\n### New\r\n\r\n- SpellCastBuffs: Chill, Concussion, Overcharged, Diseased, and Sundered show as short debuffs on you and your current target when the game does not send a normal aura.\r\n- SpellCastBuffs: Recently Revived shows as Resurrection Immunity on the player when **Show Resurrection Immunity (Player only)** is on.\r\n- Chat Announcements: Collectible unlocks from Crown Store bundles and other multi-unlocks now list each collectible by name. Optional setting to condense thos"
     },
     "m0rmarkers": {
       "version": "v2.2.3",
@@ -324,25 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-28T06:20:32.064223+00:00",
+  "last_checked": "2026-09-28T12:14:41.633612+00:00",
   "updates": [
     {
-      "slug": "libcustomicons",
-      "old_version": "2026-09-21",
-      "new_version": "2026-09-28",
-      "repo": "m00nyONE/LibCustomIcons"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-09-21",
-      "new_version": "2026-09-28",
-      "repo": "m00nyONE/LibCustomNames"
-    },
-    {
-      "slug": "libmediaprovider",
-      "old_version": "r37",
-      "new_version": "r39",
-      "repo": "calamath/LibMediaProvider"
+      "slug": "luiextended",
+      "old_version": "v7.2.6.3",
+      "new_version": "v7.2.6.4-u51",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }
