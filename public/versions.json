@@ -273,10 +273,10 @@
       "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
-      "version": "v7.2.6.4-u51",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.4-u51",
-      "published_at": "2026-09-28T08:21:29Z",
-      "release_notes": "## Version 7.2.6.4\r\n\r\n### New\r\n\r\n- SpellCastBuffs: Chill, Concussion, Overcharged, Diseased, and Sundered show as short debuffs on you and your current target when the game does not send a normal aura.\r\n- SpellCastBuffs: Recently Revived shows as Resurrection Immunity on the player when **Show Resurrection Immunity (Player only)** is on.\r\n- Chat Announcements: Collectible unlocks from Crown Store bundles and other multi-unlocks now list each collectible by name. Optional setting to condense thos"
+      "version": "v7.2.6.6",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.6",
+      "published_at": "2026-09-29T02:59:58Z",
+      "release_notes": "## Version 7.2.6.6\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Changing custom UI scale or resizing the window no longer errors when custom frames are still loading or turned off.\r\n"
     },
     "m0rmarkers": {
       "version": "v2.2.3",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-29T00:24:06.112978+00:00",
-  "updates": []
+  "last_checked": "2026-09-29T06:15:06.913066+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.6.4-u51",
+      "new_version": "v7.2.6.6",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
