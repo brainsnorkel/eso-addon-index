@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-29T12:13:42.357801+00:00",
+  "generated_at": "2026-09-29T18:11:40.989988+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -2738,6 +2738,12 @@
       }
     ],
     "pchat": [
+      {
+        "version": "b40a508",
+        "published_at": "2026-09-29T16:37:08Z",
+        "detected_at": "2026-09-29T18:11:40.989988+00:00",
+        "commit_sha": "b40a50830d8ce07bb3ea1a50def2fb4528e384b9"
+      },
       {
         "version": "3a433e3",
         "published_at": "2026-06-08T15:44:43Z",
