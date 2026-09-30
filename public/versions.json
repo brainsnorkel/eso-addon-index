@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-09-29T18:11:40.872761+00:00",
-  "updates": [
-    {
-      "slug": "pchat",
-      "old_version": "3a433e3",
-      "new_version": "b40a508",
-      "repo": "Baertram/pChat",
-      "commit_message": "pChat 10.0.7.5"
-    }
-  ]
+  "last_checked": "2026-09-30T00:25:06.401779+00:00",
+  "updates": []
 }
