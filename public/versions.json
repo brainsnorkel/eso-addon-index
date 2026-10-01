@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-01T06:15:51.899206+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "4a8680b",
-      "new_version": "4df9436",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add lang for ER damageable"
-    },
-    {
-      "slug": "luiextended",
-      "old_version": "v7.2.6.6",
-      "new_version": "v7.2.6.8",
-      "repo": "DakJaniels/LuiExtended"
-    }
-  ]
+  "last_checked": "2026-10-01T12:13:58.708973+00:00",
+  "updates": []
 }
