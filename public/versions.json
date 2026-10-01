@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "4a8680b",
+      "version": "4df9436",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-27T11:51:55Z",
-      "release_notes": "Make grave face character",
-      "commit_sha": "4a8680b538a2fc3e4e31fbda4d1afa48949c4683",
-      "commit_date": "2026-09-27T11:51:55Z",
-      "commit_message": "Make grave face character"
+      "published_at": "2026-09-29T17:27:15Z",
+      "release_notes": "Add lang for ER damageable",
+      "commit_sha": "4df943626ee93a3f21b764eddc24acbc73b54174",
+      "commit_date": "2026-09-29T17:27:15Z",
+      "commit_message": "Add lang for ER damageable"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -273,10 +273,10 @@
       "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
-      "version": "v7.2.6.6",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.6",
-      "published_at": "2026-09-29T02:59:58Z",
-      "release_notes": "## Version 7.2.6.6\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Changing custom UI scale or resizing the window no longer errors when custom frames are still loading or turned off.\r\n"
+      "version": "v7.2.6.8",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.8",
+      "published_at": "2026-10-01T03:58:10Z",
+      "release_notes": "## Version 7.2.6.8\r\n\r\n### Note\r\n\r\n- 7.2.6.7 was 67. You know what that means. Welcome to 7.2.6.8.\r\n\r\n### New\r\n\r\n- Chat Announcements: Nowhere Vault center-screen announcements (room objectives, progress, and completions) can be shown in chat, center screen, or alerts. They only appear in The Nowhere Vault.\r\n- Chat Announcements: Rumor started and rumor investigated have their own chat, center-screen, and alert toggles. Rumor start failed has chat and alert toggles.\r\n\r\n### Fixed\r\n\r\n- Chat Announc"
     },
     "m0rmarkers": {
       "version": "v2.2.3",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-01T00:28:33.666777+00:00",
-  "updates": []
+  "last_checked": "2026-10-01T06:15:51.899206+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "4a8680b",
+      "new_version": "4df9436",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add lang for ER damageable"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.6.6",
+      "new_version": "v7.2.6.8",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }

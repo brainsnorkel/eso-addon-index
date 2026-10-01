@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-01T00:28:33.839142+00:00",
+  "generated_at": "2026-10-01T06:15:52.025651+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "4a8680b",
+        "version": "4df9436",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-09-27T11:51:55Z",
-        "commit_sha": "4a8680b538a2fc3e4e31fbda4d1afa48949c4683",
-        "commit_date": "2026-09-27T11:51:55Z",
-        "commit_message": "Make grave face character"
+        "published_at": "2026-09-29T17:27:15Z",
+        "commit_sha": "4df943626ee93a3f21b764eddc24acbc73b54174",
+        "commit_date": "2026-09-29T17:27:15Z",
+        "commit_message": "Add lang for ER damageable"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Make grave face character"
+        "commit_message": "Add lang for ER damageable"
       },
-      "last_updated": "2026-09-27T11:51:55Z"
+      "last_updated": "2026-09-29T17:27:15Z"
     },
     {
       "slug": "elmsmarkers",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.6.6",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.6",
-        "published_at": "2026-09-29T02:59:58Z",
-        "commit_sha": "26654a39f722ed86128f0c9246d77c3abc7a3c18"
+        "version": "v7.2.6.8",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.8",
+        "published_at": "2026-10-01T03:58:10Z",
+        "commit_sha": "22b495af6c331a20c401c7bbfc3d1a3d86e0f3f7"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.6.6/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.6.8/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.6",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.8",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2708,7 +2708,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-09-29T02:59:58Z"
+      "last_updated": "2026-10-01T03:58:10Z"
     },
     {
       "slug": "m0rmarkers",

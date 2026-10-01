@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-01T00:28:33.839142+00:00",
+  "generated_at": "2026-10-01T06:15:52.025651+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "4a8680b",
+      "new_version": "4df9436",
+      "published_at": "2026-09-29T17:27:15Z",
+      "detected_at": "2026-10-01T06:15:52.025651+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.6.6",
+      "new_version": "v7.2.6.8",
+      "published_at": "2026-10-01T03:58:10Z",
+      "detected_at": "2026-10-01T06:15:52.025651+00:00"
+    },
     {
       "slug": "pchat",
       "name": "pChat",
@@ -883,24 +901,6 @@
       "new_version": "ca94ee3",
       "published_at": "2026-07-15T02:53:11Z",
       "detected_at": "2026-07-15T07:59:24.656992+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "e5fdb4d",
-      "new_version": "1891f7a",
-      "published_at": "2026-07-14T07:27:47Z",
-      "detected_at": "2026-07-14T07:54:52.353951+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-07-05",
-      "new_version": "2026-07-12",
-      "published_at": "2026-07-12T23:08:19Z",
-      "detected_at": "2026-07-13T02:22:54.339002+00:00"
     }
   ]
 }

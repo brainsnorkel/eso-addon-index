@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-01T00:28:33.839142+00:00",
+  "generated_at": "2026-10-01T06:15:52.025651+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -168,6 +168,12 @@
       }
     ],
     "crutchalerts": [
+      {
+        "version": "4df9436",
+        "published_at": "2026-09-29T17:27:15Z",
+        "detected_at": "2026-10-01T06:15:52.025651+00:00",
+        "commit_sha": "4df943626ee93a3f21b764eddc24acbc73b54174"
+      },
       {
         "version": "4a8680b",
         "published_at": "2026-09-27T11:51:55Z",
@@ -2276,6 +2282,12 @@
       }
     ],
     "luiextended": [
+      {
+        "version": "v7.2.6.8",
+        "published_at": "2026-10-01T03:58:10Z",
+        "detected_at": "2026-10-01T06:15:52.025651+00:00",
+        "commit_sha": "22b495af6c331a20c401c7bbfc3d1a3d86e0f3f7"
+      },
       {
         "version": "v7.2.6.6",
         "published_at": "2026-09-29T02:59:58Z",
