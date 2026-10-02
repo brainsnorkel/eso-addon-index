@@ -273,10 +273,10 @@
       "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
-      "version": "v7.2.6.8",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.8",
-      "published_at": "2026-10-01T03:58:10Z",
-      "release_notes": "## Version 7.2.6.8\r\n\r\n### Note\r\n\r\n- 7.2.6.7 was 67. You know what that means. Welcome to 7.2.6.8.\r\n\r\n### New\r\n\r\n- Chat Announcements: Nowhere Vault center-screen announcements (room objectives, progress, and completions) can be shown in chat, center screen, or alerts. They only appear in The Nowhere Vault.\r\n- Chat Announcements: Rumor started and rumor investigated have their own chat, center-screen, and alert toggles. Rumor start failed has chat and alert toggles.\r\n\r\n### Fixed\r\n\r\n- Chat Announc"
+      "version": "v7.2.6.9",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.9",
+      "published_at": "2026-10-01T18:47:04Z",
+      "release_notes": "## Version 7.2.6.9\r\n\r\n### New\r\n\r\n- Chat Announcements: High Seas of Tamriel center-screen announcements (ship battle, diving chamber, and Lucky Gretch) can be shown in chat, center screen, or alerts. They only appear during Voyage on the Abecean Sea.\r\n- Unit Frames: The custom player frame follows the gameplay **Prioritize Damage Shield Visibility** setting. When that setting is not Off, each of your damage shields is drawn on its own layer and the prioritized shield stays fully visible.\r\n- Unit"
     },
     "m0rmarkers": {
       "version": "v2.2.3",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-01T18:12:15.129700+00:00",
-  "updates": []
+  "last_checked": "2026-10-02T00:24:49.394331+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.6.8",
+      "new_version": "v7.2.6.9",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
