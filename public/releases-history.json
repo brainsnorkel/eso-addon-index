@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-03T13:42:31.947626+00:00",
+  "generated_at": "2026-10-03T18:38:47.926982+00:00",
   "events": [
+    {
+      "slug": "pchat",
+      "name": "pChat",
+      "url": "https://github.com/Baertram/pChat",
+      "old_version": "b40a508",
+      "new_version": "a31dad3",
+      "published_at": "2026-10-03T16:59:57Z",
+      "detected_at": "2026-10-03T18:38:47.926982+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
@@ -892,15 +901,6 @@
       "new_version": "56d2435",
       "published_at": "2026-07-17T11:50:23Z",
       "detected_at": "2026-07-17T13:18:14.513867+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "8b54855",
-      "new_version": "86801ce",
-      "published_at": "2026-07-17T04:04:14Z",
-      "detected_at": "2026-07-17T08:01:52.235886+00:00"
     }
   ]
 }

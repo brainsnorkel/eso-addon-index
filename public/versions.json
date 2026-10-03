@@ -292,13 +292,13 @@
       "commit_sha": "29c23c3a60f90106a8d5b402744f6c1930908b56"
     },
     "pchat": {
-      "version": "b40a508",
+      "version": "a31dad3",
       "download_url": "https://github.com/Baertram/pChat/archive/refs/heads/master.zip",
-      "published_at": "2026-09-29T16:37:08Z",
-      "release_notes": "pChat 10.0.7.5",
-      "commit_sha": "b40a50830d8ce07bb3ea1a50def2fb4528e384b9",
-      "commit_date": "2026-09-29T16:37:08Z",
-      "commit_message": "pChat 10.0.7.5"
+      "published_at": "2026-10-03T16:59:57Z",
+      "release_notes": "pChat v10.0.7.6",
+      "commit_sha": "a31dad341ce01a575a78d43492ce85bdafb65258",
+      "commit_date": "2026-10-03T16:59:57Z",
+      "commit_message": "pChat v10.0.7.6"
     },
     "synergypriority": {
       "version": "8dac15f",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-03T13:42:31.789378+00:00",
+  "last_checked": "2026-10-03T18:38:47.801145+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "3abdef5",
-      "new_version": "7e33665",
-      "repo": "votan73/ESO",
-      "commit_message": "version 1.6.8:"
+      "slug": "pchat",
+      "old_version": "b40a508",
+      "new_version": "a31dad3",
+      "repo": "Baertram/pChat",
+      "commit_message": "pChat v10.0.7.6"
     }
   ]
 }

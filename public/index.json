@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-03T13:42:31.947626+00:00",
+  "generated_at": "2026-10-03T18:38:47.926982+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -2923,12 +2923,12 @@
         ]
       },
       "latest_release": {
-        "version": "b40a508",
+        "version": "a31dad3",
         "download_url": "https://github.com/Baertram/pChat/archive/refs/heads/master.zip",
-        "published_at": "2026-09-29T16:37:08Z",
-        "commit_sha": "b40a50830d8ce07bb3ea1a50def2fb4528e384b9",
-        "commit_date": "2026-09-29T16:37:08Z",
-        "commit_message": "pChat 10.0.7.5"
+        "published_at": "2026-10-03T16:59:57Z",
+        "commit_sha": "a31dad341ce01a575a78d43492ce85bdafb65258",
+        "commit_date": "2026-10-03T16:59:57Z",
+        "commit_message": "pChat v10.0.7.6"
       },
       "download_sources": [
         {
@@ -2947,9 +2947,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "pChat 10.0.7.5"
+        "commit_message": "pChat v10.0.7.6"
       },
-      "last_updated": "2026-09-29T16:37:08Z"
+      "last_updated": "2026-10-03T16:59:57Z"
     },
     {
       "slug": "synergypriority",
