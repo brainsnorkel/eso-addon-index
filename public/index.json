@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-04T13:55:37.989053+00:00",
+  "generated_at": "2026-10-04T18:59:42.848703+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "8c93247",
+        "version": "d7e3445",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-10-04T13:27:09Z",
-        "commit_sha": "8c93247e1f7cc2bdb2ca9c48fa415e4be30d48a8",
-        "commit_date": "2026-10-04T13:27:09Z",
-        "commit_message": "Tools"
+        "published_at": "2026-10-04T14:25:06Z",
+        "commit_sha": "d7e34452e4cda5ac524be339029db8a99ba38b6a",
+        "commit_date": "2026-10-04T14:25:06Z",
+        "commit_message": "BBCode descriptions"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Tools"
+        "commit_message": "BBCode descriptions"
       },
-      "last_updated": "2026-10-04T13:27:09Z"
+      "last_updated": "2026-10-04T14:25:06Z"
     },
     {
       "slug": "libcustomnames",
