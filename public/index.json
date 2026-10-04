@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-04T08:02:16.854923+00:00",
+  "generated_at": "2026-10-04T13:55:37.989053+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "7e33665",
+        "version": "8c93247",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-10-03T11:07:03Z",
-        "commit_sha": "7e336656b7ee1638873c5751c1e40421b16bf5a3",
-        "commit_date": "2026-10-03T11:07:03Z",
-        "commit_message": "version 1.6.8:"
+        "published_at": "2026-10-04T13:27:09Z",
+        "commit_sha": "8c93247e1f7cc2bdb2ca9c48fa415e4be30d48a8",
+        "commit_date": "2026-10-04T13:27:09Z",
+        "commit_message": "Tools"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "version 1.6.8:"
+        "commit_message": "Tools"
       },
-      "last_updated": "2026-10-03T11:07:03Z"
+      "last_updated": "2026-10-04T13:27:09Z"
     },
     {
       "slug": "libcustomnames",
@@ -2229,35 +2229,35 @@
         ]
       },
       "latest_release": {
-        "version": "2026-07-26",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2026-07-26",
-        "published_at": "2026-07-26T10:51:03Z",
-        "commit_sha": "c88f69f7d5b970127dd9355377cad22dd1cc9ac5"
+        "version": "2026-10-04",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2026-10-04",
+        "published_at": "2026-10-04T10:49:59Z",
+        "commit_sha": "2013a7062d67e1e0962c875fe810ce4f3c1cc4bb"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibGroupCombatStats@2026-07-26/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibGroupCombatStats@2026-10-04/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2026-07-26",
+          "url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2026-10-04",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
           "major": 2026,
-          "minor": 7,
-          "patch": 26,
+          "minor": 10,
+          "patch": 4,
           "prerelease": null
         },
-        "version_sort_key": 2026007026000,
+        "version_sort_key": 2026010004000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-07-26T10:51:03Z"
+      "last_updated": "2026-10-04T10:49:59Z"
     },
     {
       "slug": "libhyper",

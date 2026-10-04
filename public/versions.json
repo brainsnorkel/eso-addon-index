@@ -188,13 +188,13 @@
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
-      "version": "7e33665",
+      "version": "8c93247",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-10-03T11:07:03Z",
-      "release_notes": "version 1.6.8:",
-      "commit_sha": "7e336656b7ee1638873c5751c1e40421b16bf5a3",
-      "commit_date": "2026-10-03T11:07:03Z",
-      "commit_message": "version 1.6.8:"
+      "published_at": "2026-10-04T13:27:09Z",
+      "release_notes": "Tools",
+      "commit_sha": "8c93247e1f7cc2bdb2ca9c48fa415e4be30d48a8",
+      "commit_date": "2026-10-04T13:27:09Z",
+      "commit_message": "Tools"
     },
     "libcustomnames": {
       "version": "2026-09-28",
@@ -228,10 +228,10 @@
       "commit_message": "built v2.0.0"
     },
     "libgroupcombatstats": {
-      "version": "2026-07-26",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2026-07-26",
-      "published_at": "2026-07-26T10:51:03Z",
-      "release_notes": "## 2026.07.26\n- BREAKING CHANGE! Update ASAP and tell your friends to update too - otherwise there will be an ID missmatch!\n- adding support for vengeance ultimates - thanks to @Masteroshi430\n\n"
+      "version": "2026-10-04",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibGroupCombatStats/zipball/2026-10-04",
+      "published_at": "2026-10-04T10:49:59Z",
+      "release_notes": "## 2026.10.04\n- fixing a bug that triggers a nil pointer exception when swapping characters\n\n"
     },
     "libhyper": {
       "version": "1928d21",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-04T08:02:16.684076+00:00",
-  "updates": []
+  "last_checked": "2026-10-04T13:55:37.868249+00:00",
+  "updates": [
+    {
+      "slug": "libcustommenu",
+      "old_version": "7e33665",
+      "new_version": "8c93247",
+      "repo": "votan73/ESO",
+      "commit_message": "Tools"
+    },
+    {
+      "slug": "libgroupcombatstats",
+      "old_version": "2026-07-26",
+      "new_version": "2026-10-04",
+      "repo": "m00nyONE/LibGroupCombatStats"
+    }
+  ]
 }

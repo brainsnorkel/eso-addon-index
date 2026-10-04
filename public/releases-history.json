@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-04T08:02:16.854923+00:00",
+  "generated_at": "2026-10-04T13:55:37.989053+00:00",
   "events": [
+    {
+      "slug": "libcustommenu",
+      "name": "LibCustomMenu",
+      "url": "https://github.com/votan73/ESO",
+      "old_version": "7e33665",
+      "new_version": "8c93247",
+      "published_at": "2026-10-04T13:27:09Z",
+      "detected_at": "2026-10-04T13:55:37.989053+00:00"
+    },
+    {
+      "slug": "libgroupcombatstats",
+      "name": "LibGroupCombatStats",
+      "url": "https://github.com/m00nyONE/LibGroupCombatStats",
+      "old_version": "2026-07-26",
+      "new_version": "2026-10-04",
+      "published_at": "2026-10-04T10:49:59Z",
+      "detected_at": "2026-10-04T13:55:37.989053+00:00"
+    },
     {
       "slug": "pchat",
       "name": "pChat",
@@ -883,24 +901,6 @@
       "new_version": "9e4c4f5",
       "published_at": "2026-07-18T01:55:54Z",
       "detected_at": "2026-07-18T07:41:18.613457+00:00"
-    },
-    {
-      "slug": "luiextended",
-      "name": "LuiExtended",
-      "url": "https://github.com/DakJaniels/LuiExtended",
-      "old_version": "v7.2.6.2",
-      "new_version": "v7.2.6.3",
-      "published_at": "2026-07-17T23:40:47Z",
-      "detected_at": "2026-07-18T02:01:30.637470+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "86801ce",
-      "new_version": "56d2435",
-      "published_at": "2026-07-17T11:50:23Z",
-      "detected_at": "2026-07-17T13:18:14.513867+00:00"
     }
   ]
 }
