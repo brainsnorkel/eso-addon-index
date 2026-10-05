@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-05T00:26:20.902188+00:00",
+  "generated_at": "2026-10-05T06:24:10.044018+00:00",
   "events": [
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2026-09-28",
+      "new_version": "2026-10-05",
+      "published_at": "2026-10-05T00:55:29Z",
+      "detected_at": "2026-10-05T06:24:10.044018+00:00"
+    },
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2026-09-28",
+      "new_version": "2026-10-05",
+      "published_at": "2026-10-05T00:54:54Z",
+      "detected_at": "2026-10-05T06:24:10.044018+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
@@ -883,24 +901,6 @@
       "new_version": "2026-07-19",
       "published_at": "2026-07-19T23:10:44Z",
       "detected_at": "2026-07-20T02:33:43.878639+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-07-12",
-      "new_version": "2026-07-19",
-      "published_at": "2026-07-19T23:10:24Z",
-      "detected_at": "2026-07-20T02:33:43.878639+00:00"
-    },
-    {
-      "slug": "libcustommenu",
-      "name": "LibCustomMenu",
-      "url": "https://github.com/votan73/ESO",
-      "old_version": "e274d6d",
-      "new_version": "679ff03",
-      "published_at": "2026-07-19T11:44:14Z",
-      "detected_at": "2026-07-19T13:06:38.380884+00:00"
     }
   ]
 }
