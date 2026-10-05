@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-04T18:59:42.683432+00:00",
-  "updates": [
-    {
-      "slug": "libcustommenu",
-      "old_version": "8c93247",
-      "new_version": "d7e3445",
-      "repo": "votan73/ESO",
-      "commit_message": "BBCode descriptions"
-    }
-  ]
+  "last_checked": "2026-10-05T00:26:20.732134+00:00",
+  "updates": []
 }
