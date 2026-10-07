@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "75f7c90",
+      "version": "8490c38",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-08-31T22:54:20Z",
-      "release_notes": "Bump version to 3.161, update changelog",
-      "commit_sha": "75f7c90ee1e21f4abd1e15ca691da82a5b171f0d",
-      "commit_date": "2026-08-31T22:54:20Z",
-      "commit_message": "Bump version to 3.161, update changelog"
+      "published_at": "2026-10-07T13:13:27Z",
+      "release_notes": "Enforce LF line endings via .gitattributes",
+      "commit_sha": "8490c3801e56f155fce711550299a6f189da3701",
+      "commit_date": "2026-10-07T13:13:27Z",
+      "commit_message": "Enforce LF line endings via .gitattributes"
     },
     "aui": {
       "version": "cdb80c7",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-07T12:14:16.237741+00:00",
-  "updates": []
+  "last_checked": "2026-10-07T18:11:17.328735+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "75f7c90",
+      "new_version": "8490c38",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Enforce LF line endings via .gitattributes"
+    }
+  ]
 }
