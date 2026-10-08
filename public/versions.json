@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-07T18:11:17.328735+00:00",
-  "updates": [
-    {
-      "slug": "actiondurationreminder",
-      "old_version": "75f7c90",
-      "new_version": "8490c38",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Enforce LF line endings via .gitattributes"
-    }
-  ]
+  "last_checked": "2026-10-08T00:24:13.534773+00:00",
+  "updates": []
 }
