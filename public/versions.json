@@ -10,13 +10,13 @@
       "commit_message": "Enforce LF line endings via .gitattributes"
     },
     "aui": {
-      "version": "cdb80c7",
+      "version": "0d479bf",
       "download_url": "https://github.com/Sensi2010/AUI/archive/refs/heads/main.zip",
-      "published_at": "2026-03-26T18:17:01Z",
-      "release_notes": "Fix cooldown reset: only clear on remainTime==0, not below 1500ms threshold",
-      "commit_sha": "cdb80c78a34b1e9f900e9945f5c00d7dd127b9b3",
-      "commit_date": "2026-03-26T18:17:01Z",
-      "commit_message": "Fix cooldown reset: only clear on remainTime==0, not below 1500ms threshold"
+      "published_at": "2026-10-09T11:42:52Z",
+      "release_notes": "Update API version to 101051 (Update 51) (#4)",
+      "commit_sha": "0d479bfe41f23d0798b0b9bcfdc9cc328e807f5e",
+      "commit_date": "2026-10-09T11:42:52Z",
+      "commit_message": "Update API version to 101051 (Update 51) (#4)"
     },
     "bandits-user-interface": {
       "version": "v4.428",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-09T06:15:30.346952+00:00",
-  "updates": []
+  "last_checked": "2026-10-09T12:12:42.868667+00:00",
+  "updates": [
+    {
+      "slug": "aui",
+      "old_version": "cdb80c7",
+      "new_version": "0d479bf",
+      "repo": "Sensi2010/AUI",
+      "commit_message": "Update API version to 101051 (Update 51) (#4)"
+    }
+  ]
 }
