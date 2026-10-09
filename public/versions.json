@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-09T12:12:42.868667+00:00",
-  "updates": [
-    {
-      "slug": "aui",
-      "old_version": "cdb80c7",
-      "new_version": "0d479bf",
-      "repo": "Sensi2010/AUI",
-      "commit_message": "Update API version to 101051 (Update 51) (#4)"
-    }
-  ]
+  "last_checked": "2026-10-09T18:10:49.054854+00:00",
+  "updates": []
 }
