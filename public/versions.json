@@ -273,10 +273,10 @@
       "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
-      "version": "v7.2.6.9",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.6.9",
-      "published_at": "2026-10-01T18:47:04Z",
-      "release_notes": "## Version 7.2.6.9\r\n\r\n### New\r\n\r\n- Chat Announcements: High Seas of Tamriel center-screen announcements (ship battle, diving chamber, and Lucky Gretch) can be shown in chat, center screen, or alerts. They only appear during Voyage on the Abecean Sea.\r\n- Unit Frames: The custom player frame follows the gameplay **Prioritize Damage Shield Visibility** setting. When that setting is not Off, each of your damage shields is drawn on its own layer and the prioritized shield stays fully visible.\r\n- Unit"
+      "version": "v7.2.7.0",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.0",
+      "published_at": "2026-10-11T19:46:01Z",
+      "release_notes": "## Version 7.2.7.0\r\n\r\n### New\r\n\r\n- Unit Frames: Custom raid frames can prefix each member's level or Champion Points on the name. **Raid - Level / Champion Points** is off by default. Choices are number, or icon and number. In a Veterancy zone, Display Veterancy Rank still replaces it. PC and console.\r\n- Unit Frames and Chat Announcements: **Platform Name** under **Player Name Display Method**. Shows the Gamertag or Online ID, and @UserID if that name is empty.\r\n- Chat Announcements: Companion l"
     },
     "m0rmarkers": {
       "version": "v2.2.3",
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-11T18:10:47.066716+00:00",
+  "last_checked": "2026-10-12T00:28:16.303453+00:00",
   "updates": [
     {
-      "slug": "libcustommenu",
-      "old_version": "287e1d0",
-      "new_version": "5c24322",
-      "repo": "votan73/ESO",
-      "commit_message": "version 3.4.2:"
+      "slug": "luiextended",
+      "old_version": "v7.2.6.9",
+      "new_version": "v7.2.7.0",
+      "repo": "DakJaniels/LuiExtended"
     }
   ]
 }
