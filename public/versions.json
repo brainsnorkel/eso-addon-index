@@ -273,10 +273,10 @@
       "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
-      "version": "v7.2.7.0",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.0",
-      "published_at": "2026-10-11T19:46:01Z",
-      "release_notes": "## Version 7.2.7.0\r\n\r\n### New\r\n\r\n- Unit Frames: Custom raid frames can prefix each member's level or Champion Points on the name. **Raid - Level / Champion Points** is off by default. Choices are number, or icon and number. In a Veterancy zone, Display Veterancy Rank still replaces it. PC and console.\r\n- Unit Frames and Chat Announcements: **Platform Name** under **Player Name Display Method**. Shows the Gamertag or Online ID, and @UserID if that name is empty.\r\n- Chat Announcements: Companion l"
+      "version": "v7.2.7.1",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.1",
+      "published_at": "2026-10-12T20:42:48Z",
+      "release_notes": "## Version 7.2.7.1\r\n\r\n### New\r\n\r\n- Action Bar: **Use Game Timers as Fallback**. When LuiExtended has no active timer on a slot, the slot shows the remaining time and stack count from the game. Off by default. PC and console.\r\n- MiniMap: **Show Subzone** adds the current map name after the zone name when they differ. Example: The Nowhere Vault - Sinking Courtyard. Off by default. PC and console.\r\n- Chat Announcements: Nowhere Vault center-screen announcements now also include crystal active, dest"
     },
     "m0rmarkers": {
       "version": "v2.2.3",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-12T18:10:33.137222+00:00",
-  "updates": []
+  "last_checked": "2026-10-13T00:26:43.915300+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.7.0",
+      "new_version": "v7.2.7.1",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
