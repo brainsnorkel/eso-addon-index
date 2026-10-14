@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-13T18:12:26.775385+00:00",
+  "generated_at": "2026-10-14T00:21:02.791623+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.7.2",
+      "new_version": "v7.2.7.3",
+      "published_at": "2026-10-13T18:31:15Z",
+      "detected_at": "2026-10-14T00:21:02.791623+00:00"
+    },
     {
       "slug": "luiextended",
       "name": "LuiExtended",
@@ -892,15 +901,6 @@
       "new_version": "2026-07-26",
       "published_at": "2026-07-26T23:10:44Z",
       "detected_at": "2026-07-27T02:30:30.462338+00:00"
-    },
-    {
-      "slug": "libgroupcombatstats",
-      "name": "LibGroupCombatStats",
-      "url": "https://github.com/m00nyONE/LibGroupCombatStats",
-      "old_version": "2026-01-11",
-      "new_version": "2026-07-26",
-      "published_at": "2026-07-26T10:51:03Z",
-      "detected_at": "2026-07-26T13:10:03.872068+00:00"
     }
   ]
 }

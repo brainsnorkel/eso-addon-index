@@ -273,10 +273,10 @@
       "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
-      "version": "v7.2.7.2",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.2",
-      "published_at": "2026-10-13T13:50:57Z",
-      "release_notes": "## Version 7.2.7.2\r\n\r\n### Changes\r\n\r\n- Other addons: LUIE now caches addon-enabled state for the entire session, even if the addon is missing or later disabled. All internal checks use this cached result. This performance optimization is now applied across LUIE, not just ChatOutput (commit 4134daf).\r\n- LuiMedia: Custom fonts are now smaller file size on console.\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.7.1...v7.2.7.2"
+      "version": "v7.2.7.3",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.3",
+      "published_at": "2026-10-13T18:31:15Z",
+      "release_notes": "## Version 7.2.7.3\r\n\r\n### Fixed\r\n\r\n- ActionBar: fallback timers were not detecting if fab/fab+ was also installed, resulting in duplicate timers.\r\n\r\n\r\n**Full Changelog**: https://github.com/DakJaniels/LuiExtended/compare/v7.2.7.2...v7.2.7.3"
     },
     "m0rmarkers": {
       "version": "v2.2.3",
@@ -324,12 +324,12 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-13T18:12:26.665777+00:00",
+  "last_checked": "2026-10-14T00:21:02.625865+00:00",
   "updates": [
     {
       "slug": "luiextended",
-      "old_version": "v7.2.7.1",
-      "new_version": "v7.2.7.2",
+      "old_version": "v7.2.7.2",
+      "new_version": "v7.2.7.3",
       "repo": "DakJaniels/LuiExtended"
     }
   ]

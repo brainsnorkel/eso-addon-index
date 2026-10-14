@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-10-13T18:12:26.775385+00:00</updated>
+  <updated>2026-10-14T00:21:02.791623+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:luiextended:v7.2.7.3</id>
+    <title>LuiExtended updated: v7.2.7.2 → v7.2.7.3</title>
+    <link href="https://github.com/DakJaniels/LuiExtended" rel="alternate"/>
+    <updated>2026-10-14T00:21:02.791623+00:00</updated>
+    <summary>LuiExtended has been updated from version v7.2.7.2 to v7.2.7.3.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:luiextended:v7.2.7.2</id>
     <title>LuiExtended updated: v7.2.7.1 → v7.2.7.2</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
     <updated>2026-07-27T02:30:30.462338+00:00</updated>
     <summary>LibCustomNames has been updated from version 2026-07-19 to 2026-07-26.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libgroupcombatstats:2026-07-26</id>
-    <title>LibGroupCombatStats updated: 2026-01-11 → 2026-07-26</title>
-    <link href="https://github.com/m00nyONE/LibGroupCombatStats" rel="alternate"/>
-    <updated>2026-07-26T13:10:03.872068+00:00</updated>
-    <summary>LibGroupCombatStats has been updated from version 2026-01-11 to 2026-07-26.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
