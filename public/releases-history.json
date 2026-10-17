@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-16T18:10:06.042165+00:00",
+  "generated_at": "2026-10-17T00:20:41.965708+00:00",
   "events": [
+    {
+      "slug": "libcustommenu",
+      "name": "LibCustomMenu",
+      "url": "https://github.com/votan73/ESO",
+      "old_version": "5c24322",
+      "new_version": "0f11044",
+      "published_at": "2026-10-16T18:56:46Z",
+      "detected_at": "2026-10-17T00:20:41.965708+00:00"
+    },
     {
       "slug": "luiextended",
       "name": "LuiExtended",
@@ -891,15 +900,6 @@
       "old_version": "2026-07-19",
       "new_version": "2026-07-26",
       "published_at": "2026-07-26T23:11:10Z",
-      "detected_at": "2026-07-27T02:30:30.462338+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-07-19",
-      "new_version": "2026-07-26",
-      "published_at": "2026-07-26T23:10:44Z",
       "detected_at": "2026-07-27T02:30:30.462338+00:00"
     }
   ]
