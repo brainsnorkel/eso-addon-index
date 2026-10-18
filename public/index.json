@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-18T06:12:44.429528+00:00",
+  "generated_at": "2026-10-18T12:10:58.669124+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1118,35 +1118,35 @@
         ]
       },
       "latest_release": {
-        "version": "2026-05-17",
-        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-05-17",
-        "published_at": "2026-05-17T09:15:34Z",
-        "commit_sha": "8086fff73443d9cd1d92d2a331ca2103d17e5810"
+        "version": "2026-10-18",
+        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-10-18",
+        "published_at": "2026-10-18T10:40:45Z",
+        "commit_sha": "82843e8be0c5f0dbd9f2a41dbc157f38799d4038"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/HodorReflexes@2026-05-17/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/HodorReflexes@2026-10-18/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-05-17",
+          "url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-10-18",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
       "version_info": {
         "version_normalized": {
           "major": 2026,
-          "minor": 5,
-          "patch": 17,
+          "minor": 10,
+          "patch": 18,
           "prerelease": null
         },
-        "version_sort_key": 2026005017000,
+        "version_sort_key": 2026010018000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-05-17T09:15:34Z"
+      "last_updated": "2026-10-18T10:40:45Z"
     },
     {
       "slug": "huntsmanwarmaskreminder",

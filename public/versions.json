@@ -120,10 +120,10 @@
       "commit_sha": "907bfd5c32fcceeba4efe8dbff8633371d17bb92"
     },
     "hodorreflexes": {
-      "version": "2026-05-17",
-      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-05-17",
-      "published_at": "2026-05-17T09:15:34Z",
-      "release_notes": "## 2026.05.10 - @m00nyONE\n- add HPS module and list. This is still in BETA since I can not test it properly.\n- add Standard of Might to compact ultimate list.\n\n"
+      "version": "2026-10-18",
+      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-10-18",
+      "published_at": "2026-10-18T10:40:45Z",
+      "release_notes": "## 2026.10.18 - @m00nyONE\n- fixed a font issue on chinese clients that partially clipped the values in the DPS & HPS lists.\n\n"
     },
     "huntsmanwarmaskreminder": {
       "version": "ad5a552",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-18T06:12:44.257303+00:00",
-  "updates": []
+  "last_checked": "2026-10-18T12:10:58.566467+00:00",
+  "updates": [
+    {
+      "slug": "hodorreflexes",
+      "old_version": "2026-05-17",
+      "new_version": "2026-10-18",
+      "repo": "m00nyONE/HodorReflexes"
+    }
+  ]
 }

@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-18T06:12:44.429528+00:00",
+  "generated_at": "2026-10-18T12:10:58.669124+00:00",
   "events": [
+    {
+      "slug": "hodorreflexes",
+      "name": "HodorReflexes",
+      "url": "https://github.com/m00nyONE/HodorReflexes",
+      "old_version": "2026-05-17",
+      "new_version": "2026-10-18",
+      "published_at": "2026-10-18T10:40:45Z",
+      "detected_at": "2026-10-18T12:10:58.669124+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
@@ -892,15 +901,6 @@
       "new_version": "d4f9549",
       "published_at": "2026-07-28T07:27:18Z",
       "detected_at": "2026-07-28T08:26:04.724599+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-07-19",
-      "new_version": "2026-07-26",
-      "published_at": "2026-07-26T23:11:10Z",
-      "detected_at": "2026-07-27T02:30:30.462338+00:00"
     }
   ]
 }

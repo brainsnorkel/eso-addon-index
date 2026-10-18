@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-18T06:12:44.429528+00:00",
+  "generated_at": "2026-10-18T12:10:58.669124+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -1378,6 +1378,12 @@
       }
     ],
     "hodorreflexes": [
+      {
+        "version": "2026-10-18",
+        "published_at": "2026-10-18T10:40:45Z",
+        "detected_at": "2026-10-18T12:10:58.669124+00:00",
+        "commit_sha": "82843e8be0c5f0dbd9f2a41dbc157f38799d4038"
+      },
       {
         "version": "2026-05-17",
         "published_at": "2026-05-17T09:15:34Z",
