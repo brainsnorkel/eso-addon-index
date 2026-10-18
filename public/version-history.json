@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-18T12:10:58.669124+00:00",
+  "generated_at": "2026-10-18T18:08:30.693329+00:00",
   "description": "Version history for all addons in the index",
   "addons": {
     "aui": [
@@ -1717,6 +1717,12 @@
     ],
     "libcustommenu": [
       {
+        "version": "235b78d",
+        "published_at": "2026-10-18T12:13:29Z",
+        "detected_at": "2026-10-18T18:08:30.693329+00:00",
+        "commit_sha": "235b78d2da03685b7de7856f481992e3584e80e7"
+      },
+      {
         "version": "0f11044",
         "published_at": "2026-10-16T18:56:46Z",
         "detected_at": "2026-10-17T00:20:41.965708+00:00",
@@ -2366,6 +2372,12 @@
       }
     ],
     "luiextended": [
+      {
+        "version": "v7.2.7.4",
+        "published_at": "2026-10-18T17:48:55Z",
+        "detected_at": "2026-10-18T18:08:30.693329+00:00",
+        "commit_sha": "56ab8c3b5e600277cf8678d34f4e33ba472765e9"
+      },
       {
         "version": "v7.2.7.3",
         "published_at": "2026-10-13T18:31:15Z",

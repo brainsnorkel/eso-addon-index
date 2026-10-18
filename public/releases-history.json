@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-18T12:10:58.669124+00:00",
+  "generated_at": "2026-10-18T18:08:30.693329+00:00",
   "events": [
+    {
+      "slug": "libcustommenu",
+      "name": "LibCustomMenu",
+      "url": "https://github.com/votan73/ESO",
+      "old_version": "0f11044",
+      "new_version": "235b78d",
+      "published_at": "2026-10-18T12:13:29Z",
+      "detected_at": "2026-10-18T18:08:30.693329+00:00"
+    },
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.7.3",
+      "new_version": "v7.2.7.4",
+      "published_at": "2026-10-18T17:48:55Z",
+      "detected_at": "2026-10-18T18:08:30.693329+00:00"
+    },
     {
       "slug": "hodorreflexes",
       "name": "HodorReflexes",
@@ -883,24 +901,6 @@
       "new_version": "7b37049",
       "published_at": "2026-07-31T03:53:18Z",
       "detected_at": "2026-07-31T08:42:32.128961+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "d4f9549",
-      "new_version": "f631246",
-      "published_at": "2026-07-29T02:32:02Z",
-      "detected_at": "2026-07-29T08:32:10.751291+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "bb0159d",
-      "new_version": "d4f9549",
-      "published_at": "2026-07-28T07:27:18Z",
-      "detected_at": "2026-07-28T08:26:04.724599+00:00"
     }
   ]
 }
