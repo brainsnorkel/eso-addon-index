@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-20T00:21:35.540231+00:00",
+  "generated_at": "2026-10-20T06:13:41.280340+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "e70e128",
+        "version": "1aa60f1",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-10-19T23:13:44Z",
-        "commit_sha": "e70e1289197331403333b484adc0c951a6baa760",
-        "commit_date": "2026-10-19T23:13:44Z",
-        "commit_message": "Add public addon API, embedded core distribution, and alert text color option"
+        "published_at": "2026-10-20T00:54:51Z",
+        "commit_sha": "1aa60f190aa35bd980629c976fe014f7a191509e",
+        "commit_date": "2026-10-20T00:54:51Z",
+        "commit_message": "Document Effect.unitId in the public API and correct Effect.unitTag description"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add public addon API, embedded core distribution, and alert text color option"
+        "commit_message": "Document Effect.unitId in the public API and correct Effect.unitTag description"
       },
-      "last_updated": "2026-10-19T23:13:44Z"
+      "last_updated": "2026-10-20T00:54:51Z"
     },
     {
       "slug": "aui",

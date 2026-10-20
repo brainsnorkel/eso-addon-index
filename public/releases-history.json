@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-20T00:21:35.540231+00:00",
+  "generated_at": "2026-10-20T06:13:41.280340+00:00",
   "events": [
+    {
+      "slug": "actiondurationreminder",
+      "name": "Action Duration Reminder",
+      "url": "https://github.com/cloudor126/lua-eso-addon-adr",
+      "old_version": "e70e128",
+      "new_version": "1aa60f1",
+      "published_at": "2026-10-20T00:54:51Z",
+      "detected_at": "2026-10-20T06:13:41.280340+00:00"
+    },
     {
       "slug": "actiondurationreminder",
       "name": "Action Duration Reminder",
@@ -892,15 +901,6 @@
       "new_version": "e5e79bf",
       "published_at": "2026-08-04T08:06:55Z",
       "detected_at": "2026-08-04T08:29:27.030990+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-07-26",
-      "new_version": "2026-08-02",
-      "published_at": "2026-08-02T23:10:33Z",
-      "detected_at": "2026-08-03T02:24:08.986722+00:00"
     }
   ]
 }
