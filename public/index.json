@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-20T06:13:41.280340+00:00",
+  "generated_at": "2026-10-20T12:12:11.371465+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "4df9436",
+        "version": "570f6d2",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-09-29T17:27:15Z",
-        "commit_sha": "4df943626ee93a3f21b764eddc24acbc73b54174",
-        "commit_date": "2026-09-29T17:27:15Z",
-        "commit_message": "Add lang for ER damageable"
+        "published_at": "2026-10-20T02:54:39Z",
+        "commit_sha": "570f6d2859d43ebc29f12a331a2cd421493ac51d",
+        "commit_date": "2026-10-20T02:54:39Z",
+        "commit_message": "Add once per load message for grave setting hint"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add lang for ER damageable"
+        "commit_message": "Add once per load message for grave setting hint"
       },
-      "last_updated": "2026-09-29T17:27:15Z"
+      "last_updated": "2026-10-20T02:54:39Z"
     },
     {
       "slug": "elmsmarkers",

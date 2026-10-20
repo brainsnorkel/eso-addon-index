@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "4df9436",
+      "version": "570f6d2",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-09-29T17:27:15Z",
-      "release_notes": "Add lang for ER damageable",
-      "commit_sha": "4df943626ee93a3f21b764eddc24acbc73b54174",
-      "commit_date": "2026-09-29T17:27:15Z",
-      "commit_message": "Add lang for ER damageable"
+      "published_at": "2026-10-20T02:54:39Z",
+      "release_notes": "Add once per load message for grave setting hint",
+      "commit_sha": "570f6d2859d43ebc29f12a331a2cd421493ac51d",
+      "commit_date": "2026-10-20T02:54:39Z",
+      "commit_message": "Add once per load message for grave setting hint"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-20T06:13:41.093640+00:00",
+  "last_checked": "2026-10-20T12:12:11.230782+00:00",
   "updates": [
     {
-      "slug": "actiondurationreminder",
-      "old_version": "e70e128",
-      "new_version": "1aa60f1",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Document Effect.unitId in the public API and correct Effect.unitTag description"
+      "slug": "crutchalerts",
+      "old_version": "4df9436",
+      "new_version": "570f6d2",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add once per load message for grave setting hint"
     }
   ]
 }
