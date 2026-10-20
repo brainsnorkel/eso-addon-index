@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-10-19T18:11:07.040947+00:00</updated>
+  <updated>2026-10-20T00:21:35.540231+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:actiondurationreminder:e70e128</id>
+    <title>Action Duration Reminder updated: 8490c38 → e70e128</title>
+    <link href="https://github.com/cloudor126/lua-eso-addon-adr" rel="alternate"/>
+    <updated>2026-10-20T00:21:35.540231+00:00</updated>
+    <summary>Action Duration Reminder has been updated from version 8490c38 to e70e128.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustomicons:2026-10-19</id>
     <title>LibCustomIcons updated: 2026-10-12 → 2026-10-19</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomIcons" rel="alternate"/>
     <updated>2026-08-03T02:24:08.986722+00:00</updated>
     <summary>LibCustomIcons has been updated from version 2026-07-26 to 2026-08-02.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:libcustomnames:2026-08-02</id>
-    <title>LibCustomNames updated: 2026-07-26 → 2026-08-02</title>
-    <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
-    <updated>2026-08-03T02:24:08.986722+00:00</updated>
-    <summary>LibCustomNames has been updated from version 2026-07-26 to 2026-08-02.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>
