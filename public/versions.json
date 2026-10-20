@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-20T12:12:11.230782+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "4df9436",
-      "new_version": "570f6d2",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add once per load message for grave setting hint"
-    }
-  ]
+  "last_checked": "2026-10-20T18:10:35.300404+00:00",
+  "updates": []
 }
