@@ -273,10 +273,10 @@
       "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
-      "version": "v7.2.7.6",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.6",
-      "published_at": "2026-10-21T19:27:15Z",
-      "release_notes": "## Version 7.2.7.6\r\n\r\n### New\r\n\r\n- Unit Frames: **Name Minimum Font Size**. Long names shrink down to this size to stay fully visible beside icons and health text. Default is 14 on player, target, group, and AvA frames, and 10 on raid, companion, pet, and boss frames. Set it equal to the frame's font size to turn it off. Only fonts with adjustable size can shrink. PC and console.\r\n\r\n### Fixed\r\n\r\n- Unit Frames: Dismissing an assistant hides its pet frame right away instead of a few seconds later."
+      "version": "v7.2.7.7",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.7",
+      "published_at": "2026-10-22T18:18:13Z",
+      "release_notes": "## Version 7.2.7.7\r\n\r\n### New\r\n\r\n- Chat Announcements: Undaunted Crests (Solo Dungeon Currency) print when gained or spent, with the same toggle, color, name, and total options as Undaunted Keys. PC and console.\r\n- Chat Announcements: March of Sacrifices and Moon Hunter Keep center-screen announcements, including the solo versions, can be shown in chat, on the center screen, or as alerts. PC and console.\r\n\r\n### Fixed\r\n\r\n- Unit Frames: **Companion Ability Track** timers on the companion frame cou"
     },
     "m0rmarkers": {
       "version": "v2.2.3",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-22T18:10:10.411745+00:00",
-  "updates": []
+  "last_checked": "2026-10-23T00:22:21.388825+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.7.6",
+      "new_version": "v7.2.7.7",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
