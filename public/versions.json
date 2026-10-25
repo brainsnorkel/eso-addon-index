@@ -120,10 +120,10 @@
       "commit_sha": "907bfd5c32fcceeba4efe8dbff8633371d17bb92"
     },
     "hodorreflexes": {
-      "version": "2026-10-18",
-      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-10-18",
-      "published_at": "2026-10-18T10:40:45Z",
-      "release_notes": "## 2026.10.18 - @m00nyONE\n- fixed a font issue on chinese clients that partially clipped the values in the DPS & HPS lists.\n\n"
+      "version": "2026-10-25",
+      "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-10-25",
+      "published_at": "2026-10-25T13:36:45Z",
+      "release_notes": "## 2026.10.25 - @m00nyONE\n- fix name clipping issues - now the width of the value labels get calculated and name labels are adjusted based on that on the fly - this should finally solve issues with different fonts and localizations\n\n"
     },
     "huntsmanwarmaskreminder": {
       "version": "ad5a552",
@@ -188,13 +188,13 @@
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
-      "version": "235b78d",
+      "version": "d2eb176",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-10-18T12:13:29Z",
-      "release_notes": "version 3.0.0:",
-      "commit_sha": "235b78d2da03685b7de7856f481992e3584e80e7",
-      "commit_date": "2026-10-18T12:13:29Z",
-      "commit_message": "version 3.0.0:"
+      "published_at": "2026-10-25T15:37:53Z",
+      "release_notes": "Improve skin support.",
+      "commit_sha": "d2eb176b6bcaff69a78465be898e98d8baea70d8",
+      "commit_date": "2026-10-25T15:37:53Z",
+      "commit_message": "Improve skin support."
     },
     "libcustomnames": {
       "version": "2026-10-19",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-25T12:10:57.730188+00:00",
-  "updates": []
+  "last_checked": "2026-10-25T18:09:11.572314+00:00",
+  "updates": [
+    {
+      "slug": "hodorreflexes",
+      "old_version": "2026-10-18",
+      "new_version": "2026-10-25",
+      "repo": "m00nyONE/HodorReflexes"
+    },
+    {
+      "slug": "libcustommenu",
+      "old_version": "235b78d",
+      "new_version": "d2eb176",
+      "repo": "votan73/ESO",
+      "commit_message": "Improve skin support."
+    }
+  ]
 }

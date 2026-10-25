@@ -5,11 +5,31 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-10-25T12:10:57.884092+00:00</updated>
+  <updated>2026-10-25T18:09:11.734470+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:hodorreflexes:2026-10-25</id>
+    <title>HodorReflexes updated: 2026-10-18 → 2026-10-25</title>
+    <link href="https://github.com/m00nyONE/HodorReflexes" rel="alternate"/>
+    <updated>2026-10-25T18:09:11.734470+00:00</updated>
+    <summary>HodorReflexes has been updated from version 2026-10-18 to 2026-10-25.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
+  <entry>
+    <id>urn:eso-addon-index:libcustommenu:d2eb176</id>
+    <title>LibCustomMenu updated: 235b78d → d2eb176</title>
+    <link href="https://github.com/votan73/ESO" rel="alternate"/>
+    <updated>2026-10-25T18:09:11.734470+00:00</updated>
+    <summary>LibCustomMenu has been updated from version 235b78d to d2eb176.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:luiextended:v7.2.7.7</id>
     <title>LuiExtended updated: v7.2.7.6 → v7.2.7.7</title>
@@ -986,26 +1006,6 @@
     <link href="https://github.com/m00nyONE/LibCustomNames" rel="alternate"/>
     <updated>2026-08-10T00:16:46.564115+00:00</updated>
     <summary>LibCustomNames has been updated from version 2026-08-02 to 2026-08-09.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:ba5d0bc</id>
-    <title>CrutchAlerts updated: 9cc9007 → ba5d0bc</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-08-09T06:15:41.402021+00:00</updated>
-    <summary>CrutchAlerts has been updated from version 9cc9007 to ba5d0bc.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:crutchalerts:9cc9007</id>
-    <title>CrutchAlerts updated: 4523b9b → 9cc9007</title>
-    <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
-    <updated>2026-08-07T12:16:22.193038+00:00</updated>
-    <summary>CrutchAlerts has been updated from version 4523b9b to 9cc9007.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

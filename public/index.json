@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-25T12:10:57.884092+00:00",
+  "generated_at": "2026-10-25T18:09:11.734470+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1118,20 +1118,20 @@
         ]
       },
       "latest_release": {
-        "version": "2026-10-18",
-        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-10-18",
-        "published_at": "2026-10-18T10:40:45Z",
-        "commit_sha": "82843e8be0c5f0dbd9f2a41dbc157f38799d4038"
+        "version": "2026-10-25",
+        "download_url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-10-25",
+        "published_at": "2026-10-25T13:36:45Z",
+        "commit_sha": "a29aaf8fccfb2d17dbb73394e865daf8241fe968"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/HodorReflexes@2026-10-18/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/HodorReflexes@2026-10-25/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-10-18",
+          "url": "https://api.github.com/repos/m00nyONE/HodorReflexes/zipball/2026-10-25",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1139,14 +1139,14 @@
         "version_normalized": {
           "major": 2026,
           "minor": 10,
-          "patch": 18,
+          "patch": 25,
           "prerelease": null
         },
-        "version_sort_key": 2026010018000,
+        "version_sort_key": 2026010025000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-10-18T10:40:45Z"
+      "last_updated": "2026-10-25T13:36:45Z"
     },
     {
       "slug": "huntsmanwarmaskreminder",
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "235b78d",
+        "version": "d2eb176",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-10-18T12:13:29Z",
-        "commit_sha": "235b78d2da03685b7de7856f481992e3584e80e7",
-        "commit_date": "2026-10-18T12:13:29Z",
-        "commit_message": "version 3.0.0:"
+        "published_at": "2026-10-25T15:37:53Z",
+        "commit_sha": "d2eb176b6bcaff69a78465be898e98d8baea70d8",
+        "commit_date": "2026-10-25T15:37:53Z",
+        "commit_message": "Improve skin support."
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "version 3.0.0:"
+        "commit_message": "Improve skin support."
       },
-      "last_updated": "2026-10-18T12:13:29Z"
+      "last_updated": "2026-10-25T15:37:53Z"
     },
     {
       "slug": "libcustomnames",
