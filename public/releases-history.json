@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-25T18:09:11.734470+00:00",
+  "generated_at": "2026-10-26T00:22:13.746788+00:00",
   "events": [
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2026-10-19",
+      "new_version": "2026-10-26",
+      "published_at": "2026-10-26T00:22:23Z",
+      "detected_at": "2026-10-26T00:22:13.746788+00:00"
+    },
+    {
+      "slug": "libcustomnames",
+      "name": "LibCustomNames",
+      "url": "https://github.com/m00nyONE/LibCustomNames",
+      "old_version": "2026-10-19",
+      "new_version": "2026-10-26",
+      "published_at": "2026-10-26T00:21:32Z",
+      "detected_at": "2026-10-26T00:22:13.746788+00:00"
+    },
     {
       "slug": "hodorreflexes",
       "name": "HodorReflexes",
@@ -883,24 +901,6 @@
       "new_version": "1.7.5",
       "published_at": "2026-08-10T15:36:46Z",
       "detected_at": "2026-08-10T18:17:06.611372+00:00"
-    },
-    {
-      "slug": "libcustomicons",
-      "name": "LibCustomIcons",
-      "url": "https://github.com/m00nyONE/LibCustomIcons",
-      "old_version": "2026-08-02",
-      "new_version": "2026-08-09",
-      "published_at": "2026-08-09T22:48:58Z",
-      "detected_at": "2026-08-10T00:16:46.564115+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-08-02",
-      "new_version": "2026-08-09",
-      "published_at": "2026-08-09T22:48:49Z",
-      "detected_at": "2026-08-10T00:16:46.564115+00:00"
     }
   ]
 }

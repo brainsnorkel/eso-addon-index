@@ -197,9 +197,9 @@
       "commit_message": "Improve skin support."
     },
     "libcustomnames": {
-      "version": "2026-10-19",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-10-19",
-      "published_at": "2026-10-19T00:12:00Z",
+      "version": "2026-10-26",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-10-26",
+      "published_at": "2026-10-26T00:21:32Z",
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libdebuglogger": {
@@ -324,20 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-25T18:09:11.572314+00:00",
+  "last_checked": "2026-10-26T00:22:13.582623+00:00",
   "updates": [
     {
-      "slug": "hodorreflexes",
-      "old_version": "2026-10-18",
-      "new_version": "2026-10-25",
-      "repo": "m00nyONE/HodorReflexes"
-    },
-    {
-      "slug": "libcustommenu",
-      "old_version": "235b78d",
-      "new_version": "d2eb176",
-      "repo": "votan73/ESO",
-      "commit_message": "Improve skin support."
+      "slug": "libcustomnames",
+      "old_version": "2026-10-19",
+      "new_version": "2026-10-26",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }
