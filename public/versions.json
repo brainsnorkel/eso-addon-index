@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-27T00:21:00.165297+00:00",
-  "updates": [
-    {
-      "slug": "libdebuglogger",
-      "old_version": "8ac0428",
-      "new_version": "2227c5d",
-      "repo": "sirinsidiator/ESO-LibDebugLogger",
-      "commit_message": "fixed error due to removed constant"
-    }
-  ]
+  "last_checked": "2026-10-27T06:14:46.538623+00:00",
+  "updates": []
 }
