@@ -5,11 +5,21 @@
   <link href="https://xop.co/eso-addon-index/releases.atom" rel="self"/>
   <link href="https://xop.co/eso-addon-index/" rel="alternate"/>
   <id>urn:eso-addon-index:releases</id>
-  <updated>2026-10-26T18:13:19.909156+00:00</updated>
+  <updated>2026-10-27T00:21:00.344885+00:00</updated>
   <author>
     <name>ESO Addon Index</name>
     <uri>https://github.com/brainsnorkel/eso-addon-index</uri>
   </author>
+  <entry>
+    <id>urn:eso-addon-index:libdebuglogger:2227c5d</id>
+    <title>LibDebugLogger updated: 8ac0428 → 2227c5d</title>
+    <link href="https://github.com/sirinsidiator/ESO-LibDebugLogger" rel="alternate"/>
+    <updated>2026-10-27T00:21:00.344885+00:00</updated>
+    <summary>LibDebugLogger has been updated from version 8ac0428 to 2227c5d.</summary>
+    <author>
+      <name>ESO Addon Index</name>
+    </author>
+  </entry>
   <entry>
     <id>urn:eso-addon-index:libcustomicons:2026-10-26</id>
     <title>LibCustomIcons updated: 2026-10-19 → 2026-10-26</title>
@@ -996,16 +1006,6 @@
     <link href="https://github.com/Kyzderp/CrutchAlerts" rel="alternate"/>
     <updated>2026-08-11T06:18:48.429120+00:00</updated>
     <summary>CrutchAlerts has been updated from version ba5d0bc to 1e46744.</summary>
-    <author>
-      <name>ESO Addon Index</name>
-    </author>
-  </entry>
-  <entry>
-    <id>urn:eso-addon-index:combatmetronome:1.7.5</id>
-    <title>CombatMetronome updated: 1.7.4 → 1.7.5</title>
-    <link href="https://github.com/barny22/CombatMetronome" rel="alternate"/>
-    <updated>2026-08-10T18:17:06.611372+00:00</updated>
-    <summary>CombatMetronome has been updated from version 1.7.4 to 1.7.5.</summary>
     <author>
       <name>ESO Addon Index</name>
     </author>

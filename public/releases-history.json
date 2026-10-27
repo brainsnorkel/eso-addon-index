@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-26T18:13:19.909156+00:00",
+  "generated_at": "2026-10-27T00:21:00.344885+00:00",
   "events": [
+    {
+      "slug": "libdebuglogger",
+      "name": "LibDebugLogger",
+      "url": "https://github.com/sirinsidiator/ESO-LibDebugLogger",
+      "old_version": "8ac0428",
+      "new_version": "2227c5d",
+      "published_at": "2026-10-26T21:24:24Z",
+      "detected_at": "2026-10-27T00:21:00.344885+00:00"
+    },
     {
       "slug": "libcustomicons",
       "name": "LibCustomIcons",
@@ -892,15 +901,6 @@
       "new_version": "1e46744",
       "published_at": "2026-08-11T01:31:50Z",
       "detected_at": "2026-08-11T06:18:48.429120+00:00"
-    },
-    {
-      "slug": "combatmetronome",
-      "name": "CombatMetronome",
-      "url": "https://github.com/barny22/CombatMetronome",
-      "old_version": "1.7.4",
-      "new_version": "1.7.5",
-      "published_at": "2026-08-10T15:36:46Z",
-      "detected_at": "2026-08-10T18:17:06.611372+00:00"
     }
   ]
 }
