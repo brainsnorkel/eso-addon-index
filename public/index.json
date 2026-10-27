@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-27T06:14:46.673789+00:00",
+  "generated_at": "2026-10-27T12:12:56.465398+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "659c2af",
+        "version": "db2df0a",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-10-22T06:43:59Z",
-        "commit_sha": "659c2af79e7af8884e27a95b13e110a388647566",
-        "commit_date": "2026-10-22T06:43:59Z",
-        "commit_message": "[2.28.0] Update ACACUC"
+        "published_at": "2026-10-27T01:03:29Z",
+        "commit_sha": "db2df0af9c51b2e6e31d8c98a109a3c8ccef7061",
+        "commit_date": "2026-10-27T01:03:29Z",
+        "commit_message": "[2.28.1] Add 101052, update ACACUC"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.28.0] Update ACACUC"
+        "commit_message": "[2.28.1] Add 101052, update ACACUC"
       },
-      "last_updated": "2026-10-22T06:43:59Z"
+      "last_updated": "2026-10-27T01:03:29Z"
     },
     {
       "slug": "elmsmarkers",
