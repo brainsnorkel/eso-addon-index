@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-27T18:07:33.382251+00:00",
+  "generated_at": "2026-10-28T00:16:21.236234+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "d2eb176",
+        "version": "6203bc1",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-10-25T15:37:53Z",
-        "commit_sha": "d2eb176b6bcaff69a78465be898e98d8baea70d8",
-        "commit_date": "2026-10-25T15:37:53Z",
-        "commit_message": "Improve skin support."
+        "published_at": "2026-10-27T19:01:05Z",
+        "commit_sha": "6203bc1bc5a748634a82c1aabf13568e016b4692",
+        "commit_date": "2026-10-27T19:01:05Z",
+        "commit_message": "fix: table index is nil (#65)"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Improve skin support."
+        "commit_message": "fix: table index is nil (#65)"
       },
-      "last_updated": "2026-10-25T15:37:53Z"
+      "last_updated": "2026-10-27T19:01:05Z"
     },
     {
       "slug": "libcustomnames",
@@ -2680,20 +2680,20 @@
         ]
       },
       "latest_release": {
-        "version": "v7.2.7.7",
-        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.7",
-        "published_at": "2026-10-22T18:18:13Z",
-        "commit_sha": "c13350260b8925a1a26b6267300e065207de959b"
+        "version": "v7.2.7.8",
+        "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.8",
+        "published_at": "2026-10-27T21:33:03Z",
+        "commit_sha": "8ddbb9f7a544c2b416d78e6598034951836055b6"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.7.7/LuiExtended/",
+          "url": "https://cdn.jsdelivr.net/gh/DakJaniels/LuiExtended@v7.2.7.8/LuiExtended/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.7",
+          "url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.8",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -2708,7 +2708,7 @@
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-10-22T18:18:13Z"
+      "last_updated": "2026-10-27T21:33:03Z"
     },
     {
       "slug": "m0rmarkers",

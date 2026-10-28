@@ -188,13 +188,13 @@
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
-      "version": "d2eb176",
+      "version": "6203bc1",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-10-25T15:37:53Z",
-      "release_notes": "Improve skin support.",
-      "commit_sha": "d2eb176b6bcaff69a78465be898e98d8baea70d8",
-      "commit_date": "2026-10-25T15:37:53Z",
-      "commit_message": "Improve skin support."
+      "published_at": "2026-10-27T19:01:05Z",
+      "release_notes": "fix: table index is nil (#65)",
+      "commit_sha": "6203bc1bc5a748634a82c1aabf13568e016b4692",
+      "commit_date": "2026-10-27T19:01:05Z",
+      "commit_message": "fix: table index is nil (#65)"
     },
     "libcustomnames": {
       "version": "2026-10-26",
@@ -273,10 +273,10 @@
       "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
-      "version": "v7.2.7.7",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.7",
-      "published_at": "2026-10-22T18:18:13Z",
-      "release_notes": "## Version 7.2.7.7\r\n\r\n### New\r\n\r\n- Chat Announcements: Undaunted Crests (Solo Dungeon Currency) print when gained or spent, with the same toggle, color, name, and total options as Undaunted Keys. PC and console.\r\n- Chat Announcements: March of Sacrifices and Moon Hunter Keep center-screen announcements, including the solo versions, can be shown in chat, on the center screen, or as alerts. PC and console.\r\n\r\n### Fixed\r\n\r\n- Unit Frames: **Companion Ability Track** timers on the companion frame cou"
+      "version": "v7.2.7.8",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.8",
+      "published_at": "2026-10-27T21:33:03Z",
+      "release_notes": "## Version 7.2.7.8\r\n\r\n### New\r\n\r\n- Unit Frames: **Custom Names** and **Outline Custom Names**, under Common Options. Off by default. Needs LibCustomNames. When an account has a custom name, that colored name replaces the character name, @UserID, or platform name on the frame. Outline keeps a dark color readable. PC and console.\r\n- Unit Frames: **Custom Icons**, **Animate Custom Icons**, and **Custom Icon Position**, under Common Options. Off by default. Needs LibCustomIcons. A portrait shows on "
     },
     "m0rmarkers": {
       "version": "v2.2.3",
@@ -324,6 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-27T18:07:33.202105+00:00",
-  "updates": []
+  "last_checked": "2026-10-28T00:16:21.073605+00:00",
+  "updates": [
+    {
+      "slug": "libcustommenu",
+      "old_version": "d2eb176",
+      "new_version": "6203bc1",
+      "repo": "votan73/ESO",
+      "commit_message": "fix: table index is nil (#65)"
+    },
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.7.7",
+      "new_version": "v7.2.7.8",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
