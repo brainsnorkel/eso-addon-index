@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-28T00:16:21.073605+00:00",
-  "updates": [
-    {
-      "slug": "libcustommenu",
-      "old_version": "d2eb176",
-      "new_version": "6203bc1",
-      "repo": "votan73/ESO",
-      "commit_message": "fix: table index is nil (#65)"
-    },
-    {
-      "slug": "luiextended",
-      "old_version": "v7.2.7.7",
-      "new_version": "v7.2.7.8",
-      "repo": "DakJaniels/LuiExtended"
-    }
-  ]
+  "last_checked": "2026-10-28T06:10:46.667495+00:00",
+  "updates": []
 }
