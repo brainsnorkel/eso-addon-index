@@ -324,21 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-30T12:09:17.325145+00:00",
-  "updates": [
-    {
-      "slug": "actiondurationreminder",
-      "old_version": "1aa60f1",
-      "new_version": "28290a6",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Ignore generated test/ADRHostTest/libs in the Lua language server workspace"
-    },
-    {
-      "slug": "libcustommenu",
-      "old_version": "6203bc1",
-      "new_version": "3cf2f0b",
-      "repo": "votan73/ESO",
-      "commit_message": "version 1.23.7:"
-    }
-  ]
+  "last_checked": "2026-10-30T18:06:22.556601+00:00",
+  "updates": []
 }
