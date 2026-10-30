@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "1aa60f1",
+      "version": "28290a6",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-10-20T00:54:51Z",
-      "release_notes": "Document Effect.unitId in the public API and correct Effect.unitTag description",
-      "commit_sha": "1aa60f190aa35bd980629c976fe014f7a191509e",
-      "commit_date": "2026-10-20T00:54:51Z",
-      "commit_message": "Document Effect.unitId in the public API and correct Effect.unitTag description"
+      "published_at": "2026-10-30T08:00:37Z",
+      "release_notes": "Ignore generated test/ADRHostTest/libs in the Lua language server workspace",
+      "commit_sha": "28290a6849fdf6a5cd16b15c40607a1cd2869f0c",
+      "commit_date": "2026-10-30T08:00:37Z",
+      "commit_message": "Ignore generated test/ADRHostTest/libs in the Lua language server workspace"
     },
     "aui": {
       "version": "0d479bf",
@@ -188,13 +188,13 @@
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
-      "version": "6203bc1",
+      "version": "3cf2f0b",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-10-27T19:01:05Z",
-      "release_notes": "fix: table index is nil (#65)",
-      "commit_sha": "6203bc1bc5a748634a82c1aabf13568e016b4692",
-      "commit_date": "2026-10-27T19:01:05Z",
-      "commit_message": "fix: table index is nil (#65)"
+      "published_at": "2026-10-30T09:26:36Z",
+      "release_notes": "version 1.23.7:",
+      "commit_sha": "3cf2f0b1746a04b4fcf7c9f731d2d4890d83876d",
+      "commit_date": "2026-10-30T09:26:36Z",
+      "commit_message": "version 1.23.7:"
     },
     "libcustomnames": {
       "version": "2026-10-26",
@@ -324,6 +324,21 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-30T06:10:33.830044+00:00",
-  "updates": []
+  "last_checked": "2026-10-30T12:09:17.325145+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "1aa60f1",
+      "new_version": "28290a6",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Ignore generated test/ADRHostTest/libs in the Lua language server workspace"
+    },
+    {
+      "slug": "libcustommenu",
+      "old_version": "6203bc1",
+      "new_version": "3cf2f0b",
+      "repo": "votan73/ESO",
+      "commit_message": "version 1.23.7:"
+    }
+  ]
 }

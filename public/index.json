@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-30T06:10:33.974277+00:00",
+  "generated_at": "2026-10-30T12:09:17.489304+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "1aa60f1",
+        "version": "28290a6",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-10-20T00:54:51Z",
-        "commit_sha": "1aa60f190aa35bd980629c976fe014f7a191509e",
-        "commit_date": "2026-10-20T00:54:51Z",
-        "commit_message": "Document Effect.unitId in the public API and correct Effect.unitTag description"
+        "published_at": "2026-10-30T08:00:37Z",
+        "commit_sha": "28290a6849fdf6a5cd16b15c40607a1cd2869f0c",
+        "commit_date": "2026-10-30T08:00:37Z",
+        "commit_message": "Ignore generated test/ADRHostTest/libs in the Lua language server workspace"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Document Effect.unitId in the public API and correct Effect.unitTag description"
+        "commit_message": "Ignore generated test/ADRHostTest/libs in the Lua language server workspace"
       },
-      "last_updated": "2026-10-20T00:54:51Z"
+      "last_updated": "2026-10-30T08:00:37Z"
     },
     {
       "slug": "aui",
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "6203bc1",
+        "version": "3cf2f0b",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-10-27T19:01:05Z",
-        "commit_sha": "6203bc1bc5a748634a82c1aabf13568e016b4692",
-        "commit_date": "2026-10-27T19:01:05Z",
-        "commit_message": "fix: table index is nil (#65)"
+        "published_at": "2026-10-30T09:26:36Z",
+        "commit_sha": "3cf2f0b1746a04b4fcf7c9f731d2d4890d83876d",
+        "commit_date": "2026-10-30T09:26:36Z",
+        "commit_message": "version 1.23.7:"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "fix: table index is nil (#65)"
+        "commit_message": "version 1.23.7:"
       },
-      "last_updated": "2026-10-27T19:01:05Z"
+      "last_updated": "2026-10-30T09:26:36Z"
     },
     {
       "slug": "libcustomnames",
