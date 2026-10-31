@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-10-31T12:07:03.136810+00:00",
-  "updates": [
-    {
-      "slug": "libcustommenu",
-      "old_version": "3cf2f0b",
-      "new_version": "33e577e",
-      "repo": "votan73/ESO",
-      "commit_message": "version 2.3.0:"
-    }
-  ]
+  "last_checked": "2026-10-31T18:05:36.813135+00:00",
+  "updates": []
 }
