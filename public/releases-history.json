@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-31T06:07:56.201584+00:00",
+  "generated_at": "2026-10-31T12:07:03.294945+00:00",
   "events": [
+    {
+      "slug": "libcustommenu",
+      "name": "LibCustomMenu",
+      "url": "https://github.com/votan73/ESO",
+      "old_version": "3cf2f0b",
+      "new_version": "33e577e",
+      "published_at": "2026-10-31T09:12:09Z",
+      "detected_at": "2026-10-31T12:07:03.294945+00:00"
+    },
     {
       "slug": "actiondurationreminder",
       "name": "Action Duration Reminder",
@@ -892,15 +901,6 @@
       "new_version": "2026-08-16",
       "published_at": "2026-08-16T22:35:30Z",
       "detected_at": "2026-08-17T00:09:53.353407+00:00"
-    },
-    {
-      "slug": "combatmetronome",
-      "name": "CombatMetronome",
-      "url": "https://github.com/barny22/CombatMetronome",
-      "old_version": "1.7.5",
-      "new_version": "1.7.6",
-      "published_at": "2026-08-16T10:21:21Z",
-      "detected_at": "2026-08-16T12:05:14.026361+00:00"
     }
   ]
 }

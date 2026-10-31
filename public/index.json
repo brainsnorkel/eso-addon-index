@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-31T06:07:56.201584+00:00",
+  "generated_at": "2026-10-31T12:07:03.294945+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "3cf2f0b",
+        "version": "33e577e",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-10-30T09:26:36Z",
-        "commit_sha": "3cf2f0b1746a04b4fcf7c9f731d2d4890d83876d",
-        "commit_date": "2026-10-30T09:26:36Z",
-        "commit_message": "version 1.23.7:"
+        "published_at": "2026-10-31T09:12:09Z",
+        "commit_sha": "33e577e8aebee9e14c2fa857c914dada6bd5e022",
+        "commit_date": "2026-10-31T09:12:09Z",
+        "commit_message": "version 2.3.0:"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "version 1.23.7:"
+        "commit_message": "version 2.3.0:"
       },
-      "last_updated": "2026-10-30T09:26:36Z"
+      "last_updated": "2026-10-31T09:12:09Z"
     },
     {
       "slug": "libcustomnames",
