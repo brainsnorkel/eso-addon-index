@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "db2df0a",
+      "version": "5d8d39d",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-10-27T01:03:29Z",
-      "release_notes": "[2.28.1] Add 101052, update ACACUC",
-      "commit_sha": "db2df0af9c51b2e6e31d8c98a109a3c8ccef7061",
-      "commit_date": "2026-10-27T01:03:29Z",
-      "commit_message": "[2.28.1] Add 101052, update ACACUC"
+      "published_at": "2026-11-03T08:41:18Z",
+      "release_notes": "Scoot the Falgravn tank icons a bit",
+      "commit_sha": "5d8d39d4e438be2aca1d27c4d1454e4c175415d5",
+      "commit_date": "2026-11-03T08:41:18Z",
+      "commit_message": "Scoot the Falgravn tank icons a bit"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-03T06:09:08.266908+00:00",
-  "updates": []
+  "last_checked": "2026-11-03T12:07:43.108845+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "db2df0a",
+      "new_version": "5d8d39d",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Scoot the Falgravn tank icons a bit"
+    }
+  ]
 }
