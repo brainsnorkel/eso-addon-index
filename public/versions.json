@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-03T12:07:43.108845+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "db2df0a",
-      "new_version": "5d8d39d",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Scoot the Falgravn tank icons a bit"
-    }
-  ]
+  "last_checked": "2026-11-03T18:06:25.036759+00:00",
+  "updates": []
 }
