@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-03T18:06:25.153433+00:00",
+  "generated_at": "2026-11-04T00:14:06.500957+00:00",
   "events": [
+    {
+      "slug": "luiextended",
+      "name": "LuiExtended",
+      "url": "https://github.com/DakJaniels/LuiExtended",
+      "old_version": "v7.2.7.8",
+      "new_version": "v7.2.8.0",
+      "published_at": "2026-11-03T21:08:02Z",
+      "detected_at": "2026-11-04T00:14:06.500957+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "ad89df7",
       "published_at": "2026-08-20T03:41:40Z",
       "detected_at": "2026-08-20T06:09:03.128568+00:00"
-    },
-    {
-      "slug": "m0rmarkers",
-      "name": "M0RMarkers",
-      "url": "https://github.com/M0RGaming/M0RMarkers",
-      "old_version": "v2.2.1",
-      "new_version": "v2.2.2-beta2",
-      "published_at": "2026-08-19T20:53:43Z",
-      "detected_at": "2026-08-20T00:11:00.535555+00:00"
     }
   ]
 }

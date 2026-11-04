@@ -273,10 +273,10 @@
       "commit_sha": "ac9dfe24d490cdfde419b0fed3a3a831169ee796"
     },
     "luiextended": {
-      "version": "v7.2.7.8",
-      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.7.8",
-      "published_at": "2026-10-27T21:33:03Z",
-      "release_notes": "## Version 7.2.7.8\r\n\r\n### New\r\n\r\n- Unit Frames: **Custom Names** and **Outline Custom Names**, under Common Options. Off by default. Needs LibCustomNames. When an account has a custom name, that colored name replaces the character name, @UserID, or platform name on the frame. Outline keeps a dark color readable. PC and console.\r\n- Unit Frames: **Custom Icons**, **Animate Custom Icons**, and **Custom Icon Position**, under Common Options. Off by default. Needs LibCustomIcons. A portrait shows on "
+      "version": "v7.2.8.0",
+      "download_url": "https://api.github.com/repos/DakJaniels/LuiExtended/zipball/v7.2.8.0",
+      "published_at": "2026-11-03T21:08:02Z",
+      "release_notes": "\r\n## Version 7.2.8.0\r\n\r\n### Changes\r\n\r\n- Edit HUD: LuiExtended no longer adds Battleground Score, Objective and Resurrection Meter, Player Interaction Prompt, Experience/Champion Bar, Interact Text, Ram, and Tutorials. Those movers are in HUDitorTools. PC and console.\r\n\r\n### Fixed\r\n\r\n- Combat Text: Gaining a champion point shows one line for the experience you just earned. It no longer also shows a second line that does not match that gain. PC and console.\r\n\r\n## Version 7.2.7.9\r\n\r\n### Changes\r\n\r"
     },
     "m0rmarkers": {
       "version": "v2.2.3",
@@ -324,6 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-03T18:06:25.036759+00:00",
-  "updates": []
+  "last_checked": "2026-11-04T00:14:06.341980+00:00",
+  "updates": [
+    {
+      "slug": "luiextended",
+      "old_version": "v7.2.7.8",
+      "new_version": "v7.2.8.0",
+      "repo": "DakJaniels/LuiExtended"
+    }
+  ]
 }
