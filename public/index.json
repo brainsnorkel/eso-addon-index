@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-04T18:06:04.755613+00:00",
+  "generated_at": "2026-11-05T00:14:59.043737+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -1982,7 +1982,7 @@
       ],
       "url": "https://github.com/sirinsidiator/ESO-LibDebugLogger",
       "status": "approved",
-      "archived": false,
+      "archived": true,
       "source": {
         "type": "github",
         "repo": "sirinsidiator/ESO-LibDebugLogger",
@@ -2011,12 +2011,12 @@
         ]
       },
       "latest_release": {
-        "version": "2227c5d",
+        "version": "19d0a1b",
         "download_url": "https://github.com/sirinsidiator/ESO-LibDebugLogger/archive/refs/heads/main.zip",
-        "published_at": "2026-10-26T21:24:24Z",
-        "commit_sha": "2227c5d17d1eadbeefdd3154b312480533f62a5b",
-        "commit_date": "2026-10-26T21:24:24Z",
-        "commit_message": "fixed error due to removed constant"
+        "published_at": "2026-11-04T21:38:29Z",
+        "commit_sha": "19d0a1ba850637a0366b6fe1f17afb55c19b7da5",
+        "commit_date": "2026-11-04T21:38:29Z",
+        "commit_message": "Update project URL to Codeberg"
       },
       "download_sources": [
         {
@@ -2035,9 +2035,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "fixed error due to removed constant"
+        "commit_message": "Update project URL to Codeberg"
       },
-      "last_updated": "2026-10-26T21:24:24Z"
+      "last_updated": "2026-11-04T21:38:29Z"
     },
     {
       "slug": "libfloatingicons",
