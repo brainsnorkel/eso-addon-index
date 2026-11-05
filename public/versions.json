@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-05T06:09:24.815954+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "5d8d39d",
-      "new_version": "9feb14f",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Turn begin and gained off by default"
-    }
-  ]
+  "last_checked": "2026-11-05T12:08:06.805803+00:00",
+  "updates": []
 }
