@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-05T00:14:59.043737+00:00",
+  "generated_at": "2026-11-05T06:09:24.979735+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "5d8d39d",
+      "new_version": "9feb14f",
+      "published_at": "2026-11-05T03:25:53Z",
+      "detected_at": "2026-11-05T06:09:24.979735+00:00"
+    },
     {
       "slug": "libdebuglogger",
       "name": "LibDebugLogger",
@@ -892,15 +901,6 @@
       "new_version": "2026-08-23",
       "published_at": "2026-08-23T22:36:40Z",
       "detected_at": "2026-08-24T00:10:47.642878+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "ad89df7",
-      "new_version": "9f292de",
-      "published_at": "2026-08-21T04:26:52Z",
-      "detected_at": "2026-08-21T06:09:56.118920+00:00"
     }
   ]
 }

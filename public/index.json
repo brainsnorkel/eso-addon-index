@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-05T00:14:59.043737+00:00",
+  "generated_at": "2026-11-05T06:09:24.979735+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "5d8d39d",
+        "version": "9feb14f",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-11-03T08:41:18Z",
-        "commit_sha": "5d8d39d4e438be2aca1d27c4d1454e4c175415d5",
-        "commit_date": "2026-11-03T08:41:18Z",
-        "commit_message": "Scoot the Falgravn tank icons a bit"
+        "published_at": "2026-11-05T03:25:53Z",
+        "commit_sha": "9feb14f148b1b80c2123a081d65ec6c955155837",
+        "commit_date": "2026-11-05T03:25:53Z",
+        "commit_message": "Turn begin and gained off by default"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Scoot the Falgravn tank icons a bit"
+        "commit_message": "Turn begin and gained off by default"
       },
-      "last_updated": "2026-11-03T08:41:18Z"
+      "last_updated": "2026-11-05T03:25:53Z"
     },
     {
       "slug": "elmsmarkers",

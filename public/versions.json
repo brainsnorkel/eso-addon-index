@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "5d8d39d",
+      "version": "9feb14f",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-11-03T08:41:18Z",
-      "release_notes": "Scoot the Falgravn tank icons a bit",
-      "commit_sha": "5d8d39d4e438be2aca1d27c4d1454e4c175415d5",
-      "commit_date": "2026-11-03T08:41:18Z",
-      "commit_message": "Scoot the Falgravn tank icons a bit"
+      "published_at": "2026-11-05T03:25:53Z",
+      "release_notes": "Turn begin and gained off by default",
+      "commit_sha": "9feb14f148b1b80c2123a081d65ec6c955155837",
+      "commit_date": "2026-11-05T03:25:53Z",
+      "commit_message": "Turn begin and gained off by default"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-05T00:14:58.886720+00:00",
+  "last_checked": "2026-11-05T06:09:24.815954+00:00",
   "updates": [
     {
-      "slug": "libdebuglogger",
-      "old_version": "2227c5d",
-      "new_version": "19d0a1b",
-      "repo": "sirinsidiator/ESO-LibDebugLogger",
-      "commit_message": "Update project URL to Codeberg"
+      "slug": "crutchalerts",
+      "old_version": "5d8d39d",
+      "new_version": "9feb14f",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Turn begin and gained off by default"
     }
   ]
 }
