@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-07T12:07:07.867801+00:00",
+  "generated_at": "2026-11-07T18:05:23.262820+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "28290a6",
+        "version": "b449bd8",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-10-30T08:00:37Z",
-        "commit_sha": "28290a6849fdf6a5cd16b15c40607a1cd2869f0c",
-        "commit_date": "2026-10-30T08:00:37Z",
-        "commit_message": "Ignore generated test/ADRHostTest/libs in the Lua language server workspace"
+        "published_at": "2026-11-07T16:33:40Z",
+        "commit_sha": "b449bd85784eda502d2d545236276eaa1fe105c8",
+        "commit_date": "2026-11-07T16:33:40Z",
+        "commit_message": "Audit native-object mutations for hidden-contract breaks; fix unpin"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Ignore generated test/ADRHostTest/libs in the Lua language server workspace"
+        "commit_message": "Audit native-object mutations for hidden-contract breaks; fix unpin"
       },
-      "last_updated": "2026-10-30T08:00:37Z"
+      "last_updated": "2026-11-07T16:33:40Z"
     },
     {
       "slug": "aui",
@@ -1863,12 +1863,12 @@
         ]
       },
       "latest_release": {
-        "version": "1d7562b",
+        "version": "e312543",
         "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-        "published_at": "2026-11-02T14:33:53Z",
-        "commit_sha": "1d7562baf16d655c7ba3bf3c511cb68ada61b722",
-        "commit_date": "2026-11-02T14:33:53Z",
-        "commit_message": "version 3.0.1:"
+        "published_at": "2026-11-07T13:47:08Z",
+        "commit_sha": "e312543ba8a392dfcfd1365457707d841191dd30",
+        "commit_date": "2026-11-07T13:47:08Z",
+        "commit_message": "version 2.8.5:"
       },
       "download_sources": [
         {
@@ -1887,9 +1887,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "version 3.0.1:"
+        "commit_message": "version 2.8.5:"
       },
-      "last_updated": "2026-11-02T14:33:53Z"
+      "last_updated": "2026-11-07T13:47:08Z"
     },
     {
       "slug": "libcustomnames",
