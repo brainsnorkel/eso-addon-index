@@ -1,13 +1,13 @@
 {
   "versions": {
     "actiondurationreminder": {
-      "version": "b449bd8",
+      "version": "1555095",
       "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-      "published_at": "2026-11-07T16:33:40Z",
-      "release_notes": "Audit native-object mutations for hidden-contract breaks; fix unpin",
-      "commit_sha": "b449bd85784eda502d2d545236276eaa1fe105c8",
-      "commit_date": "2026-11-07T16:33:40Z",
-      "commit_message": "Audit native-object mutations for hidden-contract breaks; fix unpin"
+      "published_at": "2026-11-08T07:00:10Z",
+      "release_notes": "Changelog 3.171: double-bar polish round (glow/sound, keybinds, destaff memory, platform switching)",
+      "commit_sha": "15550955cd6a9bb632687d3c7227cfa8c74315cd",
+      "commit_date": "2026-11-08T07:00:10Z",
+      "commit_message": "Changelog 3.171: double-bar polish round (glow/sound, keybinds, destaff memory, platform switching)"
     },
     "aui": {
       "version": "0d479bf",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-08T06:08:03.890291+00:00",
-  "updates": []
+  "last_checked": "2026-11-08T12:07:05.988579+00:00",
+  "updates": [
+    {
+      "slug": "actiondurationreminder",
+      "old_version": "b449bd8",
+      "new_version": "1555095",
+      "repo": "cloudor126/lua-eso-addon-adr",
+      "commit_message": "Changelog 3.171: double-bar polish round (glow/sound, keybinds, destaff memory, platform switching)"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-08T06:08:04.018534+00:00",
+  "generated_at": "2026-11-08T12:07:06.146110+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "b449bd8",
+        "version": "1555095",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-11-07T16:33:40Z",
-        "commit_sha": "b449bd85784eda502d2d545236276eaa1fe105c8",
-        "commit_date": "2026-11-07T16:33:40Z",
-        "commit_message": "Audit native-object mutations for hidden-contract breaks; fix unpin"
+        "published_at": "2026-11-08T07:00:10Z",
+        "commit_sha": "15550955cd6a9bb632687d3c7227cfa8c74315cd",
+        "commit_date": "2026-11-08T07:00:10Z",
+        "commit_message": "Changelog 3.171: double-bar polish round (glow/sound, keybinds, destaff memory, platform switching)"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Audit native-object mutations for hidden-contract breaks; fix unpin"
+        "commit_message": "Changelog 3.171: double-bar polish round (glow/sound, keybinds, destaff memory, platform switching)"
       },
-      "last_updated": "2026-11-07T16:33:40Z"
+      "last_updated": "2026-11-08T07:00:10Z"
     },
     {
       "slug": "aui",
