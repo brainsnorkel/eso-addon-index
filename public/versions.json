@@ -324,21 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-07T18:05:23.123245+00:00",
-  "updates": [
-    {
-      "slug": "actiondurationreminder",
-      "old_version": "28290a6",
-      "new_version": "b449bd8",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "Audit native-object mutations for hidden-contract breaks; fix unpin"
-    },
-    {
-      "slug": "libcustommenu",
-      "old_version": "1d7562b",
-      "new_version": "e312543",
-      "repo": "votan73/ESO",
-      "commit_message": "version 2.8.5:"
-    }
-  ]
+  "last_checked": "2026-11-08T00:15:16.059183+00:00",
+  "updates": []
 }
