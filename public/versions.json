@@ -182,9 +182,9 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-11-02",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-11-02",
-      "published_at": "2026-11-02T01:29:56Z",
+      "version": "2026-11-09",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-11-09",
+      "published_at": "2026-11-09T01:43:33Z",
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
@@ -197,9 +197,9 @@
       "commit_message": "version 2.8.5:"
     },
     "libcustomnames": {
-      "version": "2026-11-02",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-11-02",
-      "published_at": "2026-11-02T01:30:04Z",
+      "version": "2026-11-09",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-11-09",
+      "published_at": "2026-11-09T01:43:18Z",
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libdebuglogger": {
@@ -324,13 +324,19 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-09T00:14:56.456659+00:00",
+  "last_checked": "2026-11-09T06:12:12.144362+00:00",
   "updates": [
     {
-      "slug": "luiextended",
-      "old_version": "v7.2.8.0",
-      "new_version": "v7.2.8.1",
-      "repo": "DakJaniels/LuiExtended"
+      "slug": "libcustomicons",
+      "old_version": "2026-11-02",
+      "new_version": "2026-11-09",
+      "repo": "m00nyONE/LibCustomIcons"
+    },
+    {
+      "slug": "libcustomnames",
+      "old_version": "2026-11-02",
+      "new_version": "2026-11-09",
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }
