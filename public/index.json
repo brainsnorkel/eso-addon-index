@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-10T00:13:00.021240+00:00",
+  "generated_at": "2026-11-10T06:09:01.528643+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -48,12 +48,12 @@
         ]
       },
       "latest_release": {
-        "version": "1555095",
+        "version": "db0c425",
         "download_url": "https://github.com/cloudor126/lua-eso-addon-adr/archive/refs/heads/master.zip",
-        "published_at": "2026-11-08T07:00:10Z",
-        "commit_sha": "15550955cd6a9bb632687d3c7227cfa8c74315cd",
-        "commit_date": "2026-11-08T07:00:10Z",
-        "commit_message": "Changelog 3.171: double-bar polish round (glow/sound, keybinds, destaff memory, platform switching)"
+        "published_at": "2026-11-10T02:25:39Z",
+        "commit_sha": "db0c4251f5d1866f6783cee860cd031932fd016b",
+        "commit_date": "2026-11-10T02:25:39Z",
+        "commit_message": "3.172: changelog + AGENTS.md lessons from the Mini Row session"
       },
       "download_sources": [
         {
@@ -72,9 +72,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Changelog 3.171: double-bar polish round (glow/sound, keybinds, destaff memory, platform switching)"
+        "commit_message": "3.172: changelog + AGENTS.md lessons from the Mini Row session"
       },
-      "last_updated": "2026-11-08T07:00:10Z"
+      "last_updated": "2026-11-10T02:25:39Z"
     },
     {
       "slug": "aui",
