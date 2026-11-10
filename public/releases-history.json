@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-10T06:09:01.528643+00:00",
+  "generated_at": "2026-11-10T12:07:29.353034+00:00",
   "events": [
+    {
+      "slug": "crutchalerts",
+      "name": "CrutchAlerts",
+      "url": "https://github.com/Kyzderp/CrutchAlerts",
+      "old_version": "9feb14f",
+      "new_version": "5925fb4",
+      "published_at": "2026-11-10T08:53:52Z",
+      "detected_at": "2026-11-10T12:07:29.353034+00:00"
+    },
     {
       "slug": "actiondurationreminder",
       "name": "Action Duration Reminder",
@@ -892,15 +901,6 @@
       "new_version": "d8a7c7e",
       "published_at": "2026-08-28T01:47:22Z",
       "detected_at": "2026-08-28T02:49:22.416613+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "45e248e",
-      "new_version": "eb69c7b",
-      "published_at": "2026-08-27T06:37:19Z",
-      "detected_at": "2026-08-27T09:05:30.791611+00:00"
     }
   ]
 }

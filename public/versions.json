@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "9feb14f",
+      "version": "5925fb4",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-11-05T03:25:53Z",
-      "release_notes": "Turn begin and gained off by default",
-      "commit_sha": "9feb14f148b1b80c2123a081d65ec6c955155837",
-      "commit_date": "2026-11-05T03:25:53Z",
-      "commit_message": "Turn begin and gained off by default"
+      "published_at": "2026-11-10T08:53:52Z",
+      "release_notes": "Fool around with present some more",
+      "commit_sha": "5925fb442b197ed2cfc4f7a9ae61dc6d4b13d7e6",
+      "commit_date": "2026-11-10T08:53:52Z",
+      "commit_message": "Fool around with present some more"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-10T06:09:01.395090+00:00",
+  "last_checked": "2026-11-10T12:07:29.197313+00:00",
   "updates": [
     {
-      "slug": "actiondurationreminder",
-      "old_version": "1555095",
-      "new_version": "db0c425",
-      "repo": "cloudor126/lua-eso-addon-adr",
-      "commit_message": "3.172: changelog + AGENTS.md lessons from the Mini Row session"
+      "slug": "crutchalerts",
+      "old_version": "9feb14f",
+      "new_version": "5925fb4",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Fool around with present some more"
     }
   ]
 }

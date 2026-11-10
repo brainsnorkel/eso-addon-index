@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-10T06:09:01.528643+00:00",
+  "generated_at": "2026-11-10T12:07:29.353034+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "9feb14f",
+        "version": "5925fb4",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-11-05T03:25:53Z",
-        "commit_sha": "9feb14f148b1b80c2123a081d65ec6c955155837",
-        "commit_date": "2026-11-05T03:25:53Z",
-        "commit_message": "Turn begin and gained off by default"
+        "published_at": "2026-11-10T08:53:52Z",
+        "commit_sha": "5925fb442b197ed2cfc4f7a9ae61dc6d4b13d7e6",
+        "commit_date": "2026-11-10T08:53:52Z",
+        "commit_message": "Fool around with present some more"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Turn begin and gained off by default"
+        "commit_message": "Fool around with present some more"
       },
-      "last_updated": "2026-11-05T03:25:53Z"
+      "last_updated": "2026-11-10T08:53:52Z"
     },
     {
       "slug": "elmsmarkers",
