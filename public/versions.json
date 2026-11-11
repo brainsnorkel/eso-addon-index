@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "5925fb4",
+      "version": "cfdea4e",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-11-10T08:53:52Z",
-      "release_notes": "Fool around with present some more",
-      "commit_sha": "5925fb442b197ed2cfc4f7a9ae61dc6d4b13d7e6",
-      "commit_date": "2026-11-10T08:53:52Z",
-      "commit_message": "Fool around with present some more"
+      "published_at": "2026-11-11T03:57:21Z",
+      "release_notes": "Separate and fill more present",
+      "commit_sha": "cfdea4eeed60efdc01d04ff5dadecb37a778a2be",
+      "commit_date": "2026-11-11T03:57:21Z",
+      "commit_message": "Separate and fill more present"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-11T00:14:44.676617+00:00",
-  "updates": []
+  "last_checked": "2026-11-11T06:09:00.220265+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "5925fb4",
+      "new_version": "cfdea4e",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Separate and fill more present"
+    }
+  ]
 }
