@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "cfdea4e",
+      "version": "01f32fb",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-11-11T03:57:21Z",
-      "release_notes": "Separate and fill more present",
-      "commit_sha": "cfdea4eeed60efdc01d04ff5dadecb37a778a2be",
-      "commit_date": "2026-11-11T03:57:21Z",
-      "commit_message": "Separate and fill more present"
+      "published_at": "2026-11-11T10:51:58Z",
+      "release_notes": "Fix sides opening",
+      "commit_sha": "01f32fbcb490e11294e451f5ee4d55f9d9ff9a2f",
+      "commit_date": "2026-11-11T10:51:58Z",
+      "commit_message": "Fix sides opening"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,14 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-11T06:09:00.220265+00:00",
+  "last_checked": "2026-11-11T12:08:24.180827+00:00",
   "updates": [
     {
       "slug": "crutchalerts",
-      "old_version": "5925fb4",
-      "new_version": "cfdea4e",
+      "old_version": "cfdea4e",
+      "new_version": "01f32fb",
       "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Separate and fill more present"
+      "commit_message": "Fix sides opening"
     }
   ]
 }
