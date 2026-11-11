@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-11T12:08:24.180827+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "cfdea4e",
-      "new_version": "01f32fb",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Fix sides opening"
-    }
-  ]
+  "last_checked": "2026-11-11T18:05:52.117300+00:00",
+  "updates": []
 }
