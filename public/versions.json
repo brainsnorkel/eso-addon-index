@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-13T06:09:25.713023+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "4c22828",
-      "new_version": "2cecd02",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Start on trail"
-    }
-  ]
+  "last_checked": "2026-11-13T12:07:39.061114+00:00",
+  "updates": []
 }
