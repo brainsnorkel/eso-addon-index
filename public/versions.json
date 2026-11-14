@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "2cecd02",
+      "version": "7c9a118",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-11-13T03:12:16Z",
-      "release_notes": "Start on trail",
-      "commit_sha": "2cecd02c44758030929c436c0cc5da86db4a6b0a",
-      "commit_date": "2026-11-13T03:12:16Z",
-      "commit_message": "Start on trail"
+      "published_at": "2026-11-13T07:35:50Z",
+      "release_notes": "Add messages, fix checking, remove box when done",
+      "commit_sha": "7c9a11899dacaa6433a432f8af8b7774bb5ed956",
+      "commit_date": "2026-11-13T07:35:50Z",
+      "commit_message": "Add messages, fix checking, remove box when done"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-13T18:05:41.329816+00:00",
-  "updates": []
+  "last_checked": "2026-11-14T00:13:48.298208+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "2cecd02",
+      "new_version": "7c9a118",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add messages, fix checking, remove box when done"
+    }
+  ]
 }
