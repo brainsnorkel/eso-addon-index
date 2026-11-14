@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-14T00:13:48.298208+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "2cecd02",
-      "new_version": "7c9a118",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add messages, fix checking, remove box when done"
-    }
-  ]
+  "last_checked": "2026-11-14T06:07:53.381382+00:00",
+  "updates": []
 }
