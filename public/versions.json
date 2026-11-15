@@ -188,13 +188,13 @@
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
-      "version": "2c6d3df",
+      "version": "709b839",
       "download_url": "https://github.com/votan73/ESO/archive/refs/heads/master.zip",
-      "published_at": "2026-11-14T10:30:25Z",
-      "release_notes": "version 1.4.3:",
-      "commit_sha": "2c6d3df9d6e6bf2c09de17217e2fe4d792c39f42",
-      "commit_date": "2026-11-14T10:30:25Z",
-      "commit_message": "version 1.4.3:"
+      "published_at": "2026-11-15T13:45:00Z",
+      "release_notes": "version 3.1.6:",
+      "commit_sha": "709b839dd66c313809cbf8569e02dfeb31f7c50d",
+      "commit_date": "2026-11-15T13:45:00Z",
+      "commit_message": "version 3.1.6:"
     },
     "libcustomnames": {
       "version": "2026-11-09",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-15T12:07:04.210229+00:00",
-  "updates": []
+  "last_checked": "2026-11-15T18:05:36.374718+00:00",
+  "updates": [
+    {
+      "slug": "libcustommenu",
+      "old_version": "2c6d3df",
+      "new_version": "709b839",
+      "repo": "votan73/ESO",
+      "commit_message": "version 3.1.6:"
+    }
+  ]
 }
