@@ -324,20 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-16T12:12:01.656267+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "7c9a118",
-      "new_version": "cd87c8d",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Add settings for presents, adjust immolating some more"
-    },
-    {
-      "slug": "libcustomnames",
-      "old_version": "2026-11-09",
-      "new_version": "2026-11-16",
-      "repo": "m00nyONE/LibCustomNames"
-    }
-  ]
+  "last_checked": "2026-11-16T18:06:54.431145+00:00",
+  "updates": []
 }
