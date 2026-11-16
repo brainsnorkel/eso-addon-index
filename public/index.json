@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-16T06:14:14.299070+00:00",
+  "generated_at": "2026-11-16T12:12:01.790538+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "7c9a118",
+        "version": "cd87c8d",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-11-13T07:35:50Z",
-        "commit_sha": "7c9a11899dacaa6433a432f8af8b7774bb5ed956",
-        "commit_date": "2026-11-13T07:35:50Z",
-        "commit_message": "Add messages, fix checking, remove box when done"
+        "published_at": "2026-11-15T22:47:21Z",
+        "commit_sha": "cd87c8d6f945549da4644f017ddaaf5c8e71227d",
+        "commit_date": "2026-11-15T22:47:21Z",
+        "commit_message": "Add settings for presents, adjust immolating some more"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add messages, fix checking, remove box when done"
+        "commit_message": "Add settings for presents, adjust immolating some more"
       },
-      "last_updated": "2026-11-13T07:35:50Z"
+      "last_updated": "2026-11-15T22:47:21Z"
     },
     {
       "slug": "elmsmarkers",
@@ -1937,20 +1937,20 @@
         ]
       },
       "latest_release": {
-        "version": "2026-11-09",
-        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-11-09",
-        "published_at": "2026-11-09T01:43:18Z",
-        "commit_sha": "d6dc2e8175a0f18393d5037d84f24d70e2889f61"
+        "version": "2026-11-16",
+        "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-11-16",
+        "published_at": "2026-11-16T08:43:31Z",
+        "commit_sha": "f7ab2c8b41089dea57e0fa9ee91fade04e537289"
       },
       "download_sources": [
         {
           "type": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-11-09/",
+          "url": "https://cdn.jsdelivr.net/gh/m00nyONE/LibCustomNames@2026-11-16/",
           "note": "CDN - serves individual files, no rate limits, CORS-friendly"
         },
         {
           "type": "github_archive",
-          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-11-09",
+          "url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-11-16",
           "note": "Direct GitHub ZIP archive, subject to rate limits"
         }
       ],
@@ -1958,14 +1958,14 @@
         "version_normalized": {
           "major": 2026,
           "minor": 11,
-          "patch": 9,
+          "patch": 16,
           "prerelease": null
         },
-        "version_sort_key": 2026011009000,
+        "version_sort_key": 2026011016000,
         "is_prerelease": false,
         "release_channel": "stable"
       },
-      "last_updated": "2026-11-09T01:43:18Z"
+      "last_updated": "2026-11-16T08:43:31Z"
     },
     {
       "slug": "libdebuglogger",

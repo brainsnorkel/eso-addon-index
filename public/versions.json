@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "7c9a118",
+      "version": "cd87c8d",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-11-13T07:35:50Z",
-      "release_notes": "Add messages, fix checking, remove box when done",
-      "commit_sha": "7c9a11899dacaa6433a432f8af8b7774bb5ed956",
-      "commit_date": "2026-11-13T07:35:50Z",
-      "commit_message": "Add messages, fix checking, remove box when done"
+      "published_at": "2026-11-15T22:47:21Z",
+      "release_notes": "Add settings for presents, adjust immolating some more",
+      "commit_sha": "cd87c8d6f945549da4644f017ddaaf5c8e71227d",
+      "commit_date": "2026-11-15T22:47:21Z",
+      "commit_message": "Add settings for presents, adjust immolating some more"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -197,9 +197,9 @@
       "commit_message": "version 3.1.6:"
     },
     "libcustomnames": {
-      "version": "2026-11-09",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-11-09",
-      "published_at": "2026-11-09T01:43:18Z",
+      "version": "2026-11-16",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-11-16",
+      "published_at": "2026-11-16T08:43:31Z",
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libdebuglogger": {
@@ -324,13 +324,20 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-16T06:14:14.147082+00:00",
+  "last_checked": "2026-11-16T12:12:01.656267+00:00",
   "updates": [
     {
-      "slug": "libcustomicons",
+      "slug": "crutchalerts",
+      "old_version": "7c9a118",
+      "new_version": "cd87c8d",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add settings for presents, adjust immolating some more"
+    },
+    {
+      "slug": "libcustomnames",
       "old_version": "2026-11-09",
       "new_version": "2026-11-16",
-      "repo": "m00nyONE/LibCustomIcons"
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }
