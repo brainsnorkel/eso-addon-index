@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-16T00:17:47.717160+00:00",
+  "generated_at": "2026-11-16T06:14:14.299070+00:00",
   "events": [
+    {
+      "slug": "libcustomicons",
+      "name": "LibCustomIcons",
+      "url": "https://github.com/m00nyONE/LibCustomIcons",
+      "old_version": "2026-11-09",
+      "new_version": "2026-11-16",
+      "published_at": "2026-11-16T02:05:03Z",
+      "detected_at": "2026-11-16T06:14:14.299070+00:00"
+    },
     {
       "slug": "libcustommenu",
       "name": "LibCustomMenu",
@@ -891,15 +900,6 @@
       "old_version": "2026-08-16",
       "new_version": "2026-08-31",
       "published_at": "2026-08-31T00:36:35Z",
-      "detected_at": "2026-08-31T06:18:25.019782+00:00"
-    },
-    {
-      "slug": "libcustomnames",
-      "name": "LibCustomNames",
-      "url": "https://github.com/m00nyONE/LibCustomNames",
-      "old_version": "2026-08-23",
-      "new_version": "2026-08-31",
-      "published_at": "2026-08-31T00:36:21Z",
       "detected_at": "2026-08-31T06:18:25.019782+00:00"
     }
   ]
