@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-17T06:09:46.768911+00:00",
+  "generated_at": "2026-11-17T12:07:50.849957+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "cd87c8d",
+        "version": "0d509c8",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-11-15T22:47:21Z",
-        "commit_sha": "cd87c8d6f945549da4644f017ddaaf5c8e71227d",
-        "commit_date": "2026-11-15T22:47:21Z",
-        "commit_message": "Add settings for presents, adjust immolating some more"
+        "published_at": "2026-11-17T09:02:08Z",
+        "commit_sha": "0d509c8d9eefd83211d7c7c09a508b441b114c7e",
+        "commit_date": "2026-11-17T09:02:08Z",
+        "commit_message": "Adjust presents"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Add settings for presents, adjust immolating some more"
+        "commit_message": "Adjust presents"
       },
-      "last_updated": "2026-11-15T22:47:21Z"
+      "last_updated": "2026-11-17T09:02:08Z"
     },
     {
       "slug": "elmsmarkers",
