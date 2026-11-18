@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "0d509c8",
+      "version": "8af4e20",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-11-17T09:02:08Z",
-      "release_notes": "Adjust presents",
-      "commit_sha": "0d509c8d9eefd83211d7c7c09a508b441b114c7e",
-      "commit_date": "2026-11-17T09:02:08Z",
-      "commit_message": "Adjust presents"
+      "published_at": "2026-11-17T17:29:56Z",
+      "release_notes": "Serialize found presents",
+      "commit_sha": "8af4e207c45edfdfd2d7e883511410e00353b311",
+      "commit_date": "2026-11-17T17:29:56Z",
+      "commit_message": "Serialize found presents"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-18T00:14:37.764069+00:00",
-  "updates": []
+  "last_checked": "2026-11-18T06:09:23.432476+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "0d509c8",
+      "new_version": "8af4e20",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Serialize found presents"
+    }
+  ]
 }
