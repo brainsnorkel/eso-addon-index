@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-18T06:09:23.432476+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "0d509c8",
-      "new_version": "8af4e20",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Serialize found presents"
-    }
-  ]
+  "last_checked": "2026-11-18T12:07:45.675258+00:00",
+  "updates": []
 }
