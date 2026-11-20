@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-20T00:12:56.199924+00:00",
+  "generated_at": "2026-11-20T06:09:25.224840+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "8af4e20",
+        "version": "a60b640",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-11-17T17:29:56Z",
-        "commit_sha": "8af4e207c45edfdfd2d7e883511410e00353b311",
-        "commit_date": "2026-11-17T17:29:56Z",
-        "commit_message": "Serialize found presents"
+        "published_at": "2026-11-20T03:37:48Z",
+        "commit_sha": "a60b640dacb265e07b4bacbbd0970fa4a23b0e53",
+        "commit_date": "2026-11-20T03:37:48Z",
+        "commit_message": "Start adding Chaurus"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Serialize found presents"
+        "commit_message": "Start adding Chaurus"
       },
-      "last_updated": "2026-11-17T17:29:56Z"
+      "last_updated": "2026-11-20T03:37:48Z"
     },
     {
       "slug": "elmsmarkers",
