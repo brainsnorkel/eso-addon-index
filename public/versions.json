@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-20T06:09:25.083471+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "8af4e20",
-      "new_version": "a60b640",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "Start adding Chaurus"
-    }
-  ]
+  "last_checked": "2026-11-20T12:07:36.276525+00:00",
+  "updates": []
 }
