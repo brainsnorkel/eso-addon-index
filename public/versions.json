@@ -197,9 +197,9 @@
       "commit_message": "version 3.1.6:"
     },
     "libcustomnames": {
-      "version": "2026-11-16",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-11-16",
-      "published_at": "2026-11-16T08:43:31Z",
+      "version": "2026-11-23",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomNames/zipball/2026-11-23",
+      "published_at": "2026-11-23T07:46:25Z",
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libdebuglogger": {
@@ -324,13 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-23T06:12:36.359921+00:00",
+  "last_checked": "2026-11-23T12:08:18.617377+00:00",
   "updates": [
     {
-      "slug": "libcustomicons",
+      "slug": "libcustomnames",
       "old_version": "2026-11-16",
       "new_version": "2026-11-23",
-      "repo": "m00nyONE/LibCustomIcons"
+      "repo": "m00nyONE/LibCustomNames"
     }
   ]
 }
