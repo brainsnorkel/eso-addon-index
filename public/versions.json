@@ -182,9 +182,9 @@
       "commit_sha": "94733508ba507d3cfa2ff2edde07fc135affd94d"
     },
     "libcustomicons": {
-      "version": "2026-11-16",
-      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-11-16",
-      "published_at": "2026-11-16T02:05:03Z",
+      "version": "2026-11-23",
+      "download_url": "https://api.github.com/repos/m00nyONE/LibCustomIcons/zipball/2026-11-23",
+      "published_at": "2026-11-23T02:44:06Z",
       "release_notes": "## 2026.07.05\n- regular update\n\n"
     },
     "libcustommenu": {
@@ -324,14 +324,13 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-23T00:15:00.634342+00:00",
+  "last_checked": "2026-11-23T06:12:36.359921+00:00",
   "updates": [
     {
-      "slug": "bugcatcher",
-      "old_version": "ab3896c",
-      "new_version": "5c9d970",
-      "repo": "Shadowfen/BugCatcher",
-      "commit_message": "API bump. version 43"
+      "slug": "libcustomicons",
+      "old_version": "2026-11-16",
+      "new_version": "2026-11-23",
+      "repo": "m00nyONE/LibCustomIcons"
     }
   ]
 }
