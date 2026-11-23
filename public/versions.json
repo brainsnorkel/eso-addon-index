@@ -56,13 +56,13 @@
       "commit_message": "3.4.0"
     },
     "bugcatcher": {
-      "version": "ab3896c",
+      "version": "5c9d970",
       "download_url": "https://github.com/Shadowfen/BugCatcher/archive/refs/heads/master.zip",
-      "published_at": "2026-08-14T00:54:41Z",
-      "release_notes": "Update LibSFUtils version required",
-      "commit_sha": "ab3896ce0e720b8ee79a27aa1a8a999ac885c5ec",
-      "commit_date": "2026-08-14T00:54:41Z",
-      "commit_message": "Update LibSFUtils version required"
+      "published_at": "2026-10-04T02:15:22Z",
+      "release_notes": "API bump. version 43",
+      "commit_sha": "5c9d97007dba548b8798ddf4e978d7de5b61bb47",
+      "commit_date": "2026-10-04T02:15:22Z",
+      "commit_message": "API bump. version 43"
     },
     "combatmetrics": {
       "version": "1.7.7",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-22T18:05:48.878839+00:00",
-  "updates": []
+  "last_checked": "2026-11-23T00:15:00.634342+00:00",
+  "updates": [
+    {
+      "slug": "bugcatcher",
+      "old_version": "ab3896c",
+      "new_version": "5c9d970",
+      "repo": "Shadowfen/BugCatcher",
+      "commit_message": "API bump. version 43"
+    }
+  ]
 }

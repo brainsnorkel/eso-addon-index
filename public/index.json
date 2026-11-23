@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-22T18:05:49.012797+00:00",
+  "generated_at": "2026-11-23T00:15:00.772294+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -504,12 +504,12 @@
         ]
       },
       "latest_release": {
-        "version": "ab3896c",
+        "version": "5c9d970",
         "download_url": "https://github.com/Shadowfen/BugCatcher/archive/refs/heads/master.zip",
-        "published_at": "2026-08-14T00:54:41Z",
-        "commit_sha": "ab3896ce0e720b8ee79a27aa1a8a999ac885c5ec",
-        "commit_date": "2026-08-14T00:54:41Z",
-        "commit_message": "Update LibSFUtils version required"
+        "published_at": "2026-10-04T02:15:22Z",
+        "commit_sha": "5c9d97007dba548b8798ddf4e978d7de5b61bb47",
+        "commit_date": "2026-10-04T02:15:22Z",
+        "commit_message": "API bump. version 43"
       },
       "download_sources": [
         {
@@ -528,9 +528,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "Update LibSFUtils version required"
+        "commit_message": "API bump. version 43"
       },
-      "last_updated": "2026-08-14T00:54:41Z"
+      "last_updated": "2026-10-04T02:15:22Z"
     },
     {
       "slug": "combatmetrics",

@@ -1,7 +1,16 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-22T18:05:49.012797+00:00",
+  "generated_at": "2026-11-23T00:15:00.772294+00:00",
   "events": [
+    {
+      "slug": "bugcatcher",
+      "name": "BugCatcher",
+      "url": "https://github.com/Shadowfen/BugCatcher",
+      "old_version": "ab3896c",
+      "new_version": "5c9d970",
+      "published_at": "2026-10-04T02:15:22Z",
+      "detected_at": "2026-11-23T00:15:00.772294+00:00"
+    },
     {
       "slug": "crutchalerts",
       "name": "CrutchAlerts",
@@ -892,15 +901,6 @@
       "new_version": "v2.2.3",
       "published_at": "2026-09-05T17:06:32Z",
       "detected_at": "2026-09-05T18:09:01.081514+00:00"
-    },
-    {
-      "slug": "crutchalerts",
-      "name": "CrutchAlerts",
-      "url": "https://github.com/Kyzderp/CrutchAlerts",
-      "old_version": "330850a",
-      "new_version": "6883905",
-      "published_at": "2026-09-04T01:41:01Z",
-      "detected_at": "2026-09-04T06:14:16.513966+00:00"
     }
   ]
 }
