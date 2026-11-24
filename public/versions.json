@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "a60b640",
+      "version": "c6ca667",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-11-20T03:37:48Z",
-      "release_notes": "Start adding Chaurus",
-      "commit_sha": "a60b640dacb265e07b4bacbbd0970fa4a23b0e53",
-      "commit_date": "2026-11-20T03:37:48Z",
-      "commit_message": "Start adding Chaurus"
+      "published_at": "2026-11-24T03:40:58Z",
+      "release_notes": "[2.29.0-beta1] Zip for testing",
+      "commit_sha": "c6ca667131b8892c60dbafd86d7b8381185ed034",
+      "commit_date": "2026-11-24T03:40:58Z",
+      "commit_message": "[2.29.0-beta1] Zip for testing"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-24T00:13:21.659916+00:00",
-  "updates": []
+  "last_checked": "2026-11-24T06:09:20.448233+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "a60b640",
+      "new_version": "c6ca667",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.29.0-beta1] Zip for testing"
+    }
+  ]
 }
