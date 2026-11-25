@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "c6ca667",
+      "version": "f18bbc5",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-11-24T03:40:58Z",
-      "release_notes": "[2.29.0-beta1] Zip for testing",
-      "commit_sha": "c6ca667131b8892c60dbafd86d7b8381185ed034",
-      "commit_date": "2026-11-24T03:40:58Z",
-      "commit_message": "[2.29.0-beta1] Zip for testing"
+      "published_at": "2026-11-25T03:45:02Z",
+      "release_notes": "Add role color for individual icons",
+      "commit_sha": "f18bbc50c788c76bd9bb9a446331ccb42212c940",
+      "commit_date": "2026-11-25T03:45:02Z",
+      "commit_message": "Add role color for individual icons"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-25T00:14:24.282425+00:00",
-  "updates": []
+  "last_checked": "2026-11-25T06:09:57.892982+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "c6ca667",
+      "new_version": "f18bbc5",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "Add role color for individual icons"
+    }
+  ]
 }

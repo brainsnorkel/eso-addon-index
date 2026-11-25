@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-25T00:14:24.435938+00:00",
+  "generated_at": "2026-11-25T06:09:58.022199+00:00",
   "addon_count": 43,
   "addons": [
     {
@@ -742,12 +742,12 @@
         ]
       },
       "latest_release": {
-        "version": "c6ca667",
+        "version": "f18bbc5",
         "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-        "published_at": "2026-11-24T03:40:58Z",
-        "commit_sha": "c6ca667131b8892c60dbafd86d7b8381185ed034",
-        "commit_date": "2026-11-24T03:40:58Z",
-        "commit_message": "[2.29.0-beta1] Zip for testing"
+        "published_at": "2026-11-25T03:45:02Z",
+        "commit_sha": "f18bbc50c788c76bd9bb9a446331ccb42212c940",
+        "commit_date": "2026-11-25T03:45:02Z",
+        "commit_message": "Add role color for individual icons"
       },
       "download_sources": [
         {
@@ -766,9 +766,9 @@
         "version_sort_key": null,
         "is_prerelease": false,
         "release_channel": "branch",
-        "commit_message": "[2.29.0-beta1] Zip for testing"
+        "commit_message": "Add role color for individual icons"
       },
-      "last_updated": "2026-11-24T03:40:58Z"
+      "last_updated": "2026-11-25T03:45:02Z"
     },
     {
       "slug": "elmsmarkers",
