@@ -324,14 +324,6 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-27T06:09:31.994421+00:00",
-  "updates": [
-    {
-      "slug": "crutchalerts",
-      "old_version": "f18bbc5",
-      "new_version": "9c84add",
-      "repo": "Kyzderp/CrutchAlerts",
-      "commit_message": "[2.29.0] Update ACACUC"
-    }
-  ]
+  "last_checked": "2026-11-27T12:08:20.977317+00:00",
+  "updates": []
 }
