@@ -79,13 +79,13 @@
       "commit_sha": "f7bc78d8d7253752e05871af160a7f2e162cd39d"
     },
     "crutchalerts": {
-      "version": "f18bbc5",
+      "version": "9c84add",
       "download_url": "https://github.com/Kyzderp/CrutchAlerts/archive/refs/heads/master.zip",
-      "published_at": "2026-11-25T03:45:02Z",
-      "release_notes": "Add role color for individual icons",
-      "commit_sha": "f18bbc50c788c76bd9bb9a446331ccb42212c940",
-      "commit_date": "2026-11-25T03:45:02Z",
-      "commit_message": "Add role color for individual icons"
+      "published_at": "2026-11-27T03:23:46Z",
+      "release_notes": "[2.29.0] Update ACACUC",
+      "commit_sha": "9c84add2bd36c7c7cceb9e9234721f7cdf9583ab",
+      "commit_date": "2026-11-27T03:23:46Z",
+      "commit_message": "[2.29.0] Update ACACUC"
     },
     "elmsmarkers": {
       "version": "ba64653",
@@ -324,6 +324,14 @@
       "commit_sha": "e3fcb82d193a889adeb0ac3d1395d237cb22d630"
     }
   },
-  "last_checked": "2026-11-27T00:14:09.038787+00:00",
-  "updates": []
+  "last_checked": "2026-11-27T06:09:31.994421+00:00",
+  "updates": [
+    {
+      "slug": "crutchalerts",
+      "old_version": "f18bbc5",
+      "new_version": "9c84add",
+      "repo": "Kyzderp/CrutchAlerts",
+      "commit_message": "[2.29.0] Update ACACUC"
+    }
+  ]
 }
